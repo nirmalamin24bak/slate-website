@@ -111,6 +111,7 @@ body{
   -moz-osx-font-smoothing:grayscale;
   overflow-wrap:break-word;
 }
+[hidden]{display:none!important}
 img,svg{display:block;max-width:100%}
 p{margin:0}
 ul,ol{margin:0;padding:0}
@@ -219,7 +220,7 @@ h2 .badge-plus,h3 .badge-plus{margin-left:.5em;position:relative;top:-.15em}
   min-height:48px;padding:10px 0;border-bottom:1px solid var(--hairline);
   font-size:var(--fs-line);line-height:1.35;
 }
-.jline-text{min-width:0}
+.jline-text{flex:1;min-width:0}
 .jline-num{flex:none;font-weight:500;text-align:right;white-space:nowrap}
 .jline.is-muted .jline-num,.jline.is-muted .jline-text{color:var(--ink-mute)}
 .jline-num.is-muted{color:var(--ink-mute)}
@@ -455,3 +456,13 @@ ul.grid-4,ul.grid-3,ul.grid-tiles,ol.steps,ol.promises,.plan-list,.rows{list-sty
 .demo-input input::placeholder{color:var(--ink-mute);opacity:1}
 .demo-try{margin-top:20px}
 .demo-try .chips{margin-top:10px}
+
+/* Delete: shows on hover or focus, always on touch. No confirmation, no red. */
+.jline-del{
+  flex:none;display:inline-flex;align-items:center;justify-content:center;
+  width:var(--tap);height:var(--tap);margin:-10px -12px -10px -4px;padding:0;
+  border:0;border-radius:var(--r-pill);background:transparent;color:var(--ink-mute);
+  font-size:var(--fs-lede);line-height:1;cursor:pointer;opacity:0;
+}
+.jline:hover .jline-del,.jline-del:focus-visible{opacity:1}
+@media (hover:none){.jline-del{opacity:1}}

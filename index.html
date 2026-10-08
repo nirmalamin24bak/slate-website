@@ -12,6 +12,7 @@
 <link rel="preload" href="/assets/fonts/inter-tight-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-tight-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/style.css">
+<script src="/assets/demo.js" defer></script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -73,11 +74,11 @@
         <li class="jline"><span class="jline-text">1 cup chai</span><span class="jline-num">72</span></li>
         <li class="jline is-muted"><span class="jline-text">30 min jog</span><span class="jline-num">−250</span></li>
       </ul>
-      <form class="demo-input" id="demo-form" autocomplete="off">
+      <form class="demo-input" id="demo-form" autocomplete="off" hidden>
         <label class="sr-only" for="demo-entry">Write a line</label>
         <input id="demo-entry" type="text" placeholder="What did you have?" maxlength="80" enterkeyhint="done" spellcheck="false" autocapitalize="off">
       </form>
-      <div class="demo-try">
+      <div class="demo-try" hidden>
         <p class="label mute">Try one, then press return:</p>
         <div class="chips" id="demo-chips">
           <button class="chip" type="button">2 roti aur ek katori dal</button>
