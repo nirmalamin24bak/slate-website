@@ -170,10 +170,10 @@ h2 + .lede{margin-top:20px}
 .site-footer{border-top:1px solid var(--hairline);padding:56px 0 48px;font-size:var(--fs-small);color:var(--ink-mute)}
 .footer-grid{display:flex;justify-content:space-between;align-items:flex-start;gap:32px 48px;flex-wrap:wrap}
 .footer-org{font-style:normal;line-height:1.6}
-.footer-org .wordmark{min-height:0;margin-bottom:12px}
+.footer-org .wordmark{margin-bottom:4px}
 .footer-org .org-name{color:var(--ink);font-weight:500}
 .footer-links ul{list-style:none;display:flex;flex-wrap:wrap;gap:0 20px}
-.footer-links a{display:inline-flex;align-items:center;min-height:var(--tap);text-decoration:none}
+.footer-links a{display:inline-flex;align-items:center;justify-content:center;min-height:var(--tap);min-width:var(--tap);text-decoration:none}
 .footer-links a:hover{color:var(--ink)}
 .footer-legal{margin-top:40px;padding-top:24px;border-top:1px solid var(--hairline);font-size:var(--fs-label);line-height:1.5}
 
@@ -420,6 +420,7 @@ ul.grid-4,ul.grid-3,ul.grid-tiles,ol.steps,ol.promises,.plan-list,.rows{list-sty
 .plan-lead + .plan-list{margin-top:12px}
 .plan-list li{padding:12px 0;border-bottom:1px solid var(--hairline);font-size:var(--fs-small);line-height:1.45}
 .plan-list li:last-child{border-bottom:0}
+.plan-list a{display:inline-flex;align-items:center;min-height:var(--tap);margin:-12px 0}
 
 /* Closing */
 .closing{text-align:center}
