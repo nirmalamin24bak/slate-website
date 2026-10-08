@@ -466,3 +466,46 @@ ul.grid-4,ul.grid-3,ul.grid-tiles,ol.steps,ol.promises,.plan-list,.rows{list-sty
 }
 .jline:hover .jline-del,.jline-del:focus-visible{opacity:1}
 @media (hover:none){.jline-del{opacity:1}}
+
+/* =====================================================================
+   Reading pages: privacy, terms, support
+   ===================================================================== */
+
+.legal{padding:clamp(24px,5vw,64px) 0 var(--section-pad)}
+.legal h1{font-size:var(--fs-h2);letter-spacing:-0.03em;line-height:1.05}
+.legal-date{margin-top:12px;font-size:var(--fs-small)}
+.legal-lede{margin-top:20px}
+.legal section{margin-top:48px}
+.legal section h2{font-size:var(--fs-h3);font-weight:700;letter-spacing:-0.01em;line-height:1.25;margin-bottom:12px}
+.legal p + p,.legal p + ul,.legal ul + p,.legal .table-wrap + p,.legal p + .table-wrap{margin-top:16px}
+.legal ul{padding-left:1.25em}
+.legal li + li{margin-top:8px}
+.legal strong{font-weight:500}
+.legal .faq{margin-top:8px}
+.legal .faq summary{font-size:var(--fs-line)}
+
+.summary{margin-top:32px}
+.summary-title{font-size:var(--fs-line);font-weight:700;letter-spacing:0;margin-bottom:12px}
+.summary ul{padding-left:1.25em}
+
+.legal table{width:100%;border-collapse:collapse;font-size:var(--fs-small);line-height:1.45}
+.legal th,.legal td{text-align:left;vertical-align:top;padding:12px 16px 12px 0;border-bottom:1px solid var(--hairline)}
+.legal th{font-size:var(--fs-label);font-weight:500;color:var(--ink-mute);border-bottom-color:var(--ink-mute)}
+
+/* Phones: each processor becomes a small stacked block */
+@media (max-width:559.98px){
+  .legal table,.legal tbody,.legal tr,.legal td{display:block}
+  .legal thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+  .legal tr{padding:12px 0;border-bottom:1px solid var(--hairline)}
+  .legal td{padding:2px 0;border:0}
+  .legal td::before{content:attr(data-label);display:block;font-size:var(--fs-label);font-weight:500;color:var(--ink-mute)}
+  .legal td:first-child{font-weight:500}
+  .legal td:first-child::before{content:none}
+}
+
+.support-privacy{margin-top:40px}
+
+/* 404 */
+.notfound{padding:clamp(80px,14vw,176px) 0;text-align:center}
+.notfound-link{margin-top:32px;font-size:var(--fs-lede)}
+.notfound-link a{display:inline-flex;align-items:center;min-height:var(--tap)}
