@@ -147,8 +147,8 @@ h3{font-size:var(--fs-h3);font-weight:700;letter-spacing:-0.01em;line-height:1.2
 
 .section{padding:var(--section-pad) 0;border-top:1px solid var(--hairline)}
 .section-first{border-top:0}
-.section > .wrap > h2 + .lede,
-.section > .wrap > header h2 + .lede{margin-top:20px}
+h1,h2{text-wrap:balance}
+h2 + .lede{margin-top:20px}
 
 .stack > * + *{margin-top:calc(var(--u) * 4)}
 
@@ -309,3 +309,149 @@ h2 .badge-plus,h3 .badge-plus{margin-left:.5em;position:relative;top:-.15em}
   .faq summary::after{transition:none}
   .faq details::details-content{transition:none}
 }
+
+/* =====================================================================
+   Home page layouts
+   ===================================================================== */
+
+figure{margin:0}
+.block{margin-top:clamp(40px,5vw,64px)}
+.block-sm{margin-top:32px}
+.para{margin-top:20px}
+.after-card{margin-top:16px}
+ul.grid-4,ul.grid-3,ul.grid-tiles,ol.steps,ol.promises,.plan-list,.rows{list-style:none}
+
+/* Hero */
+.hero{padding:clamp(24px,5vw,72px) 0 var(--section-pad)}
+.hero-grid{display:grid;gap:48px;align-items:center}
+.hero-copy .lede{margin-top:24px}
+.hero-copy .actions{margin-top:36px}
+.hero-copy .btn-note{margin-top:16px}
+@media (min-width:960px){
+  .hero-grid{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:64px}
+}
+
+/* Split: copy left, visual right */
+.split{display:grid;gap:40px;align-items:start}
+@media (min-width:960px){
+  .split{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px}
+}
+
+/* How it works */
+.steps{display:grid;gap:40px;margin-top:clamp(40px,5vw,64px)}
+.step-num{display:block;font-size:var(--fs-h2);font-weight:800;letter-spacing:-0.03em;line-height:1;color:var(--ink-mute);margin-bottom:20px}
+.steps h3 + p{margin-top:8px}
+@media (min-width:768px){
+  .steps{grid-template-columns:repeat(3,minmax(0,1fr));gap:40px}
+}
+
+/* Static journal list card */
+.card-list{padding-top:8px;padding-bottom:8px}
+.card-list .jline:last-child{border-bottom:0}
+
+/* Grids */
+.grid-4,.grid-3,.grid-tiles{display:grid;gap:16px;grid-template-columns:minmax(0,1fr)}
+@media (min-width:640px){
+  .grid-4,.grid-tiles{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (min-width:960px){
+  .grid-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .grid-3,.grid-tiles{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+
+.pair{display:grid;gap:32px}
+.pair h3 + p{margin-top:8px}
+.pair p{max-width:var(--measure)}
+@media (min-width:768px){
+  .pair{grid-template-columns:repeat(2,minmax(0,1fr));gap:48px}
+}
+
+/* How we got this sheet */
+.sheet{max-width:480px}
+.sheet-title{font-size:var(--fs-h3);font-weight:700;letter-spacing:-0.01em;line-height:1.25}
+.sheet-number{margin-top:4px;font-size:var(--fs-hero-number);font-weight:700;letter-spacing:-0.02em;line-height:1.1}
+.sheet-macros{margin-top:20px}
+.sheet-macro-text{margin-top:8px}
+.sheet-subtitle{margin-top:28px;font-size:var(--fs-line);font-weight:700}
+.rows{margin-top:8px;margin-bottom:16px}
+.rows li{display:flex;justify-content:space-between;gap:16px;min-height:48px;align-items:center;border-bottom:1px solid var(--hairline);font-size:var(--fs-line)}
+.rows li > :last-child{color:var(--ink-mute);font-weight:500;white-space:nowrap}
+.macro-track > span.is-full{width:100%}
+/* 2 roti: no goals on a single line, so segments follow its own split (28 / 160 / 36 cals) */
+.split-roti-protein{flex:28 1 0}
+.split-roti-carbs{flex:160 1 0}
+.split-roti-fat{flex:36 1 0}
+
+/* Instruments */
+.maintenance{margin-top:24px;font-size:var(--fs-h3);font-weight:700;letter-spacing:-0.01em}
+.maintenance + .label{margin-top:4px}
+.chart-card{padding-bottom:24px}
+.chart-ends{display:flex;justify-content:space-between;margin-bottom:12px}
+.weight-chart{width:100%;height:clamp(140px,16vw,220px);overflow:visible}
+.weight-dots{fill:none;stroke:var(--ink-mute);stroke-width:7;stroke-linecap:round;vector-effect:non-scaling-stroke;opacity:.55}
+.weight-trend{fill:none;stroke:var(--ink);stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+
+/* Health */
+.names{font-size:var(--fs-lede);line-height:1.5;color:var(--ink);max-width:var(--measure)}
+
+/* Tiles */
+.tile h3{font-size:var(--fs-line);font-weight:700;letter-spacing:0}
+.tile h3 + p{margin-top:6px}
+
+/* Promises */
+.promises{border-top:1px solid var(--hairline);max-width:960px}
+.promises li{display:flex;gap:clamp(16px,3vw,32px);align-items:baseline;padding:clamp(20px,2.5vw,28px) 0;border-bottom:1px solid var(--hairline);font-size:var(--fs-promise);font-weight:800;letter-spacing:-0.03em;line-height:1.15}
+.promise-num{flex:none;min-width:1ch;color:var(--ink-mute);font-weight:500}
+.signature{margin-top:24px;color:var(--ink-mute);font-weight:500}
+
+/* Pricing */
+.plans{display:grid;gap:16px;grid-template-columns:minmax(0,1fr)}
+@media (min-width:768px){
+  .plans{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+.plan{display:flex;flex-direction:column}
+.plan h3 .badge-plus{margin-left:.5em}
+.plan-price{margin-top:20px;font-size:var(--fs-h2);font-weight:800;letter-spacing:-0.03em;line-height:1.05}
+.plan-price-alt{margin-top:4px;font-size:var(--fs-h3);font-weight:700;letter-spacing:-0.01em}
+.plan-price + .small,.plan-price-alt + .small{margin-top:8px}
+.plan-lead{margin-top:28px;font-weight:500}
+.plan-list{margin-top:20px;border-top:1px solid var(--hairline)}
+.plan-lead + .plan-list{margin-top:12px}
+.plan-list li{padding:12px 0;border-bottom:1px solid var(--hairline);font-size:var(--fs-small);line-height:1.45}
+.plan-list li:last-child{border-bottom:0}
+
+/* Closing */
+.closing{text-align:center}
+.closing-line{max-width:22ch;margin:0 auto}
+.closing-actions{justify-content:center;margin-top:36px}
+.closing .btn-note{margin-top:16px}
+
+/* =====================================================================
+   Demo (hero). Goals are fixed: protein 90 g, carbs 250 g, fat 60 g, 2,000 cals.
+   Segment widths follow the goals in calories: 360 / 1000 / 540.
+   Bar fills below are the no-JavaScript starting state; demo.js takes over.
+   ===================================================================== */
+
+.demo{padding:28px}
+.demo-title{font-size:var(--fs-h3);font-weight:700;letter-spacing:-0.01em;line-height:1.2}
+.demo-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-top:12px}
+.demo-total{font-size:var(--fs-hero-number);font-weight:700;letter-spacing:-0.02em;line-height:1.05}
+.demo-left{color:var(--ink-mute);font-size:var(--fs-small);font-weight:500;white-space:nowrap}
+.demo-progress{margin-top:16px}
+.demo-macros{margin-top:20px}
+.demo-water{margin-top:20px}
+.demo-water .label{margin-top:8px}
+.demo-lines{margin-top:16px;border-top:1px solid var(--hairline)}
+.demo-goal-protein{flex:360 1 0}
+.demo-goal-carbs{flex:1000 1 0}
+.demo-goal-fat{flex:540 1 0}
+#demo-bar{width:17.1%}
+#demo-p-bar{width:7.8%}
+#demo-c-bar{width:21.6%}
+#demo-f-bar{width:18.3%}
+#demo-water-bar{width:20%}
+.demo-input{display:flex;align-items:center;min-height:52px;border-bottom:1px solid var(--hairline)}
+.demo-input input{flex:1;min-width:0;min-height:var(--tap);border:0;padding:0;background:transparent;color:var(--ink);font-size:var(--fs-line);caret-color:var(--ink)}
+.demo-input input::placeholder{color:var(--ink-mute);opacity:1}
+.demo-try{margin-top:20px}
+.demo-try .chips{margin-top:10px}
