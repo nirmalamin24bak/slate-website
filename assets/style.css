@@ -251,7 +251,16 @@ h2 .badge-plus,h3 .badge-plus{margin-left:.5em;position:relative;top:-.15em}
 .macro-seg.is-protein .macro-track > span{background:var(--protein)}
 .macro-seg.is-carbs .macro-track > span{background:var(--carbs)}
 .macro-seg.is-fat .macro-track > span{background:var(--fat)}
-.macro-label{margin-top:8px;font-size:var(--fs-label);font-weight:500;line-height:1.35;color:var(--ink-mute)}
+/* Labels sit in their own row: segments can be too narrow to hold them */
+.macro-labels{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;margin-top:8px;font-size:var(--fs-label);font-weight:500;line-height:1.35;color:var(--ink-mute)}
+.macro-labels > *{white-space:nowrap}
+.macro-labels > :nth-child(2){text-align:center}
+.macro-labels > :last-child{text-align:right}
+.macro-wrap{container-type:inline-size}
+@container (max-width:340px){
+  .macro-labels{flex-wrap:nowrap}
+  .macro-labels .macro-name{display:block}
+}
 
 /* ---------- Chips ---------- */
 
