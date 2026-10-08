@@ -5,3 +5,5 @@ node_modules/
 Thumbs.db
 # v1 site, kept locally for reference until the rebuild replaces it
 slate-website/
+# Component review page, local only
+_preview/
