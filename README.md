@@ -29,6 +29,10 @@ Search the code for `TODO(launch)` to find each spot.
 7. **Email forwarding.** Confirm support@writeonslate.com and privacy@writeonslate.com forward to the founders' inbox before the site goes live.
 8. **Domain.** Add writeonslate.com to the Vercel project, with www.writeonslate.com redirecting to the apex.
 
+## Fonts
+
+Inter Tight is self-hosted in `assets/fonts/` (OFL licence alongside). The latin files cover the site's text. The `inter-tight-rupee-*` files are cut from Inter Tight's latin-ext subset down to the ₹ sign only, because ₹ is the only latin-ext character the site uses. If copy ever needs another latin-ext character, regenerate those files with `pyftsubset` and widen their `unicode-range` in `assets/style.css`.
+
 ## Security headers
 
 `vercel.json` sets HSTS, `X-Content-Type-Options`, `Referrer-Policy`, `X-Frame-Options`, a `Permissions-Policy` that turns off camera, microphone and geolocation, and a Content-Security-Policy that allows only this site's own files. Nothing is loaded from any other domain. Keep it that way: no fonts, scripts, analytics or embeds from third parties.
