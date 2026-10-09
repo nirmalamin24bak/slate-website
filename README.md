@@ -22,17 +22,22 @@ When a page's content changes, update its `<lastmod>` date in `sitemap.xml`.
 
 ## Before launch: TODO(launch)
 
-Search the code for `TODO(launch)` to find each spot.
+These notes live here, not in the HTML, because HTML comments are public in the page source.
 
-1. **App Store link.** Replace "Coming soon to iPhone" (hero and closing section in `index.html`) with Apple's official "Download on the App Store" badge, black in light mode and white in dark mode, linking to the App Store URL.
-2. **Smart App Banner.** Add `<meta name="apple-itunes-app" content="app-id=...">` to `index.html` once the app ID exists.
-3. **Effective dates.** Set the effective date on `/privacy/` and `/terms/` to the launch date.
-4. **Grievance Officer.** Confirm the name on `/privacy/` (currently Nirmal Amin).
-5. **Counsel review.** Have counsel review `/privacy/` and `/terms/`, then remove the `Draft. Counsel review required before launch.` comment at the top of each.
+1. **App Store link.** In `index.html`, replace both `<span class="btn btn-soon">Coming soon to iPhone</span>` (hero `.actions` and closing `.closing-actions`) with Apple's official "Download on the App Store" badge, black in light mode and white in dark mode, linking to the App Store URL.
+2. **Smart App Banner.** Add `<meta name="apple-itunes-app" content="app-id=...">` to the `<head>` of `index.html`, after the Twitter tags, once the app ID exists.
+3. **Effective dates.** Set the `Effective 8 October 2026` line (`.legal-date`, under the h1) on `/privacy/` and `/terms/` to the App Store launch date.
+4. **Grievance Officer.** Confirm the name in "Grievance Officer and contact" on `/privacy/` (currently Nirmal Amin).
+5. **Counsel review.** `/privacy/` and `/terms/` are drafts. Have counsel review both before launch.
 6. **App Store screenshots.** Optional: once real screenshots exist, add a section after the hero.
 7. **Email forwarding.** Confirm support@writeonslate.com and privacy@writeonslate.com forward to the founders' inbox before the site goes live.
-8. **Shared packet list.** When the shared packet list ships in the app, publish the commented-out paragraph in "What we don't collect" on `/privacy/` (counsel to review it first).
-9. **Domain.** Add writeonslate.com to the Vercel project, with www.writeonslate.com redirecting to the apex.
+8. **Shared packet list.** When the shared packet list ships in the app, add this paragraph at the end of "What we don't collect" on `/privacy/`, after the barcode paragraph (counsel to review it first):
+
+   ```html
+   <p>If you scan a packet Slate doesn't know, the product's nutrition facts (barcode, name, brand and values per 100 g, never anything about you) are added to Slate's shared packet list so the next scan works.</p>
+   ```
+
+9. ~~**Domain.**~~ Done 9 October 2026: writeonslate.com is the primary domain, www.writeonslate.com redirects to it, and slate-website.vercel.app redirects to it (`vercel.json`).
 
 ## Fonts
 
