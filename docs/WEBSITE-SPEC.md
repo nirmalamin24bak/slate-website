@@ -322,7 +322,7 @@ Two columns on desktop (copy left, demo right), stacked on mobile (copy first).
 - **Lede:** Type what you ate, the way you'd say it. Slate puts a number next to it. That's the whole app.
 - **Primary button:** "Coming soon to iPhone" (disabled look but readable; becomes the official "Download on the App Store" badge linking to the App Store URL once live, see §22).
 - **Secondary button:** "What Slate won't do" → `#promise`.
-- **Small note under the buttons:** Free forever. Slate Plus is optional. iPhone, in India.
+- **Small note under the buttons:** Free forever. No login. Stored in India. Slate Plus is optional.
 - **Right:** the interactive journal demo (§9).
 
 ### 8.3 How it works (`#how`)
@@ -374,7 +374,7 @@ Two columns on desktop (copy left, demo right), stacked on mobile (copy first).
 
 - **Heading:** Every number here is an estimate.
 - **Body:** Packet labels can be 20% out. Restaurant oil can be more. Slate is built to be consistent, so your week tells the truth even when a single day is rough.
-- **Second paragraph:** Numbers are worked out from Indian food composition data and adjusted for your kitchen. AI only reads what you wrote. It never makes up a calorie.
+- **Second paragraph:** Numbers are worked out from the Indian Food Composition Tables (IFCT 2017) and adjusted for your kitchen. AI only reads what you wrote. It never makes up a calorie.
 - **Visual:** a static replica of the "How we got this" sheet as a card:
   - Title: "2 roti" · "220 cals"
   - Connected macro bar (teal, turmeric, plum) and "Protein 7 g · Carbs 40 g · Fat 4 g"
@@ -782,7 +782,7 @@ No scroll-triggered animations, no parallax, no auto-playing anything, no carous
 
 | Page | `<title>` | Meta description |
 |---|---|---|
-| Home | Slate: a calorie journal for India | Type or say what you ate, the way you'd say it. Slate knows your katori, roti, oil and chai. Free forever, no login, stored in India. For iPhone. |
+| Home | Slate: a calorie journal for Indian food, on iPhone | Type or say what you ate, the way you'd say it. Slate knows your katori, roti, oil and chai. Free forever, no login, stored in India. For iPhone. |
 | Privacy | Privacy policy · Slate | How Slate handles your data: no login, stored in India, no ads, never sold. |
 | Terms | Terms of use · Slate | The terms for using Slate and Slate Plus. |
 | Support | Support · Slate | Help with Slate and Slate Plus. Write to support@writeonslate.com. |
