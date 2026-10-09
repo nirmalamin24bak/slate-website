@@ -109,7 +109,7 @@ Slate shares a concept with other text-first calorie apps but must look and soun
 - A ring or donut progress chart, ringed circular buttons, or a floating summary card.
 - Copy from competitor listings, including "as quickly as a notes app", "Hide calorie counts whenever you want", "Type anything, including exercise", "Want to be precise? Add detail", "Snap a food to get instant nutrition info", "Try it out".
 - Competitor sample numbers: 790 / 2400, 1610 left, 32 g / 98 g / 27 g.
-- Any competitor's name. Slate never compares itself to a named app.
+- Any competitor's name, except on the /compare/ pages, which follow the rules in the content pages section: factual, sourced, dated, no logos or screenshots, nothing disparaging, and an honest "where they fit better" section. Never name Mist.
 
 ---
 

@@ -99,7 +99,7 @@ Calm, factual, plain, warm without being chatty. Slate sounds like a sensible fr
 
 | Use | Don't use |
 |---|---|
-| Journal, line | Diary, log entry, food item |
+| Slate (the page you write on), line | Journal (inside the app), diary, log entry, food item |
 | What did you have? | Log your meal, Add food |
 | Your kitchen | Calibration, settings |
 | How we got this | Nutrition breakdown, Details |
@@ -143,7 +143,7 @@ Calm, factual, plain, warm without being chatty. Slate sounds like a sensible fr
 
 - Lead with "Slate is free forever." Plus is described as optional, never as unlocking the "real" app.
 - Free forever: the journal (food, exercise, weight, water, steps), Hinglish and Gujarati spellings, your kitchen, About you and How you cook, outside or home and portions, barcode and label scanning, macros and macro goals, How we got this, BMR and baseline, water, streak and 30 days of history, Siri, Hide calorie counts, export and delete, the promises.
-- Slate Plus: photo logging, chat, measured maintenance, stats and weight trend, Apple Health (Apple Watch, Garmin, Strava, Nike Run Club and more), widgets with quick add, custom dishes, saved foods, fiber and sugar, sleep, full history.
+- Slate Plus: photo logging, voice logging, delivery orders (share a Swiggy or Zomato order), chat, measured maintenance, stats and weight trend, Apple Health (Apple Watch, Garmin, Strava, Nike Run Club and more), widgets with quick add, custom dishes, saved foods, fiber and sugar, sleep, full history.
 - Prices: ₹399 a month (about ₹92 a week) or ₹2,999 a year (about ₹58 a week, 37% less), 7 days free on yearly for eligible new subscribers.
 - Always say how to cancel (iPhone Settings) and that nothing is deleted when Plus ends.
 - Never discount loudly, never strike through prices, never use countdowns.
@@ -181,7 +181,7 @@ Never use:
 - Two-chapter onboarding progress pills or a dots "consistency" graphic.
 - Competitor copy, including: "as quickly as a notes app", "Hide calorie counts whenever you want", "Type anything, including exercise", "Want to be precise? Add detail", "Tap a date twice to change the start date", "No weight entries yet", "Snap a food to get instant nutrition info", "Try it out".
 - Competitor sample numbers in screenshots or marketing: 790 / 2400, 1610 left, 32 g / 98 g / 27 g.
-- Any competitor's name in marketing. Slate never compares itself to a named app.
+- Competitor names anywhere except the factual comparison pages on writeonslate.com/compare/. There, every claim is sourced and dated, there are no logos or screenshots, nothing disparaging, and each page says honestly where the other app is a better fit. Never name Mist.
 
 ---
 
