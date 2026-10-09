@@ -4,9 +4,9 @@
   "trailingSlash": true,
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/:path(.*)",
       "has": [{ "type": "host", "value": "slate-website.vercel.app" }],
-      "destination": "https://writeonslate.com/:path*",
+      "destination": "https://writeonslate.com/:path",
       "permanent": true
     }
   ],
