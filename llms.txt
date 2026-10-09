@@ -1,0 +1,18 @@
+# Slate
+
+> Slate is a calorie journal for iPhone, built for India, by Sonal Systems Private Limited (Vadodara, Gujarat). You type what you ate the way you'd say it, in English, Hinglish or Gujarati spellings ("2 roti aur ek katori dal"), and Slate puts a number next to it. No login. Data stored in Mumbai, India. Not related to other products named Slate.
+
+Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year (7 days free on yearly). iPhone only, iOS 17 or later. Coming soon to the App Store.
+
+## Key pages
+
+- [Home](https://writeonslate.com/): how it works, pricing, FAQ
+- [Privacy policy](https://writeonslate.com/privacy/)
+- [Terms of use](https://writeonslate.com/terms/)
+- [Support](https://writeonslate.com/support/): support@writeonslate.com
+
+## Facts
+
+- Numbers are worked out from the Indian Food Composition Tables (IFCT 2017) and adjusted for your kitchen.
+- AI only reads lines Slate doesn't recognise, spots dishes in photos, and powers chat. It never produces a calorie number. Your Slate isn't used to train AI models.
+- Not medical advice. For anyone 18 or older.
