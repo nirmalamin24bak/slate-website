@@ -1,0 +1,2444 @@
+{
+  "foods": [
+    {
+      "slug": "roti",
+      "name": "Roti",
+      "nameLower": "roti",
+      "category": "breads",
+      "aliases": [
+        "chapati",
+        "chapatti",
+        "chappathi",
+        "phulka",
+        "pulka",
+        "fulka",
+        "rotli",
+        "रोटी",
+        "चपाती",
+        "फुलका",
+        "રોટલી"
+      ],
+      "updated": "2026-10-10",
+      "title": "Roti calories: phulka, chapati and roti with ghee",
+      "description": "A medium roti made with 30 g of atta has about {{kcal:medium}} calories. Phulka, chapati and roti with ghee, worked out from IFCT 2017.",
+      "answer": "One medium roti (about 30 g atta) has about {{kcal:medium}} calories, or about {{kcal:medium_ghee}} with a teaspoon of ghee.",
+      "intro": [
+        "Roti, chapati and phulka are the same flatbread: whole-wheat atta and water, rolled out and cooked on a hot tawa. A phulka is held over an open flame at the end so it puffs. In Gujarat it's rotli, often smaller and thinner than a Punjabi roti.",
+        "A plain roti is almost all atta, so its calories follow the size of the dough ball. The ghee or butter on top is what usually moves the number."
+      ],
+      "headlinePortion": "medium",
+      "portionsCaption": "Plain rotis unless stated. Atta weight is before cooking.",
+      "recipe": {
+        "label": "Recipe: 100 g atta and about 70 g water, rolled into rotis",
+        "ingredients": [
+          {
+            "id": "atta",
+            "g": 100
+          },
+          {
+            "id": "water",
+            "g": 70,
+            "note": "About 70% of the flour weight, as in a published chapati study"
+          }
+        ],
+        "cookedYieldG": 133,
+        "yieldNote": "atta x (1 - 0.111) / (1 - 0.33): IFCT's atta is 11.1% water and USDA's cooked chapati is 33% water"
+      },
+      "portions": [
+        {
+          "id": "phulka",
+          "label": "1 phulka (about 24 g atta)",
+          "short": "a phulka",
+          "fraction": 0.24,
+          "cookedGrams": 32,
+          "kcal": 75,
+          "protein": 3,
+          "carbs": 15,
+          "fat": 0
+        },
+        {
+          "id": "medium",
+          "label": "1 medium roti (about 30 g atta)",
+          "short": "a roti",
+          "fraction": 0.3,
+          "cookedGrams": 40,
+          "kcal": 95,
+          "protein": 3,
+          "carbs": 19,
+          "fat": 0
+        },
+        {
+          "id": "large",
+          "label": "1 large roti (about 40 g atta)",
+          "short": "a large roti",
+          "fraction": 0.4,
+          "cookedGrams": 53,
+          "kcal": 130,
+          "protein": 4,
+          "carbs": 26,
+          "fat": 1
+        },
+        {
+          "id": "medium_ghee",
+          "label": "1 medium roti with 1 tsp ghee (5 g)",
+          "short": "a roti with ghee",
+          "fraction": 0.3,
+          "add": [
+            {
+              "id": "ghee",
+              "g": 5
+            }
+          ],
+          "cookedGrams": 40,
+          "kcal": 140,
+          "protein": 3,
+          "carbs": 19,
+          "fat": 5
+        },
+        {
+          "id": "two",
+          "label": "2 medium rotis",
+          "short": "2 rotis",
+          "fraction": 0.6,
+          "cookedGrams": 80,
+          "kcal": 190,
+          "protein": 6,
+          "carbs": 39,
+          "fat": 1
+        }
+      ],
+      "outside": {
+        "portionId": "medium",
+        "label": "Dhaba or restaurant, with ghee",
+        "caption": "One medium roti. The outside range adds 1 to 2 teaspoons of ghee (5 to 10 g).",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "ghee",
+            "g": [
+              5,
+              10
+            ]
+          }
+        ],
+        "basis": "No analysed data was found for restaurant or tandoori rotis, so this is a stated assumption: the same roti brushed with 1 to 2 NIN teaspoons (5 ml each) of ghee. Butter has slightly less fat than ghee, so butter rotis sit at or below this range.",
+        "text": [
+          "At home, most rotis reach the plate dry or with a little ghee. At a dhaba or in a restaurant they're often brushed with ghee or butter, and tandoori rotis are usually bigger, which adds more again.",
+          "There's no published lab figure for a restaurant roti, so the range below is an assumption: a medium roti with 1 to 2 teaspoons of ghee."
+        ],
+        "kcalRange": [
+          140,
+          185
+        ],
+        "fatRange": [
+          5,
+          10
+        ]
+      },
+      "changes": [
+        "The size of the dough ball. Calories follow the atta, so a roti rolled from a bigger ball counts for more, however thin it's rolled.",
+        "Ghee or butter on top. A teaspoon of ghee (5 g) adds about 45 calories, close to half a roti again.",
+        "Oil in the dough. Some kitchens knead the atta with a spoon of oil, which spreads about 45 calories per teaspoon across the whole batch.",
+        "The flour. These numbers are for whole-wheat atta. Rotis made with maida, or mixed with besan, bajra or jowar, have their own values.",
+        "Puffing. A phulka loses a little water over the flame, so it weighs less, but its calories stay with the atta."
+      ],
+      "method": [
+        "The recipe is 100 g of whole-wheat atta with about 70 g of water. Each roti's calories are its share of the atta, using IFCT 2017 values for atta and ghee.",
+        "Cooked weight comes from water content: IFCT's atta is about 11% water and USDA's cooked chapati about 33%, so a roti weighs about 1.33 times its atta.",
+        "As a check, ICMR-NIN lists one phulka at 80 calories, and 24 g of atta works out here to about {{kcal:phulka}}. The Art & Science of Cooking, a standard Indian cookery textbook, makes four chapatis from 80 g of atta, so its chapati is smaller still, at 20 g."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 roti?",
+          "a": "A medium roti made with about 30 g of atta has about {{kcal:medium}} calories. A phulka is about {{kcal:phulka}}, and a large roti about {{kcal:large}}."
+        },
+        {
+          "q": "How many calories does ghee add to a roti?",
+          "a": "One teaspoon of ghee (5 g) adds about 45 calories. A medium roti with a teaspoon of ghee comes to about {{kcal:medium_ghee}}."
+        },
+        {
+          "q": "Is a phulka different from a chapati?",
+          "a": "Same dough, same flour. A phulka is puffed over an open flame and is usually smaller, so one phulka counts for less. Gram for gram of atta, they're the same."
+        },
+        {
+          "q": "How many grams is one roti?",
+          "a": "A medium roti made with 30 g of atta weighs about {{g:medium}} g once cooked. Sizes vary a lot between kitchens, which is why Slate asks you for your roti size."
+        },
+        {
+          "q": "Which has fewer calories, roti or rice?",
+          "a": "Per usual serving they're close: 2 medium rotis are about {{kcal:two}} calories, and a 200 ml katori of plain rice is about {{kcal@plain-rice:k200}}. Per 100 g, roti has more, because it holds less water: about {{per100}} against about {{per100@plain-rice}} for cooked rice."
+        }
+      ],
+      "related": [
+        "plain-rice",
+        "dal-tadka",
+        "rajma",
+        "paneer-butter-masala"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: phulka",
+          "portionId": "phulka",
+          "kcal": 80,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 77,
+          "differencePct": 4
+        }
+      ],
+      "judgement": [
+        "Medium roti = 30 g atta: NIN's cereal portion is 30 g raw (100 kcal). NIN's phulka at 80 kcal works out to about 24 g of atta. Large = 40 g is a judgement for bigger Punjabi-style rotis.",
+        "The textbook chapati (The Art & Science of Cooking via INDB, ASC096) is 80 g atta and 1 tsp ghee for 4 chapatis: 20 g atta each, 72.8 kcal with its share of ghee. INDB's per-100 g value (202 kcal) is not used as a cross-check because INDB doesn't allow for water lost in cooking, so it is per 100 g of dough, not of cooked roti.",
+        "Cooked yield 1.33 is derived from water contents (IFCT atta 11.1%, USDA chapati FDC 171844 33%). No Tier 1-3 source weighed a home roti directly.",
+        "USDA's commercial chapatis (FDC 171844, 297 kcal per 100 g; FDC 174075, 299 kcal) are not used for values: they are factory-made and contain added fat.",
+        "Teaspoon = 5 ml (NIN); 5 g of ghee taken as one teaspoon, matching NIN's 5 g fat portion of 45 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Atta (A019), ghee (T013); values read from the digitised tables at github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: phulka 80 kcal; teaspoon and cup sizes",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central 171844, chapati or roti, plain",
+          "url": "https://fdc.nal.usda.gov/food-details/171844/nutrients",
+          "note": "Water content of cooked chapati (33 g per 100 g)",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Textbook chapati recipe, ASC096",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Khurshid et al., chapati quality study, Food Science and Biotechnology, 2020",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6992807",
+          "note": "Water at about 70% of flour weight",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 240,
+        "protein": 8,
+        "carbs": 48,
+        "fat": 1
+      }
+    },
+    {
+      "slug": "plain-rice",
+      "name": "Plain rice",
+      "nameLower": "plain rice",
+      "category": "rice",
+      "aliases": [
+        "rice",
+        "steamed rice",
+        "boiled rice",
+        "white rice",
+        "chawal",
+        "bhaat",
+        "bhat",
+        "sada chawal",
+        "चावल",
+        "भात",
+        "ભાત"
+      ],
+      "updated": "2026-10-10",
+      "title": "Rice calories: per katori, plate and 100 g cooked",
+      "description": "A 200 ml katori of plain cooked rice has about {{kcal:k200}} calories. White rice by katori, plate and 100 g, worked out from IFCT 2017.",
+      "answer": "A 200 ml katori of plain cooked white rice (about {{g:k200}} g) has about {{kcal:k200}} calories.",
+      "intro": [
+        "Plain rice here means polished white rice cooked in water until the water is absorbed, with no oil or ghee: the everyday chawal or bhaat that goes with dal.",
+        "Rice takes up about three times its raw weight in water, so most of a katori is water. That's why cooked rice has far fewer calories per 100 g than raw rice: about {{per100}} against about {{ing:rice_raw}}."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Level katoris of plain cooked rice.",
+      "recipe": {
+        "label": "Recipe: 100 g raw milled rice, cooked until the water is absorbed",
+        "ingredients": [
+          {
+            "id": "rice_raw",
+            "g": 100
+          }
+        ],
+        "cookedYieldG": 298,
+        "yieldNote": "2.98 times the raw weight, the measured average for boiled long-grain polished rice (Bognár 2002)",
+        "densityGPerMl": 0.67,
+        "densityNote": "USDA FoodData Central lists 1 cup (236.6 ml) of cooked white rice as 158 g"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 101,
+          "kcal": 120,
+          "protein": 3,
+          "carbs": 26,
+          "fat": 0
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 134,
+          "kcal": 160,
+          "protein": 4,
+          "carbs": 35,
+          "fat": 0
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 168,
+          "kcal": 200,
+          "protein": 4,
+          "carbs": 44,
+          "fat": 0
+        },
+        {
+          "id": "plate",
+          "label": "1 plate (100 g raw rice)",
+          "short": "a plate",
+          "fraction": 1,
+          "cookedGrams": 298,
+          "kcal": 355,
+          "protein": 8,
+          "carbs": 78,
+          "fat": 1
+        },
+        {
+          "id": "g100",
+          "label": "100 g cooked",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 120,
+          "protein": 3,
+          "carbs": 26,
+          "fat": 0
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Restaurant, finished with ghee",
+        "caption": "One 200 ml katori. The outside range adds 0 to 1 teaspoon of ghee (0 to 5 g).",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "ghee",
+            "g": [
+              0,
+              5
+            ]
+          }
+        ],
+        "basis": "No analysed data was found for restaurant steamed rice. Stated assumption: the same rice with 0 to 1 NIN teaspoon of ghee on top.",
+        "text": [
+          "Steamed rice from a restaurant is usually plain too, so a katori of it counts much the same as yours. Two things differ: some places finish it with a spoon of ghee or butter, and the bowl is often bigger than a home katori.",
+          "There's no published lab figure for restaurant rice, so the range below is an assumption: a 200 ml katori with up to a teaspoon of ghee."
+        ],
+        "kcalRange": [
+          160,
+          205
+        ],
+        "fatRange": [
+          0,
+          5
+        ]
+      },
+      "changes": [
+        "How much water the rice holds. Rice boiled in plenty of water and drained ends up wetter, so 100 g of it has fewer calories than rice cooked by absorption. Published values for cooked white rice run from about 105 to 130 calories per 100 g for this reason.",
+        "How full the katori is. The numbers here are for a level katori. A heaped one holds more.",
+        "Ghee or butter on top. A teaspoon adds about 45 calories.",
+        "Tadka or frying. Jeera rice, pulao and fried rice are cooked with oil or ghee and have more calories than plain rice."
+      ],
+      "method": [
+        "The recipe is 100 g of raw milled white rice (IFCT 2017) cooked until the water is absorbed. Measured yields for boiled white rice are about 2.9 to 3.0 times the raw weight; this page uses 2.98, the average for long-grain polished rice.",
+        "For katoris, cooked rice is taken at about 0.67 g per ml, from USDA's 158 g per cup. A plate is the plate in The Art & Science of Cooking, a standard Indian cookery textbook: 100 g of raw rice."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of rice?",
+          "a": "A 150 ml katori of plain cooked rice has about {{kcal:k150}} calories, a 200 ml katori about {{kcal:k200}}, and a 250 ml katori about {{kcal:k250}}. These are level katoris."
+        },
+        {
+          "q": "How many calories are in 100 g of cooked rice?",
+          "a": "About {{kcal:g100}} calories, with about {{protein:g100}} g protein, {{carbs:g100}} g carbs and very little fat."
+        },
+        {
+          "q": "Why do raw and cooked rice have such different calories?",
+          "a": "Cooking adds water, not calories. 100 g of raw rice has about {{ing:rice_raw}} calories and becomes about {{yield}} g of cooked rice, so each 100 g of cooked rice has about a third as much."
+        },
+        {
+          "q": "How many calories are in a plate of rice?",
+          "a": "A plate made from 100 g of raw rice, about {{g:plate}} g cooked, has about {{kcal:plate}} calories. Plates vary a lot, so a katori is the easier measure."
+        },
+        {
+          "q": "Which has fewer calories, rice or roti?",
+          "a": "Per usual serving they're close: a 200 ml katori of rice is about {{kcal:k200}} calories and 2 medium rotis are about {{kcal@roti:two}}. Per 100 g, rice has fewer because it holds more water."
+        }
+      ],
+      "related": [
+        "roti",
+        "dal-tadka",
+        "rajma",
+        "idli"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: rice, 1 cup (200 ml)",
+          "portionId": "k200",
+          "kcal": 170,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 160,
+          "differencePct": 6
+        },
+        {
+          "source": "USDA FoodData Central 168878, white rice, long-grain, cooked",
+          "kcalPer100g": 130,
+          "url": "https://fdc.nal.usda.gov/food-details/168878/nutrients",
+          "ours": 120,
+          "differencePct": 9
+        },
+        {
+          "source": "Indian Nutrient Databank, Boiled rice (ASC113)",
+          "kcalPer100g": 117.2,
+          "note": "351.6 kcal per plate of 100 g raw parboiled rice.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 120,
+          "differencePct": -2
+        },
+        {
+          "source": "Bognár 2002, analysed boiled rice",
+          "kcalPer100g": 105,
+          "note": "Calculated from the report's analysed values; wetter, drained rice.",
+          "url": "https://publikationen.bibliothek.kit.edu/9642002/1928",
+          "ours": 120,
+          "differencePct": -12
+        }
+      ],
+      "judgement": [
+        "Yield 2.98 (boiled) chosen over 2.94 (stewed); the difference is about 1%.",
+        "Katori density from USDA's cup weight, because no Indian source gives grams of cooked rice per katori. NIN's 200 ml cup at 170 kcal implies a similar density.",
+        "Plate = 100 g raw rice, the textbook plate (The Art & Science of Cooking via INDB ASC113: 100 g parboiled rice, 200 ml water, 1 plate). IFCT raw milled rice (A015) and parboiled (A014) differ by about 1%."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Rice, raw, milled (A015); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Bognár, Tables on weight yield of food and retention factors of food constituents, 2002",
+          "url": "https://publikationen.bibliothek.kit.edu/9642002/1928",
+          "note": "Yield of boiled polished rice",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central 168878, rice, white, long-grain, cooked",
+          "url": "https://fdc.nal.usda.gov/food-details/168878/nutrients",
+          "note": "Cup weight and per-100 g values",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: rice 170 kcal per 200 ml cup",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Boiled rice, ASC113",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 120,
+        "protein": 3,
+        "carbs": 26,
+        "fat": 0
+      }
+    },
+    {
+      "slug": "dal-tadka",
+      "name": "Dal tadka",
+      "nameLower": "dal tadka",
+      "category": "dals",
+      "aliases": [
+        "dal",
+        "daal",
+        "dhal",
+        "toor dal",
+        "tur dal",
+        "tuvar dal",
+        "arhar dal",
+        "tadka dal",
+        "tarka dal",
+        "tuver ni dal",
+        "दाल तड़का",
+        "अरहर दाल",
+        "તુવેર દાળ"
+      ],
+      "updated": "2026-10-10",
+      "title": "Dal tadka calories: per katori of toor dal",
+      "description": "A 200 ml katori of thin dal tadka has about {{kcal:k200}} calories; thick dal has up to about twice that. Toor dal with a ghee tadka, from IFCT 2017.",
+      "answer": "A 200 ml katori of thin toor dal tadka has about {{kcal:k200}} calories. A thick dal can have close to twice that, because each katori holds more dal.",
+      "intro": [
+        "Dal tadka is toor (arhar) dal cooked soft and finished with a tadka: ghee heated with cumin, garlic, ginger and chilli, poured over at the end. The Gujarati version is thinner, often sweet and sour with jaggery and kokum. Punjabi dal tadka adds an onion and tomato masala and is usually thicker.",
+        "Two things decide the number in your katori: how much ghee went into the tadka, and how thick the dal is."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Thin dal, made as below. A thicker dal has more in each katori.",
+      "recipe": {
+        "label": "Recipe: one textbook bowl, 30 g toor dal in 300 ml water with a 10 g ghee tadka",
+        "ingredients": [
+          {
+            "id": "toor_dal",
+            "g": 30
+          },
+          {
+            "id": "water",
+            "g": 300
+          },
+          {
+            "id": "ghee",
+            "g": 10,
+            "note": "5 g cooked into the dal, 5 g in the tadka"
+          },
+          {
+            "id": "ginger",
+            "g": 5
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3
+          },
+          {
+            "id": "cumin",
+            "g": 2.1
+          },
+          {
+            "id": "garlic",
+            "g": 0.6
+          }
+        ],
+        "cookedYieldG": 351,
+        "yieldNote": "the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does",
+        "densityGPerMl": 1,
+        "densityNote": "thin dal taken as 1 g per ml, like water; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 85,
+          "protein": 3,
+          "carbs": 8,
+          "fat": 5
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 115,
+          "protein": 4,
+          "carbs": 10,
+          "fat": 6
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 250,
+          "kcal": 140,
+          "protein": 5,
+          "carbs": 13,
+          "fat": 8
+        },
+        {
+          "id": "half",
+          "label": "Half a cup (100 ml)",
+          "short": "half a cup",
+          "ml": 100,
+          "cookedGrams": 100,
+          "kcal": 55,
+          "protein": 2,
+          "carbs": 5,
+          "fat": 3
+        },
+        {
+          "id": "bowl",
+          "label": "1 textbook bowl (30 g dry dal)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 351,
+          "kcal": 200,
+          "protein": 7,
+          "carbs": 18,
+          "fat": 11
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Restaurant or dhaba",
+        "caption": "One 200 ml katori. The outside range is 1.5 to 2 times as thick, with the same ghee per gram of dal.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1.5,
+          2
+        ],
+        "basis": "Published restaurant-style recipes use about the same fat per gram of dal as this textbook dal: Swasthi's dal tadka 2 tbsp ghee plus 1.5 to 2 tbsp oil for 200 g dal (0.24 to 0.27 g per g), against 10 g ghee for 30 g dal here (0.33 g per g). The difference per katori comes mostly from a thicker dal, so the range is 1.5 to 2 times the dal per katori. This is a stated assumption.",
+        "text": [
+          "Restaurant and dhaba dal is usually thicker than everyday home dal, and it's often finished with a second spoon of ghee or butter at the table. Dal fry is cooked with its masala in ghee and tends to be richer again.",
+          "There's no lab measurement of restaurant dal in India, so the range below is an assumption: the same dal, 1.5 to 2 times as thick."
+        ],
+        "kcalRange": [
+          170,
+          225
+        ],
+        "fatRange": [
+          9,
+          12
+        ]
+      },
+      "changes": [
+        "Thickness. Most of a thin dal is water. A katori of thick dal can hold twice as much dal, and twice the calories.",
+        "The tadka. Each teaspoon of ghee or oil adds about 45 calories to the pot. A generous tadka is the biggest difference between one kitchen's dal and the next.",
+        "Jaggery or sugar. Gujarati dal often has a spoon or two of jaggery, which adds about 20 calories a teaspoon to the pot.",
+        "Onion, tomato and spices. They add little: a few calories a katori.",
+        "The dal itself. Toor, moong and masoor dal are within a few percent of each other per gram in IFCT 2017, so the swap matters less than the ghee."
+      ],
+      "method": [
+        "The recipe follows the tempered arhar dal in Basic Food Preparation, a standard Indian cookery manual (via the Indian Nutrient Databank), without its spinach: 30 g of toor dal cooked in 300 ml of water, with 10 g of ghee, ginger, garlic, green chilli and cumin. Values are from IFCT 2017.",
+        "The cooked weight is the ingredients added together, with nothing allowed for water boiled off, so this is a thin dal. Katoris are worked out at 1 g per ml."
+      ],
+      "range": {
+        "text": "ICMR-NIN counts half a cup (100 ml) of plain dal at 100 calories, close to twice this page's {{kcal:half}} for the same volume. The difference is thickness: NIN's dal holds far more dal in each cup. Depending on how thick it is, a 200 ml katori of dal tadka can be anywhere from about {{kcal:k200}} to about twice that.",
+        "reason": "NIN's plain dal (100 kcal per 100 ml) is much thicker than the textbook dal (about 57 kcal per 100 ml). Shown as a range on the page."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of dal?",
+          "a": "A 200 ml katori of thin dal tadka has about {{kcal:k200}} calories. A thick dal can be close to double, because the katori holds more dal and less water."
+        },
+        {
+          "q": "How much protein is in a katori of dal?",
+          "a": "A 200 ml katori of this thin dal has about {{protein:k200}} g of protein. A thicker dal has more, in line with the extra dal."
+        },
+        {
+          "q": "How many calories does a ghee tadka add?",
+          "a": "About 45 calories for each teaspoon of ghee, spread across everyone who eats from the pot. In this recipe the 10 g of ghee adds about 90 calories to a bowl."
+        },
+        {
+          "q": "Which has more calories, dal fry or dal tadka?",
+          "a": "Usually dal fry, because the dal is cooked into an onion and tomato masala in ghee and is thicker. The dal is the same; the fat and the thickness are what change."
+        }
+      ],
+      "related": [
+        "plain-rice",
+        "roti",
+        "rajma",
+        "paneer-butter-masala"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: plain dal, half a cup",
+          "portionId": "half",
+          "kcal": 100,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 57,
+          "differencePct": 76
+        },
+        {
+          "source": "Indian Nutrient Databank, Arhar with spinach (BFP172)",
+          "kcalPer100g": 52.8,
+          "note": "Same textbook recipe with 50 g spinach, so slightly lower.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 57,
+          "differencePct": -7
+        }
+      ],
+      "judgement": [
+        "No textbook recipe for plain dal tadka exists in INDB; the closest is Basic Food Preparation's arhar dal with spinach (BFP172). Spinach removed.",
+        "Cup = 240 ml for the textbook water (INDB's unit table), so 1.25 cups = 300 ml.",
+        "Yield = sum of ingredients (no evaporation), following INDB. Real dal loses some water, so this sits at the thin end; the range covers thicker dal.",
+        "Density 1 g per ml is an assumption for thin dal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Red gram dal (B021), ghee (T013), spices; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipe BFP172",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: plain dal 100 kcal per half cup",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Swasthi, Dal tadka (Swasthi's Recipes)",
+          "url": "https://www.indianhealthyrecipes.com/dal-tadka/",
+          "note": "Restaurant-style fat per gram of dal (proportions only)",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 55,
+        "protein": 2,
+        "carbs": 5,
+        "fat": 3
+      }
+    },
+    {
+      "slug": "rajma",
+      "name": "Rajma",
+      "nameLower": "rajma",
+      "category": "dals",
+      "aliases": [
+        "rajma masala",
+        "rajma curry",
+        "rajmah",
+        "razma",
+        "kidney beans",
+        "rajma chawal",
+        "राजमा",
+        "રાજમા"
+      ],
+      "updated": "2026-10-10",
+      "title": "Rajma calories: per katori and per bowl",
+      "description": "A 200 ml katori of rajma curry has about {{kcal:k200}} calories and {{protein:k200}} g protein. Home rajma, worked out from IFCT 2017.",
+      "answer": "A 200 ml katori of home rajma curry has about {{kcal:k200}} calories and about {{protein:k200}} g of protein.",
+      "intro": [
+        "Rajma is red kidney beans, soaked overnight, pressure-cooked and simmered in an onion and tomato masala. It's the everyday Punjabi and Jammu dish behind rajma chawal, and Jammu's Bhaderwah rajma has its own GI tag.",
+        "The beans carry the protein and most of the calories. The oil in the masala, and cream or a ghee tadka in dhaba versions, make up the rest."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Home rajma made as below.",
+      "recipe": {
+        "label": "Recipe: one textbook bowl, 30 g dry rajma with tomato, onion and 1.5 tsp oil",
+        "ingredients": [
+          {
+            "id": "rajma",
+            "g": 30,
+            "note": "Dry weight, before soaking"
+          },
+          {
+            "id": "water",
+            "g": 48.6,
+            "note": "Taken up by the beans in soaking and cooking"
+          },
+          {
+            "id": "tomato",
+            "g": 50
+          },
+          {
+            "id": "onion",
+            "g": 25
+          },
+          {
+            "id": "oil",
+            "g": 6.8,
+            "note": "1.5 tsp"
+          },
+          {
+            "id": "ginger",
+            "g": 3.2
+          },
+          {
+            "id": "garlic",
+            "g": 1.3
+          }
+        ],
+        "cookedYieldG": 165,
+        "yieldNote": "cooked beans at USDA's yield for boiled kidney beans (2.62 times the dry weight), plus the other ingredients",
+        "densityGPerMl": 1,
+        "densityNote": "rajma curry taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 160,
+          "protein": 6,
+          "carbs": 17,
+          "fat": 7
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 210,
+          "protein": 8,
+          "carbs": 23,
+          "fat": 9
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 250,
+          "kcal": 265,
+          "protein": 10,
+          "carbs": 29,
+          "fat": 11
+        },
+        {
+          "id": "bowl",
+          "label": "1 textbook bowl (30 g dry rajma)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 165,
+          "kcal": 175,
+          "protein": 7,
+          "carbs": 19,
+          "fat": 8
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Dhaba or restaurant",
+        "caption": "One 200 ml katori. The outside range adds a ghee tadka (5 g) and up to 15 g of cream.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "ghee",
+            "g": [
+              5,
+              5
+            ]
+          },
+          {
+            "id": "cream",
+            "g": [
+              0,
+              15
+            ]
+          }
+        ],
+        "basis": "From published recipe proportions (Swasthi, Rajma masala): a dhaba-style tadka of 1.5 tbsp ghee for 4 servings (about 5 g each), and a creamy restaurant version with a quarter cup of cream for 4 servings (about 15 g each). Proportions only, not a measured value.",
+        "text": [
+          "Dhaba rajma often gets a second tadka of ghee, and restaurant rajma is sometimes finished with cream or malai. The beans don't change; the extra fat does.",
+          "The range below adds about a teaspoon of ghee and up to a tablespoon of cream to a 200 ml katori, in line with published recipe proportions."
+        ],
+        "kcalRange": [
+          255,
+          285
+        ],
+        "fatRange": [
+          14,
+          17
+        ]
+      },
+      "changes": [
+        "Oil and ghee. The masala takes about a teaspoon and a half per serving here. Each extra teaspoon adds about 40 to 45 calories.",
+        "Cream or malai. A tablespoon of cream adds about 30 calories.",
+        "Thickness. A thick, reduced rajma holds more beans in each katori than a thinner, gravy-heavy one.",
+        "Rice alongside. Rajma chawal is two dishes: add the rice separately. A 200 ml katori of plain rice is about {{kcal@plain-rice:k200}} calories."
+      ],
+      "method": [
+        "The recipe is the rajma curry from The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 30 g of dry red rajma, 50 g tomato, 25 g onion, ginger, garlic and 1.5 teaspoons of oil for one bowl. Values are from IFCT 2017.",
+        "Cooked beans are taken at 2.62 times their dry weight, the ratio between USDA's raw and boiled kidney beans. Katoris are worked out at 1 g per ml."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of rajma?",
+          "a": "A 200 ml katori of home rajma curry has about {{kcal:k200}} calories, and a 150 ml katori about {{kcal:k150}}."
+        },
+        {
+          "q": "How much protein is in rajma?",
+          "a": "A 200 ml katori has about {{protein:k200}} g of protein. Most of it comes from the beans."
+        },
+        {
+          "q": "How many calories are in rajma chawal?",
+          "a": "Add the two: a 200 ml katori of rajma is about {{kcal:k200}} calories and a 200 ml katori of plain rice about {{kcal@plain-rice:k200}}, so about {{kcal:k200}} plus {{kcal@plain-rice:k200}} for the pair."
+        },
+        {
+          "q": "Why is rajma soaked overnight?",
+          "a": "Soaking softens the beans so they cook through evenly. It doesn't change the calories: the beans take up water, not energy."
+        }
+      ],
+      "related": [
+        "plain-rice",
+        "dal-tadka",
+        "roti",
+        "paneer-butter-masala"
+      ],
+      "useCase": {
+        "href": "/for/vegetarians/",
+        "label": "Calorie counting for vegetarians"
+      },
+      "crossCheck": [
+        {
+          "source": "Indian Nutrient Databank, Kidney bean curry (ASC165), per bowl",
+          "portionId": "bowl",
+          "kcal": 172.4,
+          "note": "Same textbook recipe, so this confirms the arithmetic rather than the recipe.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 175,
+          "differencePct": -1
+        }
+      ],
+      "judgement": [
+        "INDB's per-100 g value (143.7 kcal) is per 100 g of raw ingredients with no water, so it isn't comparable per gram; the per-bowl value is used instead.",
+        "Teaspoon of oil = 4.5 g (USDA). Bean yield 2.62 from USDA FDC 175193 (raw, 333 kcal) and 175194 (boiled, 127 kcal).",
+        "Density 1 g per ml is an assumption. Spices under 1 g left out."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Rajmah, red (B020), tomato, onion, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC165",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central 175194, kidney beans, red, boiled",
+          "url": "https://fdc.nal.usda.gov/food-details/175194/nutrients",
+          "note": "Cooked bean yield",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Swasthi, Rajma masala (Swasthi's Recipes)",
+          "url": "https://www.indianhealthyrecipes.com/rajma-recipe-rajma-masala/",
+          "note": "Dhaba and creamy variants (proportions only)",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "All India Radio, Bhaderwah rajma GI tag, 2023",
+          "url": "https://www.newsonair.gov.in/bhaderwah-rajma-ramban-sulai-honey-of-jammu-and-kashmir-get-gi-tag",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 105,
+        "protein": 4,
+        "carbs": 12,
+        "fat": 5
+      }
+    },
+    {
+      "slug": "poha",
+      "name": "Poha",
+      "nameLower": "poha",
+      "category": "breakfast",
+      "aliases": [
+        "kanda poha",
+        "batata poha",
+        "bateta poha",
+        "pohe",
+        "aval",
+        "avalakki",
+        "chivda",
+        "flattened rice",
+        "beaten rice",
+        "पोहा",
+        "પૌંઆ"
+      ],
+      "updated": "2026-10-10",
+      "title": "Poha calories: per bowl and per plate",
+      "description": "A plate of poha made with 40 g of dry poha has about {{kcal:plate}} calories. Kanda and batata poha with peanuts, from IFCT 2017 and a textbook recipe.",
+      "answer": "A plate of poha made with 40 g of dry poha, with potato and peanuts, has about {{kcal:plate}} calories.",
+      "intro": [
+        "Poha is flattened rice, rinsed and tossed in a little oil with mustard seeds, turmeric, curry leaves and green chilli. Maharashtra's kanda poha has onion; Gujarat's bateta poha has potato and usually a little sugar and lemon. Indori poha is steamed and topped with sev and jeeravan.",
+        "Plates vary more than recipes do. The easiest way to count poha is by how much dry poha went in."
+      ],
+      "headlinePortion": "plate",
+      "portionsCaption": "Poha with potato and peanuts, made as below. Dry poha weight is before rinsing.",
+      "recipe": {
+        "label": "Recipe: 40 g dry poha with 30 g potato, 10 g peanuts and 10 g oil",
+        "ingredients": [
+          {
+            "id": "rice_flakes",
+            "g": 40
+          },
+          {
+            "id": "potato",
+            "g": 30
+          },
+          {
+            "id": "groundnut",
+            "g": 10
+          },
+          {
+            "id": "oil",
+            "g": 10
+          },
+          {
+            "id": "mustard_seeds",
+            "g": 2
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no published cooked weight for poha, so portions are counted by dry poha"
+      },
+      "portions": [
+        {
+          "id": "small",
+          "label": "1 small bowl (20 g dry poha)",
+          "short": "a small bowl",
+          "fraction": 0.5,
+          "cookedGrams": null,
+          "kcal": 155,
+          "protein": 3,
+          "carbs": 19,
+          "fat": 8
+        },
+        {
+          "id": "plate",
+          "label": "1 plate (40 g dry poha)",
+          "short": "a plate",
+          "fraction": 1,
+          "cookedGrams": null,
+          "kcal": 315,
+          "protein": 6,
+          "carbs": 37,
+          "fat": 15
+        },
+        {
+          "id": "large",
+          "label": "1 large plate (60 g dry poha)",
+          "short": "a large plate",
+          "fraction": 1.5,
+          "cookedGrams": null,
+          "kcal": 470,
+          "protein": 9,
+          "carbs": 56,
+          "fat": 23
+        },
+        {
+          "id": "big",
+          "label": "1 very large plate (100 g dry poha)",
+          "short": "100 g dry poha",
+          "fraction": 2.5,
+          "cookedGrams": null,
+          "kcal": 785,
+          "protein": 15,
+          "carbs": 93,
+          "fat": 38
+        }
+      ],
+      "outside": {
+        "portionId": "plate",
+        "label": "Stall or restaurant",
+        "caption": "One plate made with 40 g dry poha. The outside range is 1 to 1.5 times the plate with up to a teaspoon more oil. Sev on top isn't counted.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1.5
+        ],
+        "extra": [
+          {
+            "id": "oil",
+            "g": [
+              0,
+              4.5
+            ]
+          }
+        ],
+        "basis": "No analysed data was found for stall or restaurant poha. Stated assumption: 1 to 1.5 times the textbook plate with up to 1 tsp (4.5 g) more oil.",
+        "text": [
+          "Poha from a stall or a station is usually a bigger plate, and it's often finished with sev, boondi or extra peanuts. In Indore it comes with jalebi on the side.",
+          "There's no lab measurement of stall poha, so the range below is an assumption. Sev is fried, so a spoon of it on top adds more again."
+        ],
+        "kcalRange": [
+          315,
+          510
+        ],
+        "fatRange": [
+          15,
+          27
+        ]
+      },
+      "changes": [
+        "How much dry poha. It's the main ingredient, so a plate made with twice the poha has close to twice the calories.",
+        "Oil. Each teaspoon adds about 40 calories. This recipe uses 10 g for two bowls.",
+        "Peanuts. 10 g of peanuts adds about 50 calories.",
+        "Toppings. Sev, boondi and namkeen are fried and add calories quickly. Coriander, lemon and pomegranate add almost none.",
+        "Potato or onion. Batata poha has a little more than kanda poha because of the potato, but the difference is small."
+      ],
+      "method": [
+        "The recipe is the poha in Basic Food Preparation, a standard Indian cookery manual (via the Indian Nutrient Databank): 40 g of rice flakes, 30 g potato, 10 g peanuts, 10 g oil and mustard seeds, for two bowls. Values are from IFCT 2017.",
+        "Portions are counted by dry poha, because no reliable cooked weight for poha was found. ICMR-NIN counts a 200 ml cup of poha at about 270 calories, which fits a plate made with a little more poha than the textbook's 40 g."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 plate of poha?",
+          "a": "A plate made with 40 g of dry poha, with potato and peanuts, has about {{kcal:plate}} calories. A large plate with 60 g of poha is about {{kcal:large}}."
+        },
+        {
+          "q": "How much protein is in poha?",
+          "a": "A plate made with 40 g of dry poha has about {{protein:plate}} g of protein, some of it from the peanuts."
+        },
+        {
+          "q": "Does Indori poha have more calories?",
+          "a": "Usually, because of the sev on top. The poha itself is similar; the fried topping is what adds up."
+        },
+        {
+          "q": "Which has fewer calories, poha or idli?",
+          "a": "Per plate, idli is usually lower because it's steamed: 2 medium idlis are about {{kcal@idli:two}} calories, against about {{kcal:plate}} for a plate of poha. Toppings and chutney change both."
+        }
+      ],
+      "related": [
+        "idli",
+        "masala-dosa",
+        "masala-chai",
+        "samosa"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "A calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "Indian Nutrient Databank, Poha (BFP044), per bowl",
+          "portionId": "small",
+          "kcal": 160.8,
+          "note": "Same textbook recipe, so this confirms the arithmetic rather than the recipe.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 157,
+          "differencePct": 3
+        }
+      ],
+      "judgement": [
+        "ICMR-NIN's 270 kcal per 200 ml cup can't be compared directly, because no source gives the dry poha in a cup of cooked poha.",
+        "Recipe-site plates run larger: Archana's Kitchen uses 300 g poha for 3 (100 g each), so the 100 g row is included.",
+        "Lemon (7.5 g) and spices under 1 g are left out; together they add under 5 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Rice flakes (A011), potato, groundnut, mustard seeds, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipe BFP044",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: poha 270 kcal per cup",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Archana's Kitchen, Maharashtrian kanda poha",
+          "url": "https://archanaskitchen.com/maharashtrian-kanda-poha",
+          "note": "Plate size (proportions only)",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "idli",
+      "name": "Idli",
+      "nameLower": "idli",
+      "category": "breakfast",
+      "aliases": [
+        "idly",
+        "iddly",
+        "idlis",
+        "rice idli",
+        "இட்லி",
+        "ಇಡ್ಲಿ",
+        "इडली",
+        "ઈડલી"
+      ],
+      "updated": "2026-10-10",
+      "title": "Idli calories: per idli, small to large",
+      "description": "One medium idli has about {{kcal:medium}} calories, and 2 medium idlis about {{kcal:two}}. Rice and urad dal idli, worked out from IFCT 2017.",
+      "answer": "One medium idli (about {{g:medium}} g) has about {{kcal:medium}} calories, so 2 medium idlis come to about {{kcal:two}}, before sambar and chutney.",
+      "intro": [
+        "Idli is a steamed cake of fermented rice and urad dal batter, usually three or four parts rice to one part dal. There's no oil in the batter, so an idli's calories come almost entirely from the rice and dal in it.",
+        "Sizes vary a lot, from small home idlis to the large ones in many restaurants. Kanchipuram idli is a different dish: it's made with ghee, sesame oil and pepper, so these numbers don't apply to it."
+      ],
+      "headlinePortion": "medium",
+      "portionsCaption": "Plain rice and urad dal idlis, without sambar or chutney.",
+      "recipe": {
+        "label": "Recipe: 60 g parboiled rice, 20 g urad dal and 120 ml water, for 8 small idlis",
+        "ingredients": [
+          {
+            "id": "rice_parboiled",
+            "g": 60
+          },
+          {
+            "id": "urad_dal",
+            "g": 20
+          },
+          {
+            "id": "water",
+            "g": 120
+          }
+        ],
+        "cookedYieldG": 200,
+        "yieldNote": "the batter weight, with no allowance for steaming loss, as the Indian Nutrient Databank does"
+      },
+      "portions": [
+        {
+          "id": "small",
+          "label": "1 small idli (10 g rice and dal)",
+          "short": "a small idli",
+          "fraction": 0.125,
+          "cookedGrams": 25,
+          "kcal": 35,
+          "protein": 1,
+          "carbs": 7,
+          "fat": 0
+        },
+        {
+          "id": "medium",
+          "label": "1 medium idli (15 g rice and dal)",
+          "short": "an idli",
+          "fraction": 0.1875,
+          "cookedGrams": 38,
+          "kcal": 50,
+          "protein": 2,
+          "carbs": 11,
+          "fat": 0
+        },
+        {
+          "id": "large",
+          "label": "1 large idli (20 g rice and dal)",
+          "short": "a large idli",
+          "fraction": 0.25,
+          "cookedGrams": 50,
+          "kcal": 70,
+          "protein": 2,
+          "carbs": 14,
+          "fat": 0
+        },
+        {
+          "id": "two",
+          "label": "2 medium idlis",
+          "short": "2 idlis",
+          "fraction": 0.375,
+          "cookedGrams": 75,
+          "kcal": 105,
+          "protein": 3,
+          "carbs": 21,
+          "fat": 0
+        },
+        {
+          "id": "four_small",
+          "label": "4 small idlis",
+          "short": "4 small idlis",
+          "fraction": 0.5,
+          "cookedGrams": 100,
+          "kcal": 140,
+          "protein": 5,
+          "carbs": 28,
+          "fat": 0
+        }
+      ],
+      "outside": {
+        "portionId": "two",
+        "label": "Restaurant, with ghee",
+        "caption": "Two medium idlis. The outside range is 1 to 1.5 times the size, with up to a teaspoon of ghee (5 g).",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1.5
+        ],
+        "extra": [
+          {
+            "id": "ghee",
+            "g": [
+              0,
+              5
+            ]
+          }
+        ],
+        "basis": "No analysed data was found for restaurant idli. Stated assumption: idlis 1 to 1.5 times the medium size, with up to 1 NIN teaspoon of ghee or podi oil.",
+        "text": [
+          "Restaurant idlis are often larger than home ones, and some places serve them with ghee or with podi mixed in oil. The batter is the same.",
+          "There's no lab figure for restaurant idli, so the range below is an assumption. Sambar and chutney come on the side and are counted separately."
+        ],
+        "kcalRange": [
+          105,
+          200
+        ],
+        "fatRange": [
+          0,
+          5
+        ]
+      },
+      "changes": [
+        "Size. An idli's calories follow the rice and dal in it, so a large idli has about twice a small one.",
+        "Ghee or podi. A teaspoon of ghee, or of oil with podi, adds about 40 to 45 calories.",
+        "What's on the side. Sambar and coconut chutney are separate dishes. Coconut chutney is the richer of the two: ICMR-NIN counts 2 tablespoons at about 120 calories.",
+        "Rava idli. Made with semolina and curd, often with a ghee tadka, it has its own values."
+      ],
+      "method": [
+        "The recipe is the idli in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 60 g parboiled rice, 20 g urad dal and 120 ml water, making 8 small idlis. Values are from IFCT 2017.",
+        "Cooked weight is the batter weight, with nothing allowed for steaming, as the databank does. A medium idli here (about {{g:medium}} g) is close to USDA's 38 g idli."
+      ],
+      "range": {
+        "text": "Published values for one idli run from about {{kcal:small}} calories for a small textbook idli to 75 for ICMR-NIN's idli. The difference is size, so pick the row that matches your idlis.",
+        "reason": "Textbook idli (INDB ASC144) is 10 g of rice and dal, about 35 kcal; NIN counts 2 idlis at 150 kcal (75 each). Both are shown, matched to small and large rows."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 idli?",
+          "a": "A medium idli has about {{kcal:medium}} calories. Small idlis are about {{kcal:small}} and large ones about {{kcal:large}}."
+        },
+        {
+          "q": "How many calories are in 2 idlis with sambar?",
+          "a": "2 medium idlis are about {{kcal:two}} calories. Sambar is extra: ICMR-NIN counts a cup of sambar at about 110 calories."
+        },
+        {
+          "q": "How much protein is in an idli?",
+          "a": "A medium idli has about {{protein:medium}} g of protein, from the rice and the urad dal."
+        },
+        {
+          "q": "Does idli have any fat?",
+          "a": "Very little. There's no oil in the batter, so a plain idli has well under 1 g of fat. Ghee, podi oil and coconut chutney are where fat comes in."
+        }
+      ],
+      "related": [
+        "masala-dosa",
+        "poha",
+        "masala-chai",
+        "plain-rice"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "A calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "Indian Nutrient Databank, Idli (ASC144), per idli",
+          "portionId": "small",
+          "kcal": 34.5,
+          "note": "Same textbook recipe.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 34,
+          "differencePct": 0
+        },
+        {
+          "source": "USDA FoodData Central, FNDDS Idli (55702000), 38 g idli",
+          "portionId": "medium",
+          "kcal": 48.6,
+          "note": "128 kcal per 100 g x 38 g.",
+          "url": "https://fdc.nal.usda.gov/portal-data/external/2708346",
+          "ours": 52,
+          "differencePct": -6
+        },
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: idli, 150 kcal for 2",
+          "portionId": "large",
+          "kcal": 75,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 69,
+          "differencePct": 9
+        }
+      ],
+      "judgement": [
+        "Small = textbook idli (10 g dry). Medium = 15 g dry, which matches USDA's 38 g idli. Large = 20 g dry, close to NIN's idli.",
+        "Yield = batter weight (no steaming loss). Lab idlis are about 63 to 68% water (seen in a search snippet only), which is consistent with 200 g from 80 g of rice and dal.",
+        "USDA's idli fibre (5.8 g per 100 g) looks high for a cooked idli and isn't used."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Parboiled rice (A014), black gram dal (B003); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC144",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Idli (55702000)",
+          "url": "https://fdc.nal.usda.gov/portal-data/external/2708346",
+          "note": "38 g idli, 128 kcal per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: idli, sambar, coconut chutney",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Durgadevi and Shetty, sensory profile of idli, Journal of Food Science and Technology, 2014",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4152537",
+          "note": "Rice to dal ratios",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 140,
+        "protein": 5,
+        "carbs": 28,
+        "fat": 0
+      }
+    },
+    {
+      "slug": "masala-dosa",
+      "name": "Masala dosa",
+      "nameLower": "masala dosa",
+      "category": "breakfast",
+      "aliases": [
+        "masala dosai",
+        "masale dose",
+        "masala dhosa",
+        "dosa",
+        "dosai",
+        "thosai",
+        "mysore masala dosa",
+        "மசாலா தோசை",
+        "ಮಸಾಲೆ ದೋಸೆ",
+        "मसाला डोसा",
+        "મસાલા ઢોસા"
+      ],
+      "updated": "2026-10-10",
+      "title": "Masala dosa calories: home and restaurant",
+      "description": "A home masala dosa has about {{kcal:tsp}} calories with a teaspoon of oil, or {{kcal:tbsp}} with a tablespoon. From IFCT 2017 and a textbook recipe.",
+      "answer": "A home masala dosa has about {{kcal:tsp}} calories with a teaspoon of oil on the tawa, and about {{kcal:tbsp}} with a tablespoon.",
+      "intro": [
+        "Masala dosa is a thin, crisp crepe of fermented rice and urad dal batter, cooked with oil or ghee on a hot tawa and folded around a spiced potato and onion filling. Mysore masala dosa adds a red chutney inside; Udupi-style restaurants made it a breakfast staple across India.",
+        "The batter and filling don't vary much. The oil or ghee on the tawa does, and it's the biggest part of the difference between one dosa and the next."
+      ],
+      "headlinePortion": "tsp",
+      "portionsCaption": "Masala dosa without sambar or chutney.",
+      "recipe": {
+        "label": "Recipe: 2 dosas from 60 g parboiled rice and 20 g urad dal, with a 100 g potato filling; tawa oil per dosa added in the table",
+        "ingredients": [
+          {
+            "id": "rice_parboiled",
+            "g": 60
+          },
+          {
+            "id": "urad_dal",
+            "g": 20
+          },
+          {
+            "id": "water",
+            "g": 120
+          },
+          {
+            "id": "potato",
+            "g": 100
+          },
+          {
+            "id": "onion",
+            "g": 75
+          },
+          {
+            "id": "oil",
+            "g": 4.5,
+            "note": "1 tsp, for the filling"
+          },
+          {
+            "id": "mustard_seeds",
+            "g": 1.7
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no published cooked weight for masala dosa, so portions are counted per dosa"
+      },
+      "portions": [
+        {
+          "id": "tsp",
+          "label": "1 masala dosa, 1 tsp oil on the tawa",
+          "short": "a dosa",
+          "fraction": 0.5,
+          "add": [
+            {
+              "id": "oil",
+              "g": 4.5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 255,
+          "protein": 6,
+          "carbs": 39,
+          "fat": 8
+        },
+        {
+          "id": "two_tsp",
+          "label": "1 masala dosa, 2 tsp oil on the tawa",
+          "short": "a dosa",
+          "fraction": 0.5,
+          "add": [
+            {
+              "id": "oil",
+              "g": 9
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 295,
+          "protein": 6,
+          "carbs": 39,
+          "fat": 12
+        },
+        {
+          "id": "tbsp",
+          "label": "1 masala dosa, 1 tbsp oil on the tawa (textbook)",
+          "short": "a dosa",
+          "fraction": 0.5,
+          "add": [
+            {
+              "id": "oil",
+              "g": 13.6
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 335,
+          "protein": 6,
+          "carbs": 39,
+          "fat": 17
+        },
+        {
+          "id": "plain",
+          "label": "1 plain dosa, 1 tsp oil, no filling",
+          "short": "a plain dosa",
+          "fraction": 0,
+          "add": [
+            {
+              "id": "rice_parboiled",
+              "g": 30
+            },
+            {
+              "id": "urad_dal",
+              "g": 10
+            },
+            {
+              "id": "oil",
+              "g": 4.5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 180,
+          "protein": 5,
+          "carbs": 28,
+          "fat": 5
+        }
+      ],
+      "outside": {
+        "portionId": "tsp",
+        "label": "Restaurant, butter or ghee",
+        "caption": "One masala dosa. The outside range is 1 to 1.5 times the size, plus 5 to 15 g of butter or ghee on the tawa.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1.5
+        ],
+        "extra": [
+          {
+            "id": "ghee",
+            "g": [
+              5,
+              15
+            ]
+          }
+        ],
+        "basis": "No analysed data was found for a single restaurant masala dosa. Stated assumption: 1 to 1.5 times the size, with 1 to 3 teaspoons (5 to 15 g) of butter or ghee. A BMJ study of restaurant meals in Bangalore measured full meals, not single dosas, so it isn't used here.",
+        "text": [
+          "Restaurant dosas are often larger, and ghee roast and butter masala dosas are cooked with a lot more fat on the tawa. Sambar and chutney come on the side.",
+          "There's no lab figure for a single restaurant dosa, so the range below is an assumption: a dosa up to half as big again, with 1 to 3 teaspoons of butter or ghee."
+        ],
+        "kcalRange": [
+          300,
+          515
+        ],
+        "fatRange": [
+          13,
+          26
+        ]
+      },
+      "changes": [
+        "Oil, ghee or butter on the tawa. Each teaspoon adds about 40 to 45 calories. Ghee roast and butter dosas can carry several.",
+        "Size. A restaurant dosa can use half as much batter again as a home one.",
+        "The filling. More potato adds about 35 calories per 50 g; the onion and spices add little.",
+        "Sambar and chutney. They're separate dishes. ICMR-NIN counts a cup of sambar at about 110 calories and 2 tablespoons of coconut chutney at about 120."
+      ],
+      "method": [
+        "The recipe is the masala dosa in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 60 g parboiled rice and 20 g urad dal for the batter, 100 g potato, 75 g onion and a teaspoon of oil for the filling, making 2 dosas. Values are from IFCT 2017.",
+        "The textbook fries each dosa with a tablespoon of oil. Many home cooks use far less, so the table shows a teaspoon, two teaspoons and a tablespoon."
+      ],
+      "range": {
+        "text": "ICMR-NIN counts a masala dosa at 200 calories. The textbook's dosa, with a tablespoon of oil, works out to about {{kcal:tbsp}}. Most of the gap is oil on the tawa, and some is size, so a masala dosa can reasonably be anywhere from about 200 to {{kcal:tbsp}} at home.",
+        "reason": "NIN's 200 kcal per masala dosa against about 345 kcal for the textbook dosa with 1 tbsp tawa oil (INDB ASC146 gives 345 for the same recipe). Shown as a range on the page."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 masala dosa?",
+          "a": "A home masala dosa has about {{kcal:tsp}} calories with a teaspoon of oil on the tawa, and about {{kcal:tbsp}} with a tablespoon. Restaurant dosas with butter or ghee run higher, about {{outLo}} to {{outHi}}."
+        },
+        {
+          "q": "How many calories are in a plain dosa?",
+          "a": "A plain dosa with a teaspoon of oil and no filling has about {{kcal:plain}} calories."
+        },
+        {
+          "q": "Does masala dosa with sambar and chutney have more calories?",
+          "a": "Yes. They're counted on their own: about 110 calories for a cup of sambar and about 120 for 2 tablespoons of coconut chutney, per ICMR-NIN."
+        },
+        {
+          "q": "How much protein is in a masala dosa?",
+          "a": "A home masala dosa has about {{protein:tsp}} g of protein, mostly from the urad dal and rice."
+        }
+      ],
+      "related": [
+        "idli",
+        "poha",
+        "masala-chai",
+        "samosa"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant, Swiggy and Zomato food"
+      },
+      "crossCheck": [
+        {
+          "source": "Indian Nutrient Databank, Masala dosa (ASC146), per dosa",
+          "portionId": "tbsp",
+          "kcal": 345.1,
+          "note": "Same textbook recipe, so this confirms the arithmetic rather than the recipe.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 335,
+          "differencePct": 3
+        },
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: masala dosa",
+          "portionId": "tsp",
+          "kcal": 200,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 255,
+          "differencePct": -22
+        }
+      ],
+      "judgement": [
+        "The textbook also tempers the filling with 1 tsp each of chana and urad dal; at an assumed 4 g each they would add about 13 kcal per dosa. Left out because no source gives their weight.",
+        "Tawa oil shown as 1 tsp, 2 tsp and 1 tbsp (USDA: 4.5 g and 13.6 g).",
+        "No Tier 1-3 source independent of the textbook gives a value for a home masala dosa; NIN's 200 kcal is the only one, and it is lower.",
+        "Plain dosa row = half the batter with 1 tsp oil."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Parboiled rice (A014), black gram dal (B003), potato, onion, oil, mustard seeds; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC146",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: masala dosa, sambar, coconut chutney",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central 171411, soybean oil",
+          "url": "https://fdc.nal.usda.gov/portal-data/external/171411",
+          "note": "Teaspoon 4.5 g, tablespoon 13.6 g",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "samosa",
+      "name": "Samosa",
+      "nameLower": "samosa",
+      "category": "street",
+      "aliases": [
+        "aloo samosa",
+        "samosas",
+        "samoosa",
+        "singara",
+        "shingara",
+        "singada",
+        "punjabi samosa",
+        "समोसा",
+        "સમોસા"
+      ],
+      "updated": "2026-10-10",
+      "title": "Samosa calories: home and street samosa",
+      "description": "A home aloo samosa has about {{kcal:one}} calories; a street samosa about {{outLo}} to {{outHi}}. From IFCT 2017 and measured street samples.",
+      "answer": "A home aloo samosa has about {{kcal:one}} calories. A street samosa is usually {{outLo}} to {{outHi}}, depending on its size and how much oil it took up.",
+      "intro": [
+        "A samosa is a maida pastry, kneaded with ghee or oil, filled with spiced potato and peas, and deep-fried. Punjabi samosas are large with a thick, ajwain-spiced crust; Bengal's singara is smaller.",
+        "The filling is modest. Most of a samosa's calories come from the oil: some in the dough, and more taken up in the kadhai."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Home aloo samosas made as below, without chutney.",
+      "recipe": {
+        "label": "Recipe: 6 samosas from 60 g maida, 150 g potato and 75 g peas, deep-fried",
+        "ingredients": [
+          {
+            "id": "maida",
+            "g": 60
+          },
+          {
+            "id": "ghee",
+            "g": 9,
+            "note": "2 tsp, in the dough"
+          },
+          {
+            "id": "water",
+            "g": 45
+          },
+          {
+            "id": "potato",
+            "g": 150
+          },
+          {
+            "id": "peas_fresh",
+            "g": 75
+          },
+          {
+            "id": "oil",
+            "g": 12,
+            "note": "For the filling"
+          },
+          {
+            "id": "oil",
+            "g": 50,
+            "note": "Taken up in frying: a stated assumption, so the samosa is about 18% fat"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no published cooked weight for these samosas, so portions are counted per samosa"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 samosa",
+          "short": "a samosa",
+          "fraction": 0.1667,
+          "cookedGrams": null,
+          "kcal": 165,
+          "protein": 2,
+          "carbs": 13,
+          "fat": 12
+        },
+        {
+          "id": "large",
+          "label": "1 large samosa (1.5 times)",
+          "short": "a large samosa",
+          "fraction": 0.25,
+          "cookedGrams": null,
+          "kcal": 250,
+          "protein": 3,
+          "carbs": 19,
+          "fat": 18
+        },
+        {
+          "id": "two",
+          "label": "2 samosas",
+          "short": "2 samosas",
+          "fraction": 0.3333,
+          "cookedGrams": null,
+          "kcal": 335,
+          "protein": 5,
+          "carbs": 25,
+          "fat": 24
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Street or shop",
+        "caption": "Calibrated to street samosas measured in Delhi (47 g, 13.6 g fat) and a village nearby (79 g, 23.5 g fat).",
+        "fatFactor": [
+          1.6,
+          1.65
+        ],
+        "sizeFactor": [
+          0.7,
+          1.2
+        ],
+        "basis": "Calibrated to Gupta et al. 2016, which measured vendor samosas: a Delhi urban slum samosa of 46.66 g with 13.62 g fat, and a village samosa of 79.25 g with 23.46 g fat (about 29 g fat per 100 g). Size factor = vendor weight against this page's samosa; fat factor chosen so total fat matches the measured fat.",
+        "text": [
+          "A peer-reviewed study weighed and tested street samosas from vendors in Delhi and a nearby village. They held about 29 g of fat per 100 g, against about 18 g in a fresh home samosa. Oil that's used again and again, and a thicker crust, are common reasons.",
+          "The range below uses those measured samosas: a small one of about 47 g and a large one of about 79 g."
+        ],
+        "kcalRange": [
+          160,
+          285
+        ],
+        "fatRange": [
+          13,
+          24
+        ]
+      },
+      "changes": [
+        "Oil taken up in frying. It's the biggest single part of a samosa's calories. Frying at the right heat, and draining well, keeps it lower.",
+        "Ghee or oil in the dough. More fat makes a flakier crust and adds about 45 calories per teaspoon to the batch.",
+        "Size. A large Punjabi samosa can be half as big again as a small one.",
+        "Chutney and chaat. Tamarind chutney with jaggery adds about 60 calories a tablespoon, per ICMR-NIN. Samosa chaat with curd, chole and sev is a meal of its own."
+      ],
+      "method": [
+        "The recipe is the potato samosa in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 60 g maida with 2 teaspoons of ghee, 150 g potato, 75 g peas and 12 g of oil for the filling, making 6 samosas. Values are from IFCT 2017.",
+        "Frying oil is the hard part. The databank counts all of it as eaten, which gives far too high a number. This page assumes a fresh home samosa ends up about 18% fat, in line with lab-fried samosas (18.3%) and USDA's samosa recipe (17.5%). That works out to about 8 g of oil taken up per samosa."
+      ],
+      "range": {
+        "text": "ICMR-NIN counts one samosa at 200 calories, a little above this page's {{kcal:one}}. Street samosas are measured as fattier, so a samosa can reasonably be anywhere from about {{kcal:one}} to {{outHi}} calories.",
+        "reason": "NIN's 200 kcal per samosa is about 19% above this page's home samosa; street samosas measured by Gupta et al. hold more fat. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 samosa?",
+          "a": "A home aloo samosa has about {{kcal:one}} calories. A street samosa is usually {{outLo}} to {{outHi}}, depending on its size and the oil."
+        },
+        {
+          "q": "How much fat is in a samosa?",
+          "a": "A home samosa has about {{fat:one}} g of fat. Street samosas measured in a Delhi study had about 14 to 23 g each."
+        },
+        {
+          "q": "Do baked or air-fried samosas have fewer calories?",
+          "a": "Yes, because they don't take up frying oil. The crust and filling stay the same, so the difference is roughly the oil, about 8 g in a home samosa here, or about 70 calories."
+        },
+        {
+          "q": "How many calories are in samosa with chutney?",
+          "a": "Add the chutney: ICMR-NIN counts a tablespoon of tamarind chutney with jaggery at about 60 calories, and a tablespoon of green chutney at very little."
+        }
+      ],
+      "related": [
+        "poha",
+        "masala-chai",
+        "masala-dosa",
+        "idli"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant, Swiggy and Zomato food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: samosa",
+          "portionId": "one",
+          "kcal": 200,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 167,
+          "differencePct": 19
+        }
+      ],
+      "judgement": [
+        "Frying oil taken up: solved so that total fat is 18% of the raw samosa weight plus absorbed oil (58.5 g raw per samosa, 3.7 g fat before frying, about 8.4 g absorbed). Moisture lost in frying is not counted. Based on Sakhale et al. 2011 (18.34% oil, fresh oil, lab) and USDA FNDDS samosa (17.47 g fat per 100 g).",
+        "INDB's samosa values (577 kcal per 100 g) count all 480 ml of frying oil as eaten and are not used.",
+        "Teaspoon of ghee = 4.5 g; 3 tbsp water = 45 g. Spices under 1 g left out.",
+        "The Health Ministry's 2025 oil and sugar boards say a samosa can hold 17 to 28 g of fat (news report); consistent with the street range."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Maida (A018), potato, peas, ghee, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC361",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Gupta et al., Unhealthy fat in street and snack foods, Journal of Nutrition Education and Behavior, 2016",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4826272",
+          "note": "Measured samosa weight and fat",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Sakhale et al., oil uptake in samosa, Journal of Food Science and Technology, 2011",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3551041",
+          "note": "Oil content of lab-fried samosa, 18.34%",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Samosa (58124500)",
+          "url": "https://fdc.nal.usda.gov/portal-data/external/2708730",
+          "note": "17.47 g fat per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: samosa, tamarind chutney",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "paneer-butter-masala",
+      "name": "Paneer butter masala",
+      "nameLower": "paneer butter masala",
+      "category": "restaurant",
+      "aliases": [
+        "paneer makhani",
+        "butter paneer",
+        "paneer makhanwala",
+        "paneer in butter sauce",
+        "पनीर बटर मसाला",
+        "पनीर मखनी",
+        "પનીર બટર મસાલા"
+      ],
+      "updated": "2026-10-10",
+      "title": "Paneer butter masala calories: home and restaurant",
+      "description": "A 200 ml katori of home paneer butter masala has about {{kcal:k200}} calories; a restaurant serving often has two or three times that. From IFCT 2017.",
+      "answer": "A 200 ml katori of home paneer butter masala has about {{kcal:k200}} calories. A restaurant serving is usually bigger and richer: about {{outLo}} to {{outHi}}.",
+      "intro": [
+        "Paneer butter masala, or paneer makhani, is paneer in a tomato gravy finished with butter and a little cream. Some cooks add onion, cashew and a pinch of sugar. Shahi paneer is its paler cousin, richer in cashew and cream and lighter on tomato.",
+        "Paneer is the base, and it isn't light: about 258 calories per 100 g. The butter and cream decide how much higher the dish goes."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Home paneer butter masala made as below.",
+      "recipe": {
+        "label": "Recipe: 2 bowls from 100 g paneer, 100 g tomato, 50 g onion, 3 tsp butter and 2 tsp cream",
+        "ingredients": [
+          {
+            "id": "paneer",
+            "g": 100
+          },
+          {
+            "id": "tomato",
+            "g": 100
+          },
+          {
+            "id": "onion",
+            "g": 50
+          },
+          {
+            "id": "ginger",
+            "g": 20
+          },
+          {
+            "id": "garlic",
+            "g": 1.3
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3
+          },
+          {
+            "id": "butter",
+            "g": 14.2,
+            "note": "3 tsp"
+          },
+          {
+            "id": "cream",
+            "g": 10,
+            "note": "2 tsp"
+          },
+          {
+            "id": "sugar",
+            "g": 6.3,
+            "note": "1.5 tsp"
+          }
+        ],
+        "cookedYieldG": 305,
+        "yieldNote": "the ingredients added together, with no allowance for water cooked off, as the Indian Nutrient Databank does",
+        "densityGPerMl": 1,
+        "densityNote": "taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 225,
+          "protein": 11,
+          "carbs": 14,
+          "fat": 14
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 300,
+          "protein": 14,
+          "carbs": 19,
+          "fat": 19
+        },
+        {
+          "id": "bowl",
+          "label": "1 textbook bowl (50 g paneer)",
+          "short": "a bowl",
+          "fraction": 0.5,
+          "cookedGrams": 153,
+          "kcal": 230,
+          "protein": 11,
+          "carbs": 15,
+          "fat": 14
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 150,
+          "protein": 7,
+          "carbs": 10,
+          "fat": 9
+        }
+      ],
+      "outside": {
+        "portionId": "bowl",
+        "label": "Restaurant serving",
+        "caption": "One serving. The outside range is 1.5 to 2.5 times the textbook bowl, with 1.5 to 2 times the butter and cream.",
+        "fatFactor": [
+          1.5,
+          2
+        ],
+        "sizeFactor": [
+          1.5,
+          2.5
+        ],
+        "basis": "Size: Sanjeev Kapoor's recipe serves 125 g of paneer per person, 2.5 times the textbook bowl's 50 g. Fat: a stated assumption that restaurants finish with 1.5 to 2 times the butter and cream. No lab measurement of restaurant paneer butter masala was found.",
+        "text": [
+          "A restaurant serving usually has more paneer than a home katori, and more butter and cream on top. A published chef's recipe serves 125 g of paneer per person, two and a half times the textbook bowl.",
+          "There's no lab measurement of restaurant paneer butter masala, so the range below is an assumption based on that serving size and a richer finish."
+        ],
+        "kcalRange": [
+          390,
+          725
+        ],
+        "fatRange": [
+          27,
+          53
+        ]
+      },
+      "changes": [
+        "Paneer. It carries most of the calories. Low-fat paneer has noticeably fewer.",
+        "Butter. Each extra tablespoon adds about 100 calories to the pot.",
+        "Cream and cashew. A tablespoon of cream adds about 30 calories; 10 g of cashew about 60.",
+        "Portion. Restaurant servings are often two or three times a home katori."
+      ],
+      "method": [
+        "The recipe is paneer in butter sauce from The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g paneer, 100 g tomato, 50 g onion, ginger, garlic, green chilli, 3 teaspoons of butter, 2 teaspoons of cream and 1.5 teaspoons of sugar, for 2 bowls. Paneer, vegetables and spices are from IFCT 2017; butter, cream and sugar, which IFCT doesn't list, are from USDA FoodData Central.",
+        "The cooked weight is the ingredients added together, as the databank does. Katoris are worked out at 1 g per ml."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of paneer butter masala?",
+          "a": "A 200 ml katori of home paneer butter masala has about {{kcal:k200}} calories. A restaurant serving is usually {{outLo}} to {{outHi}}."
+        },
+        {
+          "q": "How much protein is in paneer butter masala?",
+          "a": "A 200 ml katori has about {{protein:k200}} g of protein, nearly all from the paneer."
+        },
+        {
+          "q": "How much fat is in paneer butter masala?",
+          "a": "A 200 ml katori of the home version has about {{fat:k200}} g of fat, from the paneer, butter and cream."
+        },
+        {
+          "q": "Which has more calories, paneer butter masala or shahi paneer?",
+          "a": "Usually shahi paneer, because its gravy is built on cashew and cream rather than tomato. Both depend heavily on how much butter and cream go in."
+        }
+      ],
+      "related": [
+        "roti",
+        "plain-rice",
+        "dal-tadka",
+        "rajma"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant, Swiggy and Zomato food"
+      },
+      "crossCheck": [
+        {
+          "source": "Indian Nutrient Databank, Paneer in butter sauce (ASC222), per bowl",
+          "portionId": "bowl",
+          "kcal": 228.3,
+          "note": "Same textbook recipe, so this confirms the arithmetic rather than the recipe.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 230,
+          "differencePct": -1
+        }
+      ],
+      "judgement": [
+        "Paneer from IFCT 2017 (L003, 258 kcal per 100 g). Amul's label paneer is 312 kcal per 100 g; branded paneer can be richer.",
+        "Butter teaspoon = 4.73 g (USDA tablespoon 14.2 g / 3). Cream teaspoon = 5 g (USDA tablespoon 15 g / 3). Sugar teaspoon = 4.2 g (USDA).",
+        "Textbook 'single cream' matched to USDA light cream (about 19% fat).",
+        "Monash University's paneer butter masala (469 kcal per serve) is a different, richer recipe and isn't used as a cross-check."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Paneer (L003), tomato, onion, ginger; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC222",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central 173430 (butter), 170857 (light cream), 169655 (sugar)",
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Sanjeev Kapoor, Paneer butter masala",
+          "url": "https://www.sanjeevkapoor.com/recipe/Paneer-Butter-Masala.html",
+          "note": "Restaurant-style serving size (proportions only)",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 150,
+        "protein": 7,
+        "carbs": 10,
+        "fat": 9
+      }
+    },
+    {
+      "slug": "masala-chai",
+      "name": "Masala chai",
+      "nameLower": "masala chai",
+      "category": "drinks",
+      "aliases": [
+        "chai",
+        "tea",
+        "masala tea",
+        "cutting chai",
+        "adrak chai",
+        "ginger tea",
+        "cha",
+        "chaha",
+        "मसाला चाय",
+        "चाय",
+        "મસાલા ચા",
+        "ચા"
+      ],
+      "updated": "2026-10-10",
+      "title": "Masala chai calories: per cup, with and without sugar",
+      "description": "A cup of masala chai with 50 ml toned milk and 2 tsp sugar has about {{kcal:cup2}} calories; without sugar, about {{kcal:cup0}}. Worked out per cup.",
+      "answer": "A cup of masala chai made with 50 ml of toned milk and 2 teaspoons of sugar has about {{kcal:cup2}} calories. Without sugar it's about {{kcal:cup0}}.",
+      "intro": [
+        "Masala chai is tea leaves boiled with water, milk and sugar, with ginger, cardamom and other spices. In Gujarat it's usually sweet and milky; Mumbai's cutting chai is strong and served as half a glass.",
+        "Tea leaves and spices add almost nothing. The calories are in the milk and the sugar, and the sugar is usually the bigger share."
+      ],
+      "headlinePortion": "cup2",
+      "portionsCaption": "A cup here is ICMR-NIN's cup: 50 ml of toned milk topped up with water.",
+      "recipe": {
+        "label": "Recipe: one cup, 50 ml toned milk and about 150 ml water, with tea and spices",
+        "ingredients": [
+          {
+            "id": "milk_toned",
+            "g": 50
+          },
+          {
+            "id": "water",
+            "g": 150
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "counted per cup; tea leaves and spices add under 1 kcal"
+      },
+      "portions": [
+        {
+          "id": "cup0",
+          "label": "1 cup, no sugar",
+          "short": "a cup",
+          "fraction": 1,
+          "cookedGrams": null,
+          "kcal": 30,
+          "protein": 2,
+          "carbs": 2,
+          "fat": 2
+        },
+        {
+          "id": "cup1",
+          "label": "1 cup, 1 tsp sugar",
+          "short": "a cup",
+          "fraction": 1,
+          "add": [
+            {
+              "id": "sugar",
+              "g": 4.2
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 45,
+          "protein": 2,
+          "carbs": 7,
+          "fat": 2
+        },
+        {
+          "id": "cup2",
+          "label": "1 cup, 2 tsp sugar",
+          "short": "a cup",
+          "fraction": 1,
+          "add": [
+            {
+              "id": "sugar",
+              "g": 8.4
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 60,
+          "protein": 2,
+          "carbs": 11,
+          "fat": 2
+        },
+        {
+          "id": "cutting",
+          "label": "1 cutting chai (half a cup), 1 tsp sugar",
+          "short": "a cutting",
+          "fraction": 0.5,
+          "add": [
+            {
+              "id": "sugar",
+              "g": 4.2
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 30,
+          "protein": 1,
+          "carbs": 5,
+          "fat": 1
+        },
+        {
+          "id": "buffalo",
+          "label": "1 cup with 50 ml buffalo milk, 2 tsp sugar",
+          "short": "a cup",
+          "fraction": 0,
+          "add": [
+            {
+              "id": "milk_buffalo",
+              "g": 50
+            },
+            {
+              "id": "sugar",
+              "g": 8.4
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 85,
+          "protein": 2,
+          "carbs": 13,
+          "fat": 3
+        }
+      ],
+      "outside": {
+        "portionId": "cup2",
+        "label": "Tapri or station chai",
+        "caption": "One cup. The outside range adds up to 1 more teaspoon of sugar and up to 25 ml more full-fat milk.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "sugar",
+            "g": [
+              0,
+              4.2
+            ]
+          },
+          {
+            "id": "milk_buffalo",
+            "g": [
+              0,
+              25
+            ]
+          }
+        ],
+        "basis": "No measured data was found for tapri or station chai. Stated assumption: the same cup with up to 1 more level teaspoon of sugar and up to 25 ml more buffalo milk.",
+        "text": [
+          "Chai from a tapri or a station is often sweeter and milkier than home chai, sometimes made with buffalo milk. A cutting chai is half a glass, so it's about half of a cup.",
+          "There's no lab measurement of tapri chai, so the range below is an assumption: up to a teaspoon more sugar and a little more full-fat milk."
+        ],
+        "kcalRange": [
+          60,
+          105
+        ],
+        "fatRange": [
+          2,
+          3
+        ]
+      },
+      "changes": [
+        "Sugar. Each level teaspoon adds about 16 calories. A heaped home teaspoon holds more.",
+        "Milk. Toned milk (3% fat) is the lightest common choice. Full-cream and buffalo milk add more per cup.",
+        "Cup size. A cutting chai is half a cup; a large mug can be twice one.",
+        "How many cups. Three cups a day with 2 teaspoons of sugar each adds up to about {{kcal:cup2}} times three."
+      ],
+      "method": [
+        "The cup follows ICMR-NIN's own tea: 2 teaspoons of sugar and 50 ml of toned milk. Toned milk is from Amul Taaza's label (3% fat, FSSAI's toned milk standard), buffalo milk from IFCT 2017 and sugar from USDA FoodData Central, at 4.2 g per level teaspoon.",
+        "Water, tea leaves and spices add almost nothing, so the cup is counted from its milk and sugar."
+      ],
+      "range": {
+        "text": "ICMR-NIN counts this cup at 75 calories, against about {{kcal:cup2}} here. Most of the gap is the teaspoon: a level teaspoon of sugar is about 4.2 g, and many kitchen spoons hold more. A cup with 2 teaspoons of sugar is about {{kcal:cup2}} to 75 calories.",
+        "reason": "NIN's tea (2 tsp sugar, 50 ml toned milk) is 75 kcal; with USDA's 4.2 g level teaspoon it works out to about 62 kcal (-17%). Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in a cup of chai with sugar?",
+          "a": "A cup with 50 ml of toned milk and 2 teaspoons of sugar has about {{kcal:cup2}} calories, and about {{kcal:cup1}} with 1 teaspoon."
+        },
+        {
+          "q": "How many calories are in a cutting chai?",
+          "a": "About {{kcal:cutting}} calories with a teaspoon of sugar, since it's about half a cup."
+        },
+        {
+          "q": "Does chai without sugar have calories?",
+          "a": "A little, from the milk: about {{kcal:cup0}} calories a cup with 50 ml of toned milk."
+        },
+        {
+          "q": "Does buffalo milk chai have more calories?",
+          "a": "Yes. With 50 ml of buffalo milk and 2 teaspoons of sugar, a cup comes to about {{kcal:buffalo}}, because buffalo milk has about twice the fat of toned milk."
+        }
+      ],
+      "related": [
+        "poha",
+        "samosa",
+        "idli",
+        "masala-dosa"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "A calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: tea, 2 tsp sugar and 50 ml toned milk",
+          "portionId": "cup2",
+          "kcal": 75,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 62,
+          "differencePct": 22
+        }
+      ],
+      "judgement": [
+        "Level teaspoon of sugar = 4.2 g (USDA FDC 169655). NIN likely counts about 5 g per teaspoon, which closes most of the gap; Slate shows both ends.",
+        "Toned milk from the Amul Taaza label (58 kcal, 3 g fat per 100 ml), taken as per 100 g. FSSAI toned milk: at least 3.0% fat, 8.5% SNF.",
+        "INDB's hot tea (ASC001) uses 25 ml whole milk and 1 tsp sugar per cup (34 kcal); a lighter cup than NIN's."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: tea 75 kcal per cup; teaspoon 5 ml",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Amul Taaza toned milk, label via Dudhsagar Dairy",
+          "url": "https://dudhsagardairy.coop/dairy/products/amul-taaza/",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Milk, whole, buffalo (L001); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central 169655, sugars, granulated",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "4.2 g per teaspoon",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    }
+  ]
+}

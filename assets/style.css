@@ -512,6 +512,64 @@ ul.grid-4,ul.grid-3,ul.grid-tiles,ol.steps,ol.promises,.plan-list,.rows{list-sty
 
 .support-privacy{margin-top:40px}
 
+/* =====================================================================
+   Content pages: /calories/, /for/, /compare/, /blog/.
+   They reuse the reading layout above (.legal); these are the extras.
+   ===================================================================== */
+
+.crumbs{margin-bottom:8px}
+.crumbs ol{list-style:none;display:flex;flex-wrap:wrap;align-items:center;gap:0 8px;font-size:var(--fs-small);color:var(--ink-mute)}
+.crumbs li + li::before{content:"/";margin-right:8px}
+.crumbs a{display:inline-flex;align-items:center;min-height:var(--tap);text-decoration:none}
+.crumbs a:hover{color:var(--ink)}
+
+.legal .answer-first{margin-top:20px;font-size:var(--fs-lede);line-height:1.5;color:var(--ink)}
+.legal .meta-line{margin-top:12px;font-size:var(--fs-small)}
+.legal h3{font-size:var(--fs-line);font-weight:700;letter-spacing:0;margin-top:28px;margin-bottom:8px}
+.legal ol{padding-left:1.25em}
+
+/* Nutrition table: stays a real table on phones, numbers right-aligned */
+.table-wrap{margin-top:16px}
+.legal table.nutri td,.legal table.nutri th{padding:12px 12px 12px 0}
+.legal table.nutri td:last-child,.legal table.nutri th:last-child{padding-right:0}
+.legal table.nutri .n{text-align:right;white-space:nowrap}
+.legal table.nutri td.n:first-of-type{font-weight:500}
+.legal table.nutri caption{caption-side:bottom;text-align:left;padding-top:12px;font-size:var(--fs-label);color:var(--ink-mute)}
+@media (max-width:559.98px){
+  .legal table.nutri{display:table}
+  .legal table.nutri thead{position:static;width:auto;height:auto;overflow:visible;clip-path:none;display:table-header-group}
+  .legal table.nutri tbody{display:table-row-group}
+  .legal table.nutri tr{display:table-row;padding:0}
+  .legal table.nutri td,.legal table.nutri th{display:table-cell;padding:10px 8px 10px 0;border-bottom:1px solid var(--hairline)}
+  .legal table.nutri td::before{content:none}
+  .legal table.nutri td:first-child{font-weight:400}
+}
+
+.note{margin-top:32px;font-size:var(--fs-small);line-height:1.5}
+.note p + p{margin-top:8px}
+
+.link-list,.legal ul.link-list{list-style:none;padding-left:0}
+.legal .link-list li + li{margin-top:0}
+.link-list a{display:inline-flex;align-items:center;min-height:var(--tap)}
+
+.sources{font-size:var(--fs-small);line-height:1.5}
+.sources li + li{margin-top:6px}
+
+.page-cta{margin-top:64px;padding-top:48px;border-top:1px solid var(--hairline)}
+.page-cta .cta-line{font-size:var(--fs-lede);line-height:1.45;font-weight:500;max-width:var(--measure)}
+.page-cta .actions{margin-top:24px}
+
+/* Hub: grouped list with a filter box */
+.hub-search{display:flex;align-items:center;min-height:52px;margin-top:32px;border-bottom:1px solid var(--hairline)}
+.hub-search input{flex:1;min-width:0;min-height:var(--tap);border:0;padding:0;background:transparent;color:var(--ink);font-size:var(--fs-line);caret-color:var(--ink)}
+.hub-search input::placeholder{color:var(--ink-mute);opacity:1}
+.hub-empty{margin-top:24px}
+.hub-list,.legal ul.hub-list{list-style:none;padding-left:0;border-top:1px solid var(--hairline)}
+.legal .hub-list li + li{margin-top:0}
+.hub-list a{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:52px;border-bottom:1px solid var(--hairline);text-decoration:none;font-size:var(--fs-line)}
+.hub-list a:hover .hub-name{text-decoration:underline;text-decoration-color:var(--hairline);text-underline-offset:3px}
+.hub-list .hub-kcal{flex:none;color:var(--ink-mute);font-size:var(--fs-small);font-weight:500;white-space:nowrap}
+
 /* 404 */
 .notfound{padding:clamp(80px,14vw,176px) 0;text-align:center}
 .notfound-link{margin-top:32px;font-size:var(--fs-lede)}

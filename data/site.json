@@ -1,0 +1,38 @@
+{
+  "cta": {
+    "line": "Slate works this out for your own katori and oil. Free, no login, iPhone.",
+    "appStoreUrl": null
+  },
+  "foodNote": "Typical values for a home kitchen. Your own katori, roti and oil change the number; Slate adjusts for them.",
+  "hub": {
+    "h1": "Calories in Indian food",
+    "title": "Calories in Indian food: roti, dal, rice and more",
+    "description": "Calories, protein, carbs and fat for everyday Indian dishes, by katori, piece and plate, worked out from IFCT 2017 recipes in grams.",
+    "intro": [
+      "Calories, protein, carbs and fat for everyday Indian food, in the portions you actually eat: a roti, a katori, a plate, a cup.",
+      "Every number is worked out from a recipe in grams and the Indian Food Composition Tables (IFCT 2017). Each page shows the recipe, the arithmetic and the sources."
+    ]
+  },
+  "categories": [
+    { "id": "breads", "name": "Breads" },
+    { "id": "dals", "name": "Dals and curries" },
+    { "id": "rice", "name": "Rice" },
+    { "id": "sabzi", "name": "Sabzis" },
+    { "id": "breakfast", "name": "Breakfast" },
+    { "id": "street", "name": "Street food and snacks" },
+    { "id": "sweets", "name": "Sweets" },
+    { "id": "drinks", "name": "Drinks" },
+    { "id": "fasting", "name": "Fasting food" },
+    { "id": "restaurant", "name": "Restaurant dishes" }
+  ],
+  "footerLinks": [
+    { "href": "/calories/", "label": "Food calories" },
+    { "href": "/for/", "label": "Who Slate is for" },
+    { "href": "/compare/", "label": "Compare" },
+    { "href": "/blog/", "label": "Blog" },
+    { "href": "/privacy/", "label": "Privacy policy" },
+    { "href": "/terms/", "label": "Terms" },
+    { "href": "/support/", "label": "Support" },
+    { "href": "mailto:support@writeonslate.com", "label": "support@writeonslate.com" }
+  ]
+}
