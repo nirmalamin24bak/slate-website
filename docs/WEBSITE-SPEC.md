@@ -375,6 +375,7 @@ Two columns on desktop (copy left, demo right), stacked on mobile (copy first).
 - **Heading:** Every number here is an estimate.
 - **Body:** Packet labels can be 20% out. Restaurant oil can be more. Slate is built to be consistent, so your week tells the truth even when a single day is rough.
 - **Second paragraph:** Numbers are worked out from the Indian Food Composition Tables (IFCT 2017) and adjusted for your kitchen. AI only reads what you wrote. It never makes up a calorie.
+- **Third paragraph:** Slate reads your line and works out the dish, how much, and whether it was made at home or outside. The number is then calculated on your phone from the Indian Food Composition Tables (IFCT 2017) and dish recipes in grams. Home-cooked dishes use your kitchen: your katori (150, 200 or 250 ml), your roti (6, 8 or 10 inches), how long a bottle of oil lasts your family, and how you take your chai. Outside food uses more oil and a bigger portion. The same line always gives the same number. If Slate can't recognise a line, it counts it as zero. It never guesses.
 - **Visual:** a static replica of the "How we got this" sheet as a card:
   - Title: "2 roti" · "220 cals"
   - Connected macro bar (teal, turmeric, plum) and "Protein 7 g · Carbs 40 g · Fat 4 g"
@@ -457,17 +458,18 @@ Use native `<details>`/`<summary>` accordions. All closed by default. Heading: "
 2. **Do I need an account?** No. There's no login, email or phone number. Slate creates an anonymous account on your phone.
 3. **Where is my data stored?** In Mumbai, India. Nobody else can see your Slate, and you can export or delete all of it from Settings.
 4. **How accurate are the numbers?** They're estimates, like every calorie number. Slate uses Indian food composition data and adjusts for your katori, roti, oil and chai, so the numbers are consistent. Tap any number to see how it was worked out.
-5. **Does Slate use AI?** Only to read lines it doesn't recognise, to spot dishes in a photo, and for chat. The AI never produces a calorie number. Your Slate isn't used to train AI models.
-6. **Will Slate tell me what my goal should be?** No. Slate shows your BMR, your baseline and, with Plus, your measured maintenance. The goal is yours to set.
-7. **Does it work with Apple Watch, Garmin or Strava?** Yes, with Slate Plus, through Apple Health. If an app writes to Apple Health, Slate can read it.
-8. **Can I write in Hinglish or Gujarati?** Yes. "2 roti aur ek katori dal", "kam tel", "bina cheeni" and Gujarati spellings all work. The app itself is in English for now.
-9. **Can I speak instead of typing?** Yes, with Slate Plus. Tap the mic, say the line in English or Hinglish, check it and press return. Slate doesn't keep any audio.
-10. **Can I log a Swiggy or Zomato order?** Yes, with Slate Plus. Share or paste the order to Slate, check the list, and each dish is added as outside food. Slate only reads what you share. It never connects to those apps.
-11. **Is there an Android version?** No. Slate is made for iPhone.
-12. **How do I cancel Slate Plus?** In your iPhone's Settings, under your name, then Subscriptions. Cancel at least 24 hours before it renews. Nothing on your Slate is deleted.
-13. **Will Slate send me notifications?** Only if you turn them on. You can choose a daily nudge to write on Slate and one to weigh in, each at a time you pick. Nothing else, and no marketing.
-14. **Who can use Slate?** Anyone 18 or older. Slate isn't built for under-18s.
-15. **Is Slate medical advice?** No. If you have a medical condition, or your relationship with food feels hard, talk to a doctor. In India, Tele-MANAS is free and available any time on 14416.
+5. **Is Slate a calorie counter for Indian food?** Yes, written as a journal. You type what you ate the way you'd say it, in English or Hinglish, and Slate counts the calories, protein, carbs and fat for each line using Indian food composition data.
+6. **Does Slate use AI?** Only to read lines it doesn't recognise, to spot dishes in a photo, and for chat. The AI never produces a calorie number. Your Slate isn't used to train AI models.
+7. **Will Slate tell me what my goal should be?** No. Slate shows your BMR, your baseline and, with Plus, your measured maintenance. The goal is yours to set.
+8. **Does it work with Apple Watch, Garmin or Strava?** Yes, with Slate Plus, through Apple Health. If an app writes to Apple Health, Slate can read it.
+9. **Can I write in Hinglish or Gujarati?** Yes. "2 roti aur ek katori dal", "kam tel", "bina cheeni" and Gujarati spellings all work. The app itself is in English for now.
+10. **Can I speak instead of typing?** Yes, with Slate Plus. Tap the mic, say the line in English or Hinglish, check it and press return. Slate doesn't keep any audio.
+11. **Can I log a Swiggy or Zomato order?** Yes, with Slate Plus. Share or paste the order to Slate, check the list, and each dish is added as outside food. Slate only reads what you share. It never connects to those apps.
+12. **Is there an Android version?** No. Slate is made for iPhone.
+13. **How do I cancel Slate Plus?** In your iPhone's Settings, under your name, then Subscriptions. Cancel at least 24 hours before it renews. Nothing on your Slate is deleted.
+14. **Will Slate send me notifications?** Only if you turn them on. You can choose a daily nudge to write on Slate and one to weigh in, each at a time you pick. Nothing else, and no marketing.
+15. **Who can use Slate?** Anyone 18 or older. Slate isn't built for under-18s.
+16. **Is Slate medical advice?** No. If you have a medical condition, or your relationship with food feels hard, talk to a doctor. In India, Tele-MANAS is free and available any time on 14416.
 
 ### 8.13 Who makes Slate (`#about`)
 
