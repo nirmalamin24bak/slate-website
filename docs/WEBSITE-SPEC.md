@@ -509,9 +509,10 @@ Water starts at 0 ml, with no water line.
 ### 9.3 Input and chips
 
 - Input with placeholder "What did you have?" and a visually hidden label "Write a line".
-- On Enter: split the text on " aur ", " and ", ",", "+" into separate lines. Each new line shows the shimmer for about 650 ms, then the number settles (fades in, rises 4 px).
+- On Enter: split the text on " aur ", " and ", ",", "+" into separate lines. A piece after a comma that holds only modifiers or outside words ("kam cheeni", "less oil", "from swiggy") stays on the line before it, so "chai, kam cheeni" is one line. Each new line shows the shimmer for about 650 ms, then the number settles (fades in, rises 4 px).
+- A leading quantity word of 1 or more is written back as a digit, the way the app does: "ek katori dal" shows as "1 katori dal". "half" and "aadha" stay as written.
 - Below the input, small muted text "Try one, then press return:" and chips: "2 roti aur ek katori dal", "vada pav from swiggy", "chai, kam cheeni", "9000 steps", "2 glass water". Tapping a chip puts its text into the input and submits it, then removes the chip.
-- Lines can be deleted with a small × that appears on hover/focus (and is always visible on touch). No confirmation.
+- Every line can be deleted, including the starting lines, with a small × that appears on hover/focus (and is always visible on touch). No confirmation.
 - Max 12 lines; after that, the oldest user line is removed.
 
 ### 9.4 The demo dictionary (illustrative, keep it small)
@@ -542,11 +543,11 @@ Per one unit:
 | chai | 1 cup | 72 | 2 / 9 / 3 |
 | coffee | 1 cup | 90 | 3 / 10 / 4 |
 
-- **Quantity words:** a number, or ek 1, do 2, teen 3, char 4, half/aadha 0.5, dedh 1.5. Default 1.
+- **Quantity words:** a number, or ek/one 1, do/two 2, teen/three 3, char/four 4, half/aadha 0.5, dedh 1.5. Default 1.
 - **Units in text** ("katori", "plate", "cup", "glass", "piece", "pcs") are accepted and ignored for the maths.
 - **Outside keywords** (swiggy, zomato, restaurant, canteen, dhaba, cafe, outside, ordered, hotel): multiply cals and fat by 1.25 and show the number. In the line, nothing else changes.
-- **Modifiers:** "less oil", "kam tel" multiply fat by 0.6 (recompute cals as P×4 + C×4 + F×9, rounded); "no sugar", "bina cheeni" on chai or coffee subtract 32; "kam cheeni", "less sugar" subtract 16; "half plate" multiplies by 0.5.
-- **Exercise per minute:** jog/run 8.3, walk 4.5, yoga 3, gym/weights 4.2, cycling 7, badminton 5.5, cricket 5. Parse "30 min", "45 minutes", "1 hour", "1 hr". Show as a muted negative number. Exercise doesn't change macros.
+- **Modifiers:** "less oil", "kam tel" multiply fat by 0.6 (recompute cals as P×4 + C×4 + F×9, rounded); "no sugar", "bina cheeni" on chai or coffee subtract 32; "kam cheeni", "less sugar" subtract 8 (so "chai, less sugar" is 64, matching §8.4); "half plate" multiplies by 0.5.
+- **Exercise per minute:** jog/run 8.34 (so 30 minutes reads 250), walk 4.5, yoga 3, gym/weights 4.2, cycling 7, badminton 5.5, cricket 5. Parse "30 min", "45 minutes", "1 hour", "1 hr". An exercise line without a duration ("jog") shows ↻ and counts as 0; the demo never guesses minutes. Show as a muted negative number. Exercise doesn't change macros.
 - **Steps:** "9000 steps" → −round((steps − 3,000) × 0.045), minimum 0.
 - **Water:** "glass" = 250 ml, "litre/liter" = 1,000 ml, "ml" as given; aliases water, paani, pani. Like the app, all water goes on one line per day: the first water entry creates "Water 500 ml" (for "2 glass water"), and every later entry adds to that same line ("Water 1,000 ml") instead of making a new one. The line shows ✓, briefly shimmers when it grows, and the water bar stays in sync with it. Deleting the line removes all water.
 - **Weight:** "weight 72", "72 kg" → ✓.
@@ -592,8 +593,8 @@ Long-form reading layout (max width about 680 px), H1 "Privacy policy", "Effecti
    - Saved foods and custom dishes.
    - Chat messages (Plus).
    - Photos (Plus): processed to identify dishes and not stored.
-   - Voice logging (Plus): your speech is turned into text on your iPhone, or by Apple's speech service where on-device recognition isn't available. Slate never receives or stores audio, only the text line you choose to add.
-   - Delivery orders (Plus): order text you share or paste is read on your iPhone to make journal lines. Only the lines you add are stored, like any other line.
+   - Voice logging (Slate Plus): your speech is turned into text on your iPhone, or by Apple's speech service where on-device recognition isn't available. Slate never receives or stores audio, only the text line you choose to add.
+   - Delivery orders (Slate Plus): order text you share or paste is read on your iPhone to make journal lines. Only the lines you add are stored, like any other line.
    - Apple Health (Plus, only if you allow it): steps, weight, workouts, and the name of the app that recorded them.
    - An anonymous account ID, subscription status, AI usage counts, and technical logs (errors, timestamps).
 3. **What we don't collect.** Name, phone, email (unless you write to us), contacts, location, advertising ID, browsing data. Label scanning happens on your phone. Barcode scanning sends only the barcode number to Open Food Facts.
