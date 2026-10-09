@@ -16,6 +16,8 @@ Opens at http://localhost:3000 with the same headers and routing as production (
 
 Pushes to `main` deploy to production on Vercel.
 
+When a page's content changes, update its `<lastmod>` date in `sitemap.xml`.
+
 ## Before launch: TODO(launch)
 
 Search the code for `TODO(launch)` to find each spot.
