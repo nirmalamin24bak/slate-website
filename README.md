@@ -18,6 +18,8 @@ Pushes to `main` deploy to production on Vercel.
 
 When a page's content changes, update its `<lastmod>` date in `sitemap.xml`.
 
+`style.css` and `demo.js` are cached by browsers for a year. When you change either one, bump its `?v=` number (for example `?v=1` to `?v=2`) in every HTML file that links it, or visitors keep the old file.
+
 ## Before launch: TODO(launch)
 
 Search the code for `TODO(launch)` to find each spot.
