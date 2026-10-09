@@ -218,7 +218,7 @@
   var live = $("demo-live");
   var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  var START = { lines: ["1 plate poha", "1 cup chai", "30 min jog"], water: 500 };
+  var START = { lines: ["1 plate poha", "1 cup chai", "30 min jog"], water: 0 };
   var lines = [];
   var baseWater = START.water;
   var uid = 0;
@@ -304,7 +304,54 @@
     if (moveFocus) (near ? near.querySelector(".jline-del") : input).focus();
   }
 
+  function restart(el, cls) {
+    el.classList.remove(cls);
+    void el.offsetWidth;
+    el.classList.add(cls);
+  }
+
+  // Water works like the app: one line a day that grows with each glass.
+  function addWater(ml) {
+    var line = lines.filter(function (l) { return l.water; })[0];
+    var li;
+    if (!line) {
+      line = { id: ++uid, text: "Water " + fmt(ml) + " ml", result: { kind: "water", ml: 0 }, user: true, water: true, pending: 0 };
+      lines.push(line);
+      li = lineElement(line);
+      list.appendChild(li);
+      while (lines.length > MAX_LINES) {
+        var oldest = lines.filter(function (l) { return l.user && l !== line; })[0] || lines[0];
+        removeLine(oldest.id, false);
+      }
+    } else {
+      li = list.querySelector('[data-id="' + line.id + '"]');
+    }
+    line.pending += ml;
+    restart(li, "is-resolving");
+    return new Promise(function (done) {
+      window.setTimeout(function () {
+        line.result.ml += ml;
+        line.pending -= ml;
+        line.text = "Water " + fmt(line.result.ml) + " ml";
+        if (li.isConnected) {
+          li.querySelector(".jline-text").textContent = line.text;
+          li.querySelector(".jline-del").setAttribute("aria-label", "Delete " + line.text);
+          if (!line.pending) {
+            settle(line, li, false);
+            if (!reduceMotion) restart(li.querySelector(".jline-num"), "is-settling");
+          }
+        }
+        renderHeader();
+        done(line);
+      }, reduceMotion ? 0 : RESOLVE_MS);
+    });
+  }
+
   function addLine(piece, opts) {
+    if (!opts.initial) {
+      var r = resolve(piece);
+      if (r.kind === "water") return addWater(r.ml);
+    }
     var line = { id: ++uid, text: displayText(piece), result: null, user: !opts.initial };
     lines.push(line);
     var li = lineElement(line);
@@ -337,6 +384,8 @@
     var pieces = split(text);
     if (!pieces.length) return;
     Promise.all(pieces.map(function (p) { return addLine(p, {}); })).then(function (added) {
+      // Several water pieces land on the one water line; announce it once.
+      added = added.filter(function (l, i) { return added.indexOf(l) === i; });
       live.textContent = added.map(sentence).join(" ");
     });
   }

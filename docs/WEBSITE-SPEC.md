@@ -2,7 +2,7 @@
 
 **For:** Claude Code (VS Code), building the Slate marketing website
 **Owner:** Sonal Systems Private Limited, Vadodara
-**Last updated:** 8 October 2026
+**Last updated:** 9 October 2026
 **Status of the app:** iOS app in TestFlight, App Store launch pending (India only)
 
 This file is everything needed to build the website without asking anyone a question. It covers what Slate is, who makes it, how it works, what is free and what is paid, every section of every page with final copy, the design system, the interactive demo, the legal pages, SEO, hosting, and an acceptance checklist.
@@ -55,7 +55,7 @@ You type what you ate on a line, the way you'd say it ("2 roti aur ek katori dal
 
 **What Slate is not:** a coach, a nutritionist, a diet plan, a wellness platform, a social network or a habit app. It never suggests a goal, never praises eating less and never criticises eating more.
 
-**Platform:** iPhone only (iOS 17 and later). Available in India at launch. Age 18+. No Android at launch, no web app.
+**Platform:** iPhone only (iOS 17 and later). Available in India at launch. Age 18+. No Android, no web app.
 
 ---
 
@@ -134,7 +134,7 @@ Use these facts for copy. Don't invent features that aren't here.
 | Food | "1 plate poha", "2 roti aur ek katori dal", "masala dosa from Swiggy", "chai, less sugar", "half plate biryani" | A number in cals |
 | Exercise | "30 min jog", "45 min badminton", "1 hour yoga" | A minus number in grey |
 | Steps | "9000 steps" | A minus number for steps above 3,000 |
-| Water | "2 glass water", "1 litre paani" | ✓, and the water bar fills |
+| Water | "2 glass water", "1 litre paani" | ✓. All water goes on one line per day ("Water 1,750 ml") that grows with each glass, and the water bar fills |
 | Weight | "weight 72" | ✓, and the weight trend updates |
 | Sleep (Plus) | "slept 7 hours" | ✓ |
 
@@ -187,11 +187,13 @@ Optional questions that help Slate read your lines the way you mean them: diet (
 | Barcode scan | Free | Packaged foods via Open Food Facts. Only the barcode number is sent. |
 | Label scan | Free | Reads the nutrition label on the phone. You confirm before it's added. |
 | Photo logging | Plus | Take a photo of your plate. Slate spots each dish, you confirm the portions. Nothing is added until you confirm. The photo is never stored. |
+| Voice logging | Plus | Tap the mic and speak the line, in English or Hinglish. Speech is turned into text on the iPhone, or by Apple's speech service where on-device recognition isn't available. You check the line and press return. Slate never receives or stores audio. |
+| Delivery orders | Plus | Share a Swiggy or Zomato order to Slate, or paste it into a new line. The order text is read on the iPhone; fees and totals are dropped and each dish becomes its own line, counted as outside food. You check the list and tap Add. Slate never connects to those apps. |
 | Chat about your day | Plus | Ask "Where did most of my calories come from?" Answers use only numbers Slate already calculated. No goals, diets or medical advice. |
 | Stats | Plus | Summary, calories, macros, weight trend, water, movement, fiber, measured maintenance. Week, month, 3 months, year. |
-| Widgets | Plus | Home and lock screen. Today's number and macros, plus a one-tap quick add (chai by default; coffee, a glass of water or any saved food). |
+| Widgets | Plus | Home and lock screen. Today's number and macros, plus a one-tap quick add that can be set to chai (default), coffee, a glass of water, any saved food or a custom line. |
 | Siri | Free | "Log a chai in Slate". |
-| Water | Free | Water goal, a blue bar, tap to add a glass. |
+| Water | Free | Water goal, a blue bar, tap to add a glass. All water shows as one line per day ("Water 1,750 ml") that grows with each glass. |
 | Streak | Free | Days logged in a row. Breaking it is silent. No flames, no badges. |
 | History | Free for 30 days, Plus for older | |
 | Hide calorie counts | Free | Removes every calorie number from the app, widgets and VoiceOver. Macros stay. |
@@ -229,7 +231,7 @@ Slate is free forever. Slate Plus is optional. **Nothing that is free today will
 - Protein, carbs, fat and macro goals
 - How we got this, for every number
 - Your body: BMR and baseline that follow your weight
-- Water tracking
+- Water, one line a day
 - Streak and the last 30 days of history
 - Siri: "Log a chai in Slate"
 - Hide calorie counts, appearance and display options
@@ -239,6 +241,8 @@ Slate is free forever. Slate Plus is optional. **Nothing that is free today will
 ### 5.3 Slate Plus
 
 - Photo logging
+- Voice logging
+- Delivery orders from Swiggy and Zomato
 - Chat about your day
 - Measured maintenance
 - Stats and weight trend
@@ -339,10 +343,13 @@ Two columns on desktop (copy left, demo right), stacked on mobile (copy first).
 | Chai, less sugar | 64 |
 | 30 min jog | −250 (grey) |
 | 9000 steps | −270 (grey) |
-| 2 glass water | ✓ |
+| Water 500 ml | ✓ |
 | Weight 72 | ✓ |
 
 - Under it, small grey text: If Slate doesn't recognise something, it shows ↻ and counts it as zero. It never guesses.
+- Below that, two short lines in small muted text, each followed by a Plus badge:
+  - Or say it. Tap the mic and speak the line, Hinglish included.
+  - Ordered in? Share a Swiggy or Zomato order to Slate and each dish lands as its own line.
 
 ### 8.5 Your kitchen, not a database (`#kitchen`)
 
@@ -399,12 +406,14 @@ Two columns on desktop (copy left, demo right), stacked on mobile (copy first).
 ### 8.9 The rest of the app (`#more`)
 
 - **Heading:** Everything else is small and quiet.
-- A grid of small tiles (3 columns desktop, 2 tablet, 1 mobile). Each tile: line icon, title, one sentence, and a Plus badge where relevant.
+- A grid of 14 small tiles (3 columns desktop, 2 tablet, 1 mobile). Each tile: line icon, title, one sentence, and a Plus badge where relevant.
+  - **Voice logging** (Plus). Say what you ate. Slate writes the line, you press return. (Icon: microphone.)
+  - **Delivery orders** (Plus). Share a Swiggy or Zomato order. Fees and totals are dropped, each dish counts as outside food. (Icon: receipt.)
   - **Photo logging** (Plus). Take a photo of your plate. Slate spots each dish, you confirm the portions. The photo isn't kept.
   - **Chat about your day** (Plus). Ask where your calories came from. It answers from your own journal, nothing else.
   - **Scan a packet.** Barcode or nutrition label. Labels are read on your phone.
-  - **Water.** A thin blue bar. Tap to add a glass.
-  - **Widgets** (Plus). Today's number on your home screen, and a one-tap chai.
+  - **Water.** One line a day that grows with each glass, and a thin blue bar.
+  - **Widgets** (Plus). Today's number on your home screen, and a one-tap button for chai, water or any food you choose.
   - **Siri.** "Log a chai in Slate."
   - **Stats** (Plus). Calories, macros, weight trend, water and movement, by week, month or year.
   - **Custom dishes** (Plus). Mummy's dal, with your recipe and your katori.
@@ -430,14 +439,15 @@ Two columns on desktop (copy left, demo right), stacked on mobile (copy first).
 - Two cards side by side (stacked on mobile), equal height:
   - **Slate**: "Free" in large type, "Forever" small under it. List exactly as §5.2.
   - **Slate Plus**: "₹399 a month" and "or ₹2,999 a year" in large type. Small grey: "about ₹92 a week, or ₹58 a week yearly". Badge: "7 days free on yearly". List exactly as §5.3. Above the list: "Everything in Slate, plus:".
+- Both cards stay equal height. The Plus list keeps the exact order of §5.3.
 - No "most popular" ribbon, no strike-through prices, no countdown.
 - Note under the cards: Purchases and refunds go through Apple. Cancel any time from your iPhone's Settings. If Plus ends, nothing is deleted.
 
 ### 8.12 FAQ (`#faq`)
 
-Use native `<details>`/`<summary>` accordions. All closed by default. Exact copy:
+Use native `<details>`/`<summary>` accordions. All closed by default. Heading: "Things people ask". The FAQPage JSON-LD must match this copy word for word. Exact copy:
 
-1. **Is Slate really free?** Yes. The journal, your kitchen, scanning, macros and How we got this are free forever, and we've promised never to move a free feature behind Plus. Slate Plus adds photo logging, chat, stats, measured maintenance, Apple Health, widgets and more.
+1. **Is Slate really free?** Yes. The journal, your kitchen, scanning, macros and How we got this are free forever, and we've promised never to move a free feature behind Plus. Slate Plus adds photo and voice logging, delivery orders, chat, stats, measured maintenance, Apple Health, widgets and more.
 2. **Do I need an account?** No. There's no login, email or phone number. Slate creates an anonymous account on your phone.
 3. **Where is my data stored?** In Mumbai, India. Nobody else can see your journal, and you can export or delete all of it from Settings.
 4. **How accurate are the numbers?** They're estimates, like every calorie number. Slate uses Indian food composition data and adjusts for your katori, roti, oil and chai, so the numbers are consistent. Tap any number to see how it was worked out.
@@ -445,10 +455,12 @@ Use native `<details>`/`<summary>` accordions. All closed by default. Exact copy
 6. **Will Slate tell me what my goal should be?** No. Slate shows your BMR, your baseline and, with Plus, your measured maintenance. The goal is yours to set.
 7. **Does it work with Apple Watch, Garmin or Strava?** Yes, with Slate Plus, through Apple Health. If an app writes to Apple Health, Slate can read it.
 8. **Can I write in Hinglish or Gujarati?** Yes. "2 roti aur ek katori dal", "kam tel", "bina cheeni" and Gujarati spellings all work. The app itself is in English for now.
-9. **Is there an Android version?** Not yet. Slate is on iPhone first.
-10. **How do I cancel Slate Plus?** In your iPhone's Settings, under your name, then Subscriptions. Cancel at least 24 hours before it renews. Nothing in your journal is deleted.
-11. **Who can use Slate?** Anyone 18 or older. Slate isn't built for under-18s.
-12. **Is Slate medical advice?** No. If you have a medical condition, or your relationship with food feels hard, talk to a doctor. In India, Tele-MANAS is free and available any time on 14416.
+9. **Can I speak instead of typing?** Yes, with Slate Plus. Tap the mic, say the line in English or Hinglish, check it and press return. Slate doesn't keep any audio.
+10. **Can I log a Swiggy or Zomato order?** Yes, with Slate Plus. Share or paste the order to Slate, check the list, and each dish is added as outside food. Slate only reads what you share. It never connects to those apps.
+11. **Is there an Android version?** No. Slate is made for iPhone.
+12. **How do I cancel Slate Plus?** In your iPhone's Settings, under your name, then Subscriptions. Cancel at least 24 hours before it renews. Nothing in your journal is deleted.
+13. **Who can use Slate?** Anyone 18 or older. Slate isn't built for under-18s.
+14. **Is Slate medical advice?** No. If you have a medical condition, or your relationship with food feels hard, talk to a doctor. In India, Tele-MANAS is free and available any time on 14416.
 
 ### 8.13 Who makes Slate (`#about`)
 
@@ -467,7 +479,7 @@ Use native `<details>`/`<summary>` accordions. All closed by default. Exact copy
 
 - Left: wordmark "Slate", then "Sonal Systems Private Limited", "A-3, Mehsana Nagar, Nizampura, Vadodara 390002, Gujarat, India", "CIN U62099GJ2026PTC179785".
 - Right, links: Privacy policy · Terms · Support · support@writeonslate.com
-- Bottom line, small: © 2026 Sonal Systems Private Limited. Apple, the Apple logo, iPhone and Apple Watch are trademarks of Apple Inc.
+- Bottom line, small: © 2026 Sonal Systems Private Limited. Apple, the Apple logo, iPhone and Apple Watch are trademarks of Apple Inc. Swiggy and Zomato are trademarks of their owners. Slate is not affiliated with them. (Text only, no logos.)
 
 ---
 
@@ -481,7 +493,7 @@ A card (`surface` colour, radius 24, the one card shadow) in the hero that behav
 - Total in large tabular type with a small "cals" suffix. Right side, one line in muted text: "X left" or "X over" against a demo goal of 2,000.
 - A thin ink progress bar (eaten ÷ goal, capped at full, same colour when over).
 - A connected macro bar: three segments side by side with 3 px gaps, widths proportional to the goal in calories (protein 90 g × 4, carbs 250 g × 4, fat 60 g × 9). Each segment fills toward its goal. Labels under the segments: "Protein 12 of 90 g" and so on, small and muted. Over goal stays the same colour, shown full.
-- A thin water row under it: 4 px bar in water blue, with "500 of 2,500 ml" in small muted text.
+- A thin water row under it: 4 px bar in water blue, with "0 of 2,500 ml" in small muted text. It always matches the water line.
 - Then the lines, then the input.
 
 ### 9.2 Starting state
@@ -492,7 +504,7 @@ A card (`surface` colour, radius 24, the one card shadow) in the hero that behav
 | 1 cup chai | 72 |
 | 30 min jog | −250 (muted, leading minus) |
 
-Water starts at 500 ml.
+Water starts at 0 ml, with no water line.
 
 ### 9.3 Input and chips
 
@@ -536,7 +548,7 @@ Per one unit:
 - **Modifiers:** "less oil", "kam tel" multiply fat by 0.6 (recompute cals as P×4 + C×4 + F×9, rounded); "no sugar", "bina cheeni" on chai or coffee subtract 32; "kam cheeni", "less sugar" subtract 16; "half plate" multiplies by 0.5.
 - **Exercise per minute:** jog/run 8.3, walk 4.5, yoga 3, gym/weights 4.2, cycling 7, badminton 5.5, cricket 5. Parse "30 min", "45 minutes", "1 hour", "1 hr". Show as a muted negative number. Exercise doesn't change macros.
 - **Steps:** "9000 steps" → −round((steps − 3,000) × 0.045), minimum 0.
-- **Water:** "glass" = 250 ml, "litre/liter" = 1,000 ml, "ml" as given; aliases water, paani, pani. Show ✓ and fill the water bar.
+- **Water:** "glass" = 250 ml, "litre/liter" = 1,000 ml, "ml" as given; aliases water, paani, pani. Like the app, all water goes on one line per day: the first water entry creates "Water 500 ml" (for "2 glass water"), and every later entry adds to that same line ("Water 1,000 ml") instead of making a new one. The line shows ✓, briefly shimmers when it grows, and the water bar stays in sync with it. Deleting the line removes all water.
 - **Weight:** "weight 72", "72 kg" → ✓.
 - **Unknown:** grey ↻ and 0. Never guess.
 - Round all displayed numbers to whole numbers. Use tabular figures and Indian grouping (1,234).
@@ -580,6 +592,8 @@ Long-form reading layout (max width about 680 px), H1 "Privacy policy", "Effecti
    - Saved foods and custom dishes.
    - Chat messages (Plus).
    - Photos (Plus): processed to identify dishes and not stored.
+   - Voice logging (Plus): your speech is turned into text on your iPhone, or by Apple's speech service where on-device recognition isn't available. Slate never receives or stores audio, only the text line you choose to add.
+   - Delivery orders (Plus): order text you share or paste is read on your iPhone to make journal lines. Only the lines you add are stored, like any other line.
    - Apple Health (Plus, only if you allow it): steps, weight, workouts, and the name of the app that recorded them.
    - An anonymous account ID, subscription status, AI usage counts, and technical logs (errors, timestamps).
 3. **What we don't collect.** Name, phone, email (unless you write to us), contacts, location, advertising ID, browsing data. Label scanning happens on your phone. Barcode scanning sends only the barcode number to Open Food Facts.
@@ -594,6 +608,7 @@ Long-form reading layout (max width about 680 px), H1 "Privacy policy", "Effecti
 | Anthropic | Reading unrecognised lines, photo dish recognition, chat (not used for training) | USA |
 | RevenueCat | Subscription status | USA |
 | Apple | Payments, Apple Health, Siri | As per Apple |
+| Apple | Speech recognition for voice logging, where on-device isn't available | As per Apple |
 | Open Food Facts | Barcode lookup (barcode number only) | France |
 
    Cross-border transfer note: limited, purpose-bound transfers to the USA for the services above, as permitted under the DPDP Act.
@@ -603,6 +618,8 @@ Long-form reading layout (max width about 680 px), H1 "Privacy policy", "Effecti
 11. **Security.** Encryption in transit, row-level security, least access, breach notification to you and the Board as the law requires.
 12. **Changes to this policy.** Posted here with a new effective date; material changes shown in the app.
 13. **Grievance Officer and contact.** Nirmal Amin (placeholder), privacy@writeonslate.com, postal address.
+
+Not yet published: under "What we don't collect", keep this paragraph as an HTML comment only, marked `<!-- TODO(launch): publish when the shared packet list ships -->`: "If you scan a packet Slate doesn't know, the product's nutrition facts (barcode, name, brand and values per 100 g, never anything about you) are added to Slate's shared packet list so the next scan works."
 
 Counsel must review before launch. Add an HTML comment at the top of the page: `<!-- Draft. Counsel review required before launch. -->`
 
@@ -653,6 +670,8 @@ Apple needs a support URL. Keep it short.
   - **How do I export my journal?** Settings, Your data, Export your data. You get JSON and CSV files.
   - **How do I delete everything?** Settings, Your data, Delete my data. It's immediate.
   - **A line shows ↻.** Slate didn't recognise it and counted it as zero. Tap the line to rewrite it, or tap ↻ to try again.
+  - **How do I log a delivery order?** In the Swiggy or Zomato app, share the order details and pick Slate, or copy them and paste into a new line. Check the list and tap Add. This needs Slate Plus.
+  - **Why isn't the mic working?** Slate needs microphone and speech recognition access. Turn them on for Slate in your iPhone's Settings. Voice logging needs Slate Plus.
 - Privacy questions: privacy@writeonslate.com.
 
 ---
@@ -753,7 +772,7 @@ No scroll-triggered animations, no parallax, no auto-playing anything, no carous
 
 | Page | `<title>` | Meta description |
 |---|---|---|
-| Home | Slate: a calorie journal for India | Type what you ate, the way you'd say it. Slate knows your katori, roti, oil and chai. Free forever, no login, stored in India. For iPhone. |
+| Home | Slate: a calorie journal for India | Type or say what you ate, the way you'd say it. Slate knows your katori, roti, oil and chai. Free forever, no login, stored in India. For iPhone. |
 | Privacy | Privacy policy · Slate | How Slate handles your data: no login, stored in India, no ads, never sold. |
 | Terms | Terms of use · Slate | The terms for using Slate and Slate Plus. |
 | Support | Support · Slate | Help with Slate and Slate Plus. Write to support@writeonslate.com. |

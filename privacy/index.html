@@ -81,6 +81,8 @@
         <li><strong>Saved foods and custom dishes</strong> you create.</li>
         <li><strong>Chat messages</strong> (Slate Plus).</li>
         <li><strong>Photos</strong> (Slate Plus): processed to identify the dishes on your plate, and not stored.</li>
+        <li><strong>Voice logging</strong> (Plus): your speech is turned into text on your iPhone, or by Apple's speech service where on-device recognition isn't available. Slate never receives or stores audio, only the text line you choose to add.</li>
+        <li><strong>Delivery orders</strong> (Plus): order text you share or paste is read on your iPhone to make journal lines. Only the lines you add are stored, like any other line.</li>
         <li><strong>Apple Health</strong> (Slate Plus, only if you allow it): steps, weight, workouts, and the name of the app that recorded them.</li>
         <li><strong>Account and service data:</strong> an anonymous account ID, your subscription status, counts of how often you use AI features, and technical logs such as errors and timestamps.</li>
       </ul>
@@ -90,6 +92,9 @@
       <h2 id="p-not">What we don't collect</h2>
       <p>We don't collect your name, phone number, email address (unless you write to us), contacts, location, advertising ID or browsing data.</p>
       <p>Label scanning happens on your phone. Barcode scanning sends only the barcode number to Open Food Facts, nothing else about you.</p>
+      <!-- TODO(launch): publish when the shared packet list ships
+      <p>If you scan a packet Slate doesn't know, the product's nutrition facts (barcode, name, brand and values per 100 g, never anything about you) are added to Slate's shared packet list so the next scan works.</p>
+      -->
     </section>
 
     <section aria-labelledby="p-why">
@@ -136,6 +141,7 @@
             <tr><td data-label="Processor">Anthropic</td><td data-label="Purpose">Reading unrecognised lines, photo dish recognition, chat (not used for training)</td><td data-label="Location">USA</td></tr>
             <tr><td data-label="Processor">RevenueCat</td><td data-label="Purpose">Subscription status</td><td data-label="Location">USA</td></tr>
             <tr><td data-label="Processor">Apple</td><td data-label="Purpose">Payments, Apple Health, Siri</td><td data-label="Location">As per Apple</td></tr>
+            <tr><td data-label="Processor">Apple</td><td data-label="Purpose">Speech recognition for voice logging, where on-device isn't available</td><td data-label="Location">As per Apple</td></tr>
             <tr><td data-label="Processor">Open Food Facts</td><td data-label="Purpose">Barcode lookup (barcode number only)</td><td data-label="Location">France</td></tr>
           </tbody>
         </table>
@@ -214,7 +220,7 @@
         </ul>
       </nav>
     </div>
-    <p class="footer-legal">© 2026 Sonal Systems Private Limited. Apple, the Apple logo, iPhone and Apple Watch are trademarks of Apple Inc.</p>
+    <p class="footer-legal">© 2026 Sonal Systems Private Limited. Apple, the Apple logo, iPhone and Apple Watch are trademarks of Apple Inc. Swiggy and Zomato are trademarks of their owners. Slate is not affiliated with them.</p>
   </div>
 </footer>
 </body>

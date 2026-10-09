@@ -27,7 +27,8 @@ Search the code for `TODO(launch)` to find each spot.
 5. **Counsel review.** Have counsel review `/privacy/` and `/terms/`, then remove the `Draft. Counsel review required before launch.` comment at the top of each.
 6. **App Store screenshots.** Optional: once real screenshots exist, add a section after the hero.
 7. **Email forwarding.** Confirm support@writeonslate.com and privacy@writeonslate.com forward to the founders' inbox before the site goes live.
-8. **Domain.** Add writeonslate.com to the Vercel project, with www.writeonslate.com redirecting to the apex.
+8. **Shared packet list.** When the shared packet list ships in the app, publish the commented-out paragraph in "What we don't collect" on `/privacy/` (counsel to review it first).
+9. **Domain.** Add writeonslate.com to the Vercel project, with www.writeonslate.com redirecting to the apex.
 
 ## Fonts
 

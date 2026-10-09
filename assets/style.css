@@ -320,6 +320,9 @@ figure{margin:0}
 .block-sm{margin-top:32px}
 .para{margin-top:20px}
 .after-card{margin-top:16px}
+.write-more{list-style:none;margin-top:12px}
+.write-more li + li{margin-top:8px}
+.write-more .badge-plus{margin-left:4px}
 ul.grid-4,ul.grid-3,ul.grid-tiles,ol.steps,ol.promises,.plan-list,.rows{list-style:none}
 
 /* Hero */
@@ -451,7 +454,7 @@ ul.grid-4,ul.grid-3,ul.grid-tiles,ol.steps,ol.promises,.plan-list,.rows{list-sty
 #demo-p-bar{width:7.8%}
 #demo-c-bar{width:21.6%}
 #demo-f-bar{width:18.3%}
-#demo-water-bar{width:20%}
+#demo-water-bar{width:0}
 .demo-input{display:flex;align-items:center;min-height:52px;border-bottom:1px solid var(--hairline)}
 .demo-input input{flex:1;min-width:0;min-height:var(--tap);border:0;padding:0;background:transparent;color:var(--ink);font-size:var(--fs-line);caret-color:var(--ink)}
 .demo-input input::placeholder{color:var(--ink-mute);opacity:1}
