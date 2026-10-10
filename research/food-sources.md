@@ -11,7 +11,7 @@ Recipe: 100 g atta and about 70 g water, rolled into rotis.
 | Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
 |---|---|---|---|---|---|---|
 | Wheat flour, atta | 100 | 320.3 | 10.6 | 64.2 | 1.5 | IFCT 2017 A019 |
-| Water | 70 | 0.0 | 0.0 | 0.0 | 0.0 | none |
+| Water | 70 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
 | **Total** | | **320.3** | **10.6** | **64.2** | **1.5** | |
 
 Cooked yield 133 g (atta x (1 - 0.111) / (1 - 0.33): IFCT's atta is 11.1% water and USDA's cooked chapati is 33% water). Per 100 g cooked: 240.8 kcal.
@@ -95,7 +95,7 @@ Recipe: one textbook bowl, 30 g toor dal in 300 ml water with a 10 g ghee tadka.
 | Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
 |---|---|---|---|---|---|---|
 | Red gram dal (toor, arhar) | 30 | 99.2 | 6.5 | 16.6 | 0.5 | IFCT 2017 B021 |
-| Water | 300 | 0.0 | 0.0 | 0.0 | 0.0 | none |
+| Water | 300 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
 | Ghee | 10 | 88.4 | 0.0 | 0.0 | 10.0 | IFCT 2017 T013 |
 | Ginger, fresh | 5 | 2.8 | 0.1 | 0.4 | 0.0 | IFCT 2017 G014 |
 | Chillies, green | 3.3 | 1.4 | 0.1 | 0.2 | 0.0 | IFCT 2017 G008 |
@@ -143,7 +143,7 @@ Recipe: one textbook bowl, 30 g dry rajma with tomato, onion and 1.5 tsp oil.
 | Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
 |---|---|---|---|---|---|---|
 | Rajmah, red (dry) | 30 | 89.8 | 6.0 | 14.6 | 0.5 | IFCT 2017 B020 |
-| Water | 48.6 | 0.0 | 0.0 | 0.0 | 0.0 | none |
+| Water | 48.6 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
 | Tomato, ripe, hybrid | 50 | 9.4 | 0.4 | 1.6 | 0.1 | IFCT 2017 D075 |
 | Onion, big | 25 | 12.0 | 0.4 | 2.4 | 0.1 | IFCT 2017 G017 |
 | Groundnut oil | 6.8 | 60.1 | 0.0 | 0.0 | 6.8 | IFCT 2017 T005 |
@@ -229,7 +229,7 @@ Recipe: 60 g parboiled rice, 20 g urad dal and 120 ml water, for 8 small idlis.
 |---|---|---|---|---|---|---|
 | Rice, parboiled, milled | 60 | 211.0 | 4.7 | 46.3 | 0.3 | IFCT 2017 A014 |
 | Black gram dal (urad) | 20 | 64.8 | 4.6 | 10.2 | 0.3 | IFCT 2017 B003 |
-| Water | 120 | 0.0 | 0.0 | 0.0 | 0.0 | none |
+| Water | 120 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
 | **Total** | | **275.8** | **9.3** | **56.5** | **0.7** | |
 
 Cooked yield 200 g (the batter weight, with no allowance for steaming loss, as the Indian Nutrient Databank does). Per 100 g cooked: 137.9 kcal.
@@ -274,7 +274,7 @@ Recipe: 2 dosas from 60 g parboiled rice and 20 g urad dal, with a 100 g potato 
 |---|---|---|---|---|---|---|
 | Rice, parboiled, milled | 60 | 211.0 | 4.7 | 46.3 | 0.3 | IFCT 2017 A014 |
 | Black gram dal (urad) | 20 | 64.8 | 4.6 | 10.2 | 0.3 | IFCT 2017 B003 |
-| Water | 120 | 0.0 | 0.0 | 0.0 | 0.0 | none |
+| Water | 120 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
 | Potato, brown skin, big | 100 | 69.8 | 1.5 | 14.9 | 0.2 | IFCT 2017 F006 |
 | Onion, big | 75 | 36.0 | 1.1 | 7.2 | 0.2 | IFCT 2017 G017 |
 | Groundnut oil | 4.5 | 39.8 | 0.0 | 0.0 | 4.5 | IFCT 2017 T005 |
@@ -321,7 +321,7 @@ Recipe: 6 samosas from 60 g maida, 150 g potato and 75 g peas, deep-fried.
 |---|---|---|---|---|---|---|
 | Wheat flour, refined (maida) | 60 | 211.1 | 6.2 | 44.6 | 0.5 | IFCT 2017 A018 |
 | Ghee | 9 | 79.6 | 0.0 | 0.0 | 9.0 | IFCT 2017 T013 |
-| Water | 45 | 0.0 | 0.0 | 0.0 | 0.0 | none |
+| Water | 45 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
 | Potato, brown skin, big | 150 | 104.7 | 2.3 | 22.3 | 0.3 | IFCT 2017 F006 |
 | Peas, fresh | 75 | 61.0 | 5.4 | 8.9 | 0.1 | IFCT 2017 D061 |
 | Groundnut oil | 12 | 106.1 | 0.0 | 0.0 | 12.0 | IFCT 2017 T005 |
@@ -413,7 +413,7 @@ Recipe: one cup, 50 ml toned milk and about 150 ml water, with tea and spices.
 | Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
 |---|---|---|---|---|---|---|
 | Milk, toned (3% fat) | 50 | 29.0 | 1.5 | 2.4 | 1.5 | Amul Taaza label |
-| Water | 150 | 0.0 | 0.0 | 0.0 | 0.0 | none |
+| Water | 150 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
 | **Total** | | **29.0** | **1.5** | **2.4** | **1.5** | |
 
 No cooked weight used (counted per cup; tea leaves and spices add under 1 kcal). Portions are shares of the recipe.

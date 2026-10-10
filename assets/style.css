@@ -518,7 +518,9 @@ ul.grid-4,ul.grid-3,ul.grid-tiles,ol.steps,ol.promises,.plan-list,.rows{list-sty
    ===================================================================== */
 
 .crumbs{margin-bottom:8px}
-.crumbs ol{list-style:none;display:flex;flex-wrap:wrap;align-items:center;gap:0 8px;font-size:var(--fs-small);color:var(--ink-mute)}
+.crumbs ol,.legal .crumbs ol{list-style:none;display:flex;flex-wrap:wrap;align-items:center;gap:0 8px;padding-left:0;font-size:var(--fs-small);color:var(--ink-mute)}
+.crumbs li{display:flex;align-items:center;min-height:var(--tap)}
+.legal .crumbs li + li{margin-top:0}
 .crumbs li + li::before{content:"/";margin-right:8px}
 .crumbs a{display:inline-flex;align-items:center;min-height:var(--tap);text-decoration:none}
 .crumbs a:hover{color:var(--ink)}

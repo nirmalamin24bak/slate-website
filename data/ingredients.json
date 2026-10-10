@@ -302,7 +302,7 @@
   },
   "water": {
     "name": "Water",
-    "sourceShort": "none",
+    "sourceShort": "no calories",
     "source": "Water has no calories",
     "per100g": {
       "kcal": 0,
