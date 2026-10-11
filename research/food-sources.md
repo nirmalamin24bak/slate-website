@@ -2748,3 +2748,411 @@ Sources:
 - USDA FoodData Central, Seeds, lotus seeds, dried (170149). https://fdc.nal.usda.gov/food-details/170149/nutrients (accessed 2026-10-10)
 - ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
 
+## Gulab jamun (/calories/gulab-jamun/)
+
+Recipe: 100 g khoa and 25 g maida, fried and soaked in syrup, making 6 gulab jamuns.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Khoa (mawa) | 100 | 316.0 | 16.3 | 16.5 | 20.6 | IFCT 2017 L004 |
+| Wheat flour, refined (maida) | 25 | 88.0 | 2.6 | 18.6 | 0.2 | IFCT 2017 A018 |
+| Milk, whole, cow | 5 | 3.6 | 0.2 | 0.2 | 0.2 | IFCT 2017 L002 |
+| Ghee | 11 | 97.3 | 0.0 | 0.0 | 11.0 | IFCT 2017 T013 |
+| Sugar, white | 108.3 | 419.1 | 0.0 | 108.3 | 0.0 | USDA FDC 169655 |
+| **Total** | | **924.0** | **19.1** | **143.6** | **32.0** | |
+
+Cooked yield 260 g (from protein: the dough's 19.1 g of protein is 7.35% of the finished gulab jamuns in a lab analysis, so 19.1 / 0.0735). Per 100 g cooked: 355.4 kcal.
+
+Portions:
+
+- 1 gulab jamun (about 43 g): 43 g cooked = 155 kcal, P 3 g, C 24 g, F 5 g
+- 2 gulab jamuns: 87 g cooked = 310 kcal, P 6 g, C 48 g, F 11 g
+- 1 with a tablespoon of syrup: 43 g cooked + 11.6 g Sugar, white = 200 kcal, P 3 g, C 36 g, F 5 g
+- 100 g, drained: 100 g cooked = 355 kcal, P 7 g, C 55 g, F 12 g
+
+Outside (Sweet shop or wedding): fat sources x 1 to 1, portion x 1 to 1.5 = 155 to 230 kcal. Basis: No analysed value for sweet-shop gulab jamun per piece was found. Pieces up to 1.5 times this size are a stated assumption; market brands analysed in the Indian Journal of Dairy Science had 6.5% to 12.3% fat, at or below this page's 12.3%.
+
+Judgement calls:
+
+- Finished weight from protein: khoa 16.34 + maida 2.59 + milk 0.16 = 19.09 g protein; at 7.35% (Rahuri 2020 control) that's 259.7 g for 6.
+- Fat taken up: 12.32% x 259.7 = 32.0 g total; dough fat 21.0 g; so 11.0 g fried fat (ghee, as the textbook's 'fat').
+- Sugar taken up: 48.16% x 259.7 = 125.1 g total sugar; minus milk sugar in khoa and milk (about 16.8 g, IFCT carbohydrate) = 108.3 g sucrose.
+- Syrup on top: 1 tbsp (15 ml) of the textbook syrup (200 g sugar in 125 ml water, about 61.5% sugar, about 1.26 g per ml) = 11.6 g sugar, 45 kcal.
+- No independent kcal figure for gulab jamun was found (IFCT, NIN Annexure 8, USDA FNDDS). Market brands' fat (6.47% to 12.32%, IJDS) brackets this page's 12.3%.
+- Ice cream in the changes list: NIN counts half a cup of ice cream at 200 kcal; a scoop is about half to two thirds of that.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- Physico-chemical properties of gulabjamun (Rahuri trial, wheat flour control), Journal of Pharmacognosy and Phytochemistry, 2020. https://www.phytojournal.com/archives/2020/vol9issue3/PartAF/9-3-221-123.pdf (accessed 2026-10-11)
+- Evaluation of selected physico-chemical, colour and textural characteristics of market gulabjamun, Indian Journal of Dairy Science. https://epubs.icar.org.in/index.php/IJDS/article/view/103349 (accessed 2026-10-11)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+
+## Rasgulla (/calories/rasgulla/)
+
+Recipe: chhena from 265 ml cow's milk, cooked in syrup, making 4 rasgullas.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Paneer | 36.6 | 94.4 | 6.9 | 4.5 | 5.4 | IFCT 2017 L003 |
+| Wheat flour, refined (maida) | 3.75 | 13.2 | 0.4 | 2.8 | 0.0 | IFCT 2017 A018 |
+| Sugar, white | 45.8 | 177.2 | 0.0 | 45.8 | 0.0 | USDA FDC 169655 |
+| **Total** | | **284.8** | **7.3** | **53.1** | **5.4** | |
+
+Cooked yield 144 g (from protein: the chhena's 6.9 g of protein is 4.8% of the finished rasgullas in a lab analysis, so 6.9 / 0.048). Per 100 g cooked: 197.8 kcal.
+
+Portions:
+
+- 1 rasgulla (about 36 g): 36 g cooked = 70 kcal, P 2 g, C 13 g, F 1 g
+- 2 rasgullas: 72 g cooked = 140 kcal, P 4 g, C 27 g, F 3 g
+- 1 with a tablespoon of syrup: 36 g cooked + 11.6 g Sugar, white = 115 kcal, P 2 g, C 25 g, F 1 g
+- 100 g, squeezed: 100 g cooked = 200 kcal, P 5 g, C 37 g, F 4 g
+
+Outside (Tinned or sweet shop): fat sources x 1 to 1, portion x 1 to 1.4 = 70 to 100 kcal. Basis: Aavin's rasgulla label (273 kcal per 100 g) is about 1.4 times this page's value per gram, mainly from more sugar; tinned and shop rasgullas also vary in size. 1 to 1.4 times is used.
+
+Cross-checks:
+
+- Aavin rasgulla label, per 100 g (basis taken from the values): 273 kcal per 100 g, ours 198 (+38%).  https://aavin.tn.gov.in/sweets/-/asset_publisher/aUeiWRs5sODN/content/rasgulla
+
+Range shown on page: Aavin's label (273 kcal, basis taken as 100 g) is 38% above this page's rasgulla, which is set to a lab analysis at 35% sugar. Shown as a range.
+
+Judgement calls:
+
+- Chhena: milk protein 265 x 3.26% = 8.64 g; casein about 80% of milk protein (assumption) = 6.91 g, as paneer (IFCT L003, 18.86% protein) = 36.6 g.
+- Finished weight: 6.91 / 0.048 (VNMKV control rasgulla, 4.80% protein) = 144 g. Sugar: 34.96% x 144 = 50.3 g total; minus paneer's carbohydrate (4.5 g) = 45.8 g sucrose taken up.
+- Fat check: 5.4 g / 144 g = 3.8%, against 4.5% in the analysis.
+- 4 rasgullas of 36 g is an assumption; BFP392's serving count (2) is marked as guessed in INDB.
+- Syrup on top: 1 tbsp of a 61.5% syrup = 11.6 g sugar, as on the gulab jamun page.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- Studies on preparation of rasogolla by using isabgol, Vasantrao Naik Marathwada Krishi Vidyapeeth, Parbhani, 2017. https://krishikosh.egranth.ac.in/items/f751f1de-22f4-4b22-9c5f-afbfd1d438dd (accessed 2026-10-11)
+- Aavin (Tamil Nadu Co-operative Milk Producers' Federation), Rasgulla. https://aavin.tn.gov.in/sweets/-/asset_publisher/aUeiWRs5sODN/content/rasgulla (accessed 2026-10-11)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+
+## Jalebi (/calories/jalebi/)
+
+Recipe: 100 g maida batter with curd, fried and soaked in syrup.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, refined (maida) | 100 | 351.8 | 10.4 | 74.3 | 0.8 | IFCT 2017 A018 |
+| Curd (dahi), whole milk | 25 | 15.3 | 0.9 | 1.2 | 0.8 | USDA FDC 171284 |
+| Water | 60 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Groundnut oil | 46.2 | 408.5 | 0.0 | 0.0 | 46.2 | IFCT 2017 T005 |
+| Sugar, white | 117.8 | 455.9 | 0.0 | 117.8 | 0.0 | USDA FDC 169655 |
+| Water | 73.7 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **1231.5** | **11.2** | **193.2** | **47.8** | |
+
+Cooked yield 383 g (fried weight (191.5 g, from the batter's solids at USDA's puri composition) plus an equal weight of syrup). Per 100 g cooked: 321.5 kcal.
+
+Portions:
+
+- 1 jalebi (about 30 g): 30 g cooked = 95 kcal, P 1 g, C 15 g, F 4 g
+- 2 jalebis: 60 g cooked = 195 kcal, P 2 g, C 30 g, F 7 g
+- 100 g: 100 g cooked = 320 kcal, P 3 g, C 50 g, F 12 g
+- 250 g (as sold by weight): 250 g cooked = 805 kcal, P 7 g, C 126 g, F 31 g
+
+Outside (Halwai, with rabri): fat sources x 1 to 1, portion x 1 to 1, plus 0 to 25 g Khoa (mawa), plus 0 to 5 g Sugar, white = 195 to 290 kcal. Basis: Rabri is thickened sweetened milk. 50 g of rabri is modelled as 25 g khoa and 5 g sugar (a stated assumption) on top of 2 jalebis.
+
+Judgement calls:
+
+- No analysed value for jalebi was found (IFCT 2017, NIN Annexure 8, USDA FNDDS, Europe PMC, web search). Consumer calorie databases list figures that don't reconcile and aren't used.
+- Step 1, frying: batter non-fat solids = maida 100 x (1 - 0.1134 - 0.0076) = 87.9 g + curd 25 x (1 - 0.879 - 0.0325) = 2.2 g = 90.1 g. At FNDDS puri composition (24.94% fat, 27.99% water), fat = 90.1 x 24.94 / 47.07 = 47.7 g; minus own fat 1.6 g = 46.2 g oil; fried weight 90.1 / 0.4707 = 191.5 g.
+- Step 2, syrup: 191.5 g of syrup at 200 / 325 = 61.5% sugar = 117.8 g sugar and 73.7 g water. Equal weight of syrup is an assumption.
+- Rabri modelled as 25 g khoa + 5 g sugar per 50 g; an assumption.
+- Piece weight 30 g is an assumption.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Bread, puri (2707714). https://fdc.nal.usda.gov/food-details/2707714/nutrients (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+
+## Kaju katli (/calories/kaju-katli/)
+
+Recipe: 50 g cashews and 50 g sugar, making 6 pieces.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Cashew nut | 50 | 291.4 | 9.4 | 12.7 | 22.6 | IFCT 2017 H005 |
+| Sugar, white | 50 | 193.5 | 0.0 | 50.0 | 0.0 | USDA FDC 169655 |
+| Water | 45 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Ghee | 5 | 44.2 | 0.0 | 0.0 | 5.0 | IFCT 2017 T013 |
+| **Total** | | **529.1** | **9.4** | **62.7** | **27.6** | |
+
+Cooked yield 105 g (cashews, sugar and the greasing ghee, with the water cooked off). Per 100 g cooked: 503.9 kcal.
+
+Portions:
+
+- 1 sweet-shop piece (about 10 g): 10 g cooked = 50 kcal, P 1 g, C 6 g, F 3 g
+- 1 home piece (a sixth, about 17 g): 18 g cooked = 90 kcal, P 2 g, C 10 g, F 5 g
+- 4 sweet-shop pieces (40 g): 40 g cooked = 200 kcal, P 4 g, C 24 g, F 11 g
+- 100 g: 100 g cooked = 505 kcal, P 9 g, C 60 g, F 26 g
+
+Outside (Packed or sweet shop): fat sources x 1 to 1, portion x 0.89 to 1 = 180 to 200 kcal. Basis: A packed kaju katli label (USDA FDC 740348) lists 450 kcal per 100 g, 11% below this recipe; shop recipes vary in the share of cashew to sugar. 0.89 to 1 times this recipe is used.
+
+Cross-checks:
+
+- Packed kaju katli label, USDA FDC 740348: 450 kcal per 100 g, ours 504 (-11%).  https://fdc.nal.usda.gov/food-details/740348/nutrients
+
+Judgement calls:
+
+- Greasing ghee: INDB counts 2 tbsp (25.6 g) for 6 pieces; this page counts 5 g, an assumption for the film left on the pieces.
+- Yield 105 g = 50 cashew + 50 sugar + 5 ghee, water cooked off.
+- Sugar per 10 g piece: 50 / 105 x 10 = 4.8 g.
+- Label cross-check per 100 g: 450 kcal (Mitha Magic, 40 g = 4 pieces).
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, Branded food label, kaju katli (Mitha Magic) (740348). https://fdc.nal.usda.gov/food-details/740348/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+
+## Besan ladoo (/calories/besan-ladoo/)
+
+Recipe: 50 g besan and 10 g suji roasted in 30 g ghee with 50 g sugar, making 4 ladoos.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Besan (ground Bengal gram dal) | 50 | 164.6 | 10.8 | 23.4 | 2.7 | IFCT 2017 B001 |
+| Semolina (suji, rava) | 10 | 33.4 | 1.1 | 6.8 | 0.1 | IFCT 2017 A022 |
+| Ghee | 30 | 265.3 | 0.0 | 0.0 | 30.0 | IFCT 2017 T013 |
+| Sugar, white | 50 | 193.5 | 0.0 | 50.0 | 0.0 | USDA FDC 169655 |
+| **Total** | | **656.7** | **11.9** | **80.2** | **32.7** | |
+
+Cooked yield 140 g (the ingredients added together; roasting drives off little). Per 100 g cooked: 469.1 kcal.
+
+Portions:
+
+- 1 small ladoo (25 g): 25 g cooked = 115 kcal, P 2 g, C 14 g, F 6 g
+- 1 ladoo (about 35 g): 35 g cooked = 165 kcal, P 3 g, C 20 g, F 8 g
+- 2 ladoos: 70 g cooked = 330 kcal, P 6 g, C 40 g, F 16 g
+- 100 g: 100 g cooked = 470 kcal, P 9 g, C 57 g, F 23 g
+
+Outside (Sweet shop (measured and large)): fat sources x 1.02 to 1, portion x 0.952 to 1.714 = 160 to 280 kcal. Basis: Low end calibrated to Gupta et al. 2016's besan ladoo from a Delhi vendor, 33.33 g with 7.93 g fat. High end is USDA FNDDS's 60 g ladoo piece at this recipe's composition.
+
+Cross-checks:
+
+- USDA FNDDS 2021-2023, Ladoo, round ball (91718300): 411 kcal per 100 g, ours 469 (-12%).  https://fdc.nal.usda.gov/food-details/2710351/nutrients
+
+Judgement calls:
+
+- Fat check: this ladoo is (2.66 + 0.07 + 30) / 140 = 23.4% fat; Gupta et al.'s Delhi besan ladoo was 7.93 / 33.33 = 23.8%.
+- Outside low: size 33.33 / 35 = 0.952, fat factor 1.02 to match 7.93 g fat. High: FNDDS 60 g ladoo piece, 60 / 35 = 1.714.
+- Castor sugar valued as sugar. Cardamom and turmeric pinch left out.
+- Ghee share: 265 / 657 kcal = 40%. Sugar per ladoo: 50 / 4 = 12.5 g.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- Gupta et al., Unhealthy fat in street and snack foods, Journal of Nutrition Education and Behavior, 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4826272 (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Ladoo, round ball (2710351). https://fdc.nal.usda.gov/food-details/2710351/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+
+## Gajar halwa (/calories/gajar-halwa/)
+
+Recipe: 200 g carrots with 40 g khoa, 40 g sugar and 20 g ghee, for 2 bowls.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Carrot, orange | 200 | 66.4 | 1.9 | 11.1 | 0.9 | IFCT 2017 F002 |
+| Milk, whole, cow | 30 | 21.9 | 1.0 | 1.5 | 1.3 | IFCT 2017 L002 |
+| Khoa (mawa) | 40 | 126.4 | 6.5 | 6.6 | 8.2 | IFCT 2017 L004 |
+| Sugar, white | 40 | 154.8 | 0.0 | 40.0 | 0.0 | USDA FDC 169655 |
+| Ghee | 20 | 176.9 | 0.0 | 0.0 | 20.0 | IFCT 2017 T013 |
+| Almond | 2.2 | 13.4 | 0.4 | 0.1 | 1.3 | IFCT 2017 H001 |
+| Cashew nut | 2.5 | 14.6 | 0.5 | 0.6 | 1.1 | IFCT 2017 H005 |
+| **Total** | | **574.3** | **10.3** | **59.9** | **32.9** | |
+
+No cooked weight used (no measured cooked weight; carrots lose a lot of water as they cook). Portions are shares of the recipe.
+
+Portions:
+
+- 1 small katori (a quarter of the recipe): 0.25 of the recipe = 145 kcal, P 3 g, C 15 g, F 8 g
+- 1 bowl (half the recipe, 100 g carrots): 0.5 of the recipe = 285 kcal, P 5 g, C 30 g, F 16 g
+
+Outside (Wedding or sweet shop): fat sources x 1 to 1.5, portion x 1 to 1, plus 0 to 20 g Khoa (mawa) = 285 to 395 kcal. Basis: No analysed value for sweet-shop gajar halwa was found. Up to 1.5 times the ghee and up to 20 g more khoa per bowl are stated assumptions.
+
+Judgement calls:
+
+- Pistachios (0.4 g) and cardamom left out.
+- Ghee, sugar and khoa: (176.9 + 154.8 + 126.4) / 574.4 = 80% of calories; with milk and nuts, about 90%.
+- No analysed value for gajar halwa per bowl was found (IFCT, NIN Annexure 8, USDA FNDDS). NIN's halwa (kesari, 320 kcal per half cup) is a semolina halwa and isn't used.
+- Ice cream: NIN counts half a cup at 200 kcal; a scoop is about half to two thirds of that.
+- Changes list: nuts 10 g x about 580 to 610 kcal per 100 g (IFCT almond H001, cashew H005) = about 60 kcal.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+
+## Filter coffee (/calories/filter-coffee/)
+
+One tumbler: 50 ml coffee decoction with 100 ml whole milk.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Coffee, brewed | 50 | 0.5 | 0.1 | 0.0 | 0.0 | USDA FDC 171890 |
+| Milk, whole, cow | 100 | 72.9 | 3.3 | 4.9 | 4.5 | IFCT 2017 L002 |
+| **Total** | | **73.4** | **3.3** | **4.9** | **4.5** | |
+
+Cooked yield 150 g (the decoction and milk together). Per 100 g cooked: 48.9 kcal.
+
+Portions:
+
+- 1 tumbler, no sugar: 150 g cooked = 75 kcal, P 3 g, C 5 g, F 4 g
+- 1 tumbler, 1 tsp sugar: 150 g cooked + 4.2 g Sugar, white = 90 kcal, P 3 g, C 9 g, F 4 g
+- 1 tumbler, 2 tsp sugar: 150 g cooked + 8.4 g Sugar, white = 105 kcal, P 3 g, C 13 g, F 4 g
+- 1 tumbler, toned milk, 2 tsp sugar: 0 of the recipe + 50 g Coffee, brewed + 100 g Milk, toned (3% fat) + 8.4 g Sugar, white = 90 kcal, P 3 g, C 13 g, F 3 g
+
+Outside (Darshini or Udupi hotel): fat sources x 1 to 1, portion x 1 to 1.2, plus 0 to 4.2 g Sugar, white = 105 to 145 kcal. Basis: No analysed value for hotel filter coffee was found. Up to a teaspoon more sugar and a serving up to 1.2 times as big are stated assumptions.
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: coffee (2 tsp sugar + 100 ml milk), 1 cup: 110 kcal per a tumbler, ours 106 (+4%).  https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+
+Judgement calls:
+
+- Tumbler = 50 ml decoction + 100 ml milk, NIN's coffee milk amount. Whole cow milk (IFCT L002) used; NIN doesn't state the milk.
+- Decoction valued as USDA brewed coffee (FDC 171890), about 1 kcal per 100 g.
+- Buffalo milk in the changes list: 100 ml x (107.3 - 72.9) = 34 kcal more; toned: 72.9 - 58 = 15 kcal less.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- USDA FoodData Central, Beverages, coffee, brewed (171890). https://fdc.nal.usda.gov/food-details/171890/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+- Amul Taaza toned milk label (Dudhsagar Dairy). https://dudhsagardairy.coop/dairy/products/amul-taaza/ (accessed 2026-10-11)
+
+## Chaas (/calories/chaas/)
+
+Recipe: 100 g curd whisked with about 320 ml water and ice, with cumin.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Curd (dahi), whole milk | 100 | 61.0 | 3.5 | 4.7 | 3.3 | USDA FDC 171284 |
+| Water | 320 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Cumin seeds | 0.3 | 0.9 | 0.0 | 0.1 | 0.0 | IFCT 2017 G025 |
+| **Total** | | **61.9** | **3.5** | **4.7** | **3.3** | |
+
+Cooked yield 420 g (the ingredients added together). Per 100 g cooked: 14.7 kcal. Katori density 1 g per ml (taken as 1 g per ml, like water).
+
+Portions:
+
+- 1 glass (200 ml): 200 g cooked = 30 kcal, P 2 g, C 2 g, F 2 g
+- 1 large glass (250 ml): 250 g cooked = 35 kcal, P 2 g, C 3 g, F 2 g
+- 1 tall glass (textbook, about 420 ml): 420 g cooked = 60 kcal, P 4 g, C 5 g, F 3 g
+- 200 ml chaas made thick (about 100 g curd): undefined of the recipe + 52.4 g Curd (dahi), whole milk = 60 kcal, P 3 g, C 5 g, F 3 g
+
+Outside (Restaurant or packed): fat sources x 1 to 1, portion x 1 to 2 = 30 to 60 kcal. Basis: No analysed value for restaurant or packed chaas in India was found. Up to twice the curd per glass is a stated assumption; packed buttermilk labels vary.
+
+Judgement calls:
+
+- Ice 13.5 tbsp (INDB) taken as about 200 g, plus 0.5 cup (120 ml) water = 320 g.
+- Thick chaas: a 200 ml glass of half curd = 100 g curd; the base glass has 47.6 g, so 52.4 g added.
+- No independent analysed value for Indian chaas was found. USDA's cultured buttermilk (43 kcal per 100 g) is a thicker, different drink and isn't used.
+
+Sources:
+
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+
+## Sweet lassi (/calories/lassi/)
+
+Recipe: 100 g curd with 20 g sugar and 120 ml water.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Curd (dahi), whole milk | 100 | 61.0 | 3.5 | 4.7 | 3.3 | USDA FDC 171284 |
+| Sugar, white | 20 | 77.4 | 0.0 | 20.0 | 0.0 | USDA FDC 169655 |
+| Water | 120 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **138.4** | **3.5** | **24.7** | **3.3** | |
+
+Cooked yield 240 g (the ingredients added together). Per 100 g cooked: 57.7 kcal. Katori density 1 g per ml (taken as 1 g per ml).
+
+Portions:
+
+- 1 glass (about 240 ml): 240 g cooked = 140 kcal, P 3 g, C 25 g, F 3 g
+- 200 ml: 200 g cooked = 115 kcal, P 3 g, C 21 g, F 3 g
+- 1 glass with 1 tbsp malai on top: 240 g cooked + 15 g Cream, single (about 19% fat) = 170 kcal, P 4 g, C 25 g, F 6 g
+- 1 glass with 2 tsp sugar: 0 of the recipe + 100 g Curd (dahi), whole milk + 8.4 g Sugar, white = 95 kcal, P 3 g, C 13 g, F 3 g
+
+Outside (Dhaba or lassi shop): fat sources x 1 to 1, portion x 1.5 to 2.5, plus 0 to 30 g Cream, single (about 19% fat) = 210 to 405 kcal. Basis: No analysed value for dhaba lassi was found. Dhaba and lassi-shop glasses are often 400 to 500 ml of thick lassi with malai; 1.5 to 2.5 times this glass with up to 2 tablespoons of cream is a stated assumption.
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: lassi (2 tsp sugar), 200 ml: 110 kcal per 200 ml, ours 115 (-5%).  https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+
+Judgement calls:
+
+- Ice cubes (INDB: 13.5 tbsp) left out of the volume; they melt into water and add no calories. With them, the glass is about 440 ml.
+- Malai valued as USDA light cream (19% fat), 1 tbsp = 15 g.
+- The 'less sugar' row is 100 g curd with 2 tsp (8.4 g) sugar.
+
+Sources:
+
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Cream, fluid, light (170857). https://fdc.nal.usda.gov/food-details/170857/nutrients (accessed 2026-10-10)
+
+## Nimbu pani (/calories/nimbu-pani/)
+
+Recipe for 2 glasses: the juice of 1 lemon in 360 ml water, with mint.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Lemon juice | 48 | 17.6 | 0.2 | 0.0 | 0.4 | IFCT 2017 E033 |
+| Water | 360 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Mint leaves | 1 | 0.4 | 0.0 | 0.0 | 0.0 | IFCT 2017 G016 |
+| **Total** | | **17.9** | **0.2** | **0.0** | **0.4** | |
+
+No cooked weight used (no cooked weight; a glass is half the recipe, sugar added per glass). Portions are shares of the recipe.
+
+Portions:
+
+- 1 glass, no sugar: 0.5 of the recipe = 10 kcal, P 0 g, C 0 g, F 0 g
+- 1 glass, 1 tsp sugar: 0.5 of the recipe + 4.2 g Sugar, white = 25 kcal, P 0 g, C 4 g, F 0 g
+- 1 glass, 2 tsp sugar: 0.5 of the recipe + 8.4 g Sugar, white = 40 kcal, P 0 g, C 8 g, F 0 g
+- 1 glass, 1½ tbsp sugar (textbook): 0.5 of the recipe + 18.75 g Sugar, white = 80 kcal, P 0 g, C 19 g, F 0 g
+- 1 glass, 1 tsp honey: 0.5 of the recipe + 7 g Honey = 30 kcal, P 0 g, C 6 g, F 0 g
+
+Outside (Street shikanji or nimbu soda): fat sources x 1 to 1, portion x 1 to 1, plus 8.4 to 16.8 g Sugar, white = 40 to 75 kcal. Basis: No analysed value for street shikanji was found. 2 to 4 level teaspoons of sugar per glass is a stated assumption; ICMR-NIN's fresh lime juice, 60 kcal a glass, sits inside it.
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: fresh lime juice, 1 glass: 60 kcal per sweet, ours 82 (-26%).  https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+
+Range shown on page: NIN's fresh lime juice (60 kcal) is 22% below the textbook's sweet glass and well above an unsweetened one. Sugar differs. Shown as a range.
+
+Judgement calls:
+
+- Lemon '1 no': INDB records 30 g of flesh; taken here as 48 g of juice (USDA FDC 167747).
+- Sugar 3 tbsp for 2 glasses = 37.5 g (USDA tbsp 12.5 g), 18.75 g a glass.
+- Honey 1 tsp = 7 g (USDA 1 tbsp = 21 g).
+- NIN's 60 kcal glass: (60 - 4.4) / 3.87 = about 14 g of sugar, 3.4 level teaspoons.
+- Crushed ice left out; it adds no calories.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Honey (169640). https://fdc.nal.usda.gov/food-details/169640/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Lemon juice, raw (167747). https://fdc.nal.usda.gov/food-details/167747/nutrients (accessed 2026-10-10)
+

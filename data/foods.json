@@ -15094,6 +15094,2238 @@
         "carbs": 65,
         "fat": 2
       }
+    },
+    {
+      "slug": "gulab-jamun",
+      "name": "Gulab jamun",
+      "nameLower": "gulab jamun",
+      "category": "sweets",
+      "aliases": [
+        "gulabjamun",
+        "gulab jamoon",
+        "kala jamun",
+        "lal mohan",
+        "gulab jaman",
+        "गुलाब जामुन",
+        "ગુલાબ જાંબુ"
+      ],
+      "updated": "2026-10-11",
+      "title": "Gulab jamun calories: per piece, with syrup, per 100 g",
+      "description": "One khoa gulab jamun (about 43 g, drained) has about {{kcal:one}} calories, and more with a spoon of syrup. Based on a lab analysis and IFCT 2017.",
+      "answer": "One home gulab jamun made with khoa (about 43 g, drained of syrup) has about {{kcal:one}} calories. A spoon of syrup poured over adds about 45.",
+      "intro": [
+        "Gulab jamun is a soft ball of khoa and a little maida, fried slowly in ghee or oil until dark brown, then soaked in warm sugar syrup flavoured with cardamom and rose water. It's the sweet at most Indian weddings and festivals, and kala jamun and Bengal's lal mohan are close cousins.",
+        "About half of a gulab jamun's weight is sugar it has soaked up. That sugar is close to half its calories, and the khoa and the frying fat most of the rest."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Home gulab jamun, lifted out of the syrup.",
+      "recipe": {
+        "label": "Recipe: 100 g khoa and 25 g maida, fried and soaked in syrup, making 6 gulab jamuns",
+        "ingredients": [
+          {
+            "id": "khoa",
+            "g": 100
+          },
+          {
+            "id": "maida",
+            "g": 25
+          },
+          {
+            "id": "milk_cow",
+            "g": 5,
+            "note": "1 teaspoon"
+          },
+          {
+            "id": "ghee",
+            "g": 11,
+            "note": "Taken up in frying: set from a lab analysis, so a gulab jamun is about 12% fat"
+          },
+          {
+            "id": "sugar",
+            "g": 108.3,
+            "note": "Taken up from the syrup: set from the same analysis, about 48% sugar"
+          }
+        ],
+        "cookedYieldG": 260,
+        "yieldNote": "from protein: the dough's 19.1 g of protein is 7.35% of the finished gulab jamuns in a lab analysis, so 19.1 / 0.0735"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 gulab jamun (about 43 g)",
+          "short": "a gulab jamun",
+          "fraction": 0.1667,
+          "cookedGrams": 43,
+          "kcal": 155,
+          "protein": 3,
+          "carbs": 24,
+          "fat": 5
+        },
+        {
+          "id": "two",
+          "label": "2 gulab jamuns",
+          "short": "2 gulab jamuns",
+          "fraction": 0.3333,
+          "cookedGrams": 87,
+          "kcal": 310,
+          "protein": 6,
+          "carbs": 48,
+          "fat": 11
+        },
+        {
+          "id": "one_syrup",
+          "label": "1 with a tablespoon of syrup",
+          "short": "with syrup",
+          "fraction": 0.1667,
+          "add": [
+            {
+              "id": "sugar",
+              "g": 11.6
+            }
+          ],
+          "cookedGrams": 43,
+          "kcal": 200,
+          "protein": 3,
+          "carbs": 36,
+          "fat": 5
+        },
+        {
+          "id": "g100",
+          "label": "100 g, drained",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 355,
+          "protein": 7,
+          "carbs": 55,
+          "fat": 12
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Sweet shop or wedding",
+        "caption": "One gulab jamun. The outside range is 1 to 1.5 times the size.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1.5
+        ],
+        "basis": "No analysed value for sweet-shop gulab jamun per piece was found. Pieces up to 1.5 times this size are a stated assumption; market brands analysed in the Indian Journal of Dairy Science had 6.5% to 12.3% fat, at or below this page's 12.3%.",
+        "text": [
+          "Sweet-shop and wedding gulab jamuns are often bigger than home ones, and they're usually served with more syrup. Brands analysed in a dairy science study had no more fat than this one, between about 6.5% and 12.3%.",
+          "The range below allows a gulab jamun up to 1.5 times this size. Syrup on top is extra."
+        ],
+        "kcalRange": [
+          155,
+          230
+        ],
+        "fatRange": [
+          5,
+          8
+        ]
+      },
+      "changes": [
+        "Size matters most: a large sweet-shop gulab jamun can be half as big again.",
+        "Each tablespoon of syrup poured over adds about 45 calories, almost all sugar.",
+        "Gulab jamun made from a packet mix with milk powder is close per gram.",
+        "Served warm with a scoop of ice cream, add about 100 to 140 calories for the ice cream."
+      ],
+      "method": [
+        "The recipe is the gulab jamun in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g khoa, 25 g maida and a teaspoon of milk, making 6 gulab jamuns, fried and soaked in a syrup of 200 g sugar in 125 ml water. Values are from IFCT 2017, with sugar from USDA.",
+        "The databank counts all the frying fat and all the syrup as eaten, which is far too high. A lab analysis of khoa gulab jamun found 7.35% protein, 12.3% fat and 48.2% total sugar. This page uses the dough's protein to work out the finished weight, then sets the fat and sugar taken up to match: about 2 g of fat and 18 g of sugar per gulab jamun."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 gulab jamun?",
+          "a": "About {{kcal:one}} for a home gulab jamun of about 43 g, drained, and about {{kcal:one_syrup}} with a tablespoon of syrup."
+        },
+        {
+          "q": "How many calories are in 2 gulab jamuns?",
+          "a": "About {{kcal:two}} for two, drained."
+        },
+        {
+          "q": "How much sugar is in a gulab jamun?",
+          "a": "About 18 g of added sugar in a 43 g gulab jamun, close to 4 teaspoons, plus the milk sugar in the khoa."
+        },
+        {
+          "q": "How many calories are in 100 g of gulab jamun?",
+          "a": "About {{kcal:g100}} for 100 g, drained of syrup."
+        }
+      ],
+      "related": [
+        "rasgulla",
+        "jalebi",
+        "gajar-halwa",
+        "besan-ladoo"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Finished weight from protein: khoa 16.34 + maida 2.59 + milk 0.16 = 19.09 g protein; at 7.35% (Rahuri 2020 control) that's 259.7 g for 6.",
+        "Fat taken up: 12.32% x 259.7 = 32.0 g total; dough fat 21.0 g; so 11.0 g fried fat (ghee, as the textbook's 'fat').",
+        "Sugar taken up: 48.16% x 259.7 = 125.1 g total sugar; minus milk sugar in khoa and milk (about 16.8 g, IFCT carbohydrate) = 108.3 g sucrose.",
+        "Syrup on top: 1 tbsp (15 ml) of the textbook syrup (200 g sugar in 125 ml water, about 61.5% sugar, about 1.26 g per ml) = 11.6 g sugar, 45 kcal.",
+        "No independent kcal figure for gulab jamun was found (IFCT, NIN Annexure 8, USDA FNDDS). Market brands' fat (6.47% to 12.32%, IJDS) brackets this page's 12.3%.",
+        "Ice cream in the changes list: NIN counts half a cup of ice cream at 200 kcal; a scoop is about half to two thirds of that."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Khoa (L004), maida (A018), cow milk (L002), ghee (T013); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC348, gulab jamun with khoya",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Physico-chemical properties of gulabjamun (Rahuri trial, wheat flour control), Journal of Pharmacognosy and Phytochemistry, 2020",
+          "url": "https://www.phytojournal.com/archives/2020/vol9issue3/PartAF/9-3-221-123.pdf",
+          "note": "Control gulab jamun: 12.32% fat, 7.35% protein, 48.16% total sugar, 30.45% moisture",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Evaluation of selected physico-chemical, colour and textural characteristics of market gulabjamun, Indian Journal of Dairy Science",
+          "url": "https://epubs.icar.org.in/index.php/IJDS/article/view/103349",
+          "note": "Six market brands: fat 6.47% to 12.32%",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "Sugar",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: ice cream 200 kcal per half cup",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 355,
+        "protein": 7,
+        "carbs": 55,
+        "fat": 12
+      }
+    },
+    {
+      "slug": "rasgulla",
+      "name": "Rasgulla",
+      "nameLower": "rasgulla",
+      "category": "sweets",
+      "aliases": [
+        "rasagola",
+        "rasagolla",
+        "rosogolla",
+        "roshogolla",
+        "rasogolla",
+        "रसगुल्ला",
+        "રસગુલ્લા",
+        "রসগোল্লা"
+      ],
+      "updated": "2026-10-11",
+      "title": "Rasgulla calories: per piece, with syrup, per 100 g",
+      "description": "One rasgulla (about 36 g, squeezed) has about {{kcal:one}} calories; with a spoon of syrup about {{kcal:one_syrup}}. From a lab analysis and IFCT 2017.",
+      "answer": "One rasgulla (about 36 g, lightly squeezed of syrup) has about {{kcal:one}} calories. With a tablespoon of syrup it's about {{kcal:one_syrup}}.",
+      "intro": [
+        "Rasgulla is a spongy ball of chhena, fresh cheese made by curdling milk, kneaded smooth and cooked in light sugar syrup until it swells. It comes from Bengal and Odisha, where it's rosogolla and rasagola, and it's sold in tins and clay pots across India.",
+        "It isn't fried, so it has much less fat than gulab jamun. Most of its calories are the sugar it soaks up, and a rasgulla eaten straight from the syrup carries more."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Lightly squeezed of syrup, as below.",
+      "recipe": {
+        "label": "Recipe: chhena from 265 ml cow's milk, cooked in syrup, making 4 rasgullas",
+        "ingredients": [
+          {
+            "id": "paneer",
+            "g": 36.6,
+            "note": "Chhena from 265 ml cow's milk, valued as IFCT paneer"
+          },
+          {
+            "id": "maida",
+            "g": 3.75,
+            "note": "half a tablespoon, to bind"
+          },
+          {
+            "id": "sugar",
+            "g": 45.8,
+            "note": "Taken up from the syrup: set from a lab analysis, about 35% sugar"
+          }
+        ],
+        "cookedYieldG": 144,
+        "yieldNote": "from protein: the chhena's 6.9 g of protein is 4.8% of the finished rasgullas in a lab analysis, so 6.9 / 0.048"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 rasgulla (about 36 g)",
+          "short": "a rasgulla",
+          "fraction": 0.25,
+          "cookedGrams": 36,
+          "kcal": 70,
+          "protein": 2,
+          "carbs": 13,
+          "fat": 1
+        },
+        {
+          "id": "two",
+          "label": "2 rasgullas",
+          "short": "2 rasgullas",
+          "fraction": 0.5,
+          "cookedGrams": 72,
+          "kcal": 140,
+          "protein": 4,
+          "carbs": 27,
+          "fat": 3
+        },
+        {
+          "id": "one_syrup",
+          "label": "1 with a tablespoon of syrup",
+          "short": "with syrup",
+          "fraction": 0.25,
+          "add": [
+            {
+              "id": "sugar",
+              "g": 11.6
+            }
+          ],
+          "cookedGrams": 36,
+          "kcal": 115,
+          "protein": 2,
+          "carbs": 25,
+          "fat": 1
+        },
+        {
+          "id": "g100",
+          "label": "100 g, squeezed",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 200,
+          "protein": 5,
+          "carbs": 37,
+          "fat": 4
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Tinned or sweet shop",
+        "caption": "One rasgulla. The outside range is 1 to 1.4 times this one.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1.4
+        ],
+        "basis": "Aavin's rasgulla label (273 kcal per 100 g) is about 1.4 times this page's value per gram, mainly from more sugar; tinned and shop rasgullas also vary in size. 1 to 1.4 times is used.",
+        "text": [
+          "Tinned and sweet-shop rasgullas are often sweeter than home ones. The label on Aavin's rasgulla, from Tamil Nadu's milk co-operative, lists 273 calories for 100 g, more than this page's {{kcal:g100}}, mostly from sugar.",
+          "The range below runs from this rasgulla up to 1.4 times it, in line with that label."
+        ],
+        "kcalRange": [
+          70,
+          100
+        ],
+        "fatRange": [
+          1,
+          2
+        ]
+      },
+      "changes": [
+        "Syrup is the main variable. Squeezing a rasgulla before eating takes off much of the sugar; a tablespoon of syrup adds about 45 calories.",
+        "Rasgullas made from full-fat milk or buffalo milk have more fat than those from toned milk.",
+        "Rasmalai soaks the chhena in thickened sweet milk instead of syrup, and has more fat and calories.",
+        "Low-sugar rasgullas made with sweeteners have far fewer calories."
+      ],
+      "method": [
+        "The recipe is the rasgulla in Basic Food Preparation, a standard Indian cookery manual (via the Indian Nutrient Databank): chhena from 265 ml of cow's milk, kneaded with half a tablespoon of maida and cooked in a syrup of 150 g sugar. IFCT 2017 has no chhena, so it's valued as paneer, the closest match. The chhena's weight is worked out from the milk's protein, taking about 80% of milk protein as the casein that stays in the chhena (an assumption).",
+        "A lab analysis of rasgulla found 4.8% protein and 35% total sugar. This page uses the chhena's protein to work out the finished weight, then sets the sugar taken up to match, about 11 g per rasgulla."
+      ],
+      "range": {
+        "text": "Aavin's label lists 273 calories per 100 g of its rasgulla, against about {{kcal:g100}} here, because it holds more sugar. Depending on the syrup, 100 g of rasgulla is usually 200 to 275 calories.",
+        "reason": "Aavin's label (273 kcal, basis taken as 100 g) is 38% above this page's rasgulla, which is set to a lab analysis at 35% sugar. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 rasgulla?",
+          "a": "About {{kcal:one}} for a home rasgulla of about 36 g, squeezed, and about {{kcal:one_syrup}} with a tablespoon of syrup."
+        },
+        {
+          "q": "How many calories are in 2 rasgullas?",
+          "a": "About {{kcal:two}} for two, squeezed of syrup."
+        },
+        {
+          "q": "Which has more calories, rasgulla or gulab jamun?",
+          "a": "A [gulab jamun](/calories/gulab-jamun/), about {{kcal@gulab-jamun:one}} against about {{kcal:one}} for a rasgulla. The gulab jamun is fried and soaks up more sugar."
+        },
+        {
+          "q": "How much protein is in a rasgulla?",
+          "a": "About {{protein:one}} g, from the chhena."
+        }
+      ],
+      "related": [
+        "gulab-jamun",
+        "jalebi",
+        "kaju-katli",
+        "gajar-halwa"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "Aavin rasgulla label, per 100 g (basis taken from the values)",
+          "kcalPer100g": 273,
+          "url": "https://aavin.tn.gov.in/sweets/-/asset_publisher/aUeiWRs5sODN/content/rasgulla",
+          "ours": 198,
+          "differencePct": 38
+        }
+      ],
+      "judgement": [
+        "Chhena: milk protein 265 x 3.26% = 8.64 g; casein about 80% of milk protein (assumption) = 6.91 g, as paneer (IFCT L003, 18.86% protein) = 36.6 g.",
+        "Finished weight: 6.91 / 0.048 (VNMKV control rasgulla, 4.80% protein) = 144 g. Sugar: 34.96% x 144 = 50.3 g total; minus paneer's carbohydrate (4.5 g) = 45.8 g sucrose taken up.",
+        "Fat check: 5.4 g / 144 g = 3.8%, against 4.5% in the analysis.",
+        "4 rasgullas of 36 g is an assumption; BFP392's serving count (2) is marked as guessed in INDB.",
+        "Syrup on top: 1 tbsp of a 61.5% syrup = 11.6 g sugar, as on the gulab jamun page."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Paneer (L003) as chhena, cow milk (L002), maida (A018); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipe BFP392, rasgulla",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Studies on preparation of rasogolla by using isabgol, Vasantrao Naik Marathwada Krishi Vidyapeeth, Parbhani, 2017",
+          "url": "https://krishikosh.egranth.ac.in/items/f751f1de-22f4-4b22-9c5f-afbfd1d438dd",
+          "note": "Rasgulla: 4.50% fat, 4.80% protein, 34.96% total sugar, 54.84% moisture",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Aavin (Tamil Nadu Co-operative Milk Producers' Federation), Rasgulla",
+          "url": "https://aavin.tn.gov.in/sweets/-/asset_publisher/aUeiWRs5sODN/content/rasgulla",
+          "note": "273 kcal, 5.5 g fat, 51 g carbohydrate, 5 g protein; basis not stated, the values add up to 100 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "Sugar",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 200,
+        "protein": 5,
+        "carbs": 37,
+        "fat": 4
+      }
+    },
+    {
+      "slug": "jalebi",
+      "name": "Jalebi",
+      "nameLower": "jalebi",
+      "category": "sweets",
+      "aliases": [
+        "jilebi",
+        "jilapi",
+        "zalebi",
+        "jalebi rabri",
+        "jangiri",
+        "जलेबी",
+        "જલેબી",
+        "জিলিপি"
+      ],
+      "updated": "2026-10-11",
+      "title": "Jalebi calories: per piece, per 100 g, an estimate",
+      "description": "One 30 g jalebi has about {{kcal:one}} calories and 100 g about {{kcal:g100}}, estimated from frying and syrup data. No lab analysis of jalebi exists.",
+      "answer": "One jalebi of about 30 g has roughly {{kcal:one}} calories, and 100 g about {{kcal:g100}}. This is an estimate: we found no lab analysis of jalebi.",
+      "intro": [
+        "Jalebi is a fermented maida batter piped in spirals into hot ghee or oil, fried crisp, then dipped in warm sugar syrup with saffron and cardamom. It's eaten hot for breakfast with poha in Indore, with rabri in north India, and at every festival in between.",
+        "Two things decide its number: the oil the spirals take up in frying and the syrup they soak up afterwards. Both vary from one halwai to the next, so treat the figures here as a guide."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Estimated values; see how they were worked out below.",
+      "recipe": {
+        "label": "Recipe: 100 g maida batter with curd, fried and soaked in syrup",
+        "ingredients": [
+          {
+            "id": "maida",
+            "g": 100
+          },
+          {
+            "id": "curd",
+            "g": 25,
+            "note": "to ferment the batter"
+          },
+          {
+            "id": "water",
+            "g": 60,
+            "note": "for the batter: an assumption"
+          },
+          {
+            "id": "oil",
+            "g": 46.2,
+            "note": "Taken up in frying: assumed at USDA's puri composition, 24.9% fat"
+          },
+          {
+            "id": "sugar",
+            "g": 117.8,
+            "note": "From syrup equal to the fried weight, at the textbook syrup's 61.5% sugar: an assumption"
+          },
+          {
+            "id": "water",
+            "g": 73.7,
+            "note": "The syrup's water"
+          }
+        ],
+        "cookedYieldG": 383,
+        "yieldNote": "fried weight (191.5 g, from the batter's solids at USDA's puri composition) plus an equal weight of syrup"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 jalebi (about 30 g)",
+          "short": "a jalebi",
+          "grams": 30,
+          "cookedGrams": 30,
+          "kcal": 95,
+          "protein": 1,
+          "carbs": 15,
+          "fat": 4
+        },
+        {
+          "id": "two",
+          "label": "2 jalebis",
+          "short": "2 jalebis",
+          "grams": 60,
+          "cookedGrams": 60,
+          "kcal": 195,
+          "protein": 2,
+          "carbs": 30,
+          "fat": 7
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 320,
+          "protein": 3,
+          "carbs": 50,
+          "fat": 12
+        },
+        {
+          "id": "g250",
+          "label": "250 g (as sold by weight)",
+          "short": "250 g",
+          "grams": 250,
+          "cookedGrams": 250,
+          "kcal": 805,
+          "protein": 7,
+          "carbs": 126,
+          "fat": 31
+        }
+      ],
+      "outside": {
+        "portionId": "two",
+        "label": "Halwai, with rabri",
+        "caption": "Two jalebis. The outside range adds up to 50 g of rabri.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "khoa",
+            "g": [
+              0,
+              25
+            ]
+          },
+          {
+            "id": "sugar",
+            "g": [
+              0,
+              5
+            ]
+          }
+        ],
+        "basis": "Rabri is thickened sweetened milk. 50 g of rabri is modelled as 25 g khoa and 5 g sugar (a stated assumption) on top of 2 jalebis.",
+        "text": [
+          "From a halwai, jalebis are often eaten hot with rabri or with poha, and sold by weight, so a plate can be anywhere from two pieces to a quarter kilo.",
+          "The range below runs from two jalebis on their own to two with about 50 g of rabri."
+        ],
+        "kcalRange": [
+          195,
+          290
+        ],
+        "fatRange": [
+          7,
+          13
+        ]
+      },
+      "changes": [
+        "Syrup is the biggest unknown. A jalebi that's left to soak longer takes up more sugar.",
+        "Oil taken up in frying is the next. Thin, crisp spirals take up more for their size than thick ones.",
+        "Rabri on top adds about 100 calories per 50 g; poha on the side is counted separately.",
+        "Imarti, made from urad dal batter, is similar per gram."
+      ],
+      "method": [
+        "No standard textbook in the Indian Nutrient Databank has jalebi, and we found no lab analysis of it, so this is an estimate built in two steps, each stated. The batter is 100 g maida with 25 g curd and water. Values are from IFCT 2017, with curd and sugar from USDA.",
+        "First, the fried spirals are taken to have the composition of USDA's measured puri (24.9% fat, 28% water), another fried wheat dough. Second, they're taken to soak up their own weight of syrup made as in The Art & Science of Cooking's gulab jamun (200 g sugar in 125 ml water, about 61.5% sugar). The 30 g piece is a typical size, also an assumption."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 jalebi?",
+          "a": "Roughly {{kcal:one}} for a 30 g jalebi, an estimate. Thin, small jalebis have less; thick, syrupy ones more."
+        },
+        {
+          "q": "How many calories are in 100 g of jalebi?",
+          "a": "About {{kcal:g100}}, and about {{kcal:g250}} for a quarter kilo."
+        },
+        {
+          "q": "How much sugar is in a jalebi?",
+          "a": "About 9 g of added sugar in a 30 g jalebi by this estimate, a little over 2 teaspoons."
+        },
+        {
+          "q": "How many calories are in jalebi with rabri?",
+          "a": "About {{kcal:two}} for 2 jalebis on their own, and up to about {{outHi}} with 50 g of rabri."
+        }
+      ],
+      "related": [
+        "gulab-jamun",
+        "rasgulla",
+        "poha",
+        "kachori"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "No analysed value for jalebi was found (IFCT 2017, NIN Annexure 8, USDA FNDDS, Europe PMC, web search). Consumer calorie databases list figures that don't reconcile and aren't used.",
+        "Step 1, frying: batter non-fat solids = maida 100 x (1 - 0.1134 - 0.0076) = 87.9 g + curd 25 x (1 - 0.879 - 0.0325) = 2.2 g = 90.1 g. At FNDDS puri composition (24.94% fat, 27.99% water), fat = 90.1 x 24.94 / 47.07 = 47.7 g; minus own fat 1.6 g = 46.2 g oil; fried weight 90.1 / 0.4707 = 191.5 g.",
+        "Step 2, syrup: 191.5 g of syrup at 200 / 325 = 61.5% sugar = 117.8 g sugar and 73.7 g water. Equal weight of syrup is an assumption.",
+        "Rabri modelled as 25 g khoa + 5 g sugar per 50 g; an assumption.",
+        "Piece weight 30 g is an assumption."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Maida (A018), khoa (L004), oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Bread, puri (2707714)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707714/nutrients",
+          "note": "24.9 g fat and 28 g water per 100 g, used for the fried spirals",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC348 (syrup: 200 g sugar in 125 ml water)",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "Sugar",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 320,
+        "protein": 3,
+        "carbs": 50,
+        "fat": 12
+      }
+    },
+    {
+      "slug": "kaju-katli",
+      "name": "Kaju katli",
+      "nameLower": "kaju katli",
+      "category": "sweets",
+      "aliases": [
+        "kaju barfi",
+        "kaju burfi",
+        "kaju katri",
+        "cashew barfi",
+        "cashew fudge",
+        "काजू कतली",
+        "काजू बर्फी",
+        "કાજુ કતરી"
+      ],
+      "updated": "2026-10-11",
+      "title": "Kaju katli calories: per piece and per 100 g",
+      "description": "One 10 g piece of kaju katli has about {{kcal:shop}} calories; 100 g about {{kcal:g100}}. Made from cashews and sugar, worked out from IFCT 2017.",
+      "answer": "One sweet-shop piece of kaju katli (about 10 g) has about {{kcal:shop}} calories. A larger home piece of about 17 g has about {{kcal:one}}.",
+      "intro": [
+        "Kaju katli is ground cashews cooked with sugar syrup into a smooth dough, rolled thin, cut into diamonds and often topped with silver leaf. It's the most gifted sweet at Diwali and keeps for days without refrigeration.",
+        "Cashews and sugar are roughly equal by weight, but cashews carry more of the calories because of their fat. Per gram, kaju katli is one of the richest common sweets."
+      ],
+      "headlinePortion": "shop",
+      "portionsCaption": "Kaju katli made as below.",
+      "recipe": {
+        "label": "Recipe: 50 g cashews and 50 g sugar, making 6 pieces",
+        "ingredients": [
+          {
+            "id": "cashew",
+            "g": 50
+          },
+          {
+            "id": "sugar",
+            "g": 50
+          },
+          {
+            "id": "water",
+            "g": 45,
+            "note": "3 tablespoons, cooked off"
+          },
+          {
+            "id": "ghee",
+            "g": 5,
+            "note": "Greasing: of the 2 tablespoons used, about 5 g taken as eaten (an assumption)"
+          }
+        ],
+        "cookedYieldG": 105,
+        "yieldNote": "cashews, sugar and the greasing ghee, with the water cooked off"
+      },
+      "portions": [
+        {
+          "id": "shop",
+          "label": "1 sweet-shop piece (about 10 g)",
+          "short": "a piece",
+          "grams": 10,
+          "cookedGrams": 10,
+          "kcal": 50,
+          "protein": 1,
+          "carbs": 6,
+          "fat": 3
+        },
+        {
+          "id": "one",
+          "label": "1 home piece (a sixth, about 17 g)",
+          "short": "a home piece",
+          "fraction": 0.1667,
+          "cookedGrams": 18,
+          "kcal": 90,
+          "protein": 2,
+          "carbs": 10,
+          "fat": 5
+        },
+        {
+          "id": "four",
+          "label": "4 sweet-shop pieces (40 g)",
+          "short": "4 pieces",
+          "grams": 40,
+          "cookedGrams": 40,
+          "kcal": 200,
+          "protein": 4,
+          "carbs": 24,
+          "fat": 11
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 505,
+          "protein": 9,
+          "carbs": 60,
+          "fat": 26
+        }
+      ],
+      "outside": {
+        "portionId": "four",
+        "label": "Packed or sweet shop",
+        "caption": "40 g, 4 pieces. The outside range runs from a packed label to this recipe.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          0.89,
+          1
+        ],
+        "basis": "A packed kaju katli label (USDA FDC 740348) lists 450 kcal per 100 g, 11% below this recipe; shop recipes vary in the share of cashew to sugar. 0.89 to 1 times this recipe is used.",
+        "text": [
+          "Shop and packed kaju katli is made to much the same recipe. A packed brand's label lists 450 calories per 100 g, a little below this page's {{kcal:g100}}, which suggests a little less cashew or more sugar.",
+          "The range below runs from that label to this recipe for 4 pieces."
+        ],
+        "kcalRange": [
+          180,
+          200
+        ],
+        "fatRange": [
+          9,
+          11
+        ]
+      },
+      "changes": [
+        "Piece size is the main thing: a shop piece is about 10 g, a home piece often more.",
+        "More cashew and less sugar raises it slightly per gram, since cashews have more calories than sugar.",
+        "Silver leaf adds nothing measurable.",
+        "Kaju roll, kaju pista roll and kaju barfi with khoa are close per gram."
+      ],
+      "method": [
+        "The recipe is the cashewnut burfi in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 50 g cashews ground and cooked with 50 g sugar in 3 tablespoons of water, making 6 pieces. Values are from IFCT 2017, with sugar from USDA.",
+        "The databank counts all 2 tablespoons of ghee used for greasing the tray as eaten. This page counts 5 g of it."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 kaju katli?",
+          "a": "About {{kcal:shop}} for a 10 g sweet-shop piece, and about {{kcal:one}} for a larger home piece."
+        },
+        {
+          "q": "How many calories are in 100 g of kaju katli?",
+          "a": "About {{kcal:g100}} for this recipe. A packed brand's label lists 450."
+        },
+        {
+          "q": "How much sugar is in kaju katli?",
+          "a": "About 4.5 g of added sugar in a 10 g piece, close to half its weight."
+        },
+        {
+          "q": "How much protein is in kaju katli?",
+          "a": "About {{protein:four}} g in 4 pieces, from the cashews."
+        }
+      ],
+      "related": [
+        "besan-ladoo",
+        "gulab-jamun",
+        "rasgulla",
+        "gajar-halwa"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "Packed kaju katli label, USDA FDC 740348",
+          "kcalPer100g": 450,
+          "url": "https://fdc.nal.usda.gov/food-details/740348/nutrients",
+          "ours": 504,
+          "differencePct": -11
+        }
+      ],
+      "judgement": [
+        "Greasing ghee: INDB counts 2 tbsp (25.6 g) for 6 pieces; this page counts 5 g, an assumption for the film left on the pieces.",
+        "Yield 105 g = 50 cashew + 50 sugar + 5 ghee, water cooked off.",
+        "Sugar per 10 g piece: 50 / 105 x 10 = 4.8 g.",
+        "Label cross-check per 100 g: 450 kcal (Mitha Magic, 40 g = 4 pieces)."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Cashew nut (H005), ghee (T013); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC339, cashewnut burfi",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Branded food label, kaju katli (Mitha Magic) (740348)",
+          "url": "https://fdc.nal.usda.gov/food-details/740348/nutrients",
+          "note": "40 g = 4 pieces; 450 kcal and 17.5 g fat per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "Sugar",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 505,
+        "protein": 9,
+        "carbs": 60,
+        "fat": 26
+      }
+    },
+    {
+      "slug": "besan-ladoo",
+      "name": "Besan ladoo",
+      "nameLower": "besan ladoo",
+      "category": "sweets",
+      "aliases": [
+        "besan laddu",
+        "besan ke laddu",
+        "besan laddoo",
+        "gram flour ladoo",
+        "बेसन लड्डू",
+        "बेसन के लड्डू",
+        "બેસનના લાડુ"
+      ],
+      "updated": "2026-10-11",
+      "title": "Besan ladoo calories: per ladoo and per 100 g",
+      "description": "One besan ladoo (about 35 g) has about {{kcal:one}} calories, from besan, ghee and sugar. Close to a street ladoo measured in a lab study.",
+      "answer": "One besan ladoo of about 35 g has about {{kcal:one}} calories. Ghee and sugar are about two thirds of it.",
+      "intro": [
+        "Besan ladoo is gram flour roasted slowly in ghee until it smells nutty, then mixed with powdered sugar and cardamom and shaped into balls. It's a Diwali and festival sweet in most of north and west India, and it keeps for weeks.",
+        "A ladoo is about a fifth ghee by weight, so it's rich for its size."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Besan ladoo made as below.",
+      "recipe": {
+        "label": "Recipe: 50 g besan and 10 g suji roasted in 30 g ghee with 50 g sugar, making 4 ladoos",
+        "ingredients": [
+          {
+            "id": "besan",
+            "g": 50
+          },
+          {
+            "id": "semolina",
+            "g": 10
+          },
+          {
+            "id": "ghee",
+            "g": 30
+          },
+          {
+            "id": "sugar",
+            "g": 50,
+            "note": "powdered"
+          }
+        ],
+        "cookedYieldG": 140,
+        "yieldNote": "the ingredients added together; roasting drives off little"
+      },
+      "portions": [
+        {
+          "id": "small",
+          "label": "1 small ladoo (25 g)",
+          "short": "a small ladoo",
+          "grams": 25,
+          "cookedGrams": 25,
+          "kcal": 115,
+          "protein": 2,
+          "carbs": 14,
+          "fat": 6
+        },
+        {
+          "id": "one",
+          "label": "1 ladoo (about 35 g)",
+          "short": "a ladoo",
+          "fraction": 0.25,
+          "cookedGrams": 35,
+          "kcal": 165,
+          "protein": 3,
+          "carbs": 20,
+          "fat": 8
+        },
+        {
+          "id": "two",
+          "label": "2 ladoos",
+          "short": "2 ladoos",
+          "fraction": 0.5,
+          "cookedGrams": 70,
+          "kcal": 330,
+          "protein": 6,
+          "carbs": 40,
+          "fat": 16
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 470,
+          "protein": 9,
+          "carbs": 57,
+          "fat": 23
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Sweet shop (measured and large)",
+        "caption": "One ladoo. The range runs from a 33 g street ladoo measured in Delhi to a 60 g sweet-shop ladoo.",
+        "fatFactor": [
+          1.02,
+          1
+        ],
+        "sizeFactor": [
+          0.952,
+          1.714
+        ],
+        "basis": "Low end calibrated to Gupta et al. 2016's besan ladoo from a Delhi vendor, 33.33 g with 7.93 g fat. High end is USDA FNDDS's 60 g ladoo piece at this recipe's composition.",
+        "text": [
+          "A peer-reviewed study bought a besan ladoo from a Delhi vendor and tested it: 33 g with 7.9 g of fat, almost the same as this home ladoo. Sweet-shop ladoos are often bigger; USDA's survey data lists a ladoo at 60 g.",
+          "The range below runs from that measured ladoo to a 60 g one made like this recipe."
+        ],
+        "kcalRange": [
+          160,
+          280
+        ],
+        "fatRange": [
+          8,
+          14
+        ]
+      },
+      "changes": [
+        "Size is the main thing: a 60 g sweet-shop ladoo has close to twice a 35 g one.",
+        "Ghee is about 40% of a ladoo's calories here. Each extra tablespoon in the batch adds about 110 calories.",
+        "Boondi ladoo and motichoor ladoo are fried besan pearls in syrup, and have their own values.",
+        "Nuts and raisins mixed in add a little."
+      ],
+      "method": [
+        "The recipe is the gram flour ladoo in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 50 g besan and 10 g suji roasted in 30 g ghee, mixed with 50 g powdered sugar and cardamom, making 4 ladoos. Values are from IFCT 2017, with sugar from USDA.",
+        "Besan is valued as ground Bengal gram dal, since IFCT 2017 has no separate besan entry."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 besan ladoo?",
+          "a": "About {{kcal:one}} for a 35 g ladoo, and about {{kcal:small}} for a small 25 g one."
+        },
+        {
+          "q": "How many calories are in 100 g of besan ladoo?",
+          "a": "About {{kcal:g100}}. USDA's survey value for a ladoo is 411."
+        },
+        {
+          "q": "How much sugar is in a besan ladoo?",
+          "a": "About 12.5 g of added sugar in a 35 g ladoo, about 3 teaspoons."
+        },
+        {
+          "q": "How much protein is in a besan ladoo?",
+          "a": "About {{protein:one}} g, from the besan."
+        }
+      ],
+      "related": [
+        "kaju-katli",
+        "gulab-jamun",
+        "dhokla",
+        "besan-chilla"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "USDA FNDDS 2021-2023, Ladoo, round ball (91718300)",
+          "kcalPer100g": 411,
+          "url": "https://fdc.nal.usda.gov/food-details/2710351/nutrients",
+          "ours": 469,
+          "differencePct": -12
+        }
+      ],
+      "judgement": [
+        "Fat check: this ladoo is (2.66 + 0.07 + 30) / 140 = 23.4% fat; Gupta et al.'s Delhi besan ladoo was 7.93 / 33.33 = 23.8%.",
+        "Outside low: size 33.33 / 35 = 0.952, fat factor 1.02 to match 7.93 g fat. High: FNDDS 60 g ladoo piece, 60 / 35 = 1.714.",
+        "Castor sugar valued as sugar. Cardamom and turmeric pinch left out.",
+        "Ghee share: 265 / 657 kcal = 40%. Sugar per ladoo: 50 / 4 = 12.5 g."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Bengal gram dal (B001) as besan, semolina (A022), ghee (T013); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC343, gram flour ladoo",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Gupta et al., Unhealthy fat in street and snack foods, Journal of Nutrition Education and Behavior, 2016",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4826272",
+          "note": "Measured besan ladoo weight and fat, Delhi urban slum",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Ladoo, round ball (2710351)",
+          "url": "https://fdc.nal.usda.gov/food-details/2710351/nutrients",
+          "note": "411 kcal per 100 g; 60 g per piece",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "Sugar",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 470,
+        "protein": 9,
+        "carbs": 57,
+        "fat": 23
+      }
+    },
+    {
+      "slug": "gajar-halwa",
+      "name": "Gajar halwa",
+      "nameLower": "gajar halwa",
+      "category": "sweets",
+      "aliases": [
+        "gajar ka halwa",
+        "carrot halwa",
+        "gajrela",
+        "gajar halva",
+        "गाजर का हलवा",
+        "ગાજરનો હલવો"
+      ],
+      "updated": "2026-10-11",
+      "title": "Gajar halwa calories: per bowl and per katori",
+      "description": "A bowl of gajar halwa from 100 g of carrots has about {{kcal:bowl}} calories, with khoa, sugar and ghee. Sweet shop and wedding halwa compared.",
+      "answer": "A bowl of home gajar halwa, made from 100 g of carrots with khoa, sugar and ghee, has about {{kcal:bowl}} calories. A small katori is about {{kcal:small}}.",
+      "intro": [
+        "Gajar halwa is grated red winter carrots cooked slowly in milk until it's absorbed, then with ghee, sugar and khoa, finished with cardamom and nuts. It's the north Indian winter sweet, made at home when Delhi carrots are in season and served warm at weddings.",
+        "Carrots themselves are light. The ghee, sugar and khoa make up about four fifths of a bowl's calories."
+      ],
+      "headlinePortion": "bowl",
+      "portionsCaption": "Home gajar halwa made as below.",
+      "recipe": {
+        "label": "Recipe: 200 g carrots with 40 g khoa, 40 g sugar and 20 g ghee, for 2 bowls",
+        "ingredients": [
+          {
+            "id": "carrot",
+            "g": 200
+          },
+          {
+            "id": "milk_cow",
+            "g": 30
+          },
+          {
+            "id": "khoa",
+            "g": 40
+          },
+          {
+            "id": "sugar",
+            "g": 40
+          },
+          {
+            "id": "ghee",
+            "g": 20
+          },
+          {
+            "id": "almond",
+            "g": 2.2
+          },
+          {
+            "id": "cashew",
+            "g": 2.5
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no measured cooked weight; carrots lose a lot of water as they cook"
+      },
+      "portions": [
+        {
+          "id": "small",
+          "label": "1 small katori (a quarter of the recipe)",
+          "short": "a small katori",
+          "fraction": 0.25,
+          "cookedGrams": null,
+          "kcal": 145,
+          "protein": 3,
+          "carbs": 15,
+          "fat": 8
+        },
+        {
+          "id": "bowl",
+          "label": "1 bowl (half the recipe, 100 g carrots)",
+          "short": "a bowl",
+          "fraction": 0.5,
+          "cookedGrams": null,
+          "kcal": 285,
+          "protein": 5,
+          "carbs": 30,
+          "fat": 16
+        }
+      ],
+      "outside": {
+        "portionId": "bowl",
+        "label": "Wedding or sweet shop",
+        "caption": "One bowl. The outside range has up to 1.5 times the ghee, plus up to 20 g more khoa.",
+        "fatFactor": [
+          1,
+          1.5
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "khoa",
+            "g": [
+              0,
+              20
+            ]
+          }
+        ],
+        "basis": "No analysed value for sweet-shop gajar halwa was found. Up to 1.5 times the ghee and up to 20 g more khoa per bowl are stated assumptions.",
+        "text": [
+          "Wedding and sweet-shop gajar halwa is usually richer, with more ghee and khoa, and sometimes condensed milk.",
+          "No lab has measured it, so the range below allows up to 1.5 times the ghee and up to 20 g more khoa per bowl."
+        ],
+        "kcalRange": [
+          285,
+          395
+        ],
+        "fatRange": [
+          16,
+          26
+        ]
+      },
+      "changes": [
+        "Ghee is a big part: each tablespoon across the pot adds about 113 calories.",
+        "Khoa adds about 125 calories per 40 g; halwa made with only milk, cooked down, has less fat.",
+        "Sugar adds about 16 calories a teaspoon. Gajar halwa needs less than you'd think, since carrots are sweet.",
+        "Nuts on top add about 60 calories per 10 g."
+      ],
+      "method": [
+        "The recipe is the carrot halwa in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 200 g carrots cooked with 30 ml milk, 40 g khoa, 40 g sugar and 20 g ghee, finished with almonds, cashews and cardamom, for 2 bowls. Values are from IFCT 2017, with sugar from USDA.",
+        "Carrots lose much of their water as they cook, so this page counts halwa by its share of the recipe rather than by weight."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 bowl of gajar halwa?",
+          "a": "About {{kcal:bowl}} for a bowl made from 100 g of carrots, and about {{kcal:small}} for a small katori."
+        },
+        {
+          "q": "How many calories are in gajar halwa with ice cream?",
+          "a": "Add about 100 to 140 calories for a scoop of vanilla ice cream to the bowl's {{kcal:bowl}}."
+        },
+        {
+          "q": "How much sugar is in gajar halwa?",
+          "a": "About 20 g of added sugar in a bowl, 5 teaspoons, plus the natural sugar in the carrots and khoa."
+        },
+        {
+          "q": "How much protein is in gajar halwa?",
+          "a": "About {{protein:bowl}} g in a bowl, mostly from the khoa."
+        }
+      ],
+      "related": [
+        "gulab-jamun",
+        "besan-ladoo",
+        "kaju-katli",
+        "rasgulla"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Pistachios (0.4 g) and cardamom left out.",
+        "Ghee, sugar and khoa: (176.9 + 154.8 + 126.4) / 574.4 = 80% of calories; with milk and nuts, about 90%.",
+        "No analysed value for gajar halwa per bowl was found (IFCT, NIN Annexure 8, USDA FNDDS). NIN's halwa (kesari, 320 kcal per half cup) is a semolina halwa and isn't used.",
+        "Ice cream: NIN counts half a cup at 200 kcal; a scoop is about half to two thirds of that.",
+        "Changes list: nuts 10 g x about 580 to 610 kcal per 100 g (IFCT almond H001, cashew H005) = about 60 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Carrot (F002), cow milk (L002), khoa (L004), ghee (T013), almond (H001), cashew (H005); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC295, carrot halwa",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "Sugar",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: ice cream 200 kcal per half cup",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "filter-coffee",
+      "name": "Filter coffee",
+      "nameLower": "filter coffee",
+      "category": "drinks",
+      "aliases": [
+        "south indian filter coffee",
+        "kaapi",
+        "filter kaapi",
+        "degree coffee",
+        "madras coffee",
+        "davara tumbler coffee",
+        "फिल्टर कॉफी",
+        "ફિલ્ટર કોફી"
+      ],
+      "updated": "2026-10-11",
+      "title": "Filter coffee calories: with sugar, without, toned milk",
+      "description": "A tumbler of filter coffee with whole milk and 2 teaspoons of sugar has about {{kcal:two_tsp}} calories; without sugar, about {{kcal:no_sugar}}.",
+      "answer": "A tumbler of South Indian filter coffee (50 ml decoction, 100 ml whole milk, 2 teaspoons of sugar) has about {{kcal:two_tsp}} calories, or about {{kcal:no_sugar}} without sugar.",
+      "intro": [
+        "Filter coffee is a strong decoction, dripped slowly through a brass or steel filter from ground coffee and chicory, mixed with hot milk and sugar, and frothed by pouring between a tumbler and davara. It's the morning drink across Tamil Nadu, Karnataka and Kerala.",
+        "The decoction itself has almost no calories. The milk and the sugar are the whole number."
+      ],
+      "headlinePortion": "two_tsp",
+      "portionsCaption": "One tumbler: 50 ml decoction with 100 ml milk.",
+      "recipe": {
+        "label": "One tumbler: 50 ml coffee decoction with 100 ml whole milk",
+        "ingredients": [
+          {
+            "id": "coffee_decoction",
+            "g": 50
+          },
+          {
+            "id": "milk_cow",
+            "g": 100
+          }
+        ],
+        "cookedYieldG": 150,
+        "yieldNote": "the decoction and milk together"
+      },
+      "portions": [
+        {
+          "id": "no_sugar",
+          "label": "1 tumbler, no sugar",
+          "short": "without sugar",
+          "fraction": 1,
+          "cookedGrams": 150,
+          "kcal": 75,
+          "protein": 3,
+          "carbs": 5,
+          "fat": 4
+        },
+        {
+          "id": "one_tsp",
+          "label": "1 tumbler, 1 tsp sugar",
+          "short": "with 1 tsp sugar",
+          "fraction": 1,
+          "add": [
+            {
+              "id": "sugar",
+              "g": 4.2
+            }
+          ],
+          "cookedGrams": 150,
+          "kcal": 90,
+          "protein": 3,
+          "carbs": 9,
+          "fat": 4
+        },
+        {
+          "id": "two_tsp",
+          "label": "1 tumbler, 2 tsp sugar",
+          "short": "a tumbler",
+          "fraction": 1,
+          "add": [
+            {
+              "id": "sugar",
+              "g": 8.4
+            }
+          ],
+          "cookedGrams": 150,
+          "kcal": 105,
+          "protein": 3,
+          "carbs": 13,
+          "fat": 4
+        },
+        {
+          "id": "toned",
+          "label": "1 tumbler, toned milk, 2 tsp sugar",
+          "short": "with toned milk",
+          "fraction": 0,
+          "hideGrams": true,
+          "add": [
+            {
+              "id": "coffee_decoction",
+              "g": 50
+            },
+            {
+              "id": "milk_toned",
+              "g": 100
+            },
+            {
+              "id": "sugar",
+              "g": 8.4
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 90,
+          "protein": 3,
+          "carbs": 13,
+          "fat": 3
+        }
+      ],
+      "outside": {
+        "portionId": "two_tsp",
+        "label": "Darshini or Udupi hotel",
+        "caption": "One tumbler. The outside range adds up to a teaspoon more sugar, in a tumbler up to 1.2 times as big.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1.2
+        ],
+        "extra": [
+          {
+            "id": "sugar",
+            "g": [
+              0,
+              4.2
+            ]
+          }
+        ],
+        "basis": "No analysed value for hotel filter coffee was found. Up to a teaspoon more sugar and a serving up to 1.2 times as big are stated assumptions.",
+        "text": [
+          "Filter coffee in a darshini or Udupi hotel is usually sweeter than home coffee, and sometimes a little bigger, made with full-cream milk.",
+          "No lab has measured it, so the range below allows up to a teaspoon more sugar and a serving up to 1.2 times as big."
+        ],
+        "kcalRange": [
+          105,
+          145
+        ],
+        "fatRange": [
+          4,
+          5
+        ]
+      },
+      "changes": [
+        "Sugar is the main variable: each level teaspoon adds about 16 calories.",
+        "Toned milk instead of whole milk saves about 15 calories a tumbler; buffalo milk adds about 35.",
+        "More decoction and less milk lowers it; the decoction itself is close to zero.",
+        "Chicory in the coffee powder adds nothing measurable to the cup."
+      ],
+      "method": [
+        "One tumbler is taken as 50 ml of decoction and 100 ml of whole milk. ICMR-NIN counts a cup of coffee with 2 teaspoons of sugar and 100 ml (taken here as the milk) at 110 calories. Milk values are from IFCT 2017; coffee and sugar from USDA. A level teaspoon of sugar is 4.2 g (USDA).",
+        "The toned-milk row uses Amul Taaza's label, 3% fat, as on the masala chai page."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in filter coffee?",
+          "a": "About {{kcal:two_tsp}} for a tumbler with whole milk and 2 teaspoons of sugar, and about {{kcal:no_sugar}} without sugar."
+        },
+        {
+          "q": "How many calories are in filter coffee with toned milk?",
+          "a": "About {{kcal:toned}} with toned milk and 2 teaspoons of sugar."
+        },
+        {
+          "q": "Which has more calories, filter coffee or chai?",
+          "a": "Filter coffee, usually, because it has more milk. A cup of [masala chai](/calories/masala-chai/) with 2 teaspoons of sugar is about {{kcal@masala-chai:cup2}}."
+        },
+        {
+          "q": "How many calories are in black filter coffee?",
+          "a": "About 1 calorie in 50 ml of decoction. Sugar adds about 16 per teaspoon."
+        }
+      ],
+      "related": [
+        "masala-chai",
+        "idli",
+        "plain-dosa",
+        "upma"
+      ],
+      "useCase": {
+        "href": "/for/office-canteen-tiffin/",
+        "label": "Calories in office canteen food and tiffin"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: coffee (2 tsp sugar + 100 ml milk), 1 cup",
+          "portionId": "two_tsp",
+          "kcal": 110,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 106,
+          "differencePct": 4
+        }
+      ],
+      "judgement": [
+        "Tumbler = 50 ml decoction + 100 ml milk, NIN's coffee milk amount. Whole cow milk (IFCT L002) used; NIN doesn't state the milk.",
+        "Decoction valued as USDA brewed coffee (FDC 171890), about 1 kcal per 100 g.",
+        "Buffalo milk in the changes list: 100 ml x (107.3 - 72.9) = 34 kcal more; toned: 72.9 - 58 = 15 kcal less."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Cow milk (L002), buffalo milk (L001); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Beverages, coffee, brewed (171890)",
+          "url": "https://fdc.nal.usda.gov/food-details/171890/nutrients",
+          "note": "Decoction",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "1 tsp = 4.2 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: coffee 110 kcal per cup (2 tsp sugar, 100 ml milk)",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Amul Taaza toned milk label (Dudhsagar Dairy)",
+          "url": "https://dudhsagardairy.coop/dairy/products/amul-taaza/",
+          "note": "58 kcal and 3 g fat per 100 ml",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 50,
+        "protein": 2,
+        "carbs": 3,
+        "fat": 3
+      }
+    },
+    {
+      "slug": "chaas",
+      "name": "Chaas",
+      "nameLower": "chaas",
+      "category": "drinks",
+      "aliases": [
+        "chhaas",
+        "chaach",
+        "buttermilk",
+        "masala chaas",
+        "salted lassi",
+        "mattha",
+        "majjige",
+        "neer mor",
+        "मट्ठा",
+        "छाछ",
+        "છાશ"
+      ],
+      "updated": "2026-10-11",
+      "title": "Chaas calories: per glass, masala chaas and buttermilk",
+      "description": "A 200 ml glass of chaas made from curd and water has about {{kcal:k200}} calories. Thicker chaas, masala chaas and packed buttermilk compared.",
+      "answer": "A 200 ml glass of home chaas (curd whisked with about three times as much water) has about {{kcal:k200}} calories.",
+      "intro": [
+        "Chaas is curd whisked with water and salt, often with roasted cumin, ginger, green chilli, mint or coriander as masala chaas. It's drunk with lunch across Gujarat, Rajasthan and Punjab, and in the south as majjige or neer mor.",
+        "Most of a glass is water, so chaas is one of the lightest drinks there is. The amount of curd in it sets the number."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "100 g curd in about 320 ml of water and ice, as below.",
+      "recipe": {
+        "label": "Recipe: 100 g curd whisked with about 320 ml water and ice, with cumin",
+        "ingredients": [
+          {
+            "id": "curd",
+            "g": 100
+          },
+          {
+            "id": "water",
+            "g": 320,
+            "note": "half a cup of water and 4 to 5 ice cubes"
+          },
+          {
+            "id": "cumin",
+            "g": 0.3
+          }
+        ],
+        "cookedYieldG": 420,
+        "yieldNote": "the ingredients added together",
+        "densityGPerMl": 1,
+        "densityNote": "taken as 1 g per ml, like water"
+      },
+      "portions": [
+        {
+          "id": "k200",
+          "label": "1 glass (200 ml)",
+          "short": "a glass",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 30,
+          "protein": 2,
+          "carbs": 2,
+          "fat": 2
+        },
+        {
+          "id": "k250",
+          "label": "1 large glass (250 ml)",
+          "short": "a large glass",
+          "ml": 250,
+          "cookedGrams": 250,
+          "kcal": 35,
+          "protein": 2,
+          "carbs": 3,
+          "fat": 2
+        },
+        {
+          "id": "tall",
+          "label": "1 tall glass (textbook, about 420 ml)",
+          "short": "a tall glass",
+          "fraction": 1,
+          "cookedGrams": 420,
+          "kcal": 60,
+          "protein": 4,
+          "carbs": 5,
+          "fat": 3
+        },
+        {
+          "id": "thick",
+          "label": "200 ml chaas made thick (about 100 g curd)",
+          "short": "thick chaas",
+          "ml": 200,
+          "hideGrams": true,
+          "add": [
+            {
+              "id": "curd",
+              "g": 52.4
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 60,
+          "protein": 3,
+          "carbs": 5,
+          "fat": 3
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Restaurant or packed",
+        "caption": "One 200 ml glass. The outside range has 1 to 2 times the curd.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          2
+        ],
+        "basis": "No analysed value for restaurant or packed chaas in India was found. Up to twice the curd per glass is a stated assumption; packed buttermilk labels vary.",
+        "text": [
+          "Restaurant and packed chaas is sometimes thicker than home chaas, with more curd per glass. A thali restaurant's chaas is often refilled freely.",
+          "We found no lab figure for it, so the range below allows up to twice the curd in a 200 ml glass."
+        ],
+        "kcalRange": [
+          30,
+          60
+        ],
+        "fatRange": [
+          2,
+          3
+        ]
+      },
+      "changes": [
+        "The curd is the whole number. More water lowers it; a thick chaas can be twice as much.",
+        "Curd from toned or skimmed milk lowers it further.",
+        "Cumin, ginger, mint, coriander and salt add almost nothing.",
+        "Sweet lassi adds sugar: see [lassi](/calories/lassi/)."
+      ],
+      "method": [
+        "The recipe is the salted lassi in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g curd whisked with half a cup of water and 4 to 5 ice cubes, with roasted cumin. Curd values are from USDA's whole-milk yogurt, since IFCT 2017 has no curd.",
+        "The thick chaas row adds curd so a 200 ml glass is half curd and half water."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 glass of chaas?",
+          "a": "About {{kcal:k200}} in a 200 ml glass, and about {{kcal:thick}} for thick chaas made with equal curd and water."
+        },
+        {
+          "q": "How much protein is in chaas?",
+          "a": "About {{protein:k200}} g in a 200 ml glass."
+        },
+        {
+          "q": "Is chaas the same as buttermilk?",
+          "a": "In India, yes: chaas is diluted curd. Western cultured buttermilk is thicker and has more per glass."
+        },
+        {
+          "q": "Which has fewer calories, chaas or lassi?",
+          "a": "Chaas, by a lot. A glass of sweet [lassi](/calories/lassi/) has more curd and sugar, about {{kcal@lassi:glass}}."
+        }
+      ],
+      "related": [
+        "lassi",
+        "nimbu-pani",
+        "masala-chai",
+        "kadhi"
+      ],
+      "useCase": {
+        "href": "/for/office-canteen-tiffin/",
+        "label": "Calories in office canteen food and tiffin"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Ice 13.5 tbsp (INDB) taken as about 200 g, plus 0.5 cup (120 ml) water = 320 g.",
+        "Thick chaas: a 200 ml glass of half curd = 100 g curd; the base glass has 47.6 g, so 52.4 g added.",
+        "No independent analysed value for Indian chaas was found. USDA's cultured buttermilk (43 kcal per 100 g) is a thicker, different drink and isn't used."
+      ],
+      "sources": [
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd, since IFCT 2017 has no curd",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC022, salted lassi",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Cumin (G025); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 15,
+        "protein": 1,
+        "carbs": 1,
+        "fat": 1
+      }
+    },
+    {
+      "slug": "lassi",
+      "name": "Sweet lassi",
+      "nameLower": "sweet lassi",
+      "category": "drinks",
+      "aliases": [
+        "lassi",
+        "meethi lassi",
+        "punjabi lassi",
+        "malai lassi",
+        "lassee",
+        "लस्सी",
+        "मीठी लस्सी",
+        "લસ્સી"
+      ],
+      "updated": "2026-10-11",
+      "title": "Sweet lassi calories: per glass, with malai",
+      "description": "A glass of sweet lassi with 100 g curd and 4 teaspoons of sugar has about {{kcal:glass}} calories; 200 ml about {{kcal:k200}}, as ICMR-NIN says.",
+      "answer": "A glass of home sweet lassi (100 g curd, about 4 teaspoons of sugar and water) has about {{kcal:glass}} calories. A 200 ml glass is about {{kcal:k200}}.",
+      "intro": [
+        "Sweet lassi is curd churned with sugar and a little water or ice until frothy, sometimes with cardamom or rose water. In Punjab and at dhabas it's thick, served in tall steel glasses with a layer of malai on top.",
+        "Sugar is a little over half its calories in this recipe, and the curd the rest. Malai on top adds a lot."
+      ],
+      "headlinePortion": "glass",
+      "portionsCaption": "Home sweet lassi, made as below.",
+      "recipe": {
+        "label": "Recipe: 100 g curd with 20 g sugar and 120 ml water",
+        "ingredients": [
+          {
+            "id": "curd",
+            "g": 100
+          },
+          {
+            "id": "sugar",
+            "g": 20,
+            "note": "about 4¾ level teaspoons"
+          },
+          {
+            "id": "water",
+            "g": 120,
+            "note": "half a cup; the textbook's ice cubes are left out of the volume"
+          }
+        ],
+        "cookedYieldG": 240,
+        "yieldNote": "the ingredients added together",
+        "densityGPerMl": 1,
+        "densityNote": "taken as 1 g per ml"
+      },
+      "portions": [
+        {
+          "id": "glass",
+          "label": "1 glass (about 240 ml)",
+          "short": "a glass",
+          "fraction": 1,
+          "cookedGrams": 240,
+          "kcal": 140,
+          "protein": 3,
+          "carbs": 25,
+          "fat": 3
+        },
+        {
+          "id": "k200",
+          "label": "200 ml",
+          "short": "200 ml",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 115,
+          "protein": 3,
+          "carbs": 21,
+          "fat": 3
+        },
+        {
+          "id": "malai",
+          "label": "1 glass with 1 tbsp malai on top",
+          "short": "with malai",
+          "fraction": 1,
+          "add": [
+            {
+              "id": "cream",
+              "g": 15
+            }
+          ],
+          "cookedGrams": 240,
+          "kcal": 170,
+          "protein": 4,
+          "carbs": 25,
+          "fat": 6
+        },
+        {
+          "id": "less_sugar",
+          "label": "1 glass with 2 tsp sugar",
+          "short": "less sugar",
+          "fraction": 0,
+          "hideGrams": true,
+          "add": [
+            {
+              "id": "curd",
+              "g": 100
+            },
+            {
+              "id": "sugar",
+              "g": 8.4
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 95,
+          "protein": 3,
+          "carbs": 13,
+          "fat": 3
+        }
+      ],
+      "outside": {
+        "portionId": "glass",
+        "label": "Dhaba or lassi shop",
+        "caption": "One glass. The outside range is 1.5 to 2.5 times this glass, with up to 2 tablespoons of malai.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1.5,
+          2.5
+        ],
+        "extra": [
+          {
+            "id": "cream",
+            "g": [
+              0,
+              30
+            ]
+          }
+        ],
+        "basis": "No analysed value for dhaba lassi was found. Dhaba and lassi-shop glasses are often 400 to 500 ml of thick lassi with malai; 1.5 to 2.5 times this glass with up to 2 tablespoons of cream is a stated assumption.",
+        "text": [
+          "A Punjabi dhaba or lassi shop serves lassi in big steel glasses, thick with curd and topped with a layer of malai, sometimes with dry fruit.",
+          "No lab has measured one, so the range below allows a glass 1.5 to 2.5 times this one, with up to 2 tablespoons of malai."
+        ],
+        "kcalRange": [
+          210,
+          405
+        ],
+        "fatRange": [
+          5,
+          14
+        ]
+      },
+      "changes": [
+        "Sugar is the biggest part: each teaspoon adds about 16 calories.",
+        "Malai or cream on top adds about 30 calories a tablespoon.",
+        "Thick lassi with more curd per glass has more of everything.",
+        "Mango lassi adds mango pulp; salted lassi has no sugar, see [chaas](/calories/chaas/)."
+      ],
+      "method": [
+        "The recipe is the sweet lassi in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g curd with 20 g sugar and half a cup of water, with ice. The ice adds water, not calories, so it's left out of the volume. Curd values are from USDA's whole-milk yogurt, since IFCT 2017 has no curd; sugar from USDA.",
+        "ICMR-NIN counts a 200 ml glass of lassi with 2 teaspoons of sugar at 110 calories, close to this page's 200 ml."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 glass of sweet lassi?",
+          "a": "About {{kcal:glass}} for a home glass with 100 g of curd and 20 g of sugar, and about {{kcal:malai}} with a tablespoon of malai."
+        },
+        {
+          "q": "How many calories are in a dhaba lassi?",
+          "a": "Roughly {{outLo}} to {{outHi}} for a big glass of thick lassi with malai."
+        },
+        {
+          "q": "How much sugar is in sweet lassi?",
+          "a": "About 20 g of added sugar in this glass, close to 5 teaspoons."
+        },
+        {
+          "q": "How much protein is in lassi?",
+          "a": "About {{protein:glass}} g in a glass, from the curd."
+        }
+      ],
+      "related": [
+        "chaas",
+        "masala-chai",
+        "nimbu-pani",
+        "aloo-paratha"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: lassi (2 tsp sugar), 200 ml",
+          "portionId": "k200",
+          "kcal": 110,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 115,
+          "differencePct": -5
+        }
+      ],
+      "judgement": [
+        "Ice cubes (INDB: 13.5 tbsp) left out of the volume; they melt into water and add no calories. With them, the glass is about 440 ml.",
+        "Malai valued as USDA light cream (19% fat), 1 tbsp = 15 g.",
+        "The 'less sugar' row is 100 g curd with 2 tsp (8.4 g) sugar."
+      ],
+      "sources": [
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd, since IFCT 2017 has no curd",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC021, sweet lassi",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: lassi 110 kcal per 200 ml glass with 2 tsp sugar",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "Sugar",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Cream, fluid, light (170857)",
+          "url": "https://fdc.nal.usda.gov/food-details/170857/nutrients",
+          "note": "Malai, 19% fat",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 60,
+        "protein": 1,
+        "carbs": 10,
+        "fat": 1
+      }
+    },
+    {
+      "slug": "nimbu-pani",
+      "name": "Nimbu pani",
+      "nameLower": "nimbu pani",
+      "category": "drinks",
+      "aliases": [
+        "nimbu paani",
+        "lemon water",
+        "shikanji",
+        "shikanjvi",
+        "lemonade",
+        "limbu sarbat",
+        "lime juice",
+        "नींबू पानी",
+        "शिकंजी",
+        "લીંબુ શરબત"
+      ],
+      "updated": "2026-10-11",
+      "title": "Nimbu pani calories: with sugar, without, and shikanji",
+      "description": "A glass of nimbu pani has about {{kcal:plain}} calories without sugar, {{kcal:two_tsp}} with 2 teaspoons of sugar and about {{kcal:textbook}} made sweet.",
+      "answer": "A glass of nimbu pani has about {{kcal:plain}} calories without sugar and about {{kcal:two_tsp}} with 2 teaspoons of sugar. Sugar is almost the whole number.",
+      "intro": [
+        "Nimbu pani is fresh lime or lemon juice in cold water with sugar, salt and often roasted cumin and black salt, as shikanji in north India. It's the summer drink at home, at roadside stalls and at railway stations.",
+        "Lemon juice and water have almost no calories, so each spoon of sugar decides the number."
+      ],
+      "headlinePortion": "two_tsp",
+      "portionsCaption": "One glass: half a lemon's juice in about 180 ml water.",
+      "recipe": {
+        "label": "Recipe for 2 glasses: the juice of 1 lemon in 360 ml water, with mint",
+        "ingredients": [
+          {
+            "id": "lemon_juice",
+            "g": 48,
+            "note": "1 lemon"
+          },
+          {
+            "id": "water",
+            "g": 360,
+            "note": "1.5 cups"
+          },
+          {
+            "id": "mint",
+            "g": 1
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no cooked weight; a glass is half the recipe, sugar added per glass"
+      },
+      "portions": [
+        {
+          "id": "plain",
+          "label": "1 glass, no sugar",
+          "short": "without sugar",
+          "fraction": 0.5,
+          "cookedGrams": null,
+          "kcal": 10,
+          "protein": 0,
+          "carbs": 0,
+          "fat": 0
+        },
+        {
+          "id": "one_tsp",
+          "label": "1 glass, 1 tsp sugar",
+          "short": "with 1 tsp sugar",
+          "fraction": 0.5,
+          "add": [
+            {
+              "id": "sugar",
+              "g": 4.2
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 25,
+          "protein": 0,
+          "carbs": 4,
+          "fat": 0
+        },
+        {
+          "id": "two_tsp",
+          "label": "1 glass, 2 tsp sugar",
+          "short": "a glass",
+          "fraction": 0.5,
+          "add": [
+            {
+              "id": "sugar",
+              "g": 8.4
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 40,
+          "protein": 0,
+          "carbs": 8,
+          "fat": 0
+        },
+        {
+          "id": "textbook",
+          "label": "1 glass, 1½ tbsp sugar (textbook)",
+          "short": "sweet",
+          "fraction": 0.5,
+          "add": [
+            {
+              "id": "sugar",
+              "g": 18.75
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 80,
+          "protein": 0,
+          "carbs": 19,
+          "fat": 0
+        },
+        {
+          "id": "honey",
+          "label": "1 glass, 1 tsp honey",
+          "short": "with honey",
+          "fraction": 0.5,
+          "add": [
+            {
+              "id": "honey",
+              "g": 7
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 30,
+          "protein": 0,
+          "carbs": 6,
+          "fat": 0
+        }
+      ],
+      "outside": {
+        "portionId": "plain",
+        "label": "Street shikanji or nimbu soda",
+        "caption": "One glass. The outside range adds 2 to 4 teaspoons of sugar.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "sugar",
+            "g": [
+              8.4,
+              16.8
+            ]
+          }
+        ],
+        "basis": "No analysed value for street shikanji was found. 2 to 4 level teaspoons of sugar per glass is a stated assumption; ICMR-NIN's fresh lime juice, 60 kcal a glass, sits inside it.",
+        "text": [
+          "Street shikanji and nimbu soda are usually sweet, often made with sugar syrup. Nimbu soda uses soda water, which has no calories.",
+          "No lab has measured one, so the range below allows 2 to 4 teaspoons of sugar a glass. ICMR-NIN's figure for a glass of fresh lime juice, 60 calories, falls inside it."
+        ],
+        "kcalRange": [
+          40,
+          75
+        ],
+        "fatRange": [
+          0,
+          0
+        ]
+      },
+      "changes": [
+        "Sugar is the whole number: each level teaspoon adds about 16 calories.",
+        "Honey adds about 21 calories a teaspoon, a little more than sugar.",
+        "Black salt, roasted cumin and mint add nothing measurable.",
+        "Ready-made lemonade and sweetened drinks can have much more sugar per glass."
+      ],
+      "method": [
+        "The recipe is the lemonade in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): the juice of 1 lemon in 1.5 cups of water with mint and crushed ice, sweetened with 3 tablespoons of sugar, for 2 glasses. This page counts the sugar per glass so you can see each amount. Lemon juice values are from IFCT 2017, sugar and honey from USDA.",
+        "One lemon is taken as 48 g of juice (USDA). A level teaspoon of sugar is 4.2 g and a level tablespoon 12.5 g (USDA)."
+      ],
+      "range": {
+        "text": "ICMR-NIN counts a glass of fresh lime juice at 60 calories, which is about 3 to 4 teaspoons of sugar. The textbook glass here, with 1½ tablespoons, is about {{kcal:textbook}}. Depending on the sugar, a glass is anywhere from about {{kcal:plain}} to {{kcal:textbook}}.",
+        "reason": "NIN's fresh lime juice (60 kcal) is 22% below the textbook's sweet glass and well above an unsweetened one. Sugar differs. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in nimbu pani without sugar?",
+          "a": "About {{kcal:plain}} for a glass with the juice of half a lemon."
+        },
+        {
+          "q": "How many calories are in nimbu pani with sugar?",
+          "a": "About {{kcal:one_tsp}} with 1 teaspoon of sugar, {{kcal:two_tsp}} with 2, and about {{kcal:textbook}} with 1½ tablespoons."
+        },
+        {
+          "q": "How many calories are in nimbu pani with honey?",
+          "a": "About {{kcal:honey}} with a teaspoon of honey."
+        },
+        {
+          "q": "How many calories are in shikanji?",
+          "a": "About the same as sweet nimbu pani: {{outLo}} to {{outHi}} for a street glass with 2 to 4 teaspoons of sugar."
+        }
+      ],
+      "related": [
+        "chaas",
+        "lassi",
+        "masala-chai",
+        "filter-coffee"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: fresh lime juice, 1 glass",
+          "portionId": "textbook",
+          "kcal": 60,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 82,
+          "differencePct": -26
+        }
+      ],
+      "judgement": [
+        "Lemon '1 no': INDB records 30 g of flesh; taken here as 48 g of juice (USDA FDC 167747).",
+        "Sugar 3 tbsp for 2 glasses = 37.5 g (USDA tbsp 12.5 g), 18.75 g a glass.",
+        "Honey 1 tsp = 7 g (USDA 1 tbsp = 21 g).",
+        "NIN's 60 kcal glass: (60 - 4.4) / 3.87 = about 14 g of sugar, 3.4 level teaspoons.",
+        "Crushed ice left out; it adds no calories."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Lemon juice (E033), mint (G016); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC008, lemonade",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: fresh lime juice 60 kcal per glass",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "1 tsp = 4.2 g; 1 tbsp = 12.5 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Honey (169640)",
+          "url": "https://fdc.nal.usda.gov/food-details/169640/nutrients",
+          "note": "1 tbsp = 21 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Lemon juice, raw (167747)",
+          "url": "https://fdc.nal.usda.gov/food-details/167747/nutrients",
+          "note": "1 lemon yields 48 g of juice",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
     }
   ]
 }
