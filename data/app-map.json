@@ -1,0 +1,599 @@
+{
+  "about": "How the Slate iPhone app's bundled food data (rork-slate-591: ios-slate/Slate/Resources/dishes.json and ingredients.json) is made from this site's data. Read by scripts/export-app.mjs. ingredientIds: this site's ingredient id -> the app's id, where the app already had a different id for the same food. dishes: the app's dish id -> the food (site slug, or slug in data/app-foods.json), the portion that makes one of the app's units, and the unit. Dishes the app already had keep their aliases and flags; new dishes take theirs from here. Optional per dish: name, home, outside (new dishes), page (a site page to link when the dish has none), addAliases and dropAliases.",
+  "ingredientIds": {
+    "rice_flakes": "poha",
+    "peas_fresh": "green_peas",
+    "milk_cow": "milk_full",
+    "groundnut": "peanuts",
+    "almond": "almonds",
+    "oil": "cooking_oil",
+    "semolina": "rava",
+    "spinach": "palak",
+    "okra": "bhindi",
+    "bottle_gourd": "lauki",
+    "coconut_fresh": "fresh_coconut",
+    "kabuli_chana": "chickpeas",
+    "pav": "bread_pav"
+  },
+  "dishes": {
+    "roti": {
+      "slug": "roti",
+      "portion": "medium",
+      "unit": "roti"
+    },
+    "paratha": {
+      "slug": "plain-paratha",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "aloo_paratha": {
+      "slug": "aloo-paratha",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "thepla": {
+      "slug": "thepla",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "naan": {
+      "slug": "naan",
+      "portion": "one",
+      "unit": "piece",
+      "dropAliases": [
+        "butter naan"
+      ]
+    },
+    "butter_naan": {
+      "slug": "butter-naan",
+      "portion": "one_tsp",
+      "unit": "piece",
+      "home": false,
+      "outside": false
+    },
+    "puri": {
+      "slug": "puri",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "bhatura": {
+      "slug": "bhatura",
+      "portion": "one",
+      "unit": "piece",
+      "home": true,
+      "outside": true,
+      "dropAliases": [
+        "chhole bhature"
+      ]
+    },
+    "plain_rice": {
+      "slug": "plain-rice",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "jeera_rice": {
+      "slug": "jeera-rice",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "pulao": {
+      "slug": "pulao",
+      "portion": "k200",
+      "unit": "katori",
+      "home": true,
+      "outside": false
+    },
+    "khichdi": {
+      "slug": "khichdi",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "curd_rice": {
+      "slug": "curd-rice",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "veg_biryani": {
+      "slug": "veg-biryani",
+      "portion": "plate",
+      "unit": "plate"
+    },
+    "chicken_biryani": {
+      "slug": "chicken-biryani",
+      "portion": "plate",
+      "unit": "plate"
+    },
+    "idli": {
+      "slug": "idli",
+      "portion": "medium",
+      "unit": "piece"
+    },
+    "dosa": {
+      "slug": "plain-dosa",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "masala_dosa": {
+      "slug": "masala-dosa",
+      "portion": "tsp",
+      "unit": "piece"
+    },
+    "uttapam": {
+      "slug": "uttapam",
+      "portion": "one",
+      "unit": "piece",
+      "home": true,
+      "outside": true
+    },
+    "upma": {
+      "slug": "upma",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "poha_gujarati": {
+      "slug": "poha",
+      "portion": "plate",
+      "unit": "plate"
+    },
+    "besan_chilla": {
+      "slug": "besan-chilla",
+      "portion": "one",
+      "unit": "piece",
+      "home": true,
+      "outside": false
+    },
+    "medu_vada": {
+      "slug": "medu-vada",
+      "portion": "one",
+      "unit": "piece",
+      "home": true,
+      "outside": false,
+      "dropAliases": [
+        "sambar vada"
+      ]
+    },
+    "dhokla": {
+      "slug": "dhokla",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "dal_tadka": {
+      "slug": "dal-tadka",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "dal_fry": {
+      "slug": "dal-fry",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "toor_dal": {
+      "slug": "toor-dal",
+      "portion": "k200",
+      "unit": "katori",
+      "name": "Toor dal, plain",
+      "home": true,
+      "outside": false
+    },
+    "moong_dal": {
+      "slug": "moong-dal",
+      "portion": "k200",
+      "unit": "katori",
+      "home": true,
+      "outside": false
+    },
+    "chana_dal": {
+      "slug": "chana-dal",
+      "portion": "k200",
+      "unit": "katori",
+      "home": true,
+      "outside": false
+    },
+    "dal_makhani": {
+      "slug": "dal-makhani",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "sambar": {
+      "slug": "sambar",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "rasam": {
+      "slug": "rasam",
+      "portion": "k200",
+      "unit": "katori",
+      "home": true,
+      "outside": false
+    },
+    "rajma": {
+      "slug": "rajma",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "chole": {
+      "slug": "chole",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "kadhi": {
+      "slug": "kadhi",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "paneer_butter_masala": {
+      "slug": "paneer-butter-masala",
+      "portion": "k200",
+      "unit": "katori",
+      "home": true,
+      "outside": true
+    },
+    "palak_paneer": {
+      "slug": "palak-paneer",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "matar_paneer": {
+      "slug": "matar-paneer",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "chicken_curry": {
+      "slug": "chicken-curry",
+      "portion": "k200",
+      "unit": "katori",
+      "home": true,
+      "outside": false
+    },
+    "butter_chicken": {
+      "slug": "butter-chicken",
+      "portion": "k200",
+      "unit": "katori",
+      "home": true,
+      "outside": true
+    },
+    "egg_curry": {
+      "slug": "egg-curry",
+      "portion": "one",
+      "unit": "piece",
+      "home": true,
+      "outside": false
+    },
+    "fish_curry": {
+      "slug": "fish-curry",
+      "portion": "k200",
+      "unit": "katori",
+      "home": true,
+      "outside": false
+    },
+    "aloo_sabzi": {
+      "slug": "aloo-sabzi",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "bhindi_masala": {
+      "slug": "bhindi",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "mix_veg": {
+      "slug": "mixed-veg",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "baingan_bharta": {
+      "slug": "baingan-bharta",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "cabbage_sabzi": {
+      "slug": "cabbage-sabzi",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "chai": {
+      "slug": "masala-chai",
+      "portion": "cup1",
+      "unit": "cup",
+      "beverage": true
+    },
+    "coffee": {
+      "slug": "filter-coffee",
+      "portion": "one_tsp",
+      "unit": "cup",
+      "beverage": true
+    },
+    "sweet_lassi": {
+      "slug": "lassi",
+      "portion": "glass",
+      "unit": "glass"
+    },
+    "chaas": {
+      "slug": "chaas",
+      "portion": "k200",
+      "unit": "glass"
+    },
+    "nimbu_pani": {
+      "slug": "nimbu-pani",
+      "portion": "two_tsp",
+      "unit": "glass"
+    },
+    "vada_pav": {
+      "slug": "vada-pav",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "pav_bhaji": {
+      "slug": "pav-bhaji",
+      "portion": "plate2",
+      "unit": "plate"
+    },
+    "samosa": {
+      "slug": "samosa",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "kachori": {
+      "slug": "kachori",
+      "portion": "one",
+      "unit": "piece",
+      "home": true,
+      "outside": true
+    },
+    "momos": {
+      "slug": "momos",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "pani_puri": {
+      "slug": "pani-puri",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "sev_puri": {
+      "slug": "sev-puri",
+      "portion": "plate",
+      "unit": "plate"
+    },
+    "bhel_puri": {
+      "slug": "bhel-puri",
+      "portion": "plate",
+      "unit": "plate"
+    },
+    "sabudana_khichdi": {
+      "slug": "sabudana-khichdi",
+      "portion": "plate",
+      "unit": "plate",
+      "home": true,
+      "outside": false
+    },
+    "kuttu_puri": {
+      "slug": "kuttu-puri",
+      "portion": "one",
+      "unit": "piece",
+      "home": true,
+      "outside": false
+    },
+    "makhana": {
+      "slug": "makhana",
+      "portion": "cup",
+      "unit": "cup",
+      "home": true,
+      "outside": false
+    },
+    "gulab_jamun": {
+      "slug": "gulab-jamun",
+      "portion": "one",
+      "unit": "piece",
+      "home": true,
+      "outside": false
+    },
+    "rasgulla": {
+      "slug": "rasgulla",
+      "portion": "one",
+      "unit": "piece",
+      "home": true,
+      "outside": true
+    },
+    "jalebi": {
+      "slug": "jalebi",
+      "portion": "one",
+      "unit": "piece",
+      "home": true,
+      "outside": true,
+      "dropAliases": [
+        "jalebi rabri"
+      ]
+    },
+    "kaju_katli": {
+      "slug": "kaju-katli",
+      "portion": "shop",
+      "unit": "piece",
+      "home": true,
+      "outside": true
+    },
+    "besan_ladoo": {
+      "slug": "besan-ladoo",
+      "portion": "one",
+      "unit": "piece",
+      "home": true,
+      "outside": false
+    },
+    "gajar_halwa": {
+      "slug": "gajar-halwa",
+      "portion": "bowl",
+      "unit": "plate",
+      "home": true,
+      "outside": false
+    },
+    "aloo_gobi": {
+      "slug": "aloo-gobi",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "shimla_mirch": {
+      "slug": "aloo-shimla-mirch",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "methi_aloo": {
+      "slug": "methi-aloo",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "jeera_aloo": {
+      "slug": "jeera-aloo",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "aloo_matar": {
+      "slug": "aloo-matar",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "boiled_egg": {
+      "slug": "boiled-egg",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "omelette": {
+      "slug": "omelette",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "egg_bhurji": {
+      "slug": "egg-bhurji",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "curd": {
+      "slug": "curd",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "raita": {
+      "slug": "raita",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "dal_thick": {
+      "slug": "dal-thick",
+      "portion": "k200",
+      "unit": "katori",
+      "page": "dal-tadka"
+    },
+    "gujarati_dal": {
+      "slug": "gujarati-dal",
+      "portion": "k200",
+      "unit": "katori",
+      "page": "toor-dal"
+    },
+    "chole_bhature": {
+      "slug": "chole-bhature",
+      "portion": "plate",
+      "unit": "plate",
+      "page": "chole",
+      "addAliases": [
+        "chhole bhature",
+        "chole bhatura"
+      ]
+    },
+    "sabzi": {
+      "slug": "mixed-veg",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "tandoori_roti": {
+      "slug": "tandoori-roti",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "bhakri": {
+      "slug": "bhakri",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "khandvi": {
+      "slug": "khandvi",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "paneer_bhurji": {
+      "slug": "paneer-bhurji",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "lauki_sabzi": {
+      "slug": "lauki-sabzi",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "turi_sabzi": {
+      "slug": "turai-sabzi",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "poha_indori": {
+      "slug": "indori-poha",
+      "portion": "plate",
+      "unit": "plate",
+      "page": "poha"
+    },
+    "maggi": {
+      "slug": "maggi",
+      "portion": "pack",
+      "unit": "plate"
+    },
+    "dahi_puri": {
+      "slug": "dahi-puri",
+      "portion": "one",
+      "unit": "piece",
+      "page": "pani-puri"
+    },
+    "banana": {
+      "slug": "banana",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "apple": {
+      "slug": "apple",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "orange": {
+      "slug": "orange",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "mango": {
+      "slug": "mango",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "guava": {
+      "slug": "guava",
+      "portion": "one",
+      "unit": "piece"
+    },
+    "watermelon": {
+      "slug": "watermelon",
+      "portion": "k200",
+      "unit": "katori"
+    },
+    "papaya": {
+      "slug": "papaya",
+      "portion": "k200",
+      "unit": "katori"
+    }
+  },
+  "derivedIngredients": {
+    "rice_cooked": {
+      "slug": "plain-rice",
+      "name": "Rice, cooked (plain)"
+    },
+    "dal_regular": {
+      "slug": "toor-dal",
+      "name": "Toor dal, cooked plain (thin)"
+    }
+  }
+}

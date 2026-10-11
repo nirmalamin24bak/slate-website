@@ -923,6 +923,7 @@ Added in October 2026. These pages answer what people search about Indian food a
 - `data/`, `research/` and `scripts/` are not deployed (`.vercelignore`).
 - Every number traces to research: `research/food-sources.md` (generated: each dish's recipe, arithmetic, cross-checks, judgement calls and sources), `research/content-sources.md` (numbers on the /for/, /compare/ and /blog/ pages), `research/competitors.md` (competitor facts with the date checked) and `research/search-queries-*.json` (the searches the FAQs answer).
 - Prose holds numbers as tokens, such as `{{kcal:k200}}`, `{{kcal@roti:medium}}`, `{{outLo@samosa}}`, `{{ing:paneer}}` and `{{sum:2*roti:medium+dal-tadka:k200}}`, so fixing one value updates every page that quotes it.
+- The iPhone app's bundled food data comes from the same data. `node scripts/export-app.mjs <rork-slate-591 checkout>` writes the app's `dishes.json`, `ingredients.json` and `supabase/seed_catalogue.sql`, using `data/app-map.json` (which portion makes one of the app's units, and the app's ingredient ids) and `data/app-foods.json` (dishes the app has and the site has no page for, worked out and checked the same way, logged in `research/app-food-sources.md`). It checks every dish against its page and lists the result in `research/app-export.md`. After changing food data, rebuild, export and commit the app's files too, so the app and the site never disagree.
 
 ### 24.2 Food pages (/calories/)
 

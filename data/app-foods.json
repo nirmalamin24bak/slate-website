@@ -1,0 +1,3346 @@
+{
+  "about": "Dishes the Slate iPhone app has and this site has no page for. Same format and rules as data/foods.json (recipes in grams, values from data/ingredients.json, cross-checks that need a stated range past 15%), without the page copy. node scripts/build.mjs computes the portions and writes research/app-food-sources.md; scripts/export-app.mjs sends them to the app.",
+  "foods": [
+    {
+      "slug": "aloo-gobi",
+      "name": "Aloo gobi",
+      "category": "sabzi",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: one bowl, 100 g cauliflower and 50 g potato with 1 tablespoon of oil",
+        "ingredients": [
+          {
+            "id": "cauliflower",
+            "g": 100
+          },
+          {
+            "id": "potato",
+            "g": 50
+          },
+          {
+            "id": "green_chilli",
+            "g": 1.67,
+            "note": "half a chilli"
+          },
+          {
+            "id": "ginger",
+            "g": 6.33,
+            "note": "half an inch"
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 1,
+            "note": "a few sprigs"
+          },
+          {
+            "id": "turmeric",
+            "g": 0.38,
+            "note": "an eighth of a teaspoon"
+          },
+          {
+            "id": "chilli_powder",
+            "g": 0.7,
+            "note": "a quarter teaspoon"
+          },
+          {
+            "id": "oil",
+            "g": 13.6,
+            "note": "1 tablespoon"
+          }
+        ],
+        "cookedYieldG": 173.68,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does",
+        "densityGPerMl": 0.782,
+        "densityNote": "USDA's cooked mixed vegetables: 185 g per cup (236.6 ml), as for the site's mixed veg; pieces of potato and vegetable pack about the same"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 117,
+          "kcal": 125,
+          "protein": 2,
+          "carbs": 7,
+          "fat": 10
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 156,
+          "kcal": 165,
+          "protein": 3,
+          "carbs": 9,
+          "fat": 13
+        },
+        {
+          "id": "bowl",
+          "label": "1 textbook bowl",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 174,
+          "kcal": 185,
+          "protein": 3,
+          "carbs": 10,
+          "fat": 14
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: vegetable dry, 1 cup",
+          "portionId": "k200",
+          "kcal": 150,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "A general figure for all vegetable dishes; cup = 200 ml.",
+          "ours": 167,
+          "differencePct": -10
+        }
+      ],
+      "judgement": [
+        "Garam masala and salt are left out: a quarter teaspoon of garam masala is about 1 kcal, and salt has none."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Cauliflower (D036), potato (F006), green chilli (G008), ginger (G014), coriander leaves (G009), turmeric (G033), groundnut oil (T005); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC171, potato cauliflower (aloo gobhi)",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Classic mixed vegetables, NS as to form, cooked (2710015)",
+          "url": "https://fdc.nal.usda.gov/food-details/2710015/nutrients",
+          "note": "185 g per cup, used for the katori",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: vegetable dry 150 kcal per cup; cup = 200 ml",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 105,
+        "protein": 2,
+        "carbs": 6,
+        "fat": 8
+      }
+    },
+    {
+      "slug": "aloo-shimla-mirch",
+      "name": "Aloo shimla mirch",
+      "category": "sabzi",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: one bowl, 50 g capsicum and 75 g potato with 1 tablespoon of oil",
+        "ingredients": [
+          {
+            "id": "capsicum",
+            "g": 50
+          },
+          {
+            "id": "potato",
+            "g": 75
+          },
+          {
+            "id": "green_chilli",
+            "g": 1.67,
+            "note": "half a chilli"
+          },
+          {
+            "id": "ginger",
+            "g": 6.33,
+            "note": "half an inch"
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 1,
+            "note": "a few sprigs"
+          },
+          {
+            "id": "turmeric",
+            "g": 0.38,
+            "note": "an eighth of a teaspoon"
+          },
+          {
+            "id": "chilli_powder",
+            "g": 0.7,
+            "note": "a quarter teaspoon"
+          },
+          {
+            "id": "oil",
+            "g": 13.6,
+            "note": "1 tablespoon"
+          }
+        ],
+        "cookedYieldG": 148.68,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does",
+        "densityGPerMl": 0.782,
+        "densityNote": "USDA's cooked mixed vegetables: 185 g per cup (236.6 ml), as for the site's mixed veg; pieces of potato and vegetable pack about the same"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 117,
+          "kcal": 150,
+          "protein": 2,
+          "carbs": 10,
+          "fat": 11
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 156,
+          "kcal": 200,
+          "protein": 2,
+          "carbs": 14,
+          "fat": 15
+        },
+        {
+          "id": "bowl",
+          "label": "1 textbook bowl",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 149,
+          "kcal": 190,
+          "protein": 2,
+          "carbs": 13,
+          "fat": 14
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: vegetable dry, 1 cup",
+          "portionId": "k200",
+          "kcal": 150,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "A general figure for all vegetable dishes; cup = 200 ml.",
+          "ours": 198,
+          "differencePct": -24
+        }
+      ],
+      "range": {
+        "reason": "ICMR-NIN's general figure for a dry vegetable is lower than this recipe, which has a full tablespoon of oil for 125 g of vegetables."
+      },
+      "judgement": [
+        "Garam masala and salt are left out: a quarter teaspoon of garam masala is about 1 kcal, and salt has none."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Capsicum (D033), potato (F006), green chilli (G008), ginger (G014), coriander leaves (G009), turmeric (G033), groundnut oil (T005); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC172, potato capsicum (shimla mirch aloo)",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Classic mixed vegetables, NS as to form, cooked (2710015)",
+          "url": "https://fdc.nal.usda.gov/food-details/2710015/nutrients",
+          "note": "185 g per cup, used for the katori",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: vegetable dry 150 kcal per cup; cup = 200 ml",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 125,
+        "protein": 1,
+        "carbs": 9,
+        "fat": 10
+      }
+    },
+    {
+      "slug": "methi-aloo",
+      "name": "Methi aloo",
+      "category": "sabzi",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: one bowl, 75 g methi leaves and 100 g potato with 1 tablespoon and 1½ teaspoons of oil",
+        "ingredients": [
+          {
+            "id": "methi_leaves",
+            "g": 75
+          },
+          {
+            "id": "potato",
+            "g": 100
+          },
+          {
+            "id": "green_chilli",
+            "g": 1.67,
+            "note": "half a chilli"
+          },
+          {
+            "id": "ginger",
+            "g": 6.33,
+            "note": "half an inch"
+          },
+          {
+            "id": "chilli_powder",
+            "g": 0.7,
+            "note": "a quarter teaspoon"
+          },
+          {
+            "id": "oil",
+            "g": 20.35,
+            "note": "1 tablespoon and 1½ teaspoons"
+          }
+        ],
+        "cookedYieldG": 204.05,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does",
+        "densityGPerMl": 0.782,
+        "densityNote": "USDA's cooked mixed vegetables: 185 g per cup (236.6 ml), as for the site's mixed veg; pieces of potato and vegetable pack about the same"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 117,
+          "kcal": 160,
+          "protein": 3,
+          "carbs": 10,
+          "fat": 12
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 156,
+          "kcal": 215,
+          "protein": 4,
+          "carbs": 13,
+          "fat": 16
+        },
+        {
+          "id": "bowl",
+          "label": "1 textbook bowl",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 204,
+          "kcal": 280,
+          "protein": 5,
+          "carbs": 17,
+          "fat": 21
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: vegetable dry, 1 cup",
+          "portionId": "k200",
+          "kcal": 150,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "A general figure for all vegetable dishes; cup = 200 ml.",
+          "ours": 216,
+          "differencePct": -31
+        }
+      ],
+      "range": {
+        "reason": "ICMR-NIN's general figure for a dry vegetable is lower than this textbook recipe, which uses about 20 g of oil."
+      },
+      "judgement": [
+        "Garam masala and salt are left out: a quarter teaspoon of garam masala is about 1 kcal, and salt has none."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Fenugreek leaves (C020), potato (F006), green chilli (G008), ginger (G014), groundnut oil (T005); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC175, potato fenugreek (aloo methi)",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Classic mixed vegetables, NS as to form, cooked (2710015)",
+          "url": "https://fdc.nal.usda.gov/food-details/2710015/nutrients",
+          "note": "185 g per cup, used for the katori",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: vegetable dry 150 kcal per cup; cup = 200 ml",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 140,
+        "protein": 2,
+        "carbs": 8,
+        "fat": 10
+      }
+    },
+    {
+      "slug": "jeera-aloo",
+      "name": "Jeera aloo",
+      "category": "sabzi",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: one bowl, 100 g potato with cumin and 1 teaspoon of oil",
+        "ingredients": [
+          {
+            "id": "potato",
+            "g": 100
+          },
+          {
+            "id": "cumin",
+            "g": 0.26,
+            "note": "an eighth of a teaspoon"
+          },
+          {
+            "id": "coriander_seeds",
+            "g": 0.2,
+            "note": "an eighth of a teaspoon, ground"
+          },
+          {
+            "id": "chilli_powder",
+            "g": 0.34,
+            "note": "an eighth of a teaspoon"
+          },
+          {
+            "id": "oil",
+            "g": 4.5,
+            "note": "1 teaspoon"
+          }
+        ],
+        "cookedYieldG": 105.3,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does",
+        "densityGPerMl": 0.66,
+        "densityNote": "USDA's boiled potato: 78 g per half cup (118.3 ml)"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 99,
+          "kcal": 105,
+          "protein": 2,
+          "carbs": 14,
+          "fat": 5
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 132,
+          "kcal": 140,
+          "protein": 2,
+          "carbs": 19,
+          "fat": 6
+        },
+        {
+          "id": "bowl",
+          "label": "1 textbook bowl (100 g potato)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 105,
+          "kcal": 110,
+          "protein": 2,
+          "carbs": 15,
+          "fat": 5
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: vegetable dry, 1 cup",
+          "portionId": "k200",
+          "kcal": 150,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "A general figure for all vegetable dishes; cup = 200 ml.",
+          "ours": 140,
+          "differencePct": 7
+        }
+      ],
+      "judgement": [
+        "Garam masala and salt are left out: a quarter teaspoon of garam masala is about 1 kcal, and salt has none.",
+        "The textbook's dry potato (sookhe aloo) is the jeera aloo recipe: boiled potato tossed in a cumin tempering."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Potato (F006), cumin (G025), coriander seeds (G024), groundnut oil (T005); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC178, dry potato (sookhe aloo)",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Potatoes, boiled, cooked without skin, flesh (170440)",
+          "url": "https://fdc.nal.usda.gov/food-details/170440/nutrients",
+          "note": "78 g per half cup, used for the katori",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Spices, chili powder (171319)",
+          "url": "https://fdc.nal.usda.gov/food-details/171319/nutrients",
+          "note": "Red chilli powder values",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: vegetable dry 150 kcal per cup; cup = 200 ml",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 105,
+        "protein": 2,
+        "carbs": 14,
+        "fat": 5
+      }
+    },
+    {
+      "slug": "aloo-matar",
+      "name": "Aloo matar",
+      "category": "sabzi",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: one bowl, 100 g peas and 50 g potato in an onion-tomato gravy with 1 tablespoon of oil",
+        "ingredients": [
+          {
+            "id": "peas_fresh",
+            "g": 100
+          },
+          {
+            "id": "potato",
+            "g": 50
+          },
+          {
+            "id": "tomato",
+            "g": 50
+          },
+          {
+            "id": "onion",
+            "g": 50
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.33,
+            "note": "1 chilli"
+          },
+          {
+            "id": "ginger",
+            "g": 5
+          },
+          {
+            "id": "garlic",
+            "g": 1.25,
+            "note": "2 small cloves"
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 1,
+            "note": "a few sprigs"
+          },
+          {
+            "id": "turmeric",
+            "g": 0.38,
+            "note": "an eighth of a teaspoon"
+          },
+          {
+            "id": "chilli_powder",
+            "g": 0.7,
+            "note": "a quarter teaspoon"
+          },
+          {
+            "id": "oil",
+            "g": 13.6,
+            "note": "1 tablespoon"
+          }
+        ],
+        "cookedYieldG": 275.26,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does",
+        "densityGPerMl": 1,
+        "densityNote": "a vegetable curry with gravy taken as 1 g per ml, as for the site's aloo sabzi; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 150,
+          "protein": 5,
+          "carbs": 15,
+          "fat": 8
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 205,
+          "protein": 7,
+          "carbs": 20,
+          "fat": 10
+        },
+        {
+          "id": "bowl",
+          "label": "1 textbook bowl",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 275,
+          "kcal": 280,
+          "protein": 10,
+          "carbs": 27,
+          "fat": 14
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: vegetable with gravy, 1 cup",
+          "portionId": "k200",
+          "kcal": 170,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "A general figure for all vegetable dishes; cup = 200 ml.",
+          "ours": 203,
+          "differencePct": -16
+        }
+      ],
+      "range": {
+        "reason": "ICMR-NIN's figure covers all vegetables with gravy; this one is mostly peas, which have more calories than most vegetables."
+      },
+      "judgement": [
+        "Garam masala and salt are left out: a quarter teaspoon of garam masala is about 1 kcal, and salt has none.",
+        "The textbook lists \"peas (unshelled) 100 g\", and the Indian Nutrient Databank counts it as 100 g of shelled peas; the site's matar paneer does the same."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Peas (D061), potato (F006), tomato (D075), onion (G017), green chilli (G008), ginger (G014), garlic (G011), coriander leaves (G009), turmeric (G033), groundnut oil (T005); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC190, pea potato curry (aloo matar)",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: vegetable with gravy 170 kcal per cup; cup = 200 ml",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 100,
+        "protein": 3,
+        "carbs": 10,
+        "fat": 5
+      }
+    },
+    {
+      "slug": "boiled-egg",
+      "name": "Boiled egg",
+      "category": "eggs",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: one hen's egg, about 50 g without the shell, boiled",
+        "ingredients": [
+          {
+            "id": "egg",
+            "g": 50,
+            "note": "1 egg, as the Indian Nutrient Databank counts it"
+          }
+        ],
+        "cookedYieldG": 50,
+        "yieldNote": "boiling in the shell doesn't change the weight of the egg"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 boiled egg (about 50 g)",
+          "short": "an egg",
+          "fraction": 1,
+          "cookedGrams": 50,
+          "kcal": 65,
+          "protein": 7,
+          "carbs": 0,
+          "fat": 5
+        },
+        {
+          "id": "two",
+          "label": "2 boiled eggs",
+          "short": "2 eggs",
+          "fraction": 2,
+          "cookedGrams": 100,
+          "kcal": 135,
+          "protein": 13,
+          "carbs": 0,
+          "fat": 9
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: boiled egg, 1",
+          "portionId": "one",
+          "kcal": 90,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "NIN gives no weight; 90 kcal fits an egg of about 65 g.",
+          "ours": 67,
+          "differencePct": 34
+        },
+        {
+          "source": "USDA FoodData Central 173424, egg, hard-boiled, 1 large (50 g)",
+          "portionId": "one",
+          "kcal": 77.5,
+          "url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+          "note": "USDA's egg has a little more fat than IFCT's.",
+          "ours": 67,
+          "differencePct": 15
+        }
+      ],
+      "range": {
+        "reason": "Egg size: ICMR-NIN's 90 kcal fits a bigger egg than the 50 g one counted here."
+      },
+      "judgement": [
+        "Egg weight is the Indian Nutrient Databank's household measure (1 egg = 50 g), the same as USDA's large egg."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Egg, poultry, whole, raw (M001); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC056, boiled egg; household measure 1 egg = 50 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Egg, whole, cooked, hard-boiled (173424)",
+          "url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+          "note": "1 large = 50 g, 155 kcal per 100 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: boiled egg 90 kcal",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 135,
+        "protein": 13,
+        "carbs": 0,
+        "fat": 9
+      }
+    },
+    {
+      "slug": "omelette",
+      "name": "Omelette",
+      "category": "eggs",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: a plain 2-egg omelette with a tablespoon of milk, cooked in oil",
+        "ingredients": [
+          {
+            "id": "egg",
+            "g": 100,
+            "note": "2 eggs"
+          },
+          {
+            "id": "milk_cow",
+            "g": 15,
+            "note": "1 tablespoon"
+          },
+          {
+            "id": "black_pepper",
+            "g": 0.5,
+            "note": "to taste"
+          },
+          {
+            "id": "oil",
+            "g": 7.6,
+            "note": "Taken up in cooking: set from USDA's analysed omelette made with oil (15.8% fat), about 1⅔ teaspoons"
+          }
+        ],
+        "cookedYieldG": 110,
+        "yieldNote": "USDA's omelette made with oil weighs 55 g per egg"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 omelette (2 eggs)",
+          "short": "an omelette",
+          "fraction": 1,
+          "cookedGrams": 110,
+          "kcal": 215,
+          "protein": 14,
+          "carbs": 1,
+          "fat": 17
+        },
+        {
+          "id": "single",
+          "label": "1 single-egg omelette",
+          "short": "a 1-egg omelette",
+          "fraction": 0.5,
+          "cookedGrams": 55,
+          "kcal": 105,
+          "protein": 7,
+          "carbs": 0,
+          "fat": 9
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: fried egg, 1",
+          "portionId": "single",
+          "kcal": 160,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "A fried egg, the closest NIN item; NIN gives no weight or oil.",
+          "ours": 107,
+          "differencePct": 50
+        },
+        {
+          "source": "USDA FoodData Central 2707200, egg omelet made with oil",
+          "kcalPer100g": 192,
+          "url": "https://fdc.nal.usda.gov/food-details/2707200/nutrients",
+          "note": "The analysis the oil is set from; USDA's eggs carry slightly more fat than IFCT's.",
+          "ours": 195,
+          "differencePct": -1
+        }
+      ],
+      "range": {
+        "reason": "ICMR-NIN's fried egg (160 kcal) has more oil than a single-egg omelette made this way."
+      },
+      "judgement": [
+        "The textbook fries the omelette in 2 tablespoons of fat, most of which stays in the pan; the oil eaten is set from USDA's analysed omelette instead.",
+        "An omelette is counted as 2 eggs, as in the textbook. A single-egg omelette is half."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Egg (M001), milk, whole, cow (L002), black pepper (G031), groundnut oil (T005); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC061, plain omelette",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Egg omelet or scrambled egg, made with oil (2707200)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707200/nutrients",
+          "note": "15.8 g fat per 100 g; 1 egg = 55 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: fried egg 160 kcal",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 195,
+        "protein": 13,
+        "carbs": 1,
+        "fat": 16
+      }
+    },
+    {
+      "slug": "egg-bhurji",
+      "name": "Egg bhurji",
+      "category": "eggs",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: one egg scrambled with a tablespoon of milk and a teaspoon of butter",
+        "ingredients": [
+          {
+            "id": "egg",
+            "g": 50,
+            "note": "1 egg"
+          },
+          {
+            "id": "milk_cow",
+            "g": 15,
+            "note": "1 tablespoon"
+          },
+          {
+            "id": "butter",
+            "g": 4.7,
+            "note": "1 teaspoon"
+          },
+          {
+            "id": "black_pepper",
+            "g": 0.5,
+            "note": "to taste"
+          }
+        ],
+        "cookedYieldG": 55,
+        "yieldNote": "USDA's scrambled egg weighs 55 g per egg",
+        "densityGPerMl": 0.57,
+        "densityNote": "USDA's scrambled egg: 135 g per cup (236.6 ml)"
+      },
+      "portions": [
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 114,
+          "kcal": 235,
+          "protein": 15,
+          "carbs": 2,
+          "fat": 19
+        },
+        {
+          "id": "egg",
+          "label": "1 egg, scrambled",
+          "short": "1 egg",
+          "fraction": 1,
+          "cookedGrams": 55,
+          "kcal": 115,
+          "protein": 7,
+          "carbs": 1,
+          "fat": 9
+        },
+        {
+          "id": "two",
+          "label": "2 eggs, scrambled",
+          "short": "2 eggs",
+          "fraction": 2,
+          "cookedGrams": 110,
+          "kcal": 225,
+          "protein": 14,
+          "carbs": 2,
+          "fat": 18
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "USDA FoodData Central 2707201, egg omelet or scrambled egg, made with butter",
+          "kcalPer100g": 182,
+          "url": "https://fdc.nal.usda.gov/food-details/2707201/nutrients",
+          "note": "USDA's eggs carry slightly more fat than IFCT's.",
+          "ours": 206,
+          "differencePct": -12
+        }
+      ],
+      "judgement": [
+        "The textbook's bhurji (ande ki bhurji) is plain scrambled egg. Onion, tomato and green chilli, often added at home, add little: about 10 kcal for 50 g of onion and tomato.",
+        "A 200 ml katori holds about 114 g of bhurji, a little over 2 eggs."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Egg (M001), milk, whole, cow (L002), black pepper (G031); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Butter, without salt (173430)",
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "Butter values; 1 teaspoon = 4.7 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC059, scrambled egg (ande ki bhurji)",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Egg omelet or scrambled egg, made with butter (2707201)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707201/nutrients",
+          "note": "1 egg = 55 g; 1 cup = 135 g",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 205,
+        "protein": 13,
+        "carbs": 2,
+        "fat": 16
+      }
+    },
+    {
+      "slug": "curd",
+      "name": "Curd",
+      "category": "dairy",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Plain curd (dahi) made from whole milk",
+        "ingredients": [
+          {
+            "id": "curd",
+            "g": 100
+          }
+        ],
+        "cookedYieldG": 100,
+        "yieldNote": "curd as it is",
+        "densityGPerMl": 1.04,
+        "densityNote": "USDA's plain whole-milk yogurt: 245 g per cup (236.6 ml)"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 156,
+          "kcal": 95,
+          "protein": 5,
+          "carbs": 7,
+          "fat": 5
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 208,
+          "kcal": 125,
+          "protein": 7,
+          "carbs": 10,
+          "fat": 7
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 60,
+          "protein": 3,
+          "carbs": 5,
+          "fat": 3
+        }
+      ],
+      "judgement": [
+        "IFCT 2017 has no curd, so the values are USDA's plain whole-milk yogurt, as on the site's curd rice and raita pages. Curd from toned milk has about two thirds of the fat."
+      ],
+      "sources": [
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "61 kcal and 3.25 g fat per 100 g; 245 g per cup",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 60,
+        "protein": 3,
+        "carbs": 5,
+        "fat": 3
+      }
+    },
+    {
+      "slug": "raita",
+      "name": "Cucumber raita",
+      "category": "dairy",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: one bowl, 100 g curd and 50 g cucumber with roasted cumin",
+        "ingredients": [
+          {
+            "id": "curd",
+            "g": 100
+          },
+          {
+            "id": "cucumber",
+            "g": 50
+          },
+          {
+            "id": "green_chilli",
+            "g": 1.67,
+            "note": "half a chilli"
+          },
+          {
+            "id": "cumin",
+            "g": 0.26,
+            "note": "an eighth of a teaspoon, roasted and ground"
+          },
+          {
+            "id": "chilli_powder",
+            "g": 0.34,
+            "note": "an eighth of a teaspoon"
+          }
+        ],
+        "cookedYieldG": 152.27,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does",
+        "densityGPerMl": 1,
+        "densityNote": "curd with grated cucumber taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 70,
+          "protein": 4,
+          "carbs": 7,
+          "fat": 3
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 95,
+          "protein": 5,
+          "carbs": 9,
+          "fat": 5
+        },
+        {
+          "id": "bowl",
+          "label": "1 textbook bowl",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 152,
+          "kcal": 75,
+          "protein": 4,
+          "carbs": 7,
+          "fat": 3
+        }
+      ],
+      "judgement": [
+        "Boondi raita has more: the textbook's boondi (gram flour drops, deep-fried) adds besan and frying oil, which this cucumber raita doesn't have."
+      ],
+      "sources": [
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd values",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Cucumber, green, elongate (D043), green chilli (G008), cumin (G025); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC273, cucumber raita",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 50,
+        "protein": 3,
+        "carbs": 4,
+        "fat": 2
+      }
+    },
+    {
+      "slug": "dal-thick",
+      "name": "Thick dal",
+      "category": "dals",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: the site's textbook dal tadka bowl, 30 g toor dal with a 10 g ghee tadka, cooked down to a thick 200 ml",
+        "ingredients": [
+          {
+            "id": "toor_dal",
+            "g": 30
+          },
+          {
+            "id": "water",
+            "g": 300,
+            "note": "most of it boiled off"
+          },
+          {
+            "id": "ghee",
+            "g": 10,
+            "note": "5 g cooked into the dal, 5 g in the tadka"
+          },
+          {
+            "id": "ginger",
+            "g": 5
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3
+          },
+          {
+            "id": "cumin",
+            "g": 2.1
+          },
+          {
+            "id": "garlic",
+            "g": 0.6
+          }
+        ],
+        "cookedYieldG": 200,
+        "yieldNote": "set so the whole bowl fills one 200 ml katori, which matches ICMR-NIN's dal of 100 kcal per half cup; a stated assumption",
+        "densityGPerMl": 1,
+        "densityNote": "thick dal taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "half",
+          "label": "Half a cup (100 ml)",
+          "short": "half a cup",
+          "ml": 100,
+          "cookedGrams": 100,
+          "kcal": 100,
+          "protein": 4,
+          "carbs": 9,
+          "fat": 5
+        },
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 150,
+          "protein": 5,
+          "carbs": 13,
+          "fat": 8
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 200,
+          "protein": 7,
+          "carbs": 18,
+          "fat": 11
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: plain dal, half a cup",
+          "portionId": "half",
+          "kcal": 100,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "The thickness this dish is set to.",
+          "ours": 99,
+          "differencePct": 1
+        }
+      ],
+      "judgement": [
+        "Thick dal is the same dal as the site's dal tadka with less water, so each katori holds more dal: about twice as much as the thin dal on that page."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Red gram dal (B021), ghee (T013), ginger (G014), green chilli (G008), cumin (G025), garlic (G011); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipe BFP172, as on the site's dal tadka page",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: plain dal 100 kcal per half cup",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 100,
+        "protein": 4,
+        "carbs": 9,
+        "fat": 5
+      }
+    },
+    {
+      "slug": "gujarati-dal",
+      "name": "Gujarati dal",
+      "category": "dals",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: the site's plain toor dal bowl, 30 g dal in 240 ml water, with 1 teaspoon of jaggery and a 1 teaspoon ghee tadka",
+        "ingredients": [
+          {
+            "id": "toor_dal",
+            "g": 30,
+            "note": "Dry weight"
+          },
+          {
+            "id": "water",
+            "g": 240,
+            "note": "1 cup"
+          },
+          {
+            "id": "turmeric",
+            "g": 0.75,
+            "note": "a quarter teaspoon"
+          },
+          {
+            "id": "jaggery",
+            "g": 5,
+            "note": "1 teaspoon"
+          },
+          {
+            "id": "ghee",
+            "g": 5,
+            "note": "1 teaspoon, for the tadka"
+          }
+        ],
+        "cookedYieldG": 281,
+        "yieldNote": "the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does",
+        "densityGPerMl": 1,
+        "densityNote": "thin dal taken as 1 g per ml, like water; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 85,
+          "protein": 4,
+          "carbs": 11,
+          "fat": 3
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 115,
+          "protein": 5,
+          "carbs": 15,
+          "fat": 4
+        },
+        {
+          "id": "bowl",
+          "label": "1 bowl (30 g dry dal)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 281,
+          "kcal": 165,
+          "protein": 7,
+          "carbs": 21,
+          "fat": 6
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: plain dal, half a cup",
+          "kcalPer100g": 100,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "NIN's dal is thicker; Gujarati dal is thin.",
+          "ours": 58,
+          "differencePct": 72
+        }
+      ],
+      "range": {
+        "reason": "Thickness: Gujarati dal is thin, and ICMR-NIN's dal is about twice as thick."
+      },
+      "judgement": [
+        "Kokum, lemon and the tadka spices add very little and are left out. Some families use 2 teaspoons of jaggery; each extra teaspoon adds about 20 kcal to the bowl."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Red gram dal (B021), turmeric (G033), jaggery (I001), ghee (T013); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC151, plain dal pattern, as on the site's toor dal page",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: plain dal 100 kcal per half cup",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 60,
+        "protein": 2,
+        "carbs": 8,
+        "fat": 2
+      }
+    },
+    {
+      "slug": "chole-bhature",
+      "name": "Chole bhature",
+      "category": "street",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: one plate, 2 bhaturas and a 200 ml katori of chole, each made as on the site's own page",
+        "ingredients": [
+          {
+            "id": "kabuli_chana",
+            "g": 39.6,
+            "note": "chole: dry weight, before soaking"
+          },
+          {
+            "id": "water",
+            "g": 52.28,
+            "note": "chole: taken up by the chana in soaking and cooking"
+          },
+          {
+            "id": "tomato",
+            "g": 49.5,
+            "note": "chole"
+          },
+          {
+            "id": "onion",
+            "g": 29.7,
+            "note": "chole"
+          },
+          {
+            "id": "ginger",
+            "g": 14.85,
+            "note": "chole"
+          },
+          {
+            "id": "garlic",
+            "g": 0.59,
+            "note": "chole"
+          },
+          {
+            "id": "curd",
+            "g": 4.95,
+            "note": "chole: 1 teaspoon"
+          },
+          {
+            "id": "oil",
+            "g": 8.91,
+            "note": "chole: 2 teaspoons"
+          },
+          {
+            "id": "maida",
+            "g": 53.34,
+            "note": "bhatura"
+          },
+          {
+            "id": "curd",
+            "g": 13.33,
+            "note": "bhatura"
+          },
+          {
+            "id": "sugar",
+            "g": 0.67,
+            "note": "bhatura: a pinch"
+          },
+          {
+            "id": "water",
+            "g": 16.67,
+            "note": "bhatura: to make a soft dough: an assumption, no calories"
+          },
+          {
+            "id": "oil",
+            "g": 19.33,
+            "note": "bhatura: taken up in frying: a stated assumption, so a bhatura is about 20% fat"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no cooked weight is known for the bhaturas, so the plate is counted as one portion"
+      },
+      "portions": [
+        {
+          "id": "plate",
+          "label": "1 plate (2 bhaturas, 1 katori chole)",
+          "short": "a plate",
+          "fraction": 1,
+          "cookedGrams": null,
+          "kcal": 635,
+          "protein": 15,
+          "carbs": 67,
+          "fat": 32
+        },
+        {
+          "id": "half",
+          "label": "1 bhatura with half a katori of chole",
+          "short": "half a plate",
+          "fraction": 0.5,
+          "cookedGrams": null,
+          "kcal": 315,
+          "protein": 8,
+          "carbs": 34,
+          "fat": 16
+        }
+      ],
+      "judgement": [
+        "A plate of 2 bhaturas and one 200 ml katori of chole is a stated assumption: no source was found for a standard plate. Onion, pickle and a green chilli on the side add little."
+      ],
+      "sources": [
+        {
+          "title": "Writeonslate, Chole calories",
+          "url": "https://writeonslate.com/calories/chole/",
+          "note": "The chole recipe and its sources",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Writeonslate, Bhatura calories",
+          "url": "https://writeonslate.com/calories/bhatura/",
+          "note": "The bhatura recipe and its sources, including the oil taken up in frying",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "tandoori-roti",
+      "name": "Tandoori roti",
+      "category": "breads",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: 270 g atta with curd and 2 tablespoons of oil, making 8 tandoori rotis (dough balls of 60 to 65 g)",
+        "ingredients": [
+          {
+            "id": "atta",
+            "g": 270,
+            "note": "2 cups, weighed by the recipe"
+          },
+          {
+            "id": "curd",
+            "g": 45,
+            "note": "3 tablespoons"
+          },
+          {
+            "id": "sugar",
+            "g": 2.1,
+            "note": "half a teaspoon"
+          },
+          {
+            "id": "oil",
+            "g": 27.2,
+            "note": "2 tablespoons, in the dough"
+          },
+          {
+            "id": "water",
+            "g": 140,
+            "note": "about half a cup and a tablespoon or two"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no cooked weight is published, so portions are shares of the recipe"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 tandoori roti (about 34 g atta)",
+          "short": "a tandoori roti",
+          "fraction": 0.125,
+          "cookedGrams": null,
+          "kcal": 145,
+          "protein": 4,
+          "carbs": 22,
+          "fat": 4
+        },
+        {
+          "id": "butter",
+          "label": "1 tandoori roti with 1 tsp butter",
+          "short": "a butter roti",
+          "fraction": 0.125,
+          "add": [
+            {
+              "id": "butter",
+              "g": 4.7
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 175,
+          "protein": 4,
+          "carbs": 22,
+          "fat": 8
+        },
+        {
+          "id": "two",
+          "label": "2 tandoori rotis",
+          "short": "2 rotis",
+          "fraction": 0.25,
+          "cookedGrams": null,
+          "kcal": 285,
+          "protein": 8,
+          "carbs": 44,
+          "fat": 8
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "Tarla Dalal, Tandoori roti on tava: 2 cups atta, half a cup curd and 2 tsp oil for 6 rotis",
+          "portionId": "one",
+          "kcal": 167,
+          "url": "https://www.tarladalal.com/tandoori-roti-tandoori-roti-on-a-tava-32703r",
+          "note": "Worked out here with the same IFCT values; a bigger roti (about 43 g atta).",
+          "ours": 143,
+          "differencePct": 17
+        }
+      ],
+      "range": {
+        "reason": "Size: tandoori rotis are made from 34 to 43 g of atta in the recipes found."
+      },
+      "judgement": [
+        "No textbook or government recipe was found for this dish, so the recipe is a published cookbook recipe; the values per ingredient are still IFCT 2017.",
+        "Baking powder, baking soda and salt are left out; they have no calories worth counting.",
+        "Restaurants often brush the roti with butter or ghee. One teaspoon of butter (Tarla Dalal's amount) adds about 35 kcal."
+      ],
+      "sources": [
+        {
+          "title": "Cook with Manali, Tandoori roti",
+          "url": "https://www.cookwithmanali.com/wprm_print/tandoori-roti",
+          "note": "270 g atta, 3 tbsp yogurt, 2 tbsp oil, half a teaspoon sugar; 8 rotis from 60 to 65 g of dough each",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Tarla Dalal, Tandoori roti on tava",
+          "url": "https://www.tarladalal.com/tandoori-roti-tandoori-roti-on-a-tava-32703r",
+          "note": "2 cups atta for 6 rotis; 1 tsp butter on each",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Wheat flour, atta (A019), groundnut oil (T005); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Butter, without salt (173430)",
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "1 tsp = 4.7 g",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "bhakri",
+      "name": "Bhakri",
+      "category": "breads",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: Kathiyawadi bhakri, 2 cups atta kneaded with 3 tablespoons of ghee, making 10",
+        "ingredients": [
+          {
+            "id": "atta",
+            "g": 260,
+            "note": "2 cups"
+          },
+          {
+            "id": "ghee",
+            "g": 45,
+            "note": "3 tablespoons, melted, in the dough"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no cooked weight is published, so portions are shares of the recipe"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 bhakri with 1 tsp ghee on top",
+          "short": "a bhakri",
+          "fraction": 0.1,
+          "add": [
+            {
+              "id": "ghee",
+              "g": 5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 165,
+          "protein": 3,
+          "carbs": 17,
+          "fat": 10
+        },
+        {
+          "id": "plain",
+          "label": "1 bhakri, no ghee on top",
+          "short": "a plain bhakri",
+          "fraction": 0.1,
+          "cookedGrams": null,
+          "kcal": 125,
+          "protein": 3,
+          "carbs": 17,
+          "fat": 5
+        },
+        {
+          "id": "two",
+          "label": "2 bhakris with ghee",
+          "short": "2 bhakris",
+          "fraction": 0.2,
+          "add": [
+            {
+              "id": "ghee",
+              "g": 10
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 335,
+          "protein": 5,
+          "carbs": 33,
+          "fat": 20
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "Binjal's Veg Kitchen, Gujarati bhakri: 2 cups atta with a quarter cup of oil or ghee, 8 to 10 bhakris",
+          "portionId": "plain",
+          "kcal": 151,
+          "url": "https://binjalsvegkitchen.com/wprm_print/gujarati-bhakri-or-whole-wheat-flour-flatbread",
+          "note": "Worked out here for 9 bhakris with the same IFCT values: more fat in the dough.",
+          "ours": 123,
+          "differencePct": 23
+        }
+      ],
+      "range": {
+        "reason": "Fat in the dough: recipes use 3 to 4 tablespoons of ghee or oil for 2 cups of atta."
+      },
+      "judgement": [
+        "No textbook or government recipe was found for this dish, so the recipe is a published cookbook recipe; the values per ingredient are still IFCT 2017.",
+        "The 10 teaspoons of ghee the recipe smears on top are counted as 1 teaspoon on each bhakri; a plain bhakri leaves it out.",
+        "This is the Gujarati wheat bhakri. A Maharashtrian jowar or bajra bhakri is a different flatbread."
+      ],
+      "sources": [
+        {
+          "title": "Tarla Dalal, Kathiyawadi bhakri",
+          "url": "https://www.tarladalal.com/bhakri--gujarat-recipe-628r",
+          "note": "2 cups atta, 3 tbsp melted ghee for kneading, 10 tsp ghee for smearing; 10 bhakris",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Binjal's Veg Kitchen, Gujarati bhakri",
+          "url": "https://binjalsvegkitchen.com/wprm_print/gujarati-bhakri-or-whole-wheat-flour-flatbread",
+          "note": "2 cups atta, a quarter cup oil or ghee; 8 to 10",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Wheat flour, atta (A019), ghee (T013); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Onions, raw (170000)",
+          "url": "https://fdc.nal.usda.gov/food-details/170000/nutrients",
+          "note": "1 cup chopped = 160 g; 1 tbsp = 10 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Household measures (Units.xlsx): wheat flour 1 cup = 130 g (Basic Food Preparation); tomato 1 cup = 180 g; besan 1 cup = 92 g",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "khandvi",
+      "name": "Khandvi",
+      "category": "breakfast",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: half a cup of besan cooked with curd and water, rolled and tempered, making about 20 pieces",
+        "ingredients": [
+          {
+            "id": "besan",
+            "g": 46,
+            "note": "half a cup"
+          },
+          {
+            "id": "curd",
+            "g": 122.5,
+            "note": "half a cup"
+          },
+          {
+            "id": "water",
+            "g": 177.4,
+            "note": "three quarters of a cup"
+          },
+          {
+            "id": "oil",
+            "g": 4.5,
+            "note": "1 teaspoon, for the tempering"
+          },
+          {
+            "id": "sesame",
+            "g": 0.75,
+            "note": "a quarter teaspoon"
+          },
+          {
+            "id": "coconut_fresh",
+            "g": 5,
+            "note": "3 teaspoons, grated"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no cooked weight is published, so pieces are shares of the recipe"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 piece",
+          "short": "a piece",
+          "fraction": 0.05,
+          "cookedGrams": null,
+          "kcal": 15,
+          "protein": 1,
+          "carbs": 1,
+          "fat": 1
+        },
+        {
+          "id": "four",
+          "label": "4 pieces",
+          "short": "4 pieces",
+          "fraction": 0.2,
+          "cookedGrams": null,
+          "kcal": 60,
+          "protein": 3,
+          "carbs": 6,
+          "fat": 3
+        },
+        {
+          "id": "plate",
+          "label": "1 plate (10 pieces)",
+          "short": "a plate",
+          "fraction": 0.5,
+          "cookedGrams": null,
+          "kcal": 145,
+          "protein": 7,
+          "carbs": 14,
+          "fat": 7
+        }
+      ],
+      "judgement": [
+        "No textbook or government recipe was found for this dish, so the recipe is a published cookbook recipe; the values per ingredient are still IFCT 2017.",
+        "Turmeric, asafoetida, salt, ginger-chilli paste and mustard seeds add little and are left out.",
+        "Other recipes use more curd and a tablespoon of oil for the tempering; a piece made that way has a few calories more."
+      ],
+      "sources": [
+        {
+          "title": "Jeyashri's Kitchen, Khandvi",
+          "url": "https://www.jeyashriskitchen.com/khandvi-recipe-how-to-make-perfec/",
+          "note": "Half a cup each of besan and curd, three quarters of a cup of water, 1 tsp oil, a quarter tsp sesame, 3 tsp coconut; about 20 pieces",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Veg Recipes of India, Khandvi",
+          "url": "https://www.vegrecipesofindia.com/khandvi-recipe-how-to-make-khandvi/",
+          "note": "100 g besan, 150 g curd, 1 tbsp oil, 2 tbsp coconut, 2 tsp sesame; 4 servings",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Besan (B001), sesame (H011), coconut, fresh (H007), groundnut oil (T005); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd; 245 g per cup",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Chickpea flour (besan) (174288)",
+          "url": "https://fdc.nal.usda.gov/food-details/174288/nutrients",
+          "note": "92 g per cup",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Nuts, coconut meat, raw (170169)",
+          "url": "https://fdc.nal.usda.gov/food-details/170169/nutrients",
+          "note": "80 g per cup shredded",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "paneer-bhurji",
+      "name": "Paneer bhurji",
+      "category": "dals",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: 200 g paneer scrambled with onion, tomato and 1½ tablespoons of oil, for 4",
+        "ingredients": [
+          {
+            "id": "paneer",
+            "g": 200,
+            "note": "crumbled"
+          },
+          {
+            "id": "oil",
+            "g": 20.4,
+            "note": "1½ tablespoons"
+          },
+          {
+            "id": "cumin",
+            "g": 1.05,
+            "note": "half a teaspoon"
+          },
+          {
+            "id": "onion",
+            "g": 80,
+            "note": "half a cup, chopped"
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3,
+            "note": "1 chilli"
+          },
+          {
+            "id": "ginger",
+            "g": 2.5,
+            "note": "half of 1 teaspoon of ginger-garlic paste"
+          },
+          {
+            "id": "garlic",
+            "g": 2.5,
+            "note": "half of 1 teaspoon of ginger-garlic paste"
+          },
+          {
+            "id": "tomato",
+            "g": 60,
+            "note": "a third of a cup, chopped"
+          },
+          {
+            "id": "turmeric",
+            "g": 0.38,
+            "note": "an eighth of a teaspoon"
+          },
+          {
+            "id": "chilli_powder",
+            "g": 1.7,
+            "note": "half to three quarters of a teaspoon"
+          },
+          {
+            "id": "lemon_juice",
+            "g": 5,
+            "note": "1 teaspoon"
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 2,
+            "note": "2 tablespoons"
+          }
+        ],
+        "cookedYieldG": 378.83,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does",
+        "densityGPerMl": 0.57,
+        "densityNote": "USDA's scrambled egg: 135 g per cup (236.6 ml); bhurji is made the same way, a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 85,
+          "kcal": 170,
+          "protein": 9,
+          "carbs": 8,
+          "fat": 11
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 114,
+          "kcal": 230,
+          "protein": 12,
+          "carbs": 11,
+          "fat": 15
+        },
+        {
+          "id": "serving",
+          "label": "1 serving (a quarter of the recipe)",
+          "short": "a serving",
+          "fraction": 0.25,
+          "cookedGrams": 95,
+          "kcal": 190,
+          "protein": 10,
+          "carbs": 9,
+          "fat": 13
+        }
+      ],
+      "judgement": [
+        "No textbook or government recipe was found for this dish, so the recipe is a published cookbook recipe; the values per ingredient are still IFCT 2017.",
+        "Garam masala and kasuri methi add little and are left out; capsicum or peas, listed as optional, are left out too.",
+        "A 200 ml katori holds about 114 g, a little more than one of the recipe's 4 servings."
+      ],
+      "sources": [
+        {
+          "title": "Indian Healthy Recipes (Swasthi), Paneer bhurji",
+          "url": "https://www.indianhealthyrecipes.com/wprm_print/paneer-bhurji-recipe",
+          "note": "200 g paneer, 1½ tbsp oil, half a cup onion, a third of a cup tomato; 4 servings",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Tarla Dalal, Paneer bhurji",
+          "url": "https://www.tarladalal.com/paneer-bhurji-190r",
+          "note": "1 cup mashed paneer, 2 tbsp oil, half a cup each of onion and tomato; 2 servings",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Paneer (L003), onion (G017), tomato (D075), green chilli (G008), ginger (G014), garlic (G011), turmeric (G033), lemon juice (E033), coriander leaves (G009), cumin (G025), groundnut oil (T005); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Egg omelet or scrambled egg, made with butter (2707201)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707201/nutrients",
+          "note": "135 g per cup, used for the katori",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Onions, raw (170000)",
+          "url": "https://fdc.nal.usda.gov/food-details/170000/nutrients",
+          "note": "1 cup chopped = 160 g; 1 tbsp = 10 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Household measures (Units.xlsx): wheat flour 1 cup = 130 g (Basic Food Preparation); tomato 1 cup = 180 g; besan 1 cup = 92 g",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 200,
+        "protein": 11,
+        "carbs": 10,
+        "fat": 13
+      }
+    },
+    {
+      "slug": "lauki-sabzi",
+      "name": "Lauki sabzi",
+      "category": "sabzi",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: 450 g lauki with onion, tomato and 2 tablespoons of oil, cooked until semi-dry",
+        "ingredients": [
+          {
+            "id": "bottle_gourd",
+            "g": 450,
+            "note": "1 lb, in half-inch pieces"
+          },
+          {
+            "id": "onion",
+            "g": 80,
+            "note": "half a cup"
+          },
+          {
+            "id": "tomato",
+            "g": 180,
+            "note": "1 cup"
+          },
+          {
+            "id": "ginger",
+            "g": 5,
+            "note": "half an inch (1 teaspoon)"
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3,
+            "note": "1 chilli"
+          },
+          {
+            "id": "oil",
+            "g": 27.2,
+            "note": "2 tablespoons"
+          },
+          {
+            "id": "cumin",
+            "g": 1.05,
+            "note": "half a teaspoon"
+          },
+          {
+            "id": "curry_leaves",
+            "g": 1,
+            "note": "1 sprig"
+          },
+          {
+            "id": "chilli_powder",
+            "g": 1.7,
+            "note": "half to three quarters of a teaspoon"
+          },
+          {
+            "id": "turmeric",
+            "g": 0.38,
+            "note": "an eighth of a teaspoon"
+          },
+          {
+            "id": "coriander_seeds",
+            "g": 1.35,
+            "note": "three quarters of a teaspoon, ground"
+          },
+          {
+            "id": "fennel",
+            "g": 1,
+            "note": "half a teaspoon, ground"
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 2,
+            "note": "2 tablespoons"
+          },
+          {
+            "id": "water",
+            "g": 140,
+            "note": "half to two thirds of a cup, cooked off"
+          }
+        ],
+        "cookedYieldG": 753.98,
+        "yieldNote": "the ingredients added together without the half cup of water the recipe cooks off",
+        "densityGPerMl": 0.62,
+        "densityNote": "USDA's boiled calabash (bottle gourd): 146 g per cup (236.6 ml)"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 93,
+          "kcal": 45,
+          "protein": 1,
+          "carbs": 3,
+          "fat": 4
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 124,
+          "kcal": 65,
+          "protein": 1,
+          "carbs": 4,
+          "fat": 5
+        },
+        {
+          "id": "serving",
+          "label": "1 serving (a third of the recipe)",
+          "short": "a serving",
+          "fraction": 0.3333,
+          "cookedGrams": 251,
+          "kcal": 130,
+          "protein": 2,
+          "carbs": 8,
+          "fat": 10
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: vegetable dry, 1 cup",
+          "portionId": "k200",
+          "kcal": 150,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "A general figure for all dry vegetable dishes.",
+          "ours": 63,
+          "differencePct": 138
+        }
+      ],
+      "range": {
+        "reason": "ICMR-NIN's general figure for a dry vegetable is higher: lauki is one of the lowest-calorie vegetables."
+      },
+      "judgement": [
+        "No textbook or government recipe was found for this dish, so the recipe is a published cookbook recipe; the values per ingredient are still IFCT 2017.",
+        "Garam masala and salt are left out."
+      ],
+      "sources": [
+        {
+          "title": "Indian Healthy Recipes (Swasthi), Lauki sabzi",
+          "url": "https://www.indianhealthyrecipes.com/wprm_print/lauki-sabzi-dudhi-recipe",
+          "note": "450 g lauki, half a cup onion, 1 cup tomato, 2 tbsp oil; 2 to 3 servings, water cooked off",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Bottle gourd (D007), onion (G017), tomato (D075), ginger (G014), green chilli (G008), cumin (G025), curry leaves (G010), turmeric (G033), coriander seeds (G024), coriander leaves (G009), groundnut oil (T005); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Gourd, white-flowered (calabash), cooked, boiled (169233)",
+          "url": "https://fdc.nal.usda.gov/food-details/169233/nutrients",
+          "note": "146 g per cup",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Spices, fennel seed (171323)",
+          "url": "https://fdc.nal.usda.gov/food-details/171323/nutrients",
+          "note": "1 tsp = 2 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: vegetable dry 150 kcal per cup; cup = 200 ml",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Onions, raw (170000)",
+          "url": "https://fdc.nal.usda.gov/food-details/170000/nutrients",
+          "note": "1 cup chopped = 160 g; 1 tbsp = 10 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Household measures (Units.xlsx): wheat flour 1 cup = 130 g (Basic Food Preparation); tomato 1 cup = 180 g; besan 1 cup = 92 g",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 50,
+        "protein": 1,
+        "carbs": 3,
+        "fat": 4
+      }
+    },
+    {
+      "slug": "turai-sabzi",
+      "name": "Turai sabzi",
+      "category": "sabzi",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: 3 cups ridge gourd with onion, tomato and 2 tablespoons of oil, cooked dry, for 5",
+        "ingredients": [
+          {
+            "id": "ridge_gourd",
+            "g": 285,
+            "note": "3 cups, peeled and chopped"
+          },
+          {
+            "id": "oil",
+            "g": 27.2,
+            "note": "2 tablespoons"
+          },
+          {
+            "id": "mustard_seeds",
+            "g": 2,
+            "note": "1 teaspoon"
+          },
+          {
+            "id": "cumin",
+            "g": 2.1,
+            "note": "1 teaspoon"
+          },
+          {
+            "id": "onion",
+            "g": 160,
+            "note": "1 cup, chopped"
+          },
+          {
+            "id": "ginger",
+            "g": 7.5,
+            "note": "half of 1 tablespoon of ginger-garlic paste"
+          },
+          {
+            "id": "garlic",
+            "g": 7.5,
+            "note": "half of 1 tablespoon of ginger-garlic paste"
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3,
+            "note": "1 teaspoon, chopped"
+          },
+          {
+            "id": "tomato",
+            "g": 90,
+            "note": "half a cup, chopped"
+          },
+          {
+            "id": "turmeric",
+            "g": 1.5,
+            "note": "half a teaspoon"
+          },
+          {
+            "id": "coriander_seeds",
+            "g": 1.8,
+            "note": "1 teaspoon of coriander-cumin powder"
+          },
+          {
+            "id": "cumin",
+            "g": 2.1,
+            "note": "1 teaspoon of coriander-cumin powder"
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 2,
+            "note": "2 tablespoons"
+          },
+          {
+            "id": "water",
+            "g": 118,
+            "note": "half a cup, cooked off"
+          }
+        ],
+        "cookedYieldG": 592,
+        "yieldNote": "the ingredients added together without the half cup of water the recipe cooks off",
+        "densityGPerMl": 0.75,
+        "densityNote": "USDA's boiled dishcloth gourd (luffa, the ridge gourd family): 178 g per cup (236.6 ml)"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 113,
+          "kcal": 80,
+          "protein": 1,
+          "carbs": 5,
+          "fat": 6
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 150,
+          "kcal": 105,
+          "protein": 2,
+          "carbs": 7,
+          "fat": 8
+        },
+        {
+          "id": "serving",
+          "label": "1 serving (a fifth of the recipe)",
+          "short": "a serving",
+          "fraction": 0.2,
+          "cookedGrams": 118,
+          "kcal": 85,
+          "protein": 2,
+          "carbs": 6,
+          "fat": 6
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: vegetable dry, 1 cup",
+          "portionId": "k200",
+          "kcal": 150,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "A general figure for all dry vegetable dishes.",
+          "ours": 106,
+          "differencePct": 41
+        }
+      ],
+      "range": {
+        "reason": "ICMR-NIN's general figure for a dry vegetable is higher: ridge gourd is one of the lowest-calorie vegetables."
+      },
+      "judgement": [
+        "No textbook or government recipe was found for this dish, so the recipe is a published cookbook recipe; the values per ingredient are still IFCT 2017.",
+        "The recipe's 2 teaspoons of Malvani masala and its garam masala are left out: spice blends, about 10 kcal for the whole pan.",
+        "Ridge gourd's cup weight is USDA's for luffa (dishcloth gourd), the same family; IFCT has no cup weights."
+      ],
+      "sources": [
+        {
+          "title": "Tarla Dalal, Turai ki sukhi sabzi",
+          "url": "https://www.tarladalal.com/turai-ki-sukhi-sabzi-recipe-3500r",
+          "note": "3 cups ridge gourd, 2 tbsp oil, 1 cup onion, half a cup tomato; 5 servings",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Ridge gourd (D068), onion (G017), tomato (D075), ginger (G014), garlic (G011), green chilli (G008), mustard seeds (H013), cumin (G025), turmeric (G033), coriander seeds (G024), coriander leaves (G009), groundnut oil (T005); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Gourd, dishcloth (towelgourd), raw (168414)",
+          "url": "https://fdc.nal.usda.gov/food-details/168414/nutrients",
+          "note": "95 g per cup of 1-inch pieces",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Gourd, dishcloth (towelgourd), cooked (168415)",
+          "url": "https://fdc.nal.usda.gov/food-details/168415/nutrients",
+          "note": "178 g per cup",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: vegetable dry 150 kcal per cup; cup = 200 ml",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Onions, raw (170000)",
+          "url": "https://fdc.nal.usda.gov/food-details/170000/nutrients",
+          "note": "1 cup chopped = 160 g; 1 tbsp = 10 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Household measures (Units.xlsx): wheat flour 1 cup = 130 g (Basic Food Preparation); tomato 1 cup = 180 g; besan 1 cup = 92 g",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 70,
+        "protein": 1,
+        "carbs": 5,
+        "fat": 5
+      }
+    },
+    {
+      "slug": "indori-poha",
+      "name": "Indori poha",
+      "category": "breakfast",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Recipe: 2 cups (120 g) thick poha steamed with sugar, fennel and 2 tablespoons of oil, topped with sev and onion, for 3",
+        "ingredients": [
+          {
+            "id": "rice_flakes",
+            "g": 120,
+            "note": "2 cups of thick poha, at the recipe author's own 90 g for 1½ cups"
+          },
+          {
+            "id": "turmeric",
+            "g": 0.75,
+            "note": "a quarter teaspoon"
+          },
+          {
+            "id": "sugar",
+            "g": 10.5,
+            "note": "2 to 3 teaspoons"
+          },
+          {
+            "id": "oil",
+            "g": 27.2,
+            "note": "2 tablespoons"
+          },
+          {
+            "id": "mustard_seeds",
+            "g": 2,
+            "note": "1 teaspoon"
+          },
+          {
+            "id": "fennel",
+            "g": 2,
+            "note": "1 teaspoon"
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3,
+            "note": "1 chilli"
+          },
+          {
+            "id": "onion",
+            "g": 40,
+            "note": "a quarter cup, chopped"
+          },
+          {
+            "id": "besan",
+            "g": 18.2,
+            "note": "as 30 g sev, a quarter cup, taken at the site's sev puri measure of 2 tablespoons = 15 g"
+          },
+          {
+            "id": "oil",
+            "g": 11.8,
+            "note": "as 30 g sev, 39.6% fat"
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 4,
+            "note": "a quarter cup"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no cooked weight is published, so plates are shares of the recipe"
+      },
+      "portions": [
+        {
+          "id": "plate",
+          "label": "1 plate (40 g dry poha, with sev)",
+          "short": "a plate",
+          "fraction": 0.3333,
+          "cookedGrams": null,
+          "kcal": 305,
+          "protein": 5,
+          "carbs": 39,
+          "fat": 14
+        },
+        {
+          "id": "large",
+          "label": "1 large plate (60 g dry poha)",
+          "short": "a large plate",
+          "fraction": 0.5,
+          "cookedGrams": null,
+          "kcal": 455,
+          "protein": 7,
+          "carbs": 58,
+          "fat": 21
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "Writeonslate, poha: 1 plate of kanda poha (40 g dry poha)",
+          "portionId": "plate",
+          "kcal": 315,
+          "url": "https://writeonslate.com/calories/poha/",
+          "note": "Same amount of poha; kanda poha has potato and peanuts, Indori poha sugar and sev.",
+          "ours": 304,
+          "differencePct": 4
+        }
+      ],
+      "judgement": [
+        "No textbook or government recipe was found for this dish, so the recipe is a published cookbook recipe; the values per ingredient are still IFCT 2017.",
+        "Jeeravan masala, pomegranate and boondi, listed as optional or 'as required', are left out.",
+        "A quarter cup of sev is taken as 30 g, at the 15 g for 2 tablespoons used on the site's sev puri; a stated assumption."
+      ],
+      "sources": [
+        {
+          "title": "Veg Recipes of India, Indori poha",
+          "url": "https://www.vegrecipesofindia.com/wprm_print/indori-poha-indore-street-food",
+          "note": "2 cups thick poha, 2 to 3 tsp sugar, 2 tbsp oil, a quarter cup sev and onion; 3 servings",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Veg Recipes of India, Chura matar",
+          "url": "https://www.vegrecipesofindia.com/wprm_print/chura-matar-recipe",
+          "note": "1.5 cups thick poha = 90 g, the same author's cup weight",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Rice flakes (A011), Bengal gram dal (B001) as besan, onion (G017), green chilli (G008), turmeric (G033), mustard seeds (H013), coriander leaves (G009), groundnut oil (T005); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Spices, fennel seed (171323)",
+          "url": "https://fdc.nal.usda.gov/food-details/171323/nutrients",
+          "note": "1 tsp = 2 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Gupta et al., Unhealthy fat in street and snack foods, Journal of Nutrition Education and Behavior, 2016",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4826272",
+          "note": "Measured fat in bhujia sev: 39.61%",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "maggi",
+      "name": "Maggi",
+      "category": "street",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "One 70 g pack of Maggi 2-Minute Masala Noodles with its tastemaker, cooked in water as the pack says",
+        "ingredients": [
+          {
+            "id": "instant_noodles",
+            "g": 70,
+            "note": "the pack: 1 serve = 70 g"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "cooked in water, which adds weight and no calories"
+      },
+      "portions": [
+        {
+          "id": "pack",
+          "label": "1 pack (70 g)",
+          "short": "a pack",
+          "fraction": 1,
+          "cookedGrams": null,
+          "kcal": 270,
+          "protein": 6,
+          "carbs": 42,
+          "fat": 9
+        },
+        {
+          "id": "two",
+          "label": "2 packs",
+          "short": "2 packs",
+          "fraction": 2,
+          "cookedGrams": null,
+          "kcal": 540,
+          "protein": 11,
+          "carbs": 83,
+          "fat": 18
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "Maggi pack label: 1 serve (70 g) = 269 kcal",
+          "portionId": "pack",
+          "kcal": 269,
+          "url": "https://world.openfoodfacts.org/product/8901058004144",
+          "note": "Photo of the Indian pack label.",
+          "ours": 269,
+          "differencePct": 0
+        }
+      ],
+      "judgement": [
+        "Values are Nestlé India's own, per 100 g as sold (noodle cake and tastemaker). maggi.in lists a 75 g serve; the pack label says 70 g, which is used here.",
+        "Butter, cheese or vegetables added while cooking are extra: a teaspoon of butter adds about 35 kcal."
+      ],
+      "sources": [
+        {
+          "title": "Nestlé India, Maggi 2-Minute Noodles",
+          "url": "https://www.maggi.in/en/product/maggi-2-minute-noodles/",
+          "note": "Per 100 g: 384 kcal, 8.2 g protein, 59.6 g carbohydrate, 1.8 g total sugars, 12.5 g fat",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Open Food Facts, Maggi 2-Minute Masala Noodles (8901058004144), pack label photo",
+          "url": "https://world.openfoodfacts.org/product/8901058004144",
+          "note": "Pack contains 1 serve; 1 serve = 70 g = 269 kcal",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "dahi-puri",
+      "name": "Dahi puri",
+      "category": "street",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "One plate: 6 puris filled with potato, sprouted moong and curd, with chutneys and 2 tablespoons of sev",
+        "ingredients": [
+          {
+            "id": "pani_puri_shells",
+            "g": 46.8,
+            "note": "6 puris, as on the site's pani puri page"
+          },
+          {
+            "id": "curd",
+            "g": 91.9,
+            "note": "a quarter of 1½ cups"
+          },
+          {
+            "id": "potato",
+            "g": 39,
+            "note": "a quarter cup, boiled and chopped"
+          },
+          {
+            "id": "moong_sprouts",
+            "g": 31,
+            "note": "a quarter cup, boiled"
+          },
+          {
+            "id": "onion",
+            "g": 10,
+            "note": "1 tablespoon, chopped"
+          },
+          {
+            "id": "tamarind",
+            "g": 3.23,
+            "note": "sweet chutney, 1½ tablespoons, as on the site's sev puri"
+          },
+          {
+            "id": "jaggery",
+            "g": 6.45,
+            "note": "sweet chutney, 1½ tablespoons, as on the site's sev puri"
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 2,
+            "note": "green chutney and garnish"
+          },
+          {
+            "id": "besan",
+            "g": 9.1,
+            "note": "as 15 g sev, 2 tablespoons of nylon sev"
+          },
+          {
+            "id": "oil",
+            "g": 5.9,
+            "note": "as 15 g sev, 39.6% fat"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "an assembled plate, counted per plate"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 dahi puri",
+          "short": "a dahi puri",
+          "fraction": 0.1667,
+          "cookedGrams": null,
+          "kcal": 60,
+          "protein": 2,
+          "carbs": 7,
+          "fat": 3
+        },
+        {
+          "id": "plate",
+          "label": "1 plate (6 pieces)",
+          "short": "a plate",
+          "fraction": 1,
+          "cookedGrams": null,
+          "kcal": 360,
+          "protein": 9,
+          "carbs": 44,
+          "fat": 16
+        }
+      ],
+      "judgement": [
+        "No textbook or government recipe was found for this dish, so the recipe is a published cookbook recipe; the values per ingredient are still IFCT 2017.",
+        "Garlic chutney (half a teaspoon a plate), chilli powder and roasted cumin add little and are left out.",
+        "Puris are the packaged pani puri shells with their boondi, as on the site's pani puri page, and the sweet chutney and sev are counted as on the site's sev puri."
+      ],
+      "sources": [
+        {
+          "title": "Tarla Dalal, Dahi puri (dahi batata puri)",
+          "url": "https://www.tarladalal.com/dahi-puri-2807r",
+          "note": "For 4 plates of 6 puris: 1½ cups curd, 1 cup potato, 1 cup sprouted moong, 4 tbsp onion, 6 tbsp sweet chutney, 4 tbsp green chutney, 8 tbsp nylon sev",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Writeonslate, Pani puri calories",
+          "url": "https://writeonslate.com/calories/pani-puri/",
+          "note": "The puris and their sources",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Writeonslate, Sev puri calories",
+          "url": "https://writeonslate.com/calories/sev-puri/",
+          "note": "The sweet chutney and sev",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd; 245 g per cup",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Mung beans, sprouted, cooked, boiled (169137)",
+          "url": "https://fdc.nal.usda.gov/food-details/169137/nutrients",
+          "note": "124 g per cup",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Potatoes, boiled (170440)",
+          "url": "https://fdc.nal.usda.gov/food-details/170440/nutrients",
+          "note": "156 g per cup",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Potato (F006), onion (G017), tamarind (E064), jaggery (I001), coriander leaves (G009), Bengal gram dal (B001) as besan; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "banana",
+      "name": "Banana",
+      "category": "fruit",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Banana: the edible part, 1 medium banana counted as 100 g",
+        "ingredients": [
+          {
+            "id": "banana",
+            "g": 100
+          }
+        ],
+        "cookedYieldG": 100,
+        "yieldNote": "fruit as eaten"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 banana (about 100 g)",
+          "short": "a banana",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 105,
+          "protein": 1,
+          "carbs": 24,
+          "fat": 0
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 105,
+          "protein": 1,
+          "carbs": 24,
+          "fat": 0
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "USDA FoodData Central 173944, banana, 1 medium (118 g)",
+          "portionId": "one",
+          "kcal": 105,
+          "url": "https://fdc.nal.usda.gov/food-details/173944/nutrients",
+          "note": "A slightly bigger banana with slightly fewer calories per gram.",
+          "ours": 105,
+          "differencePct": 0
+        }
+      ],
+      "judgement": [
+        "IFCT's ripe robusta banana, the common Cavendish type. The Indian Nutrient Databank counts 1 medium banana as 100 g; no Indian measurement of a peeled banana was found."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Banana, ripe, robusta (E012); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Household measures (Units.xlsx): banana, 1 medium = 100 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Bananas, raw (173944)",
+          "url": "https://fdc.nal.usda.gov/food-details/173944/nutrients",
+          "note": "1 medium = 118 g",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 105,
+        "protein": 1,
+        "carbs": 24,
+        "fat": 0
+      }
+    },
+    {
+      "slug": "apple",
+      "name": "Apple",
+      "category": "fruit",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Apple: the edible part, a Royal Delicious apple of about 170 g, eaten with the skin",
+        "ingredients": [
+          {
+            "id": "apple",
+            "g": 100
+          }
+        ],
+        "cookedYieldG": 100,
+        "yieldNote": "fruit as eaten"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 apple (about 170 g)",
+          "short": "a apple",
+          "grams": 170,
+          "cookedGrams": 170,
+          "kcal": 105,
+          "protein": 0,
+          "carbs": 22,
+          "fat": 1
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 60,
+          "protein": 0,
+          "carbs": 13,
+          "fat": 1
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "USDA FoodData Central 171688, apple with skin, 1 medium (182 g)",
+          "portionId": "one",
+          "kcal": 95,
+          "url": "https://fdc.nal.usda.gov/food-details/171688/nutrients",
+          "note": "A bigger apple with fewer calories per gram.",
+          "ours": 106,
+          "differencePct": -10
+        }
+      ],
+      "judgement": [
+        "Weight: Royal Delicious apples averaged 170 g in a 2017 Uttarakhand trial (the heaviest of 10 varieties; Aurora was 111 g). The Indian Nutrient Databank's household measure is smaller, 80 g. The core isn't taken off, so this is slightly high."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Apple, big (E001); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Kotiyal, Dimri and Goswami, apple cultivars in the Uttarakhand hills, Plant Archives 17(1), 2017",
+          "url": "https://www.plantarchives.org/PDF%2017-1/573-579%20(3592).pdf",
+          "note": "Royal Delicious 170.12 g; Aurora 110.97 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Household measures (Units.xlsx): apple, 1 medium = 80 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Apples, raw, with skin (171688)",
+          "url": "https://fdc.nal.usda.gov/food-details/171688/nutrients",
+          "note": "1 medium = 182 g",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 60,
+        "protein": 0,
+        "carbs": 13,
+        "fat": 1
+      }
+    },
+    {
+      "slug": "orange",
+      "name": "Orange",
+      "category": "fruit",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Orange: the edible part, 1 orange counted as 85 g of segments",
+        "ingredients": [
+          {
+            "id": "orange",
+            "g": 100
+          }
+        ],
+        "cookedYieldG": 100,
+        "yieldNote": "fruit as eaten"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 orange (about 85 g)",
+          "short": "a orange",
+          "grams": 85,
+          "cookedGrams": 85,
+          "kcal": 30,
+          "protein": 1,
+          "carbs": 7,
+          "fat": 0
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 35,
+          "protein": 1,
+          "carbs": 8,
+          "fat": 0
+        }
+      ],
+      "judgement": [
+        "IFCT's orange pulp. The Indian Nutrient Databank counts 1 orange as 85 g. Whole Nagpur mandarins weighed 96 to 129 g in an ICAR trial; the peel isn't eaten, so 85 g of segments fits."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Orange, pulp (E047); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Household measures (Units.xlsx): orange, 1 = 85 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Shirgure et al., Nagpur mandarin, Indian Journal of Agricultural Sciences 86(11), 2016",
+          "url": "https://epubs.icar.org.in/index.php/IJAgS/article/download/62954/25684/159026",
+          "note": "Average fruit weight 95.8 to 129.2 g across treatments",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 35,
+        "protein": 1,
+        "carbs": 8,
+        "fat": 0
+      }
+    },
+    {
+      "slug": "mango",
+      "name": "Mango",
+      "category": "fruit",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Mango: the edible part, the pulp of an average Alphonso, Langra or Dashehari mango, about 125.63 g",
+        "ingredients": [
+          {
+            "id": "mango",
+            "g": 100
+          }
+        ],
+        "cookedYieldG": 100,
+        "yieldNote": "fruit as eaten"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 mango (about 125.63 g)",
+          "short": "a mango",
+          "grams": 125.63,
+          "cookedGrams": 126,
+          "kcal": 60,
+          "protein": 1,
+          "carbs": 12,
+          "fat": 1
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 50,
+          "protein": 1,
+          "carbs": 10,
+          "fat": 1
+        }
+      ],
+      "judgement": [
+        "Pulp weight: Alphonso 195 g (74.7% pulp), Langra 210 g (74.9%) and Dashehari 104 g (71.1%) in a 2018 Jharkhand trial; the average pulp is 125.63 g. Mangoes vary a lot: a Dashehari has about 74 g of pulp, a Langra about 157 g.",
+        "Values are the average of IFCT's seven ripe mango varieties."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Mango, ripe: Banganapalli, Gulabkhas, Himsagar, Kesar, Neelam, Paheri and Totapari (E036 to E042), averaged; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Pandey et al., mango varieties at KVK Palamu, Journal of Pharmacognosy and Phytochemistry SP1, 2018",
+          "url": "https://www.phytojournal.com/archives/2018/vol7issue1S/PartF/SP-7-1-357.pdf",
+          "note": "Fruit weight and pulp share of Alphonso, Langra and Dashehari",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 50,
+        "protein": 1,
+        "carbs": 10,
+        "fat": 1
+      }
+    },
+    {
+      "slug": "guava",
+      "name": "Guava",
+      "category": "fruit",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Guava: the edible part, about 211.16 g, the average of Indian guava trials",
+        "ingredients": [
+          {
+            "id": "guava",
+            "g": 100
+          }
+        ],
+        "cookedYieldG": 100,
+        "yieldNote": "fruit as eaten"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 guava (about 211.16 g)",
+          "short": "a guava",
+          "grams": 211.16,
+          "cookedGrams": 211,
+          "kcal": 70,
+          "protein": 3,
+          "carbs": 11,
+          "fat": 1
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 30,
+          "protein": 1,
+          "carbs": 5,
+          "fat": 0
+        }
+      ],
+      "crossCheck": [
+        {
+          "source": "USDA FoodData Central 173044, guava, 1 fruit (55 g)",
+          "portionId": "one",
+          "kcal": 37,
+          "url": "https://fdc.nal.usda.gov/food-details/173044/nutrients",
+          "note": "USDA's guava is a much smaller fruit.",
+          "ours": 68,
+          "differencePct": -46
+        }
+      ],
+      "range": {
+        "reason": "Size: USDA's guava weighs 55 g, and Indian Allahabad Safeda and Lucknow-49 guavas 148 to 290 g."
+      },
+      "judgement": [
+        "Weight: the average of Allahabad Safeda and Lucknow-49 guavas in three Indian trials (235, 224, 158, 148 and 290 g) is 211.16 g. About 97% of a guava is edible pulp and seeds, so the whole fruit is counted."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Guava, white flesh (E028); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Mahour, Tiwari and Baghel, guava cultivars at Mandsaur, Indian Journal of Horticulture 69(4), 2012",
+          "url": "https://journal.iahs.org.in/index.php/ijh/article/download/2027/693",
+          "note": "Allahabad Safeda 235.00 g (97.74% pulp); Lucknow-49 224.40 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Mehta et al., guava cultivars at Srinagar Garhwal, Plant Archives 16(1), 2016",
+          "url": "https://www.plantarchives.org/PDF%2016%20-%201/361-364%20(PA3-3139).pdf",
+          "note": "Lucknow-49 158.08 g; Allahabad Safeda 148.06 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Man Bihari and Suryanarayan, guava at Kanpur, Indian Journal of Agricultural Sciences 81(2), 2011",
+          "url": "https://epubs.icar.org.in/index.php/IJAgS/article/download/3986/1571/8143",
+          "note": "Allahabad Safeda 290.26 g",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Guavas, common, raw (173044)",
+          "url": "https://fdc.nal.usda.gov/food-details/173044/nutrients",
+          "note": "1 fruit = 55 g",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 30,
+        "protein": 1,
+        "carbs": 5,
+        "fat": 0
+      }
+    },
+    {
+      "slug": "watermelon",
+      "name": "Watermelon",
+      "category": "fruit",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Watermelon: the edible part, diced",
+        "ingredients": [
+          {
+            "id": "watermelon",
+            "g": 100
+          }
+        ],
+        "cookedYieldG": 100,
+        "yieldNote": "fruit as eaten",
+        "densityGPerMl": 0.64,
+        "densityNote": "USDA's diced watermelon: 152 g per cup (236.6 ml)"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 96,
+          "kcal": 20,
+          "protein": 1,
+          "carbs": 4,
+          "fat": 0
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 128,
+          "kcal": 25,
+          "protein": 1,
+          "carbs": 5,
+          "fat": 0
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 20,
+          "protein": 1,
+          "carbs": 4,
+          "fat": 0
+        }
+      ],
+      "judgement": [
+        "IFCT's dark green (sugar baby) watermelon, the common round type."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Water melon, dark green, sugar baby (E065); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Watermelon, raw (167765)",
+          "url": "https://fdc.nal.usda.gov/food-details/167765/nutrients",
+          "note": "1 cup diced = 152 g",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 20,
+        "protein": 1,
+        "carbs": 4,
+        "fat": 0
+      }
+    },
+    {
+      "slug": "papaya",
+      "name": "Papaya",
+      "category": "fruit",
+      "updated": "2026-10-11",
+      "recipe": {
+        "label": "Papaya: the edible part, in pieces",
+        "ingredients": [
+          {
+            "id": "papaya",
+            "g": 100
+          }
+        ],
+        "cookedYieldG": 100,
+        "yieldNote": "fruit as eaten",
+        "densityGPerMl": 0.61,
+        "densityNote": "USDA's papaya: 145 g per cup of 1-inch pieces (236.6 ml)"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 92,
+          "kcal": 20,
+          "protein": 0,
+          "carbs": 4,
+          "fat": 0
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 122,
+          "kcal": 30,
+          "protein": 1,
+          "carbs": 6,
+          "fat": 0
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 25,
+          "protein": 0,
+          "carbs": 5,
+          "fat": 0
+        }
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Papaya, ripe (E049); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Papayas, raw (169926)",
+          "url": "https://fdc.nal.usda.gov/food-details/169926/nutrients",
+          "note": "1 cup of 1-inch pieces = 145 g",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 25,
+        "protein": 0,
+        "carbs": 5,
+        "fat": 0
+      }
+    }
+  ]
+}
