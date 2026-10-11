@@ -1000,5 +1000,16 @@
       "carbs": 29.46,
       "fat": 6.4
     }
+  },
+  "tomato_puree": {
+    "name": "Tomato puree",
+    "sourceShort": "USDA FDC 170460",
+    "source": "USDA FoodData Central 170460, tomato products, canned, puree, without salt added",
+    "per100g": {
+      "kcal": 38.0,
+      "protein": 1.65,
+      "carbs": 7.08,
+      "fat": 0.21
+    }
   }
 }

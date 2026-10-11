@@ -7602,6 +7602,2819 @@
         "carbs": 24,
         "fat": 2
       }
+    },
+    {
+      "slug": "palak-paneer",
+      "name": "Palak paneer",
+      "nameLower": "palak paneer",
+      "category": "dals",
+      "aliases": [
+        "saag paneer",
+        "spinach paneer",
+        "palak panir",
+        "पालक पनीर",
+        "પાલક પનીર"
+      ],
+      "updated": "2026-10-11",
+      "title": "Palak paneer calories: home bowl, katori and restaurant",
+      "description": "A home bowl of palak paneer with 40 g of paneer has about {{kcal:bowl}} calories; a 200 ml katori about {{kcal:k200}}. With cream and restaurant style.",
+      "answer": "A bowl of home palak paneer (150 g spinach, 40 g paneer, ½ tablespoon of oil) has about {{kcal:bowl}} calories. A 200 ml katori is about {{kcal:k200}}.",
+      "intro": [
+        "Palak paneer is spinach cooked down with onion, tomato, ginger and garlic, puréed into a smooth green gravy, with cubes of paneer stirred in. Restaurants often finish it with cream or butter; at home it's usually plainer.",
+        "Spinach adds very few calories. Paneer is about half of this bowl's calories and the oil most of the rest, so the amount of paneer and fat decides the number."
+      ],
+      "headlinePortion": "bowl",
+      "portionsCaption": "Home palak paneer, made as below.",
+      "recipe": {
+        "label": "Recipe: one bowl, 150 g spinach and 40 g paneer with ½ tablespoon of oil",
+        "ingredients": [
+          {
+            "id": "spinach",
+            "g": 150
+          },
+          {
+            "id": "paneer",
+            "g": 40
+          },
+          {
+            "id": "tomato",
+            "g": 50
+          },
+          {
+            "id": "onion",
+            "g": 25
+          },
+          {
+            "id": "ginger",
+            "g": 5
+          },
+          {
+            "id": "garlic",
+            "g": 1.25
+          },
+          {
+            "id": "cumin",
+            "g": 0.5
+          },
+          {
+            "id": "chilli_powder",
+            "g": 0.7
+          },
+          {
+            "id": "oil",
+            "g": 6.8,
+            "note": "half a tablespoon"
+          },
+          {
+            "id": "water",
+            "g": 15,
+            "note": "1 tablespoon"
+          }
+        ],
+        "cookedYieldG": 294,
+        "yieldNote": "the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does",
+        "densityGPerMl": 1,
+        "densityNote": "taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 115,
+          "protein": 6,
+          "carbs": 7,
+          "fat": 7
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 155,
+          "protein": 8,
+          "carbs": 9,
+          "fat": 10
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 250,
+          "kcal": 195,
+          "protein": 10,
+          "carbs": 11,
+          "fat": 12
+        },
+        {
+          "id": "bowl",
+          "label": "1 bowl (40 g paneer)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 294,
+          "kcal": 230,
+          "protein": 12,
+          "carbs": 13,
+          "fat": 14
+        },
+        {
+          "id": "bowl_cream",
+          "label": "1 bowl with 1 tbsp cream",
+          "short": "with cream",
+          "fraction": 1,
+          "add": [
+            {
+              "id": "cream",
+              "g": 15
+            }
+          ],
+          "cookedGrams": 294,
+          "kcal": 260,
+          "protein": 12,
+          "carbs": 14,
+          "fat": 17
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 80,
+          "protein": 4,
+          "carbs": 4,
+          "fat": 5
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Restaurant",
+        "caption": "One 200 ml katori. The outside range has 1.5 to 2 times the oil, plus up to a tablespoon of cream.",
+        "fatFactor": [
+          1.5,
+          2
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "cream",
+            "g": [
+              0,
+              15
+            ]
+          }
+        ],
+        "basis": "USDA's palak paneer (FNDDS 72125310) is 7.0% fat against 4.8% here, in line with richer restaurant versions. Up to twice the oil and up to a tablespoon of cream per katori are stated assumptions.",
+        "text": [
+          "Restaurant palak paneer usually has more fat than home versions: more oil or butter in the masala and often a swirl of cream. USDA's survey value for palak paneer is half as fatty again as this home bowl, per gram.",
+          "No lab has measured an Indian restaurant palak paneer, so the range below allows 1.5 to 2 times the oil, plus up to a tablespoon of cream per katori."
+        ],
+        "kcalRange": [
+          175,
+          225
+        ],
+        "fatRange": [
+          12,
+          17
+        ]
+      },
+      "changes": [
+        "Paneer is the biggest part. Each extra 25 g of paneer adds about 65 calories.",
+        "A tablespoon of cream adds about 30 calories, and a teaspoon of butter about 35.",
+        "Spinach barely counts: the 150 g in this bowl is under 40 calories.",
+        "Low-fat paneer, or tofu in its place, lowers the number. Full-fat malai paneer raises it."
+      ],
+      "method": [
+        "The recipe is the spinach paneer in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 150 g spinach, 40 g paneer, tomato, onion, ginger, garlic and spices, cooked with half a tablespoon of oil. Values are from IFCT 2017.",
+        "The cooked weight is the ingredients added together, and katoris are worked out at 1 g per ml."
+      ],
+      "range": {
+        "text": "USDA's survey value for palak paneer is about 101 calories per 100 g, against about {{per100}} here, because it's made with more fat. Depending on the paneer, oil and cream, a 200 ml katori is anywhere from about {{kcal:k200}} to 200.",
+        "reason": "USDA FNDDS palak paneer (101 kcal per 100 g) is 29% above this textbook bowl, with more fat (7.0% against 4.8%). Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 bowl of palak paneer?",
+          "a": "About {{kcal:bowl}} for a home bowl with 40 g of paneer, and about {{kcal:bowl_cream}} with a tablespoon of cream stirred in."
+        },
+        {
+          "q": "How many calories are in 100 g of palak paneer?",
+          "a": "About {{kcal:g100}} for this home version. USDA's survey value, closer to restaurant style, is 101."
+        },
+        {
+          "q": "How much protein is in palak paneer?",
+          "a": "About {{protein:bowl}} g in a bowl with 40 g of paneer, most of it from the paneer."
+        },
+        {
+          "q": "Which has more calories, palak paneer or paneer butter masala?",
+          "a": "Paneer butter masala, usually by a lot, because of the butter, cream and larger amount of paneer. A 200 ml katori of [paneer butter masala](/calories/paneer-butter-masala/) is about {{kcal@paneer-butter-masala:k200}}, against about {{kcal:k200}} here."
+        }
+      ],
+      "related": [
+        "matar-paneer",
+        "paneer-butter-masala",
+        "roti",
+        "dal-tadka"
+      ],
+      "useCase": {
+        "href": "/for/vegetarians/",
+        "label": "Calorie counting for vegetarians"
+      },
+      "crossCheck": [
+        {
+          "source": "USDA FNDDS 2021-2023, Palak Paneer (72125310)",
+          "kcalPer100g": 101,
+          "url": "https://fdc.nal.usda.gov/food-details/2709631/nutrients",
+          "ours": 78,
+          "differencePct": 30
+        }
+      ],
+      "judgement": [
+        "Range top: about 100 kcal per 100 g x 200 g = 200 kcal, in line with FNDDS.",
+        "Garam masala (0.25 tsp) left out.",
+        "Cream 1 tbsp = 15 g of USDA light cream (19% fat)."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Spinach (C033), paneer (L003), tomato, onion, ginger, garlic, cumin, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC215, spinach paneer",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Palak Paneer (2709631)",
+          "url": "https://fdc.nal.usda.gov/food-details/2709631/nutrients",
+          "note": "101 kcal and 7.02 g fat per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Cream, fluid, light (170857)",
+          "url": "https://fdc.nal.usda.gov/food-details/170857/nutrients",
+          "note": "Cream, 19% fat",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Spices, chili powder (171319)",
+          "url": "https://fdc.nal.usda.gov/food-details/171319/nutrients",
+          "note": "Red chilli powder",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 80,
+        "protein": 4,
+        "carbs": 4,
+        "fat": 5
+      }
+    },
+    {
+      "slug": "matar-paneer",
+      "name": "Matar paneer",
+      "nameLower": "matar paneer",
+      "category": "dals",
+      "aliases": [
+        "mutter paneer",
+        "mattar paneer",
+        "peas paneer",
+        "matar panir",
+        "मटर पनीर",
+        "મટર પનીર"
+      ],
+      "updated": "2026-10-11",
+      "title": "Matar paneer calories: per katori and per bowl",
+      "description": "A 200 ml katori of home matar paneer has about {{kcal:k200}} calories, from peas, paneer and a tablespoon of oil. Restaurant matar paneer compared.",
+      "answer": "A 200 ml katori of home matar paneer has about {{kcal:k200}} calories. A full textbook bowl, with 50 g of paneer and 100 g of peas, is about {{kcal:bowl}}.",
+      "intro": [
+        "Matar paneer is green peas and paneer cubes in an onion and tomato gravy, cooked with ginger, garlic and garam masala. It's one of the most common paneer dishes in north Indian homes and on dhaba menus, eaten with roti or rice.",
+        "Paneer and oil carry most of the calories; the peas add protein and fibre and a smaller share. This textbook gravy is thick, made without added water."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Thick gravy, made as below.",
+      "recipe": {
+        "label": "Recipe: one bowl, 100 g peas and 50 g paneer with 1 tablespoon of oil",
+        "ingredients": [
+          {
+            "id": "peas_fresh",
+            "g": 100
+          },
+          {
+            "id": "paneer",
+            "g": 50
+          },
+          {
+            "id": "tomato",
+            "g": 50
+          },
+          {
+            "id": "onion",
+            "g": 50
+          },
+          {
+            "id": "ginger",
+            "g": 5
+          },
+          {
+            "id": "garlic",
+            "g": 1.25
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 1
+          },
+          {
+            "id": "turmeric",
+            "g": 0.4
+          },
+          {
+            "id": "chilli_powder",
+            "g": 0.7
+          },
+          {
+            "id": "oil",
+            "g": 13.6,
+            "note": "1 tablespoon"
+          }
+        ],
+        "cookedYieldG": 275,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does; the textbook adds no water",
+        "densityGPerMl": 1,
+        "densityNote": "taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 205,
+          "protein": 10,
+          "carbs": 14,
+          "fat": 12
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 270,
+          "protein": 13,
+          "carbs": 19,
+          "fat": 16
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 250,
+          "kcal": 340,
+          "protein": 17,
+          "carbs": 23,
+          "fat": 20
+        },
+        {
+          "id": "bowl",
+          "label": "1 bowl (50 g paneer, 100 g peas)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 275,
+          "kcal": 375,
+          "protein": 18,
+          "carbs": 26,
+          "fat": 22
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 135,
+          "protein": 7,
+          "carbs": 9,
+          "fat": 8
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Dhaba or restaurant",
+        "caption": "One 200 ml katori. The outside range has up to half as much fat again, plus up to a tablespoon of cream.",
+        "fatFactor": [
+          1,
+          1.5
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "cream",
+            "g": [
+              0,
+              15
+            ]
+          }
+        ],
+        "basis": "No analysed value for restaurant matar paneer was found. Up to 1.5 times the oil and up to a tablespoon of cream per katori are stated assumptions.",
+        "text": [
+          "Restaurant matar paneer often has a richer gravy, with cream, cashew paste or butter, and sometimes fried paneer.",
+          "With no lab figure to go on, the range below allows up to half as much oil again and up to a tablespoon of cream per katori."
+        ],
+        "kcalRange": [
+          270,
+          345
+        ],
+        "fatRange": [
+          16,
+          23
+        ]
+      },
+      "changes": [
+        "Paneer is the main variable. Each extra 25 g adds about 65 calories.",
+        "Oil comes next: each teaspoon in the masala adds about 40 calories to the pot.",
+        "Peas add less than you might think: 50 g is about 40 calories, with about 4 g of protein.",
+        "A thinner gravy with water added fills more katoris with the same total."
+      ],
+      "method": [
+        "The recipe is the matar paneer in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g peas and 50 g paneer with tomato, onion, ginger, garlic, green chilli and spices, cooked in a tablespoon of oil. Values are from IFCT 2017.",
+        "The textbook adds no water, so this is a thick gravy, and katoris are worked out at 1 g per ml."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of matar paneer?",
+          "a": "About {{kcal:k200}} in a 200 ml katori, and about {{kcal:k150}} in a 150 ml one."
+        },
+        {
+          "q": "How many calories are in 100 g of matar paneer?",
+          "a": "About {{kcal:g100}} for this thick home version."
+        },
+        {
+          "q": "How much protein is in matar paneer?",
+          "a": "About {{protein:k200}} g in a 200 ml katori, from the paneer and peas."
+        },
+        {
+          "q": "Which has more calories, matar paneer or palak paneer?",
+          "a": "Matar paneer here, about {{kcal:k200}} per 200 ml katori against about {{kcal@palak-paneer:k200}} for [palak paneer](/calories/palak-paneer/). It has more paneer, more oil and peas instead of spinach."
+        }
+      ],
+      "related": [
+        "palak-paneer",
+        "paneer-butter-masala",
+        "roti",
+        "jeera-rice"
+      ],
+      "useCase": {
+        "href": "/for/vegetarians/",
+        "label": "Calorie counting for vegetarians"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "The textbook says 100 g peas (unshelled); INDB counts all 100 g as peas. Followed here; if it means pods, the peas would be about half and the bowl about 40 kcal lower.",
+        "No independent analysed value for matar paneer was found (IFCT, NIN Annexure 8, USDA FNDDS).",
+        "Garam masala (0.25 tsp) left out."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Peas fresh (D061), paneer (L003), tomato, onion, ginger, garlic, green chilli, coriander, turmeric, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC191, pea paneer curry",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Cream, fluid, light (170857)",
+          "url": "https://fdc.nal.usda.gov/food-details/170857/nutrients",
+          "note": "Cream in restaurant versions",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Spices, chili powder (171319)",
+          "url": "https://fdc.nal.usda.gov/food-details/171319/nutrients",
+          "note": "Red chilli powder",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 135,
+        "protein": 7,
+        "carbs": 9,
+        "fat": 8
+      }
+    },
+    {
+      "slug": "chicken-curry",
+      "name": "Chicken curry",
+      "nameLower": "chicken curry",
+      "category": "dals",
+      "aliases": [
+        "chicken gravy",
+        "murgh curry",
+        "chicken masala",
+        "home style chicken curry",
+        "चिकन करी",
+        "ચિકન કરી"
+      ],
+      "updated": "2026-10-11",
+      "title": "Chicken curry calories: per katori, bowl and 100 g",
+      "description": "A bowl of home chicken curry with 125 g of chicken has about {{kcal:bowl}} calories; a 200 ml katori about {{kcal:k200}}. Restaurant curry compared.",
+      "answer": "A bowl of home chicken curry with 125 g of chicken has about {{kcal:bowl}} calories. A 200 ml katori of curry and pieces is about {{kcal:k200}}.",
+      "intro": [
+        "Home chicken curry is chicken cooked in a masala of fried onion, tomato, ginger, garlic and whole spices, with a little curd. Every region has its own, from Punjabi tari wala chicken to Bengali kosha mangsho-style curries and Kerala versions with coconut.",
+        "Chicken is about two thirds of the calories in this recipe and the oil most of the rest. The share of chicken to gravy in your katori makes a big difference."
+      ],
+      "headlinePortion": "bowl",
+      "portionsCaption": "Home chicken curry, made as below, with chicken and gravy together.",
+      "recipe": {
+        "label": "Recipe: 250 g chicken with onion, tomato and 1 tablespoon of oil, for 2 bowls",
+        "ingredients": [
+          {
+            "id": "chicken_breast",
+            "g": 250,
+            "note": "Boneless weight"
+          },
+          {
+            "id": "onion",
+            "g": 100
+          },
+          {
+            "id": "tomato",
+            "g": 100
+          },
+          {
+            "id": "ginger",
+            "g": 10
+          },
+          {
+            "id": "garlic",
+            "g": 2.2
+          },
+          {
+            "id": "curd",
+            "g": 10,
+            "note": "2 teaspoons"
+          },
+          {
+            "id": "coriander_seeds",
+            "g": 0.45
+          },
+          {
+            "id": "cumin",
+            "g": 0.5
+          },
+          {
+            "id": "turmeric",
+            "g": 0.75
+          },
+          {
+            "id": "chilli_powder",
+            "g": 0.7
+          },
+          {
+            "id": "oil",
+            "g": 13.6,
+            "note": "1 tablespoon"
+          }
+        ],
+        "cookedYieldG": 489,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does; the textbook adds no water",
+        "densityGPerMl": 1,
+        "densityNote": "taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "cup3",
+          "label": "¾ cup (150 ml), NIN's measure",
+          "short": "¾ cup",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 195,
+          "protein": 18,
+          "carbs": 5,
+          "fat": 11
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 255,
+          "protein": 24,
+          "carbs": 6,
+          "fat": 15
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 250,
+          "kcal": 320,
+          "protein": 30,
+          "carbs": 8,
+          "fat": 19
+        },
+        {
+          "id": "bowl",
+          "label": "1 bowl (125 g chicken)",
+          "short": "a bowl",
+          "fraction": 0.5,
+          "cookedGrams": 245,
+          "kcal": 315,
+          "protein": 29,
+          "carbs": 8,
+          "fat": 19
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 130,
+          "protein": 12,
+          "carbs": 3,
+          "fat": 8
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Restaurant or dhaba",
+        "caption": "One 200 ml katori. The outside range has 1.5 to 2 times the oil.",
+        "fatFactor": [
+          1.5,
+          2
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "basis": "No analysed value for restaurant chicken curry in India was found. 1.5 to 2 times this recipe's oil is a stated assumption; restaurant gravies are commonly finished with more oil or butter.",
+        "text": [
+          "Restaurant and dhaba chicken curries are usually cooked with more oil, often with a layer of it on top, and some add cream or butter.",
+          "No lab has measured one, so the range below assumes 1.5 to 2 times the oil of this home recipe for the same katori."
+        ],
+        "kcalRange": [
+          280,
+          305
+        ],
+        "fatRange": [
+          18,
+          21
+        ]
+      },
+      "changes": [
+        "The share of chicken matters most. A katori that's mostly pieces has more than one that's mostly gravy.",
+        "Each teaspoon of oil adds about 40 calories to the pot. Skimming oil off the top takes some away.",
+        "Chicken with skin, or thighs and legs, have more fat than skinless breast.",
+        "Coconut-based curries add more: 60 g of coconut milk is about 140 calories."
+      ],
+      "method": [
+        "The recipe is the chicken curry in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 250 g chicken with 100 g each of onion and tomato, ginger, garlic, curd and whole spices, cooked in a tablespoon of oil, for 2 bowls. Values are from IFCT 2017.",
+        "IFCT 2017's chicken breast has more fat than USDA's (9 g per 100 g against 3 g), so these figures are at the higher end. The textbook adds no water; katoris are worked out at 1 g per ml."
+      ],
+      "range": {
+        "text": "Published figures differ with the oil and the share of chicken. ICMR-NIN counts ¾ cup of chicken curry at 240 calories, above this page's {{kcal:cup3}}, while USDA's survey puts 100 g at 107, below this page's {{kcal:g100}}. A 200 ml katori of chicken curry can be anywhere from about 215 to 320.",
+        "reason": "NIN's chicken curry (240 kcal per 3/4 cup) is 24% above this page's 150 ml; USDA FNDDS chicken curry (107 kcal per 100 g) is 17% below. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 bowl of chicken curry?",
+          "a": "About {{kcal:bowl}} for a home bowl with 125 g of chicken, and about {{kcal:k200}} for a 200 ml katori."
+        },
+        {
+          "q": "How many calories are in 100 g of chicken curry?",
+          "a": "About {{kcal:g100}} for this home curry. Values from other sources run from about 107 to 160, depending on oil and how much is chicken."
+        },
+        {
+          "q": "How much protein is in chicken curry?",
+          "a": "About {{protein:bowl}} g in a bowl with 125 g of chicken, and about {{protein:k200}} g in a 200 ml katori."
+        },
+        {
+          "q": "How many calories are in chicken curry and rice?",
+          "a": "Add about {{kcal@plain-rice:k200}} for a 200 ml katori of [plain rice](/calories/plain-rice/) to the curry: about {{kcal:k200}} for a 200 ml katori."
+        },
+        {
+          "q": "Which has more calories, chicken curry or butter chicken?",
+          "a": "Restaurant butter chicken, usually, because of the butter and cream. Made at home from textbook recipes the two are close: about {{kcal:k200}} per 200 ml katori here and about {{kcal@butter-chicken:k200}} for [butter chicken](/calories/butter-chicken/)."
+        }
+      ],
+      "related": [
+        "butter-chicken",
+        "chicken-biryani",
+        "plain-rice",
+        "roti",
+        "egg-curry"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: chicken curry, 3/4 cup",
+          "portionId": "cup3",
+          "kcal": 240,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 193,
+          "differencePct": 24
+        },
+        {
+          "source": "USDA FNDDS 2021-2023, Chicken curry (27146150)",
+          "kcalPer100g": 107,
+          "url": "https://fdc.nal.usda.gov/food-details/2706437/nutrients",
+          "ours": 129,
+          "differencePct": -17
+        }
+      ],
+      "judgement": [
+        "IFCT 2017's skinless chicken breast is 9.0 g fat per 100 g (168 kcal); USDA's raw chicken meat is 3.1 g (119 kcal, FDC 171052). IFCT is used, as the databank does, so these chicken figures sit at the higher end.",
+        "Textbook chicken weight taken as edible boneless weight, as INDB does.",
+        "Range: 107 x 2 = 214 kcal (FNDDS) to 240 / 150 x 200 = 320 kcal (NIN) per 200 ml.",
+        "Coconut milk in the changes list: 60 g x 230 kcal per 100 g (USDA 170172) = 138 kcal.",
+        "Whole spices (cardamom, cloves, pepper, bay leaf, cinnamon) and poppy seeds left out; they're under 1 g each or not eaten."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Chicken breast skinless (N003), onion, tomato, ginger, garlic, spices, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC240, chicken curry",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: chicken curry 240 kcal per 3/4 cup",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Chicken curry (2706437)",
+          "url": "https://fdc.nal.usda.gov/food-details/2706437/nutrients",
+          "note": "107 kcal per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Chicken, broilers or fryers, meat only, raw (171052)",
+          "url": "https://fdc.nal.usda.gov/food-details/171052/nutrients",
+          "note": "119 kcal, 3.1 g fat per 100 g, for comparison",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 130,
+        "protein": 12,
+        "carbs": 3,
+        "fat": 8
+      }
+    },
+    {
+      "slug": "butter-chicken",
+      "name": "Butter chicken",
+      "nameLower": "butter chicken",
+      "category": "restaurant",
+      "aliases": [
+        "murgh makhani",
+        "chicken makhani",
+        "makhani chicken",
+        "chicken butter masala",
+        "बटर चिकन",
+        "मुर्ग मखनी",
+        "બટર ચિકન"
+      ],
+      "updated": "2026-10-11",
+      "title": "Butter chicken calories: home serving and restaurant",
+      "description": "A home serving of butter chicken with 125 g of chicken has about {{kcal:serving}} calories. Restaurant butter chicken is about {{outLo}} to {{outHi}}.",
+      "answer": "A home serving of butter chicken (125 g chicken, with its share of butter and cream) has about {{kcal:serving}} calories. A restaurant serving is often {{outLo}} to {{outHi}}.",
+      "intro": [
+        "Butter chicken, or murgh makhani, is chicken in a smooth tomato gravy enriched with butter and cream, lightly sweet and spiced with garam masala and kasuri methi. It came out of Delhi's Moti Mahal kitchen and is now the most ordered chicken curry on Indian delivery apps and restaurant menus.",
+        "In this textbook version the chicken is about 60% of the calories and the butter and cream about 30%. Restaurants use a lot more of both, which is where the big numbers come from."
+      ],
+      "headlinePortion": "serving",
+      "portionsCaption": "Home butter chicken, made as below, with chicken and gravy together.",
+      "recipe": {
+        "label": "Recipe: 250 g chicken in tomato gravy with 1½ tablespoons of butter and 1½ of cream, for 2 servings",
+        "ingredients": [
+          {
+            "id": "chicken_breast",
+            "g": 250,
+            "note": "Boneless weight"
+          },
+          {
+            "id": "tomato",
+            "g": 150
+          },
+          {
+            "id": "tomato_puree",
+            "g": 31,
+            "note": "2 tablespoons"
+          },
+          {
+            "id": "onion",
+            "g": 40
+          },
+          {
+            "id": "ginger",
+            "g": 10
+          },
+          {
+            "id": "green_chilli",
+            "g": 6.7
+          },
+          {
+            "id": "black_pepper",
+            "g": 3.5,
+            "note": "1½ teaspoons"
+          },
+          {
+            "id": "butter",
+            "g": 21.3,
+            "note": "1½ tablespoons"
+          },
+          {
+            "id": "cream",
+            "g": 22.5,
+            "note": "1½ tablespoons"
+          },
+          {
+            "id": "sugar",
+            "g": 2.1,
+            "note": "half a teaspoon"
+          }
+        ],
+        "cookedYieldG": 537,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does; the textbook adds no water",
+        "densityGPerMl": 1,
+        "densityNote": "taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 195,
+          "protein": 16,
+          "carbs": 5,
+          "fat": 13
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 260,
+          "protein": 22,
+          "carbs": 6,
+          "fat": 17
+        },
+        {
+          "id": "serving",
+          "label": "1 serving (125 g chicken)",
+          "short": "a serving",
+          "fraction": 0.5,
+          "cookedGrams": 269,
+          "kcal": 350,
+          "protein": 29,
+          "carbs": 8,
+          "fat": 22
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 130,
+          "protein": 11,
+          "carbs": 3,
+          "fat": 8
+        }
+      ],
+      "outside": {
+        "portionId": "serving",
+        "label": "Restaurant or delivery",
+        "caption": "One serving. The outside range has 1.5 to 2 times the butter and cream, in a serving up to 1.5 times as big.",
+        "fatFactor": [
+          1.5,
+          2
+        ],
+        "sizeFactor": [
+          1,
+          1.5
+        ],
+        "basis": "No analysed value for restaurant butter chicken was found. Up to twice the butter and cream and a serving up to 1.5 times as big are stated assumptions, in line with the restaurant range on the paneer butter masala page.",
+        "text": [
+          "Restaurant butter chicken is usually made with far more butter and cream than a home or textbook version, often finished with another knob of butter and a swirl of cream, and delivery portions tend to be large.",
+          "No lab has measured one, so the range below allows 1.5 to 2 times the butter and cream, in a serving up to 1.5 times as big."
+        ],
+        "kcalRange": [
+          400,
+          675
+        ],
+        "fatRange": [
+          28,
+          50
+        ]
+      },
+      "changes": [
+        "Butter and cream are the biggest variables. A tablespoon of butter adds about 100 calories, and a tablespoon of cream about 30.",
+        "Serving size comes next. Delivery boxes often hold more chicken and gravy than a home serving.",
+        "Thigh meat or chicken with skin has more fat than breast. Tandoori chicken pieces, marinated in curd first, add a little.",
+        "Naan or rice is extra: a home [butter naan](/calories/butter-naan/) is about {{kcal@butter-naan:one_tsp}}."
+      ],
+      "method": [
+        "The recipe is the butter chicken in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 250 g chicken with fresh tomato, tomato purée, onion, ginger, green chilli and pepper, finished with 1½ tablespoons each of butter and cream, for 2 servings. Values are from IFCT 2017, with butter, cream, purée and sugar from USDA.",
+        "IFCT 2017's chicken breast has more fat than USDA's, so these figures are at the higher end for the chicken itself."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 serving of butter chicken?",
+          "a": "About {{kcal:serving}} for a home serving with 125 g of chicken. A restaurant serving is often {{outLo}} to {{outHi}}."
+        },
+        {
+          "q": "How many calories are in 100 g of butter chicken?",
+          "a": "About {{kcal:g100}} for this home version. Restaurant butter chicken with more butter and cream is higher."
+        },
+        {
+          "q": "How much protein is in butter chicken?",
+          "a": "About {{protein:serving}} g in a home serving with 125 g of chicken."
+        },
+        {
+          "q": "How many calories are in butter chicken and naan?",
+          "a": "A home serving is about {{kcal:serving}}, and a home [butter naan](/calories/butter-naan/) about {{kcal@butter-naan:one_tsp}}. In a restaurant, with a large butter naan, the meal can pass 1,000."
+        }
+      ],
+      "related": [
+        "chicken-curry",
+        "butter-naan",
+        "naan",
+        "paneer-butter-masala",
+        "dal-makhani"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "IFCT 2017's skinless chicken breast is 9.0 g fat per 100 g (168 kcal); USDA's raw chicken meat is 3.1 g (119 kcal, FDC 171052). IFCT is used, as the databank does, so these chicken figures sit at the higher end.",
+        "Ghee/butter 1.5 tbsp taken as butter (21.3 g, USDA 14.2 g per tbsp). Cream 1.5 tbsp = 22.5 g of USDA light cream (19% fat). Tomato puree 2 tbsp = 31 g (USDA 250 g per cup).",
+        "Garam masala, cardamom and coriander left out.",
+        "No analysed value for butter chicken was found (IFCT, NIN Annexure 8, USDA FNDDS). NIN's chicken curry is a different dish and isn't used as a check.",
+        "FAQ meal: restaurant serving (about 400 to 675) plus a large restaurant butter naan (about 595) passes 1,000 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Chicken breast skinless (N003), tomato, onion, ginger, green chilli, black pepper; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC242, butter chicken",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Butter, without salt (173430)",
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "1 tbsp = 14.2 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Cream, fluid, light (170857)",
+          "url": "https://fdc.nal.usda.gov/food-details/170857/nutrients",
+          "note": "Cream, 19% fat",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Tomato products, canned, puree (170460)",
+          "url": "https://fdc.nal.usda.gov/food-details/170460/nutrients",
+          "note": "Tomato puree",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "Sugar",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 130,
+        "protein": 11,
+        "carbs": 3,
+        "fat": 8
+      }
+    },
+    {
+      "slug": "egg-curry",
+      "name": "Egg curry",
+      "nameLower": "egg curry",
+      "category": "dals",
+      "aliases": [
+        "anda curry",
+        "egg masala",
+        "egg gravy",
+        "muttai kuzhambu",
+        "dim kosha",
+        "अंडा करी",
+        "એગ કરી"
+      ],
+      "updated": "2026-10-11",
+      "title": "Egg curry calories: with 1, 2 or 3 eggs",
+      "description": "Egg curry has about {{kcal:one}} calories per egg with its share of gravy, so 2 eggs come to about {{kcal:two}}. Dhaba egg curry compared.",
+      "answer": "Egg curry has about {{kcal:one}} calories for each egg with its share of gravy, so a bowl with 2 eggs is about {{kcal:two}}.",
+      "intro": [
+        "Egg curry is hard-boiled eggs simmered in an onion and tomato masala with ginger, garlic and ground coriander. Bengali dim kosha fries the eggs first, South Indian muttai kuzhambu adds tamarind or coconut, and dhaba anda curry is often oilier and spicier.",
+        "The egg itself is a little over a third of the calories here. The oil in the masala is more, so the gravy matters as much as the number of eggs."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Each egg counted with its share of gravy, made as below.",
+      "recipe": {
+        "label": "Recipe: 1 egg in onion-tomato gravy with 2 teaspoons of oil",
+        "ingredients": [
+          {
+            "id": "egg",
+            "g": 50,
+            "note": "1 egg, without shell"
+          },
+          {
+            "id": "tomato",
+            "g": 50
+          },
+          {
+            "id": "onion",
+            "g": 30
+          },
+          {
+            "id": "ginger",
+            "g": 3
+          },
+          {
+            "id": "garlic",
+            "g": 1.25
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 1
+          },
+          {
+            "id": "coriander_seeds",
+            "g": 1.8
+          },
+          {
+            "id": "turmeric",
+            "g": 0.75
+          },
+          {
+            "id": "oil",
+            "g": 9,
+            "note": "2 teaspoons"
+          }
+        ],
+        "cookedYieldG": 150,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 egg with gravy",
+          "short": "1 egg",
+          "fraction": 1,
+          "cookedGrams": 150,
+          "kcal": 185,
+          "protein": 8,
+          "carbs": 6,
+          "fat": 14
+        },
+        {
+          "id": "two",
+          "label": "2 eggs with gravy",
+          "short": "2 eggs",
+          "fraction": 2,
+          "cookedGrams": 300,
+          "kcal": 365,
+          "protein": 16,
+          "carbs": 12,
+          "fat": 28
+        },
+        {
+          "id": "three",
+          "label": "3 eggs with gravy",
+          "short": "3 eggs",
+          "fraction": 3,
+          "cookedGrams": 450,
+          "kcal": 550,
+          "protein": 24,
+          "carbs": 17,
+          "fat": 43
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 120,
+          "protein": 5,
+          "carbs": 4,
+          "fat": 9
+        }
+      ],
+      "outside": {
+        "portionId": "two",
+        "label": "Dhaba or restaurant",
+        "caption": "Two eggs with gravy. The outside range has 1.5 to 2 times the oil.",
+        "fatFactor": [
+          1.5,
+          2
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "basis": "No analysed value for restaurant egg curry was found. Dhabas often fry the boiled eggs before adding them and use more oil in the masala; 1.5 to 2 times this recipe's oil is a stated assumption.",
+        "text": [
+          "Dhaba and restaurant egg curry usually comes with two eggs in a bowl, often fried before they go into the gravy, with more oil in the masala.",
+          "No lab has measured it, so the range below assumes 1.5 to 2 times the oil of this recipe for two eggs."
+        ],
+        "kcalRange": [
+          445,
+          525
+        ],
+        "fatRange": [
+          37,
+          46
+        ]
+      },
+      "changes": [
+        "Each egg adds about 70 calories on its own, with about 7 g of protein.",
+        "Oil is the other big part. Each teaspoon in the masala adds about 40 calories.",
+        "Frying the eggs first adds a little more oil; coconut milk in the gravy adds about 140 calories per 60 g.",
+        "Egg bhurji and omelettes are counted by their eggs and the oil in the pan."
+      ],
+      "method": [
+        "The recipe is the egg curry in Basic Food Preparation, a standard Indian cookery manual (via the Indian Nutrient Databank): 1 egg with tomato, onion, ginger, garlic, green chilli and ground coriander, cooked in 2 teaspoons of oil. Values are from IFCT 2017.",
+        "The egg is taken as 50 g without its shell, as the databank does. ICMR-NIN counts one boiled egg at 90 calories, which matches a larger egg of about 60 g."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in egg curry with 2 eggs?",
+          "a": "About {{kcal:two}} for 2 eggs with their gravy, and about {{kcal:three}} for 3."
+        },
+        {
+          "q": "How much protein is in egg curry?",
+          "a": "About {{protein:one}} g for each egg with its gravy, so about {{protein:two}} g for 2 eggs."
+        },
+        {
+          "q": "How many calories are in egg curry and rice?",
+          "a": "Two eggs with gravy are about {{kcal:two}}, and a 200 ml katori of [plain rice](/calories/plain-rice/) adds about {{kcal@plain-rice:k200}}."
+        },
+        {
+          "q": "How many calories are in 100 g of egg curry?",
+          "a": "About {{kcal:g100}} for this recipe."
+        }
+      ],
+      "related": [
+        "chicken-curry",
+        "fish-curry",
+        "plain-rice",
+        "roti"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Egg 50 g edible (INDB). IFCT raw whole egg 134.8 kcal per 100 g, so 67 kcal per egg. NIN's 90 kcal boiled egg implies about 61 g at IFCT's boiled value (147.7 kcal per 100 g).",
+        "No analysed value for egg curry was found (IFCT, NIN Annexure 8, USDA FNDDS).",
+        "Bay leaf, garam masala, chilli powder and cumin (under 1 g each) left out.",
+        "Changes list: one egg about 70 kcal (67) and 7 g protein (6.6); coconut milk 60 g = 138 kcal (USDA 170172)."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Egg, poultry, whole, raw (M001) and boiled (M004), tomato, onion, ginger, garlic, green chilli, coriander, turmeric, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipe BFP240, egg curry",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: boiled egg 90 kcal",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Nuts, coconut milk, raw (170172)",
+          "url": "https://fdc.nal.usda.gov/food-details/170172/nutrients",
+          "note": "Coconut milk, 230 kcal per 100 g",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 120,
+        "protein": 5,
+        "carbs": 4,
+        "fat": 9
+      }
+    },
+    {
+      "slug": "fish-curry",
+      "name": "Fish curry",
+      "nameLower": "fish curry",
+      "category": "dals",
+      "aliases": [
+        "machli curry",
+        "machher jhol",
+        "meen curry",
+        "fish gravy",
+        "rohu curry",
+        "goan fish curry",
+        "मछली करी",
+        "ફિશ કરી"
+      ],
+      "updated": "2026-10-11",
+      "title": "Fish curry calories: per piece, bowl and 100 g",
+      "description": "A bowl of home fish curry with 100 g of rohu has about {{kcal:bowl}} calories; one piece with gravy about {{kcal:piece}}. Coconut curries compared.",
+      "answer": "A bowl of home fish curry with 100 g of fish has about {{kcal:bowl}} calories, and one 50 g piece with its gravy about {{kcal:piece}}.",
+      "intro": [
+        "Fish curry is cooked all along India's coasts and rivers: Bengali machher jhol with rohu or katla and mustard oil, Goan and Kerala curries with coconut and kokum or tamarind, and north Indian onion-tomato gravies. This page uses a textbook onion-tomato curry with rohu.",
+        "Rohu and similar river fish are lean, about 2% fat, so most of this curry's fat is the oil. Coconut-based curries add a lot more."
+      ],
+      "headlinePortion": "bowl",
+      "portionsCaption": "Onion-tomato fish curry with rohu, made as below.",
+      "recipe": {
+        "label": "Recipe: one bowl, 100 g rohu in onion-tomato gravy with 1 tablespoon of oil",
+        "ingredients": [
+          {
+            "id": "rohu",
+            "g": 100,
+            "note": "Fish, edible weight"
+          },
+          {
+            "id": "onion",
+            "g": 50
+          },
+          {
+            "id": "tomato",
+            "g": 50
+          },
+          {
+            "id": "lemon_juice",
+            "g": 24,
+            "note": "half a lemon"
+          },
+          {
+            "id": "curd",
+            "g": 10,
+            "note": "2 teaspoons"
+          },
+          {
+            "id": "ginger",
+            "g": 3.2
+          },
+          {
+            "id": "garlic",
+            "g": 1.25
+          },
+          {
+            "id": "turmeric",
+            "g": 0.75
+          },
+          {
+            "id": "chilli_powder",
+            "g": 0.7
+          },
+          {
+            "id": "oil",
+            "g": 13.6,
+            "note": "1 tablespoon"
+          }
+        ],
+        "cookedYieldG": 254,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does; the textbook adds no water",
+        "densityGPerMl": 1,
+        "densityNote": "taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "piece",
+          "label": "1 piece (50 g fish) with gravy",
+          "short": "a piece",
+          "fraction": 0.5,
+          "cookedGrams": 127,
+          "kcal": 140,
+          "protein": 11,
+          "carbs": 4,
+          "fat": 8
+        },
+        {
+          "id": "bowl",
+          "label": "1 bowl (100 g fish)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 254,
+          "kcal": 280,
+          "protein": 22,
+          "carbs": 8,
+          "fat": 17
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 220,
+          "protein": 17,
+          "carbs": 6,
+          "fat": 13
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 110,
+          "protein": 9,
+          "carbs": 3,
+          "fat": 7
+        }
+      ],
+      "outside": {
+        "portionId": "bowl",
+        "label": "Restaurant, or made with coconut",
+        "caption": "One bowl. The outside range has up to half as much oil again, plus up to 60 g of coconut milk.",
+        "fatFactor": [
+          1,
+          1.5
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "coconut_milk",
+            "g": [
+              0,
+              60
+            ]
+          }
+        ],
+        "basis": "No analysed value for restaurant fish curry was found. Up to 1.5 times the oil, and up to a quarter cup (60 g, USDA 240 g per cup) of coconut milk for Goan and Kerala-style curries, are stated assumptions.",
+        "text": [
+          "Restaurant fish curries are often richer, and Goan and Kerala curries are made with coconut milk or ground coconut, which adds a lot.",
+          "No lab has measured one, so the range below allows up to half as much oil again and up to a quarter cup of coconut milk for one bowl."
+        ],
+        "kcalRange": [
+          280,
+          475
+        ],
+        "fatRange": [
+          17,
+          38
+        ]
+      },
+      "changes": [
+        "Oil is the biggest variable in a lean-fish curry. Each teaspoon adds about 40 calories.",
+        "Coconut milk adds about 140 calories per 60 g, and ground coconut more again.",
+        "Oily fish such as sardine have more fat than rohu. Per 100 g, IFCT 2017 puts rohu at {{ing:rohu}} calories and sardine at about 150.",
+        "Frying the fish before adding it to the gravy adds the oil it takes up."
+      ],
+      "method": [
+        "The recipe is the fish curry in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g fish with onion, tomato, half a lemon, curd, ginger, garlic and spices, cooked in a tablespoon of oil. The textbook allows singhara, rohu or surmai; rohu is used, as the databank does. Values are from IFCT 2017.",
+        "Half a lemon is taken as 24 g of juice, from USDA's 48 g per lemon. The textbook adds no water, and katoris are worked out at 1 g per ml."
+      ],
+      "range": {
+        "text": "USDA's survey value for fish curry is about 93 calories per 100 g, and Basic Food Preparation's Bengali fish curry, made with pomfret and mustard oil, is about 340 a bowl. This page's bowl is about {{kcal:bowl}}. Depending on the fish and the oil, a bowl with 100 g of fish is anywhere from about 235 to 340.",
+        "reason": "USDA FNDDS fish curry (93 kcal per 100 g) is 15% below this page; INDB's BFP223 Bengali fish curry (340 kcal per bowl) is 22% above. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 piece of fish curry?",
+          "a": "About {{kcal:piece}} for a 50 g piece of rohu with its share of gravy."
+        },
+        {
+          "q": "How many calories are in 100 g of fish curry?",
+          "a": "About {{kcal:g100}} for this onion-tomato curry. USDA's survey value is 93."
+        },
+        {
+          "q": "How much protein is in fish curry?",
+          "a": "About {{protein:bowl}} g in a bowl with 100 g of rohu."
+        },
+        {
+          "q": "How many calories are in fish curry and rice?",
+          "a": "A bowl of fish curry is about {{kcal:bowl}}, and a 200 ml katori of [plain rice](/calories/plain-rice/) adds about {{kcal@plain-rice:k200}}."
+        }
+      ],
+      "related": [
+        "chicken-curry",
+        "egg-curry",
+        "plain-rice",
+        "rasam"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "USDA FNDDS 2021-2023, Fish curry (27150320)",
+          "kcalPer100g": 93,
+          "url": "https://fdc.nal.usda.gov/food-details/2706460/nutrients",
+          "ours": 110,
+          "differencePct": -15
+        },
+        {
+          "source": "Indian Nutrient Databank, Bengal fish curry (BFP223), per bowl",
+          "portionId": "bowl",
+          "kcal": 339.8,
+          "note": "Pomfret in 15 ml mustard oil.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 278,
+          "differencePct": 22
+        }
+      ],
+      "judgement": [
+        "INDB maps 'Fish (Singhara/Rohu/Surmai)' to rohu (S006); kept.",
+        "Lemon '0.5 lemon': INDB records 17.5 g of flesh; taken here as 24 g of juice (USDA FDC 167747, 1 lemon yields 48 g).",
+        "Range low end: 93 kcal per 100 g x 254 g = 236 kcal.",
+        "Sardine in the changes list: IFCT P071, 152.2 kcal per 100 g.",
+        "Whole spices (cardamom, cloves, pepper, bay leaf, cinnamon stick) and poppy seeds left out."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Rohu (S006), sardine (P071), onion, tomato, lemon juice (E033), ginger, garlic, turmeric, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC246, fish curry; Basic Food Preparation recipe BFP223, Bengal fish curry",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Fish curry (2706460)",
+          "url": "https://fdc.nal.usda.gov/food-details/2706460/nutrients",
+          "note": "93 kcal per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Lemon juice, raw (167747)",
+          "url": "https://fdc.nal.usda.gov/food-details/167747/nutrients",
+          "note": "1 lemon yields 48 g of juice",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Nuts, coconut milk, raw (170172)",
+          "url": "https://fdc.nal.usda.gov/food-details/170172/nutrients",
+          "note": "Coconut milk, 240 g per cup",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 110,
+        "protein": 9,
+        "carbs": 3,
+        "fat": 7
+      }
+    },
+    {
+      "slug": "jeera-rice",
+      "name": "Jeera rice",
+      "nameLower": "jeera rice",
+      "category": "rice",
+      "aliases": [
+        "zeera rice",
+        "jira rice",
+        "cumin rice",
+        "jeera pulao",
+        "zeera pulao",
+        "जीरा राइस",
+        "जीरा चावल",
+        "જીરા રાઈસ"
+      ],
+      "updated": "2026-10-11",
+      "title": "Jeera rice calories: per katori, plate and 100 g",
+      "description": "A 200 ml katori of jeera rice has about {{kcal:k200}} calories, made with 2 teaspoons of oil for 80 g of rice. Plate, 100 g and restaurant compared.",
+      "answer": "A 200 ml katori of jeera rice has about {{kcal:k200}} calories, against about {{kcal@plain-rice:k200}} for plain rice. A plate made from 80 g of raw rice is about {{kcal:plate}}.",
+      "intro": [
+        "Jeera rice is rice cooked with cumin seeds fried in oil or ghee, sometimes with a little onion. It's the standard rice on north Indian restaurant menus, served with dal fry, dal makhani and paneer dishes.",
+        "It's plain rice with a tempering, so the oil or ghee is the only real difference from steamed rice. In this recipe it's about a fifth of the calories."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Jeera rice made as below. Katoris are level.",
+      "recipe": {
+        "label": "Recipe: 80 g rice with cumin, a little onion and 2 teaspoons of oil",
+        "ingredients": [
+          {
+            "id": "rice_parboiled",
+            "g": 80
+          },
+          {
+            "id": "water",
+            "g": 160,
+            "note": "Twice the rice by volume, taken up in cooking"
+          },
+          {
+            "id": "onion",
+            "g": 20
+          },
+          {
+            "id": "cumin",
+            "g": 1,
+            "note": "half a teaspoon"
+          },
+          {
+            "id": "oil",
+            "g": 9,
+            "note": "2 teaspoons"
+          }
+        ],
+        "cookedYieldG": 270,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does; it matches rice at 2.98 times its raw weight plus the other ingredients",
+        "densityGPerMl": 0.67,
+        "densityNote": "as on the plain rice page: USDA cooked white rice, 158 g per cup (236.6 ml)"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 101,
+          "kcal": 140,
+          "protein": 2,
+          "carbs": 24,
+          "fat": 4
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 134,
+          "kcal": 185,
+          "protein": 3,
+          "carbs": 32,
+          "fat": 5
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 168,
+          "kcal": 230,
+          "protein": 4,
+          "carbs": 40,
+          "fat": 6
+        },
+        {
+          "id": "plate",
+          "label": "1 plate (80 g raw rice)",
+          "short": "a plate",
+          "fraction": 1,
+          "cookedGrams": 270,
+          "kcal": 375,
+          "protein": 7,
+          "carbs": 64,
+          "fat": 10
+        },
+        {
+          "id": "plate_ghee",
+          "label": "1 plate made with ghee, plus 1 tsp",
+          "short": "with extra ghee",
+          "fraction": 1,
+          "add": [
+            {
+              "id": "ghee",
+              "g": 5
+            }
+          ],
+          "cookedGrams": 270,
+          "kcal": 420,
+          "protein": 7,
+          "carbs": 64,
+          "fat": 15
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 140,
+          "protein": 2,
+          "carbs": 24,
+          "fat": 4
+        }
+      ],
+      "outside": {
+        "portionId": "plate",
+        "label": "Restaurant",
+        "caption": "One plate. The outside range is up to 1.5 times the size, with up to twice the fat.",
+        "fatFactor": [
+          1,
+          2
+        ],
+        "sizeFactor": [
+          1,
+          1.5
+        ],
+        "basis": "No analysed value for restaurant jeera rice was found. A plate up to 1.5 times as big with up to twice the oil or ghee is a stated assumption.",
+        "text": [
+          "Restaurant jeera rice is usually made with ghee rather than oil, often with more of it, and a restaurant plate can be bigger than a home one.",
+          "No lab has measured it, so the range below allows a plate up to 1.5 times this one, with up to twice the fat."
+        ],
+        "kcalRange": [
+          375,
+          680
+        ],
+        "fatRange": [
+          10,
+          28
+        ]
+      },
+      "changes": [
+        "Oil or ghee is the only real difference from plain rice. Each teaspoon adds about 40 to 45 calories to the pot.",
+        "A heaped katori holds more than a level one.",
+        "Basmati and everyday rice are within a few percent of each other per gram.",
+        "Ghee rice and peas pulao add more fat or vegetables: see [pulao](/calories/pulao/)."
+      ],
+      "method": [
+        "The recipe is the cumin pulao in Basic Food Preparation, a standard Indian cookery manual (via the Indian Nutrient Databank): 80 g rice with cumin seeds, 20 g onion and 2 teaspoons of oil, cooked in 160 ml of water. Values are from IFCT 2017.",
+        "Katoris use the plain rice page's 0.67 g per ml, from USDA's cooked white rice."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of jeera rice?",
+          "a": "About {{kcal:k200}} in a 200 ml katori and about {{kcal:k150}} in a 150 ml one."
+        },
+        {
+          "q": "How many calories are in 100 g of jeera rice?",
+          "a": "About {{kcal:g100}}."
+        },
+        {
+          "q": "How many calories are in jeera rice and dal fry?",
+          "a": "A 200 ml katori of jeera rice is about {{kcal:k200}}, and a 200 ml katori of [dal fry](/calories/dal-fry/) about {{kcal@dal-fry:k200}}."
+        },
+        {
+          "q": "How much protein is in jeera rice?",
+          "a": "About {{protein:k200}} g in a 200 ml katori. Dal or curd with it adds more."
+        }
+      ],
+      "related": [
+        "plain-rice",
+        "pulao",
+        "dal-fry",
+        "dal-makhani",
+        "curd-rice"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "INDB maps the rice to parboiled (A014); kept.",
+        "Yield: sum of ingredients 270 g, which matches 80 x 2.98 = 238 g of cooked rice plus 30 g of onion, cumin and oil.",
+        "No independent analysed value for jeera rice was found (IFCT, NIN Annexure 8, USDA FNDDS)."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Rice parboiled (A014), onion, cumin, oil, ghee; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipe BFP134, cumin pulao",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Rice, white, long-grain, regular, enriched, cooked (168878)",
+          "url": "https://fdc.nal.usda.gov/food-details/168878/nutrients",
+          "note": "158 g per cup, for katori volumes",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 140,
+        "protein": 2,
+        "carbs": 24,
+        "fat": 4
+      }
+    },
+    {
+      "slug": "veg-biryani",
+      "name": "Veg biryani",
+      "nameLower": "veg biryani",
+      "category": "rice",
+      "aliases": [
+        "vegetable biryani",
+        "veg biriyani",
+        "subz biryani",
+        "veg dum biryani",
+        "वेज बिरयानी",
+        "વેજ બિરયાની"
+      ],
+      "updated": "2026-10-11",
+      "title": "Veg biryani calories: per plate, 250 g and 500 g",
+      "description": "A plate of home veg biryani has about {{kcal:plate}} calories; 250 g is about {{kcal:g250}}. From a textbook recipe, with restaurant plates compared.",
+      "answer": "A plate of veg biryani (50 g of raw rice with vegetables, about 395 g cooked) has about {{kcal:plate}} calories. 250 g is about {{kcal:g250}}.",
+      "intro": [
+        "Veg biryani is rice parboiled with whole spices and layered with a masala of vegetables, fried onion, curd and saffron milk, then cooked on dum. Hyderabadi, Lucknowi and Kolkata styles differ in spice and richness, and many homes make a quicker one-pot version.",
+        "This textbook biryani uses 4 tablespoons of oil for two plates, so oil is close to half of its calories. That's the number to watch."
+      ],
+      "headlinePortion": "plate",
+      "portionsCaption": "Home veg biryani, made as below.",
+      "recipe": {
+        "label": "Recipe: 100 g rice with 300 g mixed vegetables and 4 tablespoons of oil, for 2 plates",
+        "ingredients": [
+          {
+            "id": "rice_parboiled",
+            "g": 100
+          },
+          {
+            "id": "water",
+            "g": 198,
+            "note": "Taken up by the rice: cooked rice is 2.98 times raw"
+          },
+          {
+            "id": "potato",
+            "g": 50
+          },
+          {
+            "id": "peas_fresh",
+            "g": 50
+          },
+          {
+            "id": "carrot",
+            "g": 50
+          },
+          {
+            "id": "cauliflower",
+            "g": 50
+          },
+          {
+            "id": "french_beans",
+            "g": 50
+          },
+          {
+            "id": "tomato",
+            "g": 50
+          },
+          {
+            "id": "onion",
+            "g": 100
+          },
+          {
+            "id": "ginger",
+            "g": 6.3
+          },
+          {
+            "id": "garlic",
+            "g": 2.2
+          },
+          {
+            "id": "milk_cow",
+            "g": 15,
+            "note": "1 tablespoon, for the saffron"
+          },
+          {
+            "id": "curd",
+            "g": 15,
+            "note": "1 tablespoon"
+          },
+          {
+            "id": "cumin",
+            "g": 1
+          },
+          {
+            "id": "chilli_powder",
+            "g": 1.35
+          },
+          {
+            "id": "oil",
+            "g": 54.4,
+            "note": "4 tablespoons"
+          }
+        ],
+        "cookedYieldG": 793,
+        "yieldNote": "rice at 2.98 times its raw weight (Bognár 2002), plus the other ingredients",
+        "densityGPerMl": 0.727,
+        "densityNote": "USDA's biryani with vegetables: 172 g per cup (236.6 ml)"
+      },
+      "portions": [
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 145,
+          "kcal": 190,
+          "protein": 3,
+          "carbs": 20,
+          "fat": 11
+        },
+        {
+          "id": "plate",
+          "label": "1 plate (half the recipe)",
+          "short": "a plate",
+          "fraction": 0.5,
+          "cookedGrams": 397,
+          "kcal": 520,
+          "protein": 9,
+          "carbs": 55,
+          "fat": 29
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 130,
+          "protein": 2,
+          "carbs": 14,
+          "fat": 7
+        },
+        {
+          "id": "g250",
+          "label": "250 g",
+          "short": "250 g",
+          "grams": 250,
+          "cookedGrams": 250,
+          "kcal": 330,
+          "protein": 6,
+          "carbs": 35,
+          "fat": 18
+        },
+        {
+          "id": "g500",
+          "label": "500 g",
+          "short": "500 g",
+          "grams": 500,
+          "cookedGrams": 500,
+          "kcal": 655,
+          "protein": 12,
+          "carbs": 69,
+          "fat": 36
+        }
+      ],
+      "outside": {
+        "portionId": "plate",
+        "label": "Restaurant or delivery",
+        "caption": "One plate. The outside range is 1 to 1.5 times the size.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1.5
+        ],
+        "basis": "No analysed value for restaurant veg biryani was found. This textbook recipe already uses a lot of oil, so only a plate up to 1.5 times as big is assumed.",
+        "text": [
+          "Restaurant and delivery biryani portions are often bigger than a home plate, and some are finished with ghee or fried onions on top.",
+          "This textbook recipe already uses a lot of oil, so the range below only allows for a plate up to 1.5 times as big."
+        ],
+        "kcalRange": [
+          520,
+          780
+        ],
+        "fatRange": [
+          29,
+          43
+        ]
+      },
+      "changes": [
+        "Oil or ghee is the biggest variable. Each tablespoon across the pot adds about 120 calories, about 60 to each plate.",
+        "Fried onions (birista) take up oil. Shop-bought fried onions count as well.",
+        "More rice and fewer vegetables raises the number per plate; more vegetables lowers it.",
+        "Raita and salan are separate. A katori of raita made with curd is about 60 to 90 calories."
+      ],
+      "method": [
+        "The recipe is the vegetable biryani in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g rice, 300 g of potato, peas, carrot, cauliflower, beans and tomato, 100 g onion, curd, saffron milk and 4 tablespoons of oil, for 2 plates. Values are from IFCT 2017.",
+        "The rice is taken at 2.98 times its raw weight once cooked, as on the plain rice page, and katoris use USDA's 172 g per cup for biryani with vegetables."
+      ],
+      "range": {
+        "text": "USDA's survey value for vegetable biryani is about 109 calories per 100 g, below this page's {{kcal:g100}}, because it uses less oil. Home biryani made with less oil can be about a fifth lower than the figures here.",
+        "reason": "USDA FNDDS biryani with vegetables (109 kcal per 100 g) is 18% below this textbook biryani, which uses 4 tbsp of oil for 100 g of rice. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 plate of veg biryani?",
+          "a": "About {{kcal:plate}} for a home plate made from 50 g of raw rice with vegetables, about 395 g cooked."
+        },
+        {
+          "q": "How many calories are in 250 g of veg biryani?",
+          "a": "About {{kcal:g250}}, and about {{kcal:g500}} for 500 g."
+        },
+        {
+          "q": "How much protein is in veg biryani?",
+          "a": "About {{protein:plate}} g in a plate, from the rice, peas and curd."
+        },
+        {
+          "q": "Which has more calories, veg biryani or chicken biryani?",
+          "a": "It depends on the oil more than the chicken. In these two textbook recipes the veg biryani uses far more oil, so a plate is about {{kcal:plate}} against about {{kcal@chicken-biryani:plate}} for [chicken biryani](/calories/chicken-biryani/)."
+        }
+      ],
+      "related": [
+        "chicken-biryani",
+        "pulao",
+        "jeera-rice",
+        "plain-rice"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [
+        {
+          "source": "USDA FNDDS 2021-2023, Biryani with vegetables (58160000)",
+          "kcalPer100g": 109,
+          "url": "https://fdc.nal.usda.gov/food-details/2708985/nutrients",
+          "ours": 131,
+          "differencePct": -17
+        }
+      ],
+      "judgement": [
+        "INDB maps the rice to parboiled (A014); kept. Fat 4 tbsp = 54.4 g, as the textbook and INDB record it.",
+        "Yield 793 g = 298 g cooked rice + 300 g vegetables + 100 g onion + 8.5 g ginger and garlic + 15 g milk + 15 g curd + 2.35 g spices + 54.4 g oil. No allowance for water lost from vegetables.",
+        "Saffron, whole spices and bay leaf left out.",
+        "Raita in the changes list: 100 g curd (61 kcal, USDA) to 150 g (92 kcal)."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Rice parboiled (A014), potato, peas, carrot, cauliflower (D036), French beans (D049), tomato, onion, ginger, garlic, cow milk, cumin, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC123, vegetable biryani",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Biryani with vegetables (2708985)",
+          "url": "https://fdc.nal.usda.gov/food-details/2708985/nutrients",
+          "note": "109 kcal per 100 g; 172 g per cup",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Bognár, Tables on weight yield of food and retention factors of food constituents, BFE 2002",
+          "url": "https://publikationen.bibliothek.kit.edu/9642002/1928",
+          "note": "Rice yield 2.98",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 130,
+        "protein": 2,
+        "carbs": 14,
+        "fat": 7
+      }
+    },
+    {
+      "slug": "chicken-biryani",
+      "name": "Chicken biryani",
+      "nameLower": "chicken biryani",
+      "category": "rice",
+      "aliases": [
+        "chicken biriyani",
+        "murgh biryani",
+        "hyderabadi chicken biryani",
+        "chicken dum biryani",
+        "चिकन बिरयानी",
+        "ચિકન બિરયાની"
+      ],
+      "updated": "2026-10-11",
+      "title": "Chicken biryani calories: per plate, 250 g and 500 g",
+      "description": "A home plate of chicken biryani has about {{kcal:plate}} calories; 500 g is about {{kcal:g500}}. A restaurant plate is about {{outLo}} to {{outHi}}.",
+      "answer": "A home plate of chicken biryani (50 g raw rice and 50 g chicken, about 305 g cooked) has about {{kcal:plate}} calories. A restaurant plate is often {{outLo}} to {{outHi}}.",
+      "intro": [
+        "Chicken biryani is rice parboiled with whole spices and layered with chicken marinated in curd and spices, fried onion and saffron milk, then sealed and cooked on dum. Hyderabadi, Lucknowi, Kolkata and Malabar biryanis each have their own style, and it's the most ordered dish on Indian delivery apps.",
+        "Rice is close to half the calories in a home plate. Restaurant biryani usually has much more ghee or oil, which is why it comes out higher."
+      ],
+      "headlinePortion": "plate",
+      "portionsCaption": "Home chicken biryani, made as below.",
+      "recipe": {
+        "label": "Recipe: 100 g rice and 100 g chicken with 4 teaspoons of oil, for 2 plates",
+        "ingredients": [
+          {
+            "id": "rice_parboiled",
+            "g": 100
+          },
+          {
+            "id": "water",
+            "g": 198,
+            "note": "Taken up by the rice: cooked rice is 2.98 times raw"
+          },
+          {
+            "id": "chicken_breast",
+            "g": 100,
+            "note": "Boneless, in place of the textbook's mutton"
+          },
+          {
+            "id": "onion",
+            "g": 100
+          },
+          {
+            "id": "tomato",
+            "g": 50
+          },
+          {
+            "id": "ginger",
+            "g": 6.3
+          },
+          {
+            "id": "garlic",
+            "g": 2.2
+          },
+          {
+            "id": "milk_cow",
+            "g": 15,
+            "note": "1 tablespoon, for the saffron"
+          },
+          {
+            "id": "curd",
+            "g": 15,
+            "note": "1 tablespoon"
+          },
+          {
+            "id": "cumin",
+            "g": 1
+          },
+          {
+            "id": "chilli_powder",
+            "g": 1.35
+          },
+          {
+            "id": "oil",
+            "g": 18,
+            "note": "4 teaspoons, as the databank records"
+          }
+        ],
+        "cookedYieldG": 608,
+        "yieldNote": "rice at 2.98 times its raw weight (Bognár 2002), plus the other ingredients",
+        "densityGPerMl": 0.828,
+        "densityNote": "USDA's biryani with chicken: 196 g per cup (236.6 ml)"
+      },
+      "portions": [
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 166,
+          "kcal": 210,
+          "protein": 9,
+          "carbs": 25,
+          "fat": 8
+        },
+        {
+          "id": "plate",
+          "label": "1 plate (half the recipe)",
+          "short": "a plate",
+          "fraction": 0.5,
+          "cookedGrams": 304,
+          "kcal": 385,
+          "protein": 17,
+          "carbs": 46,
+          "fat": 15
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 125,
+          "protein": 5,
+          "carbs": 15,
+          "fat": 5
+        },
+        {
+          "id": "g250",
+          "label": "250 g",
+          "short": "250 g",
+          "grams": 250,
+          "cookedGrams": 250,
+          "kcal": 315,
+          "protein": 14,
+          "carbs": 38,
+          "fat": 12
+        },
+        {
+          "id": "g500",
+          "label": "500 g",
+          "short": "500 g",
+          "grams": 500,
+          "cookedGrams": 500,
+          "kcal": 635,
+          "protein": 27,
+          "carbs": 75,
+          "fat": 24
+        }
+      ],
+      "outside": {
+        "portionId": "plate",
+        "label": "Restaurant or delivery",
+        "caption": "One plate. The outside range has 1.5 to 3 times the fat, in a plate up to 1.5 times as big.",
+        "fatFactor": [
+          1.5,
+          3
+        ],
+        "sizeFactor": [
+          1,
+          1.5
+        ],
+        "basis": "No analysed value for Indian restaurant biryani was found. USDA's 'biryani with meat' is 6.8% fat against 4.8% here; restaurant biryanis are commonly made with much more ghee. 1.5 to 3 times this recipe's fat, in a plate up to 1.5 times as big, is a stated assumption.",
+        "text": [
+          "Restaurant and delivery biryani is usually made with a lot more ghee or oil than a home or textbook version, and portions are often bigger.",
+          "No lab has measured an Indian restaurant biryani, so the range below allows 1.5 to 3 times this recipe's fat, in a plate up to 1.5 times as big."
+        ],
+        "kcalRange": [
+          425,
+          815
+        ],
+        "fatRange": [
+          19,
+          49
+        ]
+      },
+      "changes": [
+        "Ghee or oil is the biggest variable. Each tablespoon across the pot adds about 120 calories, about 60 to each plate.",
+        "More chicken adds protein and some fat. Leg pieces and chicken with skin have more fat than breast.",
+        "Fried onions take up oil, and a boiled egg adds about 70 calories.",
+        "Raita and mirchi ka salan are separate dishes."
+      ],
+      "method": [
+        "No standard textbook in the Indian Nutrient Databank has a chicken biryani, so this follows The Art & Science of Cooking's mutton biryani, with 100 g of boneless chicken in place of the mutton: 100 g rice, onion, tomato, ginger, garlic, curd, saffron milk and spices, for 2 plates. The databank records the fat as 4 teaspoons. Values are from IFCT 2017.",
+        "The rice is taken at 2.98 times its raw weight once cooked, and katoris use USDA's 196 g per cup for biryani with chicken. IFCT 2017's chicken breast has more fat than USDA's."
+      ],
+      "range": {
+        "text": "USDA's survey values for biryani run from about 104 calories per 100 g for chicken biryani to 145 for biryani with meat, either side of this page's {{kcal:g100}}. Home chicken biryani usually falls in that span.",
+        "reason": "USDA FNDDS biryani with chicken (104 kcal per 100 g) is 18% below this page; FNDDS biryani with meat (145) is 15% above. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 plate of chicken biryani?",
+          "a": "About {{kcal:plate}} for a home plate with 50 g of raw rice and 50 g of chicken. A restaurant plate is often {{outLo}} to {{outHi}}."
+        },
+        {
+          "q": "How many calories are in 500 g of chicken biryani?",
+          "a": "About {{kcal:g500}} for this home biryani, and about {{kcal:g250}} for 250 g. Restaurant biryani with more ghee is higher."
+        },
+        {
+          "q": "How much protein is in chicken biryani?",
+          "a": "About {{protein:plate}} g in a home plate, and about {{protein:g500}} g in 500 g."
+        },
+        {
+          "q": "How many calories are in 100 g of chicken biryani?",
+          "a": "About {{kcal:g100}} for this home version. USDA's survey values run from 104 to 145."
+        }
+      ],
+      "related": [
+        "veg-biryani",
+        "chicken-curry",
+        "pulao",
+        "plain-rice"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [
+        {
+          "source": "USDA FNDDS 2021-2023, Biryani with chicken (27243100)",
+          "kcalPer100g": 104,
+          "url": "https://fdc.nal.usda.gov/food-details/2706538/nutrients",
+          "ours": 127,
+          "differencePct": -18
+        },
+        {
+          "source": "USDA FNDDS 2021-2023, Biryani with meat (27213010)",
+          "kcalPer100g": 145,
+          "url": "https://fdc.nal.usda.gov/food-details/2706490/nutrients",
+          "ours": 127,
+          "differencePct": 15
+        }
+      ],
+      "judgement": [
+        "Adapted recipe: ASC122 mutton biryani with 100 g of chicken breast (IFCT N003) in place of 100 g boneless mutton. IFCT 2017's skinless chicken breast is 9.0 g fat per 100 g (168 kcal); USDA's raw chicken meat is 3.1 g (119 kcal, FDC 171052). IFCT is used, as the databank does, so these chicken figures sit at the higher end.",
+        "Fat: the textbook prints 4 tbsp; INDB records 4 tsp (18 g) for ASC122. INDB's figure is used. The veg biryani page uses ASC123's 4 tbsp, as INDB records it there.",
+        "Yield 608 g = 298 g cooked rice + 100 g chicken (raw weight) + 150 g onion and tomato + 8.5 g ginger and garlic + 30 g milk and curd + 2.35 g spices + 18 g oil.",
+        "Boiled egg in the changes list: 50 g at IFCT's boiled value is 74 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Rice parboiled (A014), chicken breast (N003), onion, tomato, ginger, garlic, cow milk, cumin, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC122, mutton biryani",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Biryani with chicken (2706538)",
+          "url": "https://fdc.nal.usda.gov/food-details/2706538/nutrients",
+          "note": "104 kcal per 100 g; 196 g per cup",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Biryani with meat (2706490)",
+          "url": "https://fdc.nal.usda.gov/food-details/2706490/nutrients",
+          "note": "145 kcal and 6.8 g fat per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Bognár, Tables on weight yield of food and retention factors of food constituents, BFE 2002",
+          "url": "https://publikationen.bibliothek.kit.edu/9642002/1928",
+          "note": "Rice yield 2.98",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 125,
+        "protein": 5,
+        "carbs": 15,
+        "fat": 5
+      }
+    },
+    {
+      "slug": "pulao",
+      "name": "Veg pulao",
+      "nameLower": "veg pulao",
+      "category": "rice",
+      "aliases": [
+        "pulao",
+        "pulav",
+        "pilaf",
+        "vegetable pulao",
+        "veg pulav",
+        "matar pulao",
+        "पुलाव",
+        "वेज पुलाव",
+        "પુલાવ"
+      ],
+      "updated": "2026-10-11",
+      "title": "Veg pulao calories: per katori, plate and 100 g",
+      "description": "A 200 ml katori of veg pulao has about {{kcal:k200}} calories, and a plate from 80 g of rice about {{kcal:plate}}. Worked out from a textbook recipe.",
+      "answer": "A 200 ml katori of veg pulao has about {{kcal:k200}} calories. A plate made from 80 g of raw rice with peas, carrot and beans is about {{kcal:plate}}.",
+      "intro": [
+        "Veg pulao is rice cooked in one pot with whole spices, onion and vegetables such as peas, carrot and beans, in oil or ghee, with the water taken up as it cooks. Matar pulao, Kashmiri pulao with dry fruit and tawa pulao are all close relatives, and it's a regular in tiffins and at weddings.",
+        "Rice is a little over half of a plate's calories here and the oil about a quarter. The vegetables add volume and a small share."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Veg pulao made as below. Katoris are level.",
+      "recipe": {
+        "label": "Recipe: one plate, 80 g rice with 130 g vegetables and 1 tablespoon of oil",
+        "ingredients": [
+          {
+            "id": "rice_parboiled",
+            "g": 80
+          },
+          {
+            "id": "water",
+            "g": 160,
+            "note": "Twice the rice by volume"
+          },
+          {
+            "id": "peas_fresh",
+            "g": 50
+          },
+          {
+            "id": "carrot",
+            "g": 50
+          },
+          {
+            "id": "french_beans",
+            "g": 30
+          },
+          {
+            "id": "onion",
+            "g": 50
+          },
+          {
+            "id": "cumin",
+            "g": 0.5
+          },
+          {
+            "id": "oil",
+            "g": 13.6,
+            "note": "1 tablespoon"
+          }
+        ],
+        "cookedYieldG": 434,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does",
+        "densityGPerMl": 0.67,
+        "densityNote": "as on the plain rice page: USDA cooked white rice, 158 g per cup"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 101,
+          "kcal": 115,
+          "protein": 3,
+          "carbs": 18,
+          "fat": 3
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 134,
+          "kcal": 150,
+          "protein": 4,
+          "carbs": 24,
+          "fat": 5
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 168,
+          "kcal": 190,
+          "protein": 5,
+          "carbs": 29,
+          "fat": 6
+        },
+        {
+          "id": "plate",
+          "label": "1 plate (80 g raw rice)",
+          "short": "a plate",
+          "fraction": 1,
+          "cookedGrams": 434,
+          "kcal": 490,
+          "protein": 12,
+          "carbs": 76,
+          "fat": 15
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 115,
+          "protein": 3,
+          "carbs": 18,
+          "fat": 3
+        },
+        {
+          "id": "g250",
+          "label": "250 g",
+          "short": "250 g",
+          "grams": 250,
+          "cookedGrams": 250,
+          "kcal": 285,
+          "protein": 7,
+          "carbs": 44,
+          "fat": 8
+        }
+      ],
+      "outside": {
+        "portionId": "plate",
+        "label": "Restaurant or caterer",
+        "caption": "One plate. The outside range adds 1 to 2 teaspoons of ghee and up to 10 g of cashews.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "ghee",
+            "g": [
+              5,
+              10
+            ]
+          },
+          {
+            "id": "cashew",
+            "g": [
+              0,
+              10
+            ]
+          }
+        ],
+        "basis": "No analysed value for restaurant pulao was found. 1 to 2 NIN teaspoons of ghee and up to 10 g of fried cashews per plate are stated assumptions.",
+        "text": [
+          "Restaurant and wedding pulao is usually cooked in ghee, often with more of it, and topped with fried cashews or raisins.",
+          "No lab has measured it, so the range below adds 1 to 2 teaspoons of ghee and up to 10 g of cashews to this plate."
+        ],
+        "kcalRange": [
+          535,
+          640
+        ],
+        "fatRange": [
+          20,
+          29
+        ]
+      },
+      "changes": [
+        "Oil or ghee is the main variable. Each teaspoon adds about 40 to 45 calories to the pot.",
+        "Cashews and raisins add up quickly: 10 g of cashews is about 60 calories, and 10 g of raisins about 30.",
+        "More vegetables and less rice lowers the number per katori. Paneer or soya chunks raise it.",
+        "Plain pulao with only onion and spices is close to [jeera rice](/calories/jeera-rice/)."
+      ],
+      "method": [
+        "The recipe is the mixed vegetable pulao in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 80 g rice, 50 g each of peas, carrot and onion, 30 g beans and whole spices, cooked in a tablespoon of oil with twice the rice's volume of water. Values are from IFCT 2017.",
+        "Katoris use the plain rice page's 0.67 g per ml."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of veg pulao?",
+          "a": "About {{kcal:k200}} in a 200 ml katori and about {{kcal:k150}} in a 150 ml one."
+        },
+        {
+          "q": "How many calories are in 100 g of veg pulao?",
+          "a": "About {{kcal:g100}}, and about {{kcal:g250}} for 250 g."
+        },
+        {
+          "q": "How much protein is in veg pulao?",
+          "a": "About {{protein:plate}} g in a plate, from the rice and peas."
+        },
+        {
+          "q": "Which has more calories, veg pulao or veg biryani?",
+          "a": "Biryani, usually, because it's layered with more oil or ghee. A plate of home [veg biryani](/calories/veg-biryani/) here is about {{kcal@veg-biryani:plate}}, against about {{kcal:plate}} for a plate of pulao."
+        }
+      ],
+      "related": [
+        "jeera-rice",
+        "veg-biryani",
+        "plain-rice",
+        "curd-rice"
+      ],
+      "useCase": {
+        "href": "/for/office-canteen-tiffin/",
+        "label": "Calories in office canteen food and tiffin"
+      },
+      "crossCheck": [
+        {
+          "source": "Indian Nutrient Databank, Plain pulao (ASC114), per plate",
+          "portionId": "plate",
+          "kcal": 431.7,
+          "note": "The same textbook's pulao without vegetables.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 492,
+          "differencePct": -12
+        }
+      ],
+      "judgement": [
+        "INDB maps the rice to parboiled (A014); kept.",
+        "Cardamom, cloves, bay leaf and cinnamon left out; they're not eaten.",
+        "Changes list: cashew 10 g = 58 kcal (IFCT H005); raisins 10 g = 31 kcal (IFCT E057)."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Rice parboiled (A014), peas, carrot, French beans, onion, cumin, oil, ghee, cashew (H005), raisins (E057); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipes ASC115, mixed vegetable pulao, and ASC114, plain pulao",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Rice, white, long-grain, regular, enriched, cooked (168878)",
+          "url": "https://fdc.nal.usda.gov/food-details/168878/nutrients",
+          "note": "158 g per cup, for katori volumes",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 115,
+        "protein": 3,
+        "carbs": 18,
+        "fat": 3
+      }
+    },
+    {
+      "slug": "curd-rice",
+      "name": "Curd rice",
+      "nameLower": "curd rice",
+      "category": "rice",
+      "aliases": [
+        "dahi chawal",
+        "dahi bhaat",
+        "thayir sadam",
+        "thayir saadam",
+        "perugu annam",
+        "mosaranna",
+        "daddojanam",
+        "दही चावल",
+        "દહીં ભાત"
+      ],
+      "updated": "2026-10-11",
+      "title": "Curd rice calories: per katori, plate and 100 g",
+      "description": "A 200 ml katori of curd rice has about {{kcal:k200}} calories; a plate from 80 g of rice about {{kcal:plate}}. With and without tadka, from IFCT 2017.",
+      "answer": "A 200 ml katori of curd rice has about {{kcal:k200}} calories. A plate made from 80 g of raw rice with curd, milk and a tadka is about {{kcal:plate}}.",
+      "intro": [
+        "Curd rice is soft-cooked rice mashed with curd and a little milk, tempered with mustard seeds, dry red chilli, curry leaves, ginger and green chilli. It ends most meals in Tamil Nadu, Karnataka and Andhra, and it's a common tiffin and travel food because the milk keeps it from turning sour too fast.",
+        "Rice is about two thirds of its calories. Curd and milk add about a fifth, and the tadka oil about a tenth."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Curd rice made as below.",
+      "recipe": {
+        "label": "Recipe: one plate, 80 g rice with 60 g curd, 60 ml milk and a 1 teaspoon tadka",
+        "ingredients": [
+          {
+            "id": "rice_parboiled",
+            "g": 80
+          },
+          {
+            "id": "water",
+            "g": 158.4,
+            "note": "Taken up by the rice: cooked rice is 2.98 times raw"
+          },
+          {
+            "id": "curd",
+            "g": 61.25,
+            "note": "a quarter cup"
+          },
+          {
+            "id": "milk_cow",
+            "g": 60,
+            "note": "a quarter cup"
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3
+          },
+          {
+            "id": "chilli_red",
+            "g": 3.3,
+            "note": "1 dry red chilli"
+          },
+          {
+            "id": "ginger",
+            "g": 1
+          },
+          {
+            "id": "oil",
+            "g": 4.5,
+            "note": "1 teaspoon, for the tadka"
+          }
+        ],
+        "cookedYieldG": 372,
+        "yieldNote": "rice at 2.98 times its raw weight (Bognár 2002), plus the other ingredients",
+        "densityGPerMl": 1,
+        "densityNote": "mashed curd rice taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 165,
+          "protein": 4,
+          "carbs": 28,
+          "fat": 4
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 220,
+          "protein": 6,
+          "carbs": 37,
+          "fat": 5
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 250,
+          "kcal": 275,
+          "protein": 7,
+          "carbs": 46,
+          "fat": 7
+        },
+        {
+          "id": "plate",
+          "label": "1 plate (80 g raw rice)",
+          "short": "a plate",
+          "fraction": 1,
+          "cookedGrams": 372,
+          "kcal": 410,
+          "protein": 11,
+          "carbs": 69,
+          "fat": 10
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 110,
+          "protein": 3,
+          "carbs": 18,
+          "fat": 3
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Restaurant or meals hotel",
+        "caption": "One 200 ml katori. The outside range is up to 1.3 times as dense, with up to a teaspoon of ghee in the tadka.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1.3
+        ],
+        "extra": [
+          {
+            "id": "ghee",
+            "g": [
+              0,
+              5
+            ]
+          }
+        ],
+        "basis": "No analysed value for restaurant curd rice was found. A katori up to 1.3 times as dense and up to a teaspoon of ghee in the tadka are stated assumptions.",
+        "text": [
+          "Curd rice in a meals hotel or restaurant is much the same dish. It's sometimes richer, with cream or more milk, tempered in ghee and topped with pomegranate or grapes.",
+          "No lab has measured it, so the range below allows a katori up to 1.3 times as dense and up to a teaspoon of ghee."
+        ],
+        "kcalRange": [
+          220,
+          330
+        ],
+        "fatRange": [
+          5,
+          12
+        ]
+      },
+      "changes": [
+        "The ratio of rice to curd matters most. More curd and less rice lowers the calories per katori.",
+        "Full-fat curd and milk add more than toned. Cream, as some restaurants add, adds about 30 calories a tablespoon.",
+        "Without the tadka a plate is about 40 calories lighter.",
+        "Pomegranate, grated carrot and cucumber add very little."
+      ],
+      "method": [
+        "The recipe is the curd rice in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 80 g rice with a quarter cup each of curd and milk, tempered with a teaspoon of oil, mustard seeds, curry leaves, dry red chilli, ginger and green chilli. Values are from IFCT 2017, with curd from USDA.",
+        "The rice is taken at 2.98 times its raw weight once cooked, as on the plain rice page. Mashed curd rice is taken as 1 g per ml."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 bowl of curd rice?",
+          "a": "About {{kcal:k200}} in a 200 ml katori and about {{kcal:k250}} in a 250 ml bowl. A plate made from 80 g of raw rice is about {{kcal:plate}}."
+        },
+        {
+          "q": "How many calories are in 100 g of curd rice?",
+          "a": "About {{kcal:g100}}."
+        },
+        {
+          "q": "How much protein is in curd rice?",
+          "a": "About {{protein:k200}} g in a 200 ml katori, from the rice, curd and milk."
+        },
+        {
+          "q": "How many calories are in curd rice without tadka?",
+          "a": "About 40 fewer for the plate: the tadka's teaspoon of oil is the main part of it."
+        }
+      ],
+      "related": [
+        "plain-rice",
+        "rasam",
+        "sambar",
+        "khichdi"
+      ],
+      "useCase": {
+        "href": "/for/office-canteen-tiffin/",
+        "label": "Calories in office canteen food and tiffin"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "INDB maps the rice to parboiled (A014); kept. Curd 0.25 cup = 61.25 g (INDB); milk 0.25 cup = 60 g.",
+        "Mustard seeds, curry leaves and asafoetida left out (under 1 g each).",
+        "No independent analysed value for curd rice was found (IFCT, NIN Annexure 8, USDA FNDDS).",
+        "Without tadka: 4.5 g oil = 40 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Rice parboiled (A014), cow milk (L002), green chilli, red chillies (G022), ginger, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC126, curd rice",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Bognár, Tables on weight yield of food and retention factors of food constituents, BFE 2002",
+          "url": "https://publikationen.bibliothek.kit.edu/9642002/1928",
+          "note": "Rice yield 2.98",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 110,
+        "protein": 3,
+        "carbs": 18,
+        "fat": 3
+      }
     }
   ]
 }

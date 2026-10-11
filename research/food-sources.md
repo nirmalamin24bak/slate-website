@@ -1356,3 +1356,530 @@ Sources:
 - USDA FoodData Central, FNDDS Rice, white, with lentils, fat added (2709030). https://fdc.nal.usda.gov/food-details/2709030/nutrients (accessed 2026-10-10)
 - USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
 
+## Palak paneer (/calories/palak-paneer/)
+
+Recipe: one bowl, 150 g spinach and 40 g paneer with ½ tablespoon of oil.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Spinach (palak) | 150 | 36.6 | 3.2 | 3.1 | 1.0 | IFCT 2017 C033 |
+| Paneer | 40 | 103.2 | 7.5 | 5.0 | 5.9 | IFCT 2017 L003 |
+| Tomato, ripe, hybrid | 50 | 9.4 | 0.4 | 1.6 | 0.1 | IFCT 2017 D075 |
+| Onion, big | 25 | 12.0 | 0.4 | 2.4 | 0.1 | IFCT 2017 G017 |
+| Ginger, fresh | 5 | 2.8 | 0.1 | 0.4 | 0.0 | IFCT 2017 G014 |
+| Garlic | 1.25 | 1.5 | 0.1 | 0.3 | 0.0 | IFCT 2017 G011 |
+| Cumin seeds | 0.5 | 1.5 | 0.1 | 0.1 | 0.1 | IFCT 2017 G025 |
+| Red chilli powder | 0.7 | 2.0 | 0.1 | 0.1 | 0.1 | USDA FDC 171319 |
+| Groundnut oil | 6.8 | 60.1 | 0.0 | 0.0 | 6.8 | IFCT 2017 T005 |
+| Water | 15 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **229.1** | **11.9** | **13.0** | **14.1** | |
+
+Cooked yield 294 g (the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does). Per 100 g cooked: 77.9 kcal. Katori density 1 g per ml (taken as 1 g per ml; a stated assumption).
+
+Portions:
+
+- 1 katori (150 ml): 150 g cooked = 115 kcal, P 6 g, C 7 g, F 7 g
+- 1 katori (200 ml): 200 g cooked = 155 kcal, P 8 g, C 9 g, F 10 g
+- 1 katori (250 ml): 250 g cooked = 195 kcal, P 10 g, C 11 g, F 12 g
+- 1 bowl (40 g paneer): 294 g cooked = 230 kcal, P 12 g, C 13 g, F 14 g
+- 1 bowl with 1 tbsp cream: 294 g cooked + 15 g Cream, single (about 19% fat) = 260 kcal, P 12 g, C 14 g, F 17 g
+- 100 g: 100 g cooked = 80 kcal, P 4 g, C 4 g, F 5 g
+
+Outside (Restaurant): fat sources x 1.5 to 2, portion x 1 to 1, plus 0 to 15 g Cream, single (about 19% fat) = 175 to 225 kcal. Basis: USDA's palak paneer (FNDDS 72125310) is 7.0% fat against 4.8% here, in line with richer restaurant versions. Up to twice the oil and up to a tablespoon of cream per katori are stated assumptions.
+
+Cross-checks:
+
+- USDA FNDDS 2021-2023, Palak Paneer (72125310): 101 kcal per 100 g, ours 78 (+30%).  https://fdc.nal.usda.gov/food-details/2709631/nutrients
+
+Range shown on page: USDA FNDDS palak paneer (101 kcal per 100 g) is 29% above this textbook bowl, with more fat (7.0% against 4.8%). Shown as a range.
+
+Judgement calls:
+
+- Range top: about 100 kcal per 100 g x 200 g = 200 kcal, in line with FNDDS.
+- Garam masala (0.25 tsp) left out.
+- Cream 1 tbsp = 15 g of USDA light cream (19% fat).
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Palak Paneer (2709631). https://fdc.nal.usda.gov/food-details/2709631/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Cream, fluid, light (170857). https://fdc.nal.usda.gov/food-details/170857/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Spices, chili powder (171319). https://fdc.nal.usda.gov/food-details/171319/nutrients (accessed 2026-10-10)
+
+## Matar paneer (/calories/matar-paneer/)
+
+Recipe: one bowl, 100 g peas and 50 g paneer with 1 tablespoon of oil.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Peas, fresh | 100 | 81.3 | 7.3 | 11.9 | 0.1 | IFCT 2017 D061 |
+| Paneer | 50 | 128.9 | 9.4 | 6.2 | 7.4 | IFCT 2017 L003 |
+| Tomato, ripe, hybrid | 50 | 9.4 | 0.4 | 1.6 | 0.1 | IFCT 2017 D075 |
+| Onion, big | 50 | 24.0 | 0.8 | 4.8 | 0.1 | IFCT 2017 G017 |
+| Ginger, fresh | 5 | 2.8 | 0.1 | 0.4 | 0.0 | IFCT 2017 G014 |
+| Garlic | 1.25 | 1.5 | 0.1 | 0.3 | 0.0 | IFCT 2017 G011 |
+| Chillies, green | 3.3 | 1.4 | 0.1 | 0.2 | 0.0 | IFCT 2017 G008 |
+| Coriander leaves | 1 | 0.3 | 0.0 | 0.0 | 0.0 | IFCT 2017 G009 |
+| Turmeric powder | 0.4 | 1.1 | 0.0 | 0.2 | 0.0 | IFCT 2017 G033 |
+| Red chilli powder | 0.7 | 2.0 | 0.1 | 0.1 | 0.1 | USDA FDC 171319 |
+| Groundnut oil | 13.6 | 120.3 | 0.0 | 0.0 | 13.6 | IFCT 2017 T005 |
+| **Total** | | **373.1** | **18.2** | **25.7** | **21.6** | |
+
+Cooked yield 275 g (the ingredients added together, as the Indian Nutrient Databank does; the textbook adds no water). Per 100 g cooked: 135.7 kcal. Katori density 1 g per ml (taken as 1 g per ml; a stated assumption).
+
+Portions:
+
+- 1 katori (150 ml): 150 g cooked = 205 kcal, P 10 g, C 14 g, F 12 g
+- 1 katori (200 ml): 200 g cooked = 270 kcal, P 13 g, C 19 g, F 16 g
+- 1 katori (250 ml): 250 g cooked = 340 kcal, P 17 g, C 23 g, F 20 g
+- 1 bowl (50 g paneer, 100 g peas): 275 g cooked = 375 kcal, P 18 g, C 26 g, F 22 g
+- 100 g: 100 g cooked = 135 kcal, P 7 g, C 9 g, F 8 g
+
+Outside (Dhaba or restaurant): fat sources x 1 to 1.5, portion x 1 to 1, plus 0 to 15 g Cream, single (about 19% fat) = 270 to 345 kcal. Basis: No analysed value for restaurant matar paneer was found. Up to 1.5 times the oil and up to a tablespoon of cream per katori are stated assumptions.
+
+Judgement calls:
+
+- The textbook says 100 g peas (unshelled); INDB counts all 100 g as peas. Followed here; if it means pods, the peas would be about half and the bowl about 40 kcal lower.
+- No independent analysed value for matar paneer was found (IFCT, NIN Annexure 8, USDA FNDDS).
+- Garam masala (0.25 tsp) left out.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, Cream, fluid, light (170857). https://fdc.nal.usda.gov/food-details/170857/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Spices, chili powder (171319). https://fdc.nal.usda.gov/food-details/171319/nutrients (accessed 2026-10-10)
+
+## Chicken curry (/calories/chicken-curry/)
+
+Recipe: 250 g chicken with onion, tomato and 1 tablespoon of oil, for 2 bowls.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Chicken, breast, skinless | 250 | 420.8 | 54.5 | 0.0 | 22.5 | IFCT 2017 N003 |
+| Onion, big | 100 | 48.0 | 1.5 | 9.6 | 0.2 | IFCT 2017 G017 |
+| Tomato, ripe, hybrid | 100 | 18.9 | 0.8 | 3.2 | 0.3 | IFCT 2017 D075 |
+| Ginger, fresh | 10 | 5.5 | 0.2 | 0.9 | 0.1 | IFCT 2017 G014 |
+| Garlic | 2.2 | 2.7 | 0.2 | 0.5 | 0.0 | IFCT 2017 G011 |
+| Curd (dahi), whole milk | 10 | 6.1 | 0.3 | 0.5 | 0.3 | USDA FDC 171284 |
+| Coriander seeds (dhania) | 0.45 | 1.2 | 0.0 | 0.1 | 0.1 | IFCT 2017 G024 |
+| Cumin seeds | 0.5 | 1.5 | 0.1 | 0.1 | 0.1 | IFCT 2017 G025 |
+| Turmeric powder | 0.75 | 2.1 | 0.1 | 0.4 | 0.0 | IFCT 2017 G033 |
+| Red chilli powder | 0.7 | 2.0 | 0.1 | 0.1 | 0.1 | USDA FDC 171319 |
+| Groundnut oil | 13.6 | 120.3 | 0.0 | 0.0 | 13.6 | IFCT 2017 T005 |
+| **Total** | | **629.0** | **57.8** | **15.3** | **37.3** | |
+
+Cooked yield 489 g (the ingredients added together, as the Indian Nutrient Databank does; the textbook adds no water). Per 100 g cooked: 128.6 kcal. Katori density 1 g per ml (taken as 1 g per ml; a stated assumption).
+
+Portions:
+
+- ¾ cup (150 ml), NIN's measure: 150 g cooked = 195 kcal, P 18 g, C 5 g, F 11 g
+- 1 katori (200 ml): 200 g cooked = 255 kcal, P 24 g, C 6 g, F 15 g
+- 1 katori (250 ml): 250 g cooked = 320 kcal, P 30 g, C 8 g, F 19 g
+- 1 bowl (125 g chicken): 245 g cooked = 315 kcal, P 29 g, C 8 g, F 19 g
+- 100 g: 100 g cooked = 130 kcal, P 12 g, C 3 g, F 8 g
+
+Outside (Restaurant or dhaba): fat sources x 1.5 to 2, portion x 1 to 1 = 280 to 305 kcal. Basis: No analysed value for restaurant chicken curry in India was found. 1.5 to 2 times this recipe's oil is a stated assumption; restaurant gravies are commonly finished with more oil or butter.
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: chicken curry, 3/4 cup: 240 kcal per ¾ cup, ours 193 (+24%).  https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+- USDA FNDDS 2021-2023, Chicken curry (27146150): 107 kcal per 100 g, ours 129 (-17%).  https://fdc.nal.usda.gov/food-details/2706437/nutrients
+
+Range shown on page: NIN's chicken curry (240 kcal per 3/4 cup) is 24% above this page's 150 ml; USDA FNDDS chicken curry (107 kcal per 100 g) is 17% below. Shown as a range.
+
+Judgement calls:
+
+- IFCT 2017's skinless chicken breast is 9.0 g fat per 100 g (168 kcal); USDA's raw chicken meat is 3.1 g (119 kcal, FDC 171052). IFCT is used, as the databank does, so these chicken figures sit at the higher end.
+- Textbook chicken weight taken as edible boneless weight, as INDB does.
+- Range: 107 x 2 = 214 kcal (FNDDS) to 240 / 150 x 200 = 320 kcal (NIN) per 200 ml.
+- Coconut milk in the changes list: 60 g x 230 kcal per 100 g (USDA 170172) = 138 kcal.
+- Whole spices (cardamom, cloves, pepper, bay leaf, cinnamon) and poppy seeds left out; they're under 1 g each or not eaten.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Chicken curry (2706437). https://fdc.nal.usda.gov/food-details/2706437/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Chicken, broilers or fryers, meat only, raw (171052). https://fdc.nal.usda.gov/food-details/171052/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+
+## Butter chicken (/calories/butter-chicken/)
+
+Recipe: 250 g chicken in tomato gravy with 1½ tablespoons of butter and 1½ of cream, for 2 servings.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Chicken, breast, skinless | 250 | 420.8 | 54.5 | 0.0 | 22.5 | IFCT 2017 N003 |
+| Tomato, ripe, hybrid | 150 | 28.3 | 1.1 | 4.8 | 0.4 | IFCT 2017 D075 |
+| Tomato puree | 31 | 11.8 | 0.5 | 2.2 | 0.1 | USDA FDC 170460 |
+| Onion, big | 40 | 19.2 | 0.6 | 3.8 | 0.1 | IFCT 2017 G017 |
+| Ginger, fresh | 10 | 5.5 | 0.2 | 0.9 | 0.1 | IFCT 2017 G014 |
+| Chillies, green | 6.7 | 2.8 | 0.2 | 0.4 | 0.0 | IFCT 2017 G008 |
+| Black pepper | 3.5 | 7.6 | 0.4 | 1.3 | 0.1 | IFCT 2017 G031 |
+| Butter | 21.3 | 152.7 | 0.2 | 0.0 | 17.3 | USDA FDC 173430 |
+| Cream, single (about 19% fat) | 22.5 | 43.9 | 0.7 | 0.8 | 4.3 | USDA FDC 170857 |
+| Sugar, white | 2.1 | 8.1 | 0.0 | 2.1 | 0.0 | USDA FDC 169655 |
+| **Total** | | **700.7** | **58.4** | **16.3** | **44.8** | |
+
+Cooked yield 537 g (the ingredients added together, as the Indian Nutrient Databank does; the textbook adds no water). Per 100 g cooked: 130.5 kcal. Katori density 1 g per ml (taken as 1 g per ml; a stated assumption).
+
+Portions:
+
+- 1 katori (150 ml): 150 g cooked = 195 kcal, P 16 g, C 5 g, F 13 g
+- 1 katori (200 ml): 200 g cooked = 260 kcal, P 22 g, C 6 g, F 17 g
+- 1 serving (125 g chicken): 269 g cooked = 350 kcal, P 29 g, C 8 g, F 22 g
+- 100 g: 100 g cooked = 130 kcal, P 11 g, C 3 g, F 8 g
+
+Outside (Restaurant or delivery): fat sources x 1.5 to 2, portion x 1 to 1.5 = 400 to 675 kcal. Basis: No analysed value for restaurant butter chicken was found. Up to twice the butter and cream and a serving up to 1.5 times as big are stated assumptions, in line with the restaurant range on the paneer butter masala page.
+
+Judgement calls:
+
+- IFCT 2017's skinless chicken breast is 9.0 g fat per 100 g (168 kcal); USDA's raw chicken meat is 3.1 g (119 kcal, FDC 171052). IFCT is used, as the databank does, so these chicken figures sit at the higher end.
+- Ghee/butter 1.5 tbsp taken as butter (21.3 g, USDA 14.2 g per tbsp). Cream 1.5 tbsp = 22.5 g of USDA light cream (19% fat). Tomato puree 2 tbsp = 31 g (USDA 250 g per cup).
+- Garam masala, cardamom and coriander left out.
+- No analysed value for butter chicken was found (IFCT, NIN Annexure 8, USDA FNDDS). NIN's chicken curry is a different dish and isn't used as a check.
+- FAQ meal: restaurant serving (about 400 to 675) plus a large restaurant butter naan (about 595) passes 1,000 kcal.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, Butter, without salt (173430). https://fdc.nal.usda.gov/food-details/173430/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Cream, fluid, light (170857). https://fdc.nal.usda.gov/food-details/170857/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Tomato products, canned, puree (170460). https://fdc.nal.usda.gov/food-details/170460/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+
+## Egg curry (/calories/egg-curry/)
+
+Recipe: 1 egg in onion-tomato gravy with 2 teaspoons of oil.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Egg, hen, whole, raw | 50 | 67.4 | 6.6 | 0.0 | 4.6 | IFCT 2017 M001 |
+| Tomato, ripe, hybrid | 50 | 9.4 | 0.4 | 1.6 | 0.1 | IFCT 2017 D075 |
+| Onion, big | 30 | 14.4 | 0.4 | 2.9 | 0.1 | IFCT 2017 G017 |
+| Ginger, fresh | 3 | 1.6 | 0.1 | 0.3 | 0.0 | IFCT 2017 G014 |
+| Garlic | 1.25 | 1.5 | 0.1 | 0.3 | 0.0 | IFCT 2017 G011 |
+| Chillies, green | 3.3 | 1.4 | 0.1 | 0.2 | 0.0 | IFCT 2017 G008 |
+| Coriander leaves | 1 | 0.3 | 0.0 | 0.0 | 0.0 | IFCT 2017 G009 |
+| Coriander seeds (dhania) | 1.8 | 4.8 | 0.2 | 0.2 | 0.3 | IFCT 2017 G024 |
+| Turmeric powder | 0.75 | 2.1 | 0.1 | 0.4 | 0.0 | IFCT 2017 G033 |
+| Groundnut oil | 9 | 79.6 | 0.0 | 0.0 | 9.0 | IFCT 2017 T005 |
+| **Total** | | **182.7** | **8.0** | **5.8** | **14.2** | |
+
+Cooked yield 150 g (the ingredients added together, as the Indian Nutrient Databank does). Per 100 g cooked: 121.8 kcal.
+
+Portions:
+
+- 1 egg with gravy: 150 g cooked = 185 kcal, P 8 g, C 6 g, F 14 g
+- 2 eggs with gravy: 300 g cooked = 365 kcal, P 16 g, C 12 g, F 28 g
+- 3 eggs with gravy: 450 g cooked = 550 kcal, P 24 g, C 17 g, F 43 g
+- 100 g: 100 g cooked = 120 kcal, P 5 g, C 4 g, F 9 g
+
+Outside (Dhaba or restaurant): fat sources x 1.5 to 2, portion x 1 to 1 = 445 to 525 kcal. Basis: No analysed value for restaurant egg curry was found. Dhabas often fry the boiled eggs before adding them and use more oil in the masala; 1.5 to 2 times this recipe's oil is a stated assumption.
+
+Judgement calls:
+
+- Egg 50 g edible (INDB). IFCT raw whole egg 134.8 kcal per 100 g, so 67 kcal per egg. NIN's 90 kcal boiled egg implies about 61 g at IFCT's boiled value (147.7 kcal per 100 g).
+- No analysed value for egg curry was found (IFCT, NIN Annexure 8, USDA FNDDS).
+- Bay leaf, garam masala, chilli powder and cumin (under 1 g each) left out.
+- Changes list: one egg about 70 kcal (67) and 7 g protein (6.6); coconut milk 60 g = 138 kcal (USDA 170172).
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+- USDA FoodData Central, Nuts, coconut milk, raw (170172). https://fdc.nal.usda.gov/food-details/170172/nutrients (accessed 2026-10-10)
+
+## Fish curry (/calories/fish-curry/)
+
+Recipe: one bowl, 100 g rohu in onion-tomato gravy with 1 tablespoon of oil.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Rohu fish | 100 | 102.3 | 19.7 | 0.0 | 2.4 | IFCT 2017 S006 |
+| Onion, big | 50 | 24.0 | 0.8 | 4.8 | 0.1 | IFCT 2017 G017 |
+| Tomato, ripe, hybrid | 50 | 9.4 | 0.4 | 1.6 | 0.1 | IFCT 2017 D075 |
+| Lemon juice | 24 | 8.8 | 0.1 | 0.0 | 0.2 | IFCT 2017 E033 |
+| Curd (dahi), whole milk | 10 | 6.1 | 0.3 | 0.5 | 0.3 | USDA FDC 171284 |
+| Ginger, fresh | 3.2 | 1.8 | 0.1 | 0.3 | 0.0 | IFCT 2017 G014 |
+| Garlic | 1.25 | 1.5 | 0.1 | 0.3 | 0.0 | IFCT 2017 G011 |
+| Turmeric powder | 0.75 | 2.1 | 0.1 | 0.4 | 0.0 | IFCT 2017 G033 |
+| Red chilli powder | 0.7 | 2.0 | 0.1 | 0.1 | 0.1 | USDA FDC 171319 |
+| Groundnut oil | 13.6 | 120.3 | 0.0 | 0.0 | 13.6 | IFCT 2017 T005 |
+| **Total** | | **278.3** | **21.6** | **7.9** | **16.9** | |
+
+Cooked yield 254 g (the ingredients added together, as the Indian Nutrient Databank does; the textbook adds no water). Per 100 g cooked: 109.6 kcal. Katori density 1 g per ml (taken as 1 g per ml; a stated assumption).
+
+Portions:
+
+- 1 piece (50 g fish) with gravy: 127 g cooked = 140 kcal, P 11 g, C 4 g, F 8 g
+- 1 bowl (100 g fish): 254 g cooked = 280 kcal, P 22 g, C 8 g, F 17 g
+- 1 katori (200 ml): 200 g cooked = 220 kcal, P 17 g, C 6 g, F 13 g
+- 100 g: 100 g cooked = 110 kcal, P 9 g, C 3 g, F 7 g
+
+Outside (Restaurant, or made with coconut): fat sources x 1 to 1.5, portion x 1 to 1, plus 0 to 60 g Coconut milk = 280 to 475 kcal. Basis: No analysed value for restaurant fish curry was found. Up to 1.5 times the oil, and up to a quarter cup (60 g, USDA 240 g per cup) of coconut milk for Goan and Kerala-style curries, are stated assumptions.
+
+Cross-checks:
+
+- USDA FNDDS 2021-2023, Fish curry (27150320): 93 kcal per 100 g, ours 110 (-15%).  https://fdc.nal.usda.gov/food-details/2706460/nutrients
+- Indian Nutrient Databank, Bengal fish curry (BFP223), per bowl: 339.8 kcal per a bowl, ours 278 (+22%). Pomfret in 15 ml mustard oil. https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-
+
+Range shown on page: USDA FNDDS fish curry (93 kcal per 100 g) is 15% below this page; INDB's BFP223 Bengali fish curry (340 kcal per bowl) is 22% above. Shown as a range.
+
+Judgement calls:
+
+- INDB maps 'Fish (Singhara/Rohu/Surmai)' to rohu (S006); kept.
+- Lemon '0.5 lemon': INDB records 17.5 g of flesh; taken here as 24 g of juice (USDA FDC 167747, 1 lemon yields 48 g).
+- Range low end: 93 kcal per 100 g x 254 g = 236 kcal.
+- Sardine in the changes list: IFCT P071, 152.2 kcal per 100 g.
+- Whole spices (cardamom, cloves, pepper, bay leaf, cinnamon stick) and poppy seeds left out.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Fish curry (2706460). https://fdc.nal.usda.gov/food-details/2706460/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Lemon juice, raw (167747). https://fdc.nal.usda.gov/food-details/167747/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Nuts, coconut milk, raw (170172). https://fdc.nal.usda.gov/food-details/170172/nutrients (accessed 2026-10-10)
+
+## Jeera rice (/calories/jeera-rice/)
+
+Recipe: 80 g rice with cumin, a little onion and 2 teaspoons of oil.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Rice, parboiled, milled | 80 | 281.3 | 6.2 | 61.7 | 0.4 | IFCT 2017 A014 |
+| Water | 160 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Onion, big | 20 | 9.6 | 0.3 | 1.9 | 0.0 | IFCT 2017 G017 |
+| Cumin seeds | 1 | 3.0 | 0.1 | 0.2 | 0.2 | IFCT 2017 G025 |
+| Groundnut oil | 9 | 79.6 | 0.0 | 0.0 | 9.0 | IFCT 2017 T005 |
+| **Total** | | **373.5** | **6.7** | **63.9** | **9.7** | |
+
+Cooked yield 270 g (the ingredients added together, as the Indian Nutrient Databank does; it matches rice at 2.98 times its raw weight plus the other ingredients). Per 100 g cooked: 138.3 kcal. Katori density 0.67 g per ml (as on the plain rice page: USDA cooked white rice, 158 g per cup (236.6 ml)).
+
+Portions:
+
+- 1 katori (150 ml): 101 g cooked = 140 kcal, P 2 g, C 24 g, F 4 g
+- 1 katori (200 ml): 134 g cooked = 185 kcal, P 3 g, C 32 g, F 5 g
+- 1 katori (250 ml): 168 g cooked = 230 kcal, P 4 g, C 40 g, F 6 g
+- 1 plate (80 g raw rice): 270 g cooked = 375 kcal, P 7 g, C 64 g, F 10 g
+- 1 plate made with ghee, plus 1 tsp: 270 g cooked + 5 g Ghee = 420 kcal, P 7 g, C 64 g, F 15 g
+- 100 g: 100 g cooked = 140 kcal, P 2 g, C 24 g, F 4 g
+
+Outside (Restaurant): fat sources x 1 to 2, portion x 1 to 1.5 = 375 to 680 kcal. Basis: No analysed value for restaurant jeera rice was found. A plate up to 1.5 times as big with up to twice the oil or ghee is a stated assumption.
+
+Judgement calls:
+
+- INDB maps the rice to parboiled (A014); kept.
+- Yield: sum of ingredients 270 g, which matches 80 x 2.98 = 238 g of cooked rice plus 30 g of onion, cumin and oil.
+- No independent analysed value for jeera rice was found (IFCT, NIN Annexure 8, USDA FNDDS).
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, Rice, white, long-grain, regular, enriched, cooked (168878). https://fdc.nal.usda.gov/food-details/168878/nutrients (accessed 2026-10-10)
+
+## Veg biryani (/calories/veg-biryani/)
+
+Recipe: 100 g rice with 300 g mixed vegetables and 4 tablespoons of oil, for 2 plates.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Rice, parboiled, milled | 100 | 351.6 | 7.8 | 77.2 | 0.6 | IFCT 2017 A014 |
+| Water | 198 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Potato, brown skin, big | 50 | 34.9 | 0.8 | 7.4 | 0.1 | IFCT 2017 F006 |
+| Peas, fresh | 50 | 40.6 | 3.6 | 5.9 | 0.1 | IFCT 2017 D061 |
+| Carrot, orange | 50 | 16.6 | 0.5 | 2.8 | 0.2 | IFCT 2017 F002 |
+| Cauliflower | 50 | 11.4 | 1.1 | 1.0 | 0.2 | IFCT 2017 D036 |
+| French beans | 50 | 12.2 | 1.2 | 1.3 | 0.1 | IFCT 2017 D049 |
+| Tomato, ripe, hybrid | 50 | 9.4 | 0.4 | 1.6 | 0.1 | IFCT 2017 D075 |
+| Onion, big | 100 | 48.0 | 1.5 | 9.6 | 0.2 | IFCT 2017 G017 |
+| Ginger, fresh | 6.3 | 3.5 | 0.1 | 0.6 | 0.1 | IFCT 2017 G014 |
+| Garlic | 2.2 | 2.7 | 0.2 | 0.5 | 0.0 | IFCT 2017 G011 |
+| Milk, whole, cow | 15 | 10.9 | 0.5 | 0.7 | 0.7 | IFCT 2017 L002 |
+| Curd (dahi), whole milk | 15 | 9.2 | 0.5 | 0.7 | 0.5 | USDA FDC 171284 |
+| Cumin seeds | 1 | 3.0 | 0.1 | 0.2 | 0.2 | IFCT 2017 G025 |
+| Red chilli powder | 1.35 | 3.8 | 0.2 | 0.2 | 0.2 | USDA FDC 171319 |
+| Groundnut oil | 54.4 | 481.1 | 0.0 | 0.0 | 54.4 | IFCT 2017 T005 |
+| **Total** | | **1039.0** | **18.5** | **109.7** | **57.7** | |
+
+Cooked yield 793 g (rice at 2.98 times its raw weight (Bognár 2002), plus the other ingredients). Per 100 g cooked: 131.0 kcal. Katori density 0.727 g per ml (USDA's biryani with vegetables: 172 g per cup (236.6 ml)).
+
+Portions:
+
+- 1 katori (200 ml): 145 g cooked = 190 kcal, P 3 g, C 20 g, F 11 g
+- 1 plate (half the recipe): 397 g cooked = 520 kcal, P 9 g, C 55 g, F 29 g
+- 100 g: 100 g cooked = 130 kcal, P 2 g, C 14 g, F 7 g
+- 250 g: 250 g cooked = 330 kcal, P 6 g, C 35 g, F 18 g
+- 500 g: 500 g cooked = 655 kcal, P 12 g, C 69 g, F 36 g
+
+Outside (Restaurant or delivery): fat sources x 1 to 1, portion x 1 to 1.5 = 520 to 780 kcal. Basis: No analysed value for restaurant veg biryani was found. This textbook recipe already uses a lot of oil, so only a plate up to 1.5 times as big is assumed.
+
+Cross-checks:
+
+- USDA FNDDS 2021-2023, Biryani with vegetables (58160000): 109 kcal per 100 g, ours 131 (-17%).  https://fdc.nal.usda.gov/food-details/2708985/nutrients
+
+Range shown on page: USDA FNDDS biryani with vegetables (109 kcal per 100 g) is 18% below this textbook biryani, which uses 4 tbsp of oil for 100 g of rice. Shown as a range.
+
+Judgement calls:
+
+- INDB maps the rice to parboiled (A014); kept. Fat 4 tbsp = 54.4 g, as the textbook and INDB record it.
+- Yield 793 g = 298 g cooked rice + 300 g vegetables + 100 g onion + 8.5 g ginger and garlic + 15 g milk + 15 g curd + 2.35 g spices + 54.4 g oil. No allowance for water lost from vegetables.
+- Saffron, whole spices and bay leaf left out.
+- Raita in the changes list: 100 g curd (61 kcal, USDA) to 150 g (92 kcal).
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Biryani with vegetables (2708985). https://fdc.nal.usda.gov/food-details/2708985/nutrients (accessed 2026-10-10)
+- Bognár, Tables on weight yield of food and retention factors of food constituents, BFE 2002. https://publikationen.bibliothek.kit.edu/9642002/1928 (accessed 2026-10-11)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+
+## Chicken biryani (/calories/chicken-biryani/)
+
+Recipe: 100 g rice and 100 g chicken with 4 teaspoons of oil, for 2 plates.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Rice, parboiled, milled | 100 | 351.6 | 7.8 | 77.2 | 0.6 | IFCT 2017 A014 |
+| Water | 198 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Chicken, breast, skinless | 100 | 168.3 | 21.8 | 0.0 | 9.0 | IFCT 2017 N003 |
+| Onion, big | 100 | 48.0 | 1.5 | 9.6 | 0.2 | IFCT 2017 G017 |
+| Tomato, ripe, hybrid | 50 | 9.4 | 0.4 | 1.6 | 0.1 | IFCT 2017 D075 |
+| Ginger, fresh | 6.3 | 3.5 | 0.1 | 0.6 | 0.1 | IFCT 2017 G014 |
+| Garlic | 2.2 | 2.7 | 0.2 | 0.5 | 0.0 | IFCT 2017 G011 |
+| Milk, whole, cow | 15 | 10.9 | 0.5 | 0.7 | 0.7 | IFCT 2017 L002 |
+| Curd (dahi), whole milk | 15 | 9.2 | 0.5 | 0.7 | 0.5 | USDA FDC 171284 |
+| Cumin seeds | 1 | 3.0 | 0.1 | 0.2 | 0.2 | IFCT 2017 G025 |
+| Red chilli powder | 1.35 | 3.8 | 0.2 | 0.2 | 0.2 | USDA FDC 171319 |
+| Groundnut oil | 18 | 159.2 | 0.0 | 0.0 | 18.0 | IFCT 2017 T005 |
+| **Total** | | **769.6** | **33.1** | **91.2** | **29.5** | |
+
+Cooked yield 608 g (rice at 2.98 times its raw weight (Bognár 2002), plus the other ingredients). Per 100 g cooked: 126.6 kcal. Katori density 0.828 g per ml (USDA's biryani with chicken: 196 g per cup (236.6 ml)).
+
+Portions:
+
+- 1 katori (200 ml): 166 g cooked = 210 kcal, P 9 g, C 25 g, F 8 g
+- 1 plate (half the recipe): 304 g cooked = 385 kcal, P 17 g, C 46 g, F 15 g
+- 100 g: 100 g cooked = 125 kcal, P 5 g, C 15 g, F 5 g
+- 250 g: 250 g cooked = 315 kcal, P 14 g, C 38 g, F 12 g
+- 500 g: 500 g cooked = 635 kcal, P 27 g, C 75 g, F 24 g
+
+Outside (Restaurant or delivery): fat sources x 1.5 to 3, portion x 1 to 1.5 = 425 to 815 kcal. Basis: No analysed value for Indian restaurant biryani was found. USDA's 'biryani with meat' is 6.8% fat against 4.8% here; restaurant biryanis are commonly made with much more ghee. 1.5 to 3 times this recipe's fat, in a plate up to 1.5 times as big, is a stated assumption.
+
+Cross-checks:
+
+- USDA FNDDS 2021-2023, Biryani with chicken (27243100): 104 kcal per 100 g, ours 127 (-18%).  https://fdc.nal.usda.gov/food-details/2706538/nutrients
+- USDA FNDDS 2021-2023, Biryani with meat (27213010): 145 kcal per 100 g, ours 127 (+15%).  https://fdc.nal.usda.gov/food-details/2706490/nutrients
+
+Range shown on page: USDA FNDDS biryani with chicken (104 kcal per 100 g) is 18% below this page; FNDDS biryani with meat (145) is 15% above. Shown as a range.
+
+Judgement calls:
+
+- Adapted recipe: ASC122 mutton biryani with 100 g of chicken breast (IFCT N003) in place of 100 g boneless mutton. IFCT 2017's skinless chicken breast is 9.0 g fat per 100 g (168 kcal); USDA's raw chicken meat is 3.1 g (119 kcal, FDC 171052). IFCT is used, as the databank does, so these chicken figures sit at the higher end.
+- Fat: the textbook prints 4 tbsp; INDB records 4 tsp (18 g) for ASC122. INDB's figure is used. The veg biryani page uses ASC123's 4 tbsp, as INDB records it there.
+- Yield 608 g = 298 g cooked rice + 100 g chicken (raw weight) + 150 g onion and tomato + 8.5 g ginger and garlic + 30 g milk and curd + 2.35 g spices + 18 g oil.
+- Boiled egg in the changes list: 50 g at IFCT's boiled value is 74 kcal.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Biryani with chicken (2706538). https://fdc.nal.usda.gov/food-details/2706538/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Biryani with meat (2706490). https://fdc.nal.usda.gov/food-details/2706490/nutrients (accessed 2026-10-10)
+- Bognár, Tables on weight yield of food and retention factors of food constituents, BFE 2002. https://publikationen.bibliothek.kit.edu/9642002/1928 (accessed 2026-10-11)
+
+## Veg pulao (/calories/pulao/)
+
+Recipe: one plate, 80 g rice with 130 g vegetables and 1 tablespoon of oil.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Rice, parboiled, milled | 80 | 281.3 | 6.2 | 61.7 | 0.4 | IFCT 2017 A014 |
+| Water | 160 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Peas, fresh | 50 | 40.6 | 3.6 | 5.9 | 0.1 | IFCT 2017 D061 |
+| Carrot, orange | 50 | 16.6 | 0.5 | 2.8 | 0.2 | IFCT 2017 F002 |
+| French beans | 30 | 7.3 | 0.7 | 0.8 | 0.1 | IFCT 2017 D049 |
+| Onion, big | 50 | 24.0 | 0.8 | 4.8 | 0.1 | IFCT 2017 G017 |
+| Cumin seeds | 0.5 | 1.5 | 0.1 | 0.1 | 0.1 | IFCT 2017 G025 |
+| Groundnut oil | 13.6 | 120.3 | 0.0 | 0.0 | 13.6 | IFCT 2017 T005 |
+| **Total** | | **491.6** | **11.9** | **76.1** | **14.6** | |
+
+Cooked yield 434 g (the ingredients added together, as the Indian Nutrient Databank does). Per 100 g cooked: 113.3 kcal. Katori density 0.67 g per ml (as on the plain rice page: USDA cooked white rice, 158 g per cup).
+
+Portions:
+
+- 1 katori (150 ml): 101 g cooked = 115 kcal, P 3 g, C 18 g, F 3 g
+- 1 katori (200 ml): 134 g cooked = 150 kcal, P 4 g, C 24 g, F 5 g
+- 1 katori (250 ml): 168 g cooked = 190 kcal, P 5 g, C 29 g, F 6 g
+- 1 plate (80 g raw rice): 434 g cooked = 490 kcal, P 12 g, C 76 g, F 15 g
+- 100 g: 100 g cooked = 115 kcal, P 3 g, C 18 g, F 3 g
+- 250 g: 250 g cooked = 285 kcal, P 7 g, C 44 g, F 8 g
+
+Outside (Restaurant or caterer): fat sources x 1 to 1, portion x 1 to 1, plus 5 to 10 g Ghee, plus 0 to 10 g Cashew nut = 535 to 640 kcal. Basis: No analysed value for restaurant pulao was found. 1 to 2 NIN teaspoons of ghee and up to 10 g of fried cashews per plate are stated assumptions.
+
+Cross-checks:
+
+- Indian Nutrient Databank, Plain pulao (ASC114), per plate: 431.7 kcal per a plate, ours 492 (-12%). The same textbook's pulao without vegetables. https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-
+
+Judgement calls:
+
+- INDB maps the rice to parboiled (A014); kept.
+- Cardamom, cloves, bay leaf and cinnamon left out; they're not eaten.
+- Changes list: cashew 10 g = 58 kcal (IFCT H005); raisins 10 g = 31 kcal (IFCT E057).
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, Rice, white, long-grain, regular, enriched, cooked (168878). https://fdc.nal.usda.gov/food-details/168878/nutrients (accessed 2026-10-10)
+
+## Curd rice (/calories/curd-rice/)
+
+Recipe: one plate, 80 g rice with 60 g curd, 60 ml milk and a 1 teaspoon tadka.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Rice, parboiled, milled | 80 | 281.3 | 6.2 | 61.7 | 0.4 | IFCT 2017 A014 |
+| Water | 158.4 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Curd (dahi), whole milk | 61.25 | 37.4 | 2.1 | 2.9 | 2.0 | USDA FDC 171284 |
+| Milk, whole, cow | 60 | 43.7 | 2.0 | 3.0 | 2.7 | IFCT 2017 L002 |
+| Chillies, green | 3.3 | 1.4 | 0.1 | 0.2 | 0.0 | IFCT 2017 G008 |
+| Red chillies, dry, whole | 3.3 | 7.8 | 0.4 | 1.0 | 0.2 | IFCT 2017 G022 |
+| Ginger, fresh | 1 | 0.6 | 0.0 | 0.1 | 0.0 | IFCT 2017 G014 |
+| Groundnut oil | 4.5 | 39.8 | 0.0 | 0.0 | 4.5 | IFCT 2017 T005 |
+| **Total** | | **411.9** | **10.8** | **68.8** | **9.9** | |
+
+Cooked yield 372 g (rice at 2.98 times its raw weight (Bognár 2002), plus the other ingredients). Per 100 g cooked: 110.7 kcal. Katori density 1 g per ml (mashed curd rice taken as 1 g per ml; a stated assumption).
+
+Portions:
+
+- 1 katori (150 ml): 150 g cooked = 165 kcal, P 4 g, C 28 g, F 4 g
+- 1 katori (200 ml): 200 g cooked = 220 kcal, P 6 g, C 37 g, F 5 g
+- 1 katori (250 ml): 250 g cooked = 275 kcal, P 7 g, C 46 g, F 7 g
+- 1 plate (80 g raw rice): 372 g cooked = 410 kcal, P 11 g, C 69 g, F 10 g
+- 100 g: 100 g cooked = 110 kcal, P 3 g, C 18 g, F 3 g
+
+Outside (Restaurant or meals hotel): fat sources x 1 to 1, portion x 1 to 1.3, plus 0 to 5 g Ghee = 220 to 330 kcal. Basis: No analysed value for restaurant curd rice was found. A katori up to 1.3 times as dense and up to a teaspoon of ghee in the tadka are stated assumptions.
+
+Judgement calls:
+
+- INDB maps the rice to parboiled (A014); kept. Curd 0.25 cup = 61.25 g (INDB); milk 0.25 cup = 60 g.
+- Mustard seeds, curry leaves and asafoetida left out (under 1 g each).
+- No independent analysed value for curd rice was found (IFCT, NIN Annexure 8, USDA FNDDS).
+- Without tadka: 4.5 g oil = 40 kcal.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+- Bognár, Tables on weight yield of food and retention factors of food constituents, BFE 2002. https://publikationen.bibliothek.kit.edu/9642002/1928 (accessed 2026-10-11)
+
