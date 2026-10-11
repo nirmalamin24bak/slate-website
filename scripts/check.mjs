@@ -32,7 +32,7 @@ function htmlFiles(dir) {
 const decode = (s) => s.replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
   .replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&mdash;/g, "—");
 const text = (html) => decode(html.replace(/<script[\s\S]*?<\/script>/g, " ").replace(/<style[\s\S]*?<\/style>/g, " ")
-  .replace(/<!--[\s\S]*?-->/g, " ").replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ");
+  .replace(/<!--[\s\S]*?-->/g, " ").replace(/<\/?(?:a|span|strong|em|b|i)\b[^>]*>/g, "").replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ");
 const attr = (html, re) => (html.match(re) || [])[1];
 
 const problems = [];

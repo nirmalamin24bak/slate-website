@@ -247,7 +247,7 @@ Outside (Restaurant, with ghee): fat sources x 1 to 1, portion x 1 to 1.5, plus 
 Cross-checks:
 
 - Indian Nutrient Databank, Idli (ASC144), per idli: 34.5 kcal per a small idli, ours 34 (0%). Same textbook recipe. https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-
-- USDA FoodData Central, FNDDS Idli (55702000), 38 g idli: 48.6 kcal per an idli, ours 52 (-6%). 128 kcal per 100 g x 38 g. https://fdc.nal.usda.gov/portal-data/external/2708346
+- USDA FoodData Central, FNDDS Idli (55702000), 38 g idli: 48.6 kcal per an idli, ours 52 (-6%). 128 kcal per 100 g x 38 g. https://fdc.nal.usda.gov/food-details/2708346/nutrients
 - ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: idli, 150 kcal for 2: 75 kcal per a large idli, ours 69 (+9%).  https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
 
 Range shown on page: Textbook idli (INDB ASC144) is 10 g of rice and dal, about 35 kcal; NIN counts 2 idlis at 150 kcal (75 each). Both are shown, matched to small and large rows.
@@ -262,7 +262,7 @@ Sources:
 
 - ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
 - Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
-- USDA FoodData Central, FNDDS Idli (55702000). https://fdc.nal.usda.gov/portal-data/external/2708346 (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Idli (55702000). https://fdc.nal.usda.gov/food-details/2708346/nutrients (accessed 2026-10-10)
 - ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
 - Durgadevi and Shetty, sensory profile of idli, Journal of Food Science and Technology, 2014. https://pmc.ncbi.nlm.nih.gov/articles/PMC4152537 (accessed 2026-10-10)
 
@@ -311,7 +311,7 @@ Sources:
 - ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
 - Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
 - ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
-- USDA FoodData Central 171411, soybean oil. https://fdc.nal.usda.gov/portal-data/external/171411 (accessed 2026-10-10)
+- USDA FoodData Central 171411, soybean oil. https://fdc.nal.usda.gov/food-details/171411/nutrients (accessed 2026-10-10)
 
 ## Samosa (/calories/samosa/)
 
@@ -357,7 +357,7 @@ Sources:
 - Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
 - Gupta et al., Unhealthy fat in street and snack foods, Journal of Nutrition Education and Behavior, 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4826272 (accessed 2026-10-10)
 - Sakhale et al., oil uptake in samosa, Journal of Food Science and Technology, 2011. https://pmc.ncbi.nlm.nih.gov/articles/PMC3551041 (accessed 2026-10-10)
-- USDA FoodData Central, FNDDS Samosa (58124500). https://fdc.nal.usda.gov/portal-data/external/2708730 (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Samosa (58124500). https://fdc.nal.usda.gov/food-details/2708730/nutrients (accessed 2026-10-10)
 - ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
 
 ## Paneer butter masala (/calories/paneer-butter-masala/)
@@ -446,4 +446,443 @@ Sources:
 - Amul Taaza toned milk, label via Dudhsagar Dairy. https://dudhsagardairy.coop/dairy/products/amul-taaza/ (accessed 2026-10-10)
 - ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
 - USDA FoodData Central 169655, sugars, granulated. https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+
+## Phulka (/calories/phulka/)
+
+Recipe: 80 g atta kneaded with about 60 ml water.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, atta | 80 | 256.2 | 8.5 | 51.3 | 1.2 | IFCT 2017 A019 |
+| Water | 60 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **256.2** | **8.5** | **51.3** | **1.2** | |
+
+Cooked yield 106 g (atta x (1 - 0.111) / (1 - 0.33): IFCT's atta is 11.1% water and USDA's cooked chapati is 33% water, the same method as the roti page). Per 100 g cooked: 241.7 kcal.
+
+Portions:
+
+- 1 small phulka (20 g atta): 27 g cooked = 65 kcal, P 2 g, C 13 g, F 0 g
+- 1 phulka (about 24 g atta): 32 g cooked = 75 kcal, P 3 g, C 15 g, F 0 g
+- 1 phulka with ½ tsp ghee (2.5 g): 32 g cooked + 2.5 g Ghee = 100 kcal, P 3 g, C 15 g, F 3 g
+- 1 phulka with 1 tsp ghee (5 g): 32 g cooked + 5 g Ghee = 120 kcal, P 3 g, C 15 g, F 5 g
+- 2 phulkas: 64 g cooked = 155 kcal, P 5 g, C 31 g, F 1 g
+- 3 phulkas: 95 g cooked = 230 kcal, P 8 g, C 46 g, F 1 g
+- 4 phulkas: 127 g cooked = 305 kcal, P 10 g, C 62 g, F 1 g
+
+Outside (Thali restaurant or tiffin service): fat sources x 1 to 1, portion x 1 to 1, plus 2.5 to 5 g Ghee = 100 to 120 kcal. Basis: Stated assumption: no measured data was found for restaurant or tiffin phulkas. Same size as a home phulka, brushed with half to one NIN teaspoon of ghee.
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: phulka: 80 kcal per a phulka, ours 77 (+4%).  https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+
+Judgement calls:
+
+- Phulka = 24 g atta, the same size as the phulka on the roti page; NIN's 80 kcal phulka works out to about 25 g of atta.
+- Small phulka = the textbook chapati (ASC096: 80 g atta for 4, so 20 g each).
+- Ghee per phulka (half and one teaspoon) is a typical range, not from the textbook, which uses 1 tsp ghee across 4 chapatis.
+- Cooked yield uses the same water-content method as the roti page (IFCT atta 11.1% water, USDA chapati FDC 171844 33% water).
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+- USDA FoodData Central, Bread, chapati or roti, plain (171844). https://fdc.nal.usda.gov/food-details/171844/nutrients (accessed 2026-10-10)
+
+## Plain paratha (/calories/plain-paratha/)
+
+Recipe: 80 g atta and 2 tablespoons of oil, making 3 parathas.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, atta | 80 | 256.2 | 8.5 | 51.3 | 1.2 | IFCT 2017 A019 |
+| Groundnut oil | 27.2 | 240.5 | 0.0 | 0.0 | 27.2 | IFCT 2017 T005 |
+| Water | 60 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **496.8** | **8.5** | **51.3** | **28.4** | |
+
+Cooked yield 148 g (the atta's solids plus the oil, at the 33.5% water of USDA's cooked paratha: (80 x 0.889 + 27.2) / 0.665). Per 100 g cooked: 335.7 kcal.
+
+Portions:
+
+- 1 plain paratha (27 g atta, 2 tsp oil): 49 g cooked = 165 kcal, P 3 g, C 17 g, F 9 g
+- 2 plain parathas: 99 g cooked = 330 kcal, P 6 g, C 34 g, F 19 g
+- 1 paratha with 1 tsp butter on top (5 g): 49 g cooked + 5 g Butter = 200 kcal, P 3 g, C 17 g, F 14 g
+- 1 paratha with 1 tsp ghee on top (5 g): 49 g cooked + 5 g Ghee = 210 kcal, P 3 g, C 17 g, F 14 g
+- 100 g cooked paratha: 100 g cooked = 335 kcal, P 6 g, C 35 g, F 19 g
+
+Outside (Dhaba or restaurant): fat sources x 1 to 1.5, portion x 1 to 1.4 = 165 to 290 kcal. Basis: USDA's paratha (FNDDS 51300185) weighs 70 g against about 49 g here, so the size factor runs to 1.4. Dhabas often finish parathas with extra ghee or butter; the fat factor of up to 1.5 is a stated assumption.
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: paratha: 150 kcal per a paratha, ours 166 (-9%).  https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+- USDA FNDDS 2021-2023, Bread, paratha (51300185): 326 kcal per 100 g, ours 336 (-3%).  https://fdc.nal.usda.gov/food-details/2707715/nutrients
+
+Judgement calls:
+
+- Fat 2 tbsp = 27.2 g (USDA tablespoon of oil, 13.6 g); all of it counted as eaten. The textbook's oil is sunflower; IFCT's oils all use the same fat factor, so the type doesn't change the calories.
+- Water 4 tbsp is INDB's unit for 'enough to make a soft dough'; it has no calories.
+- Outside size factor from FNDDS paratha (70 g) against about 49 g here; the fat factor of 1.5 is an assumption.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Bread, paratha (2707715). https://fdc.nal.usda.gov/food-details/2707715/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Butter, without salt (173430). https://fdc.nal.usda.gov/food-details/173430/nutrients (accessed 2026-10-10)
+
+## Aloo paratha (/calories/aloo-paratha/)
+
+Recipe: 80 g atta, 80 g potato and 2 tablespoons of oil, making 3 parathas.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, atta | 80 | 256.2 | 8.5 | 51.3 | 1.2 | IFCT 2017 A019 |
+| Potato, brown skin, big | 80 | 55.8 | 1.2 | 11.9 | 0.2 | IFCT 2017 F006 |
+| Onion, big | 25 | 12.0 | 0.4 | 2.4 | 0.1 | IFCT 2017 G017 |
+| Chillies, green | 3.3 | 1.4 | 0.1 | 0.2 | 0.0 | IFCT 2017 G008 |
+| Coriander leaves | 2 | 0.6 | 0.1 | 0.0 | 0.0 | IFCT 2017 G009 |
+| Groundnut oil | 27.2 | 240.5 | 0.0 | 0.0 | 27.2 | IFCT 2017 T005 |
+| Water | 60 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **566.6** | **10.2** | **65.9** | **28.7** | |
+
+No cooked weight used (no reliable cooked weight for a stuffed paratha). Portions are shares of the recipe.
+
+Portions:
+
+- 1 aloo paratha: 0.3333 of the recipe = 190 kcal, P 3 g, C 22 g, F 10 g
+- 2 aloo parathas: 0.6667 of the recipe = 380 kcal, P 7 g, C 44 g, F 19 g
+- 1 aloo paratha, 1 tsp butter (5 g): 0.3333 of the recipe + 5 g Butter = 225 kcal, P 3 g, C 22 g, F 14 g
+- 1 aloo paratha, 1 tbsp butter (14 g): 0.3333 of the recipe + 14.2 g Butter = 290 kcal, P 4 g, C 22 g, F 21 g
+- 1 aloo paratha with 100 g curd: 0.3333 of the recipe + 100 g Curd (dahi), whole milk = 250 kcal, P 7 g, C 27 g, F 13 g
+
+Outside (Dhaba or restaurant, with butter): fat sources x 1 to 1.5, portion x 1 to 1.4, plus 5 to 10 g Butter = 225 to 390 kcal. Basis: No analysed value for a restaurant aloo paratha was found. Size up to 1.4 times, as for the plain paratha (USDA's paratha is 70 g against about 49 g); up to 1.5 times the oil and 1 to 2 teaspoons of butter on top are stated assumptions.
+
+Judgement calls:
+
+- No independent analysed value for aloo paratha was found in IFCT 2017, NIN's Annexure 8, USDA FNDDS or a literature search (Europe PMC). INDB's own figure (191 kcal per paratha) is from this same textbook recipe, so it agrees by design.
+- Coriander 'a few' sprigs taken as 2 g. Spices under 1 g left out.
+- All 2 tbsp of oil (27.2 g) counted as eaten.
+- Curd from USDA FDC 171284 (whole-milk yogurt), since IFCT 2017 has no curd.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Butter, without salt (173430). https://fdc.nal.usda.gov/food-details/173430/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Bread, paratha (2707715). https://fdc.nal.usda.gov/food-details/2707715/nutrients (accessed 2026-10-10)
+
+## Thepla (/calories/thepla/)
+
+Recipe: 240 g mixed flour, methi, curd and 4 tablespoons of oil, making 11 theplas.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, atta | 120 | 384.4 | 12.7 | 77.0 | 1.8 | IFCT 2017 A019 |
+| Bajra (pearl millet) flour | 40 | 139.2 | 4.4 | 24.7 | 2.2 | IFCT 2017 A003 |
+| Jowar (sorghum) flour | 40 | 133.6 | 4.0 | 27.1 | 0.7 | IFCT 2017 A005 |
+| Besan (ground Bengal gram dal) | 40 | 131.6 | 8.6 | 18.7 | 2.1 | IFCT 2017 B001 |
+| Fenugreek leaves (methi) | 16 | 5.5 | 0.6 | 0.3 | 0.1 | IFCT 2017 C020 |
+| Curd (dahi), whole milk | 67.5 | 41.2 | 2.3 | 3.1 | 2.2 | USDA FDC 171284 |
+| Ginger, fresh | 10 | 5.5 | 0.2 | 0.9 | 0.1 | IFCT 2017 G014 |
+| Chillies, green | 3 | 1.3 | 0.1 | 0.2 | 0.0 | IFCT 2017 G008 |
+| Turmeric powder | 1.5 | 4.2 | 0.1 | 0.7 | 0.1 | IFCT 2017 G033 |
+| Red chilli powder | 1.4 | 3.9 | 0.2 | 0.2 | 0.2 | USDA FDC 171319 |
+| Cumin seeds | 1 | 3.0 | 0.1 | 0.2 | 0.2 | IFCT 2017 G025 |
+| Coriander seeds (dhania) | 1 | 2.7 | 0.1 | 0.1 | 0.2 | IFCT 2017 G024 |
+| Groundnut oil | 13.6 | 120.3 | 0.0 | 0.0 | 13.6 | IFCT 2017 T005 |
+| Groundnut oil | 40.8 | 360.8 | 0.0 | 0.0 | 40.8 | IFCT 2017 T005 |
+| **Total** | | **1337.2** | **33.4** | **153.3** | **64.3** | |
+
+No cooked weight used (no published cooked weight for thepla). Portions are shares of the recipe.
+
+Portions:
+
+- 1 thepla: 0.0909 of the recipe = 120 kcal, P 3 g, C 14 g, F 6 g
+- 2 theplas: 0.1818 of the recipe = 245 kcal, P 6 g, C 28 g, F 12 g
+- 3 theplas: 0.2727 of the recipe = 365 kcal, P 9 g, C 42 g, F 18 g
+- 4 theplas: 0.3636 of the recipe = 485 kcal, P 12 g, C 56 g, F 23 g
+- 2 theplas with 100 g curd: 0.1818 of the recipe + 100 g Curd (dahi), whole milk = 305 kcal, P 10 g, C 33 g, F 15 g
+
+Outside (Farsan shop or packed): fat sources x 1 to 1.5, portion x 1 to 1.2 = 120 to 170 kcal. Basis: No analysed value for shop or packed theplas was found. A size of up to 1.2 times and up to 1.5 times the oil are stated assumptions; shop theplas are often softer and oilier so they keep.
+
+Judgement calls:
+
+- No textbook thepla exists in INDB; this is its open-source recipe OSR104. INDB's serving count of 11 is marked as guessed; kept, since it gives about 25 g of flour per thepla.
+- No independent analysed value for thepla was found (IFCT 2017, NIN Annexure 8, USDA FNDDS, Europe PMC).
+- Besan valued as IFCT Bengal gram dal (B001), since IFCT 2017 has no separate besan entry.
+- Ginger '1 inch' taken as 10 g fresh ginger (INDB mapped it to ground ginger at 12.66 g). Green chilli 0.75 tsp chopped taken as 3 g; curd 4.5 tbsp as 67.5 g.
+- All 4 tbsp of oil (54.4 g) counted as eaten.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Spices, chili powder (171319). https://fdc.nal.usda.gov/food-details/171319/nutrients (accessed 2026-10-10)
+
+## Puri (/calories/puri/)
+
+Recipe: 80 g atta with a teaspoon of ghee, deep-fried into 6 puris.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, atta | 80 | 256.2 | 8.5 | 51.3 | 1.2 | IFCT 2017 A019 |
+| Ghee | 5 | 44.2 | 0.0 | 0.0 | 5.0 | IFCT 2017 T013 |
+| Water | 60 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Groundnut oil | 31 | 274.1 | 0.0 | 0.0 | 31.0 | IFCT 2017 T005 |
+| **Total** | | **574.6** | **8.5** | **51.3** | **37.2** | |
+
+Cooked yield 149 g (the atta's non-fat solids (69.9 g) at USDA's puri composition, 28% water and 24.9% fat, so 69.9 / 0.4706). Per 100 g cooked: 385.6 kcal.
+
+Portions:
+
+- 1 puri (about 13 g atta): 25 g cooked = 95 kcal, P 1 g, C 9 g, F 6 g
+- 1 large puri: 36 g cooked = 140 kcal, P 2 g, C 12 g, F 9 g
+- 3 puris: 75 g cooked = 285 kcal, P 4 g, C 26 g, F 19 g
+- 4 puris: 99 g cooked = 385 kcal, P 6 g, C 34 g, F 25 g
+- 6 puris: 149 g cooked = 575 kcal, P 8 g, C 51 g, F 37 g
+
+Outside (Halwai or puri-bhaji stall): fat sources x 1 to 1.22, portion x 1 to 1.45 = 95 to 155 kcal. Basis: Size up to USDA's 36 g puri (FNDDS 51300180) against about 25 g here, so 1.45. Fat up to 1.22 times: Jain et al. 2024 found total fat in Indian fried foods (including puri) rose from a mean of 22.5% to 27.4% of dry weight between the 1st and 32nd frying cycle in the same oil.
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: puri: 80 kcal per a puri, ours 96 (-16%).  https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+- USDA FNDDS 2021-2023, Bread, puri (51300180): 409 kcal per 100 g, ours 386 (+6%).  https://fdc.nal.usda.gov/food-details/2707714/nutrients
+
+Range shown on page: NIN's 80 kcal per puri is 16% below this page's home puri. The difference is puri size and the oil-uptake assumption. Shown as a range.
+
+Judgement calls:
+
+- Oil taken up: solved so the puri matches USDA's puri composition (FNDDS 51300180: 28% water, 24.9% fat). The atta's non-fat solids are 69.9 g, so fat = 69.9 x 24.94 / 47.06 = 37.0 g; minus atta fat (1.2 g) and the dough ghee (5 g) leaves about 31 g of oil for 6 puris.
+- The textbook makes 5 to 6 puris from 80 g atta; 6 used here.
+- INDB counts 480 ml of frying oil in the recipe (738 kcal per 100 g), so its values aren't used.
+- Jain et al. 2024 report fat on a dry-weight basis; only the ratio between the 1st and 32nd frying (27.4 / 22.5 = 1.22) is used.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Bread, puri (2707714). https://fdc.nal.usda.gov/food-details/2707714/nutrients (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+- Jain, Passi and Selvamurthy, Total fat and fatty acid profile of Indian fried foods, Journal of Food Science and Technology, 2024. https://europepmc.org/articles/PMC11465016 (accessed 2026-10-10)
+
+## Bhatura (/calories/bhatura/)
+
+Recipe: 80 g maida and 20 g curd, deep-fried into 3 bhaturas.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, refined (maida) | 80 | 281.4 | 8.3 | 59.4 | 0.6 | IFCT 2017 A018 |
+| Curd (dahi), whole milk | 20 | 12.2 | 0.7 | 0.9 | 0.7 | USDA FDC 171284 |
+| Sugar, white | 1 | 3.9 | 0.0 | 1.0 | 0.0 | USDA FDC 169655 |
+| Water | 25 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Groundnut oil | 29 | 256.4 | 0.0 | 0.0 | 29.0 | IFCT 2017 T005 |
+| **Total** | | **554.0** | **9.0** | **61.3** | **30.3** | |
+
+No cooked weight used (no measured cooked weight for a home bhatura; the raw dough plus oil is about 52 g each). Portions are shares of the recipe.
+
+Portions:
+
+- Half a bhatura: 0.1667 of the recipe = 90 kcal, P 1 g, C 10 g, F 5 g
+- 1 bhatura (about 27 g maida): 0.3333 of the recipe = 185 kcal, P 3 g, C 20 g, F 10 g
+- 2 bhaturas: 0.6667 of the recipe = 370 kcal, P 6 g, C 41 g, F 20 g
+- 3 bhaturas: 1 of the recipe = 555 kcal, P 9 g, C 61 g, F 30 g
+
+Outside (Street stall (measured)): fat sources x 0.47 to 0.98, portion x 0.64 to 1.01 = 90 to 185 kcal. Basis: Calibrated to Gupta et al. 2016, which bought and analysed bhaturas from vendors: a village bhatura of 33.00 g with 3.30 g fat, and a Delhi urban slum bhatura of 52.04 g with 10.20 g fat. Size factor = vendor weight against about 51.7 g here; fat factor chosen so total fat matches the measured fat.
+
+Judgement calls:
+
+- Home oil uptake set so fat is 19.6% of the raw dough plus oil, from Gupta et al. 2016's urban bhatura (10.20 g fat in 52.04 g). (1.26 + x) / (126 + x) = 0.196 gives x = 29 g for 3 bhaturas. Moisture lost in frying is not counted.
+- The resulting bhatura (about 51.7 g raw dough plus oil) is close to the 52 g Delhi bhatura, so 3 bhaturas from 80 g maida fits.
+- Water in the dough (25 g) is an assumption; it has no calories and only affects weight.
+- No second analysed source for bhatura energy was found (IFCT, NIN Annexure 8, USDA FNDDS, Europe PMC). INDB counts 480 ml of frying oil (793 kcal per 100 g), so its values aren't used.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- Gupta et al., Unhealthy fat in street and snack foods, Journal of Nutrition Education and Behavior, 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4826272 (accessed 2026-10-10)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+
+## Naan (/calories/naan/)
+
+Recipe: 80 g maida with curd, milk and a little sugar, making 2 naans.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, refined (maida) | 80 | 281.4 | 8.3 | 59.4 | 0.6 | IFCT 2017 A018 |
+| Curd (dahi), whole milk | 25 | 15.3 | 0.9 | 1.2 | 0.8 | USDA FDC 171284 |
+| Milk, whole, cow | 20 | 14.6 | 0.7 | 1.0 | 0.9 | IFCT 2017 L002 |
+| Sugar, white | 4.2 | 16.3 | 0.0 | 4.2 | 0.0 | USDA FDC 169655 |
+| Ghee | 2.5 | 22.1 | 0.0 | 0.0 | 2.5 | IFCT 2017 T013 |
+| **Total** | | **349.6** | **9.8** | **65.8** | **4.8** | |
+
+Cooked yield 118 g (the dough's solids (83.3 g) at the 29.2% water of USDA's naan, so 83.3 / 0.708). Per 100 g cooked: 296.3 kcal.
+
+Portions:
+
+- 1 home naan (40 g maida): 59 g cooked = 175 kcal, P 5 g, C 33 g, F 2 g
+- ¼ of a large restaurant naan: 44 g cooked = 130 kcal, P 4 g, C 25 g, F 2 g
+- 1 large restaurant naan (10 inch): 177 g cooked = 525 kcal, P 15 g, C 99 g, F 7 g
+- 100 g naan: 100 g cooked = 295 kcal, P 8 g, C 56 g, F 4 g
+
+Outside (Restaurant (tandoor)): fat sources x 1 to 1, portion x 2 to 3 = 350 to 525 kcal. Basis: USDA FNDDS lists a 10-inch naan at 177 g, three times the 59 g home naan here; the lower end of 2 times is a stated assumption for smaller restaurant naans.
+
+Cross-checks:
+
+- USDA FNDDS 2021-2023, Bread, naan (51108100): 311 kcal per 100 g, ours 296 (+5%).  https://fdc.nal.usda.gov/food-details/2707613/nutrients
+- USDA SR Legacy, Bread, naan, plain, commercially prepared (171845): 291 kcal per 100 g, ours 296 (-2%).  https://fdc.nal.usda.gov/food-details/171845/nutrients
+
+Judgement calls:
+
+- INDB records the maida as 100 g though the textbook says 80 g; 80 g used here.
+- The textbook's 1 tsp butter is taken as brushing and moved to the butter naan page. Half a teaspoon of melted fat taken as 2.5 g ghee.
+- Cooked yield from water content: solids = maida 70.9 + milk 2.7 + curd 3.0 + sugar 4.2 + ghee 2.5 = 83.3 g; at 29.24% water (FNDDS naan) that's 118 g.
+- Restaurant sizes from FNDDS portions: a 10-inch naan 177 g, a quarter 44 g.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Bread, naan (2707613). https://fdc.nal.usda.gov/food-details/2707613/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Bread, naan, plain, commercially prepared (171845). https://fdc.nal.usda.gov/food-details/171845/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Bread, naan, whole wheat, commercially prepared (174077). https://fdc.nal.usda.gov/food-details/174077/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+
+## Butter naan (/calories/butter-naan/)
+
+Recipe: 80 g maida with curd, milk and a little sugar, making 2 naans.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, refined (maida) | 80 | 281.4 | 8.3 | 59.4 | 0.6 | IFCT 2017 A018 |
+| Curd (dahi), whole milk | 25 | 15.3 | 0.9 | 1.2 | 0.8 | USDA FDC 171284 |
+| Milk, whole, cow | 20 | 14.6 | 0.7 | 1.0 | 0.9 | IFCT 2017 L002 |
+| Sugar, white | 4.2 | 16.3 | 0.0 | 4.2 | 0.0 | USDA FDC 169655 |
+| Ghee | 2.5 | 22.1 | 0.0 | 0.0 | 2.5 | IFCT 2017 T013 |
+| **Total** | | **349.6** | **9.8** | **65.8** | **4.8** | |
+
+Cooked yield 118 g (the dough's solids (83.3 g) at the 29.2% water of USDA's naan, as on the naan page). Per 100 g cooked: 296.3 kcal.
+
+Portions:
+
+- 1 home naan, ½ tsp butter (2.5 g): 59 g cooked + 2.5 g Butter = 195 kcal, P 5 g, C 33 g, F 4 g
+- 1 home naan, 1 tsp butter (5 g): 59 g cooked + 5 g Butter = 210 kcal, P 5 g, C 33 g, F 6 g
+- 1 home naan, 2 tsp butter (10 g): 59 g cooked + 10 g Butter = 245 kcal, P 5 g, C 33 g, F 11 g
+- 1 large restaurant naan, 2 tsp butter: 177 g cooked + 10 g Butter = 595 kcal, P 15 g, C 99 g, F 15 g
+- Half a large naan, 1 tsp butter: 89 g cooked + 5 g Butter = 300 kcal, P 7 g, C 49 g, F 8 g
+
+Outside (Restaurant or delivery): fat sources x 1 to 1, portion x 2 to 3 = 420 to 630 kcal. Basis: USDA FNDDS lists a 10-inch naan at 177 g, three times the 59 g home naan here; 2 times is a stated assumption for smaller restaurant naans. Butter is assumed to scale with the naan's size, so 2 to 3 teaspoons.
+
+Judgement calls:
+
+- Same naan recipe and yield as the naan page (ASC142, 80 g maida, 2 naans).
+- Butter amounts per naan (½, 1 and 2 tsp) are a typical range; the textbook's 1 tsp for 2 naans is the ½ tsp row. Teaspoon of butter taken as 5 g (USDA pat, 5 g).
+- No analysed value for butter naan was found, so there is no independent cross-check beyond the plain naan page's USDA checks.
+- FAQ figures for two naans: 2 x 210.8 = 421.6 kcal (home, 1 tsp each); 2 x 524.6 + 2 x 71.7 = 1,193 kcal for two large naans with 2 tsp butter each.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, Butter, without salt (173430). https://fdc.nal.usda.gov/food-details/173430/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Bread, naan (2707613). https://fdc.nal.usda.gov/food-details/2707613/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+
+## Plain dosa (/calories/plain-dosa/)
+
+Recipe: 100 g rice and 30 g urad dal, ground into batter for 4 dosas.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Rice, raw, milled | 50 | 178.2 | 4.0 | 39.1 | 0.3 | IFCT 2017 A015 |
+| Rice, parboiled, milled | 50 | 175.8 | 3.9 | 38.6 | 0.3 | IFCT 2017 A014 |
+| Black gram dal (urad) | 30 | 97.2 | 6.9 | 15.3 | 0.5 | IFCT 2017 B003 |
+| Fenugreek seeds (methi dana) | 1 | 2.3 | 0.3 | 0.1 | 0.1 | IFCT 2017 G026 |
+| **Total** | | **453.6** | **15.0** | **93.1** | **1.1** | |
+
+No cooked weight used (no cooked weight used; each dosa is a quarter of the batter). Portions are shares of the recipe.
+
+Portions:
+
+- 1 dosa, no oil (non-stick): 0.25 of the recipe = 115 kcal, P 4 g, C 23 g, F 0 g
+- 1 dosa, ¾ tsp oil (textbook): 0.25 of the recipe + 3.4 g Groundnut oil = 145 kcal, P 4 g, C 23 g, F 4 g
+- 1 dosa, 1 tsp oil: 0.25 of the recipe + 4.5 g Groundnut oil = 155 kcal, P 4 g, C 23 g, F 5 g
+- 1 dosa, 1 tsp ghee: 0.25 of the recipe + 5 g Ghee = 160 kcal, P 4 g, C 23 g, F 5 g
+- 2 dosas, ¾ tsp oil each: 0.5 of the recipe + 6.8 g Groundnut oil = 285 kcal, P 8 g, C 47 g, F 7 g
+
+Outside (Restaurant or paper dosa): fat sources x 1 to 1, portion x 1 to 1.9, plus 0 to 5 g Butter = 145 to 310 kcal. Basis: USDA FNDDS lists dosas at 35 g (small), 80 g (medium) and 155 g (large); 155 / 80 = 1.9, used as the top size. Butter up to a teaspoon is a stated assumption.
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: dosa: 125 kcal per a dosa, ours 143 (-13%).  https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+- USDA FNDDS 2021-2023, Dosa, plain (55702100), medium 80 g: 168 kcal per a dosa, ours 143 (+17%).  https://fdc.nal.usda.gov/food-details/2708347/nutrients
+
+Range shown on page: USDA FNDDS medium dosa (80 g, 168 kcal) is 17% above this page's textbook dosa; NIN's 125 is 13% below. Size differs. Shown as a range.
+
+Judgement calls:
+
+- INDB maps both rices to parboiled rice (A014); this page uses raw milled rice (A015) for the raw half, as the textbook says.
+- Textbook fat 'Oil/Butter 1 tbsp' for 4 dosas taken as 13.6 g oil, 3.4 g per dosa.
+- Fenugreek 0.25 tsp taken as 1 g.
+- FAQ sambar and chutney total: a dosa of about 145 to 160 kcal plus NIN sambar 110 and chutney 120 = about 375 to 400 depending on oil.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Dosa, plain (2708347). https://fdc.nal.usda.gov/food-details/2708347/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Butter, without salt (173430). https://fdc.nal.usda.gov/food-details/173430/nutrients (accessed 2026-10-10)
+
+## Uttapam (/calories/uttapam/)
+
+Recipe: 60 g rice and 20 g urad dal with onion and tomato, making 2 uttapams.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Rice, parboiled, milled | 60 | 211.0 | 4.7 | 46.3 | 0.3 | IFCT 2017 A014 |
+| Black gram dal (urad) | 20 | 64.8 | 4.6 | 10.2 | 0.3 | IFCT 2017 B003 |
+| Onion, big | 50 | 24.0 | 0.8 | 4.8 | 0.1 | IFCT 2017 G017 |
+| Tomato, ripe, hybrid | 50 | 9.4 | 0.4 | 1.6 | 0.1 | IFCT 2017 D075 |
+| Chillies, green | 3.3 | 1.4 | 0.1 | 0.2 | 0.0 | IFCT 2017 G008 |
+| Fenugreek seeds (methi dana) | 1 | 2.3 | 0.3 | 0.1 | 0.1 | IFCT 2017 G026 |
+| Groundnut oil | 13.5 | 119.4 | 0.0 | 0.0 | 13.5 | IFCT 2017 T005 |
+| Water | 120 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **432.4** | **10.8** | **63.2** | **14.5** | |
+
+No cooked weight used (no cooked weight used; each uttapam is half the recipe). Portions are shares of the recipe.
+
+Portions:
+
+- 1 mini uttapam (a quarter of one): 0.125 of the recipe = 55 kcal, P 1 g, C 8 g, F 2 g
+- 1 uttapam: 0.5 of the recipe = 215 kcal, P 5 g, C 32 g, F 7 g
+- 1 uttapam with 1 tsp ghee on top: 0.5 of the recipe + 5 g Ghee = 260 kcal, P 5 g, C 32 g, F 12 g
+- 2 uttapams: 1 of the recipe = 430 kcal, P 11 g, C 63 g, F 14 g
+
+Outside (Udupi restaurant): fat sources x 1 to 1, portion x 1 to 1.5, plus 0 to 5 g Butter = 215 to 360 kcal. Basis: No analysed value for a restaurant uttapam was found. A size of up to 1.5 times and up to a teaspoon of butter are stated assumptions, in line with the restaurant assumptions on the masala dosa page.
+
+Cross-checks:
+
+- Indian Nutrient Databank, Uttapam from Basic Food Preparation (BFP152), per uttapam: 174.2 kcal per an uttapam, ours 216 (-19%). A different textbook's smaller uttapam with mixed vegetables. https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-
+
+Range shown on page: INDB's per-uttapam value for Basic Food Preparation's uttapam (BFP152, 174 kcal) is 19% below this page's ASC148 uttapam. That uttapam uses about 33 g of grain each against 40 g here. Shown as a range.
+
+Judgement calls:
+
+- INDB counts 240 ml of 'oil for frying' as well as 3 tsp oil. Only the 3 tsp (13.5 g) are counted, since uttapam is cooked on a tawa.
+- Rice mapped to parboiled rice (A014), as INDB does.
+- Water 120 ml has no calories; fenugreek 0.25 tsp taken as 1 g.
+- No analysed value for uttapam was found in IFCT, NIN Annexure 8, USDA FNDDS or Europe PMC.
+- Cheese in the changes list: 20 g of mozzarella at 299 kcal per 100 g (USDA FDC 170845) is about 60 kcal.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, Butter, without salt (173430). https://fdc.nal.usda.gov/food-details/173430/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Cheese, mozzarella, whole milk (170845). https://fdc.nal.usda.gov/food-details/170845/nutrients (accessed 2026-10-10)
 

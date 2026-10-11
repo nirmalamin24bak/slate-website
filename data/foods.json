@@ -9,17 +9,13 @@
         "chapati",
         "chapatti",
         "chappathi",
-        "phulka",
-        "pulka",
-        "fulka",
         "rotli",
         "रोटी",
         "चपाती",
-        "फुलका",
         "રોટલી"
       ],
       "updated": "2026-10-10",
-      "title": "Roti calories: phulka, chapati and roti with ghee",
+      "title": "Roti calories: chapati sizes and roti with ghee",
       "description": "A medium roti made with 30 g of atta has about {{kcal:medium}} calories. Phulka, chapati and roti with ghee, worked out from IFCT 2017.",
       "answer": "One medium roti (about 30 g atta) has about {{kcal:medium}} calories, or about {{kcal:medium_ghee}} with a teaspoon of ghee.",
       "intro": [
@@ -165,7 +161,7 @@
         },
         {
           "q": "Is a phulka different from a chapati?",
-          "a": "They're made from the same dough. A phulka is puffed over an open flame and is usually smaller, so one phulka counts for less, but gram for gram of atta the calories are the same."
+          "a": "They're made from the same dough. A [phulka](/calories/phulka/) is puffed over an open flame and is usually smaller, so one phulka counts for less, but gram for gram of atta the calories are the same."
         },
         {
           "q": "How many grams is one roti?",
@@ -177,10 +173,11 @@
         }
       ],
       "related": [
+        "phulka",
+        "plain-paratha",
         "plain-rice",
         "dal-tadka",
-        "rajma",
-        "paneer-butter-masala"
+        "rajma"
       ],
       "useCase": {
         "href": "/for/home-cooking/",
@@ -1378,10 +1375,10 @@
         }
       ],
       "related": [
+        "plain-dosa",
         "masala-dosa",
-        "poha",
-        "masala-chai",
-        "plain-rice"
+        "uttapam",
+        "poha"
       ],
       "useCase": {
         "href": "/for/indian-food/",
@@ -1402,7 +1399,7 @@
           "portionId": "medium",
           "kcal": 48.6,
           "note": "128 kcal per 100 g x 38 g.",
-          "url": "https://fdc.nal.usda.gov/portal-data/external/2708346",
+          "url": "https://fdc.nal.usda.gov/food-details/2708346/nutrients",
           "ours": 52,
           "differencePct": -6
         },
@@ -1435,7 +1432,7 @@
         },
         {
           "title": "USDA FoodData Central, FNDDS Idli (55702000)",
-          "url": "https://fdc.nal.usda.gov/portal-data/external/2708346",
+          "url": "https://fdc.nal.usda.gov/food-details/2708346/nutrients",
           "note": "38 g idli, 128 kcal per 100 g",
           "accessed": "2026-10-10"
         },
@@ -1669,10 +1666,10 @@
         }
       ],
       "related": [
+        "plain-dosa",
         "idli",
-        "poha",
-        "masala-chai",
-        "samosa"
+        "uttapam",
+        "poha"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -1724,7 +1721,7 @@
         },
         {
           "title": "USDA FoodData Central 171411, soybean oil",
-          "url": "https://fdc.nal.usda.gov/portal-data/external/171411",
+          "url": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
           "note": "Teaspoon 4.5 g, tablespoon 13.6 g",
           "accessed": "2026-10-10"
         }
@@ -1889,10 +1886,10 @@
         }
       ],
       "related": [
-        "poha",
+        "puri",
+        "bhatura",
         "masala-chai",
-        "masala-dosa",
-        "idli"
+        "poha"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -1941,7 +1938,7 @@
         },
         {
           "title": "USDA FoodData Central, FNDDS Samosa (58124500)",
-          "url": "https://fdc.nal.usda.gov/portal-data/external/2708730",
+          "url": "https://fdc.nal.usda.gov/food-details/2708730/nutrients",
           "note": "17.47 g fat per 100 g",
           "accessed": "2026-10-10"
         },
@@ -2127,8 +2124,9 @@
         }
       ],
       "related": [
+        "butter-naan",
+        "naan",
         "roti",
-        "plain-rice",
         "dal-tadka",
         "rajma"
       ],
@@ -2435,6 +2433,2471 @@
           "title": "USDA FoodData Central 169655, sugars, granulated",
           "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
           "note": "4.2 g per teaspoon",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "phulka",
+      "name": "Phulka",
+      "nameLower": "phulka",
+      "category": "breads",
+      "aliases": [
+        "pulka",
+        "fulka",
+        "phulka roti",
+        "rotli",
+        "ghee rotli",
+        "chapati",
+        "फुलका",
+        "फुल्का",
+        "ફૂલકા",
+        "રોટલી"
+      ],
+      "updated": "2026-10-10",
+      "title": "Phulka calories: 1, 2 or 4 phulkas, with or without ghee",
+      "description": "One phulka made with about 24 g of atta has about {{kcal:one}} calories, or {{kcal:one_ghee}} with a teaspoon of ghee. Counts for 2, 3 and 4 phulkas.",
+      "answer": "One phulka (about 24 g atta, no oil) has about {{kcal:one}} calories. Two phulkas have about {{kcal:two}}, and a phulka with half a teaspoon of ghee about {{kcal:one_half_ghee}}.",
+      "intro": [
+        "A phulka is a thin whole-wheat roti, cooked briefly on the tawa and then held over an open flame until it puffs. There's no oil in the dough or on the tawa. It's the everyday bread in many Gujarati homes, where it's called rotli, and in Telugu homes, where it's pulka.",
+        "Because phulkas are small, most people count them by how many are on the plate. Each one is almost all atta, so the count and any ghee spread on top decide the total."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Phulkas without ghee unless stated. Atta weight is before cooking.",
+      "recipe": {
+        "label": "Recipe: 80 g atta kneaded with about 60 ml water",
+        "ingredients": [
+          {
+            "id": "atta",
+            "g": 80
+          },
+          {
+            "id": "water",
+            "g": 60,
+            "note": "4 tablespoons, as in the textbook"
+          }
+        ],
+        "cookedYieldG": 106,
+        "yieldNote": "atta x (1 - 0.111) / (1 - 0.33): IFCT's atta is 11.1% water and USDA's cooked chapati is 33% water, the same method as the roti page"
+      },
+      "portions": [
+        {
+          "id": "small",
+          "label": "1 small phulka (20 g atta)",
+          "short": "a small phulka",
+          "fraction": 0.25,
+          "cookedGrams": 27,
+          "kcal": 65,
+          "protein": 2,
+          "carbs": 13,
+          "fat": 0
+        },
+        {
+          "id": "one",
+          "label": "1 phulka (about 24 g atta)",
+          "short": "a phulka",
+          "fraction": 0.3,
+          "cookedGrams": 32,
+          "kcal": 75,
+          "protein": 3,
+          "carbs": 15,
+          "fat": 0
+        },
+        {
+          "id": "one_half_ghee",
+          "label": "1 phulka with ½ tsp ghee (2.5 g)",
+          "short": "a phulka with ghee",
+          "fraction": 0.3,
+          "add": [
+            {
+              "id": "ghee",
+              "g": 2.5
+            }
+          ],
+          "cookedGrams": 32,
+          "kcal": 100,
+          "protein": 3,
+          "carbs": 15,
+          "fat": 3
+        },
+        {
+          "id": "one_ghee",
+          "label": "1 phulka with 1 tsp ghee (5 g)",
+          "short": "a phulka with 1 tsp ghee",
+          "fraction": 0.3,
+          "add": [
+            {
+              "id": "ghee",
+              "g": 5
+            }
+          ],
+          "cookedGrams": 32,
+          "kcal": 120,
+          "protein": 3,
+          "carbs": 15,
+          "fat": 5
+        },
+        {
+          "id": "two",
+          "label": "2 phulkas",
+          "short": "2 phulkas",
+          "fraction": 0.6,
+          "cookedGrams": 64,
+          "kcal": 155,
+          "protein": 5,
+          "carbs": 31,
+          "fat": 1
+        },
+        {
+          "id": "three",
+          "label": "3 phulkas",
+          "short": "3 phulkas",
+          "fraction": 0.9,
+          "cookedGrams": 95,
+          "kcal": 230,
+          "protein": 8,
+          "carbs": 46,
+          "fat": 1
+        },
+        {
+          "id": "four",
+          "label": "4 phulkas",
+          "short": "4 phulkas",
+          "fraction": 1.2,
+          "cookedGrams": 127,
+          "kcal": 305,
+          "protein": 10,
+          "carbs": 62,
+          "fat": 1
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Thali restaurant or tiffin service",
+        "caption": "One phulka. The outside range adds half to one teaspoon of ghee (2.5 to 5 g).",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "ghee",
+            "g": [
+              2.5,
+              5
+            ]
+          }
+        ],
+        "basis": "Stated assumption: no measured data was found for restaurant or tiffin phulkas. Same size as a home phulka, brushed with half to one NIN teaspoon of ghee.",
+        "text": [
+          "Phulkas from a thali restaurant or a tiffin service are usually about the size of home ones, but they often arrive brushed with ghee, even when you didn't ask for it.",
+          "No lab has measured a restaurant phulka, so the range below adds half to one teaspoon of ghee to the same phulka."
+        ],
+        "kcalRange": [
+          100,
+          120
+        ],
+        "fatRange": [
+          3,
+          5
+        ]
+      },
+      "changes": [
+        "The atta in each phulka sets its number. A small one made from 20 g of atta has about {{kcal:small}} calories; one made from 30 g, the size of a medium roti, about {{kcal@roti:medium}}.",
+        "Half a teaspoon of ghee adds about 20 calories, and a full teaspoon about 45.",
+        "The dry atta used for dusting sticks to the phulka and adds a little, far less than ghee.",
+        "Puffing over the flame drives off water. The calories stay the same.",
+        "Bajra, jowar or multigrain atta shifts the number a little. Per 100 g, IFCT 2017 puts bajra at {{ing:bajra}} calories and jowar at {{ing:jowar}}, against {{ing:atta}} for wheat atta."
+      ],
+      "method": [
+        "The recipe is the chapati in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 80 g of whole-wheat atta kneaded with 4 tablespoons of water. The textbook makes four chapatis from it, the small phulka in the table. Its teaspoon of ghee is counted separately here, per phulka, because many homes skip it.",
+        "Values for atta and ghee are from IFCT 2017. Cooked weight comes from water content: IFCT's atta is about 11% water and USDA's cooked chapati about 33%, so a phulka weighs about 1.33 times its atta."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 2 phulkas?",
+          "a": "Two phulkas made with about 24 g of atta each have about {{kcal:two}} calories. Three have about {{kcal:three}}, and four about {{kcal:four}}."
+        },
+        {
+          "q": "How many calories are in a phulka with ghee?",
+          "a": "About {{kcal:one_half_ghee}} with half a teaspoon of ghee, and about {{kcal:one_ghee}} with a full teaspoon. A plain phulka is about {{kcal:one}}."
+        },
+        {
+          "q": "Are phulka and roti the same?",
+          "a": "They're the same dough. A phulka is usually smaller, is puffed over an open flame and is made without oil, so one phulka counts for less than a medium [roti](/calories/roti/) at about {{kcal@roti:medium}} calories."
+        },
+        {
+          "q": "How much protein is in a phulka?",
+          "a": "About {{protein:one}} g in a phulka made from 24 g of atta, so 3 phulkas give about {{protein:three}} g. Dal or curd on the side adds more."
+        },
+        {
+          "q": "How many calories are in 100 g of phulka?",
+          "a": "About {{per100}} calories per 100 g of cooked phulka. That's more than rice per 100 g, because a phulka holds much less water."
+        }
+      ],
+      "related": [
+        "roti",
+        "thepla",
+        "plain-paratha",
+        "dal-tadka"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: phulka",
+          "portionId": "one",
+          "kcal": 80,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 77,
+          "differencePct": 4
+        }
+      ],
+      "judgement": [
+        "Phulka = 24 g atta, the same size as the phulka on the roti page; NIN's 80 kcal phulka works out to about 25 g of atta.",
+        "Small phulka = the textbook chapati (ASC096: 80 g atta for 4, so 20 g each).",
+        "Ghee per phulka (half and one teaspoon) is a typical range, not from the textbook, which uses 1 tsp ghee across 4 chapatis.",
+        "Cooked yield uses the same water-content method as the roti page (IFCT atta 11.1% water, USDA chapati FDC 171844 33% water)."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Wheat flour, atta (A019), ghee (T013), bajra (A003), jowar (A005); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC096, chapati",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: phulka 80 kcal",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Bread, chapati or roti, plain (171844)",
+          "url": "https://fdc.nal.usda.gov/food-details/171844/nutrients",
+          "note": "Water content of cooked chapati, 33%",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 240,
+        "protein": 8,
+        "carbs": 48,
+        "fat": 1
+      }
+    },
+    {
+      "slug": "plain-paratha",
+      "name": "Plain paratha",
+      "nameLower": "plain paratha",
+      "category": "breads",
+      "aliases": [
+        "paratha",
+        "parantha",
+        "paratha plain",
+        "tawa paratha",
+        "triangle paratha",
+        "tikona paratha",
+        "layered paratha",
+        "पराठा",
+        "परांठा",
+        "પરોઠા"
+      ],
+      "updated": "2026-10-10",
+      "title": "Plain paratha calories: with oil, ghee or butter",
+      "description": "A plain paratha made with 27 g of atta and 2 teaspoons of oil has about {{kcal:one}} calories. With ghee or butter on top, and dhaba sizes.",
+      "answer": "One plain paratha (about 27 g atta, cooked with 2 teaspoons of oil) has about {{kcal:one}} calories. Most of the difference from a roti is the oil.",
+      "intro": [
+        "A plain paratha is whole-wheat dough rolled out, brushed with oil or ghee, folded into a triangle or a square and rolled again, then cooked on the tawa with more fat. The folds make the layers. Lachha paratha is rolled into a coil for more layers and usually takes more ghee.",
+        "The atta is the same as in a roti, so the fat is what sets a paratha apart. In this textbook recipe, the oil is close to half of each paratha's calories."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Made as below, with the oil counted in. Atta weight is before cooking.",
+      "recipe": {
+        "label": "Recipe: 80 g atta and 2 tablespoons of oil, making 3 parathas",
+        "ingredients": [
+          {
+            "id": "atta",
+            "g": 80
+          },
+          {
+            "id": "oil",
+            "g": 27.2,
+            "note": "2 tablespoons, for the layers and the tawa"
+          },
+          {
+            "id": "water",
+            "g": 60,
+            "note": "4 tablespoons, to make a soft dough"
+          }
+        ],
+        "cookedYieldG": 148,
+        "yieldNote": "the atta's solids plus the oil, at the 33.5% water of USDA's cooked paratha: (80 x 0.889 + 27.2) / 0.665"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 plain paratha (27 g atta, 2 tsp oil)",
+          "short": "a paratha",
+          "fraction": 0.3333,
+          "cookedGrams": 49,
+          "kcal": 165,
+          "protein": 3,
+          "carbs": 17,
+          "fat": 9
+        },
+        {
+          "id": "two",
+          "label": "2 plain parathas",
+          "short": "2 parathas",
+          "fraction": 0.6667,
+          "cookedGrams": 99,
+          "kcal": 330,
+          "protein": 6,
+          "carbs": 34,
+          "fat": 19
+        },
+        {
+          "id": "one_butter",
+          "label": "1 paratha with 1 tsp butter on top (5 g)",
+          "short": "a paratha with butter",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "butter",
+              "g": 5
+            }
+          ],
+          "cookedGrams": 49,
+          "kcal": 200,
+          "protein": 3,
+          "carbs": 17,
+          "fat": 14
+        },
+        {
+          "id": "one_ghee",
+          "label": "1 paratha with 1 tsp ghee on top (5 g)",
+          "short": "a paratha with ghee",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "ghee",
+              "g": 5
+            }
+          ],
+          "cookedGrams": 49,
+          "kcal": 210,
+          "protein": 3,
+          "carbs": 17,
+          "fat": 14
+        },
+        {
+          "id": "g100",
+          "label": "100 g cooked paratha",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 335,
+          "protein": 6,
+          "carbs": 35,
+          "fat": 19
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Dhaba or restaurant",
+        "caption": "One paratha. The outside range is up to 1.4 times the size, with up to half as much fat again.",
+        "fatFactor": [
+          1,
+          1.5
+        ],
+        "sizeFactor": [
+          1,
+          1.4
+        ],
+        "basis": "USDA's paratha (FNDDS 51300185) weighs 70 g against about 49 g here, so the size factor runs to 1.4. Dhabas often finish parathas with extra ghee or butter; the fat factor of up to 1.5 is a stated assumption.",
+        "text": [
+          "Dhaba and restaurant parathas are often bigger than home ones and are cooked or finished with more ghee or butter. A lachha paratha has more layers and more fat again.",
+          "The range below runs from a paratha like this one up to one about 1.4 times the size with half as much fat again. The larger size matches USDA's 70 g paratha; the extra fat is our assumption."
+        ],
+        "kcalRange": [
+          165,
+          290
+        ],
+        "fatRange": [
+          9,
+          20
+        ]
+      },
+      "changes": [
+        "Oil or ghee is the biggest variable. Each teaspoon used in the layers or on the tawa adds about 40 to 45 calories.",
+        "A teaspoon of butter on top adds about 35 calories, and a teaspoon of ghee about 45.",
+        "Parathas vary in size more than rotis. USDA's paratha weighs about 70 g cooked; this one about {{g:one}} g.",
+        "Kerala parotta is made with maida and more fat, and stuffed parathas carry their filling, so both have their own values. See [aloo paratha](/calories/aloo-paratha/)."
+      ],
+      "method": [
+        "The recipe is the plain paratha in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 80 g of whole-wheat atta and 2 tablespoons of oil, making 3 parathas. All the oil is counted as eaten, since a paratha takes up what's on the tawa. Values are from IFCT 2017.",
+        "Cooked weight is worked out from water content: the atta's solids plus the oil, at the 33.5% water of USDA's cooked paratha."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 paratha?",
+          "a": "A plain paratha made with about 27 g of atta and 2 teaspoons of oil has about {{kcal:one}} calories. ICMR-NIN counts one paratha at 150, close to this."
+        },
+        {
+          "q": "How many calories are in a paratha with ghee?",
+          "a": "About {{kcal:one_ghee}} with a teaspoon of ghee on top, and about {{kcal:one_butter}} with a teaspoon of butter."
+        },
+        {
+          "q": "Which has more calories, paratha or roti?",
+          "a": "A paratha, because of the oil or ghee folded into it. A plain paratha is about {{kcal:one}} calories against about {{kcal@roti:medium}} for a medium [roti](/calories/roti/), which has a little more atta."
+        },
+        {
+          "q": "How many calories are in a paratha without oil?",
+          "a": "Without any fat it's a thick roti. The 27 g of atta in this paratha has about 85 calories on its own."
+        },
+        {
+          "q": "How much protein is in a paratha?",
+          "a": "About {{protein:one}} g in one plain paratha. The rest is mostly carbohydrate and fat: about {{carbs:one}} g and {{fat:one}} g."
+        }
+      ],
+      "related": [
+        "roti",
+        "aloo-paratha",
+        "thepla",
+        "phulka",
+        "puri"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: paratha",
+          "portionId": "one",
+          "kcal": 150,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 166,
+          "differencePct": -9
+        },
+        {
+          "source": "USDA FNDDS 2021-2023, Bread, paratha (51300185)",
+          "kcalPer100g": 326,
+          "url": "https://fdc.nal.usda.gov/food-details/2707715/nutrients",
+          "ours": 336,
+          "differencePct": -3
+        }
+      ],
+      "judgement": [
+        "Fat 2 tbsp = 27.2 g (USDA tablespoon of oil, 13.6 g); all of it counted as eaten. The textbook's oil is sunflower; IFCT's oils all use the same fat factor, so the type doesn't change the calories.",
+        "Water 4 tbsp is INDB's unit for 'enough to make a soft dough'; it has no calories.",
+        "Outside size factor from FNDDS paratha (70 g) against about 49 g here; the fat factor of 1.5 is an assumption."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Wheat flour, atta (A019), groundnut oil (T005) for the fat factor, ghee (T013); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC097, plain paratha",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: paratha 150 kcal",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Bread, paratha (2707715)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707715/nutrients",
+          "note": "70 g per paratha, 326 kcal and 33.5% water per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Butter, without salt (173430)",
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "Butter on top",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 335,
+        "protein": 6,
+        "carbs": 35,
+        "fat": 19
+      }
+    },
+    {
+      "slug": "aloo-paratha",
+      "name": "Aloo paratha",
+      "nameLower": "aloo paratha",
+      "category": "breads",
+      "aliases": [
+        "aloo ka paratha",
+        "alu paratha",
+        "potato paratha",
+        "aloo parantha",
+        "stuffed paratha",
+        "आलू पराठा",
+        "आलू का पराठा",
+        "બટાકા પરોઠા"
+      ],
+      "updated": "2026-10-10",
+      "title": "Aloo paratha calories: homemade, with butter or curd",
+      "description": "A homemade aloo paratha has about {{kcal:one}} calories, or {{kcal:one_butter}} with a teaspoon of butter. Worked out from a textbook recipe and IFCT 2017.",
+      "answer": "One homemade aloo paratha (27 g atta, 27 g potato, 2 teaspoons of oil) has about {{kcal:one}} calories, or about {{kcal:one_butter}} with a teaspoon of butter on top.",
+      "intro": [
+        "Aloo paratha is whole-wheat dough stuffed with spiced mashed potato, rolled out and cooked on the tawa with oil or ghee. It's a Punjabi breakfast staple, usually eaten with curd, pickle and a cube of white butter, and it's common in tiffins across north India.",
+        "The potato adds less than people expect: in this recipe it's about a tenth of the calories. The atta and the oil on the tawa make up nearly all the rest."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Made as below, with the oil counted in. Butter and curd are extra.",
+      "recipe": {
+        "label": "Recipe: 80 g atta, 80 g potato and 2 tablespoons of oil, making 3 parathas",
+        "ingredients": [
+          {
+            "id": "atta",
+            "g": 80
+          },
+          {
+            "id": "potato",
+            "g": 80,
+            "note": "boiled and mashed"
+          },
+          {
+            "id": "onion",
+            "g": 25
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 2
+          },
+          {
+            "id": "oil",
+            "g": 27.2,
+            "note": "2 tablespoons, for the tawa"
+          },
+          {
+            "id": "water",
+            "g": 60,
+            "note": "4 tablespoons, to make a soft dough"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no reliable cooked weight for a stuffed paratha"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 aloo paratha",
+          "short": "an aloo paratha",
+          "fraction": 0.3333,
+          "cookedGrams": null,
+          "kcal": 190,
+          "protein": 3,
+          "carbs": 22,
+          "fat": 10
+        },
+        {
+          "id": "two",
+          "label": "2 aloo parathas",
+          "short": "2 aloo parathas",
+          "fraction": 0.6667,
+          "cookedGrams": null,
+          "kcal": 380,
+          "protein": 7,
+          "carbs": 44,
+          "fat": 19
+        },
+        {
+          "id": "one_butter",
+          "label": "1 aloo paratha, 1 tsp butter (5 g)",
+          "short": "with 1 tsp butter",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "butter",
+              "g": 5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 225,
+          "protein": 3,
+          "carbs": 22,
+          "fat": 14
+        },
+        {
+          "id": "one_butter_tbsp",
+          "label": "1 aloo paratha, 1 tbsp butter (14 g)",
+          "short": "with 1 tbsp butter",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "butter",
+              "g": 14.2
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 290,
+          "protein": 4,
+          "carbs": 22,
+          "fat": 21
+        },
+        {
+          "id": "one_curd",
+          "label": "1 aloo paratha with 100 g curd",
+          "short": "with curd",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "curd",
+              "g": 100
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 250,
+          "protein": 7,
+          "carbs": 27,
+          "fat": 13
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Dhaba or restaurant, with butter",
+        "caption": "One aloo paratha. The outside range is up to 1.4 times the size and half as much oil again, plus 1 to 2 teaspoons of butter.",
+        "fatFactor": [
+          1,
+          1.5
+        ],
+        "sizeFactor": [
+          1,
+          1.4
+        ],
+        "extra": [
+          {
+            "id": "butter",
+            "g": [
+              5,
+              10
+            ]
+          }
+        ],
+        "basis": "No analysed value for a restaurant aloo paratha was found. Size up to 1.4 times, as for the plain paratha (USDA's paratha is 70 g against about 49 g); up to 1.5 times the oil and 1 to 2 teaspoons of butter on top are stated assumptions.",
+        "text": [
+          "At a dhaba, an aloo paratha is often larger, cooked in more ghee or oil and served with a cube of butter melting on top. Amritsari and Murthal-style parathas are known for it.",
+          "No lab figure exists for a dhaba aloo paratha, so the range below assumes one up to 1.4 times this size, with up to half as much oil again and 1 to 2 teaspoons of butter."
+        ],
+        "kcalRange": [
+          225,
+          390
+        ],
+        "fatRange": [
+          14,
+          28
+        ]
+      },
+      "changes": [
+        "The oil on the tawa is the biggest variable. Each teaspoon adds about 40 calories to a paratha.",
+        "A teaspoon of butter on top adds about 35 calories, and a tablespoon about 100.",
+        "A thicker filling adds less than you'd think: 50 g more potato is about 35 calories.",
+        "A katori of curd on the side (100 g) adds about 60 calories, and pickle in oil adds more.",
+        "Gobi, mooli and methi parathas use lighter fillings than potato. Paneer parathas have more."
+      ],
+      "method": [
+        "The recipe is the potato paratha in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 80 g of atta, 80 g of potato, 25 g of onion, green chilli and coriander, with 2 tablespoons of oil for 3 parathas. Spices under 1 g each are left out; together they add under 3 calories a paratha. Values are from IFCT 2017.",
+        "All the oil is counted as eaten. Curd values are from USDA, because IFCT 2017 has no curd."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 aloo paratha?",
+          "a": "A homemade aloo paratha made with about 27 g of atta and 2 teaspoons of oil has about {{kcal:one}} calories. Two have about {{kcal:two}}."
+        },
+        {
+          "q": "How many calories are in aloo paratha with butter?",
+          "a": "About {{kcal:one_butter}} with a teaspoon of butter, and about {{kcal:one_butter_tbsp}} with a tablespoon. At a dhaba it can be more, because the paratha is often bigger too."
+        },
+        {
+          "q": "How much protein is in an aloo paratha?",
+          "a": "About {{protein:one}} g. With a 100 g katori of curd it's about {{protein:one_curd}} g."
+        },
+        {
+          "q": "How many calories are in aloo paratha with curd?",
+          "a": "One aloo paratha with 100 g of curd comes to about {{kcal:one_curd}} calories."
+        },
+        {
+          "q": "Which has more calories, aloo paratha or plain paratha?",
+          "a": "The aloo paratha, by a little. Made from the same atta and oil, it's about {{kcal:one}} calories against about {{kcal@plain-paratha:one}} for a [plain paratha](/calories/plain-paratha/), because of the potato and onion."
+        }
+      ],
+      "related": [
+        "plain-paratha",
+        "roti",
+        "thepla",
+        "masala-chai"
+      ],
+      "useCase": {
+        "href": "/for/office-canteen-tiffin/",
+        "label": "Calories in office canteen food and tiffin"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "No independent analysed value for aloo paratha was found in IFCT 2017, NIN's Annexure 8, USDA FNDDS or a literature search (Europe PMC). INDB's own figure (191 kcal per paratha) is from this same textbook recipe, so it agrees by design.",
+        "Coriander 'a few' sprigs taken as 2 g. Spices under 1 g left out.",
+        "All 2 tbsp of oil (27.2 g) counted as eaten.",
+        "Curd from USDA FDC 171284 (whole-milk yogurt), since IFCT 2017 has no curd."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Atta (A019), potato (F006), onion (G017), green chilli (G008), coriander leaves (G009), oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC098, potato paratha",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd on the side",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Butter, without salt (173430)",
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "Butter on top; 1 tbsp = 14.2 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Bread, paratha (2707715)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707715/nutrients",
+          "note": "70 g per paratha, used for the outside size",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "thepla",
+      "name": "Thepla",
+      "nameLower": "thepla",
+      "category": "breads",
+      "aliases": [
+        "methi thepla",
+        "methi na thepla",
+        "gujarati thepla",
+        "theplu",
+        "थेपला",
+        "मेथी थेपला",
+        "થેપલા",
+        "મેથીના થેપલા"
+      ],
+      "updated": "2026-10-10",
+      "title": "Thepla calories: methi thepla, 1 to 4 pieces",
+      "description": "One methi thepla has about {{kcal:one}} calories, so 3 theplas come to about {{kcal:three}}. Worked out from a recipe in grams and IFCT 2017.",
+      "answer": "One methi thepla (about 25 g of mixed flour, cooked with about 1 teaspoon of oil) has about {{kcal:one}} calories. Three theplas have about {{kcal:three}}.",
+      "intro": [
+        "Thepla is a Gujarati flatbread made from whole-wheat atta, often mixed with besan, bajra or jowar, with fresh methi leaves, curd and spices kneaded into the dough. It's rolled thin and cooked on the tawa with a little oil. Because it keeps for days, it's the standard food for train journeys and tiffins, eaten with chhundo, pickle or curd.",
+        "A thepla is thinner and smaller than most parathas. The oil in the dough and on the tawa is a little over a third of its calories."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Made as below, with the oil counted in.",
+      "recipe": {
+        "label": "Recipe: 240 g mixed flour, methi, curd and 4 tablespoons of oil, making 11 theplas",
+        "ingredients": [
+          {
+            "id": "atta",
+            "g": 120
+          },
+          {
+            "id": "bajra",
+            "g": 40
+          },
+          {
+            "id": "jowar",
+            "g": 40
+          },
+          {
+            "id": "besan",
+            "g": 40
+          },
+          {
+            "id": "methi_leaves",
+            "g": 16,
+            "note": "1 cup, chopped"
+          },
+          {
+            "id": "curd",
+            "g": 67.5,
+            "note": "4 to 5 tablespoons"
+          },
+          {
+            "id": "ginger",
+            "g": 10,
+            "note": "1 inch"
+          },
+          {
+            "id": "green_chilli",
+            "g": 3
+          },
+          {
+            "id": "turmeric",
+            "g": 1.5
+          },
+          {
+            "id": "chilli_powder",
+            "g": 1.4
+          },
+          {
+            "id": "cumin",
+            "g": 1
+          },
+          {
+            "id": "coriander_seeds",
+            "g": 1,
+            "note": "as powder"
+          },
+          {
+            "id": "oil",
+            "g": 13.6,
+            "note": "1 tablespoon, in the dough"
+          },
+          {
+            "id": "oil",
+            "g": 40.8,
+            "note": "3 tablespoons, for the tawa"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no published cooked weight for thepla"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 thepla",
+          "short": "a thepla",
+          "fraction": 0.0909,
+          "cookedGrams": null,
+          "kcal": 120,
+          "protein": 3,
+          "carbs": 14,
+          "fat": 6
+        },
+        {
+          "id": "two",
+          "label": "2 theplas",
+          "short": "2 theplas",
+          "fraction": 0.1818,
+          "cookedGrams": null,
+          "kcal": 245,
+          "protein": 6,
+          "carbs": 28,
+          "fat": 12
+        },
+        {
+          "id": "three",
+          "label": "3 theplas",
+          "short": "3 theplas",
+          "fraction": 0.2727,
+          "cookedGrams": null,
+          "kcal": 365,
+          "protein": 9,
+          "carbs": 42,
+          "fat": 18
+        },
+        {
+          "id": "four",
+          "label": "4 theplas",
+          "short": "4 theplas",
+          "fraction": 0.3636,
+          "cookedGrams": null,
+          "kcal": 485,
+          "protein": 12,
+          "carbs": 56,
+          "fat": 23
+        },
+        {
+          "id": "two_curd",
+          "label": "2 theplas with 100 g curd",
+          "short": "2 with curd",
+          "fraction": 0.1818,
+          "add": [
+            {
+              "id": "curd",
+              "g": 100
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 305,
+          "protein": 10,
+          "carbs": 33,
+          "fat": 15
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Farsan shop or packed",
+        "caption": "One thepla. The outside range is the same to 1.2 times the size, with up to half as much oil again.",
+        "fatFactor": [
+          1,
+          1.5
+        ],
+        "sizeFactor": [
+          1,
+          1.2
+        ],
+        "basis": "No analysed value for shop or packed theplas was found. A size of up to 1.2 times and up to 1.5 times the oil are stated assumptions; shop theplas are often softer and oilier so they keep.",
+        "text": [
+          "Theplas from a farsan shop, a station stall or a packet are close to home ones in size. They're often softer and a little oilier, because extra oil helps them stay soft for days.",
+          "We found no lab measurement of shop theplas, so the range below assumes the same size up to 1.2 times bigger, with up to half as much oil again."
+        ],
+        "kcalRange": [
+          120,
+          170
+        ],
+        "fatRange": [
+          6,
+          10
+        ]
+      },
+      "changes": [
+        "The oil on the tawa matters most. Each extra teaspoon spread across a batch adds about 40 calories.",
+        "Thinner, smaller theplas count for less each. Rolling the same dough into 14 instead of 11 makes each one about a fifth lighter.",
+        "Bajra and besan add a little fat and protein compared with atta alone. Per 100 g, IFCT 2017 puts bajra at {{ing:bajra}} calories and besan at {{ing:besan}}, against {{ing:atta}} for atta.",
+        "Chhundo and other sweet pickles are mostly sugar, and oil pickles add fat, so a spoonful on the side counts too.",
+        "Dudhi (lauki) thepla and plain masala thepla have less methi and similar flour, so they come out about the same."
+      ],
+      "method": [
+        "The recipe is the methi thepla in the Indian Nutrient Databank's open recipe set: 120 g atta, 40 g each of bajra, jowar and besan, a cup of methi leaves, curd and spices, with 1 tablespoon of oil in the dough and 3 for the tawa, making 11 theplas. Values are from IFCT 2017, with curd and chilli powder from USDA.",
+        "All the oil is counted as eaten. The 11 theplas follow the databank's serving count, about 25 g of flour each."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 thepla?",
+          "a": "About {{kcal:one}} calories for a methi thepla made with about 25 g of flour and its share of the oil."
+        },
+        {
+          "q": "How many calories are in 3 theplas?",
+          "a": "About {{kcal:three}}. Two are about {{kcal:two}}, and four about {{kcal:four}}."
+        },
+        {
+          "q": "How much protein is in a thepla?",
+          "a": "About {{protein:one}} g. Besan and curd in the dough add a little more than a plain roti has for the same flour."
+        },
+        {
+          "q": "Is thepla the same as paratha?",
+          "a": "Both are cooked on the tawa with oil, but a thepla has methi, curd and spices in the dough and is rolled thin without layers. One thepla here is about {{kcal:one}} calories, against about {{kcal@plain-paratha:one}} for a [plain paratha](/calories/plain-paratha/)."
+        }
+      ],
+      "related": [
+        "phulka",
+        "plain-paratha",
+        "aloo-paratha",
+        "masala-chai"
+      ],
+      "useCase": {
+        "href": "/for/office-canteen-tiffin/",
+        "label": "Calories in office canteen food and tiffin"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "No textbook thepla exists in INDB; this is its open-source recipe OSR104. INDB's serving count of 11 is marked as guessed; kept, since it gives about 25 g of flour per thepla.",
+        "No independent analysed value for thepla was found (IFCT 2017, NIN Annexure 8, USDA FNDDS, Europe PMC).",
+        "Besan valued as IFCT Bengal gram dal (B001), since IFCT 2017 has no separate besan entry.",
+        "Ginger '1 inch' taken as 10 g fresh ginger (INDB mapped it to ground ginger at 12.66 g). Green chilli 0.75 tsp chopped taken as 3 g; curd 4.5 tbsp as 67.5 g.",
+        "All 4 tbsp of oil (54.4 g) counted as eaten."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Atta (A019), bajra (A003), jowar (A005), Bengal gram dal (B001), fenugreek leaves (C020), ginger, spices, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Open-source recipe OSR104, methi thepla",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd, since IFCT 2017 has no curd",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Spices, chili powder (171319)",
+          "url": "https://fdc.nal.usda.gov/food-details/171319/nutrients",
+          "note": "Red chilli powder",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "puri",
+      "name": "Puri",
+      "nameLower": "puri",
+      "category": "breads",
+      "aliases": [
+        "poori",
+        "pooree",
+        "luchi",
+        "puri bhaji",
+        "puri sabzi",
+        "पूरी",
+        "पूड़ी",
+        "પૂરી"
+      ],
+      "updated": "2026-10-10",
+      "title": "Puri calories: per puri, 4 puris and puri bhaji",
+      "description": "A home puri made with 13 g of atta has about {{kcal:one}} calories once fried; 4 puris have about {{kcal:four}}. Frying oil counted from lab data.",
+      "answer": "One home puri (about 13 g atta, deep-fried) has about {{kcal:one}} calories. Four puris have about {{kcal:four}}, and a large 36 g puri about {{kcal:large}}.",
+      "intro": [
+        "Puri is a small round of whole-wheat dough, deep-fried until it puffs. It's eaten with aloo sabzi as puri bhaji, with chole, or with shrikhand and aamras on festival days. Bengali luchi is the same idea made with maida.",
+        "Atta is about half of a puri's calories. Most of the other half is oil the dough takes up in the kadhai, so this page counts that oil from lab data."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Fried at home in fresh oil, as below. Atta weight is before frying.",
+      "recipe": {
+        "label": "Recipe: 80 g atta with a teaspoon of ghee, deep-fried into 6 puris",
+        "ingredients": [
+          {
+            "id": "atta",
+            "g": 80
+          },
+          {
+            "id": "ghee",
+            "g": 5,
+            "note": "1 teaspoon, in the dough"
+          },
+          {
+            "id": "water",
+            "g": 60,
+            "note": "4 tablespoons, to make a stiff dough"
+          },
+          {
+            "id": "oil",
+            "g": 31,
+            "note": "Taken up in frying: a stated assumption, so a puri is about 25% fat"
+          }
+        ],
+        "cookedYieldG": 149,
+        "yieldNote": "the atta's non-fat solids (69.9 g) at USDA's puri composition, 28% water and 24.9% fat, so 69.9 / 0.4706"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 puri (about 13 g atta)",
+          "short": "a puri",
+          "fraction": 0.1667,
+          "cookedGrams": 25,
+          "kcal": 95,
+          "protein": 1,
+          "carbs": 9,
+          "fat": 6
+        },
+        {
+          "id": "large",
+          "label": "1 large puri",
+          "short": "a large puri",
+          "grams": 36,
+          "cookedGrams": 36,
+          "kcal": 140,
+          "protein": 2,
+          "carbs": 12,
+          "fat": 9
+        },
+        {
+          "id": "three",
+          "label": "3 puris",
+          "short": "3 puris",
+          "fraction": 0.5,
+          "cookedGrams": 75,
+          "kcal": 285,
+          "protein": 4,
+          "carbs": 26,
+          "fat": 19
+        },
+        {
+          "id": "four",
+          "label": "4 puris",
+          "short": "4 puris",
+          "fraction": 0.6667,
+          "cookedGrams": 99,
+          "kcal": 385,
+          "protein": 6,
+          "carbs": 34,
+          "fat": 25
+        },
+        {
+          "id": "six",
+          "label": "6 puris",
+          "short": "6 puris",
+          "fraction": 1,
+          "cookedGrams": 149,
+          "kcal": 575,
+          "protein": 8,
+          "carbs": 51,
+          "fat": 37
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Halwai or puri-bhaji stall",
+        "caption": "One puri. The outside range is up to 1.45 times the size, with up to about a fifth more oil.",
+        "fatFactor": [
+          1,
+          1.22
+        ],
+        "sizeFactor": [
+          1,
+          1.45
+        ],
+        "basis": "Size up to USDA's 36 g puri (FNDDS 51300180) against about 25 g here, so 1.45. Fat up to 1.22 times: Jain et al. 2024 found total fat in Indian fried foods (including puri) rose from a mean of 22.5% to 27.4% of dry weight between the 1st and 32nd frying cycle in the same oil.",
+        "text": [
+          "Puris from a halwai or a puri-bhaji stall are often larger than home ones, and they're fried in oil that's been used many times, which raises the fat a puri takes up.",
+          "A lab study of Indian fried foods, puri among them, found total fat rose by about a fifth between the first and the 32nd frying in the same oil. The range below uses that, and a puri up to the 36 g of USDA's puri."
+        ],
+        "kcalRange": [
+          95,
+          155
+        ],
+        "fatRange": [
+          6,
+          11
+        ]
+      },
+      "changes": [
+        "Size matters most. A puri rolled from 20 g of atta has half as much again as one from 13 g.",
+        "Oil that's been used many times leaves more fat in each puri: about a fifth more after 32 fryings, in one lab study.",
+        "Ghee or oil kneaded into the dough adds about 45 calories per teaspoon across the batch.",
+        "Masala puri, palak puri and Bengali luchi are close per gram. Kachori and bhatura have their own values: see [bhatura](/calories/bhatura/)."
+      ],
+      "method": [
+        "The recipe is the poori in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 80 g of whole-wheat atta with a teaspoon of melted fat, making 5 to 6 puris. This page uses 6. Values are from IFCT 2017.",
+        "Frying oil is harder to count. The databank counts all of it as eaten, which gives far too high a number. This page assumes a puri ends up with the fat content of USDA's puri, 24.9%, which works out to about 5 g of oil taken up per puri."
+      ],
+      "range": {
+        "text": "ICMR-NIN counts one puri at 80 calories, a little under this page's {{kcal:one}}. Puris differ in size and in how much oil they take up, so a home puri usually comes to between about 80 and {{kcal:one}}.",
+        "reason": "NIN's 80 kcal per puri is 16% below this page's home puri. The difference is puri size and the oil-uptake assumption. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 puri?",
+          "a": "A home puri made with about 13 g of atta has about {{kcal:one}} calories once fried. A large one, about 36 g, has about {{kcal:large}}."
+        },
+        {
+          "q": "How many calories are in 4 puris?",
+          "a": "About {{kcal:four}} for four home puris, before the sabzi. Three are about {{kcal:three}}."
+        },
+        {
+          "q": "Which has more calories, puri or roti?",
+          "a": "A puri has more for its size, because it takes up oil in frying. One small puri is about {{kcal:one}} calories; a medium [roti](/calories/roti/) with more than twice the atta is about {{kcal@roti:medium}}."
+        },
+        {
+          "q": "How much oil does a puri absorb?",
+          "a": "About 5 g, a little over a teaspoon, for a home puri fried in fresh oil, going by USDA's measured puri at about a quarter fat. Older oil and lower heat leave more."
+        },
+        {
+          "q": "Puri or bhatura, which has more calories?",
+          "a": "A [bhatura](/calories/bhatura/) is bigger and made with maida, so one bhatura is about {{kcal@bhatura:one}} calories against about {{kcal:one}} for a puri."
+        }
+      ],
+      "related": [
+        "bhatura",
+        "roti",
+        "plain-paratha",
+        "samosa"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: puri",
+          "portionId": "one",
+          "kcal": 80,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 96,
+          "differencePct": -16
+        },
+        {
+          "source": "USDA FNDDS 2021-2023, Bread, puri (51300180)",
+          "kcalPer100g": 409,
+          "url": "https://fdc.nal.usda.gov/food-details/2707714/nutrients",
+          "ours": 386,
+          "differencePct": 6
+        }
+      ],
+      "judgement": [
+        "Oil taken up: solved so the puri matches USDA's puri composition (FNDDS 51300180: 28% water, 24.9% fat). The atta's non-fat solids are 69.9 g, so fat = 69.9 x 24.94 / 47.06 = 37.0 g; minus atta fat (1.2 g) and the dough ghee (5 g) leaves about 31 g of oil for 6 puris.",
+        "The textbook makes 5 to 6 puris from 80 g atta; 6 used here.",
+        "INDB counts 480 ml of frying oil in the recipe (738 kcal per 100 g), so its values aren't used.",
+        "Jain et al. 2024 report fat on a dry-weight basis; only the ratio between the 1st and 32nd frying (27.4 / 22.5 = 1.22) is used."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Atta (A019), ghee (T013), oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC107, poori",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Bread, puri (2707714)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707714/nutrients",
+          "note": "36 g per puri; 409 kcal, 24.9 g fat and 28 g water per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: puri 80 kcal",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Jain, Passi and Selvamurthy, Total fat and fatty acid profile of Indian fried foods, Journal of Food Science and Technology, 2024",
+          "url": "https://europepmc.org/articles/PMC11465016",
+          "note": "Total fat in fried foods, 1st against 32nd frying cycle",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 385,
+        "protein": 6,
+        "carbs": 34,
+        "fat": 25
+      }
+    },
+    {
+      "slug": "bhatura",
+      "name": "Bhatura",
+      "nameLower": "bhatura",
+      "category": "breads",
+      "aliases": [
+        "bhature",
+        "batura",
+        "bhatoora",
+        "chole bhature",
+        "chhole bhature",
+        "chana bhatura",
+        "भटूरा",
+        "भटूरे",
+        "છોલે ભટુરે"
+      ],
+      "updated": "2026-10-10",
+      "title": "Bhatura calories: one bhatura, measured street sizes",
+      "description": "A home bhatura made with 27 g of maida has about {{kcal:one}} calories once fried. Street bhaturas tested in a lab came to about {{outLo}} to {{outHi}}.",
+      "answer": "One bhatura (about 27 g maida, deep-fried) has about {{kcal:one}} calories. With a 200 ml katori of chole, the plate is more again.",
+      "intro": [
+        "Bhatura is a leavened maida bread, kneaded with curd and sometimes a little baking powder, then deep-fried until it puffs into a large round. It's almost always eaten as chole bhature, a Punjabi dish found from Delhi's street stalls to restaurant breakfasts.",
+        "A bhatura takes up a lot of oil in frying. In this page's numbers, oil is close to half its calories, and the maida most of the rest."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Fried in fresh oil, as below. Chole is not included.",
+      "recipe": {
+        "label": "Recipe: 80 g maida and 20 g curd, deep-fried into 3 bhaturas",
+        "ingredients": [
+          {
+            "id": "maida",
+            "g": 80
+          },
+          {
+            "id": "curd",
+            "g": 20
+          },
+          {
+            "id": "sugar",
+            "g": 1,
+            "note": "a pinch"
+          },
+          {
+            "id": "water",
+            "g": 25,
+            "note": "to make a soft dough: an assumption, no calories"
+          },
+          {
+            "id": "oil",
+            "g": 29,
+            "note": "Taken up in frying: a stated assumption, so a bhatura is about 20% fat"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no measured cooked weight for a home bhatura; the raw dough plus oil is about 52 g each"
+      },
+      "portions": [
+        {
+          "id": "half",
+          "label": "Half a bhatura",
+          "short": "half a bhatura",
+          "fraction": 0.1667,
+          "cookedGrams": null,
+          "kcal": 90,
+          "protein": 1,
+          "carbs": 10,
+          "fat": 5
+        },
+        {
+          "id": "one",
+          "label": "1 bhatura (about 27 g maida)",
+          "short": "a bhatura",
+          "fraction": 0.3333,
+          "cookedGrams": null,
+          "kcal": 185,
+          "protein": 3,
+          "carbs": 20,
+          "fat": 10
+        },
+        {
+          "id": "two",
+          "label": "2 bhaturas",
+          "short": "2 bhaturas",
+          "fraction": 0.6667,
+          "cookedGrams": null,
+          "kcal": 370,
+          "protein": 6,
+          "carbs": 41,
+          "fat": 20
+        },
+        {
+          "id": "three",
+          "label": "3 bhaturas",
+          "short": "3 bhaturas",
+          "fraction": 1,
+          "cookedGrams": null,
+          "kcal": 555,
+          "protein": 9,
+          "carbs": 61,
+          "fat": 30
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Street stall (measured)",
+        "caption": "One bhatura. The range is the two street bhaturas measured by Gupta et al.: 33 g with 3.3 g fat, and 52 g with 10.2 g fat.",
+        "fatFactor": [
+          0.47,
+          0.98
+        ],
+        "sizeFactor": [
+          0.64,
+          1.01
+        ],
+        "basis": "Calibrated to Gupta et al. 2016, which bought and analysed bhaturas from vendors: a village bhatura of 33.00 g with 3.30 g fat, and a Delhi urban slum bhatura of 52.04 g with 10.20 g fat. Size factor = vendor weight against about 51.7 g here; fat factor chosen so total fat matches the measured fat.",
+        "text": [
+          "A peer-reviewed study bought bhaturas from street vendors in Delhi and a nearby village and tested them in a lab. The Delhi bhatura weighed 52 g with 10.2 g of fat, much like the home bhatura here. The village one was smaller, 33 g, and held much less fat.",
+          "Restaurant bhaturas for chole bhature can be bigger than either. We found no measurement of those, so the range below covers the two street bhaturas only."
+        ],
+        "kcalRange": [
+          90,
+          185
+        ],
+        "fatRange": [
+          3,
+          10
+        ]
+      },
+      "changes": [
+        "Size is the biggest variable. A bhatura rolled from 40 g of maida has half as much again as this one.",
+        "Oil uptake depends on the heat and the oil. A bhatura fried in cooler or much-used oil soaks up more.",
+        "Curd and a pinch of sugar in the dough add very little, about 5 calories a bhatura.",
+        "A 200 ml katori of chole is a separate dish, and a fried green chilli and onion on the side add a little more."
+      ],
+      "method": [
+        "The recipe is the bhatura in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 80 g of maida and 20 g of curd with a pinch of sugar, making 2 to 3 bhaturas. This page uses 3. Values are from IFCT 2017, with curd and sugar from USDA.",
+        "The databank counts all the frying oil as eaten, which is far too high. No lab has measured a home bhatura, so this page takes the fat content of the bhatura measured from a Delhi vendor, 19.6%, as typical. That's about 10 g of oil taken up per bhatura."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 bhatura?",
+          "a": "About {{kcal:one}} for a bhatura made with about 27 g of maida and fried in fresh oil. Half a bhatura is about {{kcal:half}}."
+        },
+        {
+          "q": "How many calories are in 2 bhature?",
+          "a": "About {{kcal:two}} for two, before the chole."
+        },
+        {
+          "q": "Is bhatura made of maida?",
+          "a": "Usually, yes. The textbook bhatura is maida with curd. Some homes mix in atta or semolina, which changes the number a little."
+        },
+        {
+          "q": "How much fat is in a bhatura?",
+          "a": "About {{fat:one}} g in this home bhatura. Street bhaturas tested in a lab held between 3.3 g and 10.2 g, depending on size and the oil."
+        }
+      ],
+      "related": [
+        "puri",
+        "naan",
+        "samosa",
+        "rajma"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Home oil uptake set so fat is 19.6% of the raw dough plus oil, from Gupta et al. 2016's urban bhatura (10.20 g fat in 52.04 g). (1.26 + x) / (126 + x) = 0.196 gives x = 29 g for 3 bhaturas. Moisture lost in frying is not counted.",
+        "The resulting bhatura (about 51.7 g raw dough plus oil) is close to the 52 g Delhi bhatura, so 3 bhaturas from 80 g maida fits.",
+        "Water in the dough (25 g) is an assumption; it has no calories and only affects weight.",
+        "No second analysed source for bhatura energy was found (IFCT, NIN Annexure 8, USDA FNDDS, Europe PMC). INDB counts 480 ml of frying oil (793 kcal per 100 g), so its values aren't used."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Wheat flour, refined (A018), oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC143, bhatura",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Gupta et al., Unhealthy fat in street and snack foods, Journal of Nutrition Education and Behavior, 2016",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4826272",
+          "note": "Measured bhatura weight and fat, village and Delhi urban slum",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd in the dough",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "Sugar in the dough",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "naan",
+      "name": "Naan",
+      "nameLower": "naan",
+      "category": "breads",
+      "aliases": [
+        "nan",
+        "naan bread",
+        "plain naan",
+        "tandoori naan",
+        "नान",
+        "નાન"
+      ],
+      "updated": "2026-10-10",
+      "title": "Naan calories: home naan and a large restaurant naan",
+      "description": "A home naan made with 40 g of maida has about {{kcal:one}} calories. A large 10-inch restaurant naan is about {{kcal:large}}. Worked out from IFCT 2017.",
+      "answer": "A home naan (about 40 g maida) has about {{kcal:one}} calories. A large 10-inch restaurant naan, about 177 g, has about {{kcal:large}}.",
+      "intro": [
+        "Naan is a soft, leavened maida bread, made with curd and milk and baked against the wall of a tandoor. At home it's usually cooked on a tawa and finished over the flame. It's the standard bread with dal makhani, paneer and chicken curries in north Indian restaurants.",
+        "Gram for gram, naan has a little more than roti, from the maida, milk and sugar. A restaurant naan has far more mostly because it's so much bigger."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Plain naan, no butter on top. Weights are cooked.",
+      "recipe": {
+        "label": "Recipe: 80 g maida with curd, milk and a little sugar, making 2 naans",
+        "ingredients": [
+          {
+            "id": "maida",
+            "g": 80
+          },
+          {
+            "id": "curd",
+            "g": 25
+          },
+          {
+            "id": "milk_cow",
+            "g": 20
+          },
+          {
+            "id": "sugar",
+            "g": 4.2,
+            "note": "1 teaspoon"
+          },
+          {
+            "id": "ghee",
+            "g": 2.5,
+            "note": "half a teaspoon, in the dough"
+          }
+        ],
+        "cookedYieldG": 118,
+        "yieldNote": "the dough's solids (83.3 g) at the 29.2% water of USDA's naan, so 83.3 / 0.708"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 home naan (40 g maida)",
+          "short": "a naan",
+          "fraction": 0.5,
+          "cookedGrams": 59,
+          "kcal": 175,
+          "protein": 5,
+          "carbs": 33,
+          "fat": 2
+        },
+        {
+          "id": "quarter",
+          "label": "¼ of a large restaurant naan",
+          "short": "a quarter naan",
+          "grams": 44,
+          "cookedGrams": 44,
+          "kcal": 130,
+          "protein": 4,
+          "carbs": 25,
+          "fat": 2
+        },
+        {
+          "id": "large",
+          "label": "1 large restaurant naan (10 inch)",
+          "short": "a large naan",
+          "grams": 177,
+          "cookedGrams": 177,
+          "kcal": 525,
+          "protein": 15,
+          "carbs": 99,
+          "fat": 7
+        },
+        {
+          "id": "g100",
+          "label": "100 g naan",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 295,
+          "protein": 8,
+          "carbs": 56,
+          "fat": 4
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Restaurant (tandoor)",
+        "caption": "The outside range is a restaurant naan 2 to 3 times the size of the home naan, plain.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          2,
+          3
+        ],
+        "basis": "USDA FNDDS lists a 10-inch naan at 177 g, three times the 59 g home naan here; the lower end of 2 times is a stated assumption for smaller restaurant naans.",
+        "text": [
+          "A tandoor naan from a restaurant is usually far bigger than one made at home. USDA's survey data puts a 10-inch naan at 177 g, about three times this home naan. Most are brushed with butter too, which is on the [butter naan](/calories/butter-naan/) page.",
+          "The range below is for a plain restaurant naan 2 to 3 times the size of the home one."
+        ],
+        "kcalRange": [
+          350,
+          525
+        ],
+        "fatRange": [
+          5,
+          7
+        ]
+      },
+      "changes": [
+        "Size is the biggest variable by far. Half a large restaurant naan has more than a whole home naan.",
+        "Butter or ghee brushed on top adds about 35 to 45 calories a teaspoon.",
+        "Garlic naan adds butter as well as garlic, and stuffed naans and kulchas carry their filling.",
+        "Whole-wheat naan is close per gram: USDA lists it at 286 calories per 100 g, against 291 for plain naan."
+      ],
+      "method": [
+        "The recipe is the naan in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 80 g of maida with curd, milk, a teaspoon of sugar and half a teaspoon of melted fat, making 2 to 3 naans. This page uses 2. The textbook's teaspoon of butter for brushing is left out here and counted on the butter naan page. Seeds and spices under 1 g are left out.",
+        "Values are from IFCT 2017, with curd and sugar from USDA. Cooked weight comes from water content: the dough's solids at the 29.2% water of USDA's naan."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 naan?",
+          "a": "A home naan made with about 40 g of maida has about {{kcal:one}} calories. A large restaurant naan is about {{kcal:large}}, because it's about three times the size."
+        },
+        {
+          "q": "Which has more calories, naan or roti?",
+          "a": "A naan, mainly because it's bigger. Per 100 g naan has somewhat more too: about {{per100}} calories, against about {{per100@roti}} for [roti](/calories/roti/)."
+        },
+        {
+          "q": "Is naan made of maida?",
+          "a": "Usually, yes. Restaurant naan is almost always maida. Whole-wheat naan exists and has about the same calories per gram."
+        },
+        {
+          "q": "How much protein is in a naan?",
+          "a": "About {{protein:one}} g in a home naan, and about {{protein:large}} g in a large restaurant naan."
+        }
+      ],
+      "related": [
+        "butter-naan",
+        "roti",
+        "paneer-butter-masala",
+        "bhatura"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [
+        {
+          "source": "USDA FNDDS 2021-2023, Bread, naan (51108100)",
+          "kcalPer100g": 311,
+          "url": "https://fdc.nal.usda.gov/food-details/2707613/nutrients",
+          "ours": 296,
+          "differencePct": 5
+        },
+        {
+          "source": "USDA SR Legacy, Bread, naan, plain, commercially prepared (171845)",
+          "kcalPer100g": 291,
+          "url": "https://fdc.nal.usda.gov/food-details/171845/nutrients",
+          "ours": 296,
+          "differencePct": -2
+        }
+      ],
+      "judgement": [
+        "INDB records the maida as 100 g though the textbook says 80 g; 80 g used here.",
+        "The textbook's 1 tsp butter is taken as brushing and moved to the butter naan page. Half a teaspoon of melted fat taken as 2.5 g ghee.",
+        "Cooked yield from water content: solids = maida 70.9 + milk 2.7 + curd 3.0 + sugar 4.2 + ghee 2.5 = 83.3 g; at 29.24% water (FNDDS naan) that's 118 g.",
+        "Restaurant sizes from FNDDS portions: a 10-inch naan 177 g, a quarter 44 g."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Wheat flour, refined (A018), cow milk (L002), ghee (T013); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC142, naan",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Bread, naan (2707613)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707613/nutrients",
+          "note": "177 g for a 10-inch naan, 44 g for a quarter; 311 kcal and 29.2% water per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Bread, naan, plain, commercially prepared (171845)",
+          "url": "https://fdc.nal.usda.gov/food-details/171845/nutrients",
+          "note": "291 kcal per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Bread, naan, whole wheat, commercially prepared (174077)",
+          "url": "https://fdc.nal.usda.gov/food-details/174077/nutrients",
+          "note": "286 kcal per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 295,
+        "protein": 8,
+        "carbs": 56,
+        "fat": 4
+      }
+    },
+    {
+      "slug": "butter-naan",
+      "name": "Butter naan",
+      "nameLower": "butter naan",
+      "category": "breads",
+      "aliases": [
+        "butter nan",
+        "naan with butter",
+        "makhani naan",
+        "garlic butter naan",
+        "बटर नान",
+        "બટર નાન"
+      ],
+      "updated": "2026-10-10",
+      "title": "Butter naan calories: by size and teaspoons of butter",
+      "description": "A home butter naan with a teaspoon of butter has about {{kcal:one_tsp}} calories; a large restaurant one is about {{outLo}} to {{outHi}}. From IFCT 2017.",
+      "answer": "A home naan brushed with a teaspoon of butter has about {{kcal:one_tsp}} calories. A large restaurant butter naan comes to about {{outLo}} to {{outHi}}, depending on size.",
+      "intro": [
+        "Butter naan is plain naan brushed with melted butter as it comes out of the tandoor. In restaurants and on delivery apps it's the most ordered bread with butter chicken, dal makhani and paneer dishes, and garlic butter naan adds chopped garlic and coriander to the same butter.",
+        "The butter is easy to see but it's the smaller part. The naan itself, and especially its size, decides most of the number."
+      ],
+      "headlinePortion": "one_tsp",
+      "portionsCaption": "Home naan made as on the naan page, with butter brushed on top.",
+      "recipe": {
+        "label": "Recipe: 80 g maida with curd, milk and a little sugar, making 2 naans",
+        "ingredients": [
+          {
+            "id": "maida",
+            "g": 80
+          },
+          {
+            "id": "curd",
+            "g": 25
+          },
+          {
+            "id": "milk_cow",
+            "g": 20
+          },
+          {
+            "id": "sugar",
+            "g": 4.2,
+            "note": "1 teaspoon"
+          },
+          {
+            "id": "ghee",
+            "g": 2.5,
+            "note": "half a teaspoon, in the dough"
+          }
+        ],
+        "cookedYieldG": 118,
+        "yieldNote": "the dough's solids (83.3 g) at the 29.2% water of USDA's naan, as on the naan page"
+      },
+      "portions": [
+        {
+          "id": "textbook",
+          "label": "1 home naan, ½ tsp butter (2.5 g)",
+          "short": "with ½ tsp butter",
+          "fraction": 0.5,
+          "add": [
+            {
+              "id": "butter",
+              "g": 2.5
+            }
+          ],
+          "cookedGrams": 59,
+          "kcal": 195,
+          "protein": 5,
+          "carbs": 33,
+          "fat": 4
+        },
+        {
+          "id": "one_tsp",
+          "label": "1 home naan, 1 tsp butter (5 g)",
+          "short": "with 1 tsp butter",
+          "fraction": 0.5,
+          "add": [
+            {
+              "id": "butter",
+              "g": 5
+            }
+          ],
+          "cookedGrams": 59,
+          "kcal": 210,
+          "protein": 5,
+          "carbs": 33,
+          "fat": 6
+        },
+        {
+          "id": "two_tsp",
+          "label": "1 home naan, 2 tsp butter (10 g)",
+          "short": "with 2 tsp butter",
+          "fraction": 0.5,
+          "add": [
+            {
+              "id": "butter",
+              "g": 10
+            }
+          ],
+          "cookedGrams": 59,
+          "kcal": 245,
+          "protein": 5,
+          "carbs": 33,
+          "fat": 11
+        },
+        {
+          "id": "large",
+          "label": "1 large restaurant naan, 2 tsp butter",
+          "short": "a large butter naan",
+          "grams": 177,
+          "add": [
+            {
+              "id": "butter",
+              "g": 10
+            }
+          ],
+          "cookedGrams": 177,
+          "kcal": 595,
+          "protein": 15,
+          "carbs": 99,
+          "fat": 15
+        },
+        {
+          "id": "half_large",
+          "label": "Half a large naan, 1 tsp butter",
+          "short": "half a large butter naan",
+          "grams": 88.5,
+          "add": [
+            {
+              "id": "butter",
+              "g": 5
+            }
+          ],
+          "cookedGrams": 89,
+          "kcal": 300,
+          "protein": 7,
+          "carbs": 49,
+          "fat": 8
+        }
+      ],
+      "outside": {
+        "portionId": "one_tsp",
+        "label": "Restaurant or delivery",
+        "caption": "The outside range is a naan 2 to 3 times the size of the home one, with butter in proportion (2 to 3 teaspoons).",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          2,
+          3
+        ],
+        "basis": "USDA FNDDS lists a 10-inch naan at 177 g, three times the 59 g home naan here; 2 times is a stated assumption for smaller restaurant naans. Butter is assumed to scale with the naan's size, so 2 to 3 teaspoons.",
+        "text": [
+          "A restaurant butter naan is usually two to three times the size of a home naan, and the butter is spread over all of it. Some places add a second brush of butter before serving, and garlic butter naan often has more.",
+          "No lab has measured a restaurant butter naan, so the range below scales this naan and its teaspoon of butter up 2 to 3 times, in line with USDA's 177 g, 10-inch naan."
+        ],
+        "kcalRange": [
+          420,
+          630
+        ],
+        "fatRange": [
+          13,
+          19
+        ]
+      },
+      "changes": [
+        "Each teaspoon of butter adds about 35 calories, and a teaspoon of ghee about 45.",
+        "Naan size counts for more than the butter. A large naan is about three times a home one before any butter goes on.",
+        "Garlic butter naan uses the same butter, plus garlic and coriander that add very little.",
+        "Sharing one large naan between two is about half of the outside range each."
+      ],
+      "method": [
+        "The naan is the one in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank), with 80 g of maida for 2 naans. The textbook brushes 2 naans with a teaspoon of butter, which is the half-teaspoon row in the table. Butter values are from USDA, the rest from IFCT 2017.",
+        "Restaurant sizes follow USDA's survey data, where a 10-inch naan weighs 177 g."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 butter naan?",
+          "a": "About {{kcal:one_tsp}} for a home naan with a teaspoon of butter. A large restaurant butter naan is about {{kcal:large}}."
+        },
+        {
+          "q": "How many calories are in 2 butter naans?",
+          "a": "Two home butter naans with a teaspoon of butter each come to about 420. Two large restaurant ones can pass 1,000."
+        },
+        {
+          "q": "How much more is butter naan than plain naan?",
+          "a": "About 35 calories for each teaspoon of butter. A home [naan](/calories/naan/) is about {{kcal@naan:one}} plain and about {{kcal:one_tsp}} with a teaspoon of butter."
+        },
+        {
+          "q": "How much protein is in a butter naan?",
+          "a": "About {{protein:one_tsp}} g in a home butter naan, and about {{protein:large}} g in a large restaurant one. Butter adds almost none."
+        }
+      ],
+      "related": [
+        "naan",
+        "paneer-butter-masala",
+        "dal-makhani",
+        "butter-chicken"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Same naan recipe and yield as the naan page (ASC142, 80 g maida, 2 naans).",
+        "Butter amounts per naan (½, 1 and 2 tsp) are a typical range; the textbook's 1 tsp for 2 naans is the ½ tsp row. Teaspoon of butter taken as 5 g (USDA pat, 5 g).",
+        "No analysed value for butter naan was found, so there is no independent cross-check beyond the plain naan page's USDA checks.",
+        "FAQ figures for two naans: 2 x 210.8 = 421.6 kcal (home, 1 tsp each); 2 x 524.6 + 2 x 71.7 = 1,193 kcal for two large naans with 2 tsp butter each."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Wheat flour, refined (A018), cow milk (L002), ghee (T013); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC142, naan",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Butter, without salt (173430)",
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "Butter on top; 1 pat = 5 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Bread, naan (2707613)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707613/nutrients",
+          "note": "177 g for a 10-inch naan",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 295,
+        "protein": 8,
+        "carbs": 56,
+        "fat": 4
+      }
+    },
+    {
+      "slug": "plain-dosa",
+      "name": "Plain dosa",
+      "nameLower": "plain dosa",
+      "category": "breakfast",
+      "aliases": [
+        "dosa",
+        "dosai",
+        "dosey",
+        "sada dosa",
+        "paper dosa",
+        "plain dosai",
+        "डोसा",
+        "सादा डोसा",
+        "ઢોસા",
+        "ದೋಸೆ",
+        "தோசை"
+      ],
+      "updated": "2026-10-10",
+      "title": "Plain dosa calories: with or without oil, by size",
+      "description": "A plain dosa has about {{kcal:one}} calories with ¾ teaspoon of oil, and about {{kcal:dry}} without. Sizes, ghee and restaurant dosas compared.",
+      "answer": "One plain dosa (about 33 g of rice and urad dal, cooked with ¾ teaspoon of oil) has about {{kcal:one}} calories, or about {{kcal:dry}} on a non-stick tawa with no oil.",
+      "intro": [
+        "A plain dosa is a fermented batter of rice and urad dal, spread thin on a hot tawa and cooked with a little oil, ghee or butter until crisp. It's eaten across south India for breakfast and dinner, with sambar and coconut chutney, and paper dosa is the same batter spread larger and thinner.",
+        "The batter is mostly rice. Without any fat a dosa is about {{kcal:dry}} calories; the oil or ghee on the tawa is what moves it from there."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Batter as below. Oil, ghee or butter on the tawa is counted per dosa. Sambar and chutney are not included.",
+      "recipe": {
+        "label": "Recipe: 100 g rice and 30 g urad dal, ground into batter for 4 dosas",
+        "ingredients": [
+          {
+            "id": "rice_raw",
+            "g": 50
+          },
+          {
+            "id": "rice_parboiled",
+            "g": 50
+          },
+          {
+            "id": "urad_dal",
+            "g": 30
+          },
+          {
+            "id": "fenugreek_seeds",
+            "g": 1,
+            "note": "a quarter teaspoon"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no cooked weight used; each dosa is a quarter of the batter"
+      },
+      "portions": [
+        {
+          "id": "dry",
+          "label": "1 dosa, no oil (non-stick)",
+          "short": "a dosa without oil",
+          "fraction": 0.25,
+          "cookedGrams": null,
+          "kcal": 115,
+          "protein": 4,
+          "carbs": 23,
+          "fat": 0
+        },
+        {
+          "id": "one",
+          "label": "1 dosa, ¾ tsp oil (textbook)",
+          "short": "a dosa",
+          "fraction": 0.25,
+          "add": [
+            {
+              "id": "oil",
+              "g": 3.4
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 145,
+          "protein": 4,
+          "carbs": 23,
+          "fat": 4
+        },
+        {
+          "id": "one_tsp",
+          "label": "1 dosa, 1 tsp oil",
+          "short": "a dosa with 1 tsp oil",
+          "fraction": 0.25,
+          "add": [
+            {
+              "id": "oil",
+              "g": 4.5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 155,
+          "protein": 4,
+          "carbs": 23,
+          "fat": 5
+        },
+        {
+          "id": "ghee",
+          "label": "1 dosa, 1 tsp ghee",
+          "short": "a ghee dosa",
+          "fraction": 0.25,
+          "add": [
+            {
+              "id": "ghee",
+              "g": 5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 160,
+          "protein": 4,
+          "carbs": 23,
+          "fat": 5
+        },
+        {
+          "id": "two",
+          "label": "2 dosas, ¾ tsp oil each",
+          "short": "2 dosas",
+          "fraction": 0.5,
+          "add": [
+            {
+              "id": "oil",
+              "g": 6.8
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 285,
+          "protein": 8,
+          "carbs": 47,
+          "fat": 7
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Restaurant or paper dosa",
+        "caption": "One dosa. The outside range is up to 1.9 times the batter, plus up to a teaspoon of butter.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1.9
+        ],
+        "extra": [
+          {
+            "id": "butter",
+            "g": [
+              0,
+              5
+            ]
+          }
+        ],
+        "basis": "USDA FNDDS lists dosas at 35 g (small), 80 g (medium) and 155 g (large); 155 / 80 = 1.9, used as the top size. Butter up to a teaspoon is a stated assumption.",
+        "text": [
+          "Restaurant plain dosas and paper dosas are often much bigger than home ones, and many places finish them with butter or ghee. USDA's survey data lists dosas from 35 g for a small one to 155 g for a large one.",
+          "The range below runs from a dosa like this one up to one about 1.9 times the size, with up to a teaspoon of butter on top."
+        ],
+        "kcalRange": [
+          145,
+          310
+        ],
+        "fatRange": [
+          4,
+          11
+        ]
+      },
+      "changes": [
+        "Fat on the tawa is the biggest variable. Each teaspoon of oil adds about 40 calories, and a teaspoon of ghee about 45.",
+        "A bigger or thicker dosa uses more batter. Paper dosa is thin but large, so it often has more than a home dosa.",
+        "Sambar and chutney are separate dishes. ICMR-NIN counts a cup of sambar at about 110 calories and 2 tablespoons of coconut chutney at about 120.",
+        "Rava dosa, neer dosa and pesarattu use different batters and have their own values. Masala dosa adds a potato filling: see [masala dosa](/calories/masala-dosa/)."
+      ],
+      "method": [
+        "The recipe is the plain dosa in Basic Food Preparation, a standard Indian cookery manual (via the Indian Nutrient Databank): 50 g raw rice, 50 g parboiled rice, 30 g urad dal and a little fenugreek, making 4 dosas, cooked with 1 tablespoon of oil or butter between them. That's about ¾ teaspoon (3.4 g) per dosa. Values are from IFCT 2017.",
+        "Fermenting and cooking change the water in the batter, not the calories, so each dosa is counted as a quarter of the batter plus the fat on the tawa."
+      ],
+      "range": {
+        "text": "Published figures for one dosa differ because dosas differ in size. ICMR-NIN counts a dosa at 125 calories, and USDA's survey data puts a medium 80 g dosa at about 170. A home plain dosa usually lands between {{kcal:dry}} and 170, depending on size and oil.",
+        "reason": "USDA FNDDS medium dosa (80 g, 168 kcal) is 17% above this page's textbook dosa; NIN's 125 is 13% below. Size differs. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 plain dosa?",
+          "a": "About {{kcal:one}} for a home dosa cooked with ¾ teaspoon of oil, and about {{kcal:dry}} without oil. A large restaurant dosa can be close to twice that."
+        },
+        {
+          "q": "How many calories are in a dosa with ghee?",
+          "a": "About {{kcal:ghee}} with a teaspoon of ghee on the tawa."
+        },
+        {
+          "q": "How many calories are in dosa with sambar and chutney?",
+          "a": "Add them separately. ICMR-NIN counts a cup of sambar at about 110 calories and 2 tablespoons of coconut chutney at about 120, so a dosa with both is about 375 to 400."
+        },
+        {
+          "q": "Which has fewer calories, dosa or idli?",
+          "a": "Per piece, an [idli](/calories/idli/) at about {{kcal@idli:medium}} calories, because a dosa uses more batter and is cooked with oil. Two idlis are about {{kcal@idli:two}}, a little less than one dosa."
+        },
+        {
+          "q": "How much protein is in a plain dosa?",
+          "a": "About {{protein:one}} g, from the rice and urad dal. Sambar adds a few grams more."
+        }
+      ],
+      "related": [
+        "masala-dosa",
+        "idli",
+        "uttapam",
+        "sambar"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: dosa",
+          "portionId": "one",
+          "kcal": 125,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 143,
+          "differencePct": -13
+        },
+        {
+          "source": "USDA FNDDS 2021-2023, Dosa, plain (55702100), medium 80 g",
+          "portionId": "one",
+          "kcal": 168,
+          "url": "https://fdc.nal.usda.gov/food-details/2708347/nutrients",
+          "ours": 143,
+          "differencePct": 17
+        }
+      ],
+      "judgement": [
+        "INDB maps both rices to parboiled rice (A014); this page uses raw milled rice (A015) for the raw half, as the textbook says.",
+        "Textbook fat 'Oil/Butter 1 tbsp' for 4 dosas taken as 13.6 g oil, 3.4 g per dosa.",
+        "Fenugreek 0.25 tsp taken as 1 g.",
+        "FAQ sambar and chutney total: a dosa of about 145 to 160 kcal plus NIN sambar 110 and chutney 120 = about 375 to 400 depending on oil."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Rice raw (A015), rice parboiled (A014), black gram dal (B003), fenugreek seeds (G026), oil, ghee; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipe BFP148, plain dosa",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: dosa 125 kcal, sambar 110 kcal per cup, coconut chutney 120 kcal per 2 tbsp",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Dosa, plain (2708347)",
+          "url": "https://fdc.nal.usda.gov/food-details/2708347/nutrients",
+          "note": "Small 35 g, medium 80 g, large 155 g; 210 kcal per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Butter, without salt (173430)",
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "Butter on restaurant dosas",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "uttapam",
+      "name": "Uttapam",
+      "nameLower": "uttapam",
+      "category": "breakfast",
+      "aliases": [
+        "uthappam",
+        "uttappam",
+        "oothappam",
+        "onion uttapam",
+        "onion tomato uttapam",
+        "उत्तपम",
+        "ઉત્તપમ",
+        "ಉತ್ತಪ್ಪ",
+        "ஊத்தப்பம்"
+      ],
+      "updated": "2026-10-10",
+      "title": "Uttapam calories: onion tomato uttapam, home and restaurant",
+      "description": "An onion tomato uttapam has about {{kcal:one}} calories, with the oil from the tawa counted. Restaurant uttapams, ghee and mini uttapams compared.",
+      "answer": "One onion tomato uttapam (about 40 g of rice and urad dal, cooked with 1½ teaspoons of oil) has about {{kcal:one}} calories.",
+      "intro": [
+        "Uttapam is made from the same kind of rice and urad dal batter as dosa, but it's poured thick, topped with onion, tomato, chilli and coriander, and cooked slowly on both sides with oil. It's a breakfast and tiffin dish across Tamil Nadu and Karnataka, and a standard on Udupi restaurant menus.",
+        "Because it's thick, one uttapam holds more batter than a home dosa. The toppings add little; the batter and the oil on the tawa make up most of the number."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Made as below, with the tawa oil counted in. Sambar and chutney are not included.",
+      "recipe": {
+        "label": "Recipe: 60 g rice and 20 g urad dal with onion and tomato, making 2 uttapams",
+        "ingredients": [
+          {
+            "id": "rice_parboiled",
+            "g": 60
+          },
+          {
+            "id": "urad_dal",
+            "g": 20
+          },
+          {
+            "id": "onion",
+            "g": 50
+          },
+          {
+            "id": "tomato",
+            "g": 50
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3
+          },
+          {
+            "id": "fenugreek_seeds",
+            "g": 1
+          },
+          {
+            "id": "oil",
+            "g": 13.5,
+            "note": "3 teaspoons, for the tawa"
+          },
+          {
+            "id": "water",
+            "g": 120,
+            "note": "for the batter"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no cooked weight used; each uttapam is half the recipe"
+      },
+      "portions": [
+        {
+          "id": "mini",
+          "label": "1 mini uttapam (a quarter of one)",
+          "short": "a mini uttapam",
+          "fraction": 0.125,
+          "cookedGrams": null,
+          "kcal": 55,
+          "protein": 1,
+          "carbs": 8,
+          "fat": 2
+        },
+        {
+          "id": "one",
+          "label": "1 uttapam",
+          "short": "an uttapam",
+          "fraction": 0.5,
+          "cookedGrams": null,
+          "kcal": 215,
+          "protein": 5,
+          "carbs": 32,
+          "fat": 7
+        },
+        {
+          "id": "one_ghee",
+          "label": "1 uttapam with 1 tsp ghee on top",
+          "short": "with ghee",
+          "fraction": 0.5,
+          "add": [
+            {
+              "id": "ghee",
+              "g": 5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 260,
+          "protein": 5,
+          "carbs": 32,
+          "fat": 12
+        },
+        {
+          "id": "two",
+          "label": "2 uttapams",
+          "short": "2 uttapams",
+          "fraction": 1,
+          "cookedGrams": null,
+          "kcal": 430,
+          "protein": 11,
+          "carbs": 63,
+          "fat": 14
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Udupi restaurant",
+        "caption": "One uttapam. The outside range is up to 1.5 times the size, plus up to a teaspoon of butter.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1.5
+        ],
+        "extra": [
+          {
+            "id": "butter",
+            "g": [
+              0,
+              5
+            ]
+          }
+        ],
+        "basis": "No analysed value for a restaurant uttapam was found. A size of up to 1.5 times and up to a teaspoon of butter are stated assumptions, in line with the restaurant assumptions on the masala dosa page.",
+        "text": [
+          "Restaurant uttapams are often thicker and wider than home ones, and some places finish them with butter or serve a ghee version. The toppings are similar.",
+          "We found no lab measurement of restaurant uttapam, so the range below assumes one up to 1.5 times this size, with up to a teaspoon of butter."
+        ],
+        "kcalRange": [
+          215,
+          360
+        ],
+        "fatRange": [
+          7,
+          15
+        ]
+      },
+      "changes": [
+        "Thickness and size matter most. A thick uttapam can hold twice the batter of a home dosa.",
+        "Each teaspoon of oil on the tawa adds about 40 calories. Uttapam is cooked on both sides, so it usually takes more oil than a dosa.",
+        "The onion and tomato topping adds under 20 calories an uttapam.",
+        "Cheese or paneer uttapam adds more: a 20 g grating of cheese is about 60 calories.",
+        "Rava uttapam uses semolina and curd instead of rice and dal, and has its own values."
+      ],
+      "method": [
+        "The recipe is the onion tomato uttapam in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 60 g rice, 20 g urad dal, 50 g each of onion and tomato and green chilli, cooked with 3 teaspoons of oil, making 2 uttapams. Values are from IFCT 2017.",
+        "The databank also lists a cup of oil 'for frying', which would make each uttapam over 600 calories. Uttapam is cooked on a tawa, so only the 3 teaspoons are counted here."
+      ],
+      "range": {
+        "text": "Basic Food Preparation, another standard manual, makes a smaller mixed-vegetable uttapam at about 175 calories. Uttapams vary in size and oil, so most come to between about 175 and {{kcal:one}}.",
+        "reason": "INDB's per-uttapam value for Basic Food Preparation's uttapam (BFP152, 174 kcal) is 19% below this page's ASC148 uttapam. That uttapam uses about 33 g of grain each against 40 g here. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 uttapam?",
+          "a": "About {{kcal:one}} for an onion tomato uttapam made at home with 1½ teaspoons of oil. A mini uttapam is about {{kcal:mini}}."
+        },
+        {
+          "q": "Which has more calories, uttapam or dosa?",
+          "a": "Usually the uttapam, because it's thicker and holds more batter and oil. A home [plain dosa](/calories/plain-dosa/) is about {{kcal@plain-dosa:one}} calories against about {{kcal:one}} for an uttapam."
+        },
+        {
+          "q": "How much protein is in an uttapam?",
+          "a": "About {{protein:one}} g, from the rice and urad dal."
+        },
+        {
+          "q": "Is uttapam batter the same as dosa batter?",
+          "a": "Very close. Many homes use leftover dosa batter for uttapam, often after it's turned a little sour. The calories per gram of batter are about the same."
+        }
+      ],
+      "related": [
+        "plain-dosa",
+        "masala-dosa",
+        "idli",
+        "sambar"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "Indian Nutrient Databank, Uttapam from Basic Food Preparation (BFP152), per uttapam",
+          "portionId": "one",
+          "kcal": 174.2,
+          "note": "A different textbook's smaller uttapam with mixed vegetables.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 216,
+          "differencePct": -19
+        }
+      ],
+      "judgement": [
+        "INDB counts 240 ml of 'oil for frying' as well as 3 tsp oil. Only the 3 tsp (13.5 g) are counted, since uttapam is cooked on a tawa.",
+        "Rice mapped to parboiled rice (A014), as INDB does.",
+        "Water 120 ml has no calories; fenugreek 0.25 tsp taken as 1 g.",
+        "No analysed value for uttapam was found in IFCT, NIN Annexure 8, USDA FNDDS or Europe PMC.",
+        "Cheese in the changes list: 20 g of mozzarella at 299 kcal per 100 g (USDA FDC 170845) is about 60 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Rice parboiled (A014), black gram dal (B003), onion (G017), tomato (D075), green chilli (G008), fenugreek seeds (G026), oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC148, onion tomato uttapam; Basic Food Preparation recipe BFP152, uttapam",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Butter, without salt (173430)",
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "Butter on restaurant uttapam",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Cheese, mozzarella, whole milk (170845)",
+          "url": "https://fdc.nal.usda.gov/food-details/170845/nutrients",
+          "note": "Cheese uttapam, 299 kcal per 100 g",
           "accessed": "2026-10-10"
         }
       ],

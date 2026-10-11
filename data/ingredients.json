@@ -367,5 +367,616 @@
       "carbs": 16.8,
       "fat": 40.19
     }
+  },
+  "bajra": {
+    "name": "Bajra (pearl millet) flour",
+    "sourceShort": "IFCT 2017 A003",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code A003",
+    "per100g": {
+      "kcal": 348.0,
+      "protein": 10.96,
+      "carbs": 61.78,
+      "fat": 5.43
+    }
+  },
+  "jowar": {
+    "name": "Jowar (sorghum) flour",
+    "sourceShort": "IFCT 2017 A005",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code A005",
+    "per100g": {
+      "kcal": 334.1,
+      "protein": 9.97,
+      "carbs": 67.68,
+      "fat": 1.73
+    }
+  },
+  "semolina": {
+    "name": "Semolina (suji, rava)",
+    "sourceShort": "IFCT 2017 A022",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code A022",
+    "per100g": {
+      "kcal": 333.7,
+      "protein": 11.38,
+      "carbs": 68.43,
+      "fat": 0.74
+    }
+  },
+  "vermicelli": {
+    "name": "Wheat vermicelli",
+    "sourceShort": "IFCT 2017 A023",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code A023",
+    "per100g": {
+      "kcal": 332.7,
+      "protein": 9.7,
+      "carbs": 70.39,
+      "fat": 0.45
+    }
+  },
+  "besan": {
+    "name": "Besan (ground Bengal gram dal)",
+    "sourceShort": "IFCT 2017 B001",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code B001",
+    "per100g": {
+      "kcal": 329.1,
+      "protein": 21.55,
+      "carbs": 46.72,
+      "fat": 5.31
+    }
+  },
+  "kala_chana": {
+    "name": "Bengal gram, whole (kala chana)",
+    "sourceShort": "IFCT 2017 B002",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code B002",
+    "per100g": {
+      "kcal": 287.0,
+      "protein": 18.77,
+      "carbs": 39.56,
+      "fat": 5.11
+    }
+  },
+  "urad_whole": {
+    "name": "Black gram, whole (sabut urad)",
+    "sourceShort": "IFCT 2017 B004",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code B004",
+    "per100g": {
+      "kcal": 291.3,
+      "protein": 21.97,
+      "carbs": 43.99,
+      "fat": 1.58
+    }
+  },
+  "moong_dal": {
+    "name": "Green gram dal (moong)",
+    "sourceShort": "IFCT 2017 B010",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code B010",
+    "per100g": {
+      "kcal": 325.8,
+      "protein": 23.88,
+      "carbs": 52.59,
+      "fat": 1.35
+    }
+  },
+  "moong_whole": {
+    "name": "Green gram, whole (sabut moong)",
+    "sourceShort": "IFCT 2017 B011",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code B011",
+    "per100g": {
+      "kcal": 293.7,
+      "protein": 22.53,
+      "carbs": 46.13,
+      "fat": 1.14
+    }
+  },
+  "masoor_dal": {
+    "name": "Lentil dal (masoor)",
+    "sourceShort": "IFCT 2017 B013",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code B013",
+    "per100g": {
+      "kcal": 322.4,
+      "protein": 24.35,
+      "carbs": 52.53,
+      "fat": 0.75
+    }
+  },
+  "methi_leaves": {
+    "name": "Fenugreek leaves (methi)",
+    "sourceShort": "IFCT 2017 C020",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code C020",
+    "per100g": {
+      "kcal": 34.4,
+      "protein": 3.68,
+      "carbs": 2.17,
+      "fat": 0.83
+    }
+  },
+  "spinach": {
+    "name": "Spinach (palak)",
+    "sourceShort": "IFCT 2017 C033",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code C033",
+    "per100g": {
+      "kcal": 24.4,
+      "protein": 2.14,
+      "carbs": 2.05,
+      "fat": 0.64
+    }
+  },
+  "cabbage": {
+    "name": "Cabbage, green",
+    "sourceShort": "IFCT 2017 C015",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code C015",
+    "per100g": {
+      "kcal": 21.5,
+      "protein": 1.36,
+      "carbs": 3.25,
+      "fat": 0.12
+    }
+  },
+  "cauliflower": {
+    "name": "Cauliflower",
+    "sourceShort": "IFCT 2017 D036",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code D036",
+    "per100g": {
+      "kcal": 22.9,
+      "protein": 2.15,
+      "carbs": 2.03,
+      "fat": 0.44
+    }
+  },
+  "capsicum": {
+    "name": "Capsicum, green",
+    "sourceShort": "IFCT 2017 D033",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code D033",
+    "per100g": {
+      "kcal": 16.3,
+      "protein": 1.11,
+      "carbs": 1.84,
+      "fat": 0.34
+    }
+  },
+  "carrot": {
+    "name": "Carrot, orange",
+    "sourceShort": "IFCT 2017 F002",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code F002",
+    "per100g": {
+      "kcal": 33.2,
+      "protein": 0.95,
+      "carbs": 5.55,
+      "fat": 0.47
+    }
+  },
+  "okra": {
+    "name": "Ladies finger (bhindi)",
+    "sourceShort": "IFCT 2017 D056",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code D056",
+    "per100g": {
+      "kcal": 27.5,
+      "protein": 2.08,
+      "carbs": 3.62,
+      "fat": 0.22
+    }
+  },
+  "brinjal": {
+    "name": "Brinjal (baingan), all varieties",
+    "sourceShort": "IFCT 2017 D031",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code D031",
+    "per100g": {
+      "kcal": 25.3,
+      "protein": 1.48,
+      "carbs": 3.52,
+      "fat": 0.32
+    }
+  },
+  "bottle_gourd": {
+    "name": "Bottle gourd (lauki)",
+    "sourceShort": "IFCT 2017 D007",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code D007",
+    "per100g": {
+      "kcal": 11.0,
+      "protein": 0.53,
+      "carbs": 1.68,
+      "fat": 0.13
+    }
+  },
+  "french_beans": {
+    "name": "French beans",
+    "sourceShort": "IFCT 2017 D049",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code D049",
+    "per100g": {
+      "kcal": 24.4,
+      "protein": 2.49,
+      "carbs": 2.68,
+      "fat": 0.26
+    }
+  },
+  "sweet_potato": {
+    "name": "Sweet potato",
+    "sourceShort": "IFCT 2017 F013",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code F013",
+    "per100g": {
+      "kcal": 109.0,
+      "protein": 1.33,
+      "carbs": 24.25,
+      "fat": 0.26
+    }
+  },
+  "khoa": {
+    "name": "Khoa (mawa)",
+    "sourceShort": "IFCT 2017 L004",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code L004",
+    "per100g": {
+      "kcal": 316.0,
+      "protein": 16.34,
+      "carbs": 16.53,
+      "fat": 20.62
+    }
+  },
+  "coconut_fresh": {
+    "name": "Coconut, fresh",
+    "sourceShort": "IFCT 2017 H007",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code H007",
+    "per100g": {
+      "kcal": 408.9,
+      "protein": 3.84,
+      "carbs": 6.3,
+      "fat": 41.38
+    }
+  },
+  "coconut_dry": {
+    "name": "Coconut, dry (copra)",
+    "sourceShort": "IFCT 2017 H006",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code H006",
+    "per100g": {
+      "kcal": 624.0,
+      "protein": 7.27,
+      "carbs": 8.01,
+      "fat": 63.26
+    }
+  },
+  "egg": {
+    "name": "Egg, hen, whole, raw",
+    "sourceShort": "IFCT 2017 M001",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code M001",
+    "per100g": {
+      "kcal": 134.8,
+      "protein": 13.28,
+      "carbs": 0.0,
+      "fat": 9.15
+    }
+  },
+  "chicken": {
+    "name": "Chicken, thigh, skinless",
+    "sourceShort": "IFCT 2017 N002",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code N002",
+    "per100g": {
+      "kcal": 199.8,
+      "protein": 18.18,
+      "carbs": 0.0,
+      "fat": 14.23
+    }
+  },
+  "chicken_breast": {
+    "name": "Chicken, breast, skinless",
+    "sourceShort": "IFCT 2017 N003",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code N003",
+    "per100g": {
+      "kcal": 168.3,
+      "protein": 21.81,
+      "carbs": 0.0,
+      "fat": 9.0
+    }
+  },
+  "rohu": {
+    "name": "Rohu fish",
+    "sourceShort": "IFCT 2017 S006",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code S006",
+    "per100g": {
+      "kcal": 102.3,
+      "protein": 19.71,
+      "carbs": 0.0,
+      "fat": 2.39
+    }
+  },
+  "lemon_juice": {
+    "name": "Lemon juice",
+    "sourceShort": "IFCT 2017 E033",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code E033",
+    "per100g": {
+      "kcal": 36.6,
+      "protein": 0.41,
+      "carbs": 0.0,
+      "fat": 0.75
+    }
+  },
+  "tamarind": {
+    "name": "Tamarind pulp",
+    "sourceShort": "IFCT 2017 E064",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code E064",
+    "per100g": {
+      "kcal": 288.5,
+      "protein": 2.92,
+      "carbs": 67.35,
+      "fat": 0.15
+    }
+  },
+  "sesame": {
+    "name": "Sesame (til), white",
+    "sourceShort": "IFCT 2017 H011",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code H011",
+    "per100g": {
+      "kcal": 519.6,
+      "protein": 21.7,
+      "carbs": 10.83,
+      "fat": 43.05
+    }
+  },
+  "almond": {
+    "name": "Almond",
+    "sourceShort": "IFCT 2017 H001",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code H001",
+    "per100g": {
+      "kcal": 609.2,
+      "protein": 18.41,
+      "carbs": 3.04,
+      "fat": 58.49
+    }
+  },
+  "cardamom": {
+    "name": "Cardamom, green",
+    "sourceShort": "IFCT 2017 G020",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code G020",
+    "per100g": {
+      "kcal": 255.0,
+      "protein": 8.1,
+      "carbs": 47.76,
+      "fat": 2.6
+    }
+  },
+  "raisins": {
+    "name": "Raisins",
+    "sourceShort": "IFCT 2017 E057",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code E057",
+    "per100g": {
+      "kcal": 305.7,
+      "protein": 2.57,
+      "carbs": 71.29,
+      "fat": 0.34
+    }
+  },
+  "coriander_seeds": {
+    "name": "Coriander seeds (dhania)",
+    "sourceShort": "IFCT 2017 G024",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code G024",
+    "per100g": {
+      "kcal": 268.9,
+      "protein": 10.66,
+      "carbs": 12.98,
+      "fat": 17.47
+    }
+  },
+  "fenugreek_seeds": {
+    "name": "Fenugreek seeds (methi dana)",
+    "sourceShort": "IFCT 2017 G026",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code G026",
+    "per100g": {
+      "kcal": 234.9,
+      "protein": 25.41,
+      "carbs": 10.57,
+      "fat": 5.72
+    }
+  },
+  "curry_leaves": {
+    "name": "Curry leaves",
+    "sourceShort": "IFCT 2017 G010",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code G010",
+    "per100g": {
+      "kcal": 63.6,
+      "protein": 7.41,
+      "carbs": 4.51,
+      "fat": 1.06
+    }
+  },
+  "black_pepper": {
+    "name": "Black pepper",
+    "sourceShort": "IFCT 2017 G031",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code G031",
+    "per100g": {
+      "kcal": 217.5,
+      "protein": 10.12,
+      "carbs": 36.22,
+      "fat": 2.74
+    }
+  },
+  "coconut_oil": {
+    "name": "Coconut oil",
+    "sourceShort": "IFCT 2017 T001",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code T001",
+    "per100g": {
+      "kcal": 884.3,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100
+    },
+    "addedFat": true,
+    "energyNote": "Energy from IFCT's fat factor, 37 kJ per g"
+  },
+  "mustard_oil": {
+    "name": "Mustard oil",
+    "sourceShort": "IFCT 2017 T006",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code T006",
+    "per100g": {
+      "kcal": 884.3,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100
+    },
+    "addedFat": true,
+    "energyNote": "Energy from IFCT's fat factor, 37 kJ per g"
+  },
+  "vanaspati": {
+    "name": "Vanaspati",
+    "sourceShort": "IFCT 2017 T014",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code T014",
+    "per100g": {
+      "kcal": 884.3,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100
+    },
+    "addedFat": true,
+    "energyNote": "Energy from IFCT's fat factor, 37 kJ per g"
+  },
+  "curd": {
+    "name": "Curd (dahi), whole milk",
+    "sourceShort": "USDA FDC 171284",
+    "source": "USDA FoodData Central 171284, yogurt, plain, whole milk; IFCT 2017 has no curd",
+    "per100g": {
+      "kcal": 61.0,
+      "protein": 3.47,
+      "carbs": 4.66,
+      "fat": 3.25
+    }
+  },
+  "kabuli_chana": {
+    "name": "Chickpeas, white (kabuli chana), dry",
+    "sourceShort": "USDA FDC 173756",
+    "source": "USDA FoodData Central 173756, chickpeas, mature seeds, raw; IFCT 2017 lists only the brown (kala) chana",
+    "per100g": {
+      "kcal": 378.0,
+      "protein": 20.5,
+      "carbs": 50.8,
+      "fat": 6.04
+    }
+  },
+  "sabudana": {
+    "name": "Sabudana (tapioca pearls)",
+    "sourceShort": "USDA FDC 169717",
+    "source": "USDA FoodData Central 169717, tapioca, pearl, dry",
+    "per100g": {
+      "kcal": 358.0,
+      "protein": 0.19,
+      "carbs": 87.8,
+      "fat": 0.02
+    }
+  },
+  "kuttu": {
+    "name": "Kuttu (buckwheat) flour",
+    "sourceShort": "USDA FDC 170687",
+    "source": "USDA FoodData Central 170687, buckwheat flour, whole-groat",
+    "per100g": {
+      "kcal": 335.0,
+      "protein": 12.6,
+      "carbs": 60.6,
+      "fat": 3.1
+    }
+  },
+  "makhana": {
+    "name": "Makhana (lotus seeds), dry",
+    "sourceShort": "USDA FDC 170149",
+    "source": "USDA FoodData Central 170149, lotus seeds, dried",
+    "per100g": {
+      "kcal": 332.0,
+      "protein": 15.4,
+      "carbs": 64.5,
+      "fat": 1.97
+    }
+  },
+  "pav": {
+    "name": "Pav (soft bread roll)",
+    "sourceShort": "USDA FDC 172793",
+    "source": "USDA FoodData Central 172793, rolls, dinner, plain, the closest match to pav",
+    "per100g": {
+      "kcal": 310.0,
+      "protein": 10.9,
+      "carbs": 50.0,
+      "fat": 6.47
+    }
+  },
+  "bread_white": {
+    "name": "White bread",
+    "sourceShort": "USDA FDC 174924",
+    "source": "USDA FoodData Central 174924, bread, white, commercially prepared",
+    "per100g": {
+      "kcal": 266.0,
+      "protein": 8.85,
+      "carbs": 46.7,
+      "fat": 3.33
+    }
+  },
+  "coffee_decoction": {
+    "name": "Coffee, brewed",
+    "sourceShort": "USDA FDC 171890",
+    "source": "USDA FoodData Central 171890, coffee, brewed",
+    "per100g": {
+      "kcal": 1.0,
+      "protein": 0.12,
+      "carbs": 0.0,
+      "fat": 0.02
+    }
+  },
+  "rice_flour": {
+    "name": "Rice flour",
+    "sourceShort": "USDA FDC 169714",
+    "source": "USDA FoodData Central 169714, rice flour, white",
+    "per100g": {
+      "kcal": 366.0,
+      "protein": 5.95,
+      "carbs": 77.7,
+      "fat": 1.42
+    }
+  },
+  "coconut_milk": {
+    "name": "Coconut milk",
+    "sourceShort": "USDA FDC 170172",
+    "source": "USDA FoodData Central 170172, coconut milk, raw",
+    "per100g": {
+      "kcal": 230.0,
+      "protein": 2.29,
+      "carbs": 3.34,
+      "fat": 23.8
+    }
+  },
+  "chilli_powder": {
+    "name": "Red chilli powder",
+    "sourceShort": "USDA FDC 171319",
+    "source": "USDA FoodData Central 171319, spices, chili powder",
+    "per100g": {
+      "kcal": 282.0,
+      "protein": 13.5,
+      "carbs": 14.9,
+      "fat": 14.3
+    }
+  },
+  "fennel": {
+    "name": "Fennel seeds (saunf)",
+    "sourceShort": "USDA FDC 171323",
+    "source": "USDA FoodData Central 171323, spices, fennel seed",
+    "per100g": {
+      "kcal": 345.0,
+      "protein": 15.8,
+      "carbs": 12.5,
+      "fat": 14.9
+    }
+  },
+  "condensed_milk": {
+    "name": "Condensed milk, sweetened",
+    "sourceShort": "USDA FDC 171275",
+    "source": "USDA FoodData Central 171275, milk, canned, condensed, sweetened",
+    "per100g": {
+      "kcal": 321.0,
+      "protein": 7.91,
+      "carbs": 54.4,
+      "fat": 8.7
+    }
+  },
+  "honey": {
+    "name": "Honey",
+    "sourceShort": "USDA FDC 169640",
+    "source": "USDA FoodData Central 169640, honey",
+    "per100g": {
+      "kcal": 304.0,
+      "protein": 0.3,
+      "carbs": 82.2,
+      "fat": 0.0
+    }
   }
 }
