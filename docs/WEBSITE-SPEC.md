@@ -38,6 +38,7 @@ A first version of the site exists (`slate-website/`: `index.html`, `privacy/`, 
 21. Things the site must never do
 22. Placeholders to fill before launch
 23. Acceptance checklist
+24. Content pages: /calories/, /for/, /compare/, /blog/
 
 ---
 
@@ -296,6 +297,11 @@ Slate is free forever. Slate Plus is optional. **Nothing that is free today will
 | `/terms/` | Terms of use (linked from the app, required by Apple) |
 | `/support/` | Support and FAQ, with the contact email (App Store support URL) |
 | `/404.html` | Not found |
+| `/calories/` | Calories in Indian food: every dish, grouped, with a search box (§24.2) |
+| `/calories/<dish>/` | One page per dish, 70 dishes (§24.2) |
+| `/for/` and 8 pages | Who Slate is for: Indian food, vegetarians, home cooking, eating out, Hinglish, no login, fasting days, office canteen and tiffin (§24.3) |
+| `/compare/` and 4 pages | Slate compared with HealthifyMe, MyFitnessPal, Cal AI and Lose It! (§24.4) |
+| `/blog/` and 6 articles | Articles by Nirmal Amin, Sonal Systems (§24.5) |
 
 Home anchors: `#how`, `#write`, `#kitchen`, `#estimate`, `#body`, `#health`, `#more`, `#promise`, `#pricing`, `#faq`, `#about`.
 
@@ -487,7 +493,7 @@ Use native `<details>`/`<summary>` accordions. All closed by default. Heading: "
 ### 8.15 Footer
 
 - Left: wordmark "Slate", then "Sonal Systems Private Limited", "A-3, Mehsana Nagar, Nizampura, Vadodara 390002, Gujarat, India", "CIN U62099GJ2026PTC179785".
-- Right, links: Privacy policy · Terms · Support · support@writeonslate.com
+- Right, links: Food calories · Who Slate is for · Compare · Blog · Privacy policy · Terms · Support · support@writeonslate.com. The build keeps this list the same on every page, from data/site.json (§24.6).
 - Bottom line, small: © 2026 Sonal Systems Private Limited. Apple, the Apple logo, iPhone and Apple Watch are trademarks of Apple Inc. Swiggy and Zomato are trademarks of their owners. Slate is not affiliated with them. (Text only, no logos.)
 
 ---
@@ -807,7 +813,7 @@ No scroll-triggered animations, no parallax, no auto-playing anything, no carous
 ### 18.4 Other
 
 - `robots.txt` allowing all, pointing to `sitemap.xml`.
-- `sitemap.xml` with the four pages.
+- `sitemap.xml` with every page. `node scripts/build.mjs` regenerates the /calories/, /for/, /compare/ and /blog/ entries with their lastmod dates.
 - Natural keyword use in copy (not stuffed): calorie counter for Indian food, calorie journal, Indian food calories, katori, roti, dal, Hinglish.
 
 ---
@@ -902,3 +908,50 @@ The site is done when all of these are true:
 - [ ] JSON-LD validates (Organization, SoftwareApplication, FAQPage).
 - [ ] `robots.txt` and `sitemap.xml` present.
 - [ ] All `TODO(launch):` placeholders listed in the README.
+- [ ] `node scripts/check.mjs` passes, and `node scripts/build.mjs` leaves no uncommitted changes.
+
+---
+
+## 24. Content pages: /calories/, /for/, /compare/, /blog/
+
+Added in October 2026. These pages answer what people search about Indian food and calories, and show how Slate counts. They follow §3 (voice) and §21 (things the site must never do), with the extra rules below.
+
+### 24.1 How they're built
+
+- Generated, never edited by hand. `node scripts/build.mjs` writes every page from `data/foods.json` (dishes), `data/ingredients.json` (values per 100 g), `data/pages.json` (the /for/, /compare/ and /blog/ copy) and `data/site.json` (call to action, footer links, hub copy, author). To change a page, change the data and rebuild.
+- `node scripts/check.mjs` must pass before every push. It checks banned words, exclamation marks (the trademark "Lose It!" is allowed), em dashes, emoji, titles of 60 characters or fewer, descriptions of 155 or fewer, one h1, `lang="en-IN"`, broken internal links, valid JSON-LD, and FAQPage questions that match the visible FAQ word for word.
+- `data/`, `research/` and `scripts/` are not deployed (`.vercelignore`).
+- Every number traces to research: `research/food-sources.md` (generated: each dish's recipe, arithmetic, cross-checks, judgement calls and sources), `research/content-sources.md` (numbers on the /for/, /compare/ and /blog/ pages), `research/competitors.md` (competitor facts with the date checked) and `research/search-queries-*.json` (the searches the FAQs answer).
+- Prose holds numbers as tokens, such as `{{kcal:k200}}`, `{{kcal@roti:medium}}`, `{{outLo@samosa}}`, `{{ing:paneer}}` and `{{sum:2*roti:medium+dal-tadka:k200}}`, so fixing one value updates every page that quotes it.
+
+### 24.2 Food pages (/calories/)
+
+- **Hub:** every dish, grouped as breads, dals and curries, rice, sabzis, breakfast, street food and snacks, sweets, drinks, fasting food and restaurant dishes, with a search box that filters on the page (`assets/hub.js`, no network calls). JSON-LD: CollectionPage with an ItemList.
+- **Dish page, in order:** H1 "<Dish> calories"; a one-sentence answer; a short intro; the note "Typical values for a home kitchen. Your own katori, roti and oil change the number; Slate adjusts for them."; a portions table (calories rounded to the nearest 5, grams to whole numbers); Home or outside, as a range; What changes the number; How these numbers were worked out (the recipe in grams, where each value comes from, and the sources); 3 to 5 questions people search, with FAQPage JSON-LD; related dishes and one /for/ page; the call to action.
+- **Numbers:** recipes in grams from standard Indian textbooks via the Indian Nutrient Databank where they exist (The Art & Science of Cooking, Basic Food Preparation); values from IFCT 2017, with USDA FoodData Central only where IFCT 2017 has no entry. Frying oil and syrup taken up are set from lab measurements or USDA composition, never from the databank's totals, which count all the frying oil as eaten. Where a credible source differs by more than 15%, the page shows a range and says why; the build refuses to publish otherwise. Dishes without any analysed source say so (jalebi is marked as an estimate).
+- No Recipe schema and no photos (owner decision, October 2026). JSON-LD: WebPage, BreadcrumbList, FAQPage.
+
+### 24.3 Use-case pages (/for/)
+
+Eight pages: indian-food, vegetarians, home-cooking, eating-out, hinglish, no-login, fasting, office-canteen-tiffin, with a hub. Each explains the problem honestly, how to count better, and where Slate helps, using only the facts in §4 to §6. No overselling, no goals, no weight-loss or medical claims.
+
+### 24.4 Comparison pages (/compare/)
+
+- Four pages, healthifyme, myfitnesspal, cal-ai and lose-it, with a hub. Never Mist.
+- Each page: "Checked on <date>" at the top; a one-paragraph summary; a side-by-side table (how you log food, Indian home food, restaurant food, free tier, price in India, login required, ads, where data is stored, coaching or sales calls, platforms); "Where Slate is different"; "Where <app> is a better fit"; FAQ; the call to action; and the line "<App> is a trademark of its owner. Slate is not affiliated with it. Details checked on <date> and may have changed."
+- Every fact about another app comes from its own website, help pages, privacy policy or App Store India listing, or from a reputable publication, and is linked on the page and logged with its date in `research/competitors.md`. Prices are shown as listed for India; where a fact couldn't be confirmed, the page says so. No logos, no screenshots, no imitation of their design, nothing disparaging.
+- Slate's own facts on these pages must match §5 and §6 exactly. Re-check the competitor facts before editing a page, and at least every three months.
+
+### 24.5 Blog (/blog/)
+
+- Six articles: katori-size-calories, home-dal-vs-restaurant-dal, chai-calories, count-thali-calories, fasting-day-calories, maintenance-calories, with an index.
+- Each: byline "By Nirmal Amin, Sonal Systems" with the published date; a key takeaways box; sources linked in the text; BlogPosting JSON-LD (author, datePublished, dateModified); `og:type` article.
+- No medical advice. Where a reader's situation needs it, the article suggests a doctor or dietitian, and for distress about food, Tele-MANAS (14416).
+
+### 24.6 Shared by every content page
+
+- Breadcrumbs (Home / Section / Page) with BreadcrumbList JSON-LD.
+- The call to action: "Slate works this out for your own katori and oil. Free, no login, iPhone." with the App Store button, or "Coming soon to iPhone" until `appStoreUrl` is set in `data/site.json`.
+- Footer links on every page, including the hand-written ones: Food calories · Who Slate is for · Compare · Blog · Privacy policy · Terms · Support · support@writeonslate.com. The build keeps them in sync from `data/site.json`.
+- Canonical host writeonslate.com (apex), trailing-slash URLs, `<html lang="en-IN">`, light and dark mode.
+- Lighthouse mobile 95+ and no horizontal scroll at 360 px, as for the rest of the site.
