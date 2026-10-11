@@ -10415,6 +10415,2217 @@
         "carbs": 18,
         "fat": 3
       }
+    },
+    {
+      "slug": "aloo-sabzi",
+      "name": "Aloo sabzi",
+      "nameLower": "aloo sabzi",
+      "category": "sabzi",
+      "aliases": [
+        "aloo ki sabzi",
+        "aloo curry",
+        "potato sabzi",
+        "potato curry",
+        "aloo tamatar",
+        "batata nu shaak",
+        "आलू की सब्जी",
+        "आलू सब्जी",
+        "બટાકાનું શાક"
+      ],
+      "updated": "2026-10-11",
+      "title": "Aloo sabzi calories: per katori and per 100 g",
+      "description": "A 200 ml katori of aloo sabzi in tomato gravy has about {{kcal:k200}} calories, with 2 teaspoons of oil in the pot. With puri, and halwai style.",
+      "answer": "A 200 ml katori of home aloo sabzi in a tomato gravy has about {{kcal:k200}} calories. Potato and oil make up most of it, in roughly equal parts.",
+      "intro": [
+        "Aloo sabzi is potato cooked with tomato, onion, ginger, garlic and ground coriander, with a jeera tempering. Some homes make it dry, others with a thin gravy for puri or kachori. Gujarati batata nu shaak is often sweet and sour, and the halwai version served with puri is usually oilier.",
+        "Potato itself is a moderate starch, about 70 calories per 100 g raw in IFCT 2017. The oil in the pot adds about as much again."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Aloo sabzi with a tomato gravy, made as below.",
+      "recipe": {
+        "label": "Recipe: one bowl, 100 g potato with tomato, onion and 2 teaspoons of oil",
+        "ingredients": [
+          {
+            "id": "potato",
+            "g": 100
+          },
+          {
+            "id": "tomato",
+            "g": 50
+          },
+          {
+            "id": "onion",
+            "g": 30
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3
+          },
+          {
+            "id": "ginger",
+            "g": 3
+          },
+          {
+            "id": "garlic",
+            "g": 1.25
+          },
+          {
+            "id": "coriander_seeds",
+            "g": 1.8
+          },
+          {
+            "id": "turmeric",
+            "g": 0.75
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 1
+          },
+          {
+            "id": "oil",
+            "g": 9,
+            "note": "2 teaspoons"
+          }
+        ],
+        "cookedYieldG": 200,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does",
+        "densityGPerMl": 1,
+        "densityNote": "sabzi with gravy taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 140,
+          "protein": 2,
+          "carbs": 16,
+          "fat": 7
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 185,
+          "protein": 3,
+          "carbs": 21,
+          "fat": 10
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 250,
+          "kcal": 230,
+          "protein": 4,
+          "carbs": 26,
+          "fat": 12
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 95,
+          "protein": 1,
+          "carbs": 10,
+          "fat": 5
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Halwai, with puri or kachori",
+        "caption": "One 200 ml katori. The outside range has 1.5 to 2 times the oil.",
+        "fatFactor": [
+          1.5,
+          2
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "basis": "No analysed value for halwai aloo sabzi was found. 1.5 to 2 times this recipe's oil is a stated assumption.",
+        "text": [
+          "The aloo sabzi that comes with puri or kachori from a halwai is usually cooked with more oil, often with a layer of it on top.",
+          "No lab has measured it, so the range below assumes 1.5 to 2 times the oil of this home recipe for the same katori."
+        ],
+        "kcalRange": [
+          225,
+          265
+        ],
+        "fatRange": [
+          14,
+          19
+        ]
+      },
+      "changes": [
+        "Each teaspoon of oil adds about 40 calories to the pot. A dry aloo sabzi fried until crisp takes more.",
+        "More potato and less gravy raises the number per katori. Adding peas, methi or gobhi lowers it.",
+        "Puri or kachori with it is counted separately: see [puri](/calories/puri/).",
+        "Potato skins add fibre and almost no calories."
+      ],
+      "method": [
+        "The recipe is the potato curry in Basic Food Preparation, a standard Indian cookery manual (via the Indian Nutrient Databank): 100 g potato with tomato, onion, green chilli, ginger, garlic and spices, cooked in 2 teaspoons of oil. Values are from IFCT 2017.",
+        "The cooked weight is the ingredients added together, and katoris are worked out at 1 g per ml."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of aloo sabzi?",
+          "a": "About {{kcal:k200}} in a 200 ml katori, and about {{kcal:k150}} in a 150 ml one."
+        },
+        {
+          "q": "How many calories are in aloo sabzi and puri?",
+          "a": "A 200 ml katori of aloo sabzi is about {{kcal:k200}}, and each home [puri](/calories/puri/) about {{kcal@puri:one}}. Four puris with a katori come to about 570."
+        },
+        {
+          "q": "How many calories are in 100 g of aloo sabzi?",
+          "a": "About {{kcal:g100}}."
+        },
+        {
+          "q": "How much protein is in aloo sabzi?",
+          "a": "About {{protein:k200}} g in a 200 ml katori. Potato has little protein; dal or curd on the side adds more."
+        }
+      ],
+      "related": [
+        "puri",
+        "roti",
+        "mixed-veg",
+        "kachori",
+        "phulka"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: vegetable with gravy, 1 cup",
+          "portionId": "k200",
+          "kcal": 170,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "A general figure for all vegetable dishes with gravy.",
+          "ours": 185,
+          "differencePct": -8
+        }
+      ],
+      "judgement": [
+        "Bay leaf, cumin, garam masala and chilli powder (under 1 g each) left out.",
+        "Puri FAQ: 4 x 95 + 185 = 565, rounded to about 570."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Potato (F006), tomato, onion, green chilli, ginger, garlic, coriander seeds, turmeric, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipe BFP239, potato curry",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: vegetable dry 150 kcal and with gravy 170 kcal per cup; cup = 200 ml",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 95,
+        "protein": 1,
+        "carbs": 10,
+        "fat": 5
+      }
+    },
+    {
+      "slug": "bhindi",
+      "name": "Bhindi sabzi",
+      "nameLower": "bhindi sabzi",
+      "category": "sabzi",
+      "aliases": [
+        "bhindi",
+        "bhindi fry",
+        "bhindi masala",
+        "okra",
+        "ladies finger",
+        "bhindi do pyaza",
+        "bhinda nu shaak",
+        "भिंडी",
+        "भिंडी की सब्जी",
+        "ભીંડા નું શાક"
+      ],
+      "updated": "2026-10-11",
+      "title": "Bhindi sabzi calories: per katori, bowl and 100 g",
+      "description": "A 200 ml katori of bhindi fry has about {{kcal:k200}} calories, most of it from the oil. Bowl, 100 g and restaurant bhindi masala compared.",
+      "answer": "A 200 ml katori of home bhindi fry has about {{kcal:k200}} calories. Okra is light; the oil is close to three quarters of the number.",
+      "intro": [
+        "Bhindi sabzi is okra cut into rounds and stir-fried with onion, turmeric, chilli and coriander until it loses its stickiness. Bhindi do pyaza adds more onion, Gujarati bhinda nu shaak is often cooked with a little besan or peanut, and kurkuri bhindi is deep-fried.",
+        "Okra has only about 28 calories per 100 g raw. Bhindi needs a fair amount of oil to cook dry, and in this textbook recipe that oil is nearly three quarters of the calories."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Bhindi fry, made as below.",
+      "recipe": {
+        "label": "Recipe: one bowl, 120 g bhindi with onion and 15 g oil",
+        "ingredients": [
+          {
+            "id": "okra",
+            "g": 120
+          },
+          {
+            "id": "onion",
+            "g": 30
+          },
+          {
+            "id": "turmeric",
+            "g": 0.75
+          },
+          {
+            "id": "chilli_powder",
+            "g": 0.35
+          },
+          {
+            "id": "oil",
+            "g": 15,
+            "note": "a little over 3 teaspoons"
+          }
+        ],
+        "cookedYieldG": 166,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does",
+        "densityGPerMl": 0.697,
+        "densityNote": "USDA's cooked okra with fat added: 165 g per cup (236.6 ml)"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 105,
+          "kcal": 115,
+          "protein": 2,
+          "carbs": 5,
+          "fat": 10
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 139,
+          "kcal": 155,
+          "protein": 3,
+          "carbs": 6,
+          "fat": 13
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 174,
+          "kcal": 190,
+          "protein": 3,
+          "carbs": 8,
+          "fat": 16
+        },
+        {
+          "id": "bowl",
+          "label": "1 bowl (120 g raw bhindi)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 166,
+          "kcal": 185,
+          "protein": 3,
+          "carbs": 8,
+          "fat": 15
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 110,
+          "protein": 2,
+          "carbs": 5,
+          "fat": 9
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Restaurant bhindi masala",
+        "caption": "One 200 ml katori. The outside range has 1.3 to 1.6 times the oil.",
+        "fatFactor": [
+          1.3,
+          1.6
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "basis": "No analysed value for restaurant bhindi was found. This recipe already uses a lot of oil per gram of okra; 1.3 to 1.6 times is a stated assumption. Kurkuri (deep-fried) bhindi is higher again.",
+        "text": [
+          "Restaurant bhindi masala and bhindi do pyaza are usually cooked with more oil, and kurkuri bhindi is deep-fried in batter, which takes up a lot more.",
+          "No lab has measured restaurant bhindi, so the range below allows 1.3 to 1.6 times this recipe's oil for the same katori."
+        ],
+        "kcalRange": [
+          185,
+          220
+        ],
+        "fatRange": [
+          17,
+          21
+        ]
+      },
+      "changes": [
+        "Oil is almost the whole story. Each teaspoon adds about 40 calories, and okra soaks it up as it cooks.",
+        "Cooking in a wide pan on high heat needs less oil to stop the stickiness than covering the pan.",
+        "Besan or crushed peanuts in Gujarati bhindi add more: 10 g of peanuts is about 50 calories.",
+        "Kurkuri bhindi coated in besan and deep-fried has several times this oil."
+      ],
+      "method": [
+        "The recipe is the okra fry in Basic Food Preparation, a standard Indian cookery manual (via the Indian Nutrient Databank): 120 g bhindi and 30 g onion with turmeric, coriander and chilli, cooked in 15 g of oil. Values are from IFCT 2017.",
+        "The cooked weight is the ingredients added together. Katoris use USDA's 165 g per cup for cooked okra with fat added."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of bhindi sabzi?",
+          "a": "About {{kcal:k200}} in a 200 ml katori and about {{kcal:k150}} in a 150 ml one."
+        },
+        {
+          "q": "How many calories are in 100 g of bhindi sabzi?",
+          "a": "About {{kcal:g100}}, most of it from the oil."
+        },
+        {
+          "q": "How much protein is in bhindi sabzi?",
+          "a": "About {{protein:k200}} g in a 200 ml katori. Okra has little protein; dal with it adds more."
+        },
+        {
+          "q": "How many calories are in 2 roti and bhindi sabzi?",
+          "a": "Two medium [rotis](/calories/roti/) are about {{kcal@roti:two}}, and a 200 ml katori of bhindi about {{kcal:k200}}."
+        }
+      ],
+      "related": [
+        "aloo-sabzi",
+        "baingan-bharta",
+        "roti",
+        "dal-tadka"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: vegetable, dry, 1 cup",
+          "portionId": "k200",
+          "kcal": 150,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "A general figure for all dry vegetable dishes.",
+          "ours": 154,
+          "differencePct": -2
+        }
+      ],
+      "judgement": [
+        "Coriander powder (0.125 tsp) left out.",
+        "Okra raw 27.5 kcal per 100 g (IFCT D056).",
+        "Peanuts in the changes list: 10 g x 520 kcal per 100 g (IFCT H012) = 52 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Ladies finger (D056), onion, turmeric, oil, groundnut (H012); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipe BFP269, okra fry",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Okra, fresh, cooked, fat added (2709947)",
+          "url": "https://fdc.nal.usda.gov/food-details/2709947/nutrients",
+          "note": "165 g per cup",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: vegetable dry 150 kcal and with gravy 170 kcal per cup; cup = 200 ml",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 110,
+        "protein": 2,
+        "carbs": 5,
+        "fat": 9
+      }
+    },
+    {
+      "slug": "mixed-veg",
+      "name": "Mixed veg sabzi",
+      "nameLower": "mixed veg sabzi",
+      "category": "sabzi",
+      "aliases": [
+        "mix veg",
+        "mixed vegetable",
+        "mix veg sabzi",
+        "mix veg curry",
+        "aloo gobi matar",
+        "gobhi aloo matar",
+        "mixed vegetable sabzi",
+        "मिक्स वेज",
+        "मिक्स सब्जी",
+        "મિક્સ શાક"
+      ],
+      "updated": "2026-10-11",
+      "title": "Mix veg sabzi calories: per katori and per 100 g",
+      "description": "A 200 ml katori of home mix veg sabzi (gobhi, matar and aloo) has about {{kcal:k200}} calories. Restaurant mix veg and kadai veg compared.",
+      "answer": "A 200 ml katori of home mixed veg sabzi with cauliflower, peas and potato has about {{kcal:k200}} calories, about half of it from the oil.",
+      "intro": [
+        "Mixed veg sabzi at home is usually whatever's in season, most often cauliflower, peas and potato with tomato and onion, cooked fairly dry. On restaurant menus, mix veg, kadai veg and veg jalfrezi are richer versions with more oil and sometimes cream.",
+        "The vegetables here add only about half the calories. Peas and potato carry most of that share, and the oil the rest."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Gobhi, matar and aloo, cooked dry as below.",
+      "recipe": {
+        "label": "Recipe: one bowl, 120 g cauliflower, peas and potato with 10 g oil",
+        "ingredients": [
+          {
+            "id": "cauliflower",
+            "g": 40
+          },
+          {
+            "id": "peas_fresh",
+            "g": 40
+          },
+          {
+            "id": "potato",
+            "g": 40
+          },
+          {
+            "id": "tomato",
+            "g": 25
+          },
+          {
+            "id": "onion",
+            "g": 25
+          },
+          {
+            "id": "ginger",
+            "g": 5
+          },
+          {
+            "id": "garlic",
+            "g": 0.6
+          },
+          {
+            "id": "lemon_juice",
+            "g": 2.5
+          },
+          {
+            "id": "turmeric",
+            "g": 0.4
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 1
+          },
+          {
+            "id": "oil",
+            "g": 10,
+            "note": "a little over 2 teaspoons"
+          }
+        ],
+        "cookedYieldG": 190,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does",
+        "densityGPerMl": 0.782,
+        "densityNote": "USDA's cooked mixed vegetables: 185 g per cup (236.6 ml)"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 117,
+          "kcal": 110,
+          "protein": 3,
+          "carbs": 10,
+          "fat": 7
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 156,
+          "kcal": 150,
+          "protein": 4,
+          "carbs": 13,
+          "fat": 9
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 196,
+          "kcal": 185,
+          "protein": 5,
+          "carbs": 16,
+          "fat": 11
+        },
+        {
+          "id": "bowl",
+          "label": "1 bowl (120 g vegetables)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 190,
+          "kcal": 180,
+          "protein": 5,
+          "carbs": 16,
+          "fat": 11
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 95,
+          "protein": 3,
+          "carbs": 8,
+          "fat": 6
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Restaurant mix veg or kadai veg",
+        "caption": "One 200 ml katori. The outside range has 1.5 to 2.5 times the oil, plus up to a tablespoon of cream.",
+        "fatFactor": [
+          1.5,
+          2.5
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "cream",
+            "g": [
+              0,
+              15
+            ]
+          }
+        ],
+        "basis": "USDA's restaurant mixed vegetables (FNDDS 75310990) have 4.7 g fat per 100 g, and Indian restaurant versions are commonly richer with butter or cream. 1.5 to 2.5 times this recipe's oil and up to a tablespoon of cream are stated assumptions.",
+        "text": [
+          "Restaurant mix veg, kadai veg and veg jalfrezi are usually cooked in more oil or butter, and some are finished with cream or cashew paste.",
+          "No lab has measured an Indian restaurant mix veg, so the range below allows 1.5 to 2.5 times this recipe's oil, plus up to a tablespoon of cream per katori."
+        ],
+        "kcalRange": [
+          185,
+          285
+        ],
+        "fatRange": [
+          13,
+          24
+        ]
+      },
+      "changes": [
+        "Oil is about half the number. Each teaspoon adds about 40 calories to the pot.",
+        "More potato, peas or corn raises it; more cauliflower, beans, capsicum or carrot lowers it.",
+        "Paneer cubes add about 65 calories per 25 g.",
+        "Cream or cashew gravy in restaurant versions adds the most."
+      ],
+      "method": [
+        "The recipe is the cauliflower, pea and potato bhujia in Basic Food Preparation, a standard Indian cookery manual (via the Indian Nutrient Databank): 40 g each of cauliflower, peas and potato with tomato, onion, ginger, garlic and lemon, cooked in 10 g of oil. Values are from IFCT 2017.",
+        "The cooked weight is the ingredients added together. Katoris use USDA's 185 g per cup for cooked mixed vegetables."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of mix veg?",
+          "a": "About {{kcal:k200}} in a 200 ml katori of home mix veg, and about {{outLo}} to {{outHi}} for restaurant style."
+        },
+        {
+          "q": "How many calories are in 100 g of mix veg sabzi?",
+          "a": "About {{kcal:g100}}."
+        },
+        {
+          "q": "How much protein is in mix veg sabzi?",
+          "a": "About {{protein:k200}} g in a 200 ml katori, mostly from the peas."
+        },
+        {
+          "q": "Mix veg or roti, which has more calories?",
+          "a": "Per usual serving they're close: a 200 ml katori of this sabzi is about {{kcal:k200}}, and two medium [rotis](/calories/roti/) about {{kcal@roti:two}}."
+        }
+      ],
+      "related": [
+        "aloo-sabzi",
+        "cabbage-sabzi",
+        "bhindi",
+        "roti",
+        "pulao"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: vegetable, dry, 1 cup",
+          "portionId": "k200",
+          "kcal": 150,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "A general figure for all dry vegetable dishes.",
+          "ours": 149,
+          "differencePct": 1
+        }
+      ],
+      "judgement": [
+        "Garam masala and chilli powder (0.125 tsp each) left out.",
+        "Lime juice 0.5 tsp = 2.5 g.",
+        "Paneer in the changes list: 25 g x 258 kcal per 100 g (IFCT L003) = 64 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Cauliflower (D036), peas (D061), potato (F006), tomato, onion, ginger, garlic, lemon juice, turmeric, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipe BFP276, cauliflower, pea and potato bhujia",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Classic mixed vegetables, cooked, from restaurant (2710012)",
+          "url": "https://fdc.nal.usda.gov/food-details/2710012/nutrients",
+          "note": "4.74 g fat per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Classic mixed vegetables, NS as to form, cooked (2710015)",
+          "url": "https://fdc.nal.usda.gov/food-details/2710015/nutrients",
+          "note": "185 g per cup",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: vegetable dry 150 kcal and with gravy 170 kcal per cup; cup = 200 ml",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 95,
+        "protein": 3,
+        "carbs": 8,
+        "fat": 6
+      }
+    },
+    {
+      "slug": "baingan-bharta",
+      "name": "Baingan bharta",
+      "nameLower": "baingan bharta",
+      "category": "sabzi",
+      "aliases": [
+        "baingan ka bharta",
+        "brinjal bharta",
+        "bharta",
+        "vangyache bharit",
+        "ringan no olo",
+        "baingan chokha",
+        "बैंगन भरता",
+        "बैंगन का भर्ता",
+        "રીંગણનો ઓળો"
+      ],
+      "updated": "2026-10-11",
+      "title": "Baingan bharta calories: per katori and per 100 g",
+      "description": "A 200 ml katori of home baingan bharta has about {{kcal:k200}} calories, with a tablespoon of oil in the bowl. Restaurant bharta and chokha compared.",
+      "answer": "A 200 ml katori of home baingan bharta has about {{kcal:k200}} calories. A whole textbook bowl, made from 200 g of brinjal with a tablespoon of oil, is about {{kcal:bowl}}.",
+      "intro": [
+        "Baingan bharta is a large brinjal roasted over a flame until the skin chars, then peeled, mashed and cooked with onion, tomato, green chilli and ginger. Punjabi bharta is cooked in oil or ghee, Bihari chokha is mixed with mustard oil raw, and Gujarati ringan no olo and Maharashtrian bharit are close cousins.",
+        "Brinjal is one of the lightest vegetables, about 25 calories per 100 g. Over half of this bowl's calories come from the oil."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Bharta made as below.",
+      "recipe": {
+        "label": "Recipe: one bowl, 200 g brinjal with onion, tomato and 1 tablespoon of oil",
+        "ingredients": [
+          {
+            "id": "brinjal",
+            "g": 200,
+            "note": "Roasted and peeled"
+          },
+          {
+            "id": "tomato",
+            "g": 50
+          },
+          {
+            "id": "onion",
+            "g": 50
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3
+          },
+          {
+            "id": "ginger",
+            "g": 5
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 1
+          },
+          {
+            "id": "chilli_powder",
+            "g": 0.7
+          },
+          {
+            "id": "oil",
+            "g": 13.6,
+            "note": "1 tablespoon"
+          }
+        ],
+        "cookedYieldG": 324,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does; water lost in roasting isn't counted",
+        "densityGPerMl": 1,
+        "densityNote": "mashed bharta taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 100,
+          "protein": 2,
+          "carbs": 7,
+          "fat": 7
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 130,
+          "protein": 3,
+          "carbs": 9,
+          "fat": 9
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 250,
+          "kcal": 165,
+          "protein": 3,
+          "carbs": 11,
+          "fat": 11
+        },
+        {
+          "id": "bowl",
+          "label": "1 bowl (200 g brinjal)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 324,
+          "kcal": 210,
+          "protein": 4,
+          "carbs": 14,
+          "fat": 15
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 65,
+          "protein": 1,
+          "carbs": 4,
+          "fat": 5
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Dhaba or restaurant",
+        "caption": "One 200 ml katori. The outside range has up to twice the oil or ghee.",
+        "fatFactor": [
+          1,
+          2
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "basis": "No analysed value for restaurant baingan bharta was found. Up to twice this recipe's fat is a stated assumption; dhaba bharta is often finished with ghee or butter.",
+        "text": [
+          "Dhaba bharta is often cooked in more oil and finished with ghee or butter on top, and a roasted bharta that's cooked down further holds more in each katori.",
+          "No lab has measured it, so the range below allows up to twice this recipe's fat."
+        ],
+        "kcalRange": [
+          130,
+          205
+        ],
+        "fatRange": [
+          9,
+          17
+        ]
+      },
+      "changes": [
+        "Oil or ghee is the biggest part. Each teaspoon adds about 40 to 45 calories to the pot.",
+        "Roasting drives water out of the brinjal, so a well-roasted bharta packs more into a katori than this recipe suggests.",
+        "Bihari chokha uses a spoon of raw mustard oil instead of frying; the calories per teaspoon are the same.",
+        "Peas in matar baingan bharta add a little, about 40 calories per 50 g."
+      ],
+      "method": [
+        "The recipe is the brinjal bharta in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 200 g brinjal, 50 g each of onion and tomato, green chilli, ginger and spices, cooked in a tablespoon of oil. Values are from IFCT 2017.",
+        "The cooked weight is the ingredients added together, with no allowance for water lost in roasting, so the katori figures are on the low side for a dry bharta."
+      ],
+      "range": {
+        "text": "ICMR-NIN's general figure for a cup of dry vegetable dish is 150 calories, a little above this page's {{kcal:k200}}. A drier, well-roasted bharta, or one with more oil, comes closer to that, so a 200 ml katori is usually between {{kcal:k200}} and 150.",
+        "reason": "NIN's dry vegetable (150 kcal per cup) is 15% above this page's katori, which ignores water lost in roasting. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of baingan bharta?",
+          "a": "About {{kcal:k200}} in a 200 ml katori, and up to about 150 for a drier bharta."
+        },
+        {
+          "q": "How many calories are in 100 g of baingan bharta?",
+          "a": "About {{kcal:g100}} for this recipe."
+        },
+        {
+          "q": "How much protein is in baingan bharta?",
+          "a": "About {{protein:k200}} g in a 200 ml katori. Brinjal has little protein."
+        },
+        {
+          "q": "How many calories are in baingan bharta without oil?",
+          "a": "Much less. Without the tablespoon of oil, the whole 324 g bowl is about 90 calories."
+        }
+      ],
+      "related": [
+        "bhindi",
+        "aloo-sabzi",
+        "roti",
+        "dal-tadka"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: vegetable, dry, 1 cup",
+          "portionId": "k200",
+          "kcal": 150,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "A general figure for all dry vegetable dishes.",
+          "ours": 130,
+          "differencePct": 15
+        }
+      ],
+      "judgement": [
+        "Brinjal is IFCT's all-varieties average (D031), 25.3 kcal per 100 g.",
+        "Garam masala (0.25 tsp) left out.",
+        "Without oil: 210.8 - 120.3 = 90.5 kcal for the bowl.",
+        "Peas in the changes list: 50 g x 81.3 kcal per 100 g (IFCT D061) = 41 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Brinjal (D031), tomato, onion, green chilli, ginger, coriander, oil, peas; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC177, brinjal bharta",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: vegetable dry 150 kcal and with gravy 170 kcal per cup; cup = 200 ml",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Spices, chili powder (171319)",
+          "url": "https://fdc.nal.usda.gov/food-details/171319/nutrients",
+          "note": "Red chilli powder",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 65,
+        "protein": 1,
+        "carbs": 4,
+        "fat": 5
+      }
+    },
+    {
+      "slug": "cabbage-sabzi",
+      "name": "Cabbage sabzi",
+      "nameLower": "cabbage sabzi",
+      "category": "sabzi",
+      "aliases": [
+        "patta gobhi",
+        "pattagobhi sabzi",
+        "band gobhi",
+        "cabbage matar",
+        "kobi nu shaak",
+        "cabbage poriyal",
+        "पत्ता गोभी",
+        "पत्तागोभी की सब्जी",
+        "કોબીનું શાક"
+      ],
+      "updated": "2026-10-11",
+      "title": "Cabbage sabzi calories: per katori and per 100 g",
+      "description": "A 200 ml katori of cabbage and peas sabzi has about {{kcal:k200}} calories, with a teaspoon of oil in the bowl. One of the lightest everyday sabzis.",
+      "answer": "A 200 ml katori of cabbage and peas sabzi has about {{kcal:k200}} calories. A whole textbook bowl, with 100 g of cabbage and a teaspoon of oil, is about {{kcal:bowl}}.",
+      "intro": [
+        "Cabbage sabzi is shredded cabbage cooked quickly with peas, ginger, green chilli and turmeric, often with a mustard or jeera tempering. South Indian cabbage poriyal adds grated coconut and urad dal in the tadka, and Gujarati kobi nu shaak often has a little potato or capsicum.",
+        "Cabbage has only about 22 calories per 100 g, so peas and oil make up most of this sabzi's calories, in about equal parts."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Cabbage and peas, cooked dry as below.",
+      "recipe": {
+        "label": "Recipe: one bowl, 100 g cabbage and 50 g peas with 1 teaspoon of oil",
+        "ingredients": [
+          {
+            "id": "cabbage",
+            "g": 100
+          },
+          {
+            "id": "peas_fresh",
+            "g": 50
+          },
+          {
+            "id": "ginger",
+            "g": 6.3
+          },
+          {
+            "id": "green_chilli",
+            "g": 1.7
+          },
+          {
+            "id": "turmeric",
+            "g": 0.75
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 1
+          },
+          {
+            "id": "oil",
+            "g": 4.5,
+            "note": "1 teaspoon"
+          }
+        ],
+        "cookedYieldG": 164,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does",
+        "densityGPerMl": 0.634,
+        "densityNote": "USDA's cooked shredded cabbage: 75 g per half cup (118.3 ml)"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 95,
+          "kcal": 65,
+          "protein": 3,
+          "carbs": 6,
+          "fat": 3
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 127,
+          "kcal": 85,
+          "protein": 4,
+          "carbs": 8,
+          "fat": 4
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 159,
+          "kcal": 105,
+          "protein": 5,
+          "carbs": 10,
+          "fat": 5
+        },
+        {
+          "id": "bowl",
+          "label": "1 bowl (100 g cabbage)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 164,
+          "kcal": 110,
+          "protein": 5,
+          "carbs": 10,
+          "fat": 5
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 65,
+          "protein": 3,
+          "carbs": 6,
+          "fat": 3
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Canteen or thali",
+        "caption": "One 200 ml katori. The outside range has 2 to 3 times the oil.",
+        "fatFactor": [
+          2,
+          3
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "basis": "No analysed value for canteen cabbage sabzi was found. This textbook recipe uses only a teaspoon of oil; 2 to 3 times that is a stated assumption for canteen cooking.",
+        "text": [
+          "Canteen and thali cabbage sabzi is usually cooked with more oil than this textbook version, which uses only a teaspoon for the bowl. Poriyal with coconut adds more again.",
+          "No lab has measured it, so the range below allows 2 to 3 times the oil."
+        ],
+        "kcalRange": [
+          115,
+          145
+        ],
+        "fatRange": [
+          7,
+          11
+        ]
+      },
+      "changes": [
+        "Oil matters most. This recipe uses a single teaspoon; each extra teaspoon adds about 40 calories.",
+        "Grated coconut in poriyal adds about 40 calories per tablespoon (10 g).",
+        "Potato in place of peas changes it little; capsicum or carrot lowers it slightly.",
+        "Cabbage cooks down a lot, so a katori of cooked cabbage holds far more than it looks."
+      ],
+      "method": [
+        "The recipe is the cabbage and peas in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g cabbage and 50 g peas with ginger, green chilli and turmeric, cooked in a teaspoon of oil. Values are from IFCT 2017.",
+        "The cooked weight is the ingredients added together. Katoris use USDA's cooked shredded cabbage, 75 g per half cup."
+      ],
+      "range": {
+        "text": "ICMR-NIN's general figure for a cup of dry vegetable dish is 150 calories, far above this page's {{kcal:k200}}. NIN's figure covers all dry vegetables, including potato, with more oil. Cabbage sabzi made with 2 to 3 teaspoons of oil comes to about {{outLo}} to {{outHi}} a katori.",
+        "reason": "NIN's general dry vegetable (150 kcal per cup) is 79% above this light, one-teaspoon cabbage sabzi. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of cabbage sabzi?",
+          "a": "About {{kcal:k200}} in a 200 ml katori of this cabbage and peas sabzi, made with a teaspoon of oil in the bowl."
+        },
+        {
+          "q": "How many calories are in 100 g of cabbage sabzi?",
+          "a": "About {{kcal:g100}}."
+        },
+        {
+          "q": "How much protein is in cabbage sabzi?",
+          "a": "About {{protein:bowl}} g in a bowl, mostly from the peas."
+        },
+        {
+          "q": "How many calories are in cabbage sabzi and roti?",
+          "a": "A 200 ml katori of cabbage sabzi is about {{kcal:k200}}, and two medium [rotis](/calories/roti/) about {{kcal@roti:two}}."
+        }
+      ],
+      "related": [
+        "mixed-veg",
+        "aloo-sabzi",
+        "roti",
+        "phulka"
+      ],
+      "useCase": {
+        "href": "/for/office-canteen-tiffin/",
+        "label": "Calories in office canteen food and tiffin"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: vegetable, dry, 1 cup",
+          "portionId": "k200",
+          "kcal": 150,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "A general figure for all dry vegetable dishes.",
+          "ours": 84,
+          "differencePct": 79
+        }
+      ],
+      "judgement": [
+        "The textbook says 50 g peas (unshelled); INDB counts all 50 g as peas. Followed here.",
+        "Garam masala and chilli powder left out.",
+        "Coconut in the changes list: 10 g x 409 kcal per 100 g (IFCT H007) = 41 kcal.",
+        "Cabbage cup weight: USDA SR Legacy 168514, cooked, boiled, 75 g per half cup shredded."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Cabbage green (C015), peas (D061), ginger, green chilli, turmeric, coriander, oil, coconut fresh (H007); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC173, cabbage and peas",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Cabbage, common, cooked, boiled, drained (168514)",
+          "url": "https://fdc.nal.usda.gov/food-details/168514/nutrients",
+          "note": "75 g per half cup, shredded",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: vegetable dry 150 kcal and with gravy 170 kcal per cup; cup = 200 ml",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 65,
+        "protein": 3,
+        "carbs": 6,
+        "fat": 3
+      }
+    },
+    {
+      "slug": "upma",
+      "name": "Upma",
+      "nameLower": "upma",
+      "category": "breakfast",
+      "aliases": [
+        "rava upma",
+        "suji upma",
+        "sooji upma",
+        "uppittu",
+        "uppuma",
+        "kharabath",
+        "उपमा",
+        "ઉપમા",
+        "ಉಪ್ಪಿಟ್ಟು"
+      ],
+      "updated": "2026-10-11",
+      "title": "Upma calories: per plate, katori and 100 g",
+      "description": "A plate of rava upma made from 40 g of semolina has about {{kcal:plate}} calories; a 200 ml katori about {{kcal:k200}}. With vegetables and ghee.",
+      "answer": "A plate of rava upma made from 40 g of semolina has about {{kcal:plate}} calories. A 200 ml katori is about {{kcal:k200}}.",
+      "intro": [
+        "Upma is roasted semolina (rava, suji) cooked in water with a tempering of mustard seeds, urad dal, curry leaves, green chilli, ginger and onion. It's a quick breakfast across south and west India, made plain or with peas, carrot and beans, and in Karnataka it's uppittu or kharabath.",
+        "Semolina and oil make up most of upma's calories, in about equal parts in this textbook recipe. How much water it's cooked with changes what a katori holds."
+      ],
+      "headlinePortion": "plate",
+      "portionsCaption": "Rava upma made as below.",
+      "recipe": {
+        "label": "Recipe: 40 g semolina with onion, a tempering and 15 g oil, for 2 small bowls",
+        "ingredients": [
+          {
+            "id": "semolina",
+            "g": 40
+          },
+          {
+            "id": "urad_dal",
+            "g": 5,
+            "note": "in the tempering"
+          },
+          {
+            "id": "onion",
+            "g": 30
+          },
+          {
+            "id": "green_chilli",
+            "g": 5
+          },
+          {
+            "id": "ginger",
+            "g": 5
+          },
+          {
+            "id": "chilli_red",
+            "g": 1.7
+          },
+          {
+            "id": "mustard_seeds",
+            "g": 0.8
+          },
+          {
+            "id": "lemon_juice",
+            "g": 5
+          },
+          {
+            "id": "oil",
+            "g": 15,
+            "note": "a little over 3 teaspoons"
+          },
+          {
+            "id": "water",
+            "g": 100
+          }
+        ],
+        "cookedYieldG": 208,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does",
+        "densityGPerMl": 0.719,
+        "densityNote": "USDA's upma: 170 g per cup (236.6 ml)"
+      },
+      "portions": [
+        {
+          "id": "small",
+          "label": "1 small bowl (20 g rava)",
+          "short": "a small bowl",
+          "fraction": 0.5,
+          "cookedGrams": 104,
+          "kcal": 155,
+          "protein": 3,
+          "carbs": 17,
+          "fat": 8
+        },
+        {
+          "id": "plate",
+          "label": "1 plate (40 g rava)",
+          "short": "a plate",
+          "fraction": 1,
+          "cookedGrams": 208,
+          "kcal": 310,
+          "protein": 7,
+          "carbs": 34,
+          "fat": 16
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 144,
+          "kcal": 215,
+          "protein": 5,
+          "carbs": 24,
+          "fat": 11
+        },
+        {
+          "id": "plate_ghee",
+          "label": "1 plate with 1 tsp ghee on top",
+          "short": "with ghee",
+          "fraction": 1,
+          "add": [
+            {
+              "id": "ghee",
+              "g": 5
+            }
+          ],
+          "cookedGrams": 208,
+          "kcal": 355,
+          "protein": 7,
+          "carbs": 34,
+          "fat": 21
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 150,
+          "protein": 3,
+          "carbs": 16,
+          "fat": 8
+        }
+      ],
+      "outside": {
+        "portionId": "plate",
+        "label": "Darshini or Udupi restaurant",
+        "caption": "One plate. The outside range is 1 to 1.5 times the size, with up to a teaspoon of ghee.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1.5
+        ],
+        "extra": [
+          {
+            "id": "ghee",
+            "g": [
+              0,
+              5
+            ]
+          }
+        ],
+        "basis": "No analysed value for restaurant upma was found. A plate up to 1.5 times as big and up to a teaspoon of ghee on top are stated assumptions.",
+        "text": [
+          "Upma in a darshini or Udupi restaurant is usually a generous plate, often with ghee on top and cashews in the tempering.",
+          "No lab has measured it, so the range below allows a plate up to 1.5 times this one, with up to a teaspoon of ghee."
+        ],
+        "kcalRange": [
+          310,
+          510
+        ],
+        "fatRange": [
+          16,
+          29
+        ]
+      },
+      "changes": [
+        "Oil or ghee matters as much as the rava. Each teaspoon adds about 40 to 45 calories.",
+        "Vegetables like peas, carrot and beans add volume and a few calories, so a vegetable upma has less per katori.",
+        "Cashews in the tempering add about 60 calories per 10 g.",
+        "Wetter upma fills more katoris with the same calories. Count by the rava when you can."
+      ],
+      "method": [
+        "The recipe is the semolina upma in Basic Food Preparation, a standard Indian cookery manual (via the Indian Nutrient Databank): 40 g coarse semolina with 5 g urad dal, onion, green chilli, ginger, curry leaves, mustard seeds and lemon, cooked in 15 g of oil and 100 ml of water, for 2 small bowls. Values are from IFCT 2017.",
+        "The cooked weight is the ingredients added together. Katoris use USDA's 170 g per cup for upma."
+      ],
+      "range": {
+        "text": "Upma varies a lot with the water. ICMR-NIN counts a cup at 270 calories, above this page's {{kcal:k200}}, while USDA's much wetter upma is about 87 per 100 g against {{kcal:g100}} here. A 200 ml katori can be anywhere from about 125 to 270.",
+        "reason": "NIN's upma (270 kcal per cup) is 26% above this page's katori; USDA FNDDS upma (87 kcal per 100 g) is 42% below. Water content differs. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 plate of upma?",
+          "a": "About {{kcal:plate}} for a plate made from 40 g of rava with 15 g of oil, and about {{kcal:plate_ghee}} with a teaspoon of ghee on top."
+        },
+        {
+          "q": "How many calories are in 1 katori of upma?",
+          "a": "About {{kcal:k200}} in a 200 ml katori of this upma."
+        },
+        {
+          "q": "How much protein is in upma?",
+          "a": "About {{protein:plate}} g in a plate, from the semolina and urad dal."
+        },
+        {
+          "q": "Which has more calories, upma or poha?",
+          "a": "Close. A plate of this upma is about {{kcal:plate}}, and a plate of [poha](/calories/poha/) made from 40 g of poha about {{kcal@poha:plate}}."
+        },
+        {
+          "q": "Which has more calories, upma or idli?",
+          "a": "Upma, per plate, because of the oil. Two medium [idlis](/calories/idli/) are about {{kcal@idli:two}}, before sambar and chutney."
+        }
+      ],
+      "related": [
+        "poha",
+        "idli",
+        "plain-dosa",
+        "masala-chai"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: upma, 1 cup",
+          "portionId": "k200",
+          "kcal": 270,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 215,
+          "differencePct": 25
+        },
+        {
+          "source": "USDA FNDDS 2021-2023, Upma (58174000)",
+          "kcalPer100g": 87,
+          "url": "https://fdc.nal.usda.gov/food-details/2709128/nutrients",
+          "ours": 150,
+          "differencePct": -42
+        }
+      ],
+      "judgement": [
+        "Green chilli 0.5 + 1 = 5 g; whole red chilli 0.5 = 1.7 g; lemon 5 g taken as juice.",
+        "Asafoetida, coriander, curry leaves and chilli powder (under 1 g each) left out; yield 208 g without them.",
+        "Range: 87 kcal per 100 g x 144 g (200 ml at 0.719) = 125 kcal (FNDDS) to 270 kcal (NIN).",
+        "Cashews in the changes list: 10 g x 583 kcal per 100 g (IFCT H005) = 58 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Wheat semolina (A022), black gram dal (B003), onion, green chilli, ginger, red chillies, mustard seeds (H013), lemon juice, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipe BFP039, semolina upma",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: upma 270 kcal per cup",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Upma (2709128)",
+          "url": "https://fdc.nal.usda.gov/food-details/2709128/nutrients",
+          "note": "87 kcal per 100 g; 170 g per cup",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 150,
+        "protein": 3,
+        "carbs": 16,
+        "fat": 8
+      }
+    },
+    {
+      "slug": "besan-chilla",
+      "name": "Besan chilla",
+      "nameLower": "besan chilla",
+      "category": "breakfast",
+      "aliases": [
+        "besan cheela",
+        "besan ka chilla",
+        "gram flour pancake",
+        "pudla",
+        "puda",
+        "besan pudla",
+        "बेसन चीला",
+        "बेसन का चीला",
+        "ચણાના લોટના પુડલા"
+      ],
+      "updated": "2026-10-11",
+      "title": "Besan chilla calories: with and without oil",
+      "description": "One besan chilla made with about 17 g of besan has about {{kcal:one}} calories with ½ teaspoon of oil, or {{kcal:dry}} without. Paneer chilla too.",
+      "answer": "One besan chilla (about 17 g of besan, cooked with ½ teaspoon of oil) has about {{kcal:one}} calories, or about {{kcal:dry}} on a non-stick tawa with no oil.",
+      "intro": [
+        "Besan chilla is a thin savoury pancake of gram flour batter with onion, tomato, green chilli, ginger, coriander and ajwain, cooked on a tawa. In Gujarat it's pudla, and many homes stuff it with grated paneer or add vegetables to the batter.",
+        "Besan is higher in protein than wheat flour, about 22 g per 100 g in IFCT 2017. The oil on the tawa is what changes the number most."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Batter as below; oil on the tawa is counted per chilla.",
+      "recipe": {
+        "label": "Recipe: 100 g besan with onion, tomato and spices, for 6 chillas",
+        "ingredients": [
+          {
+            "id": "besan",
+            "g": 100
+          },
+          {
+            "id": "onion",
+            "g": 30
+          },
+          {
+            "id": "tomato",
+            "g": 25
+          },
+          {
+            "id": "ginger",
+            "g": 6.3
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 4
+          },
+          {
+            "id": "green_chilli",
+            "g": 2
+          },
+          {
+            "id": "turmeric",
+            "g": 1.9
+          },
+          {
+            "id": "chilli_powder",
+            "g": 0.7
+          },
+          {
+            "id": "water",
+            "g": 140,
+            "note": "about 0.6 cup"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no cooked weight used; each chilla is a sixth of the batter"
+      },
+      "portions": [
+        {
+          "id": "dry",
+          "label": "1 chilla, no oil (non-stick)",
+          "short": "a chilla without oil",
+          "fraction": 0.1667,
+          "cookedGrams": null,
+          "kcal": 60,
+          "protein": 4,
+          "carbs": 9,
+          "fat": 1
+        },
+        {
+          "id": "one",
+          "label": "1 chilla, ½ tsp oil",
+          "short": "a chilla",
+          "fraction": 0.1667,
+          "add": [
+            {
+              "id": "oil",
+              "g": 2.25
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 80,
+          "protein": 4,
+          "carbs": 9,
+          "fat": 3
+        },
+        {
+          "id": "one_tsp",
+          "label": "1 chilla, 1 tsp oil",
+          "short": "with 1 tsp oil",
+          "fraction": 0.1667,
+          "add": [
+            {
+              "id": "oil",
+              "g": 4.5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 100,
+          "protein": 4,
+          "carbs": 9,
+          "fat": 5
+        },
+        {
+          "id": "two",
+          "label": "2 chillas, ½ tsp oil each",
+          "short": "2 chillas",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "oil",
+              "g": 4.5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 160,
+          "protein": 8,
+          "carbs": 17,
+          "fat": 6
+        },
+        {
+          "id": "paneer",
+          "label": "1 chilla stuffed with 20 g paneer",
+          "short": "paneer chilla",
+          "fraction": 0.1667,
+          "add": [
+            {
+              "id": "oil",
+              "g": 2.25
+            },
+            {
+              "id": "paneer",
+              "g": 20
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 130,
+          "protein": 8,
+          "carbs": 11,
+          "fat": 6
+        }
+      ],
+      "outside": {
+        "portionId": "two",
+        "label": "Cafe or breakfast stall",
+        "caption": "Two chillas. The outside range adds 1 to 2 teaspoons of oil or butter in all.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1.3
+        ],
+        "extra": [
+          {
+            "id": "oil",
+            "g": [
+              4.5,
+              9
+            ]
+          }
+        ],
+        "basis": "No analysed value for besan chilla from a cafe or stall was found. Chillas up to 1.3 times as big with 1 to 2 extra teaspoons of oil for two are stated assumptions.",
+        "text": [
+          "Chillas from a cafe or a breakfast stall are often bigger and cooked with more oil or butter, and paneer or cheese fillings are common.",
+          "No lab has measured them, so the range below allows two chillas up to 1.3 times this size, with 1 to 2 more teaspoons of oil."
+        ],
+        "kcalRange": [
+          200,
+          290
+        ],
+        "fatRange": [
+          11,
+          17
+        ]
+      },
+      "changes": [
+        "Oil on the tawa is the main variable: each half teaspoon adds about 20 calories.",
+        "Paneer filling adds about 50 calories per 20 g, and cheese more.",
+        "Vegetables in the batter add very little.",
+        "Moong dal chilla is close per gram of flour: IFCT 2017 puts moong dal at {{ing:moong_dal}} calories per 100 g, against {{ing:besan}} for besan (as chana dal)."
+      ],
+      "method": [
+        "The recipe is the besan chilla in the Indian Nutrient Databank's open recipe set: 100 g gram flour with onion, tomato, ginger, coriander, green chilli and spices, for 6 chillas. The recipe itself uses only ¾ teaspoon of oil for all six, so this page counts the tawa oil per chilla instead. Values are from IFCT 2017.",
+        "IFCT 2017 has no separate besan entry, so besan is valued as ground Bengal gram dal."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 besan chilla?",
+          "a": "About {{kcal:one}} with half a teaspoon of oil, and about {{kcal:dry}} without oil."
+        },
+        {
+          "q": "How many calories are in 2 besan chillas?",
+          "a": "About {{kcal:two}} for two, each cooked with half a teaspoon of oil."
+        },
+        {
+          "q": "How much protein is in a besan chilla?",
+          "a": "About {{protein:one}} g in one chilla, and about {{protein:paneer}} g with 20 g of paneer."
+        },
+        {
+          "q": "Which has more calories, besan chilla or roti?",
+          "a": "They're close. One chilla with half a teaspoon of oil is about {{kcal:one}} calories, and a medium [roti](/calories/roti/) about {{kcal@roti:medium}}. The chilla has more protein."
+        }
+      ],
+      "related": [
+        "dhokla",
+        "upma",
+        "poha",
+        "roti"
+      ],
+      "useCase": {
+        "href": "/for/vegetarians/",
+        "label": "Calorie counting for vegetarians"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Open-source recipe OSR100 (INDB). INDB's serving count of 6 is marked as guessed; kept, so 16.7 g besan per chilla.",
+        "Besan valued as IFCT Bengal gram dal (B001).",
+        "Ginger '0.5 inch' taken as 6.3 g fresh ginger (INDB mapped it to ground ginger). Turmeric '2 to 3 pinches' = 0.625 tsp = 1.9 g. Ajwain (0.5 tsp) left out.",
+        "No independent analysed value for besan chilla was found (IFCT, NIN Annexure 8, USDA FNDDS). INDB's per-chilla value (70.8 kcal) is from this recipe with its 0.75 tsp of oil.",
+        "Paneer in the changes list: 20 g x 258 kcal per 100 g = 52 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Bengal gram dal (B001) as besan, onion, tomato, ginger, coriander, green chilli, turmeric, oil, paneer (L003); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Open-source recipe OSR100, gram flour chilla",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Spices, chili powder (171319)",
+          "url": "https://fdc.nal.usda.gov/food-details/171319/nutrients",
+          "note": "Red chilli powder",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "dhokla",
+      "name": "Dhokla",
+      "nameLower": "dhokla",
+      "category": "breakfast",
+      "aliases": [
+        "khaman",
+        "khaman dhokla",
+        "besan dhokla",
+        "nylon khaman",
+        "dhokla khaman",
+        "ढोकला",
+        "खमण",
+        "ઢોકળા",
+        "ખમણ"
+      ],
+      "updated": "2026-10-11",
+      "title": "Dhokla calories: per piece, plate and 100 g",
+      "description": "One piece of besan dhokla (about 40 g) has about {{kcal:one}} calories; 250 g is about {{kcal:g250}}. Khaman with tempering and chutney compared.",
+      "answer": "One piece of besan dhokla (about 40 g) has about {{kcal:one}} calories. A plate of 4 pieces is about {{kcal:four}}.",
+      "intro": [
+        "Dhokla, as most of India knows it, is the soft, yellow besan cake from Gujarat: gram flour and curd batter, leavened with soda and steamed, then tempered with mustard seeds, green chillies and curry leaves. In Gujarat the besan one is called khaman, and dhokla usually means a fermented rice and dal version.",
+        "It's steamed, so most of its calories come from the besan. Farsan shops pour a sweetened oil tempering over it, which adds more."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Besan dhokla made as below, with a light tempering.",
+      "recipe": {
+        "label": "Recipe: 150 g besan and 150 g curd, steamed and cut into 8 pieces",
+        "ingredients": [
+          {
+            "id": "besan",
+            "g": 150
+          },
+          {
+            "id": "curd",
+            "g": 150
+          },
+          {
+            "id": "ginger",
+            "g": 6.3
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 1
+          },
+          {
+            "id": "mustard_seeds",
+            "g": 0.8
+          },
+          {
+            "id": "oil",
+            "g": 4.5,
+            "note": "1 teaspoon, for the tempering"
+          }
+        ],
+        "cookedYieldG": 316,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does; steaming keeps the water in"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 piece (about 40 g)",
+          "short": "a piece",
+          "fraction": 0.125,
+          "cookedGrams": 40,
+          "kcal": 80,
+          "protein": 5,
+          "carbs": 10,
+          "fat": 2
+        },
+        {
+          "id": "two",
+          "label": "2 pieces (textbook serving)",
+          "short": "2 pieces",
+          "fraction": 0.25,
+          "cookedGrams": 79,
+          "kcal": 160,
+          "protein": 9,
+          "carbs": 19,
+          "fat": 4
+        },
+        {
+          "id": "four",
+          "label": "4 pieces",
+          "short": "4 pieces",
+          "fraction": 0.5,
+          "cookedGrams": 158,
+          "kcal": 315,
+          "protein": 19,
+          "carbs": 39,
+          "fat": 9
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 200,
+          "protein": 12,
+          "carbs": 25,
+          "fat": 6
+        },
+        {
+          "id": "g250",
+          "label": "250 g box",
+          "short": "250 g",
+          "grams": 250,
+          "cookedGrams": 250,
+          "kcal": 500,
+          "protein": 30,
+          "carbs": 62,
+          "fat": 14
+        }
+      ],
+      "outside": {
+        "portionId": "two",
+        "label": "Farsan shop khaman",
+        "caption": "Two pieces. The outside range adds a tempering of ½ to 1 teaspoon of oil and ½ to 1 teaspoon of sugar per piece.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "oil",
+            "g": [
+              4.5,
+              9
+            ]
+          },
+          {
+            "id": "sugar",
+            "g": [
+              4.2,
+              8.4
+            ]
+          }
+        ],
+        "basis": "No analysed value for shop khaman was found. Farsan shops pour a tempering of oil, sugar and water over khaman; half to one teaspoon each of oil and sugar per piece is a stated assumption.",
+        "text": [
+          "Khaman from a farsan shop is usually soaked in a tempering of oil, sugar and water, which makes it moist and slightly sweet. It's often served with a sweet chutney too.",
+          "No lab has measured shop khaman, so the range below adds half to one teaspoon each of oil and sugar to each piece."
+        ],
+        "kcalRange": [
+          215,
+          270
+        ],
+        "fatRange": [
+          9,
+          13
+        ]
+      },
+      "changes": [
+        "The tempering matters most. Each teaspoon of oil poured over adds about 40 calories, and each teaspoon of sugar about 16.",
+        "Bigger pieces count for more: this page's piece is about 40 g.",
+        "Sweet tamarind or date chutney adds about 60 calories a tablespoon; green chutney adds very little.",
+        "Fermented rice and urad dhokla (white dhokla) and khandvi have their own values."
+      ],
+      "method": [
+        "The recipe is the dhokla in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 150 g besan and 150 g curd with ginger, green chilli and soda, steamed and tempered with a teaspoon of oil and mustard seeds, cut into 8 pieces. Values are from IFCT 2017, with curd from USDA.",
+        "Steaming keeps the water in, so the cooked weight is the ingredients added together: about 40 g a piece. Besan is valued as ground Bengal gram dal."
+      ],
+      "range": {
+        "text": "Basic Food Preparation's khaman, made from soaked chana dal, comes to about 65 calories a piece, below this page's {{kcal:one}}, because its pieces are smaller. Depending on size and tempering, a piece of dhokla is usually 65 to 100 calories.",
+        "reason": "INDB's BFP439 khaman (64.9 kcal per piece) is 18% below this page's piece; piece size differs. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 piece of dhokla?",
+          "a": "About {{kcal:one}} for a 40 g piece of besan dhokla, and more with a sweet tempering from a farsan shop."
+        },
+        {
+          "q": "How many calories are in 100 g of dhokla?",
+          "a": "About {{kcal:g100}}, and about {{kcal:g250}} for a 250 g box before the shop's tempering."
+        },
+        {
+          "q": "How much protein is in dhokla?",
+          "a": "About {{protein:one}} g in one piece and about {{protein:four}} g in four, from the besan and curd."
+        },
+        {
+          "q": "Which has more calories, dhokla or idli?",
+          "a": "Dhokla, per piece: about {{kcal:one}} against about {{kcal@idli:medium}} for a medium [idli](/calories/idli/). Dhokla also has more protein."
+        }
+      ],
+      "related": [
+        "besan-chilla",
+        "idli",
+        "poha",
+        "masala-chai"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "Indian Nutrient Databank, Khaman (BFP439), per piece",
+          "portionId": "one",
+          "kcal": 64.9,
+          "note": "Basic Food Preparation's khaman from soaked chana dal, 6 pieces.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 79,
+          "differencePct": -18
+        }
+      ],
+      "judgement": [
+        "Besan valued as IFCT Bengal gram dal (B001). Soda (0.5 tsp) has no calories.",
+        "Range top of about 100 kcal per piece: 79 + 0.5 tsp oil (20) = about 100.",
+        "Chutney in the changes list: NIN tamarind chutney with jaggery, 60 kcal per tbsp."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Bengal gram dal (B001) as besan, ginger, green chilli, coriander, mustard seeds, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC474, dhokla; Basic Food Preparation recipe BFP439, khaman",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: tamarind chutney with jaggery 60 kcal per tbsp",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 200,
+        "protein": 12,
+        "carbs": 25,
+        "fat": 6
+      }
+    },
+    {
+      "slug": "medu-vada",
+      "name": "Medu vada",
+      "nameLower": "medu vada",
+      "category": "breakfast",
+      "aliases": [
+        "vada",
+        "uzhunnu vada",
+        "ulundu vadai",
+        "uddina vade",
+        "garelu",
+        "sambar vada",
+        "मेदू वड़ा",
+        "मेदु वडा",
+        "મેદુ વડા"
+      ],
+      "updated": "2026-10-11",
+      "title": "Medu vada calories: 1, 2 or 4 vadas",
+      "description": "One medu vada has about {{kcal:one}} calories, so 2 vadas have about {{kcal:two}}, matching ICMR-NIN's figure. With sambar and chutney.",
+      "answer": "One medu vada (15 g of urad dal, deep-fried) has about {{kcal:one}} calories. Two vadas, a usual plate, have about {{kcal:two}}, before sambar and chutney.",
+      "intro": [
+        "Medu vada is a ring-shaped fritter of ground urad dal batter, deep-fried until crisp outside and soft inside. It's a breakfast staple in Tamil Nadu, Karnataka, Kerala and Andhra, eaten with sambar and coconut chutney, or soaked in sambar as sambar vada.",
+        "Urad dal is high in protein for a fried snack. Oil taken up in frying is about a third of each vada's calories."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Fried at home in fresh oil, as below. Sambar and chutney are not included.",
+      "recipe": {
+        "label": "Recipe: 60 g urad dal, ground and deep-fried into 4 vadas",
+        "ingredients": [
+          {
+            "id": "urad_dal",
+            "g": 60
+          },
+          {
+            "id": "water",
+            "g": 15,
+            "note": "3 teaspoons, for grinding"
+          },
+          {
+            "id": "oil",
+            "g": 9.8,
+            "note": "Taken up in frying: a stated assumption, so a vada is about 10% fat"
+          }
+        ],
+        "cookedYieldG": 111,
+        "yieldNote": "the dal's non-fat solids (53.5 g) at USDA's vada composition, 42% water and 9.7% fat, so 53.5 / 0.4827"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 medu vada",
+          "short": "a vada",
+          "fraction": 0.25,
+          "cookedGrams": 28,
+          "kcal": 70,
+          "protein": 3,
+          "carbs": 8,
+          "fat": 3
+        },
+        {
+          "id": "two",
+          "label": "2 medu vadas",
+          "short": "2 vadas",
+          "fraction": 0.5,
+          "cookedGrams": 56,
+          "kcal": 140,
+          "protein": 7,
+          "carbs": 15,
+          "fat": 5
+        },
+        {
+          "id": "four",
+          "label": "4 medu vadas",
+          "short": "4 vadas",
+          "fraction": 1,
+          "cookedGrams": 111,
+          "kcal": 280,
+          "protein": 14,
+          "carbs": 31,
+          "fat": 11
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 255,
+          "protein": 12,
+          "carbs": 28,
+          "fat": 10
+        }
+      ],
+      "outside": {
+        "portionId": "two",
+        "label": "Udupi restaurant or stall",
+        "caption": "Two vadas. The outside range is up to 1.5 times the size, with up to about a fifth more oil.",
+        "fatFactor": [
+          1,
+          1.22
+        ],
+        "sizeFactor": [
+          1,
+          1.5
+        ],
+        "basis": "Fat up to 1.22 times: Jain et al. 2024 found total fat in Indian fried foods rose from a mean of 22.5% to 27.4% of dry weight between the 1st and 32nd frying in the same oil. Vadas up to 1.5 times as big are a stated assumption.",
+        "text": [
+          "Vadas from an Udupi restaurant or a stall are often bigger than home ones and fried in oil that's been used many times, which raises the fat they take up.",
+          "A lab study found fried foods took up about a fifth more fat after 32 fryings in the same oil. The range below uses that, with vadas up to 1.5 times this size."
+        ],
+        "kcalRange": [
+          140,
+          225
+        ],
+        "fatRange": [
+          5,
+          10
+        ]
+      },
+      "changes": [
+        "Size is the main variable. A vada from 20 g of dal has a third more than one from 15 g.",
+        "Oil that's been used many times leaves more fat in each vada.",
+        "Sambar and chutney are separate. ICMR-NIN counts a cup of sambar at about 110 calories and 2 tablespoons of coconut chutney at about 120.",
+        "Sambar vada soaks two vadas in sambar: count the sambar too, see [sambar](/calories/sambar/)."
+      ],
+      "method": [
+        "The recipe is the plain urad dal vada in Basic Food Preparation, a standard Indian cookery manual (via the Indian Nutrient Databank): 60 g of urad dal ground with a little water and deep-fried, making 4 vadas. Values are from IFCT 2017.",
+        "The databank counts all the frying oil as eaten, which is far too high. This page assumes a vada ends up with the composition of USDA's vada, 42% water and 9.7% fat, which works out to about 2.5 g of oil per vada and a vada of about 28 g. ICMR-NIN's 140 calories for 2 vadas agrees."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 medu vada?",
+          "a": "About {{kcal:one}} for a home vada made from 15 g of urad dal."
+        },
+        {
+          "q": "How many calories are in 2 medu vada with sambar?",
+          "a": "Two vadas are about {{kcal:two}}. A cup of sambar adds 110 to 200 depending on how thick it is, and 2 tablespoons of coconut chutney about 120."
+        },
+        {
+          "q": "How much protein is in medu vada?",
+          "a": "About {{protein:one}} g in one vada and about {{protein:two}} g in two, from the urad dal."
+        },
+        {
+          "q": "Which has more calories, medu vada or idli?",
+          "a": "A vada, a little: about {{kcal:one}} against about {{kcal@idli:medium}} for a medium [idli](/calories/idli/). The vada is fried; the idli is steamed."
+        }
+      ],
+      "related": [
+        "idli",
+        "sambar",
+        "plain-dosa",
+        "masala-dosa"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: vada, 2",
+          "portionId": "two",
+          "kcal": 140,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 141,
+          "differencePct": 0
+        },
+        {
+          "source": "USDA FNDDS 2021-2023, Vada (58175000)",
+          "kcalPer100g": 266,
+          "url": "https://fdc.nal.usda.gov/food-details/2709130/nutrients",
+          "ours": 253,
+          "differencePct": 5
+        }
+      ],
+      "judgement": [
+        "Oil taken up: solved so the vada matches USDA's vada composition (FNDDS 58175000: 42.0% water, 9.73% fat). Urad dal non-fat solids = 60 x (1 - 0.0916 - 0.0169) = 53.5 g; fat = 53.5 x 9.73 / 48.27 = 10.8 g; minus the dal's own 1.0 g leaves 9.8 g of oil for 4 vadas.",
+        "Cooked vada about 27.7 g, close to FNDDS's 30 g per vada.",
+        "INDB counts 240 ml of frying oil (746 kcal per 100 g), so its values aren't used."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Black gram dal (B003), oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipe BFP436, plain urad dal vada",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: vada 140 kcal for 2; sambar 110 kcal per cup; coconut chutney 120 kcal per 2 tbsp",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Vada (2709130)",
+          "url": "https://fdc.nal.usda.gov/food-details/2709130/nutrients",
+          "note": "30 g per vada; 266 kcal, 9.73 g fat and 42 g water per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Jain, Passi and Selvamurthy, Total fat and fatty acid profile of Indian fried foods, Journal of Food Science and Technology, 2024",
+          "url": "https://europepmc.org/articles/PMC11465016",
+          "note": "Total fat in fried foods, 1st against 32nd frying cycle",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 255,
+        "protein": 12,
+        "carbs": 28,
+        "fat": 10
+      }
     }
   ]
 }
