@@ -134,7 +134,20 @@ const fmt = (n) => n.toLocaleString("en-IN");
 //   {{kcal@slug:id}} {{per100@slug}}                           another dish
 //   {{per100}} {{outLo}} {{outHi}} {{yield}}                    this dish
 //   {{ing:id}}                                                  kcal per 100 g of an ingredient
+//   {{sum:2*roti:medium+dal-tadka:k200}}                        total kcal of several portions, rounded to 5
+function sumToken(food, expr) {
+  let total = 0;
+  for (const term of expr.split("+")) {
+    const [, n, slug, id] = term.trim().match(/^(?:(\d+(?:\.\d+)?)\*)?([\w-]+):([\w-]+)$/) || [];
+    const p = foods.find((f) => f.slug === slug)?.portions.find((x) => x.id === id);
+    if (!p || p.kcal == null) throw new Error(`${food.slug}: sum term "${term}" not found`);
+    total += (n ? Number(n) : 1) * p.kcal;
+  }
+  return fmt(r5(total));
+}
+
 function fill(food, text) {
+  text = text.replace(/\{\{sum:([^}]+)\}\}/g, (m, expr) => sumToken(food, expr));
   return text.replace(/\{\{(\w+)(?:@([\w-]+))?(?::([\w-]+))?\}\}/g, (m, key, slug, id) => {
     if (key === "ing") return fmt(Math.round(ingredient(id, food.slug).per100g.kcal));
     const f = slug ? foods.find((x) => x.slug === slug) : food;
@@ -164,7 +177,7 @@ const plain = (food, text) => fill(food, text).replace(/\[([^\]]+)\]\([^)]+\)/g,
 
 // ---------- Page parts ----------
 
-function head({ title, description, path, jsonld, scripts = [] }) {
+function head({ title, description, path, jsonld, scripts = [], ogType = "website" }) {
   const url = SITE + path;
   return `<!doctype html>
 <html lang="en-IN">
@@ -174,7 +187,7 @@ function head({ title, description, path, jsonld, scripts = [] }) {
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
 <link rel="canonical" href="${url}">
-<meta property="og:type" content="website">
+<meta property="og:type" content="${ogType}">
 <meta property="og:site_name" content="Slate">
 <meta property="og:locale" content="en_IN">
 <meta property="og:title" content="${esc(title)}">
@@ -549,7 +562,7 @@ ${cta()}
   </div>
 </main>
 `;
-  return head({ title: page.title, description: page.description, path, jsonld: { "@context": "https://schema.org", "@graph": graph } }) + body + footer();
+  return head({ title: page.title, description: page.description, path, jsonld: { "@context": "https://schema.org", "@graph": graph }, ogType: isBlog ? "article" : "website" }) + body + footer();
 }
 
 function contentHub(section) {

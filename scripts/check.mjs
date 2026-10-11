@@ -55,7 +55,9 @@ for (const file of files) {
     const m = words.match(re);
     if (m) fail(`banned word "${w}" in "...${words.slice(Math.max(0, m.index - 40), m.index + 40)}..."`);
   }
-  if (/!/.test(visible.replace(/<!/g, ""))) fail(`exclamation mark in "...${visible.slice(Math.max(0, visible.indexOf("!") - 40), visible.indexOf("!") + 10)}..."`);
+  // "Lose It!" is another app's trademark, written as its owner writes it on the /compare/ pages.
+  const prose = `${visible} ${decode(attr(html, /<title>([^<]*)<\/title>/) || "")}`.replace(/<!/g, "").replace(/Lose It!/g, "Lose It");
+  if (/!/.test(prose)) fail(`exclamation mark in "...${prose.slice(Math.max(0, prose.indexOf("!") - 40), prose.indexOf("!") + 10)}..."`);
   if (/—|&mdash;/.test(html)) fail("em dash");
   for (const ch of words.match(/\p{Extended_Pictographic}/gu) || []) if (!NOT_EMOJI.has(ch)) fail(`emoji ${ch}`);
 
