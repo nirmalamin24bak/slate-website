@@ -886,3 +886,473 @@ Sources:
 - USDA FoodData Central, Butter, without salt (173430). https://fdc.nal.usda.gov/food-details/173430/nutrients (accessed 2026-10-10)
 - USDA FoodData Central, Cheese, mozzarella, whole milk (170845). https://fdc.nal.usda.gov/food-details/170845/nutrients (accessed 2026-10-10)
 
+## Dal fry (/calories/dal-fry/)
+
+Recipe: one bowl, 30 g toor dal with an onion-tomato masala and 10 g ghee.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Red gram dal (toor, arhar) | 30 | 99.2 | 6.5 | 16.6 | 0.5 | IFCT 2017 B021 |
+| Water | 150 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Onion, big | 20 | 9.6 | 0.3 | 1.9 | 0.0 | IFCT 2017 G017 |
+| Tomato, ripe, hybrid | 15 | 2.8 | 0.1 | 0.5 | 0.0 | IFCT 2017 D075 |
+| Chillies, green | 1.7 | 0.7 | 0.0 | 0.1 | 0.0 | IFCT 2017 G008 |
+| Ghee | 5 | 44.2 | 0.0 | 0.0 | 5.0 | IFCT 2017 T013 |
+| Ghee | 5 | 44.2 | 0.0 | 0.0 | 5.0 | IFCT 2017 T013 |
+| Cumin seeds | 1 | 3.0 | 0.1 | 0.2 | 0.2 | IFCT 2017 G025 |
+| **Total** | | **203.9** | **7.1** | **19.3** | **10.7** | |
+
+Cooked yield 228 g (the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does). Per 100 g cooked: 89.4 kcal. Katori density 1 g per ml (dal taken as 1 g per ml; a stated assumption).
+
+Portions:
+
+- 1 katori (150 ml): 150 g cooked = 135 kcal, P 5 g, C 13 g, F 7 g
+- 1 katori (200 ml): 200 g cooked = 180 kcal, P 6 g, C 17 g, F 9 g
+- 1 katori (250 ml): 250 g cooked = 225 kcal, P 8 g, C 21 g, F 12 g
+- Half a cup (100 ml): 100 g cooked = 90 kcal, P 3 g, C 8 g, F 5 g
+- 1 bowl (30 g dry dal): 228 g cooked = 205 kcal, P 7 g, C 19 g, F 11 g
+
+Outside (Dhaba or restaurant): fat sources x 1 to 1.5, portion x 1 to 1.5 = 180 to 325 kcal. Basis: No analysed value for restaurant dal fry was found. Up to 1.5 times the dal per katori (thicker) and up to 1.5 times the ghee are stated assumptions, in line with the dal tadka page.
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: plain dal, half a cup: 100 kcal per half a cup, ours 89 (+12%).  https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+- USDA FNDDS 2021-2023, Dal (41305050): 145 kcal per 100 g, ours 89 (+62%). A generic survey recipe, thicker than this one. https://fdc.nal.usda.gov/food-details/2707427/nutrients
+
+Range shown on page: USDA FNDDS 'Dal' (41305050, 145 kcal per 100 g) is 62% above this page's dal fry; NIN's plain dal is within 12%. The difference is thickness. Shown as a range.
+
+Judgement calls:
+
+- Composite recipe from three Basic Food Preparation components (via INDB): arhar dal BFP172 (30 g dal), onion-tomato baghar BFP168 and cumin baghar BFP167.
+- Water 150 ml (half of BFP172's 300 ml) is an assumption for a thicker dal fry.
+- Yield = sum of ingredients (no evaporation), following INDB. Density 1 g per ml assumed.
+- Range top: 1.6 times this katori (about 290 kcal) brings it close to FNDDS dal at 145 kcal per 100 g.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Dal (2707427). https://fdc.nal.usda.gov/food-details/2707427/nutrients (accessed 2026-10-10)
+
+## Toor dal (/calories/toor-dal/)
+
+Recipe: one bowl, 30 g toor dal cooked in 240 ml water with turmeric.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Red gram dal (toor, arhar) | 30 | 99.2 | 6.5 | 16.6 | 0.5 | IFCT 2017 B021 |
+| Water | 240 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Turmeric powder | 0.75 | 2.1 | 0.1 | 0.4 | 0.0 | IFCT 2017 G033 |
+| **Total** | | **101.3** | **6.6** | **16.9** | **0.5** | |
+
+Cooked yield 271 g (the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does). Per 100 g cooked: 37.4 kcal. Katori density 1 g per ml (thin dal taken as 1 g per ml, like water; a stated assumption).
+
+Portions:
+
+- 1 bowl (30 g dry dal, about 270 ml): 271 g cooked = 100 kcal, P 7 g, C 17 g, F 1 g
+- 1 bowl with 1 tsp ghee (5 g): 271 g cooked + 5 g Ghee = 145 kcal, P 7 g, C 17 g, F 6 g
+- 1 bowl Gujarati dal, 1 tsp jaggery and ghee tadka: 271 g cooked + 5 g Jaggery, cane + 5 g Ghee = 165 kcal, P 7 g, C 21 g, F 6 g
+- 1 katori (150 ml), plain: 150 g cooked = 55 kcal, P 4 g, C 9 g, F 0 g
+- 1 katori (200 ml), plain: 200 g cooked = 75 kcal, P 5 g, C 13 g, F 0 g
+- 1 katori (250 ml), plain: 250 g cooked = 95 kcal, P 6 g, C 16 g, F 0 g
+
+Outside (Thali restaurant): fat sources x 1 to 1, portion x 1 to 1, plus 2.5 to 5 g Ghee = 125 to 145 kcal. Basis: No analysed value for restaurant plain dal was found. Half to one NIN teaspoon of ghee on a thali dal is a stated assumption.
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: plain dal, half a cup: 100 kcal per a bowl, ours 101 (-1%). NIN's half cup of plain dal is one 30 g pulse portion, the same dry dal as this bowl. https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+
+Judgement calls:
+
+- Bowl = NIN's 30 g pulse portion. NIN's 'plain dhal, half cup, 100 kcal' is compared with this bowl because both hold one portion of dry dal; NIN's dal is thicker, so the volume differs.
+- Water 1 cup (240 ml) follows The Art & Science of Cooking's washed moong dal (ASC151), the textbook's plain-dal pattern; no plain toor dal recipe exists in INDB.
+- Jaggery 1 tsp taken as 5 g.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+
+## Moong dal (/calories/moong-dal/)
+
+Recipe: one bowl, 30 g moong dal in 240 ml water with jeera and spices.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Green gram dal (moong) | 30 | 97.7 | 7.2 | 15.8 | 0.4 | IFCT 2017 B010 |
+| Water | 240 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Turmeric powder | 0.75 | 2.1 | 0.1 | 0.4 | 0.0 | IFCT 2017 G033 |
+| Red chilli powder | 0.7 | 2.0 | 0.1 | 0.1 | 0.1 | USDA FDC 171319 |
+| Cumin seeds | 0.5 | 1.5 | 0.1 | 0.1 | 0.1 | IFCT 2017 G025 |
+| **Total** | | **103.3** | **7.4** | **16.4** | **0.6** | |
+
+Cooked yield 272 g (the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does). Per 100 g cooked: 38.0 kcal. Katori density 1 g per ml (thin dal taken as 1 g per ml; a stated assumption).
+
+Portions:
+
+- 1 bowl, no tadka (30 g dry dal): 272 g cooked = 105 kcal, P 7 g, C 16 g, F 1 g
+- 1 bowl, 1 tsp oil tadka (textbook): 272 g cooked + 4.5 g Groundnut oil = 145 kcal, P 7 g, C 16 g, F 5 g
+- 1 bowl, 1 tsp ghee tadka: 272 g cooked + 5 g Ghee = 150 kcal, P 7 g, C 16 g, F 6 g
+- 1 katori (150 ml), with tadka: 150 g cooked + 2.5 g Groundnut oil = 80 kcal, P 4 g, C 9 g, F 3 g
+- 1 katori (200 ml), with tadka: 200 g cooked + 3.3 g Groundnut oil = 105 kcal, P 5 g, C 12 g, F 4 g
+- 1 katori (250 ml), with tadka: 250 g cooked + 4.1 g Groundnut oil = 130 kcal, P 7 g, C 15 g, F 5 g
+
+Outside (Restaurant yellow dal): fat sources x 1 to 1, portion x 1 to 1.5, plus 0 to 5 g Ghee = 145 to 260 kcal. Basis: No analysed value for restaurant moong dal was found. A serving up to 1.5 times the dal and up to an extra teaspoon of ghee are stated assumptions.
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: plain dal, half a cup: 100 kcal per a bowl, ours 103 (-3%). NIN's half cup of plain dal is one 30 g pulse portion, the same dry dal as this bowl. https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+
+Judgement calls:
+
+- The textbook's 1 tsp fat is moved to the portions so the plain bowl can be compared with NIN's plain dal (one 30 g pulse portion).
+- Katori tadka shares: 4.5 g oil x katori ml / 272 g bowl, so 2.5, 3.3 and 4.1 g.
+- Garam masala (0.25 tsp) left out; under 2 kcal.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+- USDA FoodData Central, Spices, chili powder (171319). https://fdc.nal.usda.gov/food-details/171319/nutrients (accessed 2026-10-10)
+
+## Chana dal (/calories/chana-dal/)
+
+Recipe: one bowl, 30 g chana dal with onion, tomato and 2 teaspoons of oil.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Bengal gram dal (chana) | 30 | 98.7 | 6.5 | 14.0 | 1.6 | IFCT 2017 B001 |
+| Water | 120 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Onion, big | 30 | 14.4 | 0.4 | 2.9 | 0.1 | IFCT 2017 G017 |
+| Tomato, ripe, hybrid | 30 | 5.7 | 0.2 | 1.0 | 0.1 | IFCT 2017 D075 |
+| Chillies, green | 3.3 | 1.4 | 0.1 | 0.2 | 0.0 | IFCT 2017 G008 |
+| Ginger, fresh | 5 | 2.8 | 0.1 | 0.4 | 0.0 | IFCT 2017 G014 |
+| Turmeric powder | 0.75 | 2.1 | 0.1 | 0.4 | 0.0 | IFCT 2017 G033 |
+| Cumin seeds | 0.5 | 1.5 | 0.1 | 0.1 | 0.1 | IFCT 2017 G025 |
+| Groundnut oil | 9 | 79.6 | 0.0 | 0.0 | 9.0 | IFCT 2017 T005 |
+| **Total** | | **206.2** | **7.5** | **19.0** | **10.9** | |
+
+Cooked yield 229 g (the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does). Per 100 g cooked: 90.0 kcal. Katori density 1 g per ml (dal taken as 1 g per ml; a stated assumption).
+
+Portions:
+
+- 1 katori (150 ml): 150 g cooked = 135 kcal, P 5 g, C 12 g, F 7 g
+- 1 katori (200 ml): 200 g cooked = 180 kcal, P 7 g, C 17 g, F 10 g
+- 1 katori (250 ml): 250 g cooked = 225 kcal, P 8 g, C 21 g, F 12 g
+- Half a cup (100 ml): 100 g cooked = 90 kcal, P 3 g, C 8 g, F 5 g
+- 1 bowl (30 g dry dal): 229 g cooked = 205 kcal, P 7 g, C 19 g, F 11 g
+
+Outside (Dhaba or restaurant): fat sources x 1 to 2, portion x 1 to 1 = 180 to 250 kcal. Basis: The Indian Nutrient Databank's open-source chana dal (OSR142) uses 3 tablespoons of ghee for 200 g of dal, about 0.19 g of fat per g of dal against 0.30 g here; restaurant versions vary widely, so up to twice this page's fat is a stated assumption.
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: plain dal, half a cup: 100 kcal per half a cup, ours 90 (+11%).  https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+- Indian Nutrient Databank, Split bengal gram dal (OSR142): 99.7 kcal per 100 g, ours 90 (+11%). An open-source restaurant-style chana dal with 3 tbsp ghee. https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-
+
+Judgement calls:
+
+- ASC153 without its 50 g of lauki, as the dal tadka page removed spinach. Lauki is about 11 kcal per 100 g (IFCT D007), so it changes the bowl by about 5 kcal.
+- Fat 2 tsp = 9 g (USDA teaspoon of oil, 4.5 g).
+- Spices under 1 g (garam masala, chilli powder) left out.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+
+## Dal makhani (/calories/dal-makhani/)
+
+Recipe: one bowl, 30 g whole urad and 10 g rajma with curd, cream and 1 tablespoon of oil.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Black gram, whole (sabut urad) | 30 | 87.4 | 6.6 | 13.2 | 0.5 | IFCT 2017 B004 |
+| Rajmah, red (dry) | 10 | 29.9 | 2.0 | 4.9 | 0.2 | IFCT 2017 B020 |
+| Tomato, ripe, hybrid | 50 | 9.4 | 0.4 | 1.6 | 0.1 | IFCT 2017 D075 |
+| Onion, big | 25 | 12.0 | 0.4 | 2.4 | 0.1 | IFCT 2017 G017 |
+| Ginger, fresh | 5 | 2.8 | 0.1 | 0.4 | 0.0 | IFCT 2017 G014 |
+| Garlic | 1.25 | 1.5 | 0.1 | 0.3 | 0.0 | IFCT 2017 G011 |
+| Curd (dahi), whole milk | 25 | 15.3 | 0.9 | 1.2 | 0.8 | USDA FDC 171284 |
+| Cream, single (about 19% fat) | 5 | 9.8 | 0.1 | 0.2 | 1.0 | USDA FDC 170857 |
+| Groundnut oil | 13.6 | 120.3 | 0.0 | 0.0 | 13.6 | IFCT 2017 T005 |
+| Water | 120 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **288.3** | **10.5** | **24.1** | **16.2** | |
+
+Cooked yield 285 g (the ingredients added together, with the water the databank records (half a cup)). Per 100 g cooked: 101.2 kcal. Katori density 1 g per ml (taken as 1 g per ml; a stated assumption).
+
+Portions:
+
+- 1 katori (150 ml): 150 g cooked = 150 kcal, P 6 g, C 13 g, F 9 g
+- 1 katori (200 ml): 200 g cooked = 200 kcal, P 7 g, C 17 g, F 11 g
+- 1 katori (250 ml): 250 g cooked = 255 kcal, P 9 g, C 21 g, F 14 g
+- 1 textbook bowl (40 g dry dal and rajma): 285 g cooked = 290 kcal, P 11 g, C 24 g, F 16 g
+- 100 g: 100 g cooked = 100 kcal, P 4 g, C 8 g, F 6 g
+
+Outside (Restaurant): fat sources x 1 to 1, portion x 1 to 1, plus 5 to 10 g Butter, plus 15 to 30 g Cream, single (about 19% fat) = 265 to 335 kcal. Basis: No analysed value for restaurant dal makhani was found. The Indian Nutrient Databank's open-source dal makhani (OSR139) uses 3 tablespoons of butter and 2.5 of cream for 180 g of dal; restaurant finishes vary, so 1 to 2 teaspoons of butter and 1 to 2 tablespoons of cream per katori are a stated assumption.
+
+Cross-checks:
+
+- Indian Nutrient Databank, Dal makhani (OSR139): 74 kcal per 100 g, ours 101 (-27%). An open-source recipe with much more water. https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-
+
+Range shown on page: INDB's OSR139 dal makhani (74 kcal per 100 g) is 27% below this page's ASC160 dal. OSR139 uses 4 cups of water for 180 g of dal. Shown as a range.
+
+Judgement calls:
+
+- Water: the textbook says 1.5 cups; INDB records 0.5 cup. The INDB figure is used as the water left after simmering. No measured cooked weight exists.
+- Cream 1 tsp taken as 5 g of USDA light cream (19% fat), as on the paneer butter masala page.
+- Range low end of about 150 kcal is OSR139's 74 kcal per 100 g x 200 g.
+- Garam masala and chilli powder (0.25 tsp each) left out; under 2 kcal.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Cream, fluid, light (170857). https://fdc.nal.usda.gov/food-details/170857/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Butter, without salt (173430). https://fdc.nal.usda.gov/food-details/173430/nutrients (accessed 2026-10-10)
+
+## Chole (/calories/chole/)
+
+Recipe: one bowl, 40 g dry kabuli chana with onion, tomato and 2 teaspoons of oil.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Chickpeas, white (kabuli chana), dry | 40 | 151.2 | 8.2 | 20.3 | 2.4 | USDA FDC 173756 |
+| Water | 52.8 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Tomato, ripe, hybrid | 50 | 9.4 | 0.4 | 1.6 | 0.1 | IFCT 2017 D075 |
+| Onion, big | 30 | 14.4 | 0.4 | 2.9 | 0.1 | IFCT 2017 G017 |
+| Ginger, fresh | 15 | 8.3 | 0.3 | 1.3 | 0.1 | IFCT 2017 G014 |
+| Garlic | 0.6 | 0.7 | 0.0 | 0.1 | 0.0 | IFCT 2017 G011 |
+| Curd (dahi), whole milk | 5 | 3.1 | 0.2 | 0.2 | 0.2 | USDA FDC 171284 |
+| Groundnut oil | 9 | 79.6 | 0.0 | 0.0 | 9.0 | IFCT 2017 T005 |
+| **Total** | | **266.7** | **9.6** | **26.5** | **11.9** | |
+
+Cooked yield 202 g (cooked chana from water content (USDA raw chickpeas 7.7% water, boiled 60.2%, so 2.32 times the dry weight), plus the other ingredients). Per 100 g cooked: 132.0 kcal. Katori density 1 g per ml (chole taken as 1 g per ml; a stated assumption).
+
+Portions:
+
+- 1 katori (150 ml): 150 g cooked = 200 kcal, P 7 g, C 20 g, F 9 g
+- 1 katori (200 ml): 200 g cooked = 265 kcal, P 9 g, C 26 g, F 12 g
+- 1 katori (250 ml): 250 g cooked = 330 kcal, P 12 g, C 33 g, F 15 g
+- 1 bowl (30 g dry chana): 152 g cooked = 200 kcal, P 7 g, C 20 g, F 9 g
+- 1 bowl (40 g dry chana): 202 g cooked = 265 kcal, P 10 g, C 26 g, F 12 g
+- 100 g: 100 g cooked = 130 kcal, P 5 g, C 13 g, F 6 g
+
+Outside (Chole bhature stall or restaurant): fat sources x 1.5 to 2, portion x 1 to 1 = 305 to 345 kcal. Basis: No analysed value for street or restaurant chole was found. Chole cooked for chole bhature is usually oilier than home chole; 1.5 to 2 times this recipe's oil is a stated assumption.
+
+Cross-checks:
+
+- Indian Nutrient Databank, Chickpeas curry (ASC162), per bowl of 30 g dry chana: 196 kcal per a small bowl, ours 200 (-2%). Another textbook's chana curry with 1.5 tsp oil. https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-
+
+Judgement calls:
+
+- Kabuli chana from USDA FDC 173756 (raw chickpeas), carbohydrate as available (by difference minus fibre); IFCT 2017 has only kala chana (B002).
+- Cooked chana = 40 x (1 - 0.0768) / (1 - 0.6021) = 92.8 g (USDA raw 173756 and boiled 173757 water contents).
+- Ginger '3 cm' recorded by INDB as 15 g, kept. Whole spices under 1 g left out.
+- Chole bhature FAQ: 2 x 185 + 265 = 635 kcal.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, Chickpeas, mature seeds, raw (173756). https://fdc.nal.usda.gov/food-details/173756/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Chickpeas, mature seeds, cooked, boiled (173757). https://fdc.nal.usda.gov/food-details/173757/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+
+## Kadhi (/calories/kadhi/)
+
+Recipe: 100 g curd and 20 g besan in 400 ml water with a 1 tablespoon oil tadka, for 2 bowls.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Curd (dahi), whole milk | 100 | 61.0 | 3.5 | 4.7 | 3.3 | USDA FDC 171284 |
+| Besan (ground Bengal gram dal) | 20 | 65.8 | 4.3 | 9.3 | 1.1 | IFCT 2017 B001 |
+| Water | 400 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Groundnut oil | 13.6 | 120.3 | 0.0 | 0.0 | 13.6 | IFCT 2017 T005 |
+| Red chillies, dry, whole | 6.7 | 15.9 | 0.9 | 2.0 | 0.4 | IFCT 2017 G022 |
+| Turmeric powder | 2.25 | 6.3 | 0.2 | 1.1 | 0.1 | IFCT 2017 G033 |
+| Fenugreek seeds (methi dana) | 1 | 2.3 | 0.3 | 0.1 | 0.1 | IFCT 2017 G026 |
+| Red chilli powder | 1 | 2.8 | 0.1 | 0.1 | 0.1 | USDA FDC 171319 |
+| Curry leaves | 1 | 0.6 | 0.1 | 0.0 | 0.0 | IFCT 2017 G010 |
+| **Total** | | **275.1** | **9.3** | **17.4** | **18.7** | |
+
+Cooked yield 546 g (the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does). Per 100 g cooked: 50.4 kcal. Katori density 1 g per ml (kadhi taken as 1 g per ml; a stated assumption).
+
+Portions:
+
+- 1 katori (150 ml): 150 g cooked = 75 kcal, P 3 g, C 5 g, F 5 g
+- 1 katori (200 ml): 200 g cooked = 100 kcal, P 3 g, C 6 g, F 7 g
+- 1 katori (250 ml): 250 g cooked = 125 kcal, P 4 g, C 8 g, F 9 g
+- 1 bowl, half the recipe: 273 g cooked = 140 kcal, P 5 g, C 9 g, F 9 g
+- 1 bowl with its share of pakoras: 0.5 of the recipe + 15 g Besan (ground Bengal gram dal) + 10 g Spinach (palak) + 7.5 g Onion, big + 18.7 g Groundnut oil = 360 kcal, P 8 g, C 17 g, F 29 g
+
+Outside (Dhaba kadhi pakora): fat sources x 1 to 1, portion x 1 to 1.3 = 360 to 465 kcal. Basis: No analysed value for restaurant kadhi was found. The pakoras here already use the fat content of street pakoras measured by Gupta et al. 2016 (30.6%); a serving up to 1.3 times as big is a stated assumption.
+
+Judgement calls:
+
+- ASC168 lists besan twice (20 g and 30 g). The 20 g is taken as the kadhi and the 30 g, with spinach and onion, as the pakoras.
+- Pakora oil: fat set to 30.6% of the raw batter (besan 30 + spinach 20 + onion 15 + about 25 g water) plus oil, from Gupta et al. 2016's urban pakora (16.57 g fat in 54.16 g). (1.6 + x) / (90 + x) = 0.306 gives x = 37.4 g for the batch, 18.7 g per bowl.
+- No independent analysed value for kadhi was found (IFCT, NIN Annexure 8, USDA FNDDS, Europe PMC). INDB counts 480 ml of frying oil (2,367 kcal per bowl), so its values aren't used.
+- Asafoetida, cumin and coriander seeds (0.25 tsp each) left out.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- Gupta et al., Unhealthy fat in street and snack foods, Journal of Nutrition Education and Behavior, 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4826272 (accessed 2026-10-10)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Spices, chili powder (171319). https://fdc.nal.usda.gov/food-details/171319/nutrients (accessed 2026-10-10)
+
+## Sambar (/calories/sambar/)
+
+Recipe: 50 g toor dal with vegetables, tamarind, coconut and 2 teaspoons of oil, for 2 bowls.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Red gram dal (toor, arhar) | 50 | 165.4 | 10.8 | 27.6 | 0.8 | IFCT 2017 B021 |
+| Bengal gram dal (chana) | 4 | 13.2 | 0.9 | 1.9 | 0.2 | IFCT 2017 B001 |
+| Black gram dal (urad) | 4 | 13.0 | 0.9 | 2.0 | 0.1 | IFCT 2017 B003 |
+| Coconut, fresh | 30 | 122.7 | 1.2 | 1.9 | 12.4 | IFCT 2017 H007 |
+| Tamarind pulp | 20 | 57.7 | 0.6 | 13.5 | 0.0 | IFCT 2017 E064 |
+| Drumstick (moringa pods) | 30 | 8.8 | 0.8 | 1.1 | 0.0 | IFCT 2017 D046 |
+| Brinjal (baingan), all varieties | 30 | 7.6 | 0.4 | 1.1 | 0.1 | IFCT 2017 D031 |
+| Ladies finger (bhindi) | 30 | 8.3 | 0.6 | 1.1 | 0.1 | IFCT 2017 D056 |
+| Tomato, ripe, hybrid | 30 | 5.7 | 0.2 | 1.0 | 0.1 | IFCT 2017 D075 |
+| Onion, big | 30 | 14.4 | 0.4 | 2.9 | 0.1 | IFCT 2017 G017 |
+| Red chillies, dry, whole | 5 | 11.8 | 0.6 | 1.5 | 0.3 | IFCT 2017 G022 |
+| Coriander seeds (dhania) | 1.8 | 4.8 | 0.2 | 0.2 | 0.3 | IFCT 2017 G024 |
+| Fenugreek seeds (methi dana) | 1 | 2.3 | 0.3 | 0.1 | 0.1 | IFCT 2017 G026 |
+| Turmeric powder | 0.75 | 2.1 | 0.1 | 0.4 | 0.0 | IFCT 2017 G033 |
+| Groundnut oil | 9 | 79.6 | 0.0 | 0.0 | 9.0 | IFCT 2017 T005 |
+| Water | 240 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **517.3** | **18.0** | **56.2** | **23.6** | |
+
+Cooked yield 515 g (the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does). Per 100 g cooked: 100.5 kcal. Katori density 1 g per ml (sambar taken as 1 g per ml; a stated assumption).
+
+Portions:
+
+- 1 katori (150 ml): 150 g cooked = 150 kcal, P 5 g, C 16 g, F 7 g
+- 1 katori (200 ml): 200 g cooked = 200 kcal, P 7 g, C 22 g, F 9 g
+- 1 katori (250 ml): 250 g cooked = 250 kcal, P 9 g, C 27 g, F 11 g
+- 1 cup (200 ml), NIN's measure: 200 g cooked = 200 kcal, P 7 g, C 22 g, F 9 g
+- 1 bowl, half the recipe: 258 g cooked = 260 kcal, P 9 g, C 28 g, F 12 g
+- 100 g: 100 g cooked = 100 kcal, P 4 g, C 11 g, F 5 g
+
+Outside (Udupi restaurant or canteen): fat sources x 1 to 1, portion x 0.6 to 1 = 120 to 200 kcal. Basis: No analysed value for restaurant sambar was found. Restaurant and canteen sambar served with idli and dosa is usually thinner than this textbook sambar; 0.6 to 1 times is a stated assumption, with the low end near NIN's 110 kcal per cup.
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: sambar, 1 cup: 110 kcal per a cup, ours 201 (-45%).  https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+- USDA FNDDS 2021-2023, Sambar, vegetable stew (41311020): 86 kcal per 100 g, ours 100 (-14%).  https://fdc.nal.usda.gov/food-details/2707430/nutrients
+
+Range shown on page: NIN's 110 kcal per cup is 45% below this page's thick, coconut sambar (ASC167). USDA FNDDS sambar (86 kcal per 100 g) sits in between. Shown as a range.
+
+Judgement calls:
+
+- Teaspoon of chana or urad dal taken as 4 g. Coriander seed 1 tsp = 1.8 g; turmeric 0.25 tsp = 0.75 g.
+- Asafoetida, mustard seeds and curry leaves (under 1 g each) left out.
+- Thin sambar at about 55 kcal per 100 g is NIN's 110 kcal per 200 ml cup.
+- Cup = 200 ml (NIN).
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Sambar, vegetable stew (2707430). https://fdc.nal.usda.gov/food-details/2707430/nutrients (accessed 2026-10-10)
+
+## Rasam (/calories/rasam/)
+
+Recipe: one bowl, 10 g toor dal with tomato, tamarind and ½ teaspoon of oil.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Red gram dal (toor, arhar) | 10 | 33.1 | 2.2 | 5.5 | 0.2 | IFCT 2017 B021 |
+| Tomato, ripe, hybrid | 50 | 9.4 | 0.4 | 1.6 | 0.1 | IFCT 2017 D075 |
+| Tamarind pulp | 3 | 8.7 | 0.1 | 2.0 | 0.0 | IFCT 2017 E064 |
+| Red chillies, dry, whole | 6.7 | 15.9 | 0.9 | 2.0 | 0.4 | IFCT 2017 G022 |
+| Chillies, green | 3.3 | 1.4 | 0.1 | 0.2 | 0.0 | IFCT 2017 G008 |
+| Ginger, fresh | 5 | 2.8 | 0.1 | 0.4 | 0.0 | IFCT 2017 G014 |
+| Coriander seeds (dhania) | 1.8 | 4.8 | 0.2 | 0.2 | 0.3 | IFCT 2017 G024 |
+| Black pepper | 0.5 | 1.1 | 0.1 | 0.2 | 0.0 | IFCT 2017 G031 |
+| Groundnut oil | 2.25 | 19.9 | 0.0 | 0.0 | 2.3 | IFCT 2017 T005 |
+| Water | 300 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **97.0** | **3.9** | **12.2** | **3.4** | |
+
+Cooked yield 383 g (the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does). Per 100 g cooked: 25.3 kcal. Katori density 1 g per ml (rasam taken as 1 g per ml, like water).
+
+Portions:
+
+- 1 katori (150 ml): 150 g cooked = 40 kcal, P 2 g, C 5 g, F 1 g
+- 1 katori (200 ml): 200 g cooked = 50 kcal, P 2 g, C 6 g, F 2 g
+- 1 katori (250 ml): 250 g cooked = 65 kcal, P 3 g, C 8 g, F 2 g
+- 1 tumbler (150 ml), to drink: 150 g cooked = 40 kcal, P 2 g, C 5 g, F 1 g
+- 1 textbook bowl (about 385 ml): 383 g cooked = 95 kcal, P 4 g, C 12 g, F 3 g
+- 200 ml rasam with a 200 ml katori of rice: undefined of the recipe + 45 g Rice, raw, milled = 210 kcal, P 6 g, C 42 g, F 2 g
+
+Outside (Restaurant or meals hotel): fat sources x 1 to 1, portion x 1 to 1, plus 0 to 5 g Ghee = 50 to 95 kcal. Basis: No analysed value for restaurant rasam was found. Up to an extra NIN teaspoon of ghee or oil in the tadka is a stated assumption.
+
+Judgement calls:
+
+- No independent analysed value for rasam was found (IFCT, NIN Annexure 8, USDA FNDDS). INDB's per-bowl value (104.3 kcal) is from the same textbook recipe.
+- Rice: a 200 ml katori of cooked rice is 134 g on the plain rice page (density 0.67), from 45 g raw rice (yield 2.98).
+- Mustard seeds, cumin, garlic, asafoetida, coriander and curry leaves (under 1 g each) left out; together under 5 kcal.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+
+## Khichdi (/calories/khichdi/)
+
+Recipe: 60 g rice and 20 g moong dal with ginger, jeera and 5 g ghee.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Rice, parboiled, milled | 60 | 211.0 | 4.7 | 46.3 | 0.3 | IFCT 2017 A014 |
+| Green gram dal (moong) | 20 | 65.2 | 4.8 | 10.5 | 0.3 | IFCT 2017 B010 |
+| Ginger, fresh | 5 | 2.8 | 0.1 | 0.4 | 0.0 | IFCT 2017 G014 |
+| Cumin seeds | 1 | 3.0 | 0.1 | 0.2 | 0.2 | IFCT 2017 G025 |
+| Ghee | 5 | 44.2 | 0.0 | 0.0 | 5.0 | IFCT 2017 T013 |
+| Water | 480 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **326.1** | **9.7** | **57.5** | **5.8** | |
+
+Cooked yield 239 g (the recipe's solids (78.5 g) at the 67.2% water of USDA's rice with lentils, so 78.5 / 0.328). Per 100 g cooked: 136.5 kcal. Katori density 0.875 g per ml (USDA's rice with lentils: 207 g per cup (236.6 ml)).
+
+Portions:
+
+- 1 katori (150 ml): 131 g cooked = 180 kcal, P 5 g, C 32 g, F 3 g
+- 1 katori (200 ml): 175 g cooked = 240 kcal, P 7 g, C 42 g, F 4 g
+- 1 katori (250 ml): 219 g cooked = 300 kcal, P 9 g, C 53 g, F 5 g
+- 1 plate (the whole recipe): 239 g cooked = 325 kcal, P 10 g, C 57 g, F 6 g
+- 200 ml katori, 1 tsp ghee on top: 175 g cooked + 5 g Ghee = 285 kcal, P 7 g, C 42 g, F 9 g
+- 200 ml katori with 100 g curd: undefined of the recipe + 100 g Curd (dahi), whole milk = 300 kcal, P 11 g, C 47 g, F 8 g
+- 100 g: 100 g cooked = 135 kcal, P 4 g, C 24 g, F 2 g
+
+Outside (Restaurant or thali): fat sources x 1 to 1, portion x 1 to 1, plus 5 to 10 g Ghee = 285 to 325 kcal. Basis: No analysed value for restaurant khichdi was found. Restaurant and thali khichdi is usually served with ghee poured over; 1 to 2 NIN teaspoons per katori is a stated assumption.
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: khichdi, 1 cup: 200 kcal per a 200 ml katori, ours 239 (-16%).  https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+- USDA FNDDS 2021-2023, Rice, white, with lentils, fat added (58160805): 150 kcal per 100 g, ours 136 (+10%).  https://fdc.nal.usda.gov/food-details/2709030/nutrients
+
+Range shown on page: NIN's 200 kcal per cup is 16% below this page's katori; a wetter khichdi explains it. Shown as a range.
+
+Judgement calls:
+
+- Yield from water content rather than INDB's sum of ingredients (572 g), which ignores evaporation and absorption: solids = rice 53.9 + moong 18.0 + ginger 0.6 + cumin 0.9 + ghee 5 = 78.5 g; at FNDDS 58160805's 67.2% water, 239 g.
+- Density 0.875 g per ml from FNDDS 58160805 (207 g per cup of 236.6 ml).
+- Rice is parboiled (A014), as INDB maps 'rice' in this recipe.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Rice, white, with lentils, fat added (2709030). https://fdc.nal.usda.gov/food-details/2709030/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+

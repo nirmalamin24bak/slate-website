@@ -978,5 +978,27 @@
       "carbs": 82.2,
       "fat": 0.0
     }
+  },
+  "drumstick": {
+    "name": "Drumstick (moringa pods)",
+    "sourceShort": "IFCT 2017 D046",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code D046",
+    "per100g": {
+      "kcal": 29.4,
+      "protein": 2.62,
+      "carbs": 3.76,
+      "fat": 0.12
+    }
+  },
+  "chilli_red": {
+    "name": "Red chillies, dry, whole",
+    "sourceShort": "IFCT 2017 G022",
+    "source": "ICMR-NIN Indian Food Composition Tables 2017, food code G022",
+    "per100g": {
+      "kcal": 236.6,
+      "protein": 12.69,
+      "carbs": 29.46,
+      "fat": 6.4
+    }
   }
 }

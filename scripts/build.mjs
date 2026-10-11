@@ -85,7 +85,8 @@ function computeFood(food) {
   const portions = {};
   for (const p of food.portions) {
     const c = computePortion(food, totals, p);
-    p.cookedGrams = c.grams == null ? null : Math.round(c.grams);
+    // hideGrams: the portion adds a lot of another food (pakoras, a katori of rice), so the dish's own weight would mislead.
+    p.cookedGrams = c.grams == null || p.hideGrams ? null : Math.round(c.grams);
     Object.assign(p, rounded(c.raw));
     portions[p.id] = { ...c, p };
   }

@@ -4902,6 +4902,2706 @@
         }
       ],
       "per100gCooked": null
+    },
+    {
+      "slug": "dal-fry",
+      "name": "Dal fry",
+      "nameLower": "dal fry",
+      "category": "dals",
+      "aliases": [
+        "daal fry",
+        "dal fry tadka",
+        "arhar dal fry",
+        "toor dal fry",
+        "dhaba dal fry",
+        "दाल फ्राई",
+        "દાળ ફ્રાય"
+      ],
+      "updated": "2026-10-11",
+      "title": "Dal fry calories: per katori, home and dhaba",
+      "description": "A 200 ml katori of dal fry has about {{kcal:k200}} calories, with 10 g of ghee in the pot. Dhaba dal fry and dal fry vs dal tadka compared.",
+      "answer": "A 200 ml katori of home dal fry has about {{kcal:k200}} calories. It's thicker than everyday dal tadka and cooked into an onion and tomato masala, so a katori holds more dal.",
+      "intro": [
+        "Dal fry is toor dal, cooked soft and then stirred into onion, tomato, green chilli and spices fried in ghee, with a jeera tempering. In dhabas and on restaurant menus it sits next to dal tadka; the difference is that the masala is cooked into the dal rather than poured over at the end, and dal fry is usually thicker.",
+        "Most of the calories come from two things in roughly equal parts: the dal and the ghee."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Thick dal, made as below. A thinner dal has less in each katori.",
+      "recipe": {
+        "label": "Recipe: one bowl, 30 g toor dal with an onion-tomato masala and 10 g ghee",
+        "ingredients": [
+          {
+            "id": "toor_dal",
+            "g": 30
+          },
+          {
+            "id": "water",
+            "g": 150,
+            "note": "Half the water of the dal tadka page, for a thicker dal: an assumption"
+          },
+          {
+            "id": "onion",
+            "g": 20
+          },
+          {
+            "id": "tomato",
+            "g": 15
+          },
+          {
+            "id": "green_chilli",
+            "g": 1.7
+          },
+          {
+            "id": "ghee",
+            "g": 5,
+            "note": "Onion-tomato masala"
+          },
+          {
+            "id": "ghee",
+            "g": 5,
+            "note": "Jeera tempering"
+          },
+          {
+            "id": "cumin",
+            "g": 1,
+            "note": "half a teaspoon"
+          }
+        ],
+        "cookedYieldG": 228,
+        "yieldNote": "the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does",
+        "densityGPerMl": 1,
+        "densityNote": "dal taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 135,
+          "protein": 5,
+          "carbs": 13,
+          "fat": 7
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 180,
+          "protein": 6,
+          "carbs": 17,
+          "fat": 9
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 250,
+          "kcal": 225,
+          "protein": 8,
+          "carbs": 21,
+          "fat": 12
+        },
+        {
+          "id": "half",
+          "label": "Half a cup (100 ml)",
+          "short": "half a cup",
+          "ml": 100,
+          "cookedGrams": 100,
+          "kcal": 90,
+          "protein": 3,
+          "carbs": 8,
+          "fat": 5
+        },
+        {
+          "id": "bowl",
+          "label": "1 bowl (30 g dry dal)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 228,
+          "kcal": 205,
+          "protein": 7,
+          "carbs": 19,
+          "fat": 11
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Dhaba or restaurant",
+        "caption": "One 200 ml katori. The outside range is up to 1.5 times as thick, with up to half as much ghee again.",
+        "fatFactor": [
+          1,
+          1.5
+        ],
+        "sizeFactor": [
+          1,
+          1.5
+        ],
+        "basis": "No analysed value for restaurant dal fry was found. Up to 1.5 times the dal per katori (thicker) and up to 1.5 times the ghee are stated assumptions, in line with the dal tadka page.",
+        "text": [
+          "Dhaba dal fry is often thicker than home dal fry and finished with an extra spoon of ghee or butter, sometimes a second tadka with dry red chillies.",
+          "No lab has measured a dhaba dal fry, so the range below assumes a katori up to 1.5 times as thick, with up to half as much ghee again."
+        ],
+        "kcalRange": [
+          180,
+          325
+        ],
+        "fatRange": [
+          9,
+          21
+        ]
+      },
+      "changes": [
+        "Each teaspoon of ghee or oil in the masala or the tempering adds about 45 calories to the pot.",
+        "Thickness decides how much dal is in a katori. This dal fry is about half water by weight; a runnier one has fewer calories per katori.",
+        "Onion and tomato add little: under 15 calories for the whole bowl here.",
+        "Dal fry made with moong or masoor is within a few percent of toor per gram in IFCT 2017, so the fat and thickness matter more than the dal."
+      ],
+      "method": [
+        "No standard textbook has a single dal fry recipe, so this one combines three from Basic Food Preparation, a standard Indian cookery manual (via the Indian Nutrient Databank): 30 g of toor dal as in its arhar dal, its onion-tomato masala (20 g onion, 15 g tomato, 5 g ghee) and its jeera tempering (5 g ghee). Values are from IFCT 2017.",
+        "The water is half that of the dal tadka page, for a thicker dal. That's an assumption, and the range below shows what thickness does."
+      ],
+      "range": {
+        "text": "Dal thickness varies more than anything else here. ICMR-NIN counts half a cup of plain dal at 100 calories, close to this page's {{kcal:half}}, while USDA's survey value for dal is about 145 per 100 g. A 200 ml katori of dal fry can be anywhere from about {{kcal:k200}} to 290, depending on how thick it is.",
+        "reason": "USDA FNDDS 'Dal' (41305050, 145 kcal per 100 g) is 62% above this page's dal fry; NIN's plain dal is within 12%. The difference is thickness. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 bowl of dal fry?",
+          "a": "A bowl made from 30 g of dry toor dal with 10 g of ghee has about {{kcal:bowl}} calories. A 200 ml katori is about {{kcal:k200}}."
+        },
+        {
+          "q": "What's the difference between dal fry and dal tadka?",
+          "a": "In dal fry the onion-tomato masala is cooked into the dal; in dal tadka a ghee tempering is poured on at the end. Dal fry is usually thicker, so a 200 ml katori is about {{kcal:k200}} calories here against about {{kcal@dal-tadka:k200}} for [dal tadka](/calories/dal-tadka/)."
+        },
+        {
+          "q": "How much protein is in dal fry?",
+          "a": "About {{protein:k200}} g in a 200 ml katori, and about {{protein:bowl}} g in a bowl made from 30 g of dry dal."
+        },
+        {
+          "q": "How many calories are in 100 g of dal fry?",
+          "a": "About {{per100}} calories per 100 g of this dal fry. A thinner dal has less, a thicker one more."
+        },
+        {
+          "q": "How many calories are in dal fry and rice?",
+          "a": "A 200 ml katori of dal fry is about {{kcal:k200}}, and a 200 ml katori of [plain rice](/calories/plain-rice/) about {{kcal@plain-rice:k200}}."
+        }
+      ],
+      "related": [
+        "dal-tadka",
+        "toor-dal",
+        "plain-rice",
+        "jeera-rice",
+        "roti"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: plain dal, half a cup",
+          "kcal": 100,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "portionId": "half",
+          "ours": 89,
+          "differencePct": 12
+        },
+        {
+          "source": "USDA FNDDS 2021-2023, Dal (41305050)",
+          "kcalPer100g": 145,
+          "note": "A generic survey recipe, thicker than this one.",
+          "url": "https://fdc.nal.usda.gov/food-details/2707427/nutrients",
+          "ours": 89,
+          "differencePct": 62
+        }
+      ],
+      "judgement": [
+        "Composite recipe from three Basic Food Preparation components (via INDB): arhar dal BFP172 (30 g dal), onion-tomato baghar BFP168 and cumin baghar BFP167.",
+        "Water 150 ml (half of BFP172's 300 ml) is an assumption for a thicker dal fry.",
+        "Yield = sum of ingredients (no evaporation), following INDB. Density 1 g per ml assumed.",
+        "Range top: 1.6 times this katori (about 290 kcal) brings it close to FNDDS dal at 145 kcal per 100 g."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Red gram dal (B021), onion (G017), tomato (D075), green chilli (G008), ghee (T013), cumin (G025); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipes BFP172 (arhar dal), BFP168 (onion tomato baghar), BFP167 (cumin baghar)",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: plain dal 100 kcal per half cup",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Dal (2707427)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707427/nutrients",
+          "note": "145 kcal per 100 g",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 90,
+        "protein": 3,
+        "carbs": 8,
+        "fat": 5
+      }
+    },
+    {
+      "slug": "toor-dal",
+      "name": "Toor dal",
+      "nameLower": "toor dal",
+      "category": "dals",
+      "aliases": [
+        "tur dal",
+        "tuvar dal",
+        "tuvar",
+        "arhar dal",
+        "arhar",
+        "pigeon pea",
+        "red gram dal",
+        "varan",
+        "pappu",
+        "gujarati dal",
+        "तूर दाल",
+        "अरहर दाल",
+        "તુવેર દાળ",
+        "તુવર દાળ"
+      ],
+      "updated": "2026-10-11",
+      "title": "Toor dal calories: raw per 100 g and per cooked bowl",
+      "description": "100 g of raw toor dal has {{ing:toor_dal}} calories. A bowl of plain cooked dal from 30 g raw has about {{kcal:bowl}}. Gujarati dal and ghee compared.",
+      "answer": "A bowl of plain toor dal made from 30 g of dry dal has about {{kcal:bowl}} calories, before any ghee. Raw toor dal has {{ing:toor_dal}} calories per 100 g.",
+      "intro": [
+        "Toor dal (arhar, tuvar) is split pigeon pea, the everyday dal across Gujarat, Maharashtra, Karnataka and Andhra. It's eaten plain as varan or pappu with rice and ghee, sweet and sour as Gujarati dal with jaggery and kokum, and as the base of sambar and dal tadka.",
+        "Cooked dal is mostly water, so the useful number is the dry dal that went into the pot. ICMR-NIN's standard pulse portion is 30 g of dry dal, and that's the bowl this page counts."
+      ],
+      "headlinePortion": "bowl",
+      "portionsCaption": "Plain dal, 30 g of dry dal cooked in a cup of water, without ghee unless stated.",
+      "recipe": {
+        "label": "Recipe: one bowl, 30 g toor dal cooked in 240 ml water with turmeric",
+        "ingredients": [
+          {
+            "id": "toor_dal",
+            "g": 30,
+            "note": "Dry weight"
+          },
+          {
+            "id": "water",
+            "g": 240,
+            "note": "1 cup"
+          },
+          {
+            "id": "turmeric",
+            "g": 0.75,
+            "note": "a quarter teaspoon"
+          }
+        ],
+        "cookedYieldG": 271,
+        "yieldNote": "the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does",
+        "densityGPerMl": 1,
+        "densityNote": "thin dal taken as 1 g per ml, like water; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "bowl",
+          "label": "1 bowl (30 g dry dal, about 270 ml)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 271,
+          "kcal": 100,
+          "protein": 7,
+          "carbs": 17,
+          "fat": 1
+        },
+        {
+          "id": "bowl_ghee",
+          "label": "1 bowl with 1 tsp ghee (5 g)",
+          "short": "a bowl with ghee",
+          "fraction": 1,
+          "add": [
+            {
+              "id": "ghee",
+              "g": 5
+            }
+          ],
+          "cookedGrams": 271,
+          "kcal": 145,
+          "protein": 7,
+          "carbs": 17,
+          "fat": 6
+        },
+        {
+          "id": "gujarati",
+          "label": "1 bowl Gujarati dal, 1 tsp jaggery and ghee tadka",
+          "short": "Gujarati dal",
+          "fraction": 1,
+          "add": [
+            {
+              "id": "jaggery",
+              "g": 5
+            },
+            {
+              "id": "ghee",
+              "g": 5
+            }
+          ],
+          "cookedGrams": 271,
+          "kcal": 165,
+          "protein": 7,
+          "carbs": 21,
+          "fat": 6
+        },
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml), plain",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 55,
+          "protein": 4,
+          "carbs": 9,
+          "fat": 0
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml), plain",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 75,
+          "protein": 5,
+          "carbs": 13,
+          "fat": 0
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml), plain",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 250,
+          "kcal": 95,
+          "protein": 6,
+          "carbs": 16,
+          "fat": 0
+        }
+      ],
+      "outside": {
+        "portionId": "bowl",
+        "label": "Thali restaurant",
+        "caption": "One bowl. The outside range adds half to one teaspoon of ghee.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "ghee",
+            "g": [
+              2.5,
+              5
+            ]
+          }
+        ],
+        "basis": "No analysed value for restaurant plain dal was found. Half to one NIN teaspoon of ghee on a thali dal is a stated assumption.",
+        "text": [
+          "In a Gujarati or Maharashtrian thali, plain dal or varan usually comes with ghee poured on at the table, and Gujarati thali dal is often sweeter than home dal. The dal itself is much the same.",
+          "We found no lab figure for thali dal, so the range below adds half to one teaspoon of ghee to the same bowl."
+        ],
+        "kcalRange": [
+          125,
+          145
+        ],
+        "fatRange": [
+          3,
+          6
+        ]
+      },
+      "changes": [
+        "A teaspoon of ghee on top adds about 45 calories, almost half the bowl again.",
+        "Gujarati dal adds jaggery, about 18 calories a teaspoon, and often a ghee tadka with mustard, methi and curry leaves.",
+        "The water doesn't change the bowl's total, only how many katoris it fills. Count by the dry dal when you can.",
+        "Dal cooked with vegetables, as in sambar or dal palak, adds a little for the vegetables. See [sambar](/calories/sambar/)."
+      ],
+      "method": [
+        "The bowl is ICMR-NIN's standard pulse portion of 30 g of dry dal, cooked in a cup (240 ml) of water with turmeric, as in the plain dals of The Art & Science of Cooking. Values are from IFCT 2017: raw toor dal has {{ing:toor_dal}} calories, 21.7 g of protein and 1.6 g of fat per 100 g.",
+        "The cooked weight is the ingredients added together, so the katori rows are for a thin dal. A dal boiled down further has more in each katori but the same in the bowl."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 100 g of raw toor dal?",
+          "a": "{{ing:toor_dal}} calories, with 21.7 g of protein, according to IFCT 2017."
+        },
+        {
+          "q": "How many calories are in 100 g of cooked toor dal?",
+          "a": "About {{per100}} for a thin dal made with 30 g of dal in a cup of water. A thick dal can be twice that, because it holds less water."
+        },
+        {
+          "q": "How much protein is in a bowl of toor dal?",
+          "a": "About {{protein:bowl}} g in a bowl made from 30 g of dry dal. Two bowls a day give about twice that."
+        },
+        {
+          "q": "How many calories are in Gujarati dal?",
+          "a": "About {{kcal:gujarati}} for a bowl with a teaspoon of jaggery and a teaspoon of ghee in the tadka."
+        },
+        {
+          "q": "Which has more calories, toor dal or moong dal?",
+          "a": "They're close. Raw, IFCT 2017 puts toor dal at {{ing:toor_dal}} and moong dal at {{ing:moong_dal}} calories per 100 g. See [moong dal](/calories/moong-dal/)."
+        }
+      ],
+      "related": [
+        "dal-tadka",
+        "dal-fry",
+        "moong-dal",
+        "sambar",
+        "plain-rice"
+      ],
+      "useCase": {
+        "href": "/for/vegetarians/",
+        "label": "Calorie counting for vegetarians"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: plain dal, half a cup",
+          "kcal": 100,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "portionId": "bowl",
+          "note": "NIN's half cup of plain dal is one 30 g pulse portion, the same dry dal as this bowl.",
+          "ours": 101,
+          "differencePct": -1
+        }
+      ],
+      "judgement": [
+        "Bowl = NIN's 30 g pulse portion. NIN's 'plain dhal, half cup, 100 kcal' is compared with this bowl because both hold one portion of dry dal; NIN's dal is thicker, so the volume differs.",
+        "Water 1 cup (240 ml) follows The Art & Science of Cooking's washed moong dal (ASC151), the textbook's plain-dal pattern; no plain toor dal recipe exists in INDB.",
+        "Jaggery 1 tsp taken as 5 g."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Red gram dal (B021), green gram dal (B010), turmeric (G033), ghee (T013), jaggery (I001); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC151 (plain dal pattern: 30 g dal, 1 cup water)",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: plain dal 100 kcal per half cup",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 35,
+        "protein": 2,
+        "carbs": 6,
+        "fat": 0
+      }
+    },
+    {
+      "slug": "moong-dal",
+      "name": "Moong dal",
+      "nameLower": "moong dal",
+      "category": "dals",
+      "aliases": [
+        "mung dal",
+        "moong ki dal",
+        "dhuli moong dal",
+        "yellow moong dal",
+        "green gram dal",
+        "split moong",
+        "मूंग दाल",
+        "धुली मूंग",
+        "મગની દાળ"
+      ],
+      "updated": "2026-10-11",
+      "title": "Moong dal calories: per bowl, per katori and per 100 g",
+      "description": "A bowl of moong dal from 30 g dry dal has about {{kcal:bowl_plain}} calories, or {{kcal:bowl}} with a teaspoon of oil in the tadka. Raw values too.",
+      "answer": "A bowl of yellow moong dal made from 30 g of dry dal has about {{kcal:bowl_plain}} calories, or about {{kcal:bowl}} with the textbook's teaspoon of oil in the tadka.",
+      "intro": [
+        "Dhuli moong dal is split, skinned green gram. It cooks quickly to a soft, light dal and is the one most homes make for children, for someone unwell, or with rice as khichdi. It's tempered simply with jeera and a teaspoon of oil or ghee.",
+        "The dal itself is close to toor dal in calories. The tadka is what changes the number from one home to the next."
+      ],
+      "headlinePortion": "bowl_plain",
+      "portionsCaption": "30 g of dry dal cooked in a cup of water. Katoris include their share of a 1 tsp tadka.",
+      "recipe": {
+        "label": "Recipe: one bowl, 30 g moong dal in 240 ml water with jeera and spices",
+        "ingredients": [
+          {
+            "id": "moong_dal",
+            "g": 30,
+            "note": "Dry weight"
+          },
+          {
+            "id": "water",
+            "g": 240,
+            "note": "1 cup"
+          },
+          {
+            "id": "turmeric",
+            "g": 0.75
+          },
+          {
+            "id": "chilli_powder",
+            "g": 0.7
+          },
+          {
+            "id": "cumin",
+            "g": 0.5
+          }
+        ],
+        "cookedYieldG": 272,
+        "yieldNote": "the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does",
+        "densityGPerMl": 1,
+        "densityNote": "thin dal taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "bowl_plain",
+          "label": "1 bowl, no tadka (30 g dry dal)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 272,
+          "kcal": 105,
+          "protein": 7,
+          "carbs": 16,
+          "fat": 1
+        },
+        {
+          "id": "bowl",
+          "label": "1 bowl, 1 tsp oil tadka (textbook)",
+          "short": "a bowl with tadka",
+          "fraction": 1,
+          "add": [
+            {
+              "id": "oil",
+              "g": 4.5
+            }
+          ],
+          "cookedGrams": 272,
+          "kcal": 145,
+          "protein": 7,
+          "carbs": 16,
+          "fat": 5
+        },
+        {
+          "id": "bowl_ghee",
+          "label": "1 bowl, 1 tsp ghee tadka",
+          "short": "a bowl with ghee",
+          "fraction": 1,
+          "add": [
+            {
+              "id": "ghee",
+              "g": 5
+            }
+          ],
+          "cookedGrams": 272,
+          "kcal": 150,
+          "protein": 7,
+          "carbs": 16,
+          "fat": 6
+        },
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml), with tadka",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "add": [
+            {
+              "id": "oil",
+              "g": 2.5
+            }
+          ],
+          "cookedGrams": 150,
+          "kcal": 80,
+          "protein": 4,
+          "carbs": 9,
+          "fat": 3
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml), with tadka",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "add": [
+            {
+              "id": "oil",
+              "g": 3.3
+            }
+          ],
+          "cookedGrams": 200,
+          "kcal": 105,
+          "protein": 5,
+          "carbs": 12,
+          "fat": 4
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml), with tadka",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "add": [
+            {
+              "id": "oil",
+              "g": 4.1
+            }
+          ],
+          "cookedGrams": 250,
+          "kcal": 130,
+          "protein": 7,
+          "carbs": 15,
+          "fat": 5
+        }
+      ],
+      "outside": {
+        "portionId": "bowl",
+        "label": "Restaurant yellow dal",
+        "caption": "One bowl. The outside range is up to 1.5 times the dal, with 1 to 2 teaspoons of ghee in place of the oil.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1.5
+        ],
+        "extra": [
+          {
+            "id": "ghee",
+            "g": [
+              0,
+              5
+            ]
+          }
+        ],
+        "basis": "No analysed value for restaurant moong dal was found. A serving up to 1.5 times the dal and up to an extra teaspoon of ghee are stated assumptions.",
+        "text": [
+          "Restaurant yellow dal is often moong or a moong-toor mix, served thicker than home dal and finished with ghee or butter.",
+          "With no lab figure to go on, the range below assumes up to 1.5 times the dal per serving and up to one more teaspoon of ghee."
+        ],
+        "kcalRange": [
+          145,
+          260
+        ],
+        "fatRange": [
+          5,
+          13
+        ]
+      },
+      "changes": [
+        "The tadka is the main variable. A teaspoon of oil adds about 40 calories, and a teaspoon of ghee about 45.",
+        "Whole green moong (sabut moong) has the skin and a little more fibre, and is within a few percent per gram.",
+        "Palak or lauki added to moong dal adds very few calories and a lot of volume.",
+        "Moong dal cooked with rice is khichdi: see [khichdi](/calories/khichdi/)."
+      ],
+      "method": [
+        "The recipe is the washed moong dal in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 30 g of moong dal cooked in a cup of water with turmeric, chilli and jeera, tempered with a teaspoon of fat. The fat is counted per portion here, so you can see the dal with and without it. Values are from IFCT 2017.",
+        "Katoris are worked out at 1 g per ml for a thin dal, with their share of the textbook's teaspoon of oil."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 bowl of moong dal?",
+          "a": "About {{kcal:bowl_plain}} for a bowl made from 30 g of dry dal, or about {{kcal:bowl}} with a teaspoon of oil in the tadka."
+        },
+        {
+          "q": "How many calories are in 100 g of raw moong dal?",
+          "a": "{{ing:moong_dal}} calories, with 23.9 g of protein, according to IFCT 2017."
+        },
+        {
+          "q": "How much protein is in a bowl of moong dal?",
+          "a": "About {{protein:bowl_plain}} g in a bowl made from 30 g of dry dal."
+        },
+        {
+          "q": "Which has more calories, moong dal or chana dal?",
+          "a": "Chana dal, a little, because it has more fat. Raw, IFCT 2017 puts chana dal at {{ing:chana_dal}} and moong dal at {{ing:moong_dal}} calories per 100 g. See [chana dal](/calories/chana-dal/)."
+        }
+      ],
+      "related": [
+        "toor-dal",
+        "chana-dal",
+        "khichdi",
+        "dal-tadka"
+      ],
+      "useCase": {
+        "href": "/for/vegetarians/",
+        "label": "Calorie counting for vegetarians"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: plain dal, half a cup",
+          "kcal": 100,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "portionId": "bowl_plain",
+          "note": "NIN's half cup of plain dal is one 30 g pulse portion, the same dry dal as this bowl.",
+          "ours": 103,
+          "differencePct": -3
+        }
+      ],
+      "judgement": [
+        "The textbook's 1 tsp fat is moved to the portions so the plain bowl can be compared with NIN's plain dal (one 30 g pulse portion).",
+        "Katori tadka shares: 4.5 g oil x katori ml / 272 g bowl, so 2.5, 3.3 and 4.1 g.",
+        "Garam masala (0.25 tsp) left out; under 2 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Green gram dal (B010), Bengal gram dal (B001), turmeric (G033), cumin (G025), oil, ghee; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC151, washed moong dal",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: plain dal 100 kcal per half cup",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Spices, chili powder (171319)",
+          "url": "https://fdc.nal.usda.gov/food-details/171319/nutrients",
+          "note": "Red chilli powder",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 40,
+        "protein": 3,
+        "carbs": 6,
+        "fat": 0
+      }
+    },
+    {
+      "slug": "chana-dal",
+      "name": "Chana dal",
+      "nameLower": "chana dal",
+      "category": "dals",
+      "aliases": [
+        "channa dal",
+        "chane ki dal",
+        "bengal gram dal",
+        "split chickpea dal",
+        "chana dal fry",
+        "चना दाल",
+        "चने की दाल",
+        "ચણાની દાળ"
+      ],
+      "updated": "2026-10-11",
+      "title": "Chana dal calories: cooked katori and raw per 100 g",
+      "description": "A 200 ml katori of cooked chana dal has about {{kcal:k200}} calories; raw chana dal has {{ing:chana_dal}} per 100 g. Worked out from IFCT 2017.",
+      "answer": "A 200 ml katori of home chana dal has about {{kcal:k200}} calories. Raw chana dal has {{ing:chana_dal}} calories per 100 g.",
+      "intro": [
+        "Chana dal is split Bengal gram, the small brown chickpea with its skin removed. It holds its shape when cooked, so chana dal is usually thick, often cooked with lauki, and finished with an onion-tomato masala. Ground, it becomes besan.",
+        "Per gram, chana dal has a little more fat than other dals, about 5%. A katori of it is thicker than most dals too, which is why it comes out higher."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Thick dal, made as below.",
+      "recipe": {
+        "label": "Recipe: one bowl, 30 g chana dal with onion, tomato and 2 teaspoons of oil",
+        "ingredients": [
+          {
+            "id": "chana_dal",
+            "g": 30,
+            "note": "Dry weight"
+          },
+          {
+            "id": "water",
+            "g": 120,
+            "note": "half a cup"
+          },
+          {
+            "id": "onion",
+            "g": 30
+          },
+          {
+            "id": "tomato",
+            "g": 30
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3
+          },
+          {
+            "id": "ginger",
+            "g": 5
+          },
+          {
+            "id": "turmeric",
+            "g": 0.75
+          },
+          {
+            "id": "cumin",
+            "g": 0.5
+          },
+          {
+            "id": "oil",
+            "g": 9,
+            "note": "2 teaspoons"
+          }
+        ],
+        "cookedYieldG": 229,
+        "yieldNote": "the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does",
+        "densityGPerMl": 1,
+        "densityNote": "dal taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 135,
+          "protein": 5,
+          "carbs": 12,
+          "fat": 7
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 180,
+          "protein": 7,
+          "carbs": 17,
+          "fat": 10
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 250,
+          "kcal": 225,
+          "protein": 8,
+          "carbs": 21,
+          "fat": 12
+        },
+        {
+          "id": "half",
+          "label": "Half a cup (100 ml)",
+          "short": "half a cup",
+          "ml": 100,
+          "cookedGrams": 100,
+          "kcal": 90,
+          "protein": 3,
+          "carbs": 8,
+          "fat": 5
+        },
+        {
+          "id": "bowl",
+          "label": "1 bowl (30 g dry dal)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 229,
+          "kcal": 205,
+          "protein": 7,
+          "carbs": 19,
+          "fat": 11
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Dhaba or restaurant",
+        "caption": "One 200 ml katori. The outside range has up to twice the oil or ghee.",
+        "fatFactor": [
+          1,
+          2
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "basis": "The Indian Nutrient Databank's open-source chana dal (OSR142) uses 3 tablespoons of ghee for 200 g of dal, about 0.19 g of fat per g of dal against 0.30 g here; restaurant versions vary widely, so up to twice this page's fat is a stated assumption.",
+        "text": [
+          "Dhaba chana dal is often cooked with more ghee and finished with a second tadka, and chana dal fry is fried in the masala for longer.",
+          "With no lab figure for restaurant chana dal, the range below allows up to twice the fat of this recipe."
+        ],
+        "kcalRange": [
+          180,
+          250
+        ],
+        "fatRange": [
+          10,
+          17
+        ]
+      },
+      "changes": [
+        "Each teaspoon of oil or ghee adds about 40 to 45 calories to the pot.",
+        "Lauki (bottle gourd) in chana dal adds volume and very few calories: 50 g is about 5.",
+        "Chana dal is usually cooked thick. A thinner one has less per katori.",
+        "Roasted chana and besan are made from the same gram, and have their own values."
+      ],
+      "method": [
+        "The recipe is The Art & Science of Cooking's chana dal with lauki (via the Indian Nutrient Databank), a standard Indian cookery textbook, without the lauki: 30 g of chana dal with onion, tomato, green chilli, ginger and 2 teaspoons of oil, cooked in half a cup of water. Values are from IFCT 2017.",
+        "The cooked weight is the ingredients added together. Katoris are worked out at 1 g per ml."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of chana dal?",
+          "a": "About {{kcal:k200}} in a 200 ml katori of this thick chana dal, and about {{kcal:k150}} in a 150 ml one."
+        },
+        {
+          "q": "How many calories are in 100 g of raw chana dal?",
+          "a": "{{ing:chana_dal}} calories, with 21.6 g of protein and 5.3 g of fat, according to IFCT 2017."
+        },
+        {
+          "q": "How many calories are in 100 g of cooked chana dal?",
+          "a": "About {{per100}} for this dal. A drier chana dal, like the one served with puri, has more."
+        },
+        {
+          "q": "How much protein is in chana dal?",
+          "a": "About {{protein:k200}} g in a 200 ml katori, and about {{protein:bowl}} g in a bowl made from 30 g of dry dal."
+        },
+        {
+          "q": "Which has more calories, chana dal or toor dal?",
+          "a": "Raw they're close: IFCT 2017 puts chana dal at {{ing:chana_dal}} and toor dal at {{ing:toor_dal}} per 100 g. Cooked, chana dal is usually thicker, so a katori has more. See [toor dal](/calories/toor-dal/)."
+        }
+      ],
+      "related": [
+        "toor-dal",
+        "moong-dal",
+        "dal-fry",
+        "roti"
+      ],
+      "useCase": {
+        "href": "/for/vegetarians/",
+        "label": "Calorie counting for vegetarians"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: plain dal, half a cup",
+          "kcal": 100,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "portionId": "half",
+          "ours": 90,
+          "differencePct": 11
+        },
+        {
+          "source": "Indian Nutrient Databank, Split bengal gram dal (OSR142)",
+          "kcalPer100g": 99.7,
+          "note": "An open-source restaurant-style chana dal with 3 tbsp ghee.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 90,
+          "differencePct": 11
+        }
+      ],
+      "judgement": [
+        "ASC153 without its 50 g of lauki, as the dal tadka page removed spinach. Lauki is about 11 kcal per 100 g (IFCT D007), so it changes the bowl by about 5 kcal.",
+        "Fat 2 tsp = 9 g (USDA teaspoon of oil, 4.5 g).",
+        "Spices under 1 g (garam masala, chilli powder) left out."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Bengal gram dal (B001), red gram dal (B021), onion, tomato, green chilli, ginger, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC153, chana dal with lauki; open-source recipe OSR142, chana dal",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: plain dal 100 kcal per half cup",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 90,
+        "protein": 3,
+        "carbs": 8,
+        "fat": 5
+      }
+    },
+    {
+      "slug": "dal-makhani",
+      "name": "Dal makhani",
+      "nameLower": "dal makhani",
+      "category": "restaurant",
+      "aliases": [
+        "dal makhni",
+        "daal makhani",
+        "maa ki dal",
+        "kaali dal",
+        "dal bukhara",
+        "moti mahal dal",
+        "दाल मखनी",
+        "દાલ મખની"
+      ],
+      "updated": "2026-10-11",
+      "title": "Dal makhani calories: home katori and restaurant",
+      "description": "A 200 ml katori of home dal makhani has about {{kcal:k200}} calories; a restaurant katori with butter and cream about {{outLo}} to {{outHi}}.",
+      "answer": "A 200 ml katori of home dal makhani has about {{kcal:k200}} calories. A restaurant katori, finished with butter and cream, is more like {{outLo}} to {{outHi}}.",
+      "intro": [
+        "Dal makhani is whole black urad with a little rajma, simmered for hours with tomato, ginger and garlic, then finished with butter and cream. It was made famous by Moti Mahal in Delhi and is on almost every north Indian restaurant menu, often as the richest dal on it.",
+        "At home it's usually made with less butter and cream than in restaurants. The dal and beans give it body; the fat decides how far the number climbs."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Home dal makhani, made as below.",
+      "recipe": {
+        "label": "Recipe: one bowl, 30 g whole urad and 10 g rajma with curd, cream and 1 tablespoon of oil",
+        "ingredients": [
+          {
+            "id": "urad_whole",
+            "g": 30,
+            "note": "Dry weight"
+          },
+          {
+            "id": "rajma",
+            "g": 10,
+            "note": "Dry weight"
+          },
+          {
+            "id": "tomato",
+            "g": 50
+          },
+          {
+            "id": "onion",
+            "g": 25
+          },
+          {
+            "id": "ginger",
+            "g": 5
+          },
+          {
+            "id": "garlic",
+            "g": 1.25
+          },
+          {
+            "id": "curd",
+            "g": 25
+          },
+          {
+            "id": "cream",
+            "g": 5,
+            "note": "1 teaspoon"
+          },
+          {
+            "id": "oil",
+            "g": 13.6,
+            "note": "1 tablespoon"
+          },
+          {
+            "id": "water",
+            "g": 120,
+            "note": "Left after simmering: the databank's half cup"
+          }
+        ],
+        "cookedYieldG": 285,
+        "yieldNote": "the ingredients added together, with the water the databank records (half a cup)",
+        "densityGPerMl": 1,
+        "densityNote": "taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 150,
+          "protein": 6,
+          "carbs": 13,
+          "fat": 9
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 200,
+          "protein": 7,
+          "carbs": 17,
+          "fat": 11
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 250,
+          "kcal": 255,
+          "protein": 9,
+          "carbs": 21,
+          "fat": 14
+        },
+        {
+          "id": "bowl",
+          "label": "1 textbook bowl (40 g dry dal and rajma)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 285,
+          "kcal": 290,
+          "protein": 11,
+          "carbs": 24,
+          "fat": 16
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 100,
+          "protein": 4,
+          "carbs": 8,
+          "fat": 6
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Restaurant",
+        "caption": "One 200 ml katori. The outside range adds 1 to 2 teaspoons of butter and 1 to 2 tablespoons of cream.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "butter",
+            "g": [
+              5,
+              10
+            ]
+          },
+          {
+            "id": "cream",
+            "g": [
+              15,
+              30
+            ]
+          }
+        ],
+        "basis": "No analysed value for restaurant dal makhani was found. The Indian Nutrient Databank's open-source dal makhani (OSR139) uses 3 tablespoons of butter and 2.5 of cream for 180 g of dal; restaurant finishes vary, so 1 to 2 teaspoons of butter and 1 to 2 tablespoons of cream per katori are a stated assumption.",
+        "text": [
+          "Restaurant dal makhani is finished with a lot more butter and cream than most home versions, often with a swirl of cream on top as it's served.",
+          "No lab has measured a restaurant katori, so the range below adds 1 to 2 teaspoons of butter and 1 to 2 tablespoons of cream to this one."
+        ],
+        "kcalRange": [
+          265,
+          335
+        ],
+        "fatRange": [
+          18,
+          25
+        ]
+      },
+      "changes": [
+        "Butter and cream are the biggest variables. A teaspoon of butter adds about 35 calories, and a tablespoon of cream about 30.",
+        "Long simmering thickens the dal. The same pot boiled down further has more in each katori.",
+        "Dal makhani without cream or butter, tempered with a little oil, is close to a thick [rajma](/calories/rajma/) per katori.",
+        "Rice or naan with it are counted separately."
+      ],
+      "method": [
+        "The recipe is the Moti Mahal dal in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 30 g whole urad and 10 g rajma with tomato, onion, ginger, garlic, curd, a teaspoon of cream and a tablespoon of oil. Values are from IFCT 2017, with curd and cream from USDA.",
+        "The textbook adds 1.5 cups of water and simmers it down. The databank records half a cup left in the dish, and this page uses that for the cooked weight."
+      ],
+      "range": {
+        "text": "The databank's open-source dal makhani, with more water, works out to about 74 calories per 100 g, against about {{per100}} here. Thickness and the amount of butter and cream vary a lot, so a home katori can be anywhere from about 150 to {{kcal:k200}}.",
+        "reason": "INDB's OSR139 dal makhani (74 kcal per 100 g) is 27% below this page's ASC160 dal. OSR139 uses 4 cups of water for 180 g of dal. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of dal makhani?",
+          "a": "About {{kcal:k200}} for a 200 ml katori made at home, and about {{outLo}} to {{outHi}} in a restaurant, depending on the butter and cream."
+        },
+        {
+          "q": "How many calories are in dal makhani without cream?",
+          "a": "This home recipe has only a teaspoon of cream in the whole bowl, about 10 calories. Taking it out changes little; leaving out butter on top matters more."
+        },
+        {
+          "q": "How much protein is in dal makhani?",
+          "a": "About {{protein:k200}} g in a 200 ml katori, from the urad and rajma."
+        },
+        {
+          "q": "How many calories are in 100 g of dal makhani?",
+          "a": "About {{per100}} for this home version. Restaurant dal makhani with more butter and cream is higher."
+        },
+        {
+          "q": "Which has more calories, dal makhani or dal tadka?",
+          "a": "Dal makhani, usually by a lot. A 200 ml katori here is about {{kcal:k200}} against about {{kcal@dal-tadka:k200}} for a thin [dal tadka](/calories/dal-tadka/)."
+        }
+      ],
+      "related": [
+        "rajma",
+        "dal-tadka",
+        "butter-naan",
+        "paneer-butter-masala",
+        "jeera-rice"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [
+        {
+          "source": "Indian Nutrient Databank, Dal makhani (OSR139)",
+          "kcalPer100g": 74,
+          "note": "An open-source recipe with much more water.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 101,
+          "differencePct": -27
+        }
+      ],
+      "judgement": [
+        "Water: the textbook says 1.5 cups; INDB records 0.5 cup. The INDB figure is used as the water left after simmering. No measured cooked weight exists.",
+        "Cream 1 tsp taken as 5 g of USDA light cream (19% fat), as on the paneer butter masala page.",
+        "Range low end of about 150 kcal is OSR139's 74 kcal per 100 g x 200 g.",
+        "Garam masala and chilli powder (0.25 tsp each) left out; under 2 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Black gram whole (B004), rajmah red (B020), tomato, onion, ginger, garlic, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC160, Moti Mahal dal; open-source recipe OSR139, dal makhani",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Cream, fluid, light (170857)",
+          "url": "https://fdc.nal.usda.gov/food-details/170857/nutrients",
+          "note": "Cream, 19% fat; 1 tbsp = 15 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Butter, without salt (173430)",
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "Restaurant butter",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 100,
+        "protein": 4,
+        "carbs": 8,
+        "fat": 6
+      }
+    },
+    {
+      "slug": "chole",
+      "name": "Chole",
+      "nameLower": "chole",
+      "category": "dals",
+      "aliases": [
+        "chhole",
+        "choley",
+        "chana masala",
+        "kabuli chana",
+        "chickpea curry",
+        "pindi chole",
+        "safed chana",
+        "छोले",
+        "चना मसाला",
+        "છોલે",
+        "છોલે ચણા"
+      ],
+      "updated": "2026-10-11",
+      "title": "Chole calories: per katori, per 100 g and with bhature",
+      "description": "A 200 ml katori of home chole has about {{kcal:k200}} calories, made from 40 g of dry kabuli chana. Chole bhature and restaurant chole compared.",
+      "answer": "A 200 ml katori of home chole has about {{kcal:k200}} calories. A bhatura on the side adds about {{kcal@bhatura:one}}.",
+      "intro": [
+        "Chole is white kabuli chana, soaked overnight, boiled soft and cooked in an onion, tomato, ginger and spice gravy. Punjabi and Pindi chole are dark and tangy with amla or tea; it's eaten with bhature, kulche, puri or rice, and as a filling for tikki chaat.",
+        "Kabuli chana has a little more fat than most beans, about 6%. A thick chole holds a lot of chana in each katori, so it counts for more than a thin dal."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Home chole, made as below. Bhature, kulche and rice are not included.",
+      "recipe": {
+        "label": "Recipe: one bowl, 40 g dry kabuli chana with onion, tomato and 2 teaspoons of oil",
+        "ingredients": [
+          {
+            "id": "kabuli_chana",
+            "g": 40,
+            "note": "Dry weight, before soaking"
+          },
+          {
+            "id": "water",
+            "g": 52.8,
+            "note": "Taken up by the chana in soaking and cooking"
+          },
+          {
+            "id": "tomato",
+            "g": 50
+          },
+          {
+            "id": "onion",
+            "g": 30
+          },
+          {
+            "id": "ginger",
+            "g": 15
+          },
+          {
+            "id": "garlic",
+            "g": 0.6
+          },
+          {
+            "id": "curd",
+            "g": 5,
+            "note": "1 teaspoon"
+          },
+          {
+            "id": "oil",
+            "g": 9,
+            "note": "2 teaspoons"
+          }
+        ],
+        "cookedYieldG": 202,
+        "yieldNote": "cooked chana from water content (USDA raw chickpeas 7.7% water, boiled 60.2%, so 2.32 times the dry weight), plus the other ingredients",
+        "densityGPerMl": 1,
+        "densityNote": "chole taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 200,
+          "protein": 7,
+          "carbs": 20,
+          "fat": 9
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 265,
+          "protein": 9,
+          "carbs": 26,
+          "fat": 12
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 250,
+          "kcal": 330,
+          "protein": 12,
+          "carbs": 33,
+          "fat": 15
+        },
+        {
+          "id": "bowl30",
+          "label": "1 bowl (30 g dry chana)",
+          "short": "a small bowl",
+          "fraction": 0.75,
+          "cookedGrams": 152,
+          "kcal": 200,
+          "protein": 7,
+          "carbs": 20,
+          "fat": 9
+        },
+        {
+          "id": "bowl",
+          "label": "1 bowl (40 g dry chana)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 202,
+          "kcal": 265,
+          "protein": 10,
+          "carbs": 26,
+          "fat": 12
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 130,
+          "protein": 5,
+          "carbs": 13,
+          "fat": 6
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Chole bhature stall or restaurant",
+        "caption": "One 200 ml katori. The outside range has 1.5 to 2 times the oil.",
+        "fatFactor": [
+          1.5,
+          2
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "basis": "No analysed value for street or restaurant chole was found. Chole cooked for chole bhature is usually oilier than home chole; 1.5 to 2 times this recipe's oil is a stated assumption.",
+        "text": [
+          "Chole from a chole bhature stall or a restaurant is usually cooked with more oil, often with oil floating on top, and sometimes finished with butter.",
+          "No lab figure exists for street chole, so the range below assumes 1.5 to 2 times the oil of this home recipe. The bhatura is extra: see [bhatura](/calories/bhatura/)."
+        ],
+        "kcalRange": [
+          305,
+          345
+        ],
+        "fatRange": [
+          16,
+          21
+        ]
+      },
+      "changes": [
+        "Oil is the main variable after the chana. Each teaspoon adds about 40 calories to the pot.",
+        "A thicker chole holds more chana per katori. Mashing some chana to thicken the gravy doesn't add calories.",
+        "Kala chana has a little less per gram dry: IFCT 2017 puts it at {{ing:kala_chana}} calories per 100 g, against {{ing:kabuli_chana}} for kabuli chana (USDA).",
+        "Onion, lemon and green chilli on top add almost nothing. Chole tikki and chole kulche add their own."
+      ],
+      "method": [
+        "The recipe is the kabuli channa curry in Basic Food Preparation, a standard Indian cookery manual (via the Indian Nutrient Databank): 40 g of dry kabuli chana with tomato, onion, ginger, garlic, a teaspoon of curd, spices and 2 teaspoons of oil. IFCT 2017 has no kabuli chana, so chana values are from USDA; everything else is IFCT 2017.",
+        "Cooked weight follows the rajma page: the chana's cooked weight from water content (2.32 times dry), plus the other ingredients."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of chole?",
+          "a": "About {{kcal:k200}} in a 200 ml katori of home chole, and about {{kcal:k150}} in a 150 ml one."
+        },
+        {
+          "q": "How many calories are in chole bhature?",
+          "a": "A 200 ml katori of chole is about {{kcal:k200}}, and each home [bhatura](/calories/bhatura/) about {{kcal@bhatura:one}}. Two bhature and a katori of chole come to about 635, before onion and pickle."
+        },
+        {
+          "q": "How much protein is in chole?",
+          "a": "About {{protein:k200}} g in a 200 ml katori."
+        },
+        {
+          "q": "How many calories are in 100 g of chole?",
+          "a": "About {{kcal:g100}} for this home chole."
+        },
+        {
+          "q": "Which has more calories, chole or rajma?",
+          "a": "Chole, per katori here: about {{kcal:k200}} against about {{kcal@rajma:k200}} for [rajma](/calories/rajma/). Kabuli chana has more fat than rajma, and this chole is thicker."
+        }
+      ],
+      "related": [
+        "bhatura",
+        "rajma",
+        "puri",
+        "plain-rice",
+        "samosa"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [
+        {
+          "source": "Indian Nutrient Databank, Chickpeas curry (ASC162), per bowl of 30 g dry chana",
+          "portionId": "bowl30",
+          "kcal": 196,
+          "note": "Another textbook's chana curry with 1.5 tsp oil.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 200,
+          "differencePct": -2
+        }
+      ],
+      "judgement": [
+        "Kabuli chana from USDA FDC 173756 (raw chickpeas), carbohydrate as available (by difference minus fibre); IFCT 2017 has only kala chana (B002).",
+        "Cooked chana = 40 x (1 - 0.0768) / (1 - 0.6021) = 92.8 g (USDA raw 173756 and boiled 173757 water contents).",
+        "Ginger '3 cm' recorded by INDB as 15 g, kept. Whole spices under 1 g left out.",
+        "Chole bhature FAQ: 2 x 185 + 265 = 635 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Tomato, onion, ginger, garlic, oil; Bengal gram whole (B002) for comparison; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipe BFP185, kabuli channa curry; The Art & Science of Cooking recipe ASC162, chickpeas curry",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Chickpeas, mature seeds, raw (173756)",
+          "url": "https://fdc.nal.usda.gov/food-details/173756/nutrients",
+          "note": "Kabuli chana; 7.68% water",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Chickpeas, mature seeds, cooked, boiled (173757)",
+          "url": "https://fdc.nal.usda.gov/food-details/173757/nutrients",
+          "note": "60.21% water, for the cooked weight",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 130,
+        "protein": 5,
+        "carbs": 13,
+        "fat": 6
+      }
+    },
+    {
+      "slug": "kadhi",
+      "name": "Kadhi",
+      "nameLower": "kadhi",
+      "category": "dals",
+      "aliases": [
+        "kadhi pakora",
+        "kadhi pakoda",
+        "kadi",
+        "karhi",
+        "punjabi kadhi",
+        "gujarati kadhi",
+        "besan kadhi",
+        "कढ़ी",
+        "कढ़ी पकोड़ा",
+        "કઢી"
+      ],
+      "updated": "2026-10-11",
+      "title": "Kadhi calories: with and without pakora, per katori",
+      "description": "A 200 ml katori of kadhi without pakoras has about {{kcal:k200}} calories. A bowl with its share of fried pakoras is about {{kcal:bowl_pakora}}.",
+      "answer": "A 200 ml katori of kadhi without pakoras has about {{kcal:k200}} calories. A bowl of kadhi pakora, with its share of fried besan pakoras, has about {{kcal:bowl_pakora}}.",
+      "intro": [
+        "Kadhi is curd whisked with besan, simmered until it thickens and tempered with mustard or cumin, methi seeds, dry red chillies and curry leaves. Punjabi kadhi is thick and comes with fried besan pakoras; Gujarati kadhi is thin, white and a little sweet, eaten with khichdi.",
+        "The kadhi itself is light: mostly water and curd. The tadka oil and, above all, the fried pakoras are where most of the calories in a bowl of kadhi pakora come from."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Kadhi made as below, without pakoras unless stated.",
+      "recipe": {
+        "label": "Recipe: 100 g curd and 20 g besan in 400 ml water with a 1 tablespoon oil tadka, for 2 bowls",
+        "ingredients": [
+          {
+            "id": "curd",
+            "g": 100
+          },
+          {
+            "id": "besan",
+            "g": 20
+          },
+          {
+            "id": "water",
+            "g": 400,
+            "note": "2 glasses"
+          },
+          {
+            "id": "oil",
+            "g": 13.6,
+            "note": "1 tablespoon, for the tadka"
+          },
+          {
+            "id": "chilli_red",
+            "g": 6.7,
+            "note": "2 dry red chillies"
+          },
+          {
+            "id": "turmeric",
+            "g": 2.25
+          },
+          {
+            "id": "fenugreek_seeds",
+            "g": 1
+          },
+          {
+            "id": "chilli_powder",
+            "g": 1
+          },
+          {
+            "id": "curry_leaves",
+            "g": 1
+          }
+        ],
+        "cookedYieldG": 546,
+        "yieldNote": "the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does",
+        "densityGPerMl": 1,
+        "densityNote": "kadhi taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 75,
+          "protein": 3,
+          "carbs": 5,
+          "fat": 5
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 100,
+          "protein": 3,
+          "carbs": 6,
+          "fat": 7
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 250,
+          "kcal": 125,
+          "protein": 4,
+          "carbs": 8,
+          "fat": 9
+        },
+        {
+          "id": "bowl",
+          "label": "1 bowl, half the recipe",
+          "short": "a bowl",
+          "fraction": 0.5,
+          "cookedGrams": 273,
+          "kcal": 140,
+          "protein": 5,
+          "carbs": 9,
+          "fat": 9
+        },
+        {
+          "id": "bowl_pakora",
+          "label": "1 bowl with its share of pakoras",
+          "short": "a bowl with pakoras",
+          "fraction": 0.5,
+          "hideGrams": true,
+          "add": [
+            {
+              "id": "besan",
+              "g": 15
+            },
+            {
+              "id": "spinach",
+              "g": 10
+            },
+            {
+              "id": "onion",
+              "g": 7.5
+            },
+            {
+              "id": "oil",
+              "g": 18.7
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 360,
+          "protein": 8,
+          "carbs": 17,
+          "fat": 29
+        }
+      ],
+      "outside": {
+        "portionId": "bowl_pakora",
+        "label": "Dhaba kadhi pakora",
+        "caption": "One bowl with pakoras. The outside range is 1 to 1.3 times the size.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1.3
+        ],
+        "basis": "No analysed value for restaurant kadhi was found. The pakoras here already use the fat content of street pakoras measured by Gupta et al. 2016 (30.6%); a serving up to 1.3 times as big is a stated assumption.",
+        "text": [
+          "At a dhaba, kadhi pakora is usually served with more pakoras in a bigger bowl, and the pakoras are fried in oil that's been used many times.",
+          "The pakoras on this page already use the fat content of street pakoras measured in a lab, so the range below only allows for a serving up to 1.3 times as big."
+        ],
+        "kcalRange": [
+          360,
+          465
+        ],
+        "fatRange": [
+          29,
+          38
+        ]
+      },
+      "changes": [
+        "Pakoras are the biggest variable. A bowl's share of fried pakoras adds more than the kadhi itself: about {{kcal:bowl_pakora}} for the bowl with them, against {{kcal:bowl}} without.",
+        "The tadka oil is next: each teaspoon adds about 40 calories to the pot.",
+        "Thin Gujarati kadhi has less besan per katori and often a teaspoon of sugar, about 16 calories.",
+        "Full-fat curd and sour curd count about the same. Low-fat curd lowers it a little."
+      ],
+      "method": [
+        "The recipe is the besan kadhi with pakodies in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g curd, 20 g besan and 2 glasses of water for 2 bowls, with a tablespoon of oil in the tadka. Its pakoras use 30 g besan with spinach and onion. Values are from IFCT 2017, with curd and chilli powder from USDA.",
+        "The databank counts all the pakora frying oil as eaten. This page instead assumes the pakoras end up 30.6% fat, the figure a lab measured in street pakoras in Delhi. That's about 19 g of oil per bowl's share of pakoras."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in kadhi without pakora?",
+          "a": "About {{kcal:k200}} in a 200 ml katori, and about {{kcal:bowl}} in a bowl of half this recipe."
+        },
+        {
+          "q": "How many calories are in kadhi pakora?",
+          "a": "About {{kcal:bowl_pakora}} for a bowl with its share of pakoras. The pakoras are most of it."
+        },
+        {
+          "q": "How many calories are in kadhi chawal?",
+          "a": "Add a 200 ml katori of [plain rice](/calories/plain-rice/), about {{kcal@plain-rice:k200}} calories, to the kadhi: {{kcal:k200}} without pakoras or {{kcal:bowl_pakora}} for a bowl with them."
+        },
+        {
+          "q": "How much protein is in kadhi?",
+          "a": "About {{protein:bowl}} g in a bowl without pakoras, from the curd and besan, and about {{protein:bowl_pakora}} g with them."
+        }
+      ],
+      "related": [
+        "khichdi",
+        "plain-rice",
+        "dal-tadka",
+        "jeera-rice"
+      ],
+      "useCase": {
+        "href": "/for/vegetarians/",
+        "label": "Calorie counting for vegetarians"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "ASC168 lists besan twice (20 g and 30 g). The 20 g is taken as the kadhi and the 30 g, with spinach and onion, as the pakoras.",
+        "Pakora oil: fat set to 30.6% of the raw batter (besan 30 + spinach 20 + onion 15 + about 25 g water) plus oil, from Gupta et al. 2016's urban pakora (16.57 g fat in 54.16 g). (1.6 + x) / (90 + x) = 0.306 gives x = 37.4 g for the batch, 18.7 g per bowl.",
+        "No independent analysed value for kadhi was found (IFCT, NIN Annexure 8, USDA FNDDS, Europe PMC). INDB counts 480 ml of frying oil (2,367 kcal per bowl), so its values aren't used.",
+        "Asafoetida, cumin and coriander seeds (0.25 tsp each) left out."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Bengal gram dal (B001) for besan, spinach (C033), onion, red chillies (G022), turmeric, fenugreek seeds, curry leaves, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC168, besan kadhi with pakodies",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Gupta et al., Unhealthy fat in street and snack foods, Journal of Nutrition Education and Behavior, 2016",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4826272",
+          "note": "Measured pakora weight and fat, Delhi urban slum",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd, since IFCT 2017 has no curd",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Spices, chili powder (171319)",
+          "url": "https://fdc.nal.usda.gov/food-details/171319/nutrients",
+          "note": "Red chilli powder",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 50,
+        "protein": 2,
+        "carbs": 3,
+        "fat": 3
+      }
+    },
+    {
+      "slug": "sambar",
+      "name": "Sambar",
+      "nameLower": "sambar",
+      "category": "dals",
+      "aliases": [
+        "sambhar",
+        "sambaar",
+        "saambar",
+        "kuzhambu",
+        "huli",
+        "pappu charu",
+        "सांभर",
+        "સાંભાર",
+        "ಸಾಂಬಾರ್",
+        "சாம்பார்"
+      ],
+      "updated": "2026-10-11",
+      "title": "Sambar calories: per katori, cup and 100 g",
+      "description": "A 200 ml katori of textbook sambar with coconut has about {{kcal:k200}} calories; a thin everyday sambar is closer to 110. With idli, dosa and rice.",
+      "answer": "A 200 ml katori of thick sambar made with coconut has about {{kcal:k200}} calories. A thinner everyday sambar without coconut is closer to 110, ICMR-NIN's figure for a cup.",
+      "intro": [
+        "Sambar is toor dal cooked with tamarind, sambar powder and vegetables such as drumstick, brinjal, okra and shallots, tempered with mustard seeds and curry leaves. It's eaten across south India with rice, idli, dosa and vada, and every state and family makes it differently.",
+        "This textbook sambar grinds roasted coconut into the masala, as in many Kerala and Udupi homes. The coconut is about a quarter of its calories, so whether yours has it matters."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Thick sambar with coconut, made as below.",
+      "recipe": {
+        "label": "Recipe: 50 g toor dal with vegetables, tamarind, coconut and 2 teaspoons of oil, for 2 bowls",
+        "ingredients": [
+          {
+            "id": "toor_dal",
+            "g": 50
+          },
+          {
+            "id": "chana_dal",
+            "g": 4,
+            "note": "1 teaspoon, roasted for the masala"
+          },
+          {
+            "id": "urad_dal",
+            "g": 4,
+            "note": "1 teaspoon, roasted for the masala"
+          },
+          {
+            "id": "coconut_fresh",
+            "g": 30
+          },
+          {
+            "id": "tamarind",
+            "g": 20
+          },
+          {
+            "id": "drumstick",
+            "g": 30
+          },
+          {
+            "id": "brinjal",
+            "g": 30
+          },
+          {
+            "id": "okra",
+            "g": 30
+          },
+          {
+            "id": "tomato",
+            "g": 30
+          },
+          {
+            "id": "onion",
+            "g": 30
+          },
+          {
+            "id": "chilli_red",
+            "g": 5
+          },
+          {
+            "id": "coriander_seeds",
+            "g": 1.8
+          },
+          {
+            "id": "fenugreek_seeds",
+            "g": 1
+          },
+          {
+            "id": "turmeric",
+            "g": 0.75
+          },
+          {
+            "id": "oil",
+            "g": 9,
+            "note": "2 teaspoons"
+          },
+          {
+            "id": "water",
+            "g": 240,
+            "note": "1 cup"
+          }
+        ],
+        "cookedYieldG": 515,
+        "yieldNote": "the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does",
+        "densityGPerMl": 1,
+        "densityNote": "sambar taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 150,
+          "protein": 5,
+          "carbs": 16,
+          "fat": 7
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 200,
+          "protein": 7,
+          "carbs": 22,
+          "fat": 9
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 250,
+          "kcal": 250,
+          "protein": 9,
+          "carbs": 27,
+          "fat": 11
+        },
+        {
+          "id": "cup",
+          "label": "1 cup (200 ml), NIN's measure",
+          "short": "a cup",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 200,
+          "protein": 7,
+          "carbs": 22,
+          "fat": 9
+        },
+        {
+          "id": "bowl",
+          "label": "1 bowl, half the recipe",
+          "short": "a bowl",
+          "fraction": 0.5,
+          "cookedGrams": 258,
+          "kcal": 260,
+          "protein": 9,
+          "carbs": 28,
+          "fat": 12
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 100,
+          "protein": 4,
+          "carbs": 11,
+          "fat": 5
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Udupi restaurant or canteen",
+        "caption": "One 200 ml katori. The outside range is 0.6 to 1 times this thick sambar.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          0.6,
+          1
+        ],
+        "basis": "No analysed value for restaurant sambar was found. Restaurant and canteen sambar served with idli and dosa is usually thinner than this textbook sambar; 0.6 to 1 times is a stated assumption, with the low end near NIN's 110 kcal per cup.",
+        "text": [
+          "Sambar from an Udupi restaurant or an office canteen is usually thinner than this textbook one and refilled freely, so the katori matters less than how many you have.",
+          "We found no lab figure for restaurant sambar, so the range below runs from a thinner sambar, close to ICMR-NIN's 110 calories a cup, up to one as thick as this."
+        ],
+        "kcalRange": [
+          120,
+          200
+        ],
+        "fatRange": [
+          5,
+          9
+        ]
+      },
+      "changes": [
+        "Coconut is the biggest single variable. The 30 g of fresh coconut here adds about 120 calories to the pot, about a quarter of the total.",
+        "Thickness decides how much dal is in a katori. A thin, everyday sambar has about half of this one per katori.",
+        "The tadka oil adds about 40 calories a teaspoon to the pot. Some homes finish with a spoon of ghee.",
+        "Vegetables add little: drumstick, brinjal, okra and tomato together are about 30 calories in the whole pot."
+      ],
+      "method": [
+        "The recipe is the sambar in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 50 g toor dal with a teaspoon each of roasted chana and urad dal, 30 g fresh coconut, tamarind, drumstick, brinjal, okra, tomato and onion, cooked in a cup of water with 2 teaspoons of oil, for 2 bowls. Values are from IFCT 2017.",
+        "The cooked weight is the ingredients added together, and katoris are worked out at 1 g per ml."
+      ],
+      "range": {
+        "text": "ICMR-NIN counts a cup of sambar at 110 calories, about half this page's {{kcal:cup}}. Most of the difference is thickness and the coconut. Depending on how it's made, a 200 ml katori of sambar can be anywhere from about 110 to {{kcal:k200}}.",
+        "reason": "NIN's 110 kcal per cup is 45% below this page's thick, coconut sambar (ASC167). USDA FNDDS sambar (86 kcal per 100 g) sits in between. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 cup of sambar?",
+          "a": "About 110 for a thin everyday sambar, ICMR-NIN's figure, and about {{kcal:cup}} for this thick sambar with coconut."
+        },
+        {
+          "q": "How many calories are in idli sambar?",
+          "a": "Two medium [idlis](/calories/idli/) are about {{kcal@idli:two}} calories. Add 110 to {{kcal:k200}} for a 200 ml katori of sambar, depending on how thick it is."
+        },
+        {
+          "q": "How much protein is in sambar?",
+          "a": "About {{protein:k200}} g in a 200 ml katori of this sambar, mostly from the toor dal."
+        },
+        {
+          "q": "How many calories are in 100 g of sambar?",
+          "a": "About {{kcal:g100}} for this thick sambar with coconut, and about 55 for a thin one. USDA's survey value is 86."
+        },
+        {
+          "q": "Which has more calories, sambar or rasam?",
+          "a": "Sambar, by a lot. Rasam has very little dal and no coconut: a 200 ml katori of [rasam](/calories/rasam/) is about {{kcal@rasam:k200}} calories."
+        }
+      ],
+      "related": [
+        "idli",
+        "plain-dosa",
+        "rasam",
+        "toor-dal",
+        "masala-dosa"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: sambar, 1 cup",
+          "portionId": "cup",
+          "kcal": 110,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 201,
+          "differencePct": -45
+        },
+        {
+          "source": "USDA FNDDS 2021-2023, Sambar, vegetable stew (41311020)",
+          "kcalPer100g": 86,
+          "url": "https://fdc.nal.usda.gov/food-details/2707430/nutrients",
+          "ours": 100,
+          "differencePct": -14
+        }
+      ],
+      "judgement": [
+        "Teaspoon of chana or urad dal taken as 4 g. Coriander seed 1 tsp = 1.8 g; turmeric 0.25 tsp = 0.75 g.",
+        "Asafoetida, mustard seeds and curry leaves (under 1 g each) left out.",
+        "Thin sambar at about 55 kcal per 100 g is NIN's 110 kcal per 200 ml cup.",
+        "Cup = 200 ml (NIN)."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Red gram dal (B021), Bengal gram dal, black gram dal, coconut fresh (H007), tamarind pulp (E064), drumstick (D046), brinjal (D031), ladies finger (D056), tomato, onion, red chillies (G022), spices, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC167, sambar",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: sambar 110 kcal per cup; cup = 200 ml",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Sambar, vegetable stew (2707430)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707430/nutrients",
+          "note": "86 kcal per 100 g",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 100,
+        "protein": 4,
+        "carbs": 11,
+        "fat": 5
+      }
+    },
+    {
+      "slug": "rasam",
+      "name": "Rasam",
+      "nameLower": "rasam",
+      "category": "dals",
+      "aliases": [
+        "saaru",
+        "charu",
+        "chaaru",
+        "tomato rasam",
+        "pepper rasam",
+        "puli rasam",
+        "milagu rasam",
+        "रसम",
+        "રસમ",
+        "ಸಾರು",
+        "ரசம்"
+      ],
+      "updated": "2026-10-11",
+      "title": "Rasam calories: per katori and with rice",
+      "description": "A 200 ml katori of tomato rasam has about {{kcal:k200}} calories. With a katori of rice it's about {{kcal:rasam_rice}}. Worked out from a textbook recipe.",
+      "answer": "A 200 ml katori of tomato rasam has about {{kcal:k200}} calories. Rasam rice, with a 200 ml katori of rice, comes to about {{kcal:rasam_rice}}.",
+      "intro": [
+        "Rasam is a thin, peppery soup of tamarind and tomato, with a little cooked toor dal and a spice powder of coriander, cumin, pepper and dry red chilli, tempered with mustard, garlic and curry leaves. It's served with rice in Tamil, Andhra and Karnataka meals, and drunk on its own from a tumbler.",
+        "It's one of the lightest things in a south Indian meal. Most of the calories in a katori come from the tadka oil and the small amount of dal."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Tomato rasam, made as below.",
+      "recipe": {
+        "label": "Recipe: one bowl, 10 g toor dal with tomato, tamarind and ½ teaspoon of oil",
+        "ingredients": [
+          {
+            "id": "toor_dal",
+            "g": 10
+          },
+          {
+            "id": "tomato",
+            "g": 50
+          },
+          {
+            "id": "tamarind",
+            "g": 3
+          },
+          {
+            "id": "chilli_red",
+            "g": 6.7,
+            "note": "2 dry red chillies"
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3
+          },
+          {
+            "id": "ginger",
+            "g": 5
+          },
+          {
+            "id": "coriander_seeds",
+            "g": 1.8
+          },
+          {
+            "id": "black_pepper",
+            "g": 0.5
+          },
+          {
+            "id": "oil",
+            "g": 2.25,
+            "note": "half a teaspoon"
+          },
+          {
+            "id": "water",
+            "g": 300,
+            "note": "1.25 cups"
+          }
+        ],
+        "cookedYieldG": 383,
+        "yieldNote": "the ingredients added together, with no allowance for water boiled off, as the Indian Nutrient Databank does",
+        "densityGPerMl": 1,
+        "densityNote": "rasam taken as 1 g per ml, like water"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 40,
+          "protein": 2,
+          "carbs": 5,
+          "fat": 1
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 50,
+          "protein": 2,
+          "carbs": 6,
+          "fat": 2
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 250,
+          "kcal": 65,
+          "protein": 3,
+          "carbs": 8,
+          "fat": 2
+        },
+        {
+          "id": "tumbler",
+          "label": "1 tumbler (150 ml), to drink",
+          "short": "a tumbler",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 40,
+          "protein": 2,
+          "carbs": 5,
+          "fat": 1
+        },
+        {
+          "id": "bowl",
+          "label": "1 textbook bowl (about 385 ml)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 383,
+          "kcal": 95,
+          "protein": 4,
+          "carbs": 12,
+          "fat": 3
+        },
+        {
+          "id": "rasam_rice",
+          "label": "200 ml rasam with a 200 ml katori of rice",
+          "short": "rasam rice",
+          "ml": 200,
+          "hideGrams": true,
+          "add": [
+            {
+              "id": "rice_raw",
+              "g": 45
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 210,
+          "protein": 6,
+          "carbs": 42,
+          "fat": 2
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Restaurant or meals hotel",
+        "caption": "One 200 ml katori. The outside range adds up to a teaspoon of ghee or oil to the tadka.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "ghee",
+            "g": [
+              0,
+              5
+            ]
+          }
+        ],
+        "basis": "No analysed value for restaurant rasam was found. Up to an extra NIN teaspoon of ghee or oil in the tadka is a stated assumption.",
+        "text": [
+          "Rasam in a meals hotel or restaurant is much like home rasam. Some places temper it with ghee, and it's usually refilled freely.",
+          "With no lab figure to go on, the range below adds up to a teaspoon of ghee to the tadka for each katori."
+        ],
+        "kcalRange": [
+          50,
+          95
+        ],
+        "fatRange": [
+          2,
+          7
+        ]
+      },
+      "changes": [
+        "The tadka is most of a katori's calories. A teaspoon of ghee or oil adds about 40 to 45.",
+        "Dal rasam with more toor dal has more: each extra 10 g of dal adds about 35 calories to the pot.",
+        "Lemon rasam and pepper rasam are close to tomato rasam per katori.",
+        "Rice with rasam usually counts for far more than the rasam itself."
+      ],
+      "method": [
+        "The recipe is the tamarind rasam in Basic Food Preparation, a standard Indian cookery manual (via the Indian Nutrient Databank): 10 g toor dal, 50 g tomato, tamarind, dry and green chilli, ginger, coriander seed and pepper, in 1.25 cups of water with half a teaspoon of oil. Values are from IFCT 2017.",
+        "The rasam rice row adds a 200 ml katori of rice from the plain rice page, which is about 45 g of raw rice."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 cup of rasam?",
+          "a": "About {{kcal:k200}} in a 200 ml katori, and about {{kcal:tumbler}} in a 150 ml tumbler."
+        },
+        {
+          "q": "How many calories are in rasam rice?",
+          "a": "About {{kcal:rasam_rice}} for a 200 ml katori of rasam with a 200 ml katori of [plain rice](/calories/plain-rice/). Most of that is the rice."
+        },
+        {
+          "q": "How much protein is in rasam?",
+          "a": "About {{protein:k200}} g in a 200 ml katori. Rasam has little dal, so it's not a large source."
+        },
+        {
+          "q": "How many calories are in 100 g of rasam?",
+          "a": "About {{per100}}."
+        }
+      ],
+      "related": [
+        "sambar",
+        "plain-rice",
+        "toor-dal",
+        "curd-rice"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "No independent analysed value for rasam was found (IFCT, NIN Annexure 8, USDA FNDDS). INDB's per-bowl value (104.3 kcal) is from the same textbook recipe.",
+        "Rice: a 200 ml katori of cooked rice is 134 g on the plain rice page (density 0.67), from 45 g raw rice (yield 2.98).",
+        "Mustard seeds, cumin, garlic, asafoetida, coriander and curry leaves (under 1 g each) left out; together under 5 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Red gram dal (B021), tomato, tamarind pulp (E064), red chillies (G022), green chilli, ginger, coriander seeds, black pepper, oil, rice raw (A015); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipe BFP176, rasam with tamarind",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 25,
+        "protein": 1,
+        "carbs": 3,
+        "fat": 1
+      }
+    },
+    {
+      "slug": "khichdi",
+      "name": "Khichdi",
+      "nameLower": "khichdi",
+      "category": "rice",
+      "aliases": [
+        "khichri",
+        "khichadi",
+        "kitchari",
+        "moong dal khichdi",
+        "dal khichdi",
+        "pongal",
+        "khichdo",
+        "खिचड़ी",
+        "ખીચડી"
+      ],
+      "updated": "2026-10-11",
+      "title": "Khichdi calories: per katori, plate and 100 g",
+      "description": "A 200 ml katori of moong dal khichdi with a teaspoon of ghee in the pot has about {{kcal:k200}} calories. With extra ghee, curd and kadhi.",
+      "answer": "A 200 ml katori of moong dal khichdi has about {{kcal:k200}} calories, with its share of a teaspoon of ghee. An extra teaspoon of ghee on top adds about 45.",
+      "intro": [
+        "Khichdi is rice and moong dal cooked together until soft, with ginger, jeera and a little ghee. It's the comfort food of most Indian homes: Gujarati khichdi with kadhi, Bengali khichuri at pujas, and Tamil ven pongal with pepper and ghee are all versions of it.",
+        "Rice is about two thirds of khichdi's calories here. How much water it's cooked with changes what a katori holds, and the ghee on top is the other big variable."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Soft khichdi with the water absorbed, made as below.",
+      "recipe": {
+        "label": "Recipe: 60 g rice and 20 g moong dal with ginger, jeera and 5 g ghee",
+        "ingredients": [
+          {
+            "id": "rice_parboiled",
+            "g": 60
+          },
+          {
+            "id": "moong_dal",
+            "g": 20
+          },
+          {
+            "id": "ginger",
+            "g": 5
+          },
+          {
+            "id": "cumin",
+            "g": 1
+          },
+          {
+            "id": "ghee",
+            "g": 5,
+            "note": "1 teaspoon"
+          },
+          {
+            "id": "water",
+            "g": 480,
+            "note": "2 cups"
+          }
+        ],
+        "cookedYieldG": 239,
+        "yieldNote": "the recipe's solids (78.5 g) at the 67.2% water of USDA's rice with lentils, so 78.5 / 0.328",
+        "densityGPerMl": 0.875,
+        "densityNote": "USDA's rice with lentils: 207 g per cup (236.6 ml)"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 131,
+          "kcal": 180,
+          "protein": 5,
+          "carbs": 32,
+          "fat": 3
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 175,
+          "kcal": 240,
+          "protein": 7,
+          "carbs": 42,
+          "fat": 4
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 219,
+          "kcal": 300,
+          "protein": 9,
+          "carbs": 53,
+          "fat": 5
+        },
+        {
+          "id": "plate",
+          "label": "1 plate (the whole recipe)",
+          "short": "a plate",
+          "fraction": 1,
+          "cookedGrams": 239,
+          "kcal": 325,
+          "protein": 10,
+          "carbs": 57,
+          "fat": 6
+        },
+        {
+          "id": "k200_ghee",
+          "label": "200 ml katori, 1 tsp ghee on top",
+          "short": "with extra ghee",
+          "ml": 200,
+          "add": [
+            {
+              "id": "ghee",
+              "g": 5
+            }
+          ],
+          "cookedGrams": 175,
+          "kcal": 285,
+          "protein": 7,
+          "carbs": 42,
+          "fat": 9
+        },
+        {
+          "id": "k200_curd",
+          "label": "200 ml katori with 100 g curd",
+          "short": "with curd",
+          "ml": 200,
+          "hideGrams": true,
+          "add": [
+            {
+              "id": "curd",
+              "g": 100
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 300,
+          "protein": 11,
+          "carbs": 47,
+          "fat": 8
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 135,
+          "protein": 4,
+          "carbs": 24,
+          "fat": 2
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Restaurant or thali",
+        "caption": "One 200 ml katori. The outside range adds 1 to 2 teaspoons of ghee.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "ghee",
+            "g": [
+              5,
+              10
+            ]
+          }
+        ],
+        "basis": "No analysed value for restaurant khichdi was found. Restaurant and thali khichdi is usually served with ghee poured over; 1 to 2 NIN teaspoons per katori is a stated assumption.",
+        "text": [
+          "Khichdi in a Gujarati thali or a restaurant usually comes with ghee poured over the top, sometimes more than once.",
+          "No lab has measured restaurant khichdi, so the range below adds 1 to 2 teaspoons of ghee to a 200 ml katori."
+        ],
+        "kcalRange": [
+          285,
+          325
+        ],
+        "fatRange": [
+          9,
+          14
+        ]
+      },
+      "changes": [
+        "Ghee on top is the biggest variable. Each teaspoon adds about 45 calories.",
+        "A soft, porridge-like khichdi with more water has fewer calories per katori; the pot's total stays the same.",
+        "More dal and less rice changes the calories very little, since dal and rice are close per gram, but it adds protein.",
+        "Vegetable khichdi with peas, carrot and potato adds a little. Kadhi on the side is counted separately: see [kadhi](/calories/kadhi/)."
+      ],
+      "method": [
+        "The recipe is the plain khichdi in Basic Food Preparation, a standard Indian cookery manual (via the Indian Nutrient Databank): 60 g rice and 20 g moong dal cooked in 2 cups of water with ginger, jeera and 5 g of ghee. Values are from IFCT 2017.",
+        "The databank adds all the water to the cooked weight, which makes a very thin khichdi. This page instead uses the water content of USDA's rice cooked with lentils, 67%, which is a soft khichdi with the water absorbed. Katoris use USDA's 207 g per cup."
+      ],
+      "range": {
+        "text": "ICMR-NIN counts a cup of khichdi at 200 calories, a little under this page's {{kcal:k200}}. Khichdi ranges from fluffy to porridge-thin, so a 200 ml katori can be anywhere from about 200 to {{kcal:k200}}, and less again if it's very watery.",
+        "reason": "NIN's 200 kcal per cup is 16% below this page's katori; a wetter khichdi explains it. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of khichdi?",
+          "a": "About {{kcal:k200}} for a 200 ml katori of soft khichdi, and about {{kcal:k150}} for a 150 ml one."
+        },
+        {
+          "q": "How many calories are in khichdi with ghee?",
+          "a": "About {{kcal:k200_ghee}} for a 200 ml katori with an extra teaspoon of ghee on top."
+        },
+        {
+          "q": "How much protein is in khichdi?",
+          "a": "About {{protein:k200}} g in a 200 ml katori, and about {{protein:plate}} g in a plate of the whole recipe."
+        },
+        {
+          "q": "How many calories are in 100 g of khichdi?",
+          "a": "About {{kcal:g100}} for this soft khichdi."
+        },
+        {
+          "q": "Which has more calories, khichdi or rice?",
+          "a": "Khichdi, per katori: about {{kcal:k200}} against about {{kcal@plain-rice:k200}} for a 200 ml katori of [plain rice](/calories/plain-rice/). Soft khichdi packs more into a katori than fluffy rice, and it has ghee."
+        }
+      ],
+      "related": [
+        "moong-dal",
+        "kadhi",
+        "plain-rice",
+        "curd-rice",
+        "dal-tadka"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: khichdi, 1 cup",
+          "portionId": "k200",
+          "kcal": 200,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 239,
+          "differencePct": -16
+        },
+        {
+          "source": "USDA FNDDS 2021-2023, Rice, white, with lentils, fat added (58160805)",
+          "kcalPer100g": 150,
+          "url": "https://fdc.nal.usda.gov/food-details/2709030/nutrients",
+          "ours": 136,
+          "differencePct": 10
+        }
+      ],
+      "judgement": [
+        "Yield from water content rather than INDB's sum of ingredients (572 g), which ignores evaporation and absorption: solids = rice 53.9 + moong 18.0 + ginger 0.6 + cumin 0.9 + ghee 5 = 78.5 g; at FNDDS 58160805's 67.2% water, 239 g.",
+        "Density 0.875 g per ml from FNDDS 58160805 (207 g per cup of 236.6 ml).",
+        "Rice is parboiled (A014), as INDB maps 'rice' in this recipe."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Rice parboiled (A014), green gram dal (B010), ginger, cumin, ghee; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipe BFP144, plain khichdi",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: khichdi 200 kcal per cup",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Rice, white, with lentils, fat added (2709030)",
+          "url": "https://fdc.nal.usda.gov/food-details/2709030/nutrients",
+          "note": "150 kcal and 67.2% water per 100 g; 207 g per cup",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 135,
+        "protein": 4,
+        "carbs": 24,
+        "fat": 2
+      }
     }
   ]
 }
