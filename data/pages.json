@@ -1,0 +1,788 @@
+{
+  "sections": [
+    {
+      "id": "for",
+      "path": "/for/",
+      "crumb": "Who Slate is for",
+      "hub": {
+        "title": "Who Slate is for: Indian food, home cooking, eating out",
+        "description": "How to count calories in Indian food at home, at the office, eating out and on fasting days, in Hinglish, without a login. Written by the makers of Slate.",
+        "h1": "Who Slate is for",
+        "intro": [
+          "Slate is a calorie journal for people who eat Indian food: home dal and roti, a canteen thali, a Swiggy order and chai, often all in the same week. These pages explain how to count each of them honestly, and where Slate helps.",
+          "Every number on these pages comes from the food pages in [Calories in Indian food](/calories/), which show their recipes, arithmetic and sources."
+        ],
+        "listTitle": "Pages in this section"
+      },
+      "pages": [
+        {
+          "slug": "indian-food",
+          "title": "Calorie counter for Indian food: katori, roti and oil",
+          "description": "Why calorie apps struggle with dal, roti and sabzi, what an honest number for Indian food needs, and how Slate counts by your katori, roti and oil.",
+          "h1": "A calorie counter for Indian food",
+          "linkLabel": "A calorie counter for Indian food",
+          "updated": "2026-10-11",
+          "lede": "Indian food is counted by the katori, the roti and the spoon of oil, and the same dal can have twice the calories in one home as in another. A calorie counter for Indian food has to start from those things, not from a database of packaged foods.",
+          "body": [
+            {
+              "h2": "Why Indian food is hard to count",
+              "content": [
+                "Most of what Indians eat is cooked at home or bought freshly made, so there's no label. The same dish name also covers very different food. A 200 ml katori of thin [dal tadka](/calories/dal-tadka/) has about {{kcal@dal-tadka:k200}} calories, while the same katori of thicker [dal fry](/calories/dal-fry/) has about {{kcal@dal-fry:k200}}. Both are \"a katori of dal\".",
+                "Katoris themselves differ. A 150 ml katori of dal tadka is about {{kcal@dal-tadka:k150}} calories and a 250 ml one about {{kcal@dal-tadka:k250}}. Rotis differ too: a phulka made from about 24 g of atta is about {{kcal@roti:phulka}}, a large roti from 40 g about {{kcal@roti:large}}.",
+                "Then there's oil. A teaspoon of oil or ghee is about 40 to 45 calories, and home cooks use very different amounts. Restaurant food usually carries more again: a 200 ml katori of [paneer butter masala](/calories/paneer-butter-masala/) is about {{kcal@paneer-butter-masala:k200}} made at home, and about {{outLo@paneer-butter-masala}} to {{outHi@paneer-butter-masala}} from a restaurant."
+              ]
+            },
+            {
+              "h2": "What an honest number for Indian food needs",
+              "content": [
+                "A number you can rely on, day after day, comes from a few plain things:",
+                {
+                  "ul": [
+                    "A recipe in grams, so you know how much atta, dal, oil and ghee went into the dish.",
+                    "Values for Indian ingredients as they're grown and sold here, from the ICMR-NIN Indian Food Composition Tables 2017 (IFCT 2017).",
+                    "Portions in household measures, such as a katori, a roti, a plate or a glass, rather than grams you'd need to weigh.",
+                    "The size of your own katori and roti, and how much oil your family uses.",
+                    "Whether it was cooked at home or outside. Restaurant, delivery and street food usually have more oil and bigger portions."
+                  ]
+                },
+                "IFCT 2017 lists raw ingredients, not cooked dishes, so every dish has to be worked out from a recipe. That's what the [food calorie pages](/calories/) on this site do, with each recipe and source shown."
+              ]
+            },
+            {
+              "h2": "How to count Indian food better, with or without an app",
+              "content": [
+                {
+                  "ol": [
+                    "Measure your everyday katori once with water and a measuring jug. Knowing whether it's 150, 200 or 250 ml changes most of your numbers.",
+                    "Count rotis, not plates. Two medium rotis are about {{kcal@roti:two}} calories; the dal and sabzi are separate.",
+                    "Notice the fat. A teaspoon of ghee on a roti, an extra tadka or a cube of butter on a paratha is often the biggest difference between two similar meals.",
+                    "Treat outside food as outside. A dhaba dal or a delivery biryani isn't the same as yours at home.",
+                    "Accept a range. Every calorie number is an estimate. Being consistent matters more than being exact."
+                  ]
+                }
+              ]
+            },
+            {
+              "h2": "Where Slate helps",
+              "content": [
+                "Slate is a calorie journal for iPhone built around these facts. You type a line the way you'd say it, \"2 roti aur ek katori dal\", and Slate puts a number next to it.",
+                "The number is worked out on your phone from IFCT 2017 values and dish recipes in grams, then adjusted for your kitchen: your katori (150, 200 or 250 ml), your roti (6, 8 or 10 inches), your oil, and the sugar and milk in your chai. Restaurant, delivery, street and canteen food is counted as outside food, with more oil and a bigger portion, and you can switch any line to \"Made at home\". Tap any number to see how it was worked out, ingredient by ingredient.",
+                "AI is used only to read a line Slate doesn't recognise, and it never produces a calorie number. If Slate can't recognise a line at all, it shows a grey ↻ and counts it as zero rather than guessing."
+              ]
+            },
+            {
+              "h2": "What Slate won't do",
+              "content": [
+                "Slate doesn't suggest a goal, a diet or a target weight, and it never praises eating less or comments on eating more. It's a journal and a set of numbers, not a coach. It's for adults, it's not medical advice, and it's on iPhone only."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "How many calories are in a typical Indian thali?",
+              "a": "Add up what's on it. Two medium [rotis](/calories/roti/) are about {{kcal@roti:two}}, a 200 ml katori of [dal tadka](/calories/dal-tadka/) about {{kcal@dal-tadka:k200}}, a katori of [aloo sabzi](/calories/aloo-sabzi/) about {{kcal@aloo-sabzi:k200}} and a 200 ml katori of [rice](/calories/plain-rice/) about {{kcal@plain-rice:k200}}. Ghee, papad and pickle add more."
+            },
+            {
+              "q": "Are calorie numbers for Indian food accurate?",
+              "a": "They're estimates, as every calorie number is. Recipes, katoris and oil vary from home to home, so the honest answer is often a range. Using the same method every day matters more than any single number being exact."
+            },
+            {
+              "q": "Does IFCT 2017 list cooked Indian dishes?",
+              "a": "No. The ICMR-NIN Indian Food Composition Tables 2017 list ingredients such as atta, dal, vegetables, milk and oils. Cooked dishes have to be worked out from a recipe in grams."
+            },
+            {
+              "q": "Is Slate a calorie counter for Indian food?",
+              "a": "Yes, written as a journal. You type what you ate the way you'd say it, in English or Hinglish, and Slate counts the calories, protein, carbs and fat for each line using Indian food composition data."
+            }
+          ],
+          "related": [
+            {
+              "href": "/calories/",
+              "label": "Calories in Indian food"
+            },
+            {
+              "href": "/calories/dal-tadka/",
+              "label": "Dal tadka calories"
+            },
+            {
+              "href": "/calories/roti/",
+              "label": "Roti calories"
+            }
+          ]
+        },
+        {
+          "slug": "vegetarians",
+          "title": "Calorie counting for vegetarians, including Jain food",
+          "description": "Counting calories and protein in vegetarian and Jain meals: dal, paneer, curd, chana and besan, with katori-by-katori numbers from IFCT 2017.",
+          "h1": "Calorie counting for vegetarians, including Jain food",
+          "linkLabel": "Calorie counting for vegetarians",
+          "updated": "2026-10-11",
+          "lede": "For vegetarians, the useful numbers are usually protein and fat as much as calories: how much protein a katori of dal really gives, and how quickly paneer, ghee and fried snacks add up. Jain cooking changes the vegetables, but the oil and the dairy decide most of the calories.",
+          "body": [
+            {
+              "h2": "Where the protein comes from",
+              "content": [
+                "In a vegetarian Indian diet, protein comes mostly from dal, beans, paneer, curd, milk and besan. Cooked dal is mostly water, so a katori holds less than people expect:",
+                {
+                  "ul": [
+                    "A bowl of plain [toor dal](/calories/toor-dal/) made from 30 g of dry dal has about {{protein@toor-dal:bowl}} g of protein.",
+                    "A 200 ml katori of [rajma](/calories/rajma/) has about {{protein@rajma:k200}} g, and of [chole](/calories/chole/) about {{protein@chole:k200}} g.",
+                    "A home bowl of [palak paneer](/calories/palak-paneer/) with 40 g of paneer has about {{protein@palak-paneer:bowl}} g.",
+                    "Two [besan chillas](/calories/besan-chilla/) have about {{protein@besan-chilla:two}} g."
+                  ]
+                },
+                "Raw toor dal has 21.7 g of protein per 100 g and paneer 18.9 g, according to IFCT 2017, but you eat dal cooked and diluted and paneer in small cubes. Counting by what's in your katori is more useful than counting by the packet."
+              ]
+            },
+            {
+              "h2": "Where the calories come from",
+              "content": [
+                "Vegetarian food isn't automatically light or heavy. The same few things make the difference in most meals:",
+                {
+                  "ul": [
+                    "Paneer is about {{ing:paneer}} calories per 100 g. A restaurant serving often has two or three times the paneer of a home katori.",
+                    "Each teaspoon of ghee or oil is about 40 to 45 calories, whether it's in the tadka, on the roti or in the kadhai.",
+                    "Fried snacks add up quickly: a home [samosa](/calories/samosa/) is about {{kcal@samosa:one}} calories and two [medu vadas](/calories/medu-vada/) about {{kcal@medu-vada:two}}.",
+                    "So do sweets and sweet drinks: a home [gulab jamun](/calories/gulab-jamun/) is about {{kcal@gulab-jamun:one}} calories and a glass of [sweet lassi](/calories/lassi/) about {{kcal@lassi:glass}}."
+                  ]
+                }
+              ]
+            },
+            {
+              "h2": "Jain food",
+              "content": [
+                "Jain cooking leaves out onion, garlic, potato and other root vegetables, and many Jain families don't eat after sunset. Taking out onion and garlic changes a dish's calories very little: 25 g of onion is about 12 calories. The oil, ghee, dairy and sugar decide the number, as they do in any vegetarian kitchen.",
+                "Where potato is replaced with raw banana or another vegetable, count that vegetable instead. Dal, kadhi, rotis, theplas and most sabzis can be counted the same way, by the katori and the roti."
+              ]
+            },
+            {
+              "h2": "How to count a vegetarian day",
+              "content": [
+                {
+                  "ol": [
+                    "Count dal by the dry dal when you cook it, or by the katori when you serve it, and keep to one katori size.",
+                    "Count paneer, curd and milk separately when you can. They carry most of the protein and much of the fat.",
+                    "Count ghee and oil you add at the table: a teaspoon on rice, dal or roti.",
+                    "Count fried snacks and sweets as their own lines, not as part of the meal."
+                  ]
+                }
+              ]
+            },
+            {
+              "h2": "Where Slate helps",
+              "content": [
+                "In Slate you can tell it your diet: vegetarian, eggetarian, non-vegetarian, vegan or Jain, and the foods you avoid. That helps Slate read your lines the way you mean them. Every line shows protein, carbs and fat as well as calories, and you can set macro goals yourself; Slate never suggests one.",
+                "Write \"1 katori rajma, 2 roti, dahi\" and each part gets its own line and its own number, adjusted for your katori, roti and oil."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "How much protein is in a katori of dal?",
+              "a": "A bowl of plain toor dal made from 30 g of dry dal has about {{protein@toor-dal:bowl}} g of protein. A thick dal, rajma or chole has more per katori: about {{protein@rajma:k200}} g in a 200 ml katori of rajma."
+            },
+            {
+              "q": "Is Jain food lower in calories?",
+              "a": "Not by itself. Leaving out onion and garlic removes very few calories. Oil, ghee, dairy and sugar decide most of the number, in Jain cooking as in any other."
+            },
+            {
+              "q": "How many calories are in 100 g of paneer?",
+              "a": "About {{ing:paneer}}, with about 18.9 g of protein and 14.8 g of fat, according to IFCT 2017."
+            },
+            {
+              "q": "Can I track protein in Slate?",
+              "a": "Yes. Every line shows protein, carbs and fat, and macro goals are free. Slate doesn't suggest what your goals should be."
+            }
+          ],
+          "related": [
+            {
+              "href": "/calories/toor-dal/",
+              "label": "Toor dal calories"
+            },
+            {
+              "href": "/calories/palak-paneer/",
+              "label": "Palak paneer calories"
+            },
+            {
+              "href": "/calories/chole/",
+              "label": "Chole calories"
+            }
+          ]
+        },
+        {
+          "slug": "home-cooking",
+          "title": "Counting calories in home-cooked food: katori, roti, oil",
+          "description": "Three things decide the calories in home-cooked Indian food: your katori, your roti and your oil. How to measure each once, with numbers from IFCT 2017.",
+          "h1": "Counting calories in home-cooked food",
+          "linkLabel": "Counting calories in home-cooked food",
+          "updated": "2026-10-11",
+          "lede": "In home-cooked Indian food, three things decide most of the number: the size of your katori, the size of your roti and how much oil your family uses. Measure each of them once and your daily counting gets much closer to what you actually eat.",
+          "body": [
+            {
+              "h2": "Your katori",
+              "content": [
+                "Katoris in Indian homes range from about 150 ml to 250 ml, and that alone changes a katori of dal or sabzi by two thirds. A 150 ml katori of [rajma](/calories/rajma/) is about {{kcal@rajma:k150}} calories and a 250 ml one about {{kcal@rajma:k250}}.",
+                "To measure yours, fill it with water to where you usually serve, and pour it into a measuring jug. Do it once for the katori you use most."
+              ]
+            },
+            {
+              "h2": "Your roti",
+              "content": [
+                "A roti's calories follow its atta, whatever its size when rolled out. A [phulka](/calories/phulka/) from about 24 g of atta is about {{kcal@phulka:one}} calories, a medium [roti](/calories/roti/) from 30 g about {{kcal@roti:medium}}, and a large one from 40 g about {{kcal@roti:large}}.",
+                "If you want to know your own, weigh a dough ball once on a kitchen scale. Dough is atta plus water, so a 50 g ball is roughly 30 g of atta. A teaspoon of ghee on top adds about 45 calories, close to half a roti."
+              ]
+            },
+            {
+              "h2": "Your oil",
+              "content": [
+                "Oil and ghee are where home kitchens differ most, and they're the hardest to see once a dish is cooked. Each teaspoon is about 40 to 45 calories. In a textbook [plain paratha](/calories/plain-paratha/), the oil is close to half the calories; in [bhindi sabzi](/calories/bhindi/), close to three quarters.",
+                "The easiest way to know your family's oil is the bottle. If a 1 litre bottle lasts about 30 days for 4 people, that's about 7.7 g of oil per person per day, or about 68 calories, spread across everything cooked at home."
+              ]
+            },
+            {
+              "h2": "Thick or thin, home or outside",
+              "content": [
+                "Dal, sambar and kadhi change with how much water they're cooked in. A 200 ml katori of thin [dal tadka](/calories/dal-tadka/) is about {{kcal@dal-tadka:k200}} calories, and a thick dal can be close to twice that. When you can, count dal by the dry dal that went into the pot: ICMR-NIN's standard serving is 30 g of dry dal.",
+                "Food cooked outside usually has more oil and a bigger portion, so count it separately: see [eating out](/for/eating-out/)."
+              ]
+            },
+            {
+              "h2": "Where Slate helps",
+              "content": [
+                "Slate asks for these once, in Your kitchen: your katori (150, 200 or 250 ml), your roti (6, 8 or 10 inches), your oil as a sentence such as \"A 1 litre bottle lasts us about 30 days, cooking for 4 people\", and the sugar and milk in your chai and coffee. It turns the oil into oil per person per day and spreads it across home-cooked dishes.",
+                "You can also add a short note on how you cook, such as \"We cook with less oil than most. I use a small katori.\" Slate turns it into small, capped adjustments. Your kitchen is free, and changing it later never rewrites past days."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "How do I count calories in home-cooked food?",
+              "a": "Know your katori size, your roti size and roughly how much oil your family uses. Then count dishes by the katori and rotis by the piece, and add ghee or oil you put on at the table."
+            },
+            {
+              "q": "How many calories does a teaspoon of oil add?",
+              "a": "About 40 calories for a teaspoon of oil (4.5 g) and about 45 for a teaspoon of ghee (5 g), from IFCT 2017."
+            },
+            {
+              "q": "How do I measure my katori?",
+              "a": "Fill it with water to your usual serving level and pour it into a measuring jug. Most katoris are between 150 and 250 ml."
+            },
+            {
+              "q": "How much oil does my family use per person?",
+              "a": "Divide the bottle by the days and the people. A 1 litre bottle lasting 30 days for 4 people is about 7.7 g, or 68 calories, per person per day."
+            }
+          ],
+          "related": [
+            {
+              "href": "/calories/roti/",
+              "label": "Roti calories"
+            },
+            {
+              "href": "/calories/dal-tadka/",
+              "label": "Dal tadka calories"
+            },
+            {
+              "href": "/calories/rajma/",
+              "label": "Rajma calories"
+            }
+          ]
+        },
+        {
+          "slug": "eating-out",
+          "title": "Calories in restaurant, Swiggy and Zomato food",
+          "description": "Why restaurant and delivery food has more calories than home food, with ranges for dal makhani, paneer, biryani and naan, and how to count an order.",
+          "h1": "Calories in restaurant, Swiggy and Zomato food",
+          "linkLabel": "Calories in restaurant and delivery food",
+          "updated": "2026-10-11",
+          "lede": "Restaurant and delivery food usually has more calories than the same dish at home, mostly because of more butter, cream and oil and bigger portions. The honest way to count it is as a range, dish by dish.",
+          "body": [
+            {
+              "h2": "Why outside food has more",
+              "content": [
+                "Restaurant kitchens cook for taste and for portions that look generous. That usually means more ghee, butter and cream than a home kitchen uses, oil that's been used many times for frying, and bigger servings. None of it is printed on a menu, so the same dish can vary a lot from one place to the next.",
+                "Lab studies of street food in Delhi found samosas and kachoris with far more fat than home versions. A home [samosa](/calories/samosa/) is about {{kcal@samosa:one}} calories; the street samosas measured came to about {{outLo@samosa}} to {{outHi@samosa}}."
+              ]
+            },
+            {
+              "h2": "Ranges for common orders",
+              "content": [
+                "These ranges come from the food pages on this site, each worked out from a recipe in grams with its assumptions stated:",
+                {
+                  "table": {
+                    "caption": "Home value against a typical restaurant or delivery range. See each dish's page for how it was worked out.",
+                    "head": [
+                      "Dish",
+                      "Home",
+                      "Restaurant or delivery"
+                    ],
+                    "rows": [
+                      [
+                        "[Paneer butter masala](/calories/paneer-butter-masala/), 200 ml katori",
+                        "{{kcal@paneer-butter-masala:k200}}",
+                        "{{outLo@paneer-butter-masala}} to {{outHi@paneer-butter-masala}}"
+                      ],
+                      [
+                        "[Dal makhani](/calories/dal-makhani/), 200 ml katori",
+                        "{{kcal@dal-makhani:k200}}",
+                        "{{outLo@dal-makhani}} to {{outHi@dal-makhani}}"
+                      ],
+                      [
+                        "[Butter chicken](/calories/butter-chicken/), one serving",
+                        "{{kcal@butter-chicken:serving}}",
+                        "{{outLo@butter-chicken}} to {{outHi@butter-chicken}}"
+                      ],
+                      [
+                        "[Chicken biryani](/calories/chicken-biryani/), one plate",
+                        "{{kcal@chicken-biryani:plate}}",
+                        "{{outLo@chicken-biryani}} to {{outHi@chicken-biryani}}"
+                      ],
+                      [
+                        "[Butter naan](/calories/butter-naan/), one",
+                        "{{kcal@butter-naan:one_tsp}}",
+                        "{{outLo@butter-naan}} to {{outHi@butter-naan}}"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "h2": "How to count an order",
+              "content": [
+                {
+                  "ol": [
+                    "Count each dish as its own line: the curry, the naans, the rice, the raita.",
+                    "Use the restaurant range, not the home number. If you don't know, the middle of the range is a fair guess.",
+                    "Count breads by the piece. A large restaurant naan is about three times a home naan before any butter goes on.",
+                    "If you share, count your share: half a plate of biryani is half the number.",
+                    "Don't forget drinks and sides: a sweet lassi, a gulab jamun, papad."
+                  ]
+                }
+              ]
+            },
+            {
+              "h2": "Where Slate helps",
+              "content": [
+                "In Slate, every line can be switched between \"Outside\" and \"Made at home\". Outside food, from restaurants, delivery, street stalls and canteens, is counted with more oil and a bigger portion than home food, and dishes usually eaten out, like chole bhature, pav bhaji and biryani, count as outside unless you switch them.",
+                "With Slate Plus, you can share a Swiggy or Zomato order to Slate or paste it into a new line. The order text is read on your iPhone, fees and totals are dropped, and each dish becomes its own line, counted as outside food. You check the list and tap Add. Slate never connects to those apps."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Why does restaurant food have more calories than home food?",
+              "a": "Mostly more butter, cream and oil, and bigger portions. Fried food from shops is often fried in oil that's used many times, which leaves more fat in each piece."
+            },
+            {
+              "q": "How many calories are in a Swiggy biryani?",
+              "a": "No app can know a specific restaurant's recipe. As a range, a restaurant plate of [chicken biryani](/calories/chicken-biryani/) is about {{outLo@chicken-biryani}} to {{outHi@chicken-biryani}} calories, depending on the ghee and the size."
+            },
+            {
+              "q": "How many calories are in a restaurant naan?",
+              "a": "A large plain restaurant [naan](/calories/naan/) is about {{kcal@naan:large}}, and a large [butter naan](/calories/butter-naan/) about {{kcal@butter-naan:large}}."
+            },
+            {
+              "q": "Can Slate read my Swiggy or Zomato order?",
+              "a": "Yes, with Slate Plus. Share or paste the order to Slate, check the list, and each dish is added as outside food. Slate only reads what you share and never connects to those apps."
+            }
+          ],
+          "related": [
+            {
+              "href": "/calories/paneer-butter-masala/",
+              "label": "Paneer butter masala calories"
+            },
+            {
+              "href": "/calories/chicken-biryani/",
+              "label": "Chicken biryani calories"
+            },
+            {
+              "href": "/calories/dal-makhani/",
+              "label": "Dal makhani calories"
+            }
+          ]
+        },
+        {
+          "slug": "hinglish",
+          "title": "A calorie tracker you can write in Hinglish",
+          "description": "Write \"2 roti aur ek katori dal\" or \"chai, kam cheeni\" and get a number. How Slate reads Hinglish and Gujarati spellings, and what it does when it can't.",
+          "h1": "A calorie tracker you can write in Hinglish",
+          "linkLabel": "A calorie tracker you can write in Hinglish",
+          "updated": "2026-10-11",
+          "lede": "Most of us don't describe our food in database terms. We say \"2 roti aur ek katori dal\", \"chai, kam cheeni\" or \"aadha plate poha\". A calorie tracker that understands how you'd say it is quicker to use, and you're more likely to keep using it.",
+          "body": [
+            {
+              "h2": "Why typing it the way you'd say it helps",
+              "content": [
+                "Searching a database for every item, choosing from ten kinds of dal and guessing a weight in grams takes time, and that's where most people stop logging. Writing one line, the way you'd tell a friend what you ate, takes seconds.",
+                "It also keeps the things that change the number: \"kam tel\", \"extra ghee\", \"half plate\" and \"bina cheeni\" are exactly the details a database search leaves out.",
+                "The same dish also has different names in different homes: rotli, phulka and chapati; shaak and sabzi; dahi and curd. A tracker that knows only one spelling makes you search for the others."
+              ]
+            },
+            {
+              "h2": "What a line can look like",
+              "content": [
+                {
+                  "table": {
+                    "caption": "Examples of lines and what they mean. Numbers are this site's home values, before your own kitchen settings.",
+                    "head": [
+                      "You write",
+                      "It means",
+                      "About"
+                    ],
+                    "rows": [
+                      [
+                        "2 roti aur ek katori dal",
+                        "2 rotis, and 1 katori of dal",
+                        "{{kcal@roti:two}} for the rotis"
+                      ],
+                      [
+                        "chai, kam cheeni",
+                        "1 cup of chai with less sugar",
+                        "{{kcal@masala-chai:cup1}}"
+                      ],
+                      [
+                        "aadha plate poha",
+                        "Half a plate of poha",
+                        "{{kcal@poha:small}}"
+                      ],
+                      [
+                        "2 rotli ane shaak",
+                        "2 rotlis and a katori of sabzi (Gujarati)",
+                        "{{kcal@phulka:two}} for the rotlis"
+                      ],
+                      [
+                        "1 thepla",
+                        "1 methi thepla",
+                        "{{kcal@thepla:one}}"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "h2": "Where Slate helps",
+              "content": [
+                "Slate understands English, Hinglish and Gujarati-English spellings, quantities in words such as ek, do, aadha and half, and preparation words such as \"less oil\", \"kam tel\", \"no sugar\", \"bina cheeni\", \"extra ghee\", \"half plate\" and \"full plate\". One line can become several: \"2 roti aur ek katori dal\" becomes \"2 roti\" and \"1 katori dal\", each with its own number.",
+                "Slate's own matcher on your iPhone reads most lines. Only when it doesn't recognise one does AI help read it, and even then it can only point to dishes in Slate's own catalogue. The AI never produces a calorie number: the number is always worked out from food composition data and recipes in grams.",
+                "With Slate Plus you can also say the line instead of typing it, in English or Hinglish. Speech is turned into text on your iPhone, or by Apple's speech service where needed, and Slate never receives or stores audio."
+              ]
+            },
+            {
+              "h2": "When a line isn't understood",
+              "content": [
+                "If Slate can't recognise a line, it shows a grey ↻ and counts it as zero. It never guesses a number. You can rewrite the line, or tap it to choose the dish.",
+                "The app itself is in English for now. Writing in Hinglish and Gujarati spellings works; the menus and settings are in English."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Can I write my food in Hinglish?",
+              "a": "Yes. Lines such as \"2 roti aur ek katori dal\", \"kam tel\" and \"bina cheeni\" work in Slate, along with Gujarati spellings."
+            },
+            {
+              "q": "Does Slate understand Gujarati?",
+              "a": "Gujarati-English spellings such as \"rotli\", \"shaak\" and \"dal bhaat\" work. The app itself is in English for now."
+            },
+            {
+              "q": "What happens if Slate doesn't understand a line?",
+              "a": "It shows a grey ↻ and counts the line as zero. It never guesses a number."
+            },
+            {
+              "q": "Does AI decide the calories?",
+              "a": "No. AI is used only to read lines Slate doesn't recognise, and it can only point to dishes in Slate's catalogue. The number is worked out from food composition data and recipes in grams."
+            }
+          ],
+          "related": [
+            {
+              "href": "/calories/masala-chai/",
+              "label": "Masala chai calories"
+            },
+            {
+              "href": "/calories/poha/",
+              "label": "Poha calories"
+            },
+            {
+              "href": "/calories/thepla/",
+              "label": "Thepla calories"
+            }
+          ]
+        },
+        {
+          "slug": "no-login",
+          "title": "A calorie tracker without login or ads",
+          "description": "Slate has no login, no ads and no tracking. What it stores, where (Mumbai, India), what it never collects, and how to export or delete everything.",
+          "h1": "A calorie tracker without login or ads",
+          "linkLabel": "A calorie tracker without login or ads",
+          "updated": "2026-10-11",
+          "lede": "What you eat is personal. Slate has no login, no ads and no tracking: there's no account to create, no email or phone number to give, and nothing in the app is sold or shared for marketing.",
+          "body": [
+            {
+              "h2": "What no login means",
+              "content": [
+                "When you install Slate, it creates an anonymous account on your phone. You don't give a name, phone number or email, and Slate doesn't collect your contacts, your location or an advertising ID.",
+                "You open the app and start writing. There's no sign-up form, no verification code and no password to remember."
+              ]
+            },
+            {
+              "h2": "What's stored, and where",
+              "content": [
+                {
+                  "ul": [
+                    "Your Slate (the lines you write and their numbers) is stored in Mumbai, India, on Supabase servers in AWS's Mumbai region. Each account can read only its own data.",
+                    "No ads, no ad SDKs, no tracking and no analytics at launch.",
+                    "Barcode scanning sends only the barcode number to Open Food Facts. Label scanning happens on your phone.",
+                    "When Slate doesn't recognise a line, the line is sent to Anthropic's AI to read. With Slate Plus, photos and chat messages are too. None of it is used to train AI models, and photos are never stored.",
+                    "Subscriptions are handled by Apple, and RevenueCat holds only your subscription status."
+                  ]
+                }
+              ]
+            },
+            {
+              "h2": "What Slate never asks for",
+              "content": [
+                "Slate doesn't ask about health conditions or medication. Reminders, if you turn them on, are scheduled on your iPhone itself, with no push service and no marketing messages. And without a login there's nothing for a sales team to call or email; Slate doesn't have one."
+              ]
+            },
+            {
+              "h2": "Questions worth asking any calorie app",
+              "content": [
+                "Whichever app you use, these questions tell you most of what you need to know about your data:",
+                {
+                  "ol": [
+                    "Do I need an account, and what does it ask for?",
+                    "What's collected besides what I log, such as contacts, location or an advertising ID?",
+                    "Where is my data stored, and who can read it?",
+                    "Are there ads or ad SDKs in the app?",
+                    "Is anything I write used to train AI models?",
+                    "Can I export and delete everything myself, without writing to support?"
+                  ]
+                }
+              ]
+            },
+            {
+              "h2": "Export or delete, any time",
+              "content": [
+                "From Settings you can export your whole Slate as JSON and CSV, and delete all of it. Deletion is immediate on the server, with backups cleared within 30 days. Both are free.",
+                "Slate follows India's Digital Personal Data Protection Act 2023. The full details are in the [privacy policy](/privacy/)."
+              ]
+            },
+            {
+              "h2": "Why we built it this way",
+              "content": [
+                "A calorie journal only works if it's quick to open and you trust it with what you write. A login screen, marketing emails and ads all get in the way of that, so Slate has none of them. Two of the four promises we've made publicly are that Slate won't show you ads and won't sell or share your data."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Can I use a calorie tracker without signing up?",
+              "a": "Yes. Slate creates an anonymous account on your phone, so there's no sign-up, email or phone number."
+            },
+            {
+              "q": "Does Slate show ads?",
+              "a": "No. There are no ads, no ad SDKs and no tracking."
+            },
+            {
+              "q": "Where is my data stored?",
+              "a": "In Mumbai, India. Nobody else can see your Slate, and you can export or delete all of it from Settings."
+            },
+            {
+              "q": "Is my food data used to train AI?",
+              "a": "No. Lines Slate doesn't recognise, and with Plus photos and chat messages, are read by Anthropic, but they aren't used to train models and photos are never stored."
+            }
+          ],
+          "related": [
+            {
+              "href": "/privacy/",
+              "label": "Privacy policy"
+            },
+            {
+              "href": "/support/",
+              "label": "Support"
+            },
+            {
+              "href": "/calories/",
+              "label": "Calories in Indian food"
+            }
+          ]
+        },
+        {
+          "slug": "fasting",
+          "title": "Calories on fasting days: Navratri, Ekadashi, Ramadan",
+          "description": "Fasting-day food like sabudana khichdi, kuttu puri and iftar snacks often has more calories than it looks. How to count it, with IFCT 2017 numbers.",
+          "h1": "Counting calories on fasting days",
+          "linkLabel": "Counting calories on fasting days",
+          "updated": "2026-10-11",
+          "lede": "On fasting days the food changes, not always the calories. Sabudana, kuttu, singhara, makhana, fried snacks and sweet milk are dense, so a Navratri plate or an iftar can come to more than an ordinary meal. Counting it works the same way as any other day.",
+          "body": [
+            {
+              "h2": "Navratri and vrat food",
+              "content": [
+                "Vrat food replaces wheat and rice with sabudana, kuttu (buckwheat), singhara (water chestnut) or rajgira, and it's often cooked in ghee with peanuts and potato:",
+                {
+                  "ul": [
+                    "A plate of [sabudana khichdi](/calories/sabudana-khichdi/) made from 50 g of dry sabudana, with potato, peanuts and ghee, is about {{kcal@sabudana-khichdi:plate}} calories.",
+                    "A [kuttu puri](/calories/kuttu-puri/) is about {{kcal@kuttu-puri:one}}, close to a wheat puri, because the frying oil is most of it.",
+                    "A cup of plain [makhana](/calories/makhana/) is about {{kcal@makhana:cup}}, and 30 g roasted in a teaspoon of ghee about {{kcal@makhana:ghee30}}.",
+                    "Fruit, curd, milk and sweets made with milk and sugar add up across the day."
+                  ]
+                },
+                "On a vrat many families eat one full meal and snacks through the day, so the total depends on the whole day rather than any one plate."
+              ]
+            },
+            {
+              "h2": "Ekadashi and other grain-free days",
+              "content": [
+                "On Ekadashi many families avoid grains and pulses, so the day's food is often potato, sabudana, milk, fruit and nuts. Potato sabzi in ghee, sabudana and peanuts are where most of the calories come from. A 200 ml katori of [aloo sabzi](/calories/aloo-sabzi/) is about {{kcal@aloo-sabzi:k200}}."
+              ]
+            },
+            {
+              "h2": "Ramadan: sehri and iftar",
+              "content": [
+                "During Ramadan the day's food is eaten at sehri before dawn and iftar after sunset. Iftar often starts with dates and goes on to fried snacks such as samosas and pakoras, fruit chaat and sweet drinks. Dried dates have about 317 calories per 100 g, according to ICMR-NIN. A home [samosa](/calories/samosa/) is about {{kcal@samosa:one}} calories, and a glass of [nimbu pani](/calories/nimbu-pani/) with 2 teaspoons of sugar about {{kcal@nimbu-pani:two_tsp}}."
+              ]
+            },
+            {
+              "h2": "How to count a fasting day",
+              "content": [
+                {
+                  "ol": [
+                    "Count each item as you would on any day: the plate, the katori, the piece.",
+                    "Watch the ghee and the peanuts. They're the biggest part of most vrat dishes.",
+                    "Count fried snacks by the piece and sweets separately.",
+                    "Count drinks: sweet milk, lassi and sherbet carry sugar."
+                  ]
+                },
+                "If you have diabetes, are pregnant, or take regular medication, talk to your doctor before a fast and about how to eat on fasting days. This page is about counting, not about whether to fast."
+              ]
+            },
+            {
+              "h2": "Where Slate helps",
+              "content": [
+                "In Slate you can mark your fasting days, so it reads lines such as \"sabudana khichdi\" or \"kuttu ki puri\" the way you mean them. Each line gets its own number, worked out from IFCT 2017 values and recipes in grams. Slate never suggests a fast, a diet or a goal."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "How many calories are in a plate of sabudana khichdi?",
+              "a": "About {{kcal@sabudana-khichdi:plate}} for a plate made from 50 g of dry sabudana with potato, peanuts and a tablespoon of ghee."
+            },
+            {
+              "q": "Are vrat foods lower in calories?",
+              "a": "Not usually. Sabudana, kuttu, peanuts, ghee and fried snacks are dense, so a fasting-day plate can have more calories than an ordinary meal."
+            },
+            {
+              "q": "How many calories are in dates?",
+              "a": "Dried dates have about 317 calories per 100 g, according to ICMR-NIN. Fresh dates have less, about 144 per 100 g, because they hold more water."
+            },
+            {
+              "q": "Should I count calories while fasting?",
+              "a": "That's your choice. If you have a medical condition or take medication, talk to your doctor about fasting. Slate counts what you write and never suggests a fast or a goal."
+            }
+          ],
+          "related": [
+            {
+              "href": "/calories/sabudana-khichdi/",
+              "label": "Sabudana khichdi calories"
+            },
+            {
+              "href": "/calories/kuttu-puri/",
+              "label": "Kuttu puri calories"
+            },
+            {
+              "href": "/calories/makhana/",
+              "label": "Makhana calories"
+            }
+          ]
+        },
+        {
+          "slug": "office-canteen-tiffin",
+          "title": "Calories in office canteen food and tiffin",
+          "description": "How to count a canteen thali, a tiffin dabba and office chai: rotis, katoris of dal and sabzi, and the extra oil in canteen cooking, from IFCT 2017.",
+          "h1": "Calories in office canteen food and tiffin",
+          "linkLabel": "Calories in office canteen food and tiffin",
+          "updated": "2026-10-11",
+          "lede": "Office food is the same few things most days: a canteen thali or a tiffin dabba, and several cups of chai or coffee. Count each of them once, carefully, and the rest of the week is quick.",
+          "body": [
+            {
+              "h2": "The canteen thali",
+              "content": [
+                "A canteen thali is usually rotis, rice, dal, a sabzi, sometimes a sweet or curd. Canteen kitchens cook in large batches, often with more oil than home cooking, and the ladle sets the portion. Count it as outside food.",
+                "For a rough home baseline: two medium [rotis](/calories/roti/) are about {{kcal@roti:two}} calories, a 200 ml katori of [dal tadka](/calories/dal-tadka/) about {{kcal@dal-tadka:k200}}, a katori of [mixed veg sabzi](/calories/mixed-veg/) about {{kcal@mixed-veg:k200}} and a 200 ml katori of [rice](/calories/plain-rice/) about {{kcal@plain-rice:k200}}. Canteen versions of the dal and sabzi are usually higher."
+              ]
+            },
+            {
+              "h2": "The tiffin dabba",
+              "content": [
+                "A tiffin from home is easier to count, because you know what went in. Look at your dabba once: how many rotis or theplas, and how big the containers are. Measure a container the same way as a katori, with water and a measuring jug.",
+                "Common tiffin food travels well: [theplas](/calories/thepla/) at about {{kcal@thepla:one}} each, [aloo paratha](/calories/aloo-paratha/) at about {{kcal@aloo-paratha:one}}, [curd rice](/calories/curd-rice/) at about {{kcal@curd-rice:k200}} for a 200 ml katori, and [veg pulao](/calories/pulao/) at about {{kcal@pulao:k200}}."
+              ]
+            },
+            {
+              "h2": "Chai and coffee add up",
+              "content": [
+                "Office chai is easy to forget. A cup of [masala chai](/calories/masala-chai/) with 2 teaspoons of sugar is about {{kcal@masala-chai:cup2}} calories, and a tumbler of [filter coffee](/calories/filter-coffee/) with whole milk and 2 teaspoons of sugar about {{kcal@filter-coffee:two_tsp}}. Three or four cups a day is a small meal's worth.",
+                "Canteen and vending-machine chai is often sweeter than home chai. Biscuits and namkeen with it add more."
+              ]
+            },
+            {
+              "h2": "How to count office food quickly",
+              "content": [
+                {
+                  "ol": [
+                    "Count the canteen thali by its parts the first time, then reuse it.",
+                    "Count your tiffin dabba once, by its containers.",
+                    "Count chai by the cup, with the sugar you actually take.",
+                    "Add the evening snack separately: samosa, vada pav, biscuits."
+                  ]
+                }
+              ]
+            },
+            {
+              "h2": "Where Slate helps",
+              "content": [
+                "Tell Slate where you eat outside, including an office canteen and tiffin, and canteen food is counted as outside food, with more oil and a bigger portion than home food. Your chai and coffee are set once in Your kitchen, with your sugar and milk.",
+                "\"Log a chai in Slate\" works with Siri for free. With Slate Plus, a home or lock screen widget gives one-tap quick add for chai, coffee, a glass of water or any saved food, and saved foods let you reuse your usual dabba."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "How many calories are in a canteen thali?",
+              "a": "It depends on the canteen, but as a home baseline: two medium rotis about {{kcal@roti:two}}, a 200 ml katori of dal tadka about {{kcal@dal-tadka:k200}}, a katori of sabzi about {{kcal@mixed-veg:k200}} and a katori of rice about {{kcal@plain-rice:k200}}. Canteen dal and sabzi usually have more oil."
+            },
+            {
+              "q": "How many calories are in office chai?",
+              "a": "About {{kcal@masala-chai:cup2}} for a cup with 2 teaspoons of sugar, and about {{kcal@masala-chai:cup0}} without sugar."
+            },
+            {
+              "q": "How do I count a tiffin?",
+              "a": "Count it once by its contents: the rotis or theplas, and each container as a katori of dal, sabzi or rice. After that, the same dabba takes seconds."
+            },
+            {
+              "q": "Can I log chai with one tap?",
+              "a": "Yes. With Slate Plus, the widget's quick add can be set to chai, and \"Log a chai in Slate\" works with Siri for free."
+            }
+          ],
+          "related": [
+            {
+              "href": "/calories/masala-chai/",
+              "label": "Masala chai calories"
+            },
+            {
+              "href": "/calories/thepla/",
+              "label": "Thepla calories"
+            },
+            {
+              "href": "/calories/curd-rice/",
+              "label": "Curd rice calories"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

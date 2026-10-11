@@ -136,10 +136,10 @@ const fmt = (n) => n.toLocaleString("en-IN");
 //   {{ing:id}}                                                  kcal per 100 g of an ingredient
 function fill(food, text) {
   return text.replace(/\{\{(\w+)(?:@([\w-]+))?(?::([\w-]+))?\}\}/g, (m, key, slug, id) => {
-    const f = slug ? foods.find((x) => x.slug === slug) : food;
-    if (!f) throw new Error(`${food.slug}: token ${m} names unknown dish "${slug}"`);
-    if (f.portions[0].kcal == null) throw new Error(`${food.slug}: token ${m} used before "${slug}" was computed`);
     if (key === "ing") return fmt(Math.round(ingredient(id, food.slug).per100g.kcal));
+    const f = slug ? foods.find((x) => x.slug === slug) : food;
+    if (!f || !f.portions) throw new Error(`${food.slug}: token ${m} names unknown dish "${slug}"`);
+    if (f.portions[0].kcal == null) throw new Error(`${food.slug}: token ${m} used before "${slug}" was computed`);
     if (key === "outLo") return fmt(f.outside.kcalRange[0]);
     if (key === "outHi") return fmt(f.outside.kcalRange[1]);
     if (key === "per100") {
@@ -157,9 +157,10 @@ function fill(food, text) {
 
 // Prose fields may hold simple inline markup: [text](/path/) links only.
 function inline(food, text) {
-  return esc(fill(food, text)).replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (m, t, href) => `<a href="${href}">${t}</a>`);
+  return esc(fill(food, text)).replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (m, t, href) => `<a href="${href}">${t}</a>`)
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
 }
-const plain = (food, text) => fill(food, text).replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
+const plain = (food, text) => fill(food, text).replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/\*\*([^*]+)\*\*/g, "$1");
 
 // ---------- Page parts ----------
 
@@ -267,8 +268,12 @@ function cta() {
     </div>`;
 }
 
+// Content pages (/for/, /compare/, /blog/) come from data/pages.json when it exists.
+const contentSections = existsSync(join(ROOT, "data/pages.json")) ? read("data/pages.json").sections : [];
+
 // Generated and hand-written pages that exist, so links to pages not built yet are left out.
-const builtPaths = new Set(["/", "/privacy/", "/terms/", "/support/", "/calories/", ...foods.map((f) => `/calories/${f.slug}/`)]);
+const builtPaths = new Set(["/", "/privacy/", "/terms/", "/support/", "/calories/", ...foods.map((f) => `/calories/${f.slug}/`),
+  ...contentSections.flatMap((s) => [s.path, ...s.pages.map((p) => `${s.path}${p.slug}/`)])]);
 function pageExists(href) {
   if (builtPaths.has(href)) return true;
   return existsSync(join(ROOT, href, "index.html"));
@@ -440,6 +445,144 @@ ${cta()}
   return head({ title: site.hub.title, description: site.hub.description, path, jsonld, scripts: ["/assets/hub.js?v=1"] }) + body + footer();
 }
 
+// ---------- Content pages: /for/, /compare/, /blog/ ----------
+//
+// Each page in data/pages.json has a lede (the answer first), sections of content blocks,
+// an optional FAQ and related links. A content block is a paragraph string or one of
+// { ul }, { ol }, { h3 }, { table: { caption, head, rows } } or { note }.
+// Prose may hold [text](/path/) links and {{kcal@slug:id}}-style tokens from the food pages.
+
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const longDate = (iso) => { const [y, m, d] = iso.split("-").map(Number); return `${d} ${MONTHS[m - 1]} ${y}`; };
+const pageCtx = (path) => ({ slug: path });
+const prose = (path, text) => inline(pageCtx(path), text);
+const plainText = (path, text) => plain(pageCtx(path), text);
+
+function blocks(path, content) {
+  return content.map((b) => {
+    if (typeof b === "string") return `<p>${prose(path, b)}</p>`;
+    if (b.ul) return `<ul>\n${b.ul.map((li) => `        <li>${prose(path, li)}</li>`).join("\n")}\n      </ul>`;
+    if (b.ol) return `<ol>\n${b.ol.map((li) => `        <li>${prose(path, li)}</li>`).join("\n")}\n      </ol>`;
+    if (b.h3) return `<h3>${prose(path, b.h3)}</h3>`;
+    if (b.note) return `<div class="card note"><p>${prose(path, b.note)}</p></div>`;
+    if (b.table) {
+      const t = b.table;
+      const head = t.head.map((h) => `<th scope="col">${esc(h)}</th>`).join("");
+      const rows = t.rows.map((r) => `<tr>${r.map((c) => `<td>${prose(path, c)}</td>`).join("")}</tr>`).join("\n");
+      return `<div class="table-wrap"><table class="nutri">\n<caption>${prose(path, t.caption)}</caption>\n<thead><tr>${head}</tr></thead>\n<tbody>\n${rows}\n</tbody></table></div>`;
+    }
+    throw new Error(`${path}: unknown content block ${JSON.stringify(b).slice(0, 80)}`);
+  }).join("\n      ");
+}
+
+function faqParts(path, faq) {
+  if (!faq?.length) return { html: "", ld: null };
+  const html = `
+    <section aria-labelledby="faq-title">
+      <h2 id="faq-title">Questions people ask</h2>
+      <div class="faq">
+${faq.map((f) => `      <details><summary>${prose(path, f.q)}</summary><p class="answer">${prose(path, f.a)}</p></details>`).join("\n")}
+      </div>
+    </section>`;
+  const ld = { "@type": "FAQPage", "@id": `${SITE}${path}#faq`,
+    mainEntity: faq.map((f) => ({ "@type": "Question", name: plainText(path, f.q), acceptedAnswer: { "@type": "Answer", text: plainText(path, f.a) } })) };
+  return { html, ld };
+}
+
+function contentPage(section, page) {
+  const path = `${section.path}${page.slug}/`;
+  const trail = [{ name: "Home", path: "/" }, { name: section.crumb, path: section.path }, { name: page.crumb || page.h1, path }];
+  const isBlog = section.id === "blog";
+  const faq = faqParts(path, page.faq);
+  const webpage = { "@type": "WebPage", "@id": `${SITE}${path}#webpage`, url: SITE + path, name: page.title,
+    description: page.description, isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` },
+    inLanguage: "en-IN", dateModified: page.updated };
+  const graph = [webpage, breadcrumbLd(trail)];
+  if (isBlog) {
+    graph.push({ "@type": "BlogPosting", "@id": `${SITE}${path}#article`, headline: page.h1, description: page.description,
+      mainEntityOfPage: { "@id": `${SITE}${path}#webpage` }, image: `${SITE}/assets/og.png`, inLanguage: "en-IN",
+      datePublished: page.published, dateModified: page.updated,
+      author: { "@type": "Person", name: site.author.name, jobTitle: site.author.jobTitle, worksFor: { "@id": `${SITE}/#organization` } },
+      publisher: { "@id": `${SITE}/#organization` } });
+  }
+  if (faq.ld) graph.push(faq.ld);
+
+  const meta = isBlog
+    ? `<p class="meta-line mute">By ${esc(site.author.name)}, ${esc(site.author.org)}. Published ${longDate(page.published)}${page.updated !== page.published ? `, updated ${longDate(page.updated)}` : ""}.</p>`
+    : page.checkedOn ? `<p class="meta-line mute">Checked on ${longDate(page.checkedOn)}.</p>` : "";
+  const takeaways = page.takeaways?.length
+    ? `<div class="card note"><p><strong>Key takeaways</strong></p><ul>\n${page.takeaways.map((t) => `        <li>${prose(path, t)}</li>`).join("\n")}\n      </ul></div>` : "";
+  const sections = page.body.map((s, i) => {
+    const id = s.id || `s${i + 1}`;
+    return `
+    <section aria-labelledby="${id}">
+      <h2 id="${id}">${prose(path, s.h2)}</h2>
+      ${blocks(path, s.content)}
+    </section>`;
+  }).join("");
+
+  // Related links: the page's own, then its siblings, so every child links to the others.
+  const seen = new Set([path]);
+  const links = [...(page.related || []), ...section.pages.filter((p) => p.slug !== page.slug).map((p) => ({ href: `${section.path}${p.slug}/`, label: p.linkLabel || p.h1 }))]
+    .filter((l) => !seen.has(l.href) && pageExists(l.href) && seen.add(l.href));
+  const related = links.length ? `
+    <section aria-labelledby="related">
+      <h2 id="related">Related</h2>
+      <ul class="link-list">
+        ${links.map((l) => `<li><a href="${l.href}">${esc(l.label)}</a></li>`).join("\n        ")}
+      </ul>
+    </section>` : "";
+  const footnote = page.footnote ? `\n    <p class="note mute">${prose(path, page.footnote)}</p>` : "";
+
+  const body = `
+<main id="main" class="legal">
+  <div class="wrap-reading">
+    ${crumbs(trail)}
+    <h1>${esc(page.h1)}</h1>
+    ${meta}
+    <p class="answer-first">${prose(path, page.lede)}</p>
+    ${takeaways}
+${sections}
+${faq.html}
+${related}${footnote}
+${cta()}
+  </div>
+</main>
+`;
+  return head({ title: page.title, description: page.description, path, jsonld: { "@context": "https://schema.org", "@graph": graph } }) + body + footer();
+}
+
+function contentHub(section) {
+  const path = section.path;
+  const trail = [{ name: "Home", path: "/" }, { name: section.crumb, path }];
+  const h = section.hub;
+  const pages = section.id === "blog" ? [...section.pages].sort((a, b) => b.published.localeCompare(a.published)) : section.pages;
+  const items = pages.map((p) => `<li><a href="${path}${p.slug}/"><span class="hub-name">${esc(p.linkLabel || p.h1)}</span></a></li>`).join("\n");
+  const jsonld = { "@context": "https://schema.org", "@graph": [
+    { "@type": "CollectionPage", "@id": `${SITE}${path}#webpage`, url: SITE + path, name: h.title, description: h.description,
+      isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` }, inLanguage: "en-IN",
+      mainEntity: { "@type": "ItemList", itemListElement: pages.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}${path}${p.slug}/`, name: p.linkLabel || p.h1 })) } },
+    breadcrumbLd(trail),
+  ] };
+  const body = `
+<main id="main" class="legal">
+  <div class="wrap-reading">
+    ${crumbs(trail)}
+    <h1>${esc(h.h1)}</h1>
+    ${h.intro.map((p) => `<p class="lede legal-lede">${prose(path, p)}</p>`).join("\n    ")}
+    <section aria-labelledby="list-title">
+      <h2 id="list-title">${esc(h.listTitle)}</h2>
+      <ul class="hub-list">
+${items}
+      </ul>
+    </section>
+${h.footnote ? `    <p class="note mute">${prose(path, h.footnote)}</p>\n` : ""}${cta()}
+  </div>
+</main>
+`;
+  return head({ title: h.title, description: h.description, path, jsonld }) + body + footer();
+}
+
 // ---------- Research log ----------
 
 function researchLog(results) {
@@ -487,13 +630,31 @@ function researchLog(results) {
 
 function updateSitemap() {
   const xml = readFileSync(join(ROOT, "sitemap.xml"), "utf8");
+  const generatedRoots = ["/calories/", ...contentSections.map((s) => s.path)];
   const keep = [...xml.matchAll(/<url><loc>([^<]+)<\/loc><lastmod>([^<]+)<\/lastmod><\/url>/g)]
-    .filter((m) => !m[1].includes("/calories/"))
+    .filter((m) => !generatedRoots.some((r) => m[1].startsWith(SITE + r)))
     .map((m) => ({ loc: m[1], lastmod: m[2] }));
   const hubDate = foods.map((f) => f.updated).sort().at(-1);
   const generated = [{ loc: `${SITE}/calories/`, lastmod: hubDate }, ...foods.map((f) => ({ loc: `${SITE}/calories/${f.slug}/`, lastmod: f.updated }))];
+  for (const s of contentSections) {
+    generated.push({ loc: SITE + s.path, lastmod: s.pages.map((p) => p.updated).sort().at(-1) });
+    for (const p of s.pages) generated.push({ loc: `${SITE}${s.path}${p.slug}/`, lastmod: p.updated });
+  }
   const urls = [...keep, ...generated].map((u) => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod></url>`).join("\n");
   write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
+}
+
+// ---------- Footer links on hand-written pages ----------
+// Keeps the footer list of the home, legal, support and 404 pages the same as the generated pages'.
+function syncFooters() {
+  const links = site.footerLinks.filter((l) => l.href.startsWith("mailto:") || pageExists(l.href));
+  const list = links.map((l) => `          <li><a href="${l.href}">${esc(l.label)}</a></li>`).join("\n");
+  for (const file of ["index.html", "privacy/index.html", "terms/index.html", "support/index.html", "404.html"]) {
+    const html = readFileSync(join(ROOT, file), "utf8");
+    const next = html.replace(/(<nav class="footer-links" aria-label="Footer">\s*<ul>\n)[\s\S]*?(\n\s*<\/ul>)/, `$1${list}$2`);
+    if (next === html && !html.includes(list)) throw new Error(`${file}: footer link list not found`);
+    if (next !== html) write(file, next);
+  }
 }
 
 // ---------- Run ----------
@@ -502,7 +663,13 @@ const results = {};
 for (const food of foods) results[food.slug] = computeFood(food);
 for (const food of foods) write(`calories/${food.slug}/index.html`, foodPage(food, results[food.slug]));
 write("calories/index.html", hubPage());
+let contentCount = 0;
+for (const s of contentSections) {
+  write(`${s.path.slice(1)}index.html`, contentHub(s));
+  for (const p of s.pages) { write(`${s.path.slice(1)}${p.slug}/index.html`, contentPage(s, p)); contentCount++; }
+}
 write("data/foods.json", JSON.stringify(foodsFile, null, 2) + "\n");
 write("research/food-sources.md", researchLog(results));
 updateSitemap();
-console.log(`Built ${foods.length} food pages and the hub.`);
+syncFooters();
+console.log(`Built ${foods.length} food pages and the hub, and ${contentCount} content pages in ${contentSections.length} sections.`);
