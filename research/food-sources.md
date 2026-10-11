@@ -2294,3 +2294,457 @@ Sources:
 - USDA FoodData Central, FNDDS Vada (2709130). https://fdc.nal.usda.gov/food-details/2709130/nutrients (accessed 2026-10-10)
 - Jain, Passi and Selvamurthy, Total fat and fatty acid profile of Indian fried foods, Journal of Food Science and Technology, 2024. https://europepmc.org/articles/PMC11465016 (accessed 2026-10-10)
 
+## Vada pav (/calories/vada-pav/)
+
+Recipe: potato filling coated in besan batter, deep-fried into 2 vadas.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Potato, brown skin, big | 100 | 69.8 | 1.5 | 14.9 | 0.2 | IFCT 2017 F006 |
+| Peas, fresh | 20 | 16.3 | 1.5 | 2.4 | 0.0 | IFCT 2017 D061 |
+| Onion, big | 15 | 7.2 | 0.2 | 1.4 | 0.0 | IFCT 2017 G017 |
+| Chillies, green | 3.3 | 1.4 | 0.1 | 0.2 | 0.0 | IFCT 2017 G008 |
+| Ginger, fresh | 5 | 2.8 | 0.1 | 0.4 | 0.0 | IFCT 2017 G014 |
+| Cashew nut | 2.5 | 14.6 | 0.5 | 0.6 | 1.1 | IFCT 2017 H005 |
+| Besan (ground Bengal gram dal) | 15 | 49.4 | 3.2 | 7.0 | 0.8 | IFCT 2017 B001 |
+| Rice flour | 5 | 18.3 | 0.3 | 3.9 | 0.1 | USDA FDC 169714 |
+| Turmeric powder | 0.4 | 1.1 | 0.0 | 0.2 | 0.0 | IFCT 2017 G033 |
+| Groundnut oil | 4.5 | 39.8 | 0.0 | 0.0 | 4.5 | IFCT 2017 T005 |
+| Groundnut oil | 20.2 | 178.6 | 0.0 | 0.0 | 20.2 | IFCT 2017 T005 |
+| **Total** | | **399.2** | **7.4** | **31.1** | **27.1** | |
+
+No cooked weight used (no cooked weight used; each vada is half the recipe). Portions are shares of the recipe.
+
+Portions:
+
+- 1 batata vada, without pav: 0.5 of the recipe = 200 kcal, P 4 g, C 16 g, F 14 g
+- 1 vada pav (43 g pav): 0.5 of the recipe + 43 g Pav (soft bread roll) = 335 kcal, P 8 g, C 37 g, F 16 g
+- 1 vada pav with 1 tsp butter: 0.5 of the recipe + 43 g Pav (soft bread roll) + 5 g Butter = 370 kcal, P 8 g, C 37 g, F 20 g
+- 2 vada pav: 1 of the recipe + 86 g Pav (soft bread roll) = 665 kcal, P 17 g, C 74 g, F 33 g
+
+Outside (Street stall): fat sources x 1 to 1.22, portion x 1 to 1.3 = 335 to 465 kcal. Basis: Fat up to 1.22 times: Jain et al. 2024 found total fat in Indian fried foods rose from a mean of 22.5% to 27.4% of dry weight between the 1st and 32nd frying in the same oil. A vada pav up to 1.3 times as big is a stated assumption.
+
+Judgement calls:
+
+- Oil taken up: set so the textbook's 4 bondas are 100 kcal each, ICMR-NIN's potato bonda (2 for 200 kcal). Before frying the recipe is 221.5 kcal, so (400 - 221.5) / 8.843 = 20.2 g of oil. Because NIN is used to set the oil, it isn't listed as a separate check.
+- Besan 2 tbsp = 15 g; rice flour 2 tsp = 5 g (USDA). Cashew 2 nuts = 2.5 g (INDB).
+- Pav 43 g: INDB's OSR112 pav bhaji lists 12 pav at 516 g. Valued as USDA FDC 172793, dinner rolls.
+- Chana and urad dal (0.125 tsp each), mustard seeds, curry leaves, coriander and soda left out.
+- Cheese slice in the changes list: 20 g at about 300 to 340 kcal per 100 g.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+- USDA FoodData Central, Rolls, dinner, plain, commercially prepared (172793). https://fdc.nal.usda.gov/food-details/172793/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Rice flour, white (169714). https://fdc.nal.usda.gov/food-details/169714/nutrients (accessed 2026-10-10)
+- Jain, Passi and Selvamurthy, Total fat and fatty acid profile of Indian fried foods, Journal of Food Science and Technology, 2024. https://europepmc.org/articles/PMC11465016 (accessed 2026-10-10)
+
+## Pav bhaji (/calories/pav-bhaji/)
+
+Recipe: about 1.1 kg of vegetables cooked with 4¾ tablespoons of butter, for 5 plates of bhaji.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Tomato, ripe, hybrid | 360 | 68.0 | 2.7 | 11.5 | 0.9 | IFCT 2017 D075 |
+| Potato, brown skin, big | 210 | 146.6 | 3.2 | 31.3 | 0.5 | IFCT 2017 F006 |
+| Peas, fresh | 145 | 117.9 | 10.5 | 17.2 | 0.2 | IFCT 2017 D061 |
+| Carrot, orange | 128 | 42.5 | 1.2 | 7.1 | 0.6 | IFCT 2017 F002 |
+| Cauliflower | 125 | 28.6 | 2.7 | 2.5 | 0.6 | IFCT 2017 D036 |
+| Onion, big | 120 | 57.6 | 1.8 | 11.5 | 0.3 | IFCT 2017 G017 |
+| Capsicum, green | 74.5 | 12.1 | 0.8 | 1.4 | 0.3 | IFCT 2017 D033 |
+| French beans | 30 | 7.3 | 0.7 | 0.8 | 0.1 | IFCT 2017 D049 |
+| Lemon juice | 48 | 17.6 | 0.2 | 0.0 | 0.4 | IFCT 2017 E033 |
+| Garlic | 5 | 6.2 | 0.3 | 1.1 | 0.0 | IFCT 2017 G011 |
+| Ginger, fresh | 5 | 2.8 | 0.1 | 0.4 | 0.0 | IFCT 2017 G014 |
+| Chillies, green | 3 | 1.3 | 0.1 | 0.2 | 0.0 | IFCT 2017 G008 |
+| Coriander leaves | 3.5 | 1.1 | 0.1 | 0.1 | 0.0 | IFCT 2017 G009 |
+| Cumin seeds | 7.9 | 24.1 | 1.1 | 1.8 | 1.3 | IFCT 2017 G025 |
+| Red chillies, dry, whole | 4.7 | 11.1 | 0.6 | 1.4 | 0.3 | IFCT 2017 G022 |
+| Turmeric powder | 3.75 | 10.5 | 0.3 | 1.8 | 0.2 | IFCT 2017 G033 |
+| Coriander seeds (dhania) | 3.6 | 9.7 | 0.4 | 0.5 | 0.6 | IFCT 2017 G024 |
+| Fennel seeds (saunf) | 2.9 | 10.0 | 0.5 | 0.4 | 0.4 | USDA FDC 171323 |
+| Red chilli powder | 2.7 | 7.6 | 0.4 | 0.4 | 0.4 | USDA FDC 171319 |
+| Black pepper | 1.7 | 3.7 | 0.2 | 0.6 | 0.0 | IFCT 2017 G031 |
+| Butter | 42.6 | 305.4 | 0.4 | 0.0 | 34.6 | USDA FDC 173430 |
+| Butter | 25 | 179.3 | 0.2 | 0.0 | 20.3 | USDA FDC 173430 |
+| Water | 980 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **1070.9** | **28.5** | **92.0** | **61.9** | |
+
+No cooked weight used (no cooked weight used; a plate of bhaji is a fifth of the recipe). Portions are shares of the recipe.
+
+Portions:
+
+- 1 plate of bhaji, no pav: 0.2 of the recipe = 215 kcal, P 6 g, C 18 g, F 12 g
+- Bhaji with 1 butter pav: 0.2 of the recipe + 43 g Pav (soft bread roll) + 5 g Butter = 385 kcal, P 10 g, C 40 g, F 19 g
+- Bhaji with 2 butter pav: 0.2 of the recipe + 86 g Pav (soft bread roll) + 10 g Butter = 550 kcal, P 15 g, C 61 g, F 26 g
+- Bhaji with 4 butter pav: 0.2 of the recipe + 172 g Pav (soft bread roll) + 20 g Butter = 890 kcal, P 25 g, C 104 g, F 40 g
+- 1 extra butter pav: 0 of the recipe + 43 g Pav (soft bread roll) + 5 g Butter = 170 kcal, P 5 g, C 22 g, F 7 g
+
+Outside (Street or restaurant): fat sources x 1 to 1, portion x 1 to 1, plus 10 to 25 g Butter = 625 to 730 kcal. Basis: No analysed value for street pav bhaji was found. Street stalls are known for adding a block of butter to the bhaji and pav; 10 to 25 g more per plate is a stated assumption.
+
+Judgement calls:
+
+- Open-source recipe OSR112 (INDB), 5 servings. Butter: 3 tbsp in the bhaji plus 6 tbsp (85.2 g) of the 5 to 7 tbsp for topping and toasting, split as 5 g per pav (12 pav, 60 g) and 25 g on top of the bhaji.
+- Lemon '1 no' taken as 48 g juice (USDA FDC 167747). Ginger-garlic paste 1 tsp each = 5 g. Coriander 3.5 tbsp = 3.5 g (INDB's 0.25 cup = 4 g).
+- Left out: black cardamom, cloves, mace, nutmeg, cinnamon, star anise, amchur and dried ginger powder (under 15 kcal together for 5 plates).
+- No independent analysed value for pav bhaji was found (IFCT, NIN Annexure 8, USDA FNDDS). INDB's per-serving value (561 kcal) is from this recipe with hamburger buns as the pav.
+- Without butter: bhaji butter (67.6 g, 485 kcal) / 5 = 97 kcal per plate; pav butter 5 g = 36 kcal. Plate with 2 plain pav: bhaji 213 - 97 + 2 x 133 = 382, about 385.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, Butter, without salt (173430). https://fdc.nal.usda.gov/food-details/173430/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Rolls, dinner, plain, commercially prepared (172793). https://fdc.nal.usda.gov/food-details/172793/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Lemon juice, raw (167747). https://fdc.nal.usda.gov/food-details/167747/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Spices, fennel seed (171323). https://fdc.nal.usda.gov/food-details/171323/nutrients (accessed 2026-10-10)
+
+## Pani puri (/calories/pani-puri/)
+
+One plate: 6 puris with potato, chana, a tablespoon of sweet chutney and 150 ml pani.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Pani puri shells with boondi (packaged) | 46.8 | 150.0 | 2.4 | 20.4 | 6.0 | Maker's label via USDA FDC 1913634 |
+| Potato, brown skin, big | 30 | 20.9 | 0.5 | 4.5 | 0.1 | IFCT 2017 F006 |
+| Bengal gram, whole (kala chana) | 4 | 11.5 | 0.8 | 1.6 | 0.2 | IFCT 2017 B002 |
+| Onion, big | 10 | 4.8 | 0.2 | 1.0 | 0.0 | IFCT 2017 G017 |
+| Tamarind pulp | 2.1 | 6.1 | 0.1 | 1.4 | 0.0 | IFCT 2017 E064 |
+| Jaggery, cane | 4.3 | 15.2 | 0.1 | 3.6 | 0.0 | IFCT 2017 I001 |
+| Tamarind pulp | 3 | 8.7 | 0.1 | 2.0 | 0.0 | IFCT 2017 E064 |
+| Mint leaves | 5 | 1.9 | 0.2 | 0.1 | 0.0 | IFCT 2017 G016 |
+| Coriander leaves | 5 | 1.6 | 0.2 | 0.1 | 0.0 | IFCT 2017 G009 |
+| Water | 150 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **220.5** | **4.4** | **34.7** | **6.4** | |
+
+No cooked weight used (no cooked weight used; the recipe is one plate of 6). Portions are shares of the recipe.
+
+Portions:
+
+- 1 pani puri: 0.1667 of the recipe = 35 kcal, P 1 g, C 6 g, F 1 g
+- 4 pani puri: 0.6667 of the recipe = 145 kcal, P 3 g, C 23 g, F 4 g
+- 1 plate (6 puris): 1 of the recipe = 220 kcal, P 4 g, C 35 g, F 6 g
+- 10 pani puri: 1.6667 of the recipe = 370 kcal, P 7 g, C 58 g, F 11 g
+
+Outside (Street stall): fat sources x 1 to 1, portion x 0.9 to 1.3 = 200 to 285 kcal. Basis: No analysed value for street pani puri was found. Shell size and filling vary by stall; 0.9 to 1.3 times this plate is a stated assumption. Ragda (white peas) in place of potato and more sweet chutney are common.
+
+Judgement calls:
+
+- Assembled plate; all amounts other than the shells and chutney are typical amounts, stated as assumptions: potato 30 g, kala chana 4 g dry, onion 10 g, pani 150 ml with 3 g tamarind and 5 g each of mint and coriander.
+- Shells: USDA FDC 1913634 (branded label, packaged pani puri kit): 39 g = 5 puris with boondi, 125 kcal, 2 g protein, 18 g carbohydrate (1.01 g fibre), 5 g fat. Carbohydrate taken as 18 - 1.01 g. 6 puris = 46.8 g.
+- Sweet chutney as The Art & Science of Cooking's saunth chutney (ASC281: 25 g tamarind and 50 g jaggery in 100 ml water), so 1 tablespoon (15 g) holds 2.1 g tamarind and 4.3 g jaggery, about 21 kcal.
+- No independent analysed value for pani puri was found (IFCT, NIN Annexure 8, USDA FNDDS, Europe PMC).
+- Pani alone: tamarind 3 g (8.7 kcal) + mint 5 g (1.9) + coriander 5 g (1.6) = about 12 kcal, about 15 with spices.
+
+Sources:
+
+- USDA FoodData Central, Branded food label, packaged pani puri (1913634). https://fdc.nal.usda.gov/food-details/1913634/nutrients (accessed 2026-10-10)
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+
+## Bhel puri (/calories/bhel-puri/)
+
+One plate: 25 g puffed rice with 10 g sev, 2 papdis, potato, onion, tomato, peanuts and chutneys.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Puffed rice (murmura) | 25 | 90.5 | 1.9 | 19.4 | 0.4 | IFCT 2017 A012 |
+| Besan (ground Bengal gram dal) | 6 | 19.7 | 1.3 | 2.8 | 0.3 | IFCT 2017 B001 |
+| Groundnut oil | 4 | 35.4 | 0.0 | 0.0 | 4.0 | IFCT 2017 T005 |
+| Wheat flour, refined (maida) | 4.9 | 17.2 | 0.5 | 3.6 | 0.0 | IFCT 2017 A018 |
+| Groundnut oil | 3.1 | 27.4 | 0.0 | 0.0 | 3.1 | IFCT 2017 T005 |
+| Potato, brown skin, big | 20 | 14.0 | 0.3 | 3.0 | 0.0 | IFCT 2017 F006 |
+| Onion, big | 15 | 7.2 | 0.2 | 1.4 | 0.0 | IFCT 2017 G017 |
+| Tomato, ripe, hybrid | 15 | 2.8 | 0.1 | 0.5 | 0.0 | IFCT 2017 D075 |
+| Groundnut (peanut) | 5 | 26.0 | 1.2 | 0.9 | 2.0 | IFCT 2017 H012 |
+| Tamarind pulp | 2.1 | 6.1 | 0.1 | 1.4 | 0.0 | IFCT 2017 E064 |
+| Jaggery, cane | 4.3 | 15.2 | 0.1 | 3.6 | 0.0 | IFCT 2017 I001 |
+| Coriander leaves | 5 | 1.6 | 0.2 | 0.1 | 0.0 | IFCT 2017 G009 |
+| Lemon juice | 3 | 1.1 | 0.0 | 0.0 | 0.0 | IFCT 2017 E033 |
+| **Total** | | **264.2** | **5.8** | **36.8** | **10.0** | |
+
+Cooked yield 112 g (the ingredients added together, with sev and papdi at their fried weight). Per 100 g cooked: 235.9 kcal.
+
+Portions:
+
+- 1 plate: 112 g cooked = 265 kcal, P 6 g, C 37 g, F 10 g
+- Half a plate: 56 g cooked = 130 kcal, P 3 g, C 18 g, F 5 g
+- 100 g: 100 g cooked = 235 kcal, P 5 g, C 33 g, F 9 g
+
+Outside (Beach or street stall): fat sources x 1 to 1, portion x 0.9 to 1.4 = 240 to 370 kcal. Basis: No analysed value for street bhel puri was found. Stall plates vary, often with more sev; 0.9 to 1.4 times this plate is a stated assumption.
+
+Judgement calls:
+
+- Assembled plate. OSR114 (INDB open-source bhel puri) makes its own sev and papdi in bulk and counts all frying oil, so its totals (3,574 kcal per plate) aren't used; its puffed rice (60 g for 2 to 3 plates) and peanuts (2 tbsp) guide the amounts.
+- Sev 10 g = besan 6.0 g + oil 4.0 g; papdi 2 x 4 g = maida 4.9 g + oil 3.1 g. Moisture lost in frying isn't counted.
+- Amounts of potato (20 g), onion (15 g), tomato (15 g), coriander (5 g) and lemon (3 g) are typical amounts, stated as assumptions.
+- No independent analysed value for bhel puri was found (IFCT, NIN Annexure 8, USDA FNDDS).
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- Gupta et al., Unhealthy fat in street and snack foods, Journal of Nutrition Education and Behavior, 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4826272 (accessed 2026-10-10)
+
+## Sev puri (/calories/sev-puri/)
+
+One plate: 6 papdis with potato, onion, tomato, chutneys and 15 g sev.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, refined (maida) | 14.8 | 52.1 | 1.5 | 11.0 | 0.1 | IFCT 2017 A018 |
+| Groundnut oil | 9.2 | 81.4 | 0.0 | 0.0 | 9.2 | IFCT 2017 T005 |
+| Potato, brown skin, big | 40 | 27.9 | 0.6 | 6.0 | 0.1 | IFCT 2017 F006 |
+| Onion, big | 15 | 7.2 | 0.2 | 1.4 | 0.0 | IFCT 2017 G017 |
+| Tomato, ripe, hybrid | 10 | 1.9 | 0.1 | 0.3 | 0.0 | IFCT 2017 D075 |
+| Tamarind pulp | 4.3 | 12.4 | 0.1 | 2.9 | 0.0 | IFCT 2017 E064 |
+| Jaggery, cane | 8.6 | 30.4 | 0.2 | 7.3 | 0.0 | IFCT 2017 I001 |
+| Coriander leaves | 5 | 1.6 | 0.2 | 0.1 | 0.0 | IFCT 2017 G009 |
+| Besan (ground Bengal gram dal) | 9.1 | 29.9 | 2.0 | 4.3 | 0.5 | IFCT 2017 B001 |
+| Groundnut oil | 5.9 | 52.2 | 0.0 | 0.0 | 5.9 | IFCT 2017 T005 |
+| **Total** | | **296.9** | **4.9** | **33.2** | **15.9** | |
+
+No cooked weight used (no cooked weight used; the recipe is one plate of 6). Portions are shares of the recipe.
+
+Portions:
+
+- 1 sev puri: 0.1667 of the recipe = 50 kcal, P 1 g, C 6 g, F 3 g
+- 1 plate (6 pieces): 1 of the recipe = 295 kcal, P 5 g, C 33 g, F 16 g
+- 1 plate of dahi sev puri (with 60 g curd): 1 of the recipe + 60 g Curd (dahi), whole milk = 335 kcal, P 7 g, C 36 g, F 18 g
+
+Outside (Street stall): fat sources x 1 to 1, portion x 0.9 to 1.3 = 265 to 385 kcal. Basis: No analysed value for street sev puri was found. Papdi size and the amount of sev vary by stall; 0.9 to 1.3 times this plate is a stated assumption.
+
+Judgement calls:
+
+- Assembled plate. Papdi 6 x 4 g = maida 14.8 g + oil 9.2 g; sev 15 g = besan 9.1 g + oil 5.9 g. Moisture lost in frying isn't counted.
+- Potato 40 g, onion 15 g, tomato 10 g, coriander 5 g and 2 tablespoons of sweet chutney are typical amounts, stated as assumptions.
+- No independent analysed value for sev puri was found (IFCT, NIN Annexure 8, USDA FNDDS).
+- Changes list: sev 15 g = 82 kcal; papdi 4 g = 22 kcal; curd 60 g = 37 kcal.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Gupta et al., Unhealthy fat in street and snack foods, Journal of Nutrition Education and Behavior, 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4826272 (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+
+## Kachori (/calories/kachori/)
+
+Recipe: 100 g maida with 30 g urad dal filling, deep-fried into 7 kachoris.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, refined (maida) | 100 | 351.8 | 10.4 | 74.3 | 0.8 | IFCT 2017 A018 |
+| Groundnut oil | 20.4 | 180.4 | 0.0 | 0.0 | 20.4 | IFCT 2017 T005 |
+| Black gram dal (urad) | 30 | 97.2 | 6.9 | 15.3 | 0.5 | IFCT 2017 B003 |
+| Groundnut oil | 9 | 79.6 | 0.0 | 0.0 | 9.0 | IFCT 2017 T005 |
+| Lemon juice | 24 | 8.8 | 0.1 | 0.0 | 0.2 | IFCT 2017 E033 |
+| Red chilli powder | 1.35 | 3.8 | 0.2 | 0.2 | 0.2 | USDA FDC 171319 |
+| Fennel seeds (saunf) | 0.5 | 1.7 | 0.1 | 0.1 | 0.1 | USDA FDC 171323 |
+| Cumin seeds | 0.5 | 1.5 | 0.1 | 0.1 | 0.1 | IFCT 2017 G025 |
+| Water | 45 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Groundnut oil | 13.9 | 122.9 | 0.0 | 0.0 | 13.9 | IFCT 2017 T005 |
+| **Total** | | **847.8** | **17.7** | **89.9** | **45.1** | |
+
+No cooked weight used (no measured cooked weight; the raw dough, filling and oil come to about 35 g a kachori). Portions are shares of the recipe.
+
+Portions:
+
+- 1 khasta kachori (small): 0.1429 of the recipe = 120 kcal, P 3 g, C 13 g, F 6 g
+- 2 kachoris: 0.2857 of the recipe = 240 kcal, P 5 g, C 26 g, F 13 g
+- 2 kachoris with a 200 ml katori of aloo sabzi: 0.2857 of the recipe + 100 g Potato, brown skin, big + 50 g Tomato, ripe, hybrid + 30 g Onion, big + 9 g Groundnut oil = 415 kcal, P 7 g, C 45 g, F 22 g
+
+Outside (Street or sweet shop (measured)): fat sources x 1.77 to 2.6, portion x 1.59 to 1.54 = 260 to 320 kcal. Basis: Calibrated to Gupta et al. 2016, which bought and analysed kachoris from vendors: a village kachori of 55.70 g with 17.82 g fat, and a Delhi urban slum kachori of 53.83 g with 25.09 g fat. Size factor = vendor weight against about 35 g here; fat factor chosen so total fat matches the measured fat.
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: pea kachori, 2: 380 kcal per 2 kachoris, ours 242 (+57%).  https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+
+Range shown on page: NIN's pea kachori (190 kcal each) is 57% above this page's small home kachori; Gupta et al.'s street kachoris are higher again. Size and fat differ. Shown as a range.
+
+Judgement calls:
+
+- Home oil uptake: fat set to 18.3% of raw dough, filling and oil (Sakhale et al. 2011, lab-fried samosa pastry). Own fat = 30.9 g; (30.9 + x) / (230.8 + x) = 0.183 gives x = 13.9 g for 7 kachoris. Moisture lost in frying isn't counted.
+- Street kachoris (Gupta et al. 2016, Tables 1 and 2): village 55.70 g, 17.82 g fat; urban 53.83 g, 25.09 g fat. Size 55.70 / 34.96 = 1.59 and 53.83 / 34.96 = 1.54; fat factors 1.77 and 2.60 solve for the measured fat.
+- Lemon '0.5 lemon' = 24 g juice (USDA). Asafoetida left out. INDB counts 480 ml frying oil (713 kcal per 100 g), so its values aren't used.
+- Aloo sabzi row: a 200 ml katori from the aloo sabzi page's recipe, 100 g potato, 50 g tomato, 30 g onion and 9 g oil (spices left out).
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- Gupta et al., Unhealthy fat in street and snack foods, Journal of Nutrition Education and Behavior, 2016. https://pmc.ncbi.nlm.nih.gov/articles/PMC4826272 (accessed 2026-10-10)
+- Sakhale et al., oil uptake in samosa, Journal of Food Science and Technology, 2011. https://pmc.ncbi.nlm.nih.gov/articles/PMC3551041 (accessed 2026-10-11)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+- USDA FoodData Central, Spices, chili powder (171319). https://fdc.nal.usda.gov/food-details/171319/nutrients (accessed 2026-10-10)
+
+## Momos (/calories/momos/)
+
+Recipe: 200 g maida dough with 225 g vegetable filling and 3 teaspoons of oil.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, refined (maida) | 200 | 703.6 | 20.7 | 148.5 | 1.5 | IFCT 2017 A018 |
+| Water | 100 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Cabbage, green | 100 | 21.5 | 1.4 | 3.3 | 0.1 | IFCT 2017 C015 |
+| Carrot, orange | 100 | 33.2 | 0.9 | 5.5 | 0.5 | IFCT 2017 F002 |
+| Onion, big | 25 | 12.0 | 0.4 | 2.4 | 0.1 | IFCT 2017 G017 |
+| Ginger, fresh | 10 | 5.5 | 0.2 | 0.9 | 0.1 | IFCT 2017 G014 |
+| Garlic | 1.25 | 1.5 | 0.1 | 0.3 | 0.0 | IFCT 2017 G011 |
+| Chillies, green | 3.3 | 1.4 | 0.1 | 0.2 | 0.0 | IFCT 2017 G008 |
+| Black pepper | 1.2 | 2.6 | 0.1 | 0.4 | 0.0 | IFCT 2017 G031 |
+| Groundnut oil | 13.5 | 119.4 | 0.0 | 0.0 | 13.5 | IFCT 2017 T005 |
+| **Total** | | **900.7** | **23.9** | **161.5** | **15.8** | |
+
+Cooked yield 554 g (the ingredients added together; at 25 g a momo, the size USDA lists for a dumpling, that's about 22 momos). Per 100 g cooked: 162.6 kcal.
+
+Portions:
+
+- 1 momo (25 g): 25 g cooked = 40 kcal, P 1 g, C 7 g, F 1 g
+- 1 plate (6 momos): 150 g cooked = 245 kcal, P 6 g, C 44 g, F 4 g
+- 1 plate (8 momos): 200 g cooked = 325 kcal, P 9 g, C 58 g, F 6 g
+- 10 momos: 250 g cooked = 405 kcal, P 11 g, C 73 g, F 7 g
+- 100 g: 100 g cooked = 165 kcal, P 4 g, C 29 g, F 3 g
+
+Outside (Street cart, steamed or fried): fat sources x 1 to 1, portion x 1 to 1, plus 0 to 11.6 g Groundnut oil = 245 to 345 kcal. Basis: USDA FNDDS lists a fried dumpling at 11.1 g fat per 100 g against 3.4 g for a steamed one with no meat, so frying adds about 7.7 g of fat per 100 g, or 11.6 g for 150 g of momos.
+
+Cross-checks:
+
+- USDA FNDDS 2021-2023, Dumpling, no meat (55610300): 125 kcal per 100 g, ours 163 (-23%).  https://fdc.nal.usda.gov/food-details/2708344/nutrients
+
+Range shown on page: USDA FNDDS dumpling, no meat (125 kcal per 100 g) is 23% below this page's momos, which have a thicker maida wrapper. Shown as a range.
+
+Judgement calls:
+
+- Recipe: NephroPlus vegetable steamed momos (maida 1 cup = 200 g as stated, carrot 100 g, cabbage 100 g, spring onion 25 g, garlic 2 cloves, ginger 1 inch, green chilli 1, pepper 0.5 tsp, oil 3 tsp). Spring onion valued as onion. Ginger 1 inch = 10 g, as on the thepla page.
+- Water 100 ml (half the flour) is an assumption; with it the recipe weighs 554 g, about 22 momos at USDA's 25 g per dumpling.
+- Fried range: FNDDS 58111120 fried dumpling, no meat, 11.1 g fat per 100 g; FNDDS 55610300 steamed, 3.37 g. (11.1 - 3.37) x 1.5 = 11.6 g oil for 150 g.
+- Range low end: 125 kcal per 100 g x 150 g = 188 kcal.
+- Mayonnaise in the changes list: USDA 1 tbsp = 13.8 g (INDB unit table) at about 680 kcal per 100 g, about 94 kcal.
+
+Sources:
+
+- NephroPlus, Vegetable steamed momos (dietitian recipe). https://nephroplus.com/recipes/vegetable-steamed-momos (accessed 2026-10-11)
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Dumpling, no meat (2708344). https://fdc.nal.usda.gov/food-details/2708344/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Wonton, dumpling or pot sticker, fried, no meat (2708706). https://fdc.nal.usda.gov/food-details/2708706/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Wonton, dumpling or pot sticker, steamed (2708708). https://fdc.nal.usda.gov/food-details/2708708/nutrients (accessed 2026-10-10)
+
+## Sabudana khichdi (/calories/sabudana-khichdi/)
+
+Recipe: 150 g sabudana with potato, peanuts, coconut and 3 tablespoons of ghee, for 3 plates.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Sabudana (tapioca pearls) | 152 | 544.2 | 0.3 | 133.5 | 0.0 | USDA FDC 169717 |
+| Potato, brown skin, big | 140 | 97.7 | 2.2 | 20.8 | 0.3 | IFCT 2017 F006 |
+| Groundnut (peanut) | 73 | 379.7 | 17.3 | 12.6 | 28.9 | IFCT 2017 H012 |
+| Coconut, dry (copra) | 20 | 124.8 | 1.5 | 1.6 | 12.7 | IFCT 2017 H006 |
+| Ghee | 38.4 | 339.6 | 0.0 | 0.0 | 38.4 | IFCT 2017 T013 |
+| Chillies, green | 3.3 | 1.4 | 0.1 | 0.2 | 0.0 | IFCT 2017 G008 |
+| Cumin seeds | 2.1 | 6.4 | 0.3 | 0.5 | 0.3 | IFCT 2017 G025 |
+| Ginger, fresh | 5 | 2.8 | 0.1 | 0.4 | 0.0 | IFCT 2017 G014 |
+| Coriander leaves | 2 | 0.6 | 0.1 | 0.0 | 0.0 | IFCT 2017 G009 |
+| Sugar, white | 3.2 | 12.4 | 0.0 | 3.2 | 0.0 | USDA FDC 169655 |
+| Lemon juice | 3.75 | 1.4 | 0.0 | 0.0 | 0.0 | IFCT 2017 E033 |
+| **Total** | | **1510.8** | **21.7** | **172.9** | **80.8** | |
+
+No cooked weight used (no cooked weight used; each plate is a third of the recipe). Portions are shares of the recipe.
+
+Portions:
+
+- 1 small bowl (25 g dry sabudana): 0.1667 of the recipe = 250 kcal, P 4 g, C 29 g, F 13 g
+- 1 plate (50 g dry sabudana): 0.3333 of the recipe = 505 kcal, P 7 g, C 58 g, F 27 g
+- 1 plate with 100 g curd: 0.3333 of the recipe + 100 g Curd (dahi), whole milk = 565 kcal, P 11 g, C 62 g, F 30 g
+
+Outside (Fasting thali or stall): fat sources x 1 to 1.5, portion x 1 to 1.3 = 505 to 730 kcal. Basis: No analysed value for stall or restaurant sabudana khichdi was found. A plate up to 1.3 times as big with up to 1.5 times the ghee is a stated assumption.
+
+Judgement calls:
+
+- Open-source recipe OSR099 (INDB). INDB's serving count of 3 is marked as guessed; kept.
+- Sabudana valued as USDA tapioca pearl, dry (FDC 169717). INDB maps it to its own sago entry.
+- Ghee 3 tbsp = 38.4 g (USDA tbsp of ghee, 12.8 g). Sugar 0.75 tsp = 3.2 g. Coconut grated 0.25 cup = 20 g dry (INDB).
+- No independent analysed value for sabudana khichdi was found (IFCT, NIN Annexure 8, USDA FNDDS). NIN's sago vada is a different dish.
+- Changes list: peanuts 73 / 3 = 24.3 g per plate = 126 kcal; coconut 20 / 3 = 6.7 g = 42 kcal; ghee per tbsp 12.8 x 8.84 = 113 kcal.
+
+Sources:
+
+- USDA FoodData Central, Tapioca, pearl, dry (169717). https://fdc.nal.usda.gov/food-details/169717/nutrients (accessed 2026-10-10)
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+
+## Kuttu puri (/calories/kuttu-puri/)
+
+Recipe: 80 g kuttu atta and 40 g boiled potato, deep-fried into 6 puris.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Kuttu (buckwheat) flour | 80 | 268.0 | 10.1 | 48.5 | 2.5 | USDA FDC 170687 |
+| Potato, brown skin, big | 40 | 27.9 | 0.6 | 6.0 | 0.1 | IFCT 2017 F006 |
+| Water | 20 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Groundnut oil | 38 | 336.0 | 0.0 | 0.0 | 38.0 | IFCT 2017 T005 |
+| **Total** | | **632.0** | **10.7** | **54.4** | **40.6** | |
+
+Cooked yield 163 g (the flour and potato's non-fat solids (76.7 g) at USDA's puri composition, 28% water and 24.9% fat, so 76.7 / 0.4706). Per 100 g cooked: 387.7 kcal.
+
+Portions:
+
+- 1 kuttu puri: 27 g cooked = 105 kcal, P 2 g, C 9 g, F 7 g
+- 2 kuttu puris: 54 g cooked = 210 kcal, P 4 g, C 18 g, F 14 g
+- 4 kuttu puris: 109 g cooked = 420 kcal, P 7 g, C 36 g, F 27 g
+- 4 puris with a 200 ml katori of aloo sabzi: 0.6667 of the recipe + 100 g Potato, brown skin, big + 50 g Tomato, ripe, hybrid + 9 g Ghee = 580 kcal, P 9 g, C 53 g, F 36 g
+
+Outside (Fasting thali or sweet shop): fat sources x 1 to 1.22, portion x 1 to 1.3 = 105 to 155 kcal. Basis: Fat up to 1.22 times: Jain et al. 2024 found total fat in Indian fried foods rose from a mean of 22.5% to 27.4% of dry weight between the 1st and 32nd frying in the same oil. Puris up to 1.3 times as big are a stated assumption.
+
+Judgement calls:
+
+- Adapted recipe: the puri page's ASC107 structure (80 g flour for 6 puris) with kuttu atta (USDA FDC 170687) and 40 g boiled potato as a binder (assumption).
+- Oil taken up: non-fat solids = kuttu 80 x (1 - 0.112 - 0.031) = 68.6 g + potato 40 x (1 - 0.795 - 0.002) = 8.1 g = 76.7 g. Fat = 76.7 x 24.94 / 47.06 = 40.6 g; minus own fat 2.6 g = 38 g of oil for 6 puris.
+- No analysed value for kuttu puri was found (IFCT, NIN Annexure 8, USDA FNDDS).
+- Aloo sabzi row: a 200 ml katori of fasting aloo sabzi, 100 g potato, 50 g tomato and 9 g ghee (no onion or garlic).
+
+Sources:
+
+- USDA FoodData Central, Buckwheat flour, whole-groat (170687). https://fdc.nal.usda.gov/food-details/170687/nutrients (accessed 2026-10-10)
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Bread, puri (2707714). https://fdc.nal.usda.gov/food-details/2707714/nutrients (accessed 2026-10-10)
+- Jain, Passi and Selvamurthy, Total fat and fatty acid profile of Indian fried foods, Journal of Food Science and Technology, 2024. https://europepmc.org/articles/PMC11465016 (accessed 2026-10-10)
+
+## Makhana (/calories/makhana/)
+
+100 g of dry makhana.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Makhana (lotus seeds), dry | 100 | 332.0 | 15.4 | 64.5 | 2.0 | USDA FDC 170149 |
+| **Total** | | **332.0** | **15.4** | **64.5** | **2.0** | |
+
+Cooked yield 100 g (dry makhana, not cooked; roasting doesn't change the weight much). Per 100 g cooked: 332.0 kcal.
+
+Portions:
+
+- 1 cup (about 32 g): 32 g cooked = 105 kcal, P 5 g, C 21 g, F 1 g
+- 20 g: 20 g cooked = 65 kcal, P 3 g, C 13 g, F 0 g
+- 1 katori (about 15 g): 15 g cooked = 50 kcal, P 2 g, C 10 g, F 0 g
+- 30 g roasted in 1 tsp ghee: 30 g cooked + 5 g Ghee = 145 kcal, P 5 g, C 19 g, F 6 g
+- 50 g: 50 g cooked = 165 kcal, P 8 g, C 32 g, F 1 g
+- 100 g: 100 g cooked = 330 kcal, P 15 g, C 65 g, F 2 g
+
+Outside (Packaged or shop-roasted): fat sources x 1 to 1, portion x 1 to 1, plus 2.5 to 10 g Groundnut oil = 165 to 230 kcal. Basis: No analysed value for packaged flavoured makhana was used. Packaged makhana is roasted in oil with seasoning; 1.5 to 3 times the fat of 30 g roasted in a teaspoon of ghee is a stated assumption. Check the packet's label.
+
+Judgement calls:
+
+- Makhana valued as USDA FDC 170149, lotus seeds, dried (332 kcal, 15.4 g protein, 1.97 g fat, 64.5 g carbohydrate per 100 g; no fibre value, so carbohydrate is by difference). Makhana is the seed of Euryale ferox, a different water lily from the lotus; USDA's dried lotus seed is the closest analysed match. IFCT 2017 has no entry.
+- Katori 15 g is an assumption (half of USDA's 32 g cup, scaled for a 150 ml katori).
+- No second analysed source for makhana was found in IFCT 2017, NIN Annexure 8 or USDA FNDDS.
+
+Sources:
+
+- USDA FoodData Central, Seeds, lotus seeds, dried (170149). https://fdc.nal.usda.gov/food-details/170149/nutrients (accessed 2026-10-10)
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+

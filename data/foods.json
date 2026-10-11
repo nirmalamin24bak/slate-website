@@ -12626,6 +12626,2474 @@
         "carbs": 28,
         "fat": 10
       }
+    },
+    {
+      "slug": "vada-pav",
+      "name": "Vada pav",
+      "nameLower": "vada pav",
+      "category": "street",
+      "aliases": [
+        "wada pav",
+        "vadapav",
+        "batata vada",
+        "batata vada pav",
+        "bombay burger",
+        "वडा पाव",
+        "वड़ा पाव",
+        "વડાપાંવ"
+      ],
+      "updated": "2026-10-11",
+      "title": "Vada pav calories: with and without butter",
+      "description": "One vada pav has about {{kcal:one}} calories: a batata vada of about {{kcal:vada}} in a pav. With butter, without the pav, and street versions.",
+      "answer": "One vada pav has about {{kcal:one}} calories: about {{kcal:vada}} for the fried batata vada and the rest for the pav. With a teaspoon of butter it's about {{kcal:butter}}.",
+      "intro": [
+        "Vada pav is Mumbai's everyday street food: a spiced potato vada dipped in besan batter and deep-fried, tucked into a soft pav with dry garlic chutney, green chutney and a fried green chilli. It's eaten standing at stalls outside stations and offices all day.",
+        "The fried vada is a little over half of the calories and the pav most of the rest. Butter on the pav, or a second vada, adds to it."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Home vada, fried in fresh oil, in a 43 g pav. Chutneys not included.",
+      "recipe": {
+        "label": "Recipe: potato filling coated in besan batter, deep-fried into 2 vadas",
+        "ingredients": [
+          {
+            "id": "potato",
+            "g": 100
+          },
+          {
+            "id": "peas_fresh",
+            "g": 20
+          },
+          {
+            "id": "onion",
+            "g": 15
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3
+          },
+          {
+            "id": "ginger",
+            "g": 5
+          },
+          {
+            "id": "cashew",
+            "g": 2.5
+          },
+          {
+            "id": "besan",
+            "g": 15,
+            "note": "2 tablespoons, for the batter"
+          },
+          {
+            "id": "rice_flour",
+            "g": 5,
+            "note": "2 teaspoons, for the batter"
+          },
+          {
+            "id": "turmeric",
+            "g": 0.4
+          },
+          {
+            "id": "oil",
+            "g": 4.5,
+            "note": "1 teaspoon, for the tempering"
+          },
+          {
+            "id": "oil",
+            "g": 20.2,
+            "note": "Taken up in frying: set so the recipe matches ICMR-NIN's potato bonda, 100 kcal each"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no cooked weight used; each vada is half the recipe"
+      },
+      "portions": [
+        {
+          "id": "vada",
+          "label": "1 batata vada, without pav",
+          "short": "a vada",
+          "fraction": 0.5,
+          "cookedGrams": null,
+          "kcal": 200,
+          "protein": 4,
+          "carbs": 16,
+          "fat": 14
+        },
+        {
+          "id": "one",
+          "label": "1 vada pav (43 g pav)",
+          "short": "a vada pav",
+          "fraction": 0.5,
+          "add": [
+            {
+              "id": "pav",
+              "g": 43
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 335,
+          "protein": 8,
+          "carbs": 37,
+          "fat": 16
+        },
+        {
+          "id": "butter",
+          "label": "1 vada pav with 1 tsp butter",
+          "short": "with butter",
+          "fraction": 0.5,
+          "add": [
+            {
+              "id": "pav",
+              "g": 43
+            },
+            {
+              "id": "butter",
+              "g": 5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 370,
+          "protein": 8,
+          "carbs": 37,
+          "fat": 20
+        },
+        {
+          "id": "two",
+          "label": "2 vada pav",
+          "short": "2 vada pav",
+          "fraction": 1,
+          "add": [
+            {
+              "id": "pav",
+              "g": 86
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 665,
+          "protein": 17,
+          "carbs": 74,
+          "fat": 33
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Street stall",
+        "caption": "One vada pav. The outside range has up to about a fifth more frying oil, in a vada up to 1.3 times as big.",
+        "fatFactor": [
+          1,
+          1.22
+        ],
+        "sizeFactor": [
+          1,
+          1.3
+        ],
+        "basis": "Fat up to 1.22 times: Jain et al. 2024 found total fat in Indian fried foods rose from a mean of 22.5% to 27.4% of dry weight between the 1st and 32nd frying in the same oil. A vada pav up to 1.3 times as big is a stated assumption.",
+        "text": [
+          "Street vadas are fried in oil that's used all day, and stall sizes vary from small to large. Some stalls brush the pav with butter or add cheese.",
+          "A lab study found fried foods took up about a fifth more fat after 32 fryings in the same oil. The range below uses that, with a vada pav up to 1.3 times this size."
+        ],
+        "kcalRange": [
+          335,
+          465
+        ],
+        "fatRange": [
+          16,
+          25
+        ]
+      },
+      "changes": [
+        "Butter on the pav adds about 35 calories a teaspoon, and a slice of cheese about 60 to 70.",
+        "Dry garlic chutney has coconut, peanuts or sesame in it and adds a little; green chutney adds almost nothing.",
+        "A bigger vada, or oil that's been used many times, means more fat in each vada.",
+        "Without the pav, the vada alone is about {{kcal:vada}}."
+      ],
+      "method": [
+        "The vada follows the potato bonda in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g potato, 20 g peas, onion, ginger, green chilli and cashew, coated in a batter of 2 tablespoons of besan and 2 teaspoons of rice flour. The textbook makes 4 small bondas; a Mumbai vada is bigger, so this page makes 2. Values are from IFCT 2017.",
+        "The databank counts all the frying oil as eaten. ICMR-NIN counts a potato bonda at 100 calories, so this page sets the oil taken up to match that: about 10 g per vada. The pav is 43 g, the size in the databank's pav bhaji recipe, valued from USDA's soft dinner roll."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 vada pav?",
+          "a": "About {{kcal:one}} for a vada pav made at home with a 43 g pav, and about {{kcal:butter}} with a teaspoon of butter."
+        },
+        {
+          "q": "How many calories are in vada pav without pav?",
+          "a": "About {{kcal:vada}} for the batata vada on its own."
+        },
+        {
+          "q": "How many calories are in 2 vada pav?",
+          "a": "About {{kcal:two}} for two."
+        },
+        {
+          "q": "How much protein is in vada pav?",
+          "a": "About {{protein:one}} g, from the pav, the besan and the peas."
+        },
+        {
+          "q": "Which has more calories, vada pav or samosa?",
+          "a": "A vada pav, because of the pav. A home [samosa](/calories/samosa/) is about {{kcal@samosa:one}}, against about {{kcal:one}} for a vada pav."
+        }
+      ],
+      "related": [
+        "pav-bhaji",
+        "samosa",
+        "kachori",
+        "masala-chai"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Oil taken up: set so the textbook's 4 bondas are 100 kcal each, ICMR-NIN's potato bonda (2 for 200 kcal). Before frying the recipe is 221.5 kcal, so (400 - 221.5) / 8.843 = 20.2 g of oil. Because NIN is used to set the oil, it isn't listed as a separate check.",
+        "Besan 2 tbsp = 15 g; rice flour 2 tsp = 5 g (USDA). Cashew 2 nuts = 2.5 g (INDB).",
+        "Pav 43 g: INDB's OSR112 pav bhaji lists 12 pav at 516 g. Valued as USDA FDC 172793, dinner rolls.",
+        "Chana and urad dal (0.125 tsp each), mustard seeds, curry leaves, coriander and soda left out.",
+        "Cheese slice in the changes list: 20 g at about 300 to 340 kcal per 100 g."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Potato, peas, onion, green chilli, ginger, cashew (H005), Bengal gram dal (B001) as besan, turmeric, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC360, potato bonda; open-source recipe OSR112 for pav weight",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: potato bonda 200 kcal for 2",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Rolls, dinner, plain, commercially prepared (172793)",
+          "url": "https://fdc.nal.usda.gov/food-details/172793/nutrients",
+          "note": "Pav, 310 kcal per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Rice flour, white (169714)",
+          "url": "https://fdc.nal.usda.gov/food-details/169714/nutrients",
+          "note": "Rice flour in the batter",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Jain, Passi and Selvamurthy, Total fat and fatty acid profile of Indian fried foods, Journal of Food Science and Technology, 2024",
+          "url": "https://europepmc.org/articles/PMC11465016",
+          "note": "Total fat in fried foods, 1st against 32nd frying cycle",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "pav-bhaji",
+      "name": "Pav bhaji",
+      "nameLower": "pav bhaji",
+      "category": "street",
+      "aliases": [
+        "pao bhaji",
+        "paav bhaji",
+        "bhaji pav",
+        "butter pav bhaji",
+        "पाव भाजी",
+        "પાંવ ભાજી"
+      ],
+      "updated": "2026-10-11",
+      "title": "Pav bhaji calories: per plate, with 1, 2 or 4 pav",
+      "description": "A plate of pav bhaji with 2 butter pav has about {{kcal:plate2}} calories; the bhaji alone is about {{kcal:bhaji}}. With extra pav and street butter.",
+      "answer": "A plate of pav bhaji with 2 butter-toasted pav has about {{kcal:plate2}} calories. The bhaji alone is about {{kcal:bhaji}}, and each butter pav adds about {{kcal:pav}}.",
+      "intro": [
+        "Pav bhaji is a thick, spiced mash of potato, peas, tomato, cauliflower, capsicum and carrot, cooked on a big tawa with butter and pav bhaji masala, served with soft pav toasted in more butter, chopped onion and lemon. It started as a quick meal for Mumbai's mill workers and is now sold everywhere.",
+        "Butter is the key number. In this recipe the butter in the bhaji and on the pav is close to half of a plate's calories."
+      ],
+      "headlinePortion": "plate2",
+      "portionsCaption": "Home pav bhaji as below. Each pav is 43 g, toasted in a teaspoon of butter.",
+      "recipe": {
+        "label": "Recipe: about 1.1 kg of vegetables cooked with 4¾ tablespoons of butter, for 5 plates of bhaji",
+        "ingredients": [
+          {
+            "id": "tomato",
+            "g": 360
+          },
+          {
+            "id": "potato",
+            "g": 210
+          },
+          {
+            "id": "peas_fresh",
+            "g": 145
+          },
+          {
+            "id": "carrot",
+            "g": 128
+          },
+          {
+            "id": "cauliflower",
+            "g": 125
+          },
+          {
+            "id": "onion",
+            "g": 120
+          },
+          {
+            "id": "capsicum",
+            "g": 74.5
+          },
+          {
+            "id": "french_beans",
+            "g": 30
+          },
+          {
+            "id": "lemon_juice",
+            "g": 48,
+            "note": "1 lemon"
+          },
+          {
+            "id": "garlic",
+            "g": 5
+          },
+          {
+            "id": "ginger",
+            "g": 5
+          },
+          {
+            "id": "green_chilli",
+            "g": 3
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 3.5
+          },
+          {
+            "id": "cumin",
+            "g": 7.9
+          },
+          {
+            "id": "chilli_red",
+            "g": 4.7
+          },
+          {
+            "id": "turmeric",
+            "g": 3.75
+          },
+          {
+            "id": "coriander_seeds",
+            "g": 3.6
+          },
+          {
+            "id": "fennel",
+            "g": 2.9
+          },
+          {
+            "id": "chilli_powder",
+            "g": 2.7
+          },
+          {
+            "id": "black_pepper",
+            "g": 1.7
+          },
+          {
+            "id": "butter",
+            "g": 42.6,
+            "note": "3 tablespoons, in the bhaji"
+          },
+          {
+            "id": "butter",
+            "g": 25,
+            "note": "on top of the 5 plates"
+          },
+          {
+            "id": "water",
+            "g": 980,
+            "note": "about 4 cups, mostly cooked off"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no cooked weight used; a plate of bhaji is a fifth of the recipe"
+      },
+      "portions": [
+        {
+          "id": "bhaji",
+          "label": "1 plate of bhaji, no pav",
+          "short": "bhaji only",
+          "fraction": 0.2,
+          "cookedGrams": null,
+          "kcal": 215,
+          "protein": 6,
+          "carbs": 18,
+          "fat": 12
+        },
+        {
+          "id": "plate1",
+          "label": "Bhaji with 1 butter pav",
+          "short": "with 1 pav",
+          "fraction": 0.2,
+          "add": [
+            {
+              "id": "pav",
+              "g": 43
+            },
+            {
+              "id": "butter",
+              "g": 5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 385,
+          "protein": 10,
+          "carbs": 40,
+          "fat": 19
+        },
+        {
+          "id": "plate2",
+          "label": "Bhaji with 2 butter pav",
+          "short": "a plate",
+          "fraction": 0.2,
+          "add": [
+            {
+              "id": "pav",
+              "g": 86
+            },
+            {
+              "id": "butter",
+              "g": 10
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 550,
+          "protein": 15,
+          "carbs": 61,
+          "fat": 26
+        },
+        {
+          "id": "plate4",
+          "label": "Bhaji with 4 butter pav",
+          "short": "with 4 pav",
+          "fraction": 0.2,
+          "add": [
+            {
+              "id": "pav",
+              "g": 172
+            },
+            {
+              "id": "butter",
+              "g": 20
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 890,
+          "protein": 25,
+          "carbs": 104,
+          "fat": 40
+        },
+        {
+          "id": "pav",
+          "label": "1 extra butter pav",
+          "short": "a butter pav",
+          "fraction": 0,
+          "add": [
+            {
+              "id": "pav",
+              "g": 43
+            },
+            {
+              "id": "butter",
+              "g": 5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 170,
+          "protein": 5,
+          "carbs": 22,
+          "fat": 7
+        }
+      ],
+      "outside": {
+        "portionId": "plate2",
+        "label": "Street or restaurant",
+        "caption": "One plate with 2 pav. The outside range adds 10 to 25 g more butter (about 2 to 5 teaspoons).",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "butter",
+            "g": [
+              10,
+              25
+            ]
+          }
+        ],
+        "basis": "No analysed value for street pav bhaji was found. Street stalls are known for adding a block of butter to the bhaji and pav; 10 to 25 g more per plate is a stated assumption.",
+        "text": [
+          "Street pav bhaji is known for its butter: a cube melted into each plate's bhaji on the tawa, and pav toasted in more of it. Amul-style butter pav bhaji can carry a lot more than this home plate.",
+          "No lab has measured it, so the range below adds 10 to 25 g more butter to one plate with 2 pav."
+        ],
+        "kcalRange": [
+          625,
+          730
+        ],
+        "fatRange": [
+          34,
+          46
+        ]
+      },
+      "changes": [
+        "Butter is the biggest variable. Each teaspoon adds about 35 calories, and street plates often have several more.",
+        "Each extra butter pav adds about {{kcal:pav}}. A plain pav without butter is about 135.",
+        "More potato in the bhaji raises it a little; more cauliflower, capsicum or peas changes it little.",
+        "Without butter, a plate of bhaji is about 95 calories lighter."
+      ],
+      "method": [
+        "The recipe is the pav bhaji in the Indian Nutrient Databank's open recipe set: potato, tomato, peas, carrot, cauliflower, capsicum, beans and onion with pav bhaji masala, cooked with 3 tablespoons of butter, for 5 plates, with 12 pav and 5 to 7 more tablespoons of butter for topping and toasting. This page uses 6 tablespoons: a teaspoon for each pav and the rest on top of the bhaji. Values are from IFCT 2017, with butter and pav from USDA.",
+        "Whole spices that aren't eaten, and those under 1 g, are left out. Each pav is 43 g, as in the recipe (12 pav weighing 516 g)."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 plate of pav bhaji?",
+          "a": "About {{kcal:plate2}} for a plate of bhaji with 2 butter pav, and about {{kcal:plate4}} with 4 pav."
+        },
+        {
+          "q": "How many calories are in pav bhaji without pav?",
+          "a": "About {{kcal:bhaji}} for a plate of the bhaji alone."
+        },
+        {
+          "q": "How many calories are in pav bhaji without butter?",
+          "a": "Leaving out all the butter takes off about 95 calories from the bhaji and about 35 from each pav, so a plate with 2 plain pav is about 385."
+        },
+        {
+          "q": "How much protein is in pav bhaji?",
+          "a": "About {{protein:plate2}} g in a plate with 2 pav, mostly from the pav and the peas."
+        }
+      ],
+      "related": [
+        "vada-pav",
+        "aloo-sabzi",
+        "mixed-veg",
+        "bhel-puri"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Open-source recipe OSR112 (INDB), 5 servings. Butter: 3 tbsp in the bhaji plus 6 tbsp (85.2 g) of the 5 to 7 tbsp for topping and toasting, split as 5 g per pav (12 pav, 60 g) and 25 g on top of the bhaji.",
+        "Lemon '1 no' taken as 48 g juice (USDA FDC 167747). Ginger-garlic paste 1 tsp each = 5 g. Coriander 3.5 tbsp = 3.5 g (INDB's 0.25 cup = 4 g).",
+        "Left out: black cardamom, cloves, mace, nutmeg, cinnamon, star anise, amchur and dried ginger powder (under 15 kcal together for 5 plates).",
+        "No independent analysed value for pav bhaji was found (IFCT, NIN Annexure 8, USDA FNDDS). INDB's per-serving value (561 kcal) is from this recipe with hamburger buns as the pav.",
+        "Without butter: bhaji butter (67.6 g, 485 kcal) / 5 = 97 kcal per plate; pav butter 5 g = 36 kcal. Plate with 2 plain pav: bhaji 213 - 97 + 2 x 133 = 382, about 385."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Tomato, potato, peas, carrot, cauliflower, onion, capsicum (D033), French beans, lemon juice, garlic, ginger, spices; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Open-source recipe OSR112, pav bhaji",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Butter, without salt (173430)",
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "1 tbsp = 14.2 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Rolls, dinner, plain, commercially prepared (172793)",
+          "url": "https://fdc.nal.usda.gov/food-details/172793/nutrients",
+          "note": "Pav, 310 kcal per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Lemon juice, raw (167747)",
+          "url": "https://fdc.nal.usda.gov/food-details/167747/nutrients",
+          "note": "1 lemon yields 48 g of juice",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Spices, fennel seed (171323)",
+          "url": "https://fdc.nal.usda.gov/food-details/171323/nutrients",
+          "note": "Fennel",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "pani-puri",
+      "name": "Pani puri",
+      "nameLower": "pani puri",
+      "category": "street",
+      "aliases": [
+        "golgappa",
+        "gol gappa",
+        "puchka",
+        "phuchka",
+        "gupchup",
+        "pani ke batashe",
+        "पानी पूरी",
+        "गोलगप्पा",
+        "પાણીપુરી",
+        "ফুচকা"
+      ],
+      "updated": "2026-10-11",
+      "title": "Pani puri calories: per puri and per plate of 6",
+      "description": "A plate of 6 pani puri with potato, chana and sweet chutney has about {{kcal:plate}} calories, about {{kcal:one}} each. Shells, pani and fillings compared.",
+      "answer": "A plate of 6 pani puri with potato, chana and sweet chutney has about {{kcal:plate}} calories, about {{kcal:one}} a puri. Most of it is the fried shells.",
+      "intro": [
+        "Pani puri is a round, hollow, fried shell of semolina or wheat, cracked open and filled with potato, chana or ragda, sweet tamarind chutney and spiced mint-tamarind water, eaten in one bite. It's golgappa in Delhi, puchka in Kolkata and gupchup in Odisha.",
+        "The shells are fried, so they carry most of the calories. The pani itself is mostly water with a little tamarind; the potato and chutney add the rest."
+      ],
+      "headlinePortion": "plate",
+      "portionsCaption": "A plate as below: 6 puris with potato, chana, sweet chutney and pani.",
+      "recipe": {
+        "label": "One plate: 6 puris with potato, chana, a tablespoon of sweet chutney and 150 ml pani",
+        "ingredients": [
+          {
+            "id": "pani_puri_shells",
+            "g": 46.8,
+            "note": "6 puris with their boondi, at the packet's 39 g for 5"
+          },
+          {
+            "id": "potato",
+            "g": 30,
+            "note": "boiled, for the filling"
+          },
+          {
+            "id": "kala_chana",
+            "g": 4,
+            "note": "dry weight, boiled, about 10 g cooked"
+          },
+          {
+            "id": "onion",
+            "g": 10
+          },
+          {
+            "id": "tamarind",
+            "g": 2.1,
+            "note": "sweet chutney, 1 tablespoon"
+          },
+          {
+            "id": "jaggery",
+            "g": 4.3,
+            "note": "sweet chutney, 1 tablespoon"
+          },
+          {
+            "id": "tamarind",
+            "g": 3,
+            "note": "in the pani"
+          },
+          {
+            "id": "mint",
+            "g": 5,
+            "note": "in the pani"
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 5,
+            "note": "in the pani"
+          },
+          {
+            "id": "water",
+            "g": 150,
+            "note": "the pani"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no cooked weight used; the recipe is one plate of 6"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 pani puri",
+          "short": "a puri",
+          "fraction": 0.1667,
+          "cookedGrams": null,
+          "kcal": 35,
+          "protein": 1,
+          "carbs": 6,
+          "fat": 1
+        },
+        {
+          "id": "four",
+          "label": "4 pani puri",
+          "short": "4 puris",
+          "fraction": 0.6667,
+          "cookedGrams": null,
+          "kcal": 145,
+          "protein": 3,
+          "carbs": 23,
+          "fat": 4
+        },
+        {
+          "id": "plate",
+          "label": "1 plate (6 puris)",
+          "short": "a plate of 6",
+          "fraction": 1,
+          "cookedGrams": null,
+          "kcal": 220,
+          "protein": 4,
+          "carbs": 35,
+          "fat": 6
+        },
+        {
+          "id": "ten",
+          "label": "10 pani puri",
+          "short": "10 puris",
+          "fraction": 1.6667,
+          "cookedGrams": null,
+          "kcal": 370,
+          "protein": 7,
+          "carbs": 58,
+          "fat": 11
+        }
+      ],
+      "outside": {
+        "portionId": "plate",
+        "label": "Street stall",
+        "caption": "A plate of 6. The outside range is 0.9 to 1.3 times this plate.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          0.9,
+          1.3
+        ],
+        "basis": "No analysed value for street pani puri was found. Shell size and filling vary by stall; 0.9 to 1.3 times this plate is a stated assumption. Ragda (white peas) in place of potato and more sweet chutney are common.",
+        "text": [
+          "Street pani puri varies with the stall: shell size, how much potato or ragda goes in, and how much sweet chutney you ask for. Most vendors give 5 to 8 to a plate and keep going if you want more.",
+          "We found no lab measurement of street pani puri, so the range below runs from 0.9 to 1.3 times this plate."
+        ],
+        "kcalRange": [
+          200,
+          285
+        ],
+        "fatRange": [
+          6,
+          8
+        ]
+      },
+      "changes": [
+        "The shells are most of it. Each puri with its share of the plate is about {{kcal:one}}.",
+        "Sweet chutney adds about 20 calories a tablespoon; asking for extra adds up.",
+        "Ragda (white peas) in place of potato adds a little more protein and about the same calories.",
+        "The pani itself, mint, tamarind and spices in water, is about 15 calories for a whole plate."
+      ],
+      "method": [
+        "No standard recipe for this plate exists in the Indian Nutrient Databank, so the plate is assembled from typical amounts, each stated below and valued from IFCT 2017. Shells are a packaged pani puri's own label values (puris and boondi, 39 g for 5), since IFCT 2017 has no puri shells.",
+        "Sweet chutney as The Art & Science of Cooking's saunth chutney (ASC281: 25 g tamarind and 50 g jaggery in 100 ml water), so 1 tablespoon (15 g) holds 2.1 g tamarind and 4.3 g jaggery, about 21 kcal. The pani is 150 ml of water with 3 g tamarind and 10 g of mint and coriander."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 pani puri?",
+          "a": "About {{kcal:one}} for one puri with its potato, chutney and pani."
+        },
+        {
+          "q": "How many calories are in a plate of pani puri?",
+          "a": "About {{kcal:plate}} for a plate of 6, and about {{kcal:ten}} for 10."
+        },
+        {
+          "q": "How many calories are in pani puri water?",
+          "a": "Very few. A plate's 150 ml of pani, with tamarind, mint and coriander, is about 15 calories. Sweet chutney adds more."
+        },
+        {
+          "q": "How much protein is in pani puri?",
+          "a": "About {{protein:plate}} g in a plate of 6, from the shells and chana."
+        },
+        {
+          "q": "Which has more calories, pani puri or bhel puri?",
+          "a": "A plate of [bhel puri](/calories/bhel-puri/) is about {{kcal@bhel-puri:plate}}, a little more than a plate of 6 pani puri at about {{kcal:plate}}."
+        }
+      ],
+      "related": [
+        "bhel-puri",
+        "sev-puri",
+        "samosa",
+        "vada-pav"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Assembled plate; all amounts other than the shells and chutney are typical amounts, stated as assumptions: potato 30 g, kala chana 4 g dry, onion 10 g, pani 150 ml with 3 g tamarind and 5 g each of mint and coriander.",
+        "Shells: USDA FDC 1913634 (branded label, packaged pani puri kit): 39 g = 5 puris with boondi, 125 kcal, 2 g protein, 18 g carbohydrate (1.01 g fibre), 5 g fat. Carbohydrate taken as 18 - 1.01 g. 6 puris = 46.8 g.",
+        "Sweet chutney as The Art & Science of Cooking's saunth chutney (ASC281: 25 g tamarind and 50 g jaggery in 100 ml water), so 1 tablespoon (15 g) holds 2.1 g tamarind and 4.3 g jaggery, about 21 kcal.",
+        "No independent analysed value for pani puri was found (IFCT, NIN Annexure 8, USDA FNDDS, Europe PMC).",
+        "Pani alone: tamarind 3 g (8.7 kcal) + mint 5 g (1.9) + coriander 5 g (1.6) = about 12 kcal, about 15 with spices."
+      ],
+      "sources": [
+        {
+          "title": "USDA FoodData Central, Branded food label, packaged pani puri (1913634)",
+          "url": "https://fdc.nal.usda.gov/food-details/1913634/nutrients",
+          "note": "39 g (5 puris with boondi) = 125 kcal, 5 g fat",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Potato, Bengal gram whole (B002), onion, tamarind pulp (E064), jaggery (I001), mint (G016), coriander leaves; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC281, saunth chutney with tamarind",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "bhel-puri",
+      "name": "Bhel puri",
+      "nameLower": "bhel puri",
+      "category": "street",
+      "aliases": [
+        "bhel",
+        "bhelpuri",
+        "jhal muri",
+        "churmuri",
+        "bhel chaat",
+        "भेल पूरी",
+        "भेलपुरी",
+        "ભેળ"
+      ],
+      "updated": "2026-10-11",
+      "title": "Bhel puri calories: per plate and per 100 g",
+      "description": "A plate of bhel puri has about {{kcal:plate}} calories, from puffed rice, sev, papdi, potato, peanuts and chutneys. Dry bhel and street plates compared.",
+      "answer": "A plate of bhel puri (25 g puffed rice with sev, papdi, potato, onion, peanuts and chutneys) has about {{kcal:plate}} calories.",
+      "intro": [
+        "Bhel puri is puffed rice tossed with fine sev, crushed papdi, boiled potato, onion, tomato and peanuts, dressed with sweet tamarind chutney and green chutney and finished with lemon and coriander. It's the Mumbai beach snack, and Kolkata's jhal muri and Karnataka's churmuri are close cousins.",
+        "Puffed rice is light by volume, so a plate looks bigger than its calories. The fried sev and papdi, and the peanuts, are where most of the fat comes from."
+      ],
+      "headlinePortion": "plate",
+      "portionsCaption": "A plate as below, with both chutneys.",
+      "recipe": {
+        "label": "One plate: 25 g puffed rice with 10 g sev, 2 papdis, potato, onion, tomato, peanuts and chutneys",
+        "ingredients": [
+          {
+            "id": "puffed_rice",
+            "g": 25
+          },
+          {
+            "id": "besan",
+            "g": 6,
+            "note": "as 10 g sev"
+          },
+          {
+            "id": "oil",
+            "g": 4,
+            "note": "as 10 g sev, 39.6% fat"
+          },
+          {
+            "id": "maida",
+            "g": 4.9,
+            "note": "as 2 papdis, 8 g"
+          },
+          {
+            "id": "oil",
+            "g": 3.1,
+            "note": "as 2 papdis, 38.5% fat"
+          },
+          {
+            "id": "potato",
+            "g": 20,
+            "note": "boiled"
+          },
+          {
+            "id": "onion",
+            "g": 15
+          },
+          {
+            "id": "tomato",
+            "g": 15
+          },
+          {
+            "id": "groundnut",
+            "g": 5,
+            "note": "roasted peanuts"
+          },
+          {
+            "id": "tamarind",
+            "g": 2.1,
+            "note": "sweet chutney, 1 tablespoon"
+          },
+          {
+            "id": "jaggery",
+            "g": 4.3,
+            "note": "sweet chutney, 1 tablespoon"
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 5,
+            "note": "green chutney and garnish"
+          },
+          {
+            "id": "lemon_juice",
+            "g": 3
+          }
+        ],
+        "cookedYieldG": 112,
+        "yieldNote": "the ingredients added together, with sev and papdi at their fried weight"
+      },
+      "portions": [
+        {
+          "id": "plate",
+          "label": "1 plate",
+          "short": "a plate",
+          "fraction": 1,
+          "cookedGrams": 112,
+          "kcal": 265,
+          "protein": 6,
+          "carbs": 37,
+          "fat": 10
+        },
+        {
+          "id": "half",
+          "label": "Half a plate",
+          "short": "half a plate",
+          "fraction": 0.5,
+          "cookedGrams": 56,
+          "kcal": 130,
+          "protein": 3,
+          "carbs": 18,
+          "fat": 5
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 235,
+          "protein": 5,
+          "carbs": 33,
+          "fat": 9
+        }
+      ],
+      "outside": {
+        "portionId": "plate",
+        "label": "Beach or street stall",
+        "caption": "One plate. The outside range is 0.9 to 1.4 times this plate.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          0.9,
+          1.4
+        ],
+        "basis": "No analysed value for street bhel puri was found. Stall plates vary, often with more sev; 0.9 to 1.4 times this plate is a stated assumption.",
+        "text": [
+          "Street bhel is mixed to order, and plates vary a lot, especially in how much sev goes on top. Some stalls add raw mango, boiled chana or more peanuts.",
+          "No lab has measured street bhel, so the range below runs from 0.9 to 1.4 times this plate."
+        ],
+        "kcalRange": [
+          240,
+          370
+        ],
+        "fatRange": [
+          9,
+          14
+        ]
+      },
+      "changes": [
+        "Sev is the most calorie-dense part: 10 g is about 55 calories, so a heavy hand with it adds up.",
+        "Peanuts add about 25 calories per 5 g, and each papdi about 20.",
+        "Sweet chutney adds about 20 calories a tablespoon. Dry bhel without it is a little lighter.",
+        "More onion, tomato, cucumber or raw mango adds volume and very few calories."
+      ],
+      "method": [
+        "No standard recipe for this plate exists in the Indian Nutrient Databank, so the plate is assembled from typical amounts, each stated below and valued from IFCT 2017. The puffed rice and peanuts follow the proportions of the databank's open-source bhel puri (60 g puffed rice and 2 tablespoons of peanuts for 2 to 3 plates).",
+        "Sev valued as besan plus oil at 39.6% fat, the fat content Gupta et al. 2016 measured in bhujia (fried besan noodles) from a Delhi vendor. Papdi valued as maida plus oil at 38.5% fat, the fat content Gupta et al. 2016 measured in mathri (fried wheat crackers) from a Delhi vendor. 4 g per papdi is an assumption. Sweet chutney as The Art & Science of Cooking's saunth chutney (ASC281: 25 g tamarind and 50 g jaggery in 100 ml water), so 1 tablespoon (15 g) holds 2.1 g tamarind and 4.3 g jaggery, about 21 kcal."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 plate of bhel puri?",
+          "a": "About {{kcal:plate}} for a plate with 25 g of puffed rice, 10 g of sev and two papdis."
+        },
+        {
+          "q": "How many calories are in 100 g of bhel puri?",
+          "a": "About {{kcal:g100}} for this mix, chutneys included."
+        },
+        {
+          "q": "How much protein is in bhel puri?",
+          "a": "About {{protein:plate}} g in a plate, from the puffed rice, sev and peanuts."
+        },
+        {
+          "q": "Which has more calories, bhel puri or sev puri?",
+          "a": "A plate of [sev puri](/calories/sev-puri/) is about {{kcal@sev-puri:plate}}, a little more than bhel at about {{kcal:plate}}, because it has more papdi and sev."
+        }
+      ],
+      "related": [
+        "sev-puri",
+        "pani-puri",
+        "poha",
+        "vada-pav"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Assembled plate. OSR114 (INDB open-source bhel puri) makes its own sev and papdi in bulk and counts all frying oil, so its totals (3,574 kcal per plate) aren't used; its puffed rice (60 g for 2 to 3 plates) and peanuts (2 tbsp) guide the amounts.",
+        "Sev 10 g = besan 6.0 g + oil 4.0 g; papdi 2 x 4 g = maida 4.9 g + oil 3.1 g. Moisture lost in frying isn't counted.",
+        "Amounts of potato (20 g), onion (15 g), tomato (15 g), coriander (5 g) and lemon (3 g) are typical amounts, stated as assumptions.",
+        "No independent analysed value for bhel puri was found (IFCT, NIN Annexure 8, USDA FNDDS)."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Puffed rice (A012), Bengal gram dal (B001) as besan, maida (A018), potato, onion, tomato, groundnut (H012), tamarind, jaggery, coriander, lemon juice, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Open-source recipe OSR114, bhel puri (proportions); The Art & Science of Cooking recipe ASC281, saunth chutney",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Gupta et al., Unhealthy fat in street and snack foods, Journal of Nutrition Education and Behavior, 2016",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4826272",
+          "note": "Measured fat in bhujia (39.61%) and mathri (38.50%), Delhi urban slum",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 235,
+        "protein": 5,
+        "carbs": 33,
+        "fat": 9
+      }
+    },
+    {
+      "slug": "sev-puri",
+      "name": "Sev puri",
+      "nameLower": "sev puri",
+      "category": "street",
+      "aliases": [
+        "sevpuri",
+        "papdi chaat",
+        "dahi sev puri",
+        "sev batata puri",
+        "SPDP",
+        "सेव पूरी",
+        "पापड़ी चाट",
+        "સેવપુરી"
+      ],
+      "updated": "2026-10-11",
+      "title": "Sev puri calories: per plate of 6 and per piece",
+      "description": "A plate of 6 sev puri has about {{kcal:plate}} calories, about {{kcal:one}} a piece. Papdi, potato, chutneys and sev; dahi sev puri compared.",
+      "answer": "A plate of 6 sev puri has about {{kcal:plate}} calories, about {{kcal:one}} a piece. The fried papdi and sev are most of it.",
+      "intro": [
+        "Sev puri is flat, crisp papdi topped with boiled potato, onion and tomato, sweet and green chutneys and a heap of fine sev. Dahi sev puri adds curd, and papdi chaat in north India is the same idea with more curd and chutney.",
+        "The papdi and the sev are both fried, and together they're nearly three quarters of a plate's calories."
+      ],
+      "headlinePortion": "plate",
+      "portionsCaption": "A plate as below: 6 papdis with toppings.",
+      "recipe": {
+        "label": "One plate: 6 papdis with potato, onion, tomato, chutneys and 15 g sev",
+        "ingredients": [
+          {
+            "id": "maida",
+            "g": 14.8,
+            "note": "as 6 papdis, 24 g"
+          },
+          {
+            "id": "oil",
+            "g": 9.2,
+            "note": "as 6 papdis, 38.5% fat"
+          },
+          {
+            "id": "potato",
+            "g": 40,
+            "note": "boiled"
+          },
+          {
+            "id": "onion",
+            "g": 15
+          },
+          {
+            "id": "tomato",
+            "g": 10
+          },
+          {
+            "id": "tamarind",
+            "g": 4.3,
+            "note": "sweet chutney, 2 tablespoons"
+          },
+          {
+            "id": "jaggery",
+            "g": 8.6,
+            "note": "sweet chutney, 2 tablespoons"
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 5,
+            "note": "green chutney and garnish"
+          },
+          {
+            "id": "besan",
+            "g": 9.1,
+            "note": "as 15 g sev"
+          },
+          {
+            "id": "oil",
+            "g": 5.9,
+            "note": "as 15 g sev, 39.6% fat"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no cooked weight used; the recipe is one plate of 6"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 sev puri",
+          "short": "a piece",
+          "fraction": 0.1667,
+          "cookedGrams": null,
+          "kcal": 50,
+          "protein": 1,
+          "carbs": 6,
+          "fat": 3
+        },
+        {
+          "id": "plate",
+          "label": "1 plate (6 pieces)",
+          "short": "a plate of 6",
+          "fraction": 1,
+          "cookedGrams": null,
+          "kcal": 295,
+          "protein": 5,
+          "carbs": 33,
+          "fat": 16
+        },
+        {
+          "id": "dahi",
+          "label": "1 plate of dahi sev puri (with 60 g curd)",
+          "short": "dahi sev puri",
+          "fraction": 1,
+          "add": [
+            {
+              "id": "curd",
+              "g": 60
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 335,
+          "protein": 7,
+          "carbs": 36,
+          "fat": 18
+        }
+      ],
+      "outside": {
+        "portionId": "plate",
+        "label": "Street stall",
+        "caption": "A plate of 6. The outside range is 0.9 to 1.3 times this plate.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          0.9,
+          1.3
+        ],
+        "basis": "No analysed value for street sev puri was found. Papdi size and the amount of sev vary by stall; 0.9 to 1.3 times this plate is a stated assumption.",
+        "text": [
+          "Street sev puri varies with how much sev and chutney the vendor piles on, and some add raw mango or butter.",
+          "We found no lab figure for it, so the range below runs from 0.9 to 1.3 times this plate."
+        ],
+        "kcalRange": [
+          265,
+          385
+        ],
+        "fatRange": [
+          14,
+          21
+        ]
+      },
+      "changes": [
+        "Sev is the most calorie-dense topping: 15 g is about 80 calories.",
+        "Each papdi is about 20 calories before toppings.",
+        "Curd for dahi sev puri adds about 35 calories per 60 g.",
+        "Sweet chutney adds about 20 calories a tablespoon; green chutney adds almost nothing."
+      ],
+      "method": [
+        "No standard recipe for this plate exists in the Indian Nutrient Databank, so the plate is assembled from typical amounts, each stated below and valued from IFCT 2017.",
+        "Papdi valued as maida plus oil at 38.5% fat, the fat content Gupta et al. 2016 measured in mathri (fried wheat crackers) from a Delhi vendor. 4 g per papdi is an assumption. Sev valued as besan plus oil at 39.6% fat, the fat content Gupta et al. 2016 measured in bhujia (fried besan noodles) from a Delhi vendor. Sweet chutney as The Art & Science of Cooking's saunth chutney (ASC281: 25 g tamarind and 50 g jaggery in 100 ml water), so 1 tablespoon (15 g) holds 2.1 g tamarind and 4.3 g jaggery, about 21 kcal."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 6 sev puri?",
+          "a": "About {{kcal:plate}} for a plate of 6, and about {{kcal:dahi}} for dahi sev puri."
+        },
+        {
+          "q": "How many calories are in 1 sev puri?",
+          "a": "About {{kcal:one}} for one piece with its toppings."
+        },
+        {
+          "q": "How much protein is in sev puri?",
+          "a": "About {{protein:plate}} g in a plate of 6, from the papdi, potato and sev."
+        },
+        {
+          "q": "Which has more calories, sev puri or pani puri?",
+          "a": "Sev puri, per plate: about {{kcal:plate}} against about {{kcal@pani-puri:plate}} for 6 [pani puri](/calories/pani-puri/), because of the sev."
+        }
+      ],
+      "related": [
+        "bhel-puri",
+        "pani-puri",
+        "samosa",
+        "kachori"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Assembled plate. Papdi 6 x 4 g = maida 14.8 g + oil 9.2 g; sev 15 g = besan 9.1 g + oil 5.9 g. Moisture lost in frying isn't counted.",
+        "Potato 40 g, onion 15 g, tomato 10 g, coriander 5 g and 2 tablespoons of sweet chutney are typical amounts, stated as assumptions.",
+        "No independent analysed value for sev puri was found (IFCT, NIN Annexure 8, USDA FNDDS).",
+        "Changes list: sev 15 g = 82 kcal; papdi 4 g = 22 kcal; curd 60 g = 37 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Maida (A018), Bengal gram dal (B001) as besan, potato, onion, tomato, tamarind, jaggery, coriander, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Gupta et al., Unhealthy fat in street and snack foods, Journal of Nutrition Education and Behavior, 2016",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4826272",
+          "note": "Measured fat in bhujia (39.61%) and mathri (38.50%), Delhi urban slum",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC281, saunth chutney",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "kachori",
+      "name": "Kachori",
+      "nameLower": "kachori",
+      "category": "street",
+      "aliases": [
+        "khasta kachori",
+        "dal kachori",
+        "urad dal kachori",
+        "matar kachori",
+        "pyaz kachori",
+        "kachodi",
+        "कचौड़ी",
+        "खस्ता कचौरी",
+        "કચોરી"
+      ],
+      "updated": "2026-10-11",
+      "title": "Kachori calories: home kachori and measured street kachoris",
+      "description": "A home khasta kachori has about {{kcal:one}} calories; street kachoris tested in a lab came to about {{outLo}} to {{outHi}}. With aloo sabzi.",
+      "answer": "A small home khasta kachori has about {{kcal:one}} calories. Street kachoris, which a lab study found bigger and much oilier, are about {{outLo}} to {{outHi}} each.",
+      "intro": [
+        "Khasta kachori is a flaky maida pastry, rubbed with plenty of oil or ghee, filled with spiced urad or moong dal and deep-fried slowly until it puffs and crisps. Matar kachori is filled with peas, and Rajasthani pyaz kachori with onion. In north India it's a breakfast with aloo sabzi.",
+        "Even before frying, oil in the dough and filling is about a third of a home kachori's calories, and after frying it's close to half. Street kachoris hold much more."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Home kachoris, fried in fresh oil, as below.",
+      "recipe": {
+        "label": "Recipe: 100 g maida with 30 g urad dal filling, deep-fried into 7 kachoris",
+        "ingredients": [
+          {
+            "id": "maida",
+            "g": 100
+          },
+          {
+            "id": "oil",
+            "g": 20.4,
+            "note": "1½ tablespoons, rubbed into the dough"
+          },
+          {
+            "id": "urad_dal",
+            "g": 30,
+            "note": "soaked and ground for the filling"
+          },
+          {
+            "id": "oil",
+            "g": 9,
+            "note": "2 teaspoons, for the filling"
+          },
+          {
+            "id": "lemon_juice",
+            "g": 24,
+            "note": "half a lemon"
+          },
+          {
+            "id": "chilli_powder",
+            "g": 1.35
+          },
+          {
+            "id": "fennel",
+            "g": 0.5
+          },
+          {
+            "id": "cumin",
+            "g": 0.5
+          },
+          {
+            "id": "water",
+            "g": 45,
+            "note": "3 tablespoons, for a stiff dough"
+          },
+          {
+            "id": "oil",
+            "g": 13.9,
+            "note": "Taken up in frying: a stated assumption, so a kachori is about 18% fat"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no measured cooked weight; the raw dough, filling and oil come to about 35 g a kachori"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 khasta kachori (small)",
+          "short": "a kachori",
+          "fraction": 0.1429,
+          "cookedGrams": null,
+          "kcal": 120,
+          "protein": 3,
+          "carbs": 13,
+          "fat": 6
+        },
+        {
+          "id": "two",
+          "label": "2 kachoris",
+          "short": "2 kachoris",
+          "fraction": 0.2857,
+          "cookedGrams": null,
+          "kcal": 240,
+          "protein": 5,
+          "carbs": 26,
+          "fat": 13
+        },
+        {
+          "id": "with_sabzi",
+          "label": "2 kachoris with a 200 ml katori of aloo sabzi",
+          "short": "with aloo sabzi",
+          "fraction": 0.2857,
+          "add": [
+            {
+              "id": "potato",
+              "g": 100
+            },
+            {
+              "id": "tomato",
+              "g": 50
+            },
+            {
+              "id": "onion",
+              "g": 30
+            },
+            {
+              "id": "oil",
+              "g": 9
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 415,
+          "protein": 7,
+          "carbs": 45,
+          "fat": 22
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Street or sweet shop (measured)",
+        "caption": "One kachori. The range is the two street kachoris measured by Gupta et al.: 56 g with 17.8 g fat, and 54 g with 25.1 g fat.",
+        "fatFactor": [
+          1.77,
+          2.6
+        ],
+        "sizeFactor": [
+          1.59,
+          1.54
+        ],
+        "basis": "Calibrated to Gupta et al. 2016, which bought and analysed kachoris from vendors: a village kachori of 55.70 g with 17.82 g fat, and a Delhi urban slum kachori of 53.83 g with 25.09 g fat. Size factor = vendor weight against about 35 g here; fat factor chosen so total fat matches the measured fat.",
+        "text": [
+          "A peer-reviewed study bought kachoris from vendors in Delhi and a nearby village and tested them in a lab. They weighed 54 to 56 g, about one and a half times this home kachori, and held 32% and 47% fat.",
+          "The range below uses those two measured kachoris. Oil used again and again, and a thick, oil-rich crust, are the usual reasons street kachoris hold so much."
+        ],
+        "kcalRange": [
+          260,
+          320
+        ],
+        "fatRange": [
+          18,
+          25
+        ]
+      },
+      "changes": [
+        "Size and frying matter most. A street kachori can be one and a half times this one, with two to three times the fat.",
+        "The oil or ghee rubbed into the dough (moyan) makes it flaky and adds about 40 to 45 calories per teaspoon to the batch.",
+        "Matar and pyaz kachori fillings are a little lighter than dal; raj kachori, filled with curd and chutneys, is much more.",
+        "Aloo sabzi with it is a separate dish: see [aloo sabzi](/calories/aloo-sabzi/)."
+      ],
+      "method": [
+        "The recipe is the khasta kachori in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g maida rubbed with 1½ tablespoons of oil, filled with 30 g of spiced urad dal cooked in 2 teaspoons of oil, making 7 kachoris. Values are from IFCT 2017.",
+        "The databank counts all the frying oil as eaten. This page assumes a fresh home kachori ends up about 18% fat, the oil content measured in lab-fried samosa pastry (18.3%), which works out to about 2 g of oil taken up per kachori."
+      ],
+      "range": {
+        "text": "ICMR-NIN counts 2 pea kachoris at 380 calories, 190 each, between this small home kachori and the street ones measured in Delhi. Depending on size and oil, a kachori is anywhere from about {{kcal:one}} to {{outHi}} calories.",
+        "reason": "NIN's pea kachori (190 kcal each) is 57% above this page's small home kachori; Gupta et al.'s street kachoris are higher again. Size and fat differ. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 kachori?",
+          "a": "About {{kcal:one}} for a small home khasta kachori, and about {{outLo}} to {{outHi}} for a street kachori."
+        },
+        {
+          "q": "How many calories are in kachori with aloo sabzi?",
+          "a": "About {{kcal:with_sabzi}} for 2 home kachoris with a 200 ml katori of aloo sabzi."
+        },
+        {
+          "q": "How much fat is in a kachori?",
+          "a": "About {{fat:one}} g in this home kachori. Street kachoris tested in a lab held 17.8 g and 25.1 g."
+        },
+        {
+          "q": "Which has more calories, kachori or samosa?",
+          "a": "A home [samosa](/calories/samosa/), about {{kcal@samosa:one}}, is bigger than this small khasta kachori at about {{kcal:one}}. Street versions of both are much higher."
+        }
+      ],
+      "related": [
+        "samosa",
+        "aloo-sabzi",
+        "vada-pav",
+        "jalebi"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: pea kachori, 2",
+          "portionId": "two",
+          "kcal": 380,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "ours": 242,
+          "differencePct": 57
+        }
+      ],
+      "judgement": [
+        "Home oil uptake: fat set to 18.3% of raw dough, filling and oil (Sakhale et al. 2011, lab-fried samosa pastry). Own fat = 30.9 g; (30.9 + x) / (230.8 + x) = 0.183 gives x = 13.9 g for 7 kachoris. Moisture lost in frying isn't counted.",
+        "Street kachoris (Gupta et al. 2016, Tables 1 and 2): village 55.70 g, 17.82 g fat; urban 53.83 g, 25.09 g fat. Size 55.70 / 34.96 = 1.59 and 53.83 / 34.96 = 1.54; fat factors 1.77 and 2.60 solve for the measured fat.",
+        "Lemon '0.5 lemon' = 24 g juice (USDA). Asafoetida left out. INDB counts 480 ml frying oil (713 kcal per 100 g), so its values aren't used.",
+        "Aloo sabzi row: a 200 ml katori from the aloo sabzi page's recipe, 100 g potato, 50 g tomato, 30 g onion and 9 g oil (spices left out)."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Maida (A018), black gram dal (B003), lemon juice, potato, tomato, onion, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC365, khasta kachori",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Gupta et al., Unhealthy fat in street and snack foods, Journal of Nutrition Education and Behavior, 2016",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4826272",
+          "note": "Measured kachori weight and fat, village and Delhi urban slum",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Sakhale et al., oil uptake in samosa, Journal of Food Science and Technology, 2011",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3551041",
+          "note": "Lab-fried samosa pastry, 18.34% oil",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: pea kachori 380 kcal for 2",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Spices, chili powder (171319)",
+          "url": "https://fdc.nal.usda.gov/food-details/171319/nutrients",
+          "note": "Red chilli powder",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "momos",
+      "name": "Momos",
+      "nameLower": "momos",
+      "category": "street",
+      "aliases": [
+        "momo",
+        "veg momos",
+        "steamed momos",
+        "chicken momos",
+        "fried momos",
+        "dumplings",
+        "मोमो",
+        "मोमोज",
+        "મોમોઝ"
+      ],
+      "updated": "2026-10-11",
+      "title": "Momos calories: per piece and per plate, steamed or fried",
+      "description": "One steamed veg momo (25 g) has about {{kcal:one}} calories, so a plate of 6 is about {{kcal:plate6}}. Fried momos and chicken momos compared.",
+      "answer": "One steamed veg momo (about 25 g) has about {{kcal:one}} calories. A plate of 6 is about {{kcal:plate6}}, before the chutney or mayonnaise.",
+      "intro": [
+        "Momos are dumplings of thin maida dough filled with cabbage, carrot, onion and ginger, or with minced chicken, then pleated and steamed. They came from Tibet and Nepal through Darjeeling and Sikkim, and are now sold at street carts across north India, steamed, fried or tandoori.",
+        "The maida wrapper is about four fifths of a veg momo's calories. Frying adds a lot; the red chutney adds little, and mayonnaise adds a lot."
+      ],
+      "headlinePortion": "plate6",
+      "portionsCaption": "Steamed veg momos, 25 g each, made as below. Chutney not included.",
+      "recipe": {
+        "label": "Recipe: 200 g maida dough with 225 g vegetable filling and 3 teaspoons of oil",
+        "ingredients": [
+          {
+            "id": "maida",
+            "g": 200
+          },
+          {
+            "id": "water",
+            "g": 100,
+            "note": "for the dough: an assumption, no calories"
+          },
+          {
+            "id": "cabbage",
+            "g": 100
+          },
+          {
+            "id": "carrot",
+            "g": 100
+          },
+          {
+            "id": "onion",
+            "g": 25,
+            "note": "spring onion"
+          },
+          {
+            "id": "ginger",
+            "g": 10
+          },
+          {
+            "id": "garlic",
+            "g": 1.25
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3
+          },
+          {
+            "id": "black_pepper",
+            "g": 1.2
+          },
+          {
+            "id": "oil",
+            "g": 13.5,
+            "note": "3 teaspoons"
+          }
+        ],
+        "cookedYieldG": 554,
+        "yieldNote": "the ingredients added together; at 25 g a momo, the size USDA lists for a dumpling, that's about 22 momos"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 momo (25 g)",
+          "short": "a momo",
+          "grams": 25,
+          "cookedGrams": 25,
+          "kcal": 40,
+          "protein": 1,
+          "carbs": 7,
+          "fat": 1
+        },
+        {
+          "id": "plate6",
+          "label": "1 plate (6 momos)",
+          "short": "a plate of 6",
+          "grams": 150,
+          "cookedGrams": 150,
+          "kcal": 245,
+          "protein": 6,
+          "carbs": 44,
+          "fat": 4
+        },
+        {
+          "id": "plate8",
+          "label": "1 plate (8 momos)",
+          "short": "a plate of 8",
+          "grams": 200,
+          "cookedGrams": 200,
+          "kcal": 325,
+          "protein": 9,
+          "carbs": 58,
+          "fat": 6
+        },
+        {
+          "id": "plate10",
+          "label": "10 momos",
+          "short": "10 momos",
+          "grams": 250,
+          "cookedGrams": 250,
+          "kcal": 405,
+          "protein": 11,
+          "carbs": 73,
+          "fat": 7
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 165,
+          "protein": 4,
+          "carbs": 29,
+          "fat": 3
+        }
+      ],
+      "outside": {
+        "portionId": "plate6",
+        "label": "Street cart, steamed or fried",
+        "caption": "A plate of 6. The outside range runs from steamed to fried, adding up to 11.6 g of oil, at USDA's fried dumpling fat.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "oil",
+            "g": [
+              0,
+              11.6
+            ]
+          }
+        ],
+        "basis": "USDA FNDDS lists a fried dumpling at 11.1 g fat per 100 g against 3.4 g for a steamed one with no meat, so frying adds about 7.7 g of fat per 100 g, or 11.6 g for 150 g of momos.",
+        "text": [
+          "Street carts sell momos steamed, fried, or tossed in sauce. Frying adds a lot: USDA's fried dumplings have about three times the fat of steamed ones. Mayonnaise on the side adds about 100 calories a tablespoon.",
+          "The range below runs from a steamed plate of 6 to the same plate fried, using USDA's figures for steamed and fried dumplings."
+        ],
+        "kcalRange": [
+          245,
+          345
+        ],
+        "fatRange": [
+          4,
+          16
+        ]
+      },
+      "changes": [
+        "Fried or tandoori momos have much more fat than steamed ones.",
+        "Mayonnaise adds about 100 calories a tablespoon; the red chilli-garlic chutney adds very little.",
+        "Chicken momos are close per piece: USDA's steamed dumplings with meat are 113 calories per 100 g, against 125 without.",
+        "Paneer and cheese momos have more fat in the filling."
+      ],
+      "method": [
+        "No standard textbook in the Indian Nutrient Databank has momos, so this uses a published dietitian's recipe from NephroPlus: 200 g maida with 100 g each of cabbage and carrot, 25 g spring onion, garlic, ginger, green chilli and pepper, cooked in 3 teaspoons of oil. Values are from IFCT 2017.",
+        "The recipe's water isn't stated; 100 ml is assumed for a stiff dough and only affects weight. Each momo is taken as 25 g, the size USDA lists for a dumpling."
+      ],
+      "range": {
+        "text": "USDA's steamed dumpling with no meat is about 125 calories per 100 g, below this page's {{kcal:g100}}, because its wrapper is thinner. A plate of 6 steamed veg momos is usually between about 190 and {{kcal:plate6}}.",
+        "reason": "USDA FNDDS dumpling, no meat (125 kcal per 100 g) is 23% below this page's momos, which have a thicker maida wrapper. Shown as a range."
+      },
+      "faq": [
+        {
+          "q": "How many calories are in 1 momo?",
+          "a": "About {{kcal:one}} for a 25 g steamed veg momo."
+        },
+        {
+          "q": "How many calories are in a plate of momos?",
+          "a": "About {{kcal:plate6}} for 6 steamed veg momos, {{kcal:plate8}} for 8 and {{kcal:plate10}} for 10, before chutney or mayonnaise."
+        },
+        {
+          "q": "How many calories are in fried momos?",
+          "a": "About {{outHi}} for a plate of 6 fried, against {{kcal:plate6}} steamed."
+        },
+        {
+          "q": "How much protein is in momos?",
+          "a": "About {{protein:plate6}} g in a plate of 6 veg momos. Chicken momos have more."
+        }
+      ],
+      "related": [
+        "samosa",
+        "vada-pav",
+        "pani-puri",
+        "masala-chai"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [
+        {
+          "source": "USDA FNDDS 2021-2023, Dumpling, no meat (55610300)",
+          "kcalPer100g": 125,
+          "url": "https://fdc.nal.usda.gov/food-details/2708344/nutrients",
+          "ours": 163,
+          "differencePct": -23
+        }
+      ],
+      "judgement": [
+        "Recipe: NephroPlus vegetable steamed momos (maida 1 cup = 200 g as stated, carrot 100 g, cabbage 100 g, spring onion 25 g, garlic 2 cloves, ginger 1 inch, green chilli 1, pepper 0.5 tsp, oil 3 tsp). Spring onion valued as onion. Ginger 1 inch = 10 g, as on the thepla page.",
+        "Water 100 ml (half the flour) is an assumption; with it the recipe weighs 554 g, about 22 momos at USDA's 25 g per dumpling.",
+        "Fried range: FNDDS 58111120 fried dumpling, no meat, 11.1 g fat per 100 g; FNDDS 55610300 steamed, 3.37 g. (11.1 - 3.37) x 1.5 = 11.6 g oil for 150 g.",
+        "Range low end: 125 kcal per 100 g x 150 g = 188 kcal.",
+        "Mayonnaise in the changes list: USDA 1 tbsp = 13.8 g (INDB unit table) at about 680 kcal per 100 g, about 94 kcal."
+      ],
+      "sources": [
+        {
+          "title": "NephroPlus, Vegetable steamed momos (dietitian recipe)",
+          "url": "https://nephroplus.com/recipes/vegetable-steamed-momos",
+          "note": "Ingredients in grams",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Maida (A018), cabbage (C015), carrot (F002), onion, ginger, garlic, green chilli, black pepper, oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Dumpling, no meat (2708344)",
+          "url": "https://fdc.nal.usda.gov/food-details/2708344/nutrients",
+          "note": "125 kcal and 3.37 g fat per 100 g; 25 g per item",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Wonton, dumpling or pot sticker, fried, no meat (2708706)",
+          "url": "https://fdc.nal.usda.gov/food-details/2708706/nutrients",
+          "note": "192 kcal and 11.1 g fat per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Wonton, dumpling or pot sticker, steamed (2708708)",
+          "url": "https://fdc.nal.usda.gov/food-details/2708708/nutrients",
+          "note": "113 kcal per 100 g, with meat",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 165,
+        "protein": 4,
+        "carbs": 29,
+        "fat": 3
+      }
+    },
+    {
+      "slug": "sabudana-khichdi",
+      "name": "Sabudana khichdi",
+      "nameLower": "sabudana khichdi",
+      "category": "fasting",
+      "aliases": [
+        "sabudana khichadi",
+        "sago khichdi",
+        "sabakki khichdi",
+        "sabudana",
+        "javvarisi upma",
+        "साबूदाना खिचड़ी",
+        "साबूदाना",
+        "સાબુદાણા ખીચડી"
+      ],
+      "updated": "2026-10-11",
+      "title": "Sabudana khichdi calories: per plate and per bowl",
+      "description": "A plate of sabudana khichdi with peanuts, potato and ghee has about {{kcal:plate}} calories. Fasting-day portions, with and without peanuts.",
+      "answer": "A plate of sabudana khichdi (50 g of dry sabudana with potato, peanuts and a tablespoon of ghee) has about {{kcal:plate}} calories.",
+      "intro": [
+        "Sabudana khichdi is soaked tapioca pearls tossed with crushed roasted peanuts, potato, green chilli, cumin and curry leaves in ghee, finished with lemon and sugar. It's the standard Navratri, Ekadashi and Mahashivratri food in Maharashtra, Gujarat and much of north India.",
+        "Sabudana is almost pure starch, and the peanuts and ghee add a lot of fat, so a plate is more filling in calories than it looks: in this recipe the ghee and peanuts together are close to half of it."
+      ],
+      "headlinePortion": "plate",
+      "portionsCaption": "Sabudana khichdi made as below.",
+      "recipe": {
+        "label": "Recipe: 150 g sabudana with potato, peanuts, coconut and 3 tablespoons of ghee, for 3 plates",
+        "ingredients": [
+          {
+            "id": "sabudana",
+            "g": 152,
+            "note": "1 cup, dry weight before soaking"
+          },
+          {
+            "id": "potato",
+            "g": 140
+          },
+          {
+            "id": "groundnut",
+            "g": 73,
+            "note": "half a cup, roasted and crushed"
+          },
+          {
+            "id": "coconut_dry",
+            "g": 20,
+            "note": "grated"
+          },
+          {
+            "id": "ghee",
+            "g": 38.4,
+            "note": "3 tablespoons"
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3
+          },
+          {
+            "id": "cumin",
+            "g": 2.1
+          },
+          {
+            "id": "ginger",
+            "g": 5
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 2
+          },
+          {
+            "id": "sugar",
+            "g": 3.2,
+            "note": "about ¾ teaspoon"
+          },
+          {
+            "id": "lemon_juice",
+            "g": 3.75
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no cooked weight used; each plate is a third of the recipe"
+      },
+      "portions": [
+        {
+          "id": "small",
+          "label": "1 small bowl (25 g dry sabudana)",
+          "short": "a small bowl",
+          "fraction": 0.1667,
+          "cookedGrams": null,
+          "kcal": 250,
+          "protein": 4,
+          "carbs": 29,
+          "fat": 13
+        },
+        {
+          "id": "plate",
+          "label": "1 plate (50 g dry sabudana)",
+          "short": "a plate",
+          "fraction": 0.3333,
+          "cookedGrams": null,
+          "kcal": 505,
+          "protein": 7,
+          "carbs": 58,
+          "fat": 27
+        },
+        {
+          "id": "plate_curd",
+          "label": "1 plate with 100 g curd",
+          "short": "with curd",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "curd",
+              "g": 100
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 565,
+          "protein": 11,
+          "carbs": 62,
+          "fat": 30
+        }
+      ],
+      "outside": {
+        "portionId": "plate",
+        "label": "Fasting thali or stall",
+        "caption": "One plate. The outside range is 1 to 1.3 times the size, with up to half as much ghee again.",
+        "fatFactor": [
+          1,
+          1.5
+        ],
+        "sizeFactor": [
+          1,
+          1.3
+        ],
+        "basis": "No analysed value for stall or restaurant sabudana khichdi was found. A plate up to 1.3 times as big with up to 1.5 times the ghee is a stated assumption.",
+        "text": [
+          "Sabudana khichdi from a Navratri stall or a fasting thali is often a bigger plate, cooked in more ghee or oil.",
+          "No lab has measured it, so the range below allows a plate up to 1.3 times this one, with up to half as much ghee again."
+        ],
+        "kcalRange": [
+          505,
+          730
+        ],
+        "fatRange": [
+          27,
+          43
+        ]
+      },
+      "changes": [
+        "Ghee is a big part: each tablespoon across the pot adds about 113 calories, about 38 to each plate.",
+        "Peanuts add about 125 calories a plate here. Fewer peanuts lowers it noticeably.",
+        "More potato and less sabudana lowers it a little; both are starch, but potato holds more water.",
+        "Coconut adds about 40 calories a plate."
+      ],
+      "method": [
+        "The recipe is the sabudana khichdi in the Indian Nutrient Databank's open recipe set: 1 cup (152 g) of sabudana with 2 medium potatoes, half a cup of peanuts, grated coconut and 3 tablespoons of ghee, for 3 plates. Values are from IFCT 2017, with sabudana from USDA's tapioca pearls since IFCT 2017 has no sago.",
+        "Soaking adds water, not calories, so each plate is a third of the recipe."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 plate of sabudana khichdi?",
+          "a": "About {{kcal:plate}} for a plate made from 50 g of dry sabudana with its share of potato, peanuts and ghee."
+        },
+        {
+          "q": "How many calories are in sabudana khichdi without peanuts?",
+          "a": "About 125 fewer per plate: the peanuts are about a quarter of it."
+        },
+        {
+          "q": "How much protein is in sabudana khichdi?",
+          "a": "About {{protein:plate}} g in a plate, almost all from the peanuts. Sabudana itself has almost no protein; curd on the side adds more."
+        },
+        {
+          "q": "How many calories are in 100 g of dry sabudana?",
+          "a": "{{ing:sabudana}} calories, according to USDA's values for tapioca pearls."
+        }
+      ],
+      "related": [
+        "kuttu-puri",
+        "makhana",
+        "aloo-sabzi",
+        "khichdi"
+      ],
+      "useCase": {
+        "href": "/for/fasting/",
+        "label": "Counting calories on fasting days"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Open-source recipe OSR099 (INDB). INDB's serving count of 3 is marked as guessed; kept.",
+        "Sabudana valued as USDA tapioca pearl, dry (FDC 169717). INDB maps it to its own sago entry.",
+        "Ghee 3 tbsp = 38.4 g (USDA tbsp of ghee, 12.8 g). Sugar 0.75 tsp = 3.2 g. Coconut grated 0.25 cup = 20 g dry (INDB).",
+        "No independent analysed value for sabudana khichdi was found (IFCT, NIN Annexure 8, USDA FNDDS). NIN's sago vada is a different dish.",
+        "Changes list: peanuts 73 / 3 = 24.3 g per plate = 126 kcal; coconut 20 / 3 = 6.7 g = 42 kcal; ghee per tbsp 12.8 x 8.84 = 113 kcal."
+      ],
+      "sources": [
+        {
+          "title": "USDA FoodData Central, Tapioca, pearl, dry (169717)",
+          "url": "https://fdc.nal.usda.gov/food-details/169717/nutrients",
+          "note": "Sabudana, 358 kcal per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Potato, groundnut (H012), coconut dry (H006), ghee, green chilli, cumin, ginger, coriander, lemon juice; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Open-source recipe OSR099, sago khichdi",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "Sugar",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "kuttu-puri",
+      "name": "Kuttu puri",
+      "nameLower": "kuttu puri",
+      "category": "fasting",
+      "aliases": [
+        "kuttu ki puri",
+        "kuttu atta puri",
+        "buckwheat puri",
+        "kuttu poori",
+        "vrat ki puri",
+        "कुट्टू की पूरी",
+        "कुट्टू पूरी",
+        "કુટ્ટુ પૂરી"
+      ],
+      "updated": "2026-10-11",
+      "title": "Kuttu puri calories: 1, 2 or 4 puris",
+      "description": "One kuttu puri made with about 13 g of buckwheat flour has about {{kcal:one}} calories once fried; 4 puris have about {{kcal:four}}. For Navratri.",
+      "answer": "One kuttu puri (about 13 g of kuttu atta with a little potato, deep-fried) has about {{kcal:one}} calories. Four have about {{kcal:four}}.",
+      "intro": [
+        "Kuttu puri is made from buckwheat flour, which has no gluten, so the dough is bound with boiled potato and rolled out between sheets before deep-frying. It's eaten on Navratri and other fasting days with aloo sabzi and curd, when wheat and rice are avoided.",
+        "Kuttu flour has about the same calories per gram as wheat atta. As with any puri, the oil it takes up in frying is about half its calories."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Fried at home in fresh oil, as below.",
+      "recipe": {
+        "label": "Recipe: 80 g kuttu atta and 40 g boiled potato, deep-fried into 6 puris",
+        "ingredients": [
+          {
+            "id": "kuttu",
+            "g": 80
+          },
+          {
+            "id": "potato",
+            "g": 40,
+            "note": "boiled and mashed, to bind the dough: an assumption"
+          },
+          {
+            "id": "water",
+            "g": 20,
+            "note": "a little, to knead"
+          },
+          {
+            "id": "oil",
+            "g": 38,
+            "note": "Taken up in frying: a stated assumption, so a puri is about 25% fat"
+          }
+        ],
+        "cookedYieldG": 163,
+        "yieldNote": "the flour and potato's non-fat solids (76.7 g) at USDA's puri composition, 28% water and 24.9% fat, so 76.7 / 0.4706"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 kuttu puri",
+          "short": "a puri",
+          "fraction": 0.1667,
+          "cookedGrams": 27,
+          "kcal": 105,
+          "protein": 2,
+          "carbs": 9,
+          "fat": 7
+        },
+        {
+          "id": "two",
+          "label": "2 kuttu puris",
+          "short": "2 puris",
+          "fraction": 0.3333,
+          "cookedGrams": 54,
+          "kcal": 210,
+          "protein": 4,
+          "carbs": 18,
+          "fat": 14
+        },
+        {
+          "id": "four",
+          "label": "4 kuttu puris",
+          "short": "4 puris",
+          "fraction": 0.6667,
+          "cookedGrams": 109,
+          "kcal": 420,
+          "protein": 7,
+          "carbs": 36,
+          "fat": 27
+        },
+        {
+          "id": "four_sabzi",
+          "label": "4 puris with a 200 ml katori of aloo sabzi",
+          "short": "with aloo sabzi",
+          "fraction": 0.6667,
+          "hideGrams": true,
+          "add": [
+            {
+              "id": "potato",
+              "g": 100
+            },
+            {
+              "id": "tomato",
+              "g": 50
+            },
+            {
+              "id": "ghee",
+              "g": 9
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 580,
+          "protein": 9,
+          "carbs": 53,
+          "fat": 36
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Fasting thali or sweet shop",
+        "caption": "One puri. The outside range is up to 1.3 times the size, with up to about a fifth more oil.",
+        "fatFactor": [
+          1,
+          1.22
+        ],
+        "sizeFactor": [
+          1,
+          1.3
+        ],
+        "basis": "Fat up to 1.22 times: Jain et al. 2024 found total fat in Indian fried foods rose from a mean of 22.5% to 27.4% of dry weight between the 1st and 32nd frying in the same oil. Puris up to 1.3 times as big are a stated assumption.",
+        "text": [
+          "Kuttu puris from a sweet shop or a Navratri thali are often a little bigger, and fried in oil that's been used many times.",
+          "A lab study found fried foods took up about a fifth more fat after 32 fryings in the same oil. The range below uses that, with puris up to 1.3 times this size."
+        ],
+        "kcalRange": [
+          105,
+          155
+        ],
+        "fatRange": [
+          7,
+          11
+        ]
+      },
+      "changes": [
+        "As with any puri, size and frying oil decide the number.",
+        "Kuttu flour is close to wheat atta per gram: USDA puts it at {{ing:kuttu}} calories per 100 g, against {{ing:atta}} for atta in IFCT 2017.",
+        "Singhara (water chestnut) and rajgira (amaranth) puris are similar per gram.",
+        "Aloo sabzi and curd with it are counted separately."
+      ],
+      "method": [
+        "No standard textbook in the Indian Nutrient Databank has kuttu puri, so this follows the textbook puri on the puri page with kuttu atta in place of wheat, bound with 40 g of boiled potato (an assumption, since buckwheat has no gluten). Kuttu values are from USDA's buckwheat flour; potato and oil from IFCT 2017.",
+        "As on the puri page, the oil taken up is set so the puri matches USDA's puri composition, 24.9% fat, which is about 6 g per puri."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 kuttu puri?",
+          "a": "About {{kcal:one}} for a home kuttu puri made with about 13 g of flour."
+        },
+        {
+          "q": "How many calories are in 4 kuttu puris?",
+          "a": "About {{kcal:four}} for 4, and about {{kcal:four_sabzi}} with a 200 ml katori of aloo sabzi cooked in ghee."
+        },
+        {
+          "q": "Is a kuttu puri lighter than a wheat puri?",
+          "a": "No, about the same. A home [puri](/calories/puri/) of a similar size is about {{kcal@puri:one}}; the oil decides most of the difference."
+        },
+        {
+          "q": "How much protein is in a kuttu puri?",
+          "a": "About {{protein:one}} g."
+        }
+      ],
+      "related": [
+        "puri",
+        "sabudana-khichdi",
+        "makhana",
+        "aloo-sabzi"
+      ],
+      "useCase": {
+        "href": "/for/fasting/",
+        "label": "Counting calories on fasting days"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Adapted recipe: the puri page's ASC107 structure (80 g flour for 6 puris) with kuttu atta (USDA FDC 170687) and 40 g boiled potato as a binder (assumption).",
+        "Oil taken up: non-fat solids = kuttu 80 x (1 - 0.112 - 0.031) = 68.6 g + potato 40 x (1 - 0.795 - 0.002) = 8.1 g = 76.7 g. Fat = 76.7 x 24.94 / 47.06 = 40.6 g; minus own fat 2.6 g = 38 g of oil for 6 puris.",
+        "No analysed value for kuttu puri was found (IFCT, NIN Annexure 8, USDA FNDDS).",
+        "Aloo sabzi row: a 200 ml katori of fasting aloo sabzi, 100 g potato, 50 g tomato and 9 g ghee (no onion or garlic)."
+      ],
+      "sources": [
+        {
+          "title": "USDA FoodData Central, Buckwheat flour, whole-groat (170687)",
+          "url": "https://fdc.nal.usda.gov/food-details/170687/nutrients",
+          "note": "Kuttu atta, 335 kcal per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Potato (F006), tomato, ghee, oil; wheat atta (A019) for comparison; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC107, poori (structure)",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Bread, puri (2707714)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707714/nutrients",
+          "note": "24.9 g fat and 28 g water per 100 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Jain, Passi and Selvamurthy, Total fat and fatty acid profile of Indian fried foods, Journal of Food Science and Technology, 2024",
+          "url": "https://europepmc.org/articles/PMC11465016",
+          "note": "Total fat in fried foods, 1st against 32nd frying cycle",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 390,
+        "protein": 7,
+        "carbs": 33,
+        "fat": 25
+      }
+    },
+    {
+      "slug": "makhana",
+      "name": "Makhana",
+      "nameLower": "makhana",
+      "category": "fasting",
+      "aliases": [
+        "phool makhana",
+        "fox nut",
+        "foxnut",
+        "lotus seeds",
+        "roasted makhana",
+        "makhane",
+        "मखाना",
+        "फूल मखाना",
+        "મખાણા"
+      ],
+      "updated": "2026-10-11",
+      "title": "Makhana calories: per cup, 20 g, 50 g and roasted in ghee",
+      "description": "A cup of plain makhana (32 g) has about {{kcal:cup}} calories; 30 g roasted in a teaspoon of ghee about {{kcal:ghee30}}. Per 100 g and packaged.",
+      "answer": "A cup of plain makhana (about 32 g) has about {{kcal:cup}} calories. 30 g roasted in a teaspoon of ghee comes to about {{kcal:ghee30}}.",
+      "intro": [
+        "Makhana, or phool makhana, is the popped seed of the fox nut, a water lily grown mostly in Bihar's ponds and wetlands. It's eaten roasted with a little ghee and salt as a snack, in kheer, and in curries, and it's a common fasting-day food.",
+        "Makhana is very light by volume: a full cup weighs only about 32 g. Per gram it's a dry starch, about the same as rice, and roasting it in ghee adds to it."
+      ],
+      "headlinePortion": "cup",
+      "portionsCaption": "Dry makhana, plain unless stated.",
+      "recipe": {
+        "label": "100 g of dry makhana",
+        "ingredients": [
+          {
+            "id": "makhana",
+            "g": 100,
+            "note": "Dry, popped"
+          }
+        ],
+        "cookedYieldG": 100,
+        "yieldNote": "dry makhana, not cooked; roasting doesn't change the weight much"
+      },
+      "portions": [
+        {
+          "id": "cup",
+          "label": "1 cup (about 32 g)",
+          "short": "a cup",
+          "grams": 32,
+          "cookedGrams": 32,
+          "kcal": 105,
+          "protein": 5,
+          "carbs": 21,
+          "fat": 1
+        },
+        {
+          "id": "g20",
+          "label": "20 g",
+          "short": "20 g",
+          "grams": 20,
+          "cookedGrams": 20,
+          "kcal": 65,
+          "protein": 3,
+          "carbs": 13,
+          "fat": 0
+        },
+        {
+          "id": "katori",
+          "label": "1 katori (about 15 g)",
+          "short": "a katori",
+          "grams": 15,
+          "cookedGrams": 15,
+          "kcal": 50,
+          "protein": 2,
+          "carbs": 10,
+          "fat": 0
+        },
+        {
+          "id": "ghee30",
+          "label": "30 g roasted in 1 tsp ghee",
+          "short": "roasted in ghee",
+          "grams": 30,
+          "add": [
+            {
+              "id": "ghee",
+              "g": 5
+            }
+          ],
+          "cookedGrams": 30,
+          "kcal": 145,
+          "protein": 5,
+          "carbs": 19,
+          "fat": 6
+        },
+        {
+          "id": "g50",
+          "label": "50 g",
+          "short": "50 g",
+          "grams": 50,
+          "cookedGrams": 50,
+          "kcal": 165,
+          "protein": 8,
+          "carbs": 32,
+          "fat": 1
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 330,
+          "protein": 15,
+          "carbs": 65,
+          "fat": 2
+        }
+      ],
+      "outside": {
+        "portionId": "ghee30",
+        "label": "Packaged or shop-roasted",
+        "caption": "30 g. The outside range adds 2.5 to 10 g more oil, so 1.5 to 3 times the fat of a teaspoon of ghee.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "oil",
+            "g": [
+              2.5,
+              10
+            ]
+          }
+        ],
+        "basis": "No analysed value for packaged flavoured makhana was used. Packaged makhana is roasted in oil with seasoning; 1.5 to 3 times the fat of 30 g roasted in a teaspoon of ghee is a stated assumption. Check the packet's label.",
+        "text": [
+          "Packaged and shop-roasted makhana is usually roasted in more oil, with flavourings such as peri peri, cheese or pudina, and the label often lists more fat than home-roasted makhana.",
+          "The range below allows 1.5 to 3 times the fat of a teaspoon of ghee on 30 g. Your packet's label will be more exact."
+        ],
+        "kcalRange": [
+          165,
+          230
+        ],
+        "fatRange": [
+          8,
+          16
+        ]
+      },
+      "changes": [
+        "Ghee or oil for roasting adds about 45 calories a teaspoon.",
+        "Makhana is light by volume, so a big bowl can still be under 100 calories. Weigh it once to see what your bowl holds.",
+        "Makhana kheer adds milk and sugar: count those too.",
+        "Per gram, makhana is close to rice and wheat: USDA puts it at {{ing:makhana}} calories per 100 g."
+      ],
+      "method": [
+        "Values are USDA's for dried lotus seeds, the closest analysed match, since IFCT 2017 has no makhana: {{ing:makhana}} calories, 15.4 g of protein and 2 g of fat per 100 g. USDA lists a cup at 32 g.",
+        "The ghee row adds a teaspoon (5 g) of ghee, from IFCT 2017, to 30 g of makhana. The katori row is an assumption of 15 g for a loosely filled 150 ml katori, half of USDA's cup by weight."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 100 g of makhana?",
+          "a": "{{ing:makhana}} calories in 100 g of dry makhana, according to USDA's values for dried lotus seeds."
+        },
+        {
+          "q": "How many calories are in 1 cup of makhana?",
+          "a": "About {{kcal:cup}} for a cup (about 32 g) of plain makhana."
+        },
+        {
+          "q": "How many calories are in roasted makhana with ghee?",
+          "a": "About {{kcal:ghee30}} for 30 g roasted in a teaspoon of ghee."
+        },
+        {
+          "q": "How much protein is in makhana?",
+          "a": "About {{protein:cup}} g in a cup, and about 15 g per 100 g."
+        },
+        {
+          "q": "How many calories are in 50 g of makhana?",
+          "a": "About {{kcal:g50}} for 50 g of plain makhana, and about {{kcal:g20}} for 20 g."
+        }
+      ],
+      "related": [
+        "sabudana-khichdi",
+        "kuttu-puri",
+        "masala-chai",
+        "bhel-puri"
+      ],
+      "useCase": {
+        "href": "/for/fasting/",
+        "label": "Counting calories on fasting days"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Makhana valued as USDA FDC 170149, lotus seeds, dried (332 kcal, 15.4 g protein, 1.97 g fat, 64.5 g carbohydrate per 100 g; no fibre value, so carbohydrate is by difference). Makhana is the seed of Euryale ferox, a different water lily from the lotus; USDA's dried lotus seed is the closest analysed match. IFCT 2017 has no entry.",
+        "Katori 15 g is an assumption (half of USDA's 32 g cup, scaled for a 150 ml katori).",
+        "No second analysed source for makhana was found in IFCT 2017, NIN Annexure 8 or USDA FNDDS."
+      ],
+      "sources": [
+        {
+          "title": "USDA FoodData Central, Seeds, lotus seeds, dried (170149)",
+          "url": "https://fdc.nal.usda.gov/food-details/170149/nutrients",
+          "note": "332 kcal per 100 g; 32 g per cup",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Ghee (T013); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 330,
+        "protein": 15,
+        "carbs": 65,
+        "fat": 2
+      }
     }
   ]
 }
