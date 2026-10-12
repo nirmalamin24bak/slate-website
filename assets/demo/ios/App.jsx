@@ -53,7 +53,7 @@ function App({ label = 'iOS UI kit', storageKey = 'slate-kit-screen' }) {
   return <div className="demo-app" style={{ display: 'flex', gap: 56, padding: 40, justifyContent: 'center', alignItems: 'flex-start' }}>
     <aside className="demo-aside" style={{ width: 232, flex: 'none', paddingTop: 12, display: 'grid', gap: 22 }}>
       <div className="demo-brand" style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-        <img src="/assets/demo/assets/app-icon.png" alt="" width="28" height="28" style={{ width: 28, height: 28, borderRadius: 7 }} />
+        <img src="/assets/demo/assets/app-icon.png?v=2" alt="" width="28" height="28" style={{ width: 28, height: 28, borderRadius: 7 }} />
         <span style={{ font: '700 20px/1 var(--font-sans)', letterSpacing: -0.3 }}>Slate</span>
         <span style={{ font: '400 13px/1 var(--font-sans)', color: 'var(--slate-ink-mute)' }}>{label}</span>
       </div>

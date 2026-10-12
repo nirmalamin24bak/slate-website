@@ -197,19 +197,19 @@ function head({ title, description, path, jsonld, scripts = [], ogType = "websit
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${url}">
-<meta property="og:image" content="${SITE}/assets/og.png">
+<meta property="og:image" content="${SITE}/assets/og.png?v=2">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Slate. A calorie journal that gets out of the way.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(description)}">
-<meta name="twitter:image" content="${SITE}/assets/og.png">
+<meta name="twitter:image" content="${SITE}/assets/og.png?v=2">
 <meta name="theme-color" content="#F7F7F5" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0E0F11" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-<link rel="icon" href="/assets/favicon.png" type="image/png" sizes="32x32">
-<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="icon" href="/assets/favicon.svg?v=2" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon.png?v=2" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=2">
 <link rel="preload" href="/assets/fonts/inter-tight-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-tight-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/style.css?v=${CSS_VERSION}">
@@ -510,7 +510,7 @@ function contentPage(section, page) {
   const graph = [webpage, breadcrumbLd(trail)];
   if (isBlog) {
     graph.push({ "@type": "BlogPosting", "@id": `${SITE}${path}#article`, headline: page.h1, description: page.description,
-      mainEntityOfPage: { "@id": `${SITE}${path}#webpage` }, image: `${SITE}/assets/og.png`, inLanguage: "en-IN",
+      mainEntityOfPage: { "@id": `${SITE}${path}#webpage` }, image: `${SITE}/assets/og.png?v=2`, inLanguage: "en-IN",
       datePublished: page.published, dateModified: page.updated,
       author: { "@type": "Person", name: site.author.name, jobTitle: site.author.jobTitle, worksFor: { "@id": `${SITE}/#organization` } },
       publisher: { "@id": `${SITE}/#organization` } });
