@@ -1,0 +1,37 @@
+/* Inter Tight ramp — from SlateFont.swift. Every face uses tabular numerals. */
+:root {
+  --font-sans: "Inter Tight", -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-numeric: tabular-nums;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-extrabold: 800;
+
+  /* Display: onboarding + detail-screen headlines (ExtraBold 40, tracking -1) */
+  --type-display-size: 40px;
+  --type-display-tracking: -1px;
+  /* Journal page title "Today" (Bold 44, tracking -0.8) */
+  --type-title-size: 44px;
+  --type-title-tracking: -0.8px;
+  /* Day total "1,075" (Bold 32) */
+  --type-total-size: 32px;
+  /* Sheet title "Slate Plus" (Bold 22, tracking -0.3) */
+  --type-sheet-title-size: 22px;
+  --type-sheet-title-tracking: -0.3px;
+  /* Journal line + calorie figure (Regular 18) */
+  --type-line-size: 18px;
+  /* Body / rows / buttons (17) */
+  --type-body-size: 17px;
+  /* Chips, segmented (wide), macro values, subtitles (15) */
+  --type-sub-size: 15px;
+  /* Settings footer links (14), ✓ / ↻ marks */
+  --type-small-size: 14px;
+  /* Footnotes, section headers, water text, PillSegmented (13) */
+  --type-footnote-size: 13px;
+  /* Macro names (12) */
+  --type-caption-size: 12px;
+  /* Plus badge (SemiBold 11) */
+  --type-badge-size: 11px;
+}

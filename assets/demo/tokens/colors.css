@@ -1,0 +1,80 @@
+/* Slate palette — from ios-slate/Slate/Utilities/Palette.swift.
+   Every surface token has a light and dark value. Views read tokens only.
+   Accent is reserved for the resolve shimmer, focus/listening and the Plus badge. */
+:root {
+  --slate-bg: #F7F7F5;
+  --slate-surface: #FFFFFF;
+  --slate-fill: #EFEFEC;
+  --slate-ink: #111214;
+  --slate-ink-mute: #8A8B90;
+  --slate-hairline: #E3E3DF;
+  --slate-track: #ECECE8;
+  --slate-accent: #3E5C9E;
+  --slate-water: #3B82C4;
+  --slate-macro-protein: #2E7D72;
+  --slate-macro-carbs: #C9962B;
+  --slate-macro-fat: #7B4B8A;
+  --slate-destructive: #C4553D;
+  /* Web only (DESIGN.md §2.2): darker mute for 4.5:1 body contrast; the one card shadow */
+  --web-ink-mute: #6E6F74;
+  --web-accent: #3E5C9E;
+  --card-shadow: 0 2px 24px rgb(17 18 20 / 0.06);
+}
+
+/* Aliases re-resolve inside any theme scope so dark values flow through. */
+:root, [data-theme] {
+  --surface-page: var(--slate-bg);
+  --surface-card: var(--slate-surface);
+  --surface-fill: var(--slate-fill);
+  --text-body: var(--slate-ink);
+  --text-muted: var(--slate-ink-mute);
+  --text-on-ink: var(--slate-surface);
+  --border-hairline: var(--slate-hairline);
+  --bar-track: var(--slate-track);
+  --bar-fill: var(--slate-ink);
+  --plus-fg: var(--slate-accent);
+  --plus-bg: rgb(62 92 158 / 0.10);
+  --shimmer-line: rgb(62 92 158 / 0.22);
+  --shimmer-wash: rgb(62 92 158 / 0.10);
+}
+:root { --scrim: rgb(17 18 20 / 0.16); --inline-rule: rgb(17 18 20 / 0.35); }
+
+[data-theme="light"] {
+  --slate-bg: #F7F7F5;
+  --slate-surface: #FFFFFF;
+  --slate-fill: #EFEFEC;
+  --slate-ink: #111214;
+  --slate-ink-mute: #8A8B90;
+  --slate-hairline: #E3E3DF;
+  --slate-track: #ECECE8;
+  --slate-accent: #3E5C9E;
+  --slate-water: #3B82C4;
+  --slate-macro-protein: #2E7D72;
+  --slate-macro-carbs: #C9962B;
+  --slate-macro-fat: #7B4B8A;
+  --slate-destructive: #C4553D;
+  --web-ink-mute: #6E6F74;
+  --web-accent: #3E5C9E;
+  --card-shadow: 0 2px 24px rgb(17 18 20 / 0.06);
+  --scrim: rgb(17 18 20 / 0.16);
+  --inline-rule: rgb(17 18 20 / 0.35);
+}
+
+[data-theme="dark"] {
+  --slate-bg: #0E0F11;
+  --slate-surface: #191A1D;
+  --slate-fill: #232428;
+  --slate-ink: #F5F5F3;
+  --slate-ink-mute: #7E7F85;
+  --slate-hairline: #2B2C30;
+  --slate-track: #232428;
+  --slate-water: #6AA8E0;
+  --slate-macro-protein: #4FA596;
+  --slate-macro-carbs: #DDB04F;
+  --slate-macro-fat: #A77BB6;
+  --web-ink-mute: #9A9BA1;
+  --web-accent: #7C97D6;
+  --card-shadow: 0 0 0 1px #2B2C30;
+  --scrim: rgb(245 245 243 / 0.16);
+  --inline-rule: rgb(245 245 243 / 0.35);
+}

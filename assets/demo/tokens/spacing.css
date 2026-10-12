@@ -1,0 +1,46 @@
+/* Spacing, sizing, radii, shadow, motion — lifted from the SwiftUI views. */
+:root {
+  --space-2: 2px;
+  --space-3: 3px;
+  --space-4: 4px;
+  --space-6: 6px;
+  --space-8: 8px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-14: 14px;
+  --space-16: 16px;
+  --space-18: 18px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-28: 28px;
+
+  --gutter-page: 24px;       /* every screen's horizontal padding */
+  --row-min-height: 56px;    /* journal + settings rows */
+  --row-pad-y: 16px;
+  --hit-target: 44px;        /* icon buttons */
+  --pill-height: 50px;       /* Primary / Secondary pill */
+  --chip-height: 34px;       /* day chips, Go to today */
+  --chip-suggestion-height: 36px;
+  --segmented-height: 32px;
+  --bar-height: 4px;         /* budget, water, macro bars */
+  --macro-gap: 3px;
+  --keyboard-bar-height: 48px;
+  --drawer-width: 320px;
+
+  --radius-bubble: 14px;
+  --radius-card: 16px;       /* DetailScreen card */
+  --radius-illustration: 20px; /* onboarding example card */
+  --radius-pill: 999px;
+
+  --shadow-thumb: 0 1px 3px rgb(17 18 20 / 0.08);
+  --shadow-bubble: 0 3px 10px rgb(17 18 20 / 0.08);
+  --shadow-drawer: 0 8px 28px rgb(17 18 20 / 0.10);
+
+  --ease-snappy: cubic-bezier(0.2, 0.9, 0.3, 1);
+  --dur-press: 180ms;   /* press scale 0.92 */
+  --dur-snappy: 250ms;  /* segmented thumb, reflow */
+  --dur-drawer: 320ms;
+  --dur-reveal: 380ms;  /* calorie figure fade + 4px rise, easeOut */
+  --dur-delete: 220ms;
+  --dur-shimmer: 900ms;
+}

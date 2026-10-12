@@ -29,7 +29,19 @@
       ]
     },
     {
-      "source": "/assets/(style\\.css|demo\\.js)",
+      "source": "/assets/(style\\.css|demo\\.js|pages\\.css)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/assets/demo/(app\\.js|demo\\.css)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/assets/vendor/(.*)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]

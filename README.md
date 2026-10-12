@@ -1,6 +1,6 @@
 # writeonslate.com
 
-Marketing site for Slate, the calorie journal for iPhone. Static HTML, CSS and a little vanilla JavaScript. No build step, no dependencies, no third-party requests.
+Marketing site for Slate, the calorie journal for iPhone. Static HTML, CSS and JavaScript, served as they are: Vercel runs no build step, and there are no third-party requests.
 
 The build spec, design rules and brand rules live in [docs/](docs/): `WEBSITE-SPEC.md`, `DESIGN.md`, `BRAND.md`.
 
@@ -19,6 +19,10 @@ Pushes to `main` deploy to production on Vercel.
 When a page's content changes, update its `<lastmod>` date in `sitemap.xml`.
 
 `style.css` and `demo.js` are cached by browsers for a year. When you change either one, bump its `?v=` number (for example `?v=1` to `?v=2`) in every HTML file that links it, or visitors keep the old file.
+
+## Home page demo
+
+The home page is a clickable app demo built with React. Its sources are in `assets/demo/` (`components/`, `ios/`, `tokens/`). After editing any of them, run `node scripts/build-demo.mjs`, which compiles them into `assets/demo/app.js` and `assets/demo/demo.css` (it fetches a pinned esbuild through npx; nothing is installed here). Commit both outputs, then bump their `?v=` numbers in `index.html`, `privacy/`, `terms/` and `support/`, and `assets/pages.css`'s too when it changes. React and ReactDOM 18.3.1 are self-hosted in `assets/vendor/`, and the demo's icons are a small copy of the lucide glyphs it uses (`components/buttons/icons.js`), so the page still loads nothing from another domain.
 
 ## Before launch: TODO(launch)
 

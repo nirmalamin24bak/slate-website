@@ -668,6 +668,8 @@ function syncFooters() {
   const list = links.map((l) => `          <li><a href="${l.href}">${esc(l.label)}</a></li>`).join("\n");
   for (const file of ["index.html", "privacy/index.html", "terms/index.html", "support/index.html", "404.html"]) {
     const html = readFileSync(join(ROOT, file), "utf8");
+    // The home, privacy, terms and support pages carry the short legal footer (assets/pages.css) instead.
+    if (!html.includes('<nav class="footer-links" aria-label="Footer">')) continue;
     const next = html.replace(/(<nav class="footer-links" aria-label="Footer">\s*<ul>\n)[\s\S]*?(\n\s*<\/ul>)/, `$1${list}$2`);
     if (next === html && !html.includes(list)) throw new Error(`${file}: footer link list not found`);
     if (next !== html) write(file, next);
