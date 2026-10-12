@@ -38,7 +38,7 @@ function JournalScreen({ onNavigate }) {
     <div style={{ flex: 1, overflowY: 'auto', padding: '0 24px', scrollbarWidth: 'none' }}>
       {lines.map(l => <div key={l.id} onDoubleClick={() => remove(l.id)}><EntryRow {...l} animatesIn={l.id === fresh} onTap={l.status === 'resolved' && !l.exercise ? () => setDetail(l) : undefined} /></div>)}
       <div style={{ borderBottom: '1px solid var(--border-hairline)' }}>
-        <input value={draft} onFocus={() => setFocused(true)} onChange={e => setDraft(e.target.value)} onKeyDown={e => { if (e.key === 'Enter') commit(draft); }} placeholder={lines.length ? '' : 'What did you have?'} style={{ width: '100%', height: 56, border: 0, outline: 'none', background: 'transparent', font: '400 18px/1 var(--font-sans)', color: 'var(--slate-ink)', padding: 0, caretColor: 'var(--slate-ink)' }} />
+        <input aria-label="What did you have?" value={draft} onFocus={() => setFocused(true)} onChange={e => setDraft(e.target.value)} onKeyDown={e => { if (e.key === 'Enter') commit(draft); }} placeholder={lines.length ? '' : 'What did you have?'} style={{ width: '100%', height: 56, border: 0, outline: 'none', background: 'transparent', font: '400 18px/1 var(--font-sans)', color: 'var(--slate-ink)', padding: 0, caretColor: 'var(--slate-ink)' }} />
       </div>
       {Array.from({ length: 3 }).map((_, i) => <div key={i} style={{ height: 56, borderBottom: '1px solid var(--border-hairline)' }} />)}
       <div style={{ height: 96 }} />

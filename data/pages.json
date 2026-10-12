@@ -811,11 +811,11 @@
         {
           "slug": "healthifyme",
           "crumb": "HealthifyMe",
-          "title": "Slate and HealthifyMe: a factual comparison",
-          "description": "Slate and HealthifyMe compared: how you log food, Indian food, price in India, login, ads, data storage, coaching and platforms. Checked 11 October 2026.",
+          "title": "HealthifyMe alternative for Indian food: Slate compared",
+          "description": "A HealthifyMe alternative for Indian food? Slate and HealthifyMe compared: logging, Indian food, price in India, login, ads, data storage and platforms.",
           "h1": "Slate and HealthifyMe",
           "linkLabel": "Slate and HealthifyMe",
-          "updated": "2026-10-11",
+          "updated": "2026-10-13",
           "checkedOn": "2026-10-11",
           "lede": "HealthifyMe is an Indian health app with photo and voice food logging, an Indian food database, an AI assistant and paid one-on-one coaching with nutritionists and dietitians, on iPhone and Android. Slate is a calorie journal for iPhone with no login, no ads and no coaching, where you type what you ate and each number is worked out from a recipe in grams and adjusted for your own kitchen.",
           "body": [
@@ -1618,8 +1618,8 @@
           "h1": "How many calories are in your chai, and what changes them",
           "linkLabel": "How many calories are in your chai",
           "published": "2026-10-11",
-          "updated": "2026-10-11",
-          "lede": "A cup of home chai made with toned milk and 2 teaspoons of sugar has about {{kcal@masala-chai:cup2}} calories, and about {{kcal@masala-chai:cup0}} without sugar. Sugar, the kind of milk and how many cups you drink in a day decide most of the number.",
+          "updated": "2026-10-13",
+          "lede": "A cup of home [masala chai](/calories/masala-chai/) made with toned milk and 2 teaspoons of sugar has about {{kcal@masala-chai:cup2}} calories, and about {{kcal@masala-chai:cup0}} without sugar. Sugar, the kind of milk and how many cups you drink in a day decide most of the number.",
           "takeaways": [
             "Sugar is the biggest single variable: each level teaspoon is about 16 calories, and a heaped teaspoon holds more.",
             "Milk comes next. Toned milk has about 58 calories per 100 ml, whole cow's milk about 73 and buffalo milk about 107.",

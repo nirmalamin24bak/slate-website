@@ -16,7 +16,9 @@ Opens at http://localhost:3000 with the same headers and routing as production (
 
 Pushes to `main` deploy to production on Vercel.
 
-When a page's content changes, update its `<lastmod>` date in `sitemap.xml`.
+After a deploy is live, run `node scripts/indexnow.mjs` to tell Bing (and the other IndexNow search engines) about every page in `sitemap.xml`. The key is the `<32 hex>.txt` file at the site root; keep it there.
+
+When a page's content changes, update its `<lastmod>` date in `sitemap.xml`. Generated pages take theirs from the `updated` field in `data/` (`foods.json`, `pages.json`, `info.json`); `scripts/build.mjs` writes those entries, and `llms.txt` too. The about and how-Slate-counts pages come from `data/info.json`.
 
 `style.css` and `demo.js` are cached by browsers for a year. When you change either one, bump its `?v=` number (for example `?v=1` to `?v=2`) in every HTML file that links it, or visitors keep the old file.
 

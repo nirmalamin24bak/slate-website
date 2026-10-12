@@ -14,7 +14,7 @@
         "चपाती",
         "રોટલી"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Roti calories: chapati sizes and roti with ghee",
       "description": "A medium roti made with 30 g of atta has about {{kcal:medium}} calories. Phulka, chapati and roti with ghee, worked out from IFCT 2017.",
       "answer": "One medium roti (about 30 g atta) has about {{kcal:medium}} calories, or about {{kcal:medium_ghee}} with a teaspoon of ghee.",
@@ -257,7 +257,7 @@
         "भात",
         "ભાત"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Rice calories: per katori, plate and 100 g cooked",
       "description": "A 200 ml katori of plain cooked rice has about {{kcal:k200}} calories. White rice by katori, plate and 100 g, worked out from IFCT 2017.",
       "answer": "A 200 ml katori of plain cooked white rice (about {{g:k200}} g) has about {{kcal:k200}} calories.",
@@ -511,7 +511,7 @@
         "अरहर दाल",
         "તુવેર દાળ"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Dal tadka calories: per katori of toor dal",
       "description": "A 200 ml katori of thin dal tadka has about {{kcal:k200}} calories; thick dal has up to about twice that. Toor dal with a ghee tadka, from IFCT 2017.",
       "answer": "A 200 ml katori of thin toor dal tadka has about {{kcal:k200}} calories. A thick dal can have close to twice that, because each katori holds more dal.",
@@ -757,7 +757,7 @@
         "राजमा",
         "રાજમા"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Rajma calories: per katori and per bowl",
       "description": "A 200 ml katori of rajma curry has about {{kcal:k200}} calories and {{protein:k200}} g protein. Home rajma, worked out from IFCT 2017.",
       "answer": "A 200 ml katori of home rajma curry has about {{kcal:k200}} calories and about {{protein:k200}} g of protein.",
@@ -927,7 +927,8 @@
         "plain-rice",
         "dal-tadka",
         "roti",
-        "paneer-butter-masala"
+        "paneer-butter-masala",
+        "chole"
       ],
       "useCase": {
         "href": "/for/vegetarians/",
@@ -1005,7 +1006,7 @@
         "पोहा",
         "પૌંઆ"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Poha calories: per bowl and per plate",
       "description": "A plate of poha made with 40 g of dry poha has about {{kcal:plate}} calories. Kanda and batata poha with peanuts, from IFCT 2017 and a textbook recipe.",
       "answer": "A plate of poha made with 40 g of dry poha, with potato and peanuts, has about {{kcal:plate}} calories.",
@@ -1221,7 +1222,7 @@
         "इडली",
         "ઈડલી"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Idli calories: per idli, small to large",
       "description": "One medium idli has about {{kcal:medium}} calories, and 2 medium idlis about {{kcal:two}}. Rice and urad dal idli, worked out from IFCT 2017.",
       "answer": "One medium idli (about {{g:medium}} g) has about {{kcal:medium}} calories, so 2 medium idlis come to about {{kcal:two}}, before sambar and chutney.",
@@ -1378,7 +1379,8 @@
         "plain-dosa",
         "masala-dosa",
         "uttapam",
-        "poha"
+        "poha",
+        "medu-vada"
       ],
       "useCase": {
         "href": "/for/indian-food/",
@@ -1474,7 +1476,7 @@
         "मसाला डोसा",
         "મસાલા ઢોસા"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Masala dosa calories: home and restaurant",
       "description": "A home masala dosa has about {{kcal:tsp}} calories with a teaspoon of oil, or {{kcal:tbsp}} with a tablespoon. From IFCT 2017 and a textbook recipe.",
       "answer": "A home masala dosa has about {{kcal:tsp}} calories with a teaspoon of oil on the tawa, and about {{kcal:tbsp}} with a tablespoon.",
@@ -1744,7 +1746,7 @@
         "समोसा",
         "સમોસા"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Samosa calories: home and street samosa",
       "description": "A home aloo samosa has about {{kcal:one}} calories; a street samosa about {{outLo}} to {{outHi}}. From IFCT 2017 and measured street samples.",
       "answer": "A home aloo samosa has about {{kcal:one}} calories. A street samosa is usually {{outLo}} to {{outHi}}, depending on its size and how much oil it took up.",
@@ -1889,7 +1891,8 @@
         "puri",
         "bhatura",
         "masala-chai",
-        "poha"
+        "poha",
+        "momos"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -1965,7 +1968,7 @@
         "पनीर मखनी",
         "પનીર બટર મસાલા"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Paneer butter masala calories: home and restaurant",
       "description": "A 200 ml katori of home paneer butter masala has about {{kcal:k200}} calories; a restaurant serving often has two or three times that. From IFCT 2017.",
       "answer": "A 200 ml katori of home paneer butter masala has about {{kcal:k200}} calories. A restaurant serving is usually bigger and richer: about {{outLo}} to {{outHi}}.",
@@ -2128,7 +2131,9 @@
         "naan",
         "roti",
         "dal-tadka",
-        "rajma"
+        "rajma",
+        "matar-paneer",
+        "palak-paneer"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -2202,7 +2207,7 @@
         "મસાલા ચા",
         "ચા"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Masala chai calories: per cup, with and without sugar",
       "description": "A cup of masala chai with 50 ml toned milk and 2 tsp sugar has about {{kcal:cup2}} calories; without sugar, about {{kcal:cup0}}. Worked out per cup.",
       "answer": "A cup of masala chai made with 50 ml of toned milk and 2 teaspoons of sugar has about {{kcal:cup2}} calories. Without sugar it's about {{kcal:cup0}}.",
@@ -2390,7 +2395,8 @@
         "poha",
         "samosa",
         "idli",
-        "masala-dosa"
+        "masala-dosa",
+        "filter-coffee"
       ],
       "useCase": {
         "href": "/for/indian-food/",
@@ -2455,7 +2461,7 @@
         "ફૂલકા",
         "રોટલી"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Phulka calories: 1, 2 or 4 phulkas, with or without ghee",
       "description": "One phulka made with about 24 g of atta has about {{kcal:one}} calories, or {{kcal:one_ghee}} with a teaspoon of ghee. Counts for 2, 3 and 4 phulkas.",
       "answer": "One phulka (about 24 g atta, no oil) has about {{kcal:one}} calories. Two phulkas have about {{kcal:two}}, and a phulka with half a teaspoon of ghee about {{kcal:one_half_ghee}}.",
@@ -2716,7 +2722,7 @@
         "परांठा",
         "પરોઠા"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Plain paratha calories: with oil, ghee or butter",
       "description": "A plain paratha made with 27 g of atta and 2 teaspoons of oil has about {{kcal:one}} calories. With ghee or butter on top, and dhaba sizes.",
       "answer": "One plain paratha (about 27 g atta, cooked with 2 teaspoons of oil) has about {{kcal:one}} calories. Most of the difference from a roti is the oil.",
@@ -2961,7 +2967,7 @@
         "आलू का पराठा",
         "બટાકા પરોઠા"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Aloo paratha calories: homemade, with butter or curd",
       "description": "A homemade aloo paratha has about {{kcal:one}} calories, or {{kcal:one_butter}} with a teaspoon of butter. Worked out from a textbook recipe and IFCT 2017.",
       "answer": "One homemade aloo paratha (27 g atta, 27 g potato, 2 teaspoons of oil) has about {{kcal:one}} calories, or about {{kcal:one_butter}} with a teaspoon of butter on top.",
@@ -3218,7 +3224,7 @@
         "થેપલા",
         "મેથીના થેપલા"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Thepla calories: methi thepla, 1 to 4 pieces",
       "description": "One methi thepla has about {{kcal:one}} calories, so 3 theplas come to about {{kcal:three}}. Worked out from a recipe in grams and IFCT 2017.",
       "answer": "One methi thepla (about 25 g of mixed flour, cooked with about 1 teaspoon of oil) has about {{kcal:one}} calories. Three theplas have about {{kcal:three}}.",
@@ -3476,7 +3482,7 @@
         "पूड़ी",
         "પૂરી"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Puri calories: per puri, 4 puris and puri bhaji",
       "description": "A home puri made with 13 g of atta has about {{kcal:one}} calories once fried; 4 puris have about {{kcal:four}}. Frying oil counted from lab data.",
       "answer": "One home puri (about 13 g atta, deep-fried) has about {{kcal:one}} calories. Four puris have about {{kcal:four}}, and a large 36 g puri about {{kcal:large}}.",
@@ -3719,7 +3725,7 @@
         "भटूरे",
         "છોલે ભટુરે"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Bhatura calories: one bhatura, measured street sizes",
       "description": "A home bhatura made with 27 g of maida has about {{kcal:one}} calories once fried. Street bhaturas tested in a lab came to about {{outLo}} to {{outHi}}.",
       "answer": "One bhatura (about 27 g maida, deep-fried) has about {{kcal:one}} calories. With a 200 ml katori of chole, the plate is more again.",
@@ -3863,7 +3869,8 @@
         "puri",
         "naan",
         "samosa",
-        "rajma"
+        "rajma",
+        "chole"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -3923,7 +3930,7 @@
         "नान",
         "નાન"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Naan calories: home naan and a large restaurant naan",
       "description": "A home naan made with 40 g of maida has about {{kcal:one}} calories. A large 10-inch restaurant naan is about {{kcal:large}}. Worked out from IFCT 2017.",
       "answer": "A home naan (about 40 g maida) has about {{kcal:one}} calories. A large 10-inch restaurant naan, about 177 g, has about {{kcal:large}}.",
@@ -4152,7 +4159,7 @@
         "बटर नान",
         "બટર નાન"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Butter naan calories: by size and teaspoons of butter",
       "description": "A home butter naan with a teaspoon of butter has about {{kcal:one_tsp}} calories; a large restaurant one is about {{outLo}} to {{outHi}}. From IFCT 2017.",
       "answer": "A home naan brushed with a teaspoon of butter has about {{kcal:one_tsp}} calories. A large restaurant butter naan comes to about {{outLo}} to {{outHi}}, depending on size.",
@@ -4406,7 +4413,7 @@
         "ದೋಸೆ",
         "தோசை"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Plain dosa calories: with or without oil, by size",
       "description": "A plain dosa has about {{kcal:one}} calories with ¾ teaspoon of oil, and about {{kcal:dry}} without. Sizes, ghee and restaurant dosas compared.",
       "answer": "One plain dosa (about 33 g of rice and urad dal, cooked with ¾ teaspoon of oil) has about {{kcal:one}} calories, or about {{kcal:dry}} on a non-stick tawa with no oil.",
@@ -4676,7 +4683,7 @@
         "ಉತ್ತಪ್ಪ",
         "ஊத்தப்பம்"
       ],
-      "updated": "2026-10-10",
+      "updated": "2026-10-13",
       "title": "Uttapam calories: onion tomato uttapam, home and restaurant",
       "description": "An onion tomato uttapam has about {{kcal:one}} calories, with the oil from the tawa counted. Restaurant uttapams, ghee and mini uttapams compared.",
       "answer": "One onion tomato uttapam (about 40 g of rice and urad dal, cooked with 1½ teaspoons of oil) has about {{kcal:one}} calories.",
@@ -4917,7 +4924,7 @@
         "दाल फ्राई",
         "દાળ ફ્રાય"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Dal fry calories: per katori, home and dhaba",
       "description": "A 200 ml katori of dal fry has about {{kcal:k200}} calories, with 10 g of ghee in the pot. Dhaba dal fry and dal fry vs dal tadka compared.",
       "answer": "A 200 ml katori of home dal fry has about {{kcal:k200}} calories. It's thicker than everyday dal tadka and cooked into an onion and tomato masala, so a katori holds more dal.",
@@ -5180,7 +5187,7 @@
         "તુવેર દાળ",
         "તુવર દાળ"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Toor dal calories: raw per 100 g and per cooked bowl",
       "description": "100 g of raw toor dal has {{ing:toor_dal}} calories. A bowl of plain cooked dal from 30 g raw has about {{kcal:bowl}}. Gujarati dal and ghee compared.",
       "answer": "A bowl of plain toor dal made from 30 g of dry dal has about {{kcal:bowl}} calories, before any ghee. Raw toor dal has {{ing:toor_dal}} calories per 100 g.",
@@ -5370,7 +5377,8 @@
         "dal-fry",
         "moong-dal",
         "sambar",
-        "plain-rice"
+        "plain-rice",
+        "chana-dal"
       ],
       "useCase": {
         "href": "/for/vegetarians/",
@@ -5435,7 +5443,7 @@
         "धुली मूंग",
         "મગની દાળ"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Moong dal calories: per bowl, per katori and per 100 g",
       "description": "A bowl of moong dal from 30 g dry dal has about {{kcal:bowl_plain}} calories, or {{kcal:bowl}} with a teaspoon of oil in the tadka. Raw values too.",
       "answer": "A bowl of yellow moong dal made from 30 g of dry dal has about {{kcal:bowl_plain}} calories, or about {{kcal:bowl}} with the textbook's teaspoon of oil in the tadka.",
@@ -5711,7 +5719,7 @@
         "चने की दाल",
         "ચણાની દાળ"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Chana dal calories: cooked katori and raw per 100 g",
       "description": "A 200 ml katori of cooked chana dal has about {{kcal:k200}} calories; raw chana dal has {{ing:chana_dal}} per 100 g. Worked out from IFCT 2017.",
       "answer": "A 200 ml katori of home chana dal has about {{kcal:k200}} calories. Raw chana dal has {{ing:chana_dal}} calories per 100 g.",
@@ -5959,7 +5967,7 @@
         "दाल मखनी",
         "દાલ મખની"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Dal makhani calories: home katori and restaurant",
       "description": "A 200 ml katori of home dal makhani has about {{kcal:k200}} calories; a restaurant katori with butter and cream about {{outLo}} to {{outHi}}.",
       "answer": "A 200 ml katori of home dal makhani has about {{kcal:k200}} calories. A restaurant katori, finished with butter and cream, is more like {{outLo}} to {{outHi}}.",
@@ -6242,7 +6250,7 @@
         "છોલે",
         "છોલે ચણા"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Chole calories: per katori, per 100 g and with bhature",
       "description": "A 200 ml katori of home chole has about {{kcal:k200}} calories, made from 40 g of dry kabuli chana. Chole bhature and restaurant chole compared.",
       "answer": "A 200 ml katori of home chole has about {{kcal:k200}} calories. A bhatura on the side adds about {{kcal@bhatura:one}}.",
@@ -6507,7 +6515,7 @@
         "कढ़ी पकोड़ा",
         "કઢી"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Kadhi calories: with and without pakora, per katori",
       "description": "A 200 ml katori of kadhi without pakoras has about {{kcal:k200}} calories. A bowl with its share of fried pakoras is about {{kcal:bowl_pakora}}.",
       "answer": "A 200 ml katori of kadhi without pakoras has about {{kcal:k200}} calories. A bowl of kadhi pakora, with its share of fried besan pakoras, has about {{kcal:bowl_pakora}}.",
@@ -6768,7 +6776,7 @@
         "ಸಾಂಬಾರ್",
         "சாம்பார்"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Sambar calories: per katori, cup and 100 g",
       "description": "A 200 ml katori of textbook sambar with coconut has about {{kcal:k200}} calories; a thin everyday sambar is closer to 110. With idli, dosa and rice.",
       "answer": "A 200 ml katori of thick sambar made with coconut has about {{kcal:k200}} calories. A thinner everyday sambar without coconut is closer to 110, ICMR-NIN's figure for a cup.",
@@ -6990,7 +6998,8 @@
         "plain-dosa",
         "rasam",
         "toor-dal",
-        "masala-dosa"
+        "masala-dosa",
+        "medu-vada"
       ],
       "useCase": {
         "href": "/for/indian-food/",
@@ -7070,7 +7079,7 @@
         "ಸಾರು",
         "ரசம்"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Rasam calories: per katori and with rice",
       "description": "A 200 ml katori of tomato rasam has about {{kcal:k200}} calories. With a katori of rice it's about {{kcal:rasam_rice}}. Worked out from a textbook recipe.",
       "answer": "A 200 ml katori of tomato rasam has about {{kcal:k200}} calories. Rasam rice, with a 200 ml katori of rice, comes to about {{kcal:rasam_rice}}.",
@@ -7323,7 +7332,7 @@
         "खिचड़ी",
         "ખીચડી"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Khichdi calories: per katori, plate and 100 g",
       "description": "A 200 ml katori of moong dal khichdi with a teaspoon of ghee in the pot has about {{kcal:k200}} calories. With extra ghee, curd and kadhi.",
       "answer": "A 200 ml katori of moong dal khichdi has about {{kcal:k200}} calories, with its share of a teaspoon of ghee. An extra teaspoon of ghee on top adds about 45.",
@@ -7615,7 +7624,7 @@
         "पालक पनीर",
         "પાલક પનીર"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Palak paneer calories: home bowl, katori and restaurant",
       "description": "A home bowl of palak paneer with 40 g of paneer has about {{kcal:bowl}} calories; a 200 ml katori about {{kcal:k200}}. With cream and restaurant style.",
       "answer": "A bowl of home palak paneer (150 g spinach, 40 g paneer, ½ tablespoon of oil) has about {{kcal:bowl}} calories. A 200 ml katori is about {{kcal:k200}}.",
@@ -7893,7 +7902,7 @@
         "मटर पनीर",
         "મટર પનીર"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Matar paneer calories: per katori and per bowl",
       "description": "A 200 ml katori of home matar paneer has about {{kcal:k200}} calories, from peas, paneer and a tablespoon of oil. Restaurant matar paneer compared.",
       "answer": "A 200 ml katori of home matar paneer has about {{kcal:k200}} calories. A full textbook bowl, with 50 g of paneer and 100 g of peas, is about {{kcal:bowl}}.",
@@ -8139,7 +8148,7 @@
         "चिकन करी",
         "ચિકન કરી"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Chicken curry calories: per katori, bowl and 100 g",
       "description": "A bowl of home chicken curry with 125 g of chicken has about {{kcal:bowl}} calories; a 200 ml katori about {{kcal:k200}}. Restaurant curry compared.",
       "answer": "A bowl of home chicken curry with 125 g of chicken has about {{kcal:bowl}} calories. A 200 ml katori of curry and pieces is about {{kcal:k200}}.",
@@ -8329,7 +8338,8 @@
         "chicken-biryani",
         "plain-rice",
         "roti",
-        "egg-curry"
+        "egg-curry",
+        "fish-curry"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -8418,7 +8428,7 @@
         "मुर्ग मखनी",
         "બટર ચિકન"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Butter chicken calories: home serving and restaurant",
       "description": "A home serving of butter chicken with 125 g of chicken has about {{kcal:serving}} calories. Restaurant butter chicken is about {{outLo}} to {{outHi}}.",
       "answer": "A home serving of butter chicken (125 g chicken, with its share of butter and cream) has about {{kcal:serving}} calories. A restaurant serving is often {{outLo}} to {{outHi}}.",
@@ -8661,7 +8671,7 @@
         "अंडा करी",
         "એગ કરી"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Egg curry calories: with 1, 2 or 3 eggs",
       "description": "Egg curry has about {{kcal:one}} calories per egg with its share of gravy, so 2 eggs come to about {{kcal:two}}. Dhaba egg curry compared.",
       "answer": "Egg curry has about {{kcal:one}} calories for each egg with its share of gravy, so a bowl with 2 eggs is about {{kcal:two}}.",
@@ -8885,7 +8895,7 @@
         "मछली करी",
         "ફિશ કરી"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Fish curry calories: per piece, bowl and 100 g",
       "description": "A bowl of home fish curry with 100 g of rohu has about {{kcal:bowl}} calories; one piece with gravy about {{kcal:piece}}. Coconut curries compared.",
       "answer": "A bowl of home fish curry with 100 g of fish has about {{kcal:bowl}} calories, and one 50 g piece with its gravy about {{kcal:piece}}.",
@@ -9150,7 +9160,7 @@
         "जीरा चावल",
         "જીરા રાઈસ"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Jeera rice calories: per katori, plate and 100 g",
       "description": "A 200 ml katori of jeera rice has about {{kcal:k200}} calories, made with 2 teaspoons of oil for 80 g of rice. Plate, 100 g and restaurant compared.",
       "answer": "A 200 ml katori of jeera rice has about {{kcal:k200}} calories, against about {{kcal@plain-rice:k200}} for plain rice. A plate made from 80 g of raw rice is about {{kcal:plate}}.",
@@ -9377,7 +9387,7 @@
         "वेज बिरयानी",
         "વેજ બિરયાની"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Veg biryani calories: per plate, 250 g and 500 g",
       "description": "A plate of home veg biryani has about {{kcal:plate}} calories; 250 g is about {{kcal:g250}}. From a textbook recipe, with restaurant plates compared.",
       "answer": "A plate of veg biryani (50 g of raw rice with vegetables, about 395 g cooked) has about {{kcal:plate}} calories. 250 g is about {{kcal:g250}}.",
@@ -9656,7 +9666,7 @@
         "चिकन बिरयानी",
         "ચિકન બિરયાની"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Chicken biryani calories: per plate, 250 g and 500 g",
       "description": "A home plate of chicken biryani has about {{kcal:plate}} calories; 500 g is about {{kcal:g500}}. A restaurant plate is about {{outLo}} to {{outHi}}.",
       "answer": "A home plate of chicken biryani (50 g raw rice and 50 g chicken, about 305 g cooked) has about {{kcal:plate}} calories. A restaurant plate is often {{outLo}} to {{outHi}}.",
@@ -9930,7 +9940,7 @@
         "वेज पुलाव",
         "પુલાવ"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Veg pulao calories: per katori, plate and 100 g",
       "description": "A 200 ml katori of veg pulao has about {{kcal:k200}} calories, and a plate from 80 g of rice about {{kcal:plate}}. Worked out from a textbook recipe.",
       "answer": "A 200 ml katori of veg pulao has about {{kcal:k200}} calories. A plate made from 80 g of raw rice with peas, carrot and beans is about {{kcal:plate}}.",
@@ -10190,7 +10200,7 @@
         "दही चावल",
         "દહીં ભાત"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Curd rice calories: per katori, plate and 100 g",
       "description": "A 200 ml katori of curd rice has about {{kcal:k200}} calories; a plate from 80 g of rice about {{kcal:plate}}. With and without tadka, from IFCT 2017.",
       "answer": "A 200 ml katori of curd rice has about {{kcal:k200}} calories. A plate made from 80 g of raw rice with curd, milk and a tadka is about {{kcal:plate}}.",
@@ -10432,7 +10442,7 @@
         "आलू सब्जी",
         "બટાકાનું શાક"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Aloo sabzi calories: per katori and per 100 g",
       "description": "A 200 ml katori of aloo sabzi in tomato gravy has about {{kcal:k200}} calories, with 2 teaspoons of oil in the pot. With puri, and halwai style.",
       "answer": "A 200 ml katori of home aloo sabzi in a tomato gravy has about {{kcal:k200}} calories. Potato and oil make up most of it, in roughly equal parts.",
@@ -10597,7 +10607,8 @@
         "roti",
         "mixed-veg",
         "kachori",
-        "phulka"
+        "phulka",
+        "baingan-bharta"
       ],
       "useCase": {
         "href": "/for/home-cooking/",
@@ -10662,7 +10673,7 @@
         "भिंडी की सब्जी",
         "ભીંડા નું શાક"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Bhindi sabzi calories: per katori, bowl and 100 g",
       "description": "A 200 ml katori of bhindi fry has about {{kcal:k200}} calories, most of it from the oil. Bowl, 100 g and restaurant bhindi masala compared.",
       "answer": "A 200 ml katori of home bhindi fry has about {{kcal:k200}} calories. Okra is light; the oil is close to three quarters of the number.",
@@ -10889,7 +10900,7 @@
         "मिक्स सब्जी",
         "મિક્સ શાક"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Mix veg sabzi calories: per katori and per 100 g",
       "description": "A 200 ml katori of home mix veg sabzi (gobhi, matar and aloo) has about {{kcal:k200}} calories. Restaurant mix veg and kadai veg compared.",
       "answer": "A 200 ml katori of home mixed veg sabzi with cauliflower, peas and potato has about {{kcal:k200}} calories, about half of it from the oil.",
@@ -11155,7 +11166,7 @@
         "बैंगन का भर्ता",
         "રીંગણનો ઓળો"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Baingan bharta calories: per katori and per 100 g",
       "description": "A 200 ml katori of home baingan bharta has about {{kcal:k200}} calories, with a tablespoon of oil in the bowl. Restaurant bharta and chokha compared.",
       "answer": "A 200 ml katori of home baingan bharta has about {{kcal:k200}} calories. A whole textbook bowl, made from 200 g of brinjal with a tablespoon of oil, is about {{kcal:bowl}}.",
@@ -11399,7 +11410,7 @@
         "पत्तागोभी की सब्जी",
         "કોબીનું શાક"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Cabbage sabzi calories: per katori and per 100 g",
       "description": "A 200 ml katori of cabbage and peas sabzi has about {{kcal:k200}} calories, with a teaspoon of oil in the bowl. One of the lightest everyday sabzis.",
       "answer": "A 200 ml katori of cabbage and peas sabzi has about {{kcal:k200}} calories. A whole textbook bowl, with 100 g of cabbage and a teaspoon of oil, is about {{kcal:bowl}}.",
@@ -11638,7 +11649,7 @@
         "ઉપમા",
         "ಉಪ್ಪಿಟ್ಟು"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Upma calories: per plate, katori and 100 g",
       "description": "A plate of rava upma made from 40 g of semolina has about {{kcal:plate}} calories; a 200 ml katori about {{kcal:k200}}. With vegetables and ghee.",
       "answer": "A plate of rava upma made from 40 g of semolina has about {{kcal:plate}} calories. A 200 ml katori is about {{kcal:k200}}.",
@@ -11915,7 +11926,7 @@
         "बेसन का चीला",
         "ચણાના લોટના પુડલા"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Besan chilla calories: with and without oil",
       "description": "One besan chilla made with about 17 g of besan has about {{kcal:one}} calories with ½ teaspoon of oil, or {{kcal:dry}} without. Paneer chilla too.",
       "answer": "One besan chilla (about 17 g of besan, cooked with ½ teaspoon of oil) has about {{kcal:one}} calories, or about {{kcal:dry}} on a non-stick tawa with no oil.",
@@ -12173,7 +12184,7 @@
         "ઢોકળા",
         "ખમણ"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Dhokla calories: per piece, plate and 100 g",
       "description": "One piece of besan dhokla (about 40 g) has about {{kcal:one}} calories; 250 g is about {{kcal:g250}}. Khaman with tempering and chutney compared.",
       "answer": "One piece of besan dhokla (about 40 g) has about {{kcal:one}} calories. A plate of 4 pieces is about {{kcal:four}}.",
@@ -12425,7 +12436,7 @@
         "मेदु वडा",
         "મેદુ વડા"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Medu vada calories: 1, 2 or 4 vadas",
       "description": "One medu vada has about {{kcal:one}} calories, so 2 vadas have about {{kcal:two}}, matching ICMR-NIN's figure. With sambar and chutney.",
       "answer": "One medu vada (15 g of urad dal, deep-fried) has about {{kcal:one}} calories. Two vadas, a usual plate, have about {{kcal:two}}, before sambar and chutney.",
@@ -12642,7 +12653,7 @@
         "वड़ा पाव",
         "વડાપાંવ"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Vada pav calories: with and without butter",
       "description": "One vada pav has about {{kcal:one}} calories: a batata vada of about {{kcal:vada}} in a pav. With butter, without the pav, and street versions.",
       "answer": "One vada pav has about {{kcal:one}} calories: about {{kcal:vada}} for the fried batata vada and the rest for the pav. With a teaspoon of butter it's about {{kcal:butter}}.",
@@ -12904,7 +12915,7 @@
         "पाव भाजी",
         "પાંવ ભાજી"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Pav bhaji calories: per plate, with 1, 2 or 4 pav",
       "description": "A plate of pav bhaji with 2 butter pav has about {{kcal:plate2}} calories; the bhaji alone is about {{kcal:bhaji}}. With extra pav and street butter.",
       "answer": "A plate of pav bhaji with 2 butter-toasted pav has about {{kcal:plate2}} calories. The bhaji alone is about {{kcal:bhaji}}, and each butter pav adds about {{kcal:pav}}.",
@@ -13252,7 +13263,7 @@
         "પાણીપુરી",
         "ফুচকা"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Pani puri calories: per puri and per plate of 6",
       "description": "A plate of 6 pani puri with potato, chana and sweet chutney has about {{kcal:plate}} calories, about {{kcal:one}} each. Shells, pani and fillings compared.",
       "answer": "A plate of 6 pani puri with potato, chana and sweet chutney has about {{kcal:plate}} calories, about {{kcal:one}} a puri. Most of it is the fried shells.",
@@ -13426,7 +13437,8 @@
         "bhel-puri",
         "sev-puri",
         "samosa",
-        "vada-pav"
+        "vada-pav",
+        "momos"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -13477,7 +13489,7 @@
         "भेलपुरी",
         "ભેળ"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Bhel puri calories: per plate and per 100 g",
       "description": "A plate of bhel puri has about {{kcal:plate}} calories, from puffed rice, sev, papdi, potato, peanuts and chutneys. Dry bhel and street plates compared.",
       "answer": "A plate of bhel puri (25 g puffed rice with sev, papdi, potato, onion, peanuts and chutneys) has about {{kcal:plate}} calories.",
@@ -13703,7 +13715,7 @@
         "पापड़ी चाट",
         "સેવપુરી"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Sev puri calories: per plate of 6 and per piece",
       "description": "A plate of 6 sev puri has about {{kcal:plate}} calories, about {{kcal:one}} a piece. Papdi, potato, chutneys and sev; dahi sev puri compared.",
       "answer": "A plate of 6 sev puri has about {{kcal:plate}} calories, about {{kcal:one}} a piece. The fried papdi and sev are most of it.",
@@ -13924,7 +13936,7 @@
         "खस्ता कचौरी",
         "કચોરી"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Kachori calories: home kachori and measured street kachoris",
       "description": "A home khasta kachori has about {{kcal:one}} calories; street kachoris tested in a lab came to about {{outLo}} to {{outHi}}. With aloo sabzi.",
       "answer": "A small home khasta kachori has about {{kcal:one}} calories. Street kachoris, which a lab study found bigger and much oilier, are about {{outLo}} to {{outHi}} each.",
@@ -14180,7 +14192,7 @@
         "मोमोज",
         "મોમોઝ"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Momos calories: per piece and per plate, steamed or fried",
       "description": "One steamed veg momo (25 g) has about {{kcal:one}} calories, so a plate of 6 is about {{kcal:plate6}}. Fried momos and chicken momos compared.",
       "answer": "One steamed veg momo (about 25 g) has about {{kcal:one}} calories. A plate of 6 is about {{kcal:plate6}}, before the chutney or mayonnaise.",
@@ -14444,7 +14456,7 @@
         "साबूदाना",
         "સાબુદાણા ખીચડી"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Sabudana khichdi calories: per plate and per bowl",
       "description": "A plate of sabudana khichdi with peanuts, potato and ghee has about {{kcal:plate}} calories. Fasting-day portions, with and without peanuts.",
       "answer": "A plate of sabudana khichdi (50 g of dry sabudana with potato, peanuts and a tablespoon of ghee) has about {{kcal:plate}} calories.",
@@ -14672,7 +14684,7 @@
         "कुट्टू पूरी",
         "કુટ્ટુ પૂરી"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Kuttu puri calories: 1, 2 or 4 puris",
       "description": "One kuttu puri made with about 13 g of buckwheat flour has about {{kcal:one}} calories once fried; 4 puris have about {{kcal:four}}. For Navratri.",
       "answer": "One kuttu puri (about 13 g of kuttu atta with a little potato, deep-fried) has about {{kcal:one}} calories. Four have about {{kcal:four}}.",
@@ -14895,7 +14907,7 @@
         "फूल मखाना",
         "મખાણા"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Makhana calories: per cup, 20 g, 50 g and roasted in ghee",
       "description": "A cup of plain makhana (32 g) has about {{kcal:cup}} calories; 30 g roasted in a teaspoon of ghee about {{kcal:ghee30}}. Per 100 g and packaged.",
       "answer": "A cup of plain makhana (about 32 g) has about {{kcal:cup}} calories. 30 g roasted in a teaspoon of ghee comes to about {{kcal:ghee30}}.",
@@ -15109,7 +15121,7 @@
         "गुलाब जामुन",
         "ગુલાબ જાંબુ"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Gulab jamun calories: per piece, with syrup, per 100 g",
       "description": "One khoa gulab jamun (about 43 g, drained) has about {{kcal:one}} calories, and more with a spoon of syrup. Based on a lab analysis and IFCT 2017.",
       "answer": "One home gulab jamun made with khoa (about 43 g, drained of syrup) has about {{kcal:one}} calories. A spoon of syrup poured over adds about 45.",
@@ -15334,7 +15346,7 @@
         "રસગુલ્લા",
         "রসগোল্লা"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Rasgulla calories: per piece, with syrup, per 100 g",
       "description": "One rasgulla (about 36 g, squeezed) has about {{kcal:one}} calories; with a spoon of syrup about {{kcal:one_syrup}}. From a lab analysis and IFCT 2017.",
       "answer": "One rasgulla (about 36 g, lightly squeezed of syrup) has about {{kcal:one}} calories. With a tablespoon of syrup it's about {{kcal:one_syrup}}.",
@@ -15556,7 +15568,7 @@
         "જલેબી",
         "জিলিপি"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Jalebi calories: per piece, per 100 g, an estimate",
       "description": "One 30 g jalebi has about {{kcal:one}} calories and 100 g about {{kcal:g100}}, estimated from frying and syrup data. No lab analysis of jalebi exists.",
       "answer": "One jalebi of about 30 g has roughly {{kcal:one}} calories, and 100 g about {{kcal:g100}}. This is an estimate: we found no lab analysis of jalebi.",
@@ -15790,7 +15802,7 @@
         "काजू बर्फी",
         "કાજુ કતરી"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Kaju katli calories: per piece and per 100 g",
       "description": "One 10 g piece of kaju katli has about {{kcal:shop}} calories; 100 g about {{kcal:g100}}. Made from cashews and sugar, worked out from IFCT 2017.",
       "answer": "One sweet-shop piece of kaju katli (about 10 g) has about {{kcal:shop}} calories. A larger home piece of about 17 g has about {{kcal:one}}.",
@@ -15997,7 +16009,7 @@
         "बेसन के लड्डू",
         "બેસનના લાડુ"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Besan ladoo calories: per ladoo and per 100 g",
       "description": "One besan ladoo (about 35 g) has about {{kcal:one}} calories, from besan, ghee and sugar. Close to a street ladoo measured in a lab study.",
       "answer": "One besan ladoo of about 35 g has about {{kcal:one}} calories. Ghee and sugar are about two thirds of it.",
@@ -16208,7 +16220,7 @@
         "गाजर का हलवा",
         "ગાજરનો હલવો"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Gajar halwa calories: per bowl and per katori",
       "description": "A bowl of gajar halwa from 100 g of carrots has about {{kcal:bowl}} calories, with khoa, sugar and ghee. Sweet shop and wedding halwa compared.",
       "answer": "A bowl of home gajar halwa, made from 100 g of carrots with khoa, sugar and ghee, has about {{kcal:bowl}} calories. A small katori is about {{kcal:small}}.",
@@ -16401,7 +16413,7 @@
         "फिल्टर कॉफी",
         "ફિલ્ટર કોફી"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Filter coffee calories: with sugar, without, toned milk",
       "description": "A tumbler of filter coffee with whole milk and 2 teaspoons of sugar has about {{kcal:two_tsp}} calories; without sugar, about {{kcal:no_sugar}}.",
       "answer": "A tumbler of South Indian filter coffee (50 ml decoction, 100 ml whole milk, 2 teaspoons of sugar) has about {{kcal:two_tsp}} calories, or about {{kcal:no_sugar}} without sugar.",
@@ -16644,7 +16656,7 @@
         "छाछ",
         "છાશ"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Chaas calories: per glass, masala chaas and buttermilk",
       "description": "A 200 ml glass of chaas made from curd and water has about {{kcal:k200}} calories. Thicker chaas, masala chaas and packed buttermilk compared.",
       "answer": "A 200 ml glass of home chaas (curd whisked with about three times as much water) has about {{kcal:k200}} calories.",
@@ -16841,7 +16853,7 @@
         "मीठी लस्सी",
         "લસ્સી"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Sweet lassi calories: per glass, with malai",
       "description": "A glass of sweet lassi with 100 g curd and 4 teaspoons of sugar has about {{kcal:glass}} calories; 200 ml about {{kcal:k200}}, as ICMR-NIN says.",
       "answer": "A glass of home sweet lassi (100 g curd, about 4 teaspoons of sugar and water) has about {{kcal:glass}} calories. A 200 ml glass is about {{kcal:k200}}.",
@@ -17081,7 +17093,7 @@
         "शिकंजी",
         "લીંબુ શરબત"
       ],
-      "updated": "2026-10-11",
+      "updated": "2026-10-13",
       "title": "Nimbu pani calories: with sugar, without, and shikanji",
       "description": "A glass of nimbu pani has about {{kcal:plain}} calories without sugar, {{kcal:two_tsp}} with 2 teaspoons of sugar and about {{kcal:textbook}} made sweet.",
       "answer": "A glass of nimbu pani has about {{kcal:plain}} calories without sugar and about {{kcal:two_tsp}} with 2 teaspoons of sugar. Sugar is almost the whole number.",

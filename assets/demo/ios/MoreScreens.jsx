@@ -197,7 +197,7 @@ function ChatScreen({ onBack }) {
       <span style={{ font: T(400, 13), color: mute }}>Chat sends today's lines to our AI provider to answer. It isn't used to train models.</span>
     </div>
     <div style={{ display: 'flex', alignItems: 'flex-end', gap: 12, padding: '10px 24px 30px', borderTop: '1px solid var(--border-hairline)' }}>
-      <input value={v} onChange={e => setV(e.target.value)} onKeyDown={e => e.key === 'Enter' && send(v)} placeholder="Ask about your day" style={{ flex: 1, border: 0, outline: 'none', borderRadius: 20, background: 'var(--slate-fill)', padding: '9px 14px', font: T(400, 17), color: 'var(--slate-ink)' }} />
+      <input aria-label="Ask about your day" value={v} onChange={e => setV(e.target.value)} onKeyDown={e => e.key === 'Enter' && send(v)} placeholder="Ask about your day" style={{ flex: 1, border: 0, outline: 'none', borderRadius: 20, background: 'var(--slate-fill)', padding: '9px 14px', font: T(400, 17), color: 'var(--slate-ink)' }} />
       <button onClick={() => send(v)} style={{ width: 32, height: 32, borderRadius: 16, border: 0, background: 'var(--slate-ink)', color: 'var(--slate-bg)', display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', marginBottom: 3 }}><Icon name="arrow-up" size={18} strokeWidth={2.2} /></button>
     </div>
   </div>;

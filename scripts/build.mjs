@@ -18,7 +18,7 @@ const CSS_VERSION = 3;
 // assets/demo/demo.css (the tokens) and assets/pages.css (every page's frame and light look). Bump with the file;
 // the hand-written pages (index, privacy, terms, support, 404) carry the same numbers.
 const DEMO_CSS_VERSION = 1;
-const PAGES_CSS_VERSION = 3;
+const PAGES_CSS_VERSION = 4;
 const RANGE_LIMIT = 0.15; // sources further apart than this must show a range
 
 const read = (p) => JSON.parse(readFileSync(join(ROOT, p), "utf8"));
@@ -295,8 +295,12 @@ function cta() {
 // Content pages (/for/, /compare/, /blog/) come from data/pages.json when it exists.
 const contentSections = existsSync(join(ROOT, "data/pages.json")) ? read("data/pages.json").sections : [];
 
+// The about and how-Slate-counts pages come from data/info.json.
+const infoPages = existsSync(join(ROOT, "data/info.json")) ? read("data/info.json").pages : [];
+
 // Generated and hand-written pages that exist, so links to pages not built yet are left out.
 const builtPaths = new Set(["/", "/privacy/", "/terms/", "/support/", "/calories/", ...foods.map((f) => `/calories/${f.slug}/`),
+  ...infoPages.map((p) => `/${p.slug}/`),
   ...contentSections.flatMap((s) => [s.path, ...s.pages.map((p) => `${s.path}${p.slug}/`)])]);
 function pageExists(href) {
   if (builtPaths.has(href)) return true;
@@ -325,7 +329,7 @@ function methodSection(food, calc) {
   const sources = food.sources.map((s) => `<li><a href="${esc(s.url)}">${esc(s.title)}</a>${s.note ? `. ${esc(s.note)}` : ""}</li>`).join("\n");
   return `
     <section aria-labelledby="method">
-      <h2 id="method">How these numbers were worked out</h2>
+      <h2 id="method">How were these numbers worked out?</h2>
       ${food.method.map((p) => `<p>${inline(food, p)}</p>`).join("\n      ")}
       <div class="table-wrap"><table class="nutri">
 <caption>${esc(food.recipe.label)}.${food.recipe.cookedYieldG ? ` Cooked weight about ${fmt(food.recipe.cookedYieldG)} g.` : ""}</caption>
@@ -333,6 +337,7 @@ function methodSection(food, calc) {
 <tbody>
 ${rows}
 </tbody></table></div>
+      <p>Every dish on Slate is worked out the same way: <a href="/how-slate-counts/">how Slate counts calories</a>.</p>
       <p>${food.per100gCooked ? `That works out to about ${fmt(food.per100gCooked.kcal)} calories per 100 g of cooked ${esc(food.nameLower)}. ` : ""}Calories are rounded to the nearest 5 and grams to the nearest whole number.</p>
       ${range}
       <h3>Sources</h3>
@@ -370,17 +375,18 @@ function foodPage(food, calc) {
   <div class="wrap-reading">
     ${crumbs(trail)}
     <h1>${esc(food.name)} calories</h1>
+    <p class="meta-line mute">Checked on ${longDate(food.updated)}.</p>
     <p class="answer-first">${inline(food, food.answer)}</p>
     ${food.intro.map((p) => `<p class="para">${inline(food, p)}</p>`).join("\n    ")}
     <div class="card note"><p>${esc(site.foodNote)}</p></div>
 
     <section aria-labelledby="portions">
-      <h2 id="portions">Calories in common portions</h2>
+      <h2 id="portions">How many calories are in ${esc(food.nameLower)}?</h2>
       ${nutriTable(food, food.portions, food.portionsCaption)}
     </section>
 
     <section aria-labelledby="outside">
-      <h2 id="outside">Home or outside</h2>
+      <h2 id="outside">How does home ${esc(food.nameLower)} compare with outside?</h2>
       ${o.text.map((p) => `<p>${inline(food, p)}</p>`).join("\n      ")}
       <div class="table-wrap"><table class="nutri">
 <caption>${esc(o.caption)}</caption>
@@ -392,7 +398,7 @@ function foodPage(food, calc) {
     </section>
 
     <section aria-labelledby="changes">
-      <h2 id="changes">What changes the number</h2>
+      <h2 id="changes">What changes the calories in ${esc(food.nameLower)}?</h2>
       <ul>
 ${food.changes.map((c) => `        <li>${inline(food, c)}</li>`).join("\n")}
       </ul>
@@ -526,9 +532,9 @@ function contentPage(section, page) {
   const graph = [webpage, breadcrumbLd(trail)];
   if (isBlog) {
     graph.push({ "@type": "BlogPosting", "@id": `${SITE}${path}#article`, headline: page.h1, description,
-      mainEntityOfPage: { "@id": `${SITE}${path}#webpage` }, image: `${SITE}/assets/og.png?v=2`, inLanguage: "en-IN",
+      mainEntityOfPage: { "@id": `${SITE}${path}#webpage` }, image: { "@type": "ImageObject", url: `${SITE}/assets/og.png?v=2`, width: 1200, height: 630 }, inLanguage: "en-IN",
       datePublished: page.published, dateModified: page.updated,
-      author: { "@type": "Person", name: site.author.name, jobTitle: site.author.jobTitle, worksFor: { "@id": `${SITE}/#organization` } },
+      author: { "@type": "Person", "@id": `${SITE}/about/#${site.author.id}`, url: `${SITE}/about/`, name: site.author.name, jobTitle: site.author.jobTitle, worksFor: { "@id": `${SITE}/#organization` } },
       publisher: { "@id": `${SITE}/#organization` } });
   }
   if (faq.ld) graph.push(faq.ld);
@@ -583,7 +589,7 @@ function contentHub(section) {
   const trail = [{ name: "Home", path: "/" }, { name: section.crumb, path }];
   const h = section.hub;
   const pages = section.id === "blog" ? [...section.pages].sort((a, b) => b.published.localeCompare(a.published)) : section.pages;
-  const items = pages.map((p) => `<li><a href="${path}${p.slug}/"><span class="hub-name">${esc(p.linkLabel || p.h1)}</span></a></li>`).join("\n");
+  const items = pages.map((p) => `<li><a href="${path}${p.slug}/"><span class="hub-text"><span class="hub-name">${esc(p.linkLabel || p.h1)}</span><span class="hub-desc">${esc(plainText(`${path}${p.slug}/`, p.description))}</span></span></a></li>`).join("\n");
   const jsonld = { "@context": "https://schema.org", "@graph": [
     { "@type": "CollectionPage", "@id": `${SITE}${path}#webpage`, url: SITE + path, name: h.title, description: h.description,
       isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` }, inLanguage: "en-IN",
@@ -607,6 +613,46 @@ ${h.footnote ? `    <p class="note mute">${prose(path, h.footnote)}</p>\n` : ""}
 </main>
 `;
   return head({ title: h.title, description: h.description, path, jsonld }) + body + footer();
+}
+
+// ---------- About and how-Slate-counts pages (data/info.json) ----------
+// Same blocks as the content pages, at the top level (/about/, /how-slate-counts/). The about page also
+// carries the people behind Slate, with the @ids the blog posts' author points to.
+
+function infoPage(page) {
+  const path = `/${page.slug}/`;
+  const trail = [{ name: "Home", path: "/" }, { name: page.h1, path }];
+  const description = plainText(path, page.description);
+  const graph = [
+    { "@type": page.type, "@id": `${SITE}${path}#webpage`, url: SITE + path, name: page.title, description,
+      isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` }, inLanguage: "en-IN",
+      dateModified: page.updated, ...(page.type === "AboutPage" ? { about: { "@id": `${SITE}/#organization` } } : {}) },
+    breadcrumbLd(trail),
+  ];
+  if (page.type === "AboutPage") {
+    graph.push({ "@type": "Person", "@id": `${SITE}/about/#${site.author.id}`, url: `${SITE}/about/`, name: site.author.name,
+      jobTitle: site.author.jobTitle, worksFor: { "@id": `${SITE}/#organization` } });
+    graph.push({ "@type": "Person", "@id": `${SITE}/about/#nehal-amin`, url: `${SITE}/about/`, name: "Nehal Amin",
+      worksFor: { "@id": `${SITE}/#organization` } });
+  }
+  const sections = page.body.map((s) => `
+    <section aria-labelledby="${s.id}">
+      <h2 id="${s.id}">${prose(path, s.h2)}</h2>
+      ${blocks(path, s.content)}
+    </section>`).join("");
+  const body = `
+<main id="main" class="legal">
+  <div class="wrap-reading">
+    ${crumbs(trail)}
+    <h1>${esc(page.h1)}</h1>
+    <p class="meta-line mute">Updated ${longDate(page.updated)}.</p>
+    <p class="answer-first">${prose(path, page.lede)}</p>
+${sections}
+${cta()}
+  </div>
+</main>
+`;
+  return head({ title: page.title, description, path, jsonld: { "@context": "https://schema.org", "@graph": graph } }) + body + footer();
 }
 
 // ---------- Research log ----------
@@ -656,7 +702,7 @@ function researchLog(list, results, { title, dataFile, pages }) {
 
 function updateSitemap() {
   const xml = readFileSync(join(ROOT, "sitemap.xml"), "utf8");
-  const generatedRoots = ["/calories/", ...contentSections.map((s) => s.path)];
+  const generatedRoots = ["/calories/", ...contentSections.map((s) => s.path), ...infoPages.map((p) => `/${p.slug}/`)];
   const keep = [...xml.matchAll(/<url><loc>([^<]+)<\/loc><lastmod>([^<]+)<\/lastmod><\/url>/g)]
     .filter((m) => !generatedRoots.some((r) => m[1].startsWith(SITE + r)))
     .map((m) => ({ loc: m[1], lastmod: m[2] }));
@@ -666,6 +712,7 @@ function updateSitemap() {
     generated.push({ loc: SITE + s.path, lastmod: s.pages.map((p) => p.updated).sort().at(-1) });
     for (const p of s.pages) generated.push({ loc: `${SITE}${s.path}${p.slug}/`, lastmod: p.updated });
   }
+  for (const p of infoPages) generated.push({ loc: `${SITE}/${p.slug}/`, lastmod: p.updated });
   const urls = [...keep, ...generated].map((u) => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod></url>`).join("\n");
   write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
 }
@@ -684,7 +731,8 @@ Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year
 
 ## Key pages
 
-- [Home](${SITE}/): a clickable demo of the app
+- [Home](${SITE}/): what Slate is, with a clickable demo of the app
+${infoPages.map((p) => line(`/${p.slug}/`, p.title, plainText(`/${p.slug}/`, p.description))).join("\n")}
 - [Privacy policy](${SITE}/privacy/)
 - [Terms of use](${SITE}/terms/)
 - [Support](${SITE}/support/): support@writeonslate.com`,
@@ -727,6 +775,7 @@ for (const s of contentSections) {
   write(`${s.path.slice(1)}index.html`, contentHub(s));
   for (const p of s.pages) { write(`${s.path.slice(1)}${p.slug}/index.html`, contentPage(s, p)); contentCount++; }
 }
+for (const p of infoPages) write(`${p.slug}/index.html`, infoPage(p));
 write("data/foods.json", JSON.stringify(foodsFile, null, 2) + "\n");
 write("research/food-sources.md", researchLog(foods, results, { title: "Food sources and arithmetic", dataFile: "data/foods.json", pages: true }));
 if (appFoodsFile) {

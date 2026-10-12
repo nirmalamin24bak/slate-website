@@ -6,7 +6,9 @@ Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year
 
 ## Key pages
 
-- [Home](https://writeonslate.com/): a clickable demo of the app
+- [Home](https://writeonslate.com/): what Slate is, with a clickable demo of the app
+- [About Slate and Sonal Systems](https://writeonslate.com/about/): Slate is a calorie journal for iPhone, built for Indian food by Sonal Systems Private Limited in Vadodara, Gujarat. Who makes it and how to reach us.
+- [How Slate counts calories in Indian food](https://writeonslate.com/how-slate-counts/): How every number on Slate is worked out: home recipes in grams, IFCT 2017 values, cooked weights, katori sizes, outside food, rounding and cross-checks.
 - [Privacy policy](https://writeonslate.com/privacy/)
 - [Terms of use](https://writeonslate.com/terms/)
 - [Support](https://writeonslate.com/support/): support@writeonslate.com
@@ -100,7 +102,7 @@ Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year
 ## Compare
 
 - [Compare Slate with other calorie apps](https://writeonslate.com/compare/): Slate compared with HealthifyMe, MyFitnessPal, Cal AI and Lose It!: logging, Indian food, price in India, login, ads, data storage and platforms.
-- [Slate and HealthifyMe: a factual comparison](https://writeonslate.com/compare/healthifyme/): Slate and HealthifyMe compared: how you log food, Indian food, price in India, login, ads, data storage, coaching and platforms. Checked 11 October 2026.
+- [HealthifyMe alternative for Indian food: Slate compared](https://writeonslate.com/compare/healthifyme/): A HealthifyMe alternative for Indian food? Slate and HealthifyMe compared: logging, Indian food, price in India, login, ads, data storage and platforms.
 - [Slate and MyFitnessPal: a factual comparison](https://writeonslate.com/compare/myfitnesspal/): Slate and MyFitnessPal compared: logging, Indian and restaurant food, price in India, login, ads, data storage and platforms. Checked 11 October 2026.
 - [Slate and Cal AI: a factual comparison](https://writeonslate.com/compare/cal-ai/): Slate and Cal AI compared: photo or typed logging, Indian food, price in India, login, ads, data storage and platforms. Checked 11 October 2026.
 - [Slate and Lose It!: a factual comparison](https://writeonslate.com/compare/lose-it/): Slate and Lose It! compared: logging, Indian food, price in India, login, ads, data storage and platforms, from official sources. Checked 11 October 2026.

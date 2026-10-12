@@ -3,7 +3,7 @@
     "line": "Slate works this out for your own katori and oil. Free, no login, iPhone.",
     "appStoreUrl": null
   },
-  "foodNote": "Typical values for a home kitchen. Your own katori, roti and oil change the number; Slate adjusts for them.",
+  "foodNote": "Typical values for a home kitchen, for the portion named next to each number. Other sites often show bigger numbers because they count a bigger serving or a restaurant recipe. Your own katori, roti and oil change the number; Slate adjusts for them.",
   "hub": {
     "h1": "Calories in Indian food",
     "title": "Calories in Indian food: roti, dal, rice and more",
@@ -73,6 +73,14 @@
       "label": "Blog"
     },
     {
+      "href": "/how-slate-counts/",
+      "label": "How Slate counts"
+    },
+    {
+      "href": "/about/",
+      "label": "About"
+    },
+    {
       "href": "/privacy/",
       "label": "Privacy policy"
     },
@@ -92,6 +100,7 @@
   "author": {
     "name": "Nirmal Amin",
     "org": "Sonal Systems",
-    "jobTitle": "Co-founder, Sonal Systems Private Limited"
+    "jobTitle": "Co-founder, Sonal Systems Private Limited",
+    "id": "nirmal-amin"
   }
 }

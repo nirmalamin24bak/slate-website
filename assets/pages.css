@@ -20,7 +20,7 @@ html, body { background:#FFFFFF; color:#111214; }
 .page-brand { display:inline-flex; align-items:center; gap:10px; text-decoration:none; color:var(--slate-ink); padding:8px 0; margin:-8px 0; line-height:1; }
 .page-brand-icon { display:block; width:28px; height:28px; border-radius:7px; flex:none; }
 .page-brand-name { font:700 20px/1 var(--font-sans); letter-spacing:-0.3px; }
-.page-brand-label { font:400 13px/1 var(--font-sans); color:var(--slate-ink-mute); }
+.page-brand-label { font:400 13px/1 var(--font-sans); color:var(--ink-mute); }
 
 /* ---------- Page text: privacy, terms, support, food, /for/, /compare/, /blog/, hubs, 404 ---------- */
 main { max-width:calc(var(--page-col) + 2 * var(--page-gutter)); margin:0 auto; padding:0 var(--page-gutter); box-sizing:border-box; }
@@ -34,9 +34,15 @@ main .card *, main aside *, main .summary * { border:0; background:transparent; 
 /* Hub lists and FAQs sit on the page, not on raised white tiles. */
 main .hub-list a, main .faq details { background:transparent; box-shadow:none; }
 main .table-wrap { max-width:100%; }
+/* Source links in a list get a 44px tap height; links inside sentences keep the line height. */
+main ol.sources a { display:inline-block; padding:12px 0; margin:-12px 0; }
+main ol.sources li + li { margin-top:14px; }
+/* Hub rows on /for/, /compare/ and /blog/: the title, then one line on what the page answers. */
+.hub-list .hub-text { display:flex; flex-direction:column; gap:4px; padding:12px 0; }
+.hub-list .hub-desc { font:400 15px/1.45 var(--font-sans); color:var(--ink-mute); }
 
 /* ---------- Footer: page links, legal links, company line, copyright ---------- */
-.legal-footer { max-width:var(--page-col); width:calc(100% - 2 * var(--page-gutter)); margin:0 auto; padding:32px 0 48px; display:grid; gap:14px; border-top:1px solid var(--slate-hairline); font:400 13px/1.6 var(--font-sans); color:var(--slate-ink-mute); }
+.legal-footer { max-width:var(--page-col); width:calc(100% - 2 * var(--page-gutter)); margin:0 auto; padding:32px 0 48px; display:grid; gap:14px; border-top:1px solid var(--slate-hairline); font:400 13px/1.6 var(--font-sans); color:var(--ink-mute); }
 .legal-footer nav { display:flex; flex-wrap:wrap; gap:8px 24px; font-size:14px; }
 .legal-footer a { color:var(--slate-ink); text-decoration:none; padding:11px 0; margin:-11px 0; }
 
@@ -53,6 +59,10 @@ main.home-main > .demo-root { max-width:none; }
 .home-intro { max-width:702px; margin:24px auto 0; padding:0 calc(var(--page-gutter) - 1px) 0 calc(var(--page-gutter) + 9px); box-sizing:content-box; }
 .home-intro h1 { font:800 37.25px/1.12 var(--font-sans); letter-spacing:-0.019em; color:var(--slate-ink); margin:0 0 10px; }
 .home-intro p { font:400 17px/1.5 var(--font-sans); color:var(--ink-mute); margin:0; text-align:justify; text-align-last:left; }
+.home-intro p.home-dishes { margin-top:12px; font-size:15px; text-align:left; }
+.home-dishes a { color:var(--slate-ink); text-decoration:underline; text-decoration-color:var(--hairline); text-underline-offset:3px; display:inline-block; padding:10px 0; margin:-10px 0; }
+/* The demo sidebar is site chrome, not app UI: its small grey labels use the darker grey that passes contrast. */
+.demo-aside { --slate-ink-mute:#636469; }
 .demo-noscript { max-width:var(--page-col); margin:0 auto; padding:32px var(--page-gutter); box-sizing:content-box; font:400 17px/1.5 var(--font-sans); color:var(--ink-mute); }
 /* The demo row (sidebar 232 + gap 56 + phone frame 422 = 710) starts 32px under the headline, at the
    column's left edge. The inline styles are the design; this only sets the outer spacing. */

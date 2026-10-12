@@ -94,7 +94,7 @@ function AboutYouScreen({ onBack }) {
   const tog = (k, v) => setMulti(m => ({ ...m, [k]: m[k].includes(v) ? m[k].filter(x => x !== v) : [...m[k], v] }));
   const Q = ({ title, children }) => <div style={{ display: 'grid', gap: 12, padding: '4px 0 16px' }}><div style={{ font: F(600, 16) }}>{title}</div>{children}</div>;
   const grid = (opts, isOn, onTap) => <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>{opts.map(o => <AnswerChip key={o} title={o} on={isOn(o)} onClick={() => onTap(o)} />)}</div>;
-  const input = (ph, w) => <input placeholder={ph} style={{ width: w || '100%', border: 0, borderBottom: '1px solid var(--border-hairline)', outline: 'none', background: 'transparent', padding: '6px 0', font: F(400, 17), color: 'var(--slate-ink)' }} />;
+  const input = (ph, w) => <input aria-label={ph} placeholder={ph} style={{ width: w || '100%', border: 0, borderBottom: '1px solid var(--border-hairline)', outline: 'none', background: 'transparent', padding: '6px 0', font: F(400, 17), color: 'var(--slate-ink)' }} />;
   return <DetailScreen title="About you" subtitle="This helps Slate read your lines the way you mean them." onBack={onBack}>
     <Q title="Diet">{grid(['Vegetarian', 'Eggetarian', 'Non-vegetarian', 'Vegan', 'Jain'], o => diet === o, setDiet)}</Q><HL />
     <div style={{ height: 16 }} /><Q title="Foods you avoid">{input('Brinjal, paneer…')}</Q><HL />
@@ -104,7 +104,7 @@ function AboutYouScreen({ onBack }) {
     <div style={{ height: 16 }} /><Q title="Sleep"><div style={{ display: 'flex', alignItems: 'baseline', gap: 6 }}>{input('7', 48)}<span style={{ font: F(400, 15), color: dmute }}>hrs</span></div></Q><HL />
     <div style={{ height: 16 }} /><Q title="What you'd like to keep an eye on">{grid(['Protein', 'Fiber', 'Sugar', 'Eating out', 'Late-night snacking'], o => multi.eye.includes(o), o => tog('eye', o))}</Q><HL />
     <div style={{ height: 16 }} /><Q title="How you cook">
-      <textarea value={note} onChange={e => setNote(e.target.value.slice(0, 280))} placeholder="We cook with less oil than most. I use a small katori." style={{ minHeight: 120, border: 0, outline: 'none', resize: 'none', background: 'var(--slate-fill)', borderRadius: 12, padding: 14, font: F(400, 17), color: 'var(--slate-ink)' }} />
+      <textarea aria-label="Note" value={note} onChange={e => setNote(e.target.value.slice(0, 280))} placeholder="We cook with less oil than most. I use a small katori." style={{ minHeight: 120, border: 0, outline: 'none', resize: 'none', background: 'var(--slate-fill)', borderRadius: 12, padding: 14, font: F(400, 17), color: 'var(--slate-ink)' }} />
       <span style={{ justifySelf: 'end', font: F(400, 13), color: dmute }}>{note.length} / 280</span>
     </Q>
   </DetailScreen>;
