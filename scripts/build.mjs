@@ -221,13 +221,6 @@ ${scripts.map((s) => `<script src="${s}" defer></script>\n`).join("")}<script ty
 <header class="site-header">
   <div class="wrap">
     <a class="wordmark" href="/">Slate</a>
-    <nav class="site-nav" aria-label="Main">
-      <ul>
-        <li class="nav-kitchen"><a href="/#kitchen">Your kitchen</a></li>
-        <li><a href="/#pricing">Pricing</a></li>
-        <li><a href="/#promise">Our promise</a></li>
-      </ul>
-    </nav>
   </div>
 </header>
 `;
@@ -662,16 +655,23 @@ function updateSitemap() {
 }
 
 // ---------- Footer links on hand-written pages ----------
-// Keeps the footer list of the home, legal, support and 404 pages the same as the generated pages'.
+// Keeps the 404 page's footer list the same as the generated pages', and the row of page links in the
+// short legal footer (home, privacy, terms, support) the same as that list's pages.
 function syncFooters() {
   const links = site.footerLinks.filter((l) => l.href.startsWith("mailto:") || pageExists(l.href));
   const list = links.map((l) => `          <li><a href="${l.href}">${esc(l.label)}</a></li>`).join("\n");
+  const legal = new Set(["/privacy/", "/terms/", "/support/"]);
+  const row = links.filter((l) => !l.href.startsWith("mailto:") && !legal.has(l.href)).map((l) => `    <a href="${l.href}">${esc(l.label)}</a>`).join("\n");
   for (const file of ["index.html", "privacy/index.html", "terms/index.html", "support/index.html", "404.html"]) {
     const html = readFileSync(join(ROOT, file), "utf8");
-    // The home, privacy, terms and support pages carry the short legal footer (assets/pages.css) instead.
-    if (!html.includes('<nav class="footer-links" aria-label="Footer">')) continue;
-    const next = html.replace(/(<nav class="footer-links" aria-label="Footer">\s*<ul>\n)[\s\S]*?(\n\s*<\/ul>)/, `$1${list}$2`);
-    if (next === html && !html.includes(list)) throw new Error(`${file}: footer link list not found`);
+    let next;
+    if (html.includes('<nav class="footer-links" aria-label="Footer">')) {
+      next = html.replace(/(<nav class="footer-links" aria-label="Footer">\s*<ul>\n)[\s\S]*?(\n\s*<\/ul>)/, `$1${list}$2`);
+      if (next === html && !html.includes(list)) throw new Error(`${file}: footer link list not found`);
+    } else {
+      next = html.replace(/(<nav class="footer-pages" aria-label="Pages">\n)[\s\S]*?(\n  <\/nav>)/, `$1${row}$2`);
+      if (next === html && !html.includes(row)) throw new Error(`${file}: footer page links not found`);
+    }
     if (next !== html) write(file, next);
   }
 }

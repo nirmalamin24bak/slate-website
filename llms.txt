@@ -6,7 +6,7 @@ Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year
 
 ## Key pages
 
-- [Home](https://writeonslate.com/): how it works, pricing, FAQ
+- [Home](https://writeonslate.com/): a clickable demo of the app
 - [Privacy policy](https://writeonslate.com/privacy/)
 - [Terms of use](https://writeonslate.com/terms/)
 - [Support](https://writeonslate.com/support/): support@writeonslate.com
