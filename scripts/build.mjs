@@ -5,7 +5,7 @@
 // Every number on a food page is worked out here from a recipe in grams and
 // per-100 g ingredient values, so fixing one value in data/ updates every page.
 // Writes: calories/index.html, calories/<slug>/index.html, the computed fields
-// in data/foods.json, research/food-sources.md and the <url> entries in sitemap.xml.
+// in data/foods.json, research/food-sources.md, the <url> entries in sitemap.xml and llms.txt.
 // No dependencies: Node 18 or later.
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
@@ -18,7 +18,7 @@ const CSS_VERSION = 3;
 // assets/demo/demo.css (the tokens) and assets/pages.css (every page's frame and light look). Bump with the file;
 // the hand-written pages (index, privacy, terms, support, 404) carry the same numbers.
 const DEMO_CSS_VERSION = 1;
-const PAGES_CSS_VERSION = 2;
+const PAGES_CSS_VERSION = 3;
 const RANGE_LIMIT = 0.15; // sources further apart than this must show a range
 
 const read = (p) => JSON.parse(readFileSync(join(ROOT, p), "utf8"));
@@ -345,6 +345,7 @@ ${sources}
 function foodPage(food, calc) {
   const path = `/calories/${food.slug}/`;
   const trail = [{ name: "Home", path: "/" }, { name: "Calories", path: "/calories/" }, { name: food.name, path }];
+  const description = plain(food, food.description);
   const faqLd = {
     "@type": "FAQPage", "@id": `${SITE}${path}#faq`,
     mainEntity: food.faq.map((f) => ({ "@type": "Question", name: plain(food, f.q), acceptedAnswer: { "@type": "Answer", text: plain(food, f.a) } })),
@@ -353,7 +354,7 @@ function foodPage(food, calc) {
     "@context": "https://schema.org",
     "@graph": [
       { "@type": "WebPage", "@id": `${SITE}${path}#webpage`, url: SITE + path, name: food.title,
-        description: food.description, isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` },
+        description, isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` },
         inLanguage: "en-IN", dateModified: food.updated },
       breadcrumbLd(trail),
       faqLd,
@@ -415,7 +416,7 @@ ${cta()}
   </div>
 </main>
 `;
-  return head({ title: food.title, description: food.description, path, jsonld }) + body + footer();
+  return head({ title: food.title, description, path, jsonld }) + body + footer();
 }
 
 // ---------- Hub ----------
@@ -518,12 +519,13 @@ function contentPage(section, page) {
   const trail = [{ name: "Home", path: "/" }, { name: section.crumb, path: section.path }, { name: page.crumb || page.h1, path }];
   const isBlog = section.id === "blog";
   const faq = faqParts(path, page.faq);
+  const description = plainText(path, page.description);
   const webpage = { "@type": "WebPage", "@id": `${SITE}${path}#webpage`, url: SITE + path, name: page.title,
-    description: page.description, isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` },
+    description, isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` },
     inLanguage: "en-IN", dateModified: page.updated };
   const graph = [webpage, breadcrumbLd(trail)];
   if (isBlog) {
-    graph.push({ "@type": "BlogPosting", "@id": `${SITE}${path}#article`, headline: page.h1, description: page.description,
+    graph.push({ "@type": "BlogPosting", "@id": `${SITE}${path}#article`, headline: page.h1, description,
       mainEntityOfPage: { "@id": `${SITE}${path}#webpage` }, image: `${SITE}/assets/og.png?v=2`, inLanguage: "en-IN",
       datePublished: page.published, dateModified: page.updated,
       author: { "@type": "Person", name: site.author.name, jobTitle: site.author.jobTitle, worksFor: { "@id": `${SITE}/#organization` } },
@@ -573,7 +575,7 @@ ${cta()}
   </div>
 </main>
 `;
-  return head({ title: page.title, description: page.description, path, jsonld: { "@context": "https://schema.org", "@graph": graph }, ogType: isBlog ? "article" : "website" }) + body + footer();
+  return head({ title: page.title, description, path, jsonld: { "@context": "https://schema.org", "@graph": graph }, ogType: isBlog ? "article" : "website" }) + body + footer();
 }
 
 function contentHub(section) {
@@ -668,6 +670,39 @@ function updateSitemap() {
   write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
 }
 
+// ---------- llms.txt ----------
+// The plain-text guide for AI tools, listing every page from the same data as the sitemap so the two never drift.
+
+function writeLlms() {
+  const line = (path, title, description) => `- [${title}](${SITE}${path}): ${description}`;
+  const parts = [
+    `# Slate
+
+> Slate is a calorie journal for iPhone, built for India, by Sonal Systems Private Limited (Vadodara, Gujarat). You type what you ate the way you'd say it, in English, Hinglish or Gujarati spellings ("2 roti aur ek katori dal"), and Slate puts a number next to it. No login. Data stored in Mumbai, India. Not related to Slate magazine (slate.com) or other products named Slate.
+
+Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year (7 days free on yearly), and adds voice and photo logging, delivery orders, chat and more. iPhone only, iOS 18 or later. Coming soon to the App Store.
+
+## Key pages
+
+- [Home](${SITE}/): a clickable demo of the app
+- [Privacy policy](${SITE}/privacy/)
+- [Terms of use](${SITE}/terms/)
+- [Support](${SITE}/support/): support@writeonslate.com`,
+    `## Food calories
+
+${[line("/calories/", site.hub.title, site.hub.description), ...foods.map((f) => line(`/calories/${f.slug}/`, f.title, plain(f, f.description)))].join("\n")}`,
+    ...contentSections.map((s) => `## ${s.crumb}
+
+${[line(s.path, s.hub.title, s.hub.description), ...s.pages.map((p) => line(`${s.path}${p.slug}/`, p.title, plainText(`${s.path}${p.slug}/`, p.description)))].join("\n")}`),
+    `## Facts
+
+- Numbers are worked out from the Indian Food Composition Tables (IFCT 2017) and adjusted for your kitchen.
+- AI only reads lines Slate doesn't recognise, spots dishes in photos, and powers chat. It never produces a calorie number. Your Slate isn't used to train AI models.
+- Not medical advice. For anyone 18 or older.`,
+  ];
+  write("llms.txt", parts.join("\n\n") + "\n");
+}
+
 // ---------- Footer links on hand-written pages ----------
 // Keeps the page-links row in the hand-written pages' footer (home, privacy, terms, support, 404) the same
 // as the generated pages' (footerRows above).
@@ -701,5 +736,6 @@ if (appFoodsFile) {
   write("research/app-food-sources.md", researchLog(appFoods, appResults, { title: "App-only dishes: sources and arithmetic", dataFile: "data/app-foods.json", pages: false }));
 }
 updateSitemap();
+writeLlms();
 syncFooters();
 console.log(`Built ${foods.length} food pages and the hub, and ${contentCount} content pages in ${contentSections.length} sections.`);

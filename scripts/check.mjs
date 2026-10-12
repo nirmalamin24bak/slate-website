@@ -59,6 +59,9 @@ for (const file of files) {
   const prose = `${visible} ${decode(attr(html, /<title>([^<]*)<\/title>/) || "")}`.replace(/<!/g, "").replace(/Lose It!/g, "Lose It");
   if (/!/.test(prose)) fail(`exclamation mark in "...${prose.slice(Math.max(0, prose.indexOf("!") - 40), prose.indexOf("!") + 10)}..."`);
   if (/—|&mdash;/.test(html)) fail("em dash");
+  // Prose tokens ({{kcal:k200}} and the like) are filled at build time; any left over leaked into a page.
+  const token = html.match(/\{\{[^}]*\}\}/);
+  if (token) fail(`unresolved template token ${token[0]}`);
   for (const ch of words.match(/\p{Extended_Pictographic}/gu) || []) if (!NOT_EMOJI.has(ch)) fail(`emoji ${ch}`);
 
   const title = attr(html, /<title>([^<]*)<\/title>/);

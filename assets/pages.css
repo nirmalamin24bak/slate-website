@@ -42,18 +42,27 @@ main .table-wrap { max-width:100%; }
 
 /* ---------- Home: the demo ---------- */
 body.home { background:#FFFFFF; min-height:100vh; }
-.demo-root { min-height:947px; }
-/* Shown until React mounts, and to visitors without JavaScript. */
-.demo-fallback { max-width:var(--page-col); margin:0 auto; padding:32px var(--page-gutter); box-sizing:content-box; }
-.demo-fallback h1 { font:800 40px/1.08 var(--font-sans); letter-spacing:-1px; margin:0 0 16px; }
-.demo-fallback p { font:400 17px/1.5 var(--font-sans); color:var(--slate-ink-mute); margin:0; }
-/* The demo row (sidebar 232 + gap 56 + phone frame 422 = 710) starts 32px under the header, at the
+.demo-root { min-height:949px; }
+/* The home headline sits outside the React root, so it stays in the page whether or not the demo runs.
+   main.home-main opts out of the reading-column rules above; the intro and the demo row set their own. */
+main.home-main { max-width:none; padding:0; }
+main.home-main > .demo-root { max-width:none; }
+/* One rectangle across the demo: on wide screens the intro runs from the sidebar card's left edge (9px into the
+   710px row) to the phone frame's right edge (1px past it), 702px; the headline is sized to fill that width on one
+   line and the paragraph is justified. On narrow screens it takes the stacked demo's 422px column. */
+.home-intro { max-width:702px; margin:24px auto 0; padding:0 calc(var(--page-gutter) - 1px) 0 calc(var(--page-gutter) + 9px); box-sizing:content-box; }
+.home-intro h1 { font:800 37.25px/1.12 var(--font-sans); letter-spacing:-0.019em; color:var(--slate-ink); margin:0 0 10px; }
+.home-intro p { font:400 17px/1.5 var(--font-sans); color:var(--ink-mute); margin:0; text-align:justify; text-align-last:left; }
+.demo-noscript { max-width:var(--page-col); margin:0 auto; padding:32px var(--page-gutter); box-sizing:content-box; font:400 17px/1.5 var(--font-sans); color:var(--ink-mute); }
+/* The demo row (sidebar 232 + gap 56 + phone frame 422 = 710) starts 32px under the headline, at the
    column's left edge. The inline styles are the design; this only sets the outer spacing. */
 .demo-app { padding:32px var(--page-gutter) 40px !important; }
 
 /* Narrow screens: the sidebar's parts stack under the phone frame, and the frame scales to fit.
    app.js sets --demo-scale to min(1, (width - 40px) / 422px). */
 @media (max-width: 799px) {
+  .home-intro { max-width:422px; padding:0 var(--page-gutter); }
+  .home-intro h1 { font-size:26px; }
   .demo-app { flex-direction:column !important; align-items:center !important; gap:24px !important; padding:24px var(--page-gutter) 32px !important; }
   .demo-aside { display:contents !important; }
   .demo-phone-fit { order:1; width:calc(422px * var(--demo-scale, 1)); height:calc(894px * var(--demo-scale, 1)); }

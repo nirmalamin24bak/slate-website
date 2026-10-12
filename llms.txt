@@ -1,8 +1,8 @@
 # Slate
 
-> Slate is a calorie journal for iPhone, built for India, by Sonal Systems Private Limited (Vadodara, Gujarat). You type what you ate the way you'd say it, in English, Hinglish or Gujarati spellings ("2 roti aur ek katori dal"), and Slate puts a number next to it. No login. Data stored in Mumbai, India. Not related to other products named Slate.
+> Slate is a calorie journal for iPhone, built for India, by Sonal Systems Private Limited (Vadodara, Gujarat). You type what you ate the way you'd say it, in English, Hinglish or Gujarati spellings ("2 roti aur ek katori dal"), and Slate puts a number next to it. No login. Data stored in Mumbai, India. Not related to Slate magazine (slate.com) or other products named Slate.
 
-Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year (7 days free on yearly). iPhone only, iOS 17 or later. Coming soon to the App Store.
+Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year (7 days free on yearly), and adds voice and photo logging, delivery orders, chat and more. iPhone only, iOS 18 or later. Coming soon to the App Store.
 
 ## Key pages
 
@@ -10,6 +10,110 @@ Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year
 - [Privacy policy](https://writeonslate.com/privacy/)
 - [Terms of use](https://writeonslate.com/terms/)
 - [Support](https://writeonslate.com/support/): support@writeonslate.com
+
+## Food calories
+
+- [Calories in Indian food: roti, dal, rice and more](https://writeonslate.com/calories/): Calories, protein, carbs and fat for everyday Indian dishes, by katori, piece and plate, worked out from IFCT 2017 recipes in grams.
+- [Roti calories: chapati sizes and roti with ghee](https://writeonslate.com/calories/roti/): A medium roti made with 30 g of atta has about 95 calories. Phulka, chapati and roti with ghee, worked out from IFCT 2017.
+- [Rice calories: per katori, plate and 100 g cooked](https://writeonslate.com/calories/plain-rice/): A 200 ml katori of plain cooked rice has about 160 calories. White rice by katori, plate and 100 g, worked out from IFCT 2017.
+- [Dal tadka calories: per katori of toor dal](https://writeonslate.com/calories/dal-tadka/): A 200 ml katori of thin dal tadka has about 115 calories; thick dal has up to about twice that. Toor dal with a ghee tadka, from IFCT 2017.
+- [Rajma calories: per katori and per bowl](https://writeonslate.com/calories/rajma/): A 200 ml katori of rajma curry has about 210 calories and 8 g protein. Home rajma, worked out from IFCT 2017.
+- [Poha calories: per bowl and per plate](https://writeonslate.com/calories/poha/): A plate of poha made with 40 g of dry poha has about 315 calories. Kanda and batata poha with peanuts, from IFCT 2017 and a textbook recipe.
+- [Idli calories: per idli, small to large](https://writeonslate.com/calories/idli/): One medium idli has about 50 calories, and 2 medium idlis about 105. Rice and urad dal idli, worked out from IFCT 2017.
+- [Masala dosa calories: home and restaurant](https://writeonslate.com/calories/masala-dosa/): A home masala dosa has about 255 calories with a teaspoon of oil, or 335 with a tablespoon. From IFCT 2017 and a textbook recipe.
+- [Samosa calories: home and street samosa](https://writeonslate.com/calories/samosa/): A home aloo samosa has about 165 calories; a street samosa about 160 to 285. From IFCT 2017 and measured street samples.
+- [Paneer butter masala calories: home and restaurant](https://writeonslate.com/calories/paneer-butter-masala/): A 200 ml katori of home paneer butter masala has about 300 calories; a restaurant serving often has two or three times that. From IFCT 2017.
+- [Masala chai calories: per cup, with and without sugar](https://writeonslate.com/calories/masala-chai/): A cup of masala chai with 50 ml toned milk and 2 tsp sugar has about 60 calories; without sugar, about 30. Worked out per cup.
+- [Phulka calories: 1, 2 or 4 phulkas, with or without ghee](https://writeonslate.com/calories/phulka/): One phulka made with about 24 g of atta has about 75 calories, or 120 with a teaspoon of ghee. Counts for 2, 3 and 4 phulkas.
+- [Plain paratha calories: with oil, ghee or butter](https://writeonslate.com/calories/plain-paratha/): A plain paratha made with 27 g of atta and 2 teaspoons of oil has about 165 calories. With ghee or butter on top, and dhaba sizes.
+- [Aloo paratha calories: homemade, with butter or curd](https://writeonslate.com/calories/aloo-paratha/): A homemade aloo paratha has about 190 calories, or 225 with a teaspoon of butter. Worked out from a textbook recipe and IFCT 2017.
+- [Thepla calories: methi thepla, 1 to 4 pieces](https://writeonslate.com/calories/thepla/): One methi thepla has about 120 calories, so 3 theplas come to about 365. Worked out from a recipe in grams and IFCT 2017.
+- [Puri calories: per puri, 4 puris and puri bhaji](https://writeonslate.com/calories/puri/): A home puri made with 13 g of atta has about 95 calories once fried; 4 puris have about 385. Frying oil counted from lab data.
+- [Bhatura calories: one bhatura, measured street sizes](https://writeonslate.com/calories/bhatura/): A home bhatura made with 27 g of maida has about 185 calories once fried. Street bhaturas tested in a lab came to about 90 to 185.
+- [Naan calories: home naan and a large restaurant naan](https://writeonslate.com/calories/naan/): A home naan made with 40 g of maida has about 175 calories. A large 10-inch restaurant naan is about 525. Worked out from IFCT 2017.
+- [Butter naan calories: by size and teaspoons of butter](https://writeonslate.com/calories/butter-naan/): A home butter naan with a teaspoon of butter has about 210 calories; a large restaurant one is about 420 to 630. From IFCT 2017.
+- [Plain dosa calories: with or without oil, by size](https://writeonslate.com/calories/plain-dosa/): A plain dosa has about 145 calories with ¾ teaspoon of oil, and about 115 without. Sizes, ghee and restaurant dosas compared.
+- [Uttapam calories: onion tomato uttapam, home and restaurant](https://writeonslate.com/calories/uttapam/): An onion tomato uttapam has about 215 calories, with the oil from the tawa counted. Restaurant uttapams, ghee and mini uttapams compared.
+- [Dal fry calories: per katori, home and dhaba](https://writeonslate.com/calories/dal-fry/): A 200 ml katori of dal fry has about 180 calories, with 10 g of ghee in the pot. Dhaba dal fry and dal fry vs dal tadka compared.
+- [Toor dal calories: raw per 100 g and per cooked bowl](https://writeonslate.com/calories/toor-dal/): 100 g of raw toor dal has 331 calories. A bowl of plain cooked dal from 30 g raw has about 100. Gujarati dal and ghee compared.
+- [Moong dal calories: per bowl, per katori and per 100 g](https://writeonslate.com/calories/moong-dal/): A bowl of moong dal from 30 g dry dal has about 105 calories, or 145 with a teaspoon of oil in the tadka. Raw values too.
+- [Chana dal calories: cooked katori and raw per 100 g](https://writeonslate.com/calories/chana-dal/): A 200 ml katori of cooked chana dal has about 180 calories; raw chana dal has 329 per 100 g. Worked out from IFCT 2017.
+- [Dal makhani calories: home katori and restaurant](https://writeonslate.com/calories/dal-makhani/): A 200 ml katori of home dal makhani has about 200 calories; a restaurant katori with butter and cream about 265 to 335.
+- [Chole calories: per katori, per 100 g and with bhature](https://writeonslate.com/calories/chole/): A 200 ml katori of home chole has about 265 calories, made from 40 g of dry kabuli chana. Chole bhature and restaurant chole compared.
+- [Kadhi calories: with and without pakora, per katori](https://writeonslate.com/calories/kadhi/): A 200 ml katori of kadhi without pakoras has about 100 calories. A bowl with its share of fried pakoras is about 360.
+- [Sambar calories: per katori, cup and 100 g](https://writeonslate.com/calories/sambar/): A 200 ml katori of textbook sambar with coconut has about 200 calories; a thin everyday sambar is closer to 110. With idli, dosa and rice.
+- [Rasam calories: per katori and with rice](https://writeonslate.com/calories/rasam/): A 200 ml katori of tomato rasam has about 50 calories. With a katori of rice it's about 210. Worked out from a textbook recipe.
+- [Khichdi calories: per katori, plate and 100 g](https://writeonslate.com/calories/khichdi/): A 200 ml katori of moong dal khichdi with a teaspoon of ghee in the pot has about 240 calories. With extra ghee, curd and kadhi.
+- [Palak paneer calories: home bowl, katori and restaurant](https://writeonslate.com/calories/palak-paneer/): A home bowl of palak paneer with 40 g of paneer has about 230 calories; a 200 ml katori about 155. With cream and restaurant style.
+- [Matar paneer calories: per katori and per bowl](https://writeonslate.com/calories/matar-paneer/): A 200 ml katori of home matar paneer has about 270 calories, from peas, paneer and a tablespoon of oil. Restaurant matar paneer compared.
+- [Chicken curry calories: per katori, bowl and 100 g](https://writeonslate.com/calories/chicken-curry/): A bowl of home chicken curry with 125 g of chicken has about 315 calories; a 200 ml katori about 255. Restaurant curry compared.
+- [Butter chicken calories: home serving and restaurant](https://writeonslate.com/calories/butter-chicken/): A home serving of butter chicken with 125 g of chicken has about 350 calories. Restaurant butter chicken is about 400 to 675.
+- [Egg curry calories: with 1, 2 or 3 eggs](https://writeonslate.com/calories/egg-curry/): Egg curry has about 185 calories per egg with its share of gravy, so 2 eggs come to about 365. Dhaba egg curry compared.
+- [Fish curry calories: per piece, bowl and 100 g](https://writeonslate.com/calories/fish-curry/): A bowl of home fish curry with 100 g of rohu has about 280 calories; one piece with gravy about 140. Coconut curries compared.
+- [Jeera rice calories: per katori, plate and 100 g](https://writeonslate.com/calories/jeera-rice/): A 200 ml katori of jeera rice has about 185 calories, made with 2 teaspoons of oil for 80 g of rice. Plate, 100 g and restaurant compared.
+- [Veg biryani calories: per plate, 250 g and 500 g](https://writeonslate.com/calories/veg-biryani/): A plate of home veg biryani has about 520 calories; 250 g is about 330. From a textbook recipe, with restaurant plates compared.
+- [Chicken biryani calories: per plate, 250 g and 500 g](https://writeonslate.com/calories/chicken-biryani/): A home plate of chicken biryani has about 385 calories; 500 g is about 635. A restaurant plate is about 425 to 815.
+- [Veg pulao calories: per katori, plate and 100 g](https://writeonslate.com/calories/pulao/): A 200 ml katori of veg pulao has about 150 calories, and a plate from 80 g of rice about 490. Worked out from a textbook recipe.
+- [Curd rice calories: per katori, plate and 100 g](https://writeonslate.com/calories/curd-rice/): A 200 ml katori of curd rice has about 220 calories; a plate from 80 g of rice about 410. With and without tadka, from IFCT 2017.
+- [Aloo sabzi calories: per katori and per 100 g](https://writeonslate.com/calories/aloo-sabzi/): A 200 ml katori of aloo sabzi in tomato gravy has about 185 calories, with 2 teaspoons of oil in the pot. With puri, and halwai style.
+- [Bhindi sabzi calories: per katori, bowl and 100 g](https://writeonslate.com/calories/bhindi/): A 200 ml katori of bhindi fry has about 155 calories, most of it from the oil. Bowl, 100 g and restaurant bhindi masala compared.
+- [Mix veg sabzi calories: per katori and per 100 g](https://writeonslate.com/calories/mixed-veg/): A 200 ml katori of home mix veg sabzi (gobhi, matar and aloo) has about 150 calories. Restaurant mix veg and kadai veg compared.
+- [Baingan bharta calories: per katori and per 100 g](https://writeonslate.com/calories/baingan-bharta/): A 200 ml katori of home baingan bharta has about 130 calories, with a tablespoon of oil in the bowl. Restaurant bharta and chokha compared.
+- [Cabbage sabzi calories: per katori and per 100 g](https://writeonslate.com/calories/cabbage-sabzi/): A 200 ml katori of cabbage and peas sabzi has about 85 calories, with a teaspoon of oil in the bowl. One of the lightest everyday sabzis.
+- [Upma calories: per plate, katori and 100 g](https://writeonslate.com/calories/upma/): A plate of rava upma made from 40 g of semolina has about 310 calories; a 200 ml katori about 215. With vegetables and ghee.
+- [Besan chilla calories: with and without oil](https://writeonslate.com/calories/besan-chilla/): One besan chilla made with about 17 g of besan has about 80 calories with ½ teaspoon of oil, or 60 without. Paneer chilla too.
+- [Dhokla calories: per piece, plate and 100 g](https://writeonslate.com/calories/dhokla/): One piece of besan dhokla (about 40 g) has about 80 calories; 250 g is about 500. Khaman with tempering and chutney compared.
+- [Medu vada calories: 1, 2 or 4 vadas](https://writeonslate.com/calories/medu-vada/): One medu vada has about 70 calories, so 2 vadas have about 140, matching ICMR-NIN's figure. With sambar and chutney.
+- [Vada pav calories: with and without butter](https://writeonslate.com/calories/vada-pav/): One vada pav has about 335 calories: a batata vada of about 200 in a pav. With butter, without the pav, and street versions.
+- [Pav bhaji calories: per plate, with 1, 2 or 4 pav](https://writeonslate.com/calories/pav-bhaji/): A plate of pav bhaji with 2 butter pav has about 550 calories; the bhaji alone is about 215. With extra pav and street butter.
+- [Pani puri calories: per puri and per plate of 6](https://writeonslate.com/calories/pani-puri/): A plate of 6 pani puri with potato, chana and sweet chutney has about 220 calories, about 35 each. Shells, pani and fillings compared.
+- [Bhel puri calories: per plate and per 100 g](https://writeonslate.com/calories/bhel-puri/): A plate of bhel puri has about 265 calories, from puffed rice, sev, papdi, potato, peanuts and chutneys. Dry bhel and street plates compared.
+- [Sev puri calories: per plate of 6 and per piece](https://writeonslate.com/calories/sev-puri/): A plate of 6 sev puri has about 295 calories, about 50 a piece. Papdi, potato, chutneys and sev; dahi sev puri compared.
+- [Kachori calories: home kachori and measured street kachoris](https://writeonslate.com/calories/kachori/): A home khasta kachori has about 120 calories; street kachoris tested in a lab came to about 260 to 320. With aloo sabzi.
+- [Momos calories: per piece and per plate, steamed or fried](https://writeonslate.com/calories/momos/): One steamed veg momo (25 g) has about 40 calories, so a plate of 6 is about 245. Fried momos and chicken momos compared.
+- [Sabudana khichdi calories: per plate and per bowl](https://writeonslate.com/calories/sabudana-khichdi/): A plate of sabudana khichdi with peanuts, potato and ghee has about 505 calories. Fasting-day portions, with and without peanuts.
+- [Kuttu puri calories: 1, 2 or 4 puris](https://writeonslate.com/calories/kuttu-puri/): One kuttu puri made with about 13 g of buckwheat flour has about 105 calories once fried; 4 puris have about 420. For Navratri.
+- [Makhana calories: per cup, 20 g, 50 g and roasted in ghee](https://writeonslate.com/calories/makhana/): A cup of plain makhana (32 g) has about 105 calories; 30 g roasted in a teaspoon of ghee about 145. Per 100 g and packaged.
+- [Gulab jamun calories: per piece, with syrup, per 100 g](https://writeonslate.com/calories/gulab-jamun/): One khoa gulab jamun (about 43 g, drained) has about 155 calories, and more with a spoon of syrup. Based on a lab analysis and IFCT 2017.
+- [Rasgulla calories: per piece, with syrup, per 100 g](https://writeonslate.com/calories/rasgulla/): One rasgulla (about 36 g, squeezed) has about 70 calories; with a spoon of syrup about 115. From a lab analysis and IFCT 2017.
+- [Jalebi calories: per piece, per 100 g, an estimate](https://writeonslate.com/calories/jalebi/): One 30 g jalebi has about 95 calories and 100 g about 320, estimated from frying and syrup data. No lab analysis of jalebi exists.
+- [Kaju katli calories: per piece and per 100 g](https://writeonslate.com/calories/kaju-katli/): One 10 g piece of kaju katli has about 50 calories; 100 g about 505. Made from cashews and sugar, worked out from IFCT 2017.
+- [Besan ladoo calories: per ladoo and per 100 g](https://writeonslate.com/calories/besan-ladoo/): One besan ladoo (about 35 g) has about 165 calories, from besan, ghee and sugar. Close to a street ladoo measured in a lab study.
+- [Gajar halwa calories: per bowl and per katori](https://writeonslate.com/calories/gajar-halwa/): A bowl of gajar halwa from 100 g of carrots has about 285 calories, with khoa, sugar and ghee. Sweet shop and wedding halwa compared.
+- [Filter coffee calories: with sugar, without, toned milk](https://writeonslate.com/calories/filter-coffee/): A tumbler of filter coffee with whole milk and 2 teaspoons of sugar has about 105 calories; without sugar, about 75.
+- [Chaas calories: per glass, masala chaas and buttermilk](https://writeonslate.com/calories/chaas/): A 200 ml glass of chaas made from curd and water has about 30 calories. Thicker chaas, masala chaas and packed buttermilk compared.
+- [Sweet lassi calories: per glass, with malai](https://writeonslate.com/calories/lassi/): A glass of sweet lassi with 100 g curd and 4 teaspoons of sugar has about 140 calories; 200 ml about 115, as ICMR-NIN says.
+- [Nimbu pani calories: with sugar, without, and shikanji](https://writeonslate.com/calories/nimbu-pani/): A glass of nimbu pani has about 10 calories without sugar, 40 with 2 teaspoons of sugar and about 80 made sweet.
+
+## Who Slate is for
+
+- [Who Slate is for: Indian food, home cooking, eating out](https://writeonslate.com/for/): How to count calories in Indian food at home, at the office, eating out and on fasting days, in Hinglish, without a login. Written by the makers of Slate.
+- [Calorie counter for Indian food: katori, roti and oil](https://writeonslate.com/for/indian-food/): Why calorie apps struggle with dal, roti and sabzi, what an honest number for Indian food needs, and how Slate counts by your katori, roti and oil.
+- [Calorie counting for vegetarians, including Jain food](https://writeonslate.com/for/vegetarians/): Counting calories and protein in vegetarian and Jain meals: dal, paneer, curd, chana and besan, with katori-by-katori numbers from IFCT 2017.
+- [Counting calories in home-cooked food: katori, roti, oil](https://writeonslate.com/for/home-cooking/): Three things decide the calories in home-cooked Indian food: your katori, your roti and your oil. How to measure each once, with numbers from IFCT 2017.
+- [Calories in restaurant, Swiggy and Zomato food](https://writeonslate.com/for/eating-out/): Why restaurant and delivery food has more calories than home food, with ranges for dal makhani, paneer, biryani and naan, and how to count an order.
+- [A calorie tracker you can write in Hinglish](https://writeonslate.com/for/hinglish/): Write "2 roti aur ek katori dal" or "chai, kam cheeni" and get a number. How Slate reads Hinglish and Gujarati spellings, and what it does when it can't.
+- [A calorie tracker without login or ads](https://writeonslate.com/for/no-login/): Slate has no login, no ads and no tracking. What it stores, where (Mumbai, India), what it never collects, and how to export or delete everything.
+- [Calories on fasting days: Navratri, Ekadashi, Ramadan](https://writeonslate.com/for/fasting/): Fasting-day food like sabudana khichdi, kuttu puri and iftar snacks often has more calories than it looks. How to count it, with IFCT 2017 numbers.
+- [Calories in office canteen food and tiffin](https://writeonslate.com/for/office-canteen-tiffin/): How to count a canteen thali, a tiffin dabba and office chai: rotis, katoris of dal and sabzi, and the extra oil in canteen cooking, from IFCT 2017.
+
+## Compare
+
+- [Compare Slate with other calorie apps](https://writeonslate.com/compare/): Slate compared with HealthifyMe, MyFitnessPal, Cal AI and Lose It!: logging, Indian food, price in India, login, ads, data storage and platforms.
+- [Slate and HealthifyMe: a factual comparison](https://writeonslate.com/compare/healthifyme/): Slate and HealthifyMe compared: how you log food, Indian food, price in India, login, ads, data storage, coaching and platforms. Checked 11 October 2026.
+- [Slate and MyFitnessPal: a factual comparison](https://writeonslate.com/compare/myfitnesspal/): Slate and MyFitnessPal compared: logging, Indian and restaurant food, price in India, login, ads, data storage and platforms. Checked 11 October 2026.
+- [Slate and Cal AI: a factual comparison](https://writeonslate.com/compare/cal-ai/): Slate and Cal AI compared: photo or typed logging, Indian food, price in India, login, ads, data storage and platforms. Checked 11 October 2026.
+- [Slate and Lose It!: a factual comparison](https://writeonslate.com/compare/lose-it/): Slate and Lose It! compared: logging, Indian food, price in India, login, ads, data storage and platforms, from official sources. Checked 11 October 2026.
+
+## Blog
+
+- [Blog: counting calories in Indian food](https://writeonslate.com/blog/): Articles on counting calories in Indian food: katori sizes, home and restaurant dal, chai, thalis, fasting days and maintenance calories.
+- [Why your katori size changes your calorie count](https://writeonslate.com/blog/katori-size-calories/): A 250 ml katori holds two thirds more than a 150 ml one. How katori size changes the calories in dal, rice and sabzi, and how to measure yours.
+- [Home dal vs restaurant dal: where the calories come from](https://writeonslate.com/blog/home-dal-vs-restaurant-dal/): Why a katori of restaurant dal can have twice the calories of home dal: thickness, ghee, butter, cream and portion size, with numbers from IFCT 2017.
+- [How many calories are in your chai, and what changes them](https://writeonslate.com/blog/chai-calories/): A cup of chai with 2 teaspoons of sugar has about 60 calories. How sugar, milk, cup size and the number of cups change it.
+- [How to count calories in a thali without weighing anything](https://writeonslate.com/blog/count-thali-calories/): Count a thali by its pieces and katoris: rotis, dal, rice, sabzi, farsan and sweets. Worked examples for a Gujarati, a Punjabi and a South Indian thali.
+- [Counting calories on fasting days without stress](https://writeonslate.com/blog/fasting-day-calories/): Navratri, Ekadashi and Ramadan food is often more filling in calories than it looks. A calm way to count it, and when it's fine not to count at all.
+- [What "maintenance calories" means, and how to measure yours](https://writeonslate.com/blog/maintenance-calories/): Maintenance calories are what your body uses in a day. How formulas estimate it, why they're only a starting point, and how to measure yours from a log.
 
 ## Facts
 

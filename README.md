@@ -32,7 +32,7 @@ Every page shares one frame from `assets/pages.css`: the header (app icon, Slate
 
 These notes live here, not in the HTML, because HTML comments are public in the page source.
 
-1. **App Store link.** In `index.html`, replace both `<span class="btn btn-soon">Coming soon to iPhone</span>` (hero `.actions` and closing `.closing-actions`) with Apple's official "Download on the App Store" badge, black in light mode and white in dark mode, linking to the App Store URL. Also replace "Coming soon to the App Store." in `llms.txt` with the App Store URL.
+1. **App Store link.** Set `cta.appStoreUrl` in `data/site.json` (the generated pages then show the App Store link) and add Apple's official "Download on the App Store" badge to the home page's `.home-intro` in `index.html`. Replace "Coming soon to the App Store." in `writeLlms()` in `scripts/build.mjs` with the App Store URL; `llms.txt` is generated there on every build, so don't edit it by hand.
 2. **Smart App Banner.** Add `<meta name="apple-itunes-app" content="app-id=...">` to the `<head>` of `index.html`, after the Twitter tags, once the app ID exists.
 3. **Effective dates.** Set the `Effective 8 October 2026` line (`.legal-date`, under the h1) on `/privacy/` and `/terms/` to the App Store launch date.
 4. **Grievance Officer.** Confirm the name in "Grievance Officer and contact" on `/privacy/` (currently Nirmal Amin).
