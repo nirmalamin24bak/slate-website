@@ -24,7 +24,9 @@ Images in `assets/` are cached for a week. The icons and the social image (`favi
 
 ## Home page demo
 
-The home page is a clickable app demo built with React. Its sources are in `assets/demo/` (`components/`, `ios/`, `tokens/`). After editing any of them, run `node scripts/build-demo.mjs`, which compiles them into `assets/demo/app.js` and `assets/demo/demo.css` (it fetches a pinned esbuild through npx; nothing is installed here). Commit both outputs, then bump their `?v=` numbers in `index.html`, `privacy/`, `terms/` and `support/`, and `assets/pages.css`'s too when it changes. React and ReactDOM 18.3.1 are self-hosted in `assets/vendor/`, and the demo's icons are a small copy of the lucide glyphs it uses (`components/buttons/icons.js`), so the page still loads nothing from another domain.
+The home page is a clickable app demo built with React. Its sources are in `assets/demo/` (`components/`, `ios/`, `tokens/`). After editing any of them, run `node scripts/build-demo.mjs`, which compiles them into `assets/demo/app.js` and `assets/demo/demo.css` (it fetches a pinned esbuild through npx; nothing is installed here). Commit both outputs, then bump their `?v=` numbers in `index.html`, `privacy/`, `terms/`, `support/` and `404.html`.
+
+Every page shares one frame from `assets/pages.css`: the header (app icon, Slate, Try it), the short footer and the light, white look, on a 710px column with a 20px gutter so the header never moves between pages. The generated pages get it from `head()` and `footer()` in `scripts/build.mjs`; the hand-written pages (home, privacy, terms, support, 404) carry the same markup. When `pages.css` or `demo.css` changes, bump `PAGES_CSS_VERSION` or `DEMO_CSS_VERSION` in `scripts/build.mjs` and the same `?v=` in the hand-written pages, then rebuild. React and ReactDOM 18.3.1 are self-hosted in `assets/vendor/`, and the demo's icons are a small copy of the lucide glyphs it uses (`components/buttons/icons.js`), so the page still loads nothing from another domain.
 
 ## Before launch: TODO(launch)
 

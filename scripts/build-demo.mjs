@@ -73,7 +73,7 @@ for (const f of IOS_FILES) {
 // 5. Mount, and fit the phone frame to narrow screens (pages.css reads --demo-scale).
 const mount = `
 var fit = function () {
-  var s = Math.min(1, (document.documentElement.clientWidth - 32) / 422);
+  var s = Math.min(1, (document.documentElement.clientWidth - 40) / 422);
   document.documentElement.style.setProperty('--demo-scale', s.toFixed(4));
 };
 fit();

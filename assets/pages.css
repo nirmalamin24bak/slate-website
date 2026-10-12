@@ -1,50 +1,61 @@
-/* The home, privacy, terms and support pages: their shared header and footer, the light look of the
-   legal pages (overrides style.css dark mode), and the home demo's layout on narrow screens.
-   Loads after assets/demo/demo.css (the tokens) and, on the legal pages, after assets/style.css. */
+/* Every page's frame and the light brand look: the shared header (app icon, Slate, Try it), the short
+   footer, the white page with flat grey cards, and the home demo's layout. Loads after
+   assets/demo/demo.css (the tokens) and, on every page but the home, after assets/style.css, whose dark
+   mode it switches off.
 
-/* ---------- Legal + support pages: same light, white feel as the home page ---------- */
+   One column for everything: the header, the page text, the home demo row and the footer all start at
+   the same left edge (a 710px column, the width of the demo row, with a 20px gutter), and the header
+   sits at the same height on every page, so the icon and "Slate" never move between pages. */
+
+:root { --page-col:710px; --page-gutter:20px; --page-top:40px; }
+
+/* ---------- Light only, white page ---------- */
 :root, :root[data-theme] { color-scheme: light; }
 :root { --bg:#FFFFFF; --surface:#F7F7F5; --fill:#EFEFEC; --ink:#111214; --ink-mute:#6E6F74; --hairline:#E3E3DF; --accent:#3E5C9E; --card-shadow:none; }
 @media (prefers-color-scheme: dark) { :root { --bg:#FFFFFF; --surface:#F7F7F5; --fill:#EFEFEC; --ink:#111214; --ink-mute:#6E6F74; --hairline:#E3E3DF; --accent:#3E5C9E; --card-shadow:none; } }
 html, body { background:#FFFFFF; color:#111214; }
-main { max-width:1080px; margin:0 auto; padding:0 40px; box-sizing:border-box; }
-main h1 { font-size:40px; font-weight:800; letter-spacing:-1px; line-height:1.08; }
-main .card, main aside, main .summary { background:#F7F7F5; border:1px solid #E3E3DF; box-shadow:none; border-radius:16px; }
-main .card *, main aside *, main .summary * { border:0; background:transparent; }
-main > * { max-width:680px; margin-left:auto; margin-right:auto; }
-/* One column for the header, the text and the footer at every width. style.css's .legal zeroes main's side
-   padding and gives .wrap-reading its own, which put the heading off the header's left edge; this keeps the
-   40px on main, like the header, and the 680px column inside it, like the footer. */
-main.legal { padding-left:40px; padding-right:40px; }
-main .wrap-reading { max-width:680px; padding-left:0; padding-right:0; }
 
-/* ---------- Header: app icon, Slate, Try it ---------- */
-.page-header { max-width:760px; margin:0 auto; padding:40px 40px 0; box-sizing:border-box; display:flex; justify-content:flex-start; }
-.page-brand { display:inline-flex; align-items:center; gap:10px; text-decoration:none; color:var(--slate-ink); padding:8px 0; margin:-8px 0; }
-.page-brand-icon { width:28px; height:28px; border-radius:7px; }
+/* ---------- Header: app icon, Slate, Try it (identical on every page) ---------- */
+.page-header { max-width:calc(var(--page-col) + 2 * var(--page-gutter)); margin:0 auto; padding:var(--page-top) var(--page-gutter) 0; box-sizing:border-box; display:flex; justify-content:flex-start; }
+.page-brand { display:inline-flex; align-items:center; gap:10px; text-decoration:none; color:var(--slate-ink); padding:8px 0; margin:-8px 0; line-height:1; }
+.page-brand-icon { display:block; width:28px; height:28px; border-radius:7px; flex:none; }
 .page-brand-name { font:700 20px/1 var(--font-sans); letter-spacing:-0.3px; }
 .page-brand-label { font:400 13px/1 var(--font-sans); color:var(--slate-ink-mute); }
 
-/* ---------- Footer: legal links, company line, copyright ---------- */
-.legal-footer { max-width:680px; width:calc(100% - 80px); margin:0 auto; padding:32px 0 48px; display:grid; gap:14px; border-top:1px solid var(--slate-hairline); font:400 13px/1.6 var(--font-sans); color:var(--slate-ink-mute); }
-.legal-footer-demo { max-width:690px; }
+/* ---------- Page text: privacy, terms, support, food, /for/, /compare/, /blog/, hubs, 404 ---------- */
+main { max-width:calc(var(--page-col) + 2 * var(--page-gutter)); margin:0 auto; padding:0 var(--page-gutter); box-sizing:border-box; }
+main.legal, main.notfound { padding-left:var(--page-gutter); padding-right:var(--page-gutter); }
+main > * { max-width:var(--page-col); margin-left:auto; margin-right:auto; }
+main .wrap, main .wrap-reading { max-width:var(--page-col); padding-left:0; padding-right:0; }
+main h1 { font-size:40px; font-weight:800; letter-spacing:-1px; line-height:1.08; }
+/* Cards: flat grey with a hairline, no shadow. */
+main .card, main aside, main .summary { background:#F7F7F5; border:1px solid #E3E3DF; box-shadow:none; border-radius:16px; }
+main .card *, main aside *, main .summary * { border:0; background:transparent; }
+/* Hub lists and FAQs sit on the page, not on raised white tiles. */
+main .hub-list a, main .faq details { background:transparent; box-shadow:none; }
+main .table-wrap { max-width:100%; }
+
+/* ---------- Footer: page links, legal links, company line, copyright ---------- */
+.legal-footer { max-width:var(--page-col); width:calc(100% - 2 * var(--page-gutter)); margin:0 auto; padding:32px 0 48px; display:grid; gap:14px; border-top:1px solid var(--slate-hairline); font:400 13px/1.6 var(--font-sans); color:var(--slate-ink-mute); }
 .legal-footer nav { display:flex; flex-wrap:wrap; gap:8px 24px; font-size:14px; }
-.legal-footer a { color:var(--slate-ink); padding:11px 0; margin:-11px 0; }
+.legal-footer a { color:var(--slate-ink); text-decoration:none; padding:11px 0; margin:-11px 0; }
 
 /* ---------- Home: the demo ---------- */
 body.home { background:#FFFFFF; min-height:100vh; }
-.demo-root { min-height:954px; }
+.demo-root { min-height:947px; }
 /* Shown until React mounts, and to visitors without JavaScript. */
-.demo-fallback { max-width:690px; margin:0 auto; padding:40px; box-sizing:border-box; }
+.demo-fallback { max-width:var(--page-col); margin:0 auto; padding:32px var(--page-gutter); box-sizing:content-box; }
 .demo-fallback h1 { font:800 40px/1.08 var(--font-sans); letter-spacing:-1px; margin:0 0 16px; }
 .demo-fallback p { font:400 17px/1.5 var(--font-sans); color:var(--slate-ink-mute); margin:0; }
+/* The demo row (sidebar 232 + gap 56 + phone frame 422 = 710) starts 32px under the header, at the
+   column's left edge. The inline styles are the design; this only sets the outer spacing. */
+.demo-app { padding:32px var(--page-gutter) 40px !important; }
 
-/* Narrow screens: the sidebar's parts stack around the phone frame, and the frame scales to fit.
-   app.js sets --demo-scale to min(1, (width - 32px) / 422px); the inline styles stay the design. */
+/* Narrow screens: the sidebar's parts stack under the phone frame, and the frame scales to fit.
+   app.js sets --demo-scale to min(1, (width - 40px) / 422px). */
 @media (max-width: 799px) {
-  .demo-app { flex-direction:column !important; align-items:center !important; gap:24px !important; padding:24px 16px 32px !important; }
+  .demo-app { flex-direction:column !important; align-items:center !important; gap:24px !important; padding:24px var(--page-gutter) 32px !important; }
   .demo-aside { display:contents !important; }
-  .demo-brand { order:0; width:100%; max-width:422px; }
   .demo-phone-fit { order:1; width:calc(422px * var(--demo-scale, 1)); height:calc(894px * var(--demo-scale, 1)); }
   .demo-phone { transform-origin:0 0; transform:translate(calc(10px * var(--demo-scale, 1)), calc(10px * var(--demo-scale, 1))) scale(var(--demo-scale, 1)); }
   .demo-nav { order:2; width:100%; max-width:422px; }
@@ -52,10 +63,9 @@ body.home { background:#FFFFFF; min-height:100vh; }
   .demo-nav-label { flex-basis:100%; }
   .demo-nav-button { min-height:44px; }
   .demo-appearance { order:3; width:100%; max-width:422px; }
-  /* Room for the mounted demo (the scaled frame plus the stacked sidebar parts), so the footer doesn't
-     move when React replaces the fallback. */
-  .demo-root { min-height:calc(894px + 739px); }
+  /* Room for the mounted demo, so the footer doesn't move when React replaces the fallback. */
+  .demo-root { min-height:calc(894px + 687px); }
 }
-@media (max-width: 453px) {
-  .demo-root { min-height:calc((100vw - 32px) * 2.1185 + 787px); }
+@media (max-width: 461px) {
+  .demo-root { min-height:calc((100vw - 40px) * 2.1185 + 735px); }
 }

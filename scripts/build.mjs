@@ -15,6 +15,10 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const SITE = "https://writeonslate.com";
 const CSS_VERSION = 3;
+// assets/demo/demo.css (the tokens) and assets/pages.css (every page's frame and light look). Bump with the file;
+// the hand-written pages (index, privacy, terms, support, 404) carry the same numbers.
+const DEMO_CSS_VERSION = 1;
+const PAGES_CSS_VERSION = 2;
 const RANGE_LIMIT = 0.15; // sources further apart than this must show a range
 
 const read = (p) => JSON.parse(readFileSync(join(ROOT, p), "utf8"));
@@ -205,47 +209,57 @@ function head({ title, description, path, jsonld, scripts = [], ogType = "websit
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(description)}">
 <meta name="twitter:image" content="${SITE}/assets/og.png?v=2">
-<meta name="theme-color" content="#F7F7F5" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0E0F11" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#FFFFFF">
 <link rel="icon" href="/assets/favicon.svg?v=2" type="image/svg+xml">
 <link rel="icon" href="/assets/favicon.png?v=2" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=2">
 <link rel="preload" href="/assets/fonts/inter-tight-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-tight-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/demo/demo.css?v=${DEMO_CSS_VERSION}">
 <link rel="stylesheet" href="/assets/style.css?v=${CSS_VERSION}">
+<link rel="stylesheet" href="/assets/pages.css?v=${PAGES_CSS_VERSION}">
 ${scripts.map((s) => `<script src="${s}" defer></script>\n`).join("")}<script type="application/ld+json">${JSON.stringify(jsonld)}</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
-<header class="site-header">
-  <div class="wrap">
-    <a class="wordmark" href="/">Slate</a>
-  </div>
-</header>
+${PAGE_HEADER}
 `;
 }
 
-function footer() {
+// The one header every page uses (the home, legal and 404 pages carry the same markup by hand), so the
+// app icon and "Slate" sit in the same place on every page. Styled by assets/pages.css.
+const PAGE_HEADER = `<header class="page-header">
+  <a href="/" class="page-brand">
+    <img src="/assets/demo/assets/app-icon.png?v=2" alt="" width="28" height="28" class="page-brand-icon">
+    <span class="page-brand-name">Slate</span>
+    <span class="page-brand-label">Try it</span>
+  </a>
+</header>`;
+
+// The short footer's two link rows, from data/site.json: the site's pages, then the legal pages and email.
+const LEGAL_PATHS = new Set(["/privacy/", "/terms/", "/support/"]);
+function footerRows() {
   const links = site.footerLinks.filter((l) => l.href.startsWith("mailto:") || pageExists(l.href));
+  const row = (list) => list.map((l) => `    <a href="${l.href}">${esc(l.label)}</a>`).join("\n");
+  return {
+    pages: row(links.filter((l) => !l.href.startsWith("mailto:") && !LEGAL_PATHS.has(l.href))),
+    legal: row(links.filter((l) => l.href.startsWith("mailto:") || LEGAL_PATHS.has(l.href))),
+  };
+}
+
+function footer() {
+  const rows = footerRows();
   return `
-<footer class="site-footer">
-  <div class="wrap">
-    <div class="footer-grid">
-      <address class="footer-org">
-        <a class="wordmark" href="/">Slate</a><br>
-        <span class="org-name">Sonal Systems Private Limited</span><br>
-        A-3, Mehsana Nagar, Nizampura, Vadodara 390002, Gujarat, India<br>
-        CIN U62099GJ2026PTC179785
-      </address>
-      <nav class="footer-links" aria-label="Footer">
-        <ul>
-${links.map((l) => `          <li><a href="${l.href}">${esc(l.label)}</a></li>`).join("\n")}
-        </ul>
-      </nav>
-    </div>
-    <p class="footer-legal">© 2026 Sonal Systems Private Limited. Apple, the Apple logo, iPhone and Apple Watch are trademarks of Apple Inc. Swiggy and Zomato are trademarks of their owners. Slate is not affiliated with them.</p>
-  </div>
+<footer class="legal-footer">
+  <nav class="footer-pages" aria-label="Pages">
+${rows.pages}
+  </nav>
+  <nav aria-label="Legal">
+${rows.legal}
+  </nav>
+  <div>Sonal Systems Private Limited · A-3, Mehsana Nagar, Nizampura, Vadodara 390002, Gujarat, India · CIN U62099GJ2026PTC179785</div>
+  <div>© 2026 Sonal Systems Private Limited. Apple and iPhone are trademarks of Apple Inc. Slate is not affiliated with Apple.</div>
 </footer>
 </body>
 </html>
@@ -268,13 +282,13 @@ function breadcrumbLd(trail) {
   };
 }
 
+// Nothing until launch (no "Coming soon"); once data/site.json has the App Store URL, every page gets the link.
 function cta() {
+  if (!site.cta.appStoreUrl) return "";
   return `
     <div class="page-cta">
       <p class="cta-line">${esc(site.cta.line)}</p>
-      <div class="actions">${site.cta.appStoreUrl
-        ? `<a class="btn" href="${esc(site.cta.appStoreUrl)}">Download on the App Store</a>`
-        : `<span class="btn btn-soon">Coming soon to iPhone</span>`}</div>
+      <div class="actions"><a class="btn" href="${esc(site.cta.appStoreUrl)}">Download on the App Store</a></div>
     </div>`;
 }
 
@@ -655,23 +669,14 @@ function updateSitemap() {
 }
 
 // ---------- Footer links on hand-written pages ----------
-// Keeps the 404 page's footer list the same as the generated pages', and the row of page links in the
-// short legal footer (home, privacy, terms, support) the same as that list's pages.
+// Keeps the page-links row in the hand-written pages' footer (home, privacy, terms, support, 404) the same
+// as the generated pages' (footerRows above).
 function syncFooters() {
-  const links = site.footerLinks.filter((l) => l.href.startsWith("mailto:") || pageExists(l.href));
-  const list = links.map((l) => `          <li><a href="${l.href}">${esc(l.label)}</a></li>`).join("\n");
-  const legal = new Set(["/privacy/", "/terms/", "/support/"]);
-  const row = links.filter((l) => !l.href.startsWith("mailto:") && !legal.has(l.href)).map((l) => `    <a href="${l.href}">${esc(l.label)}</a>`).join("\n");
+  const row = footerRows().pages;
   for (const file of ["index.html", "privacy/index.html", "terms/index.html", "support/index.html", "404.html"]) {
     const html = readFileSync(join(ROOT, file), "utf8");
-    let next;
-    if (html.includes('<nav class="footer-links" aria-label="Footer">')) {
-      next = html.replace(/(<nav class="footer-links" aria-label="Footer">\s*<ul>\n)[\s\S]*?(\n\s*<\/ul>)/, `$1${list}$2`);
-      if (next === html && !html.includes(list)) throw new Error(`${file}: footer link list not found`);
-    } else {
-      next = html.replace(/(<nav class="footer-pages" aria-label="Pages">\n)[\s\S]*?(\n  <\/nav>)/, `$1${row}$2`);
-      if (next === html && !html.includes(row)) throw new Error(`${file}: footer page links not found`);
-    }
+    const next = html.replace(/(<nav class="footer-pages" aria-label="Pages">\n)[\s\S]*?(\n  <\/nav>)/, `$1${row}$2`);
+    if (next === html && !html.includes(row)) throw new Error(`${file}: footer page links not found`);
     if (next !== html) write(file, next);
   }
 }
