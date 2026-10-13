@@ -5,7 +5,9 @@
 // Fails (exit 1) on: banned words, exclamation marks, em dashes, emoji, broken
 // internal links, missing or over-long titles and descriptions, duplicate
 // titles, not exactly one h1, invalid JSON-LD, and FAQPage schema that doesn't
-// match the visible FAQ word for word. Also runs the meal calculator's parser tests (scripts/test-calc.mjs).
+// match the visible FAQ word for word. On dish pages, also: an answer-first lead of 40 to 65 words with no dash
+// or exclamation mark, the byline under the h1, and the WebPage's author @id. Runs the meal calculator's parser
+// tests (scripts/test-calc.mjs).
 
 import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
 import { spawnSync } from "node:child_process";
@@ -20,6 +22,9 @@ const BANNED = ["just", "healthy", "journey", "great job", "cheat", "cheat day",
   "transform", "burn fat", "detox", "superfood", "clean eating", "junk food", "sinful", "indulge", "earn your food"];
 const TITLE_MAX = 60;
 const DESC_MAX = 155;
+// A dish page's answer-first lead: a self-contained answer of the length answer engines quote (build.mjs foodPage).
+const ANSWER_WORDS = [40, 65];
+const SITE = "https://writeonslate.com";
 const NOT_EMOJI = new Set(["©", "®", "™", "↻", "✓"]);
 
 function htmlFiles(dir) {
@@ -91,6 +96,23 @@ for (const file of files) {
   if (site.cta.appId && !html.includes(`<meta name="apple-itunes-app" content="app-id=${site.cta.appId}">`)) fail("missing apple-itunes-app meta");
   const h1s = (html.match(/<h1[\s>]/g) || []).length;
   if (h1s !== 1) fail(`${h1s} h1 elements`);
+
+  // Dish pages: the answer-first lead's length and punctuation, the byline under the h1, and the WebPage's author.
+  if (/^calories\/(?!calculator\/)[^/]+\/index\.html$/.test(rel)) {
+    const lead = attr(html, /<p class="answer-first">([\s\S]*?)<\/p>/);
+    if (!lead) fail("missing answer-first lead");
+    else {
+      const t = text(lead).trim();
+      const n = t.split(/\s+/).length;
+      if (n < ANSWER_WORDS[0] || n > ANSWER_WORDS[1]) fail(`answer-first lead is ${n} words (${ANSWER_WORDS[0]} to ${ANSWER_WORDS[1]}): ${t}`);
+      if (/[—–!]/.test(t)) fail("answer-first lead has an em dash, en dash or exclamation mark");
+    }
+    if (!html.includes(`<p class="meta-line mute">By <a href="/about/">${site.author.name}</a>. Checked on `)) fail("missing byline under the h1");
+    const authorId = `${SITE}/about/#${site.author.id}`;
+    let webpage = null;
+    try { webpage = (JSON.parse(ld[0] || "{}")["@graph"] || []).find((n) => n["@type"] === "WebPage"); } catch {}
+    if (webpage?.author?.["@id"] !== authorId) fail(`WebPage JSON-LD author is not { "@id": "${authorId}" }`);
+  }
 
   for (const m of html.matchAll(/href="(\/[^"]*)"/g)) {
     const href = m[1].split("#")[0].split("?")[0];

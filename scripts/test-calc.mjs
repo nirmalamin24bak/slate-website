@@ -72,6 +72,8 @@ check("do roti aur ek katori dal", [{ id: "roti", qty: 2, portion: "two" }, { id
 check("half plate chicken biryani", [{ id: "chicken-biryani", qty: 0.5, portion: "plate" }]);
 check("idli sambar", [{ id: "idli", qty: 1, portion: "medium" }, { id: "sambar", qty: 1, portion: "k200" }]);
 check("chai bina cheeni", [{ id: "masala-chai", qty: 1, portion: "cup0" }]);
+check("4 cutting chai", [{ id: "masala-chai", qty: 4, portion: "cutting" }]);
+check("2 buffalo milk chai", [{ id: "masala-chai", qty: 2, portion: "buffalo" }]);
 check("100 g paneer butter masala", [{ id: "paneer-butter-masala", qty: 100, portion: "g100" }]);
 check("२ रोटी", [{ id: "roti", qty: 2, portion: "two" }]);
 check("samosa x2", [{ id: "samosa", qty: 2, portion: "two" }]);

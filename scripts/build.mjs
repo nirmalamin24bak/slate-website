@@ -101,6 +101,8 @@ function computeFood(food) {
     // hideGrams: the portion adds a lot of another food (pakoras, a katori of rice), so the dish's own weight would mislead.
     p.cookedGrams = c.grams == null || p.hideGrams ? null : Math.round(c.grams);
     Object.assign(p, rounded(c.raw));
+    // Unrounded values for sums, so "4 cups" is rounded once, like the calculator. Not enumerable: never saved.
+    Object.defineProperty(p, "raw", { value: c.raw, configurable: true });
     portions[p.id] = { ...c, p };
   }
   let outside = null;
@@ -161,7 +163,7 @@ function sumPortions(food, expr) {
     const p = f && f.portions.find((x) => x.id === id);
     if (!p || p.kcal == null) throw new Error(`${food.slug}: sum term "${term}" not found`);
     if (p.combo) throw new Error(`${food.slug}: sum term "${term}" is itself a combo`);
-    add(total, p, n ? Number(n) : 1);
+    add(total, p.raw || p, n ? Number(n) : 1);
   }
   return rounded(total);
 }
@@ -294,6 +296,9 @@ function crumbs(trail) {
     i === trail.length - 1 ? `<li aria-current="page">${esc(c.name)}</li>` : `<li><a href="${c.path}">${esc(c.name)}</a></li>`);
   return `<nav class="crumbs" aria-label="Breadcrumb"><ol>${items.join("")}</ol></nav>`;
 }
+
+// The author of the dish and method pages, by reference: the Person node itself lives on /about/ (infoPage below).
+const authorRef = () => ({ "@id": `${SITE}/about/#${site.author.id}` });
 
 function breadcrumbLd(trail) {
   return {
@@ -433,7 +438,7 @@ function foodPage(food, calc) {
     "@graph": [
       { "@type": "WebPage", "@id": `${SITE}${path}#webpage`, url: SITE + path, name: food.title,
         description, isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` },
-        inLanguage: "en-IN", dateModified: food.updated },
+        author: authorRef(), inLanguage: "en-IN", dateModified: food.updated },
       breadcrumbLd(trail),
       faqLd,
     ],
@@ -448,7 +453,7 @@ function foodPage(food, calc) {
   <div class="wrap-reading">
     ${crumbs(trail)}
     <h1>${esc(food.name)} calories</h1>
-    <p class="meta-line mute">Checked on ${longDate(food.updated)}.</p>
+    <p class="meta-line mute">By <a href="/about/">${esc(site.author.name)}</a>. Checked on ${longDate(food.updated)}.</p>
     <p class="answer-first">${inline(food, food.answer)}</p>
     ${food.intro.map((p) => `<p class="para">${inline(food, p)}</p>`).join("\n    ")}
     <div class="card note"><p>${esc(site.foodNote)}</p></div>
@@ -919,7 +924,7 @@ function infoPage(page) {
   const graph = [
     { "@type": page.type, "@id": `${SITE}${path}#webpage`, url: SITE + path, name: page.title, description,
       isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` }, inLanguage: "en-IN",
-      dateModified: page.updated, ...(page.type === "AboutPage" ? { about: { "@id": `${SITE}/#organization` } } : {}) },
+      dateModified: page.updated, ...(page.type === "AboutPage" ? { about: { "@id": `${SITE}/#organization` } } : { author: authorRef() }) },
     breadcrumbLd(trail),
   ];
   if (page.type === "AboutPage") {

@@ -145,7 +145,11 @@ function readMeasure(tokens, idx) {
     if (UNITS[w] && m.unit == null && !idx.vocab.has(w)) { m.unit = UNITS[w]; continue; }
     if (UNITS[w] && m.unit == null && (i === 0 || num(tokens[i - 1]) != null || SIZES[tokens[i - 1]])) { m.unit = UNITS[w]; continue; }
     if (SIZES[w] && m.size == null) { m.size = SIZES[w]; continue; }
-    if (WORD_TAGS[w] && !idx.vocab.has(w)) { if (WORD_TAGS[w] === "large") m.size = "large"; else m.tags.add(WORD_TAGS[w]); continue; }
+    if (WORD_TAGS[w]) {
+      if (WORD_TAGS[w] === "large") m.size = "large"; else m.tags.add(WORD_TAGS[w]);
+      // A tag word can also be part of a dish name ("cutting chai"): keep it for matching too.
+      if (!idx.vocab.has(w)) continue;
+    }
     m.words.push(w);
   }
   return m;
@@ -254,7 +258,7 @@ function pick(dish, m, data) {
     const missing = want.filter((t) => !p.tags.includes(t)).length;
     const extra = p.tags.filter((t) => !want.includes(t)).length;
     const sizeBad = m.size ? (p.size || "medium") !== m.size : p.size && p.size !== "medium" && p.id !== headline.id;
-    return (p.kind !== wantKind ? 100 : 0) + missing * 50 + extra * 8 + (sizeBad ? 6 : 0) + (p.count === qty ? 0 : p.count === 1 ? 1 : 3) + (p.id === headline.id ? 0 : 0.5);
+    return (p.kind !== wantKind ? (unit ? 100 : 20) : 0) + missing * 50 + extra * 8 + (sizeBad ? 6 : 0) + (p.count === qty ? 0 : p.count === 1 ? 1 : 3) + (p.id === headline.id ? 0 : 0.5);
   };
   const best = [...ports].sort((a, b) => score(a) - score(b))[0];
   const missing = want.filter((t) => !best.tags.includes(t));

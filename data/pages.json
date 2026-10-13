@@ -1612,83 +1612,31 @@
         },
         {
           "slug": "chai-calories",
-          "crumb": "Chai",
-          "title": "How many calories are in your chai, and what changes them",
-          "description": "A cup of chai with 2 teaspoons of sugar has about {{kcal@masala-chai:cup2}} calories. How sugar, milk, cup size and the number of cups change it.",
-          "h1": "How many calories are in your chai, and what changes them",
-          "linkLabel": "How many calories are in your chai",
+          "crumb": "Chai over a day",
+          "title": "Your chai over a day: what 3 or 4 cups add up to",
+          "description": "Four cups of chai a day with 2 teaspoons of sugar each come to about {{sum:4*masala-chai:cup2}} calories. What 2, 3, 4 and 5 cups add up to, with and without sugar.",
+          "h1": "Your chai over a day: what 3 or 4 cups add up to",
+          "linkLabel": "Your chai over a day",
           "published": "2026-10-11",
-          "updated": "2026-10-13",
-          "lede": "A cup of home [masala chai](/calories/masala-chai/) made with toned milk and 2 teaspoons of sugar has about {{kcal@masala-chai:cup2}} calories, and about {{kcal@masala-chai:cup0}} without sugar. Sugar, the kind of milk and how many cups you drink in a day decide most of the number.",
+          "updated": "2026-10-14",
+          "lede": "Four cups of home chai a day, each with 50 ml of toned milk and 2 teaspoons of sugar, add up to about {{sum:4*masala-chai:cup2}} calories. The same four cups without sugar are about {{sum:4*masala-chai:cup0}}. One cup is about {{kcal@masala-chai:cup2}}; the [masala chai page](/calories/masala-chai/) has the per-cup arithmetic. This post adds up the day: cups, spoons of sugar, milk and cutting chai.",
           "takeaways": [
-            "Sugar is the biggest single variable: each level teaspoon is about 16 calories, and a heaped teaspoon holds more.",
-            "Milk comes next. Toned milk has about 58 calories per 100 ml, whole cow's milk about 73 and buffalo milk about 107.",
-            "Tea leaves, ginger, cardamom and chai masala add almost nothing.",
-            "Four cups a day with 2 teaspoons of sugar is about {{sum:4*masala-chai:cup2}} calories."
+            "Four cups with 2 teaspoons of sugar each is about {{sum:4*masala-chai:cup2}} calories a day; without sugar, about {{sum:4*masala-chai:cup0}}.",
+            "Sugar is the biggest part of the day's number: each level teaspoon is about 16 calories, so 2 teaspoons in 4 cups is 8 teaspoons, about 34 g.",
+            "Four cutting chais with a teaspoon of sugar each come to about {{sum:4*masala-chai:cutting}}, close to the {{sum:4*masala-chai:cup0}} of 4 full cups without sugar.",
+            "Buffalo milk raises the day: 4 cups with 50 ml of buffalo milk and 2 teaspoons of sugar each are about {{sum:4*masala-chai:buffalo}}."
           ],
           "body": [
             {
-              "h2": "What's in a cup",
+              "h2": "How many calories are in one cup of chai?",
               "content": [
-                "A typical home cup of chai is mostly water, boiled with tea leaves and spices, with some milk and sugar. ICMR-NIN's [Dietary Guidelines for Indians](https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf) count a cup of tea made with 50 ml of toned milk and 2 teaspoons of sugar at 75 calories. Worked out from IFCT 2017 and USDA values, the same cup comes to about {{kcal@masala-chai:cup2}}, depending on how full the teaspoons are.",
-                {
-                  "table": {
-                    "caption": "One cup of chai with 50 ml of milk. See the masala chai page for the arithmetic.",
-                    "head": [
-                      "Your chai",
-                      "About"
-                    ],
-                    "rows": [
-                      [
-                        "Toned milk, no sugar",
-                        "{{kcal@masala-chai:cup0}}"
-                      ],
-                      [
-                        "Toned milk, 1 teaspoon sugar",
-                        "{{kcal@masala-chai:cup1}}"
-                      ],
-                      [
-                        "Toned milk, 2 teaspoons sugar",
-                        "{{kcal@masala-chai:cup2}}"
-                      ],
-                      [
-                        "Buffalo milk, 2 teaspoons sugar",
-                        "{{kcal@masala-chai:buffalo}}"
-                      ],
-                      [
-                        "Cutting chai (half a cup), 1 teaspoon sugar",
-                        "{{kcal@masala-chai:cutting}}"
-                      ]
-                    ]
-                  }
-                }
+                "A cup of home masala chai with 50 ml of toned milk and 2 teaspoons of sugar has about {{kcal@masala-chai:cup2}} calories, about {{kcal@masala-chai:cup0}} without sugar, and a cutting chai with a teaspoon about {{kcal@masala-chai:cutting}}. ICMR-NIN's [Dietary Guidelines for Indians](https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf) count a cup of tea with 50 ml of toned milk and 2 teaspoons of sugar at 75 calories, close to the same. The recipe, the milk and sugar options and the arithmetic are on the [masala chai calories](/calories/masala-chai/) page; everything below multiplies that cup by the day."
               ]
             },
             {
-              "h2": "Sugar: the biggest part",
+              "h2": "How many calories are in 2, 3 or 4 cups of chai a day?",
               "content": [
-                "A level teaspoon of sugar weighs about 4.2 g, according to USDA, and has about 16 calories. In many homes the sugar spoon is heaped, which puts more into the cup than the numbers here assume. If your teaspoons are heaped, count each one as a little more than a level one.",
-                "Jaggery and sugar are close per gram: IFCT 2017 puts jaggery at {{ing:jaggery}} calories per 100 g, and USDA puts white sugar at 387. Switching from one to the other changes the flavour more than the number."
-              ]
-            },
-            {
-              "h2": "Milk: toned, whole or buffalo",
-              "content": [
-                "The milk sets the rest. Toned milk (3% fat) has about 58 calories per 100 ml, going by Amul Taaza's label. IFCT 2017 puts whole cow's milk at about 73 and buffalo milk at about 107. A cup with 50 ml of buffalo milk and 2 teaspoons of sugar is about {{kcal@masala-chai:buffalo}} calories, against about {{kcal@masala-chai:cup2}} with toned milk.",
-                "Milkier chai, made with half milk and half water or all milk, has more again. If you make chai with 100 ml of milk per cup, count the milk twice."
-              ]
-            },
-            {
-              "h2": "Cup size and how many cups",
-              "content": [
-                "A cutting chai at a tapri is half a glass, about half a cup. A large mug can be twice a cup. And most people don't stop at one: two cups at home, one at office and one in the evening is four. With 2 teaspoons of sugar each, that's about {{sum:4*masala-chai:cup2}} calories in the day from chai alone.",
-                "Biscuits, rusk and namkeen with chai are counted separately, and often add more than the chai itself."
-              ]
-            },
-            {
-              "h2": "Your day of chai",
-              "content": [
-                "Because chai comes in small amounts many times a day, it's worth adding up once. With toned milk:",
+                "Most people don't stop at one: two cups at home, one at office and one in the evening is four. With 2 teaspoons of sugar each, that's about {{sum:4*masala-chai:cup2}} calories in the day from chai alone. With toned milk and 50 ml per cup:",
                 {
                   "table": {
                     "caption": "Total for the day, home chai with 50 ml of toned milk per cup.",
@@ -1726,24 +1674,46 @@
                     ]
                   }
                 },
-                "Milkier chai moves every number up. Each extra 100 ml of toned milk in a cup adds about 58 calories, so a cup of doodh patti made almost entirely with milk can be several times a cup of everyday chai. A tumbler of [filter coffee](/calories/filter-coffee/) with whole milk and 2 teaspoons of sugar is about {{kcal@filter-coffee:two_tsp}}, more than chai mostly because it has more milk.",
-                "Instant chai premixes and sachets already contain sugar and milk solids, so count them by their label rather than as home chai."
+                "A large mug can be twice a cup, so count it as two. Instant chai premixes and sachets already contain sugar and milk solids, so count them by their label rather than as home chai."
               ]
             },
             {
-              "h2": "Tapri and station chai",
+              "h2": "How much sugar is in your chai over a day?",
               "content": [
-                "Chai from a tapri or a railway station is often sweeter and milkier than home chai, sometimes made with buffalo milk or condensed milk. We found no lab measurement of tapri chai, so as a range, assume up to a teaspoon more sugar and a little more full-fat milk: about {{outLo@masala-chai}} to {{outHi@masala-chai}} calories a cup."
+                "A level teaspoon of sugar weighs about 4.2 g, according to USDA, and has about 16 calories. Two teaspoons in each of 4 cups is 8 level teaspoons, about 34 g of sugar: the difference between about {{sum:4*masala-chai:cup2}} for the day and about {{sum:4*masala-chai:cup0}} without any. In many homes the sugar spoon is heaped, which puts more into every cup than these numbers assume. If yours is, count each teaspoon as a little more than a level one.",
+                "Dropping one teaspoon from every cup takes 4 cups from about {{sum:4*masala-chai:cup2}} to about {{sum:4*masala-chai:cup1}}.",
+                "Jaggery and sugar are close per gram: IFCT 2017 puts jaggery at {{ing:jaggery}} calories per 100 g, and USDA puts white sugar at 387. Switching from one to the other changes the flavour more than the day's number."
               ]
             },
             {
-              "h2": "What doesn't change it",
+              "h2": "Does cutting chai change the day more than cutting the sugar?",
               "content": [
-                "Tea leaves, a longer boil for a kadak cup, grated ginger, crushed cardamom and chai masala add almost nothing. Lemon tea and black tea without sugar are close to zero. Green tea without sugar is the same."
+                "A cutting chai at a tapri is half a glass, about half a cup, usually with a teaspoon of sugar. Four cutting chais come to about {{sum:4*masala-chai:cutting}} calories for the day, close to the {{sum:4*masala-chai:cup0}} of 4 full cups without sugar, and against about {{sum:4*masala-chai:cup2}} for 4 full cups with 2 teaspoons each. Halving the cup and dropping the sugar land in much the same place."
               ]
             },
             {
-              "h2": "Counting chai without thinking about it",
+              "h2": "What does the milk do over a day?",
+              "content": [
+                "The milk sets the rest. Toned milk (3% fat) has about 58 calories per 100 ml, going by Amul Taaza's label. IFCT 2017 puts whole cow's milk at about 73 and buffalo milk at about 107. A cup with 50 ml of buffalo milk and 2 teaspoons of sugar is about {{kcal@masala-chai:buffalo}} calories, against about {{kcal@masala-chai:cup2}} with toned milk, so 4 cups of buffalo-milk chai come to about {{sum:4*masala-chai:buffalo}} for the day.",
+                "Milkier chai, made with half milk and half water or all milk, has more again. Each extra 100 ml of toned milk in a cup adds about 58 calories, so a day of doodh patti made almost entirely with milk can be several times a day of everyday chai. If you make chai with 100 ml of milk per cup, count the milk twice.",
+                "A tumbler of [filter coffee](/calories/filter-coffee/) with whole milk and 2 teaspoons of sugar is about {{kcal@filter-coffee:two_tsp}}, more than chai mostly because it has more milk, so a day of coffee adds up faster."
+              ]
+            },
+            {
+              "h2": "What about tapri and station chai?",
+              "content": [
+                "Chai from a tapri or a railway station is often sweeter and milkier than home chai, sometimes made with buffalo milk or condensed milk. We found no lab measurement of tapri chai, so as a range, assume up to a teaspoon more sugar and a little more full-fat milk: about {{outLo@masala-chai}} to {{outHi@masala-chai}} calories a cup. Over 3 or 4 cups the top of that range is well above the home figure, so count outside cups at the top of it unless you know the stall.",
+                "Biscuits, rusk and namkeen with chai are counted separately, and often add more than the chai itself."
+              ]
+            },
+            {
+              "h2": "What adds nothing over the day?",
+              "content": [
+                "Tea leaves, a longer boil for a kadak cup, grated ginger, crushed cardamom and chai masala add almost nothing, however many cups you have. Lemon tea and black tea without sugar are close to zero. Green tea without sugar is the same."
+              ]
+            },
+            {
+              "h2": "How do you count chai without thinking about it?",
               "content": [
                 "Chai is easy to forget because it's small and frequent. The simplest habit is to decide what your usual cup is, with your milk and your sugar, and count each cup as that. In Slate, your chai and coffee are set once in Your kitchen, with sugar in teaspoons and milk as none, toned or full fat, and \"chai\" on a line uses them."
               ]
@@ -1751,24 +1721,24 @@
           ],
           "faq": [
             {
-              "q": "How many calories are in a cup of chai?",
-              "a": "About {{kcal@masala-chai:cup2}} with toned milk and 2 teaspoons of sugar, and about {{kcal@masala-chai:cup0}} without sugar."
+              "q": "How many calories are in 4 cups of chai a day?",
+              "a": "About {{sum:4*masala-chai:cup2}} with 50 ml of toned milk and 2 teaspoons of sugar in each cup, about {{sum:4*masala-chai:cup1}} with 1 teaspoon, and about {{sum:4*masala-chai:cup0}} without sugar."
             },
             {
-              "q": "How many calories are in chai without sugar?",
-              "a": "About {{kcal@masala-chai:cup0}} for a cup with 50 ml of toned milk. The milk is almost all of it."
+              "q": "How many calories are in 3 cups of chai a day?",
+              "a": "About {{sum:3*masala-chai:cup2}} with 2 teaspoons of sugar in each cup, about {{sum:3*masala-chai:cup1}} with 1 teaspoon, and about {{sum:3*masala-chai:cup0}} without sugar, for home chai with toned milk."
             },
             {
-              "q": "How many calories does a teaspoon of sugar add?",
-              "a": "About 16 for a level teaspoon (4.2 g). A heaped teaspoon holds more."
+              "q": "How many calories are in 5 cups of chai a day?",
+              "a": "About {{sum:5*masala-chai:cup2}} with 2 teaspoons of sugar in each cup, and about {{sum:5*masala-chai:cup0}} without sugar."
             },
             {
-              "q": "How many calories are in a cutting chai?",
-              "a": "About {{kcal@masala-chai:cutting}} for half a cup with a teaspoon of sugar. Tapri cutting chai is often sweeter and milkier, so it can be more."
+              "q": "How much sugar is in my chai over a day?",
+              "a": "Count the teaspoons. Two level teaspoons in each of 4 cups is 8 teaspoons, about 34 g of sugar at about 16 calories each. A heaped teaspoon holds more."
             },
             {
-              "q": "Does chai with jaggery have fewer calories than chai with sugar?",
-              "a": "Very slightly. Per gram, IFCT 2017 puts jaggery at {{ing:jaggery}} calories per 100 g against 387 for sugar in USDA's data, so a teaspoon of either adds about the same."
+              "q": "Does cutting chai have fewer calories over a day?",
+              "a": "Yes. Four cutting chais with a teaspoon of sugar each come to about {{sum:4*masala-chai:cutting}}, against about {{sum:4*masala-chai:cup2}} for 4 full cups with 2 teaspoons each."
             }
           ],
           "related": [
