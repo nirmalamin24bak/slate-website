@@ -2,7 +2,7 @@
 
 > Slate is a calorie journal for iPhone, built for India, by Sonal Systems Private Limited (Vadodara, Gujarat). You type what you ate the way you'd say it, in English, Hinglish or Gujarati spellings ("2 roti aur ek katori dal"), and Slate puts a number next to it. No login. Data stored in Mumbai, India. Not related to Slate magazine (slate.com) or other products named Slate.
 
-Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year (7 days free on yearly), and adds voice and photo logging, delivery orders, chat and more. iPhone only, iOS 18 or later. Coming soon to the App Store.
+Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year in India (7 days free on yearly), $4.99 a month or $34.99 a year in the US, and £4.99 a month or £34.99 a year in the UK. It adds voice and photo logging, delivery orders, chat and more. iPhone only, iOS 18 or later. Coming soon to the App Store.
 
 ## Key pages
 

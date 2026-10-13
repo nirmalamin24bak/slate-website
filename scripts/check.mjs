@@ -38,6 +38,17 @@ const attr = (html, re) => (html.match(re) || [])[1];
 const problems = [];
 const titles = new Map();
 const files = htmlFiles(ROOT);
+const site = JSON.parse(readFileSync(join(ROOT, "data/site.json"), "utf8"));
+const foods = JSON.parse(readFileSync(join(ROOT, "data/foods.json"), "utf8")).foods;
+
+// Every combo portion and meal a dish page lists must be answered somewhere in that page's prose or FAQ, through a
+// token ({{kcal:two_curd}}), so a row never exists only in a table.
+for (const f of foods) {
+  const prose = [f.answer, f.description, ...(f.intro || []), ...(f.changes || []), ...(f.method || []), ...(f.faq || []).flatMap((q) => [q.q, q.a])].join(" ");
+  for (const row of [...f.portions.filter((p) => p.combo), ...(f.meals || [])]) {
+    if (!prose.includes(`:${row.id}}}`)) problems.push(`data/foods.json: ${f.slug} ${f.meals?.includes(row) ? "meal" : "combo"} "${row.id}" is not named in any FAQ or prose token`);
+  }
+}
 
 for (const file of files) {
   const rel = relative(ROOT, file).split(sep).join("/");
@@ -75,6 +86,8 @@ for (const file of files) {
   if (!desc && !isNotFound) fail("missing meta description");
   else if (desc && decode(desc).length > DESC_MAX) fail(`description is ${decode(desc).length} characters (max ${DESC_MAX})`);
   if (!/<html lang="en-IN">/.test(html)) fail('missing <html lang="en-IN">');
+  // Once the app has an id, every page carries the Smart App Banner meta (build.mjs head() and syncLaunchMeta()).
+  if (site.cta.appId && !html.includes(`<meta name="apple-itunes-app" content="app-id=${site.cta.appId}">`)) fail("missing apple-itunes-app meta");
   const h1s = (html.match(/<h1[\s>]/g) || []).length;
   if (h1s !== 1) fail(`${h1s} h1 elements`);
 

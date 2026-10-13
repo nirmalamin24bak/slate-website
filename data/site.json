@@ -1,7 +1,11 @@
 {
   "cta": {
     "line": "Slate works this out for your own katori and oil. Free, no login, iPhone.",
-    "appStoreUrl": null
+    "dishLine": "Type \"{example}\" in Slate. It counts it for your katori and your oil. Free, no login.",
+    "tableLink": "Log this in Slate",
+    "appStoreUrl": "",
+    "appId": "",
+    "providerToken": ""
   },
   "foodNote": "Typical values for a home kitchen, for the portion named next to each number. Other sites often show bigger numbers because they count a bigger serving or a restaurant recipe. Your own katori, roti and oil change the number; Slate adjusts for them.",
   "hub": {

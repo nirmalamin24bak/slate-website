@@ -23,6 +23,12 @@ Portions:
 - 1 large roti (about 40 g atta): 53 g cooked = 130 kcal, P 4 g, C 26 g, F 1 g
 - 1 medium roti with 1 tsp ghee (5 g): 40 g cooked + 5 g Ghee = 140 kcal, P 3 g, C 19 g, F 5 g
 - 2 medium rotis: 80 g cooked = 190 kcal, P 6 g, C 39 g, F 1 g
+- 2 rotis with ghee: 80 g cooked + 10 g Ghee = 280 kcal, P 6 g, C 39 g, F 11 g
+
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- 2 rotis and a katori of dal tadka: 2*roti:medium+dal-tadka:k200 = 305 kcal, P 10 g, C 48 g, F 6 g
+- 3 rotis and a katori of mixed veg: 3*roti:medium+mixed-veg:k200 = 435 kcal, P 13 g, C 70 g, F 9 g
 
 Outside (Dhaba or restaurant, with ghee): fat sources x 1 to 1, portion x 1 to 1, plus 5 to 10 g Ghee = 140 to 185 kcal. Basis: No analysed data was found for restaurant or tandoori rotis, so this is a stated assumption: the same roti brushed with 1 to 2 NIN teaspoons (5 ml each) of ghee. Butter has slightly less fat than ghee, so butter rotis sit at or below this range.
 
@@ -64,6 +70,13 @@ Portions:
 - 1 katori (250 ml): 168 g cooked = 200 kcal, P 4 g, C 44 g, F 0 g
 - 1 plate (100 g raw rice): 298 g cooked = 355 kcal, P 8 g, C 78 g, F 1 g
 - 100 g cooked: 100 g cooked = 120 kcal, P 3 g, C 26 g, F 0 g
+
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- Dal chawal (a katori of rice, a katori of dal tadka): plain-rice:k200+dal-tadka:k200 = 275 kcal, P 8 g, C 45 g, F 6 g
+- Rajma chawal (a katori of rice, a katori of rajma): plain-rice:k200+rajma:k200 = 370 kcal, P 12 g, C 58 g, F 9 g
+- Chole chawal (a katori of rice, a katori of chole): plain-rice:k200+chole:k200 = 425 kcal, P 13 g, C 61 g, F 12 g
+- Kadhi chawal (a katori of rice, a katori of kadhi): plain-rice:k200+kadhi:k200 = 260 kcal, P 7 g, C 41 g, F 7 g
 
 Outside (Restaurant, finished with ghee): fat sources x 1 to 1, portion x 1 to 1, plus 0 to 5 g Ghee = 160 to 205 kcal. Basis: No analysed data was found for restaurant steamed rice. Stated assumption: the same rice with 0 to 1 NIN teaspoon of ghee on top.
 
@@ -113,6 +126,11 @@ Portions:
 - Half a cup (100 ml): 100 g cooked = 55 kcal, P 2 g, C 5 g, F 3 g
 - 1 textbook bowl (30 g dry dal): 351 g cooked = 200 kcal, P 7 g, C 18 g, F 11 g
 
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- Dal tadka with rice (a katori of each): dal-tadka:k200+plain-rice:k200 = 275 kcal, P 8 g, C 45 g, F 6 g
+- Dal tadka with 2 rotis: dal-tadka:k200+2*roti:medium = 305 kcal, P 10 g, C 48 g, F 6 g
+
 Outside (Restaurant or dhaba): fat sources x 1 to 1, portion x 1.5 to 2 = 170 to 225 kcal. Basis: Published restaurant-style recipes use about the same fat per gram of dal as this textbook dal: Swasthi's dal tadka 2 tbsp ghee plus 1.5 to 2 tbsp oil for 200 g dal (0.24 to 0.27 g per g), against 10 g ghee for 30 g dal here (0.33 g per g). The difference per katori comes mostly from a thicker dal, so the range is 1.5 to 2 times the dal per katori. This is a stated assumption.
 
 Cross-checks:
@@ -160,6 +178,11 @@ Portions:
 - 1 katori (250 ml): 250 g cooked = 265 kcal, P 10 g, C 29 g, F 11 g
 - 1 textbook bowl (30 g dry rajma): 165 g cooked = 175 kcal, P 7 g, C 19 g, F 8 g
 
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- Rajma with rice (a katori of each): rajma:k200+plain-rice:k200 = 370 kcal, P 12 g, C 58 g, F 9 g
+- Rajma with 2 rotis: rajma:k200+2*roti:medium = 400 kcal, P 14 g, C 61 g, F 9 g
+
 Outside (Dhaba or restaurant): fat sources x 1 to 1, portion x 1 to 1, plus 5 to 5 g Ghee, plus 0 to 15 g Cream, single (about 19% fat) = 255 to 285 kcal. Basis: From published recipe proportions (Swasthi, Rajma masala): a dhaba-style tadka of 1.5 tbsp ghee for 4 servings (about 5 g each), and a creamy restaurant version with a quarter cup of cream for 4 servings (about 15 g each). Proportions only, not a measured value.
 
 Cross-checks:
@@ -202,6 +225,10 @@ Portions:
 - 1 large plate (60 g dry poha): 1.5 of the recipe = 470 kcal, P 9 g, C 56 g, F 23 g
 - 1 very large plate (100 g dry poha): 2.5 of the recipe = 785 kcal, P 15 g, C 93 g, F 38 g
 
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- A plate of poha and a cup of chai: poha:plate+masala-chai:cup2 = 375 kcal, P 8 g, C 48 g, F 17 g
+
 Outside (Stall or restaurant): fat sources x 1 to 1, portion x 1 to 1.5, plus 0 to 4.5 g Groundnut oil = 315 to 510 kcal. Basis: No analysed data was found for stall or restaurant poha. Stated assumption: 1 to 1.5 times the textbook plate with up to 1 tsp (4.5 g) more oil.
 
 Cross-checks:
@@ -241,6 +268,11 @@ Portions:
 - 1 large idli (20 g rice and dal): 50 g cooked = 70 kcal, P 2 g, C 14 g, F 0 g
 - 2 medium idlis: 75 g cooked = 105 kcal, P 3 g, C 21 g, F 0 g
 - 4 small idlis: 100 g cooked = 140 kcal, P 5 g, C 28 g, F 0 g
+
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- 2 idlis with sambar: 2*idli:medium+sambar:k200 = 300 kcal, P 11 g, C 44 g, F 9 g
+- 4 idlis with sambar: 4*idli:medium+sambar:k200 = 400 kcal, P 15 g, C 66 g, F 9 g
 
 Outside (Restaurant, with ghee): fat sources x 1 to 1, portion x 1 to 1.5, plus 0 to 5 g Ghee = 105 to 200 kcal. Basis: No analysed data was found for restaurant idli. Stated assumption: idlis 1 to 1.5 times the medium size, with up to 1 NIN teaspoon of ghee or podi oil.
 
@@ -289,6 +321,10 @@ Portions:
 - 1 masala dosa, 2 tsp oil on the tawa: 0.5 of the recipe + 9 g Groundnut oil = 295 kcal, P 6 g, C 39 g, F 12 g
 - 1 masala dosa, 1 tbsp oil on the tawa (textbook): 0.5 of the recipe + 13.6 g Groundnut oil = 335 kcal, P 6 g, C 39 g, F 17 g
 - 1 plain dosa, 1 tsp oil, no filling: 0 of the recipe + 30 g Rice, parboiled, milled + 10 g Black gram dal (urad) + 4.5 g Groundnut oil = 180 kcal, P 5 g, C 28 g, F 5 g
+
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- A masala dosa with sambar: masala-dosa:tsp+sambar:k200 = 455 kcal, P 13 g, C 61 g, F 17 g
 
 Outside (Restaurant, butter or ghee): fat sources x 1 to 1, portion x 1 to 1.5, plus 5 to 15 g Ghee = 300 to 515 kcal. Basis: No analysed data was found for a single restaurant masala dosa. Stated assumption: 1 to 1.5 times the size, with 1 to 3 teaspoons (5 to 15 g) of butter or ghee. A BMJ study of restaurant meals in Bangalore measured full meals, not single dosas, so it isn't used here.
 
@@ -425,6 +461,8 @@ Portions:
 - 1 cup, 2 tsp sugar: 1 of the recipe + 8.4 g Sugar, white = 60 kcal, P 2 g, C 11 g, F 2 g
 - 1 cutting chai (half a cup), 1 tsp sugar: 0.5 of the recipe + 4.2 g Sugar, white = 30 kcal, P 1 g, C 5 g, F 1 g
 - 1 cup with 50 ml buffalo milk, 2 tsp sugar: 0 of the recipe + 50 g Milk, whole, buffalo + 8.4 g Sugar, white = 85 kcal, P 2 g, C 13 g, F 3 g
+- 2 cups of chai, 2 tsp sugar each: 2 of the recipe + 16.8 g Sugar, white = 125 kcal, P 3 g, C 22 g, F 3 g
+- 3 cups of chai, 2 tsp sugar each: 3 of the recipe + 25.2 g Sugar, white = 185 kcal, P 5 g, C 32 g, F 5 g
 
 Outside (Tapri or station chai): fat sources x 1 to 1, portion x 1 to 1, plus 0 to 4.2 g Sugar, white, plus 0 to 25 g Milk, whole, buffalo = 60 to 105 kcal. Basis: No measured data was found for tapri or station chai. Stated assumption: the same cup with up to 1 more level teaspoon of sugar and up to 25 ml more buffalo milk.
 
@@ -509,6 +547,11 @@ Portions:
 - 1 paratha with 1 tsp butter on top (5 g): 49 g cooked + 5 g Butter = 200 kcal, P 3 g, C 17 g, F 14 g
 - 1 paratha with 1 tsp ghee on top (5 g): 49 g cooked + 5 g Ghee = 210 kcal, P 3 g, C 17 g, F 14 g
 - 100 g cooked paratha: 100 g cooked = 335 kcal, P 6 g, C 35 g, F 19 g
+- 2 parathas with curd: 99 g cooked + 100 g Curd (dahi), whole milk = 390 kcal, P 9 g, C 39 g, F 22 g
+
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- 2 parathas and a cup of chai: plain-paratha:two+masala-chai:cup2 = 390 kcal, P 8 g, C 45 g, F 21 g
 
 Outside (Dhaba or restaurant): fat sources x 1 to 1.5, portion x 1 to 1.4 = 165 to 290 kcal. Basis: USDA's paratha (FNDDS 51300185) weighs 70 g against about 49 g here, so the size factor runs to 1.4. Dhabas often finish parathas with extra ghee or butter; the fat factor of up to 1.5 is a stated assumption.
 
@@ -555,6 +598,10 @@ Portions:
 - 1 aloo paratha, 1 tsp butter (5 g): 0.3333 of the recipe + 5 g Butter = 225 kcal, P 3 g, C 22 g, F 14 g
 - 1 aloo paratha, 1 tbsp butter (14 g): 0.3333 of the recipe + 14.2 g Butter = 290 kcal, P 4 g, C 22 g, F 21 g
 - 1 aloo paratha with 100 g curd: 0.3333 of the recipe + 100 g Curd (dahi), whole milk = 250 kcal, P 7 g, C 27 g, F 13 g
+- 2 aloo parathas with curd: 0.6667 of the recipe + 100 g Curd (dahi), whole milk = 440 kcal, P 10 g, C 49 g, F 22 g
+- 2 aloo parathas with butter: 0.6667 of the recipe + 10 g Butter = 450 kcal, P 7 g, C 44 g, F 27 g
+- 1 aloo paratha with curd and butter: 0.3333 of the recipe + 100 g Curd (dahi), whole milk + 5 g Butter = 285 kcal, P 7 g, C 27 g, F 17 g
+- 3 aloo parathas: 1 of the recipe = 565 kcal, P 10 g, C 66 g, F 29 g
 
 Outside (Dhaba or restaurant, with butter): fat sources x 1 to 1.5, portion x 1 to 1.4, plus 5 to 10 g Butter = 225 to 390 kcal. Basis: No analysed value for a restaurant aloo paratha was found. Size up to 1.4 times, as for the plain paratha (USDA's paratha is 70 g against about 49 g); up to 1.5 times the oil and 1 to 2 teaspoons of butter on top are stated assumptions.
 
@@ -605,6 +652,10 @@ Portions:
 - 4 theplas: 0.3636 of the recipe = 485 kcal, P 12 g, C 56 g, F 23 g
 - 2 theplas with 100 g curd: 0.1818 of the recipe + 100 g Curd (dahi), whole milk = 305 kcal, P 10 g, C 33 g, F 15 g
 
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- 2 theplas and a cup of chai: thepla:two+masala-chai:cup2 = 305 kcal, P 8 g, C 39 g, F 14 g
+
 Outside (Farsan shop or packed): fat sources x 1 to 1.5, portion x 1 to 1.2 = 120 to 170 kcal. Basis: No analysed value for shop or packed theplas was found. A size of up to 1.2 times and up to 1.5 times the oil are stated assumptions; shop theplas are often softer and oilier so they keep.
 
 Judgement calls:
@@ -643,6 +694,10 @@ Portions:
 - 3 puris: 75 g cooked = 285 kcal, P 4 g, C 26 g, F 19 g
 - 4 puris: 99 g cooked = 385 kcal, P 6 g, C 34 g, F 25 g
 - 6 puris: 149 g cooked = 575 kcal, P 8 g, C 51 g, F 37 g
+
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- 4 puris with aloo sabzi: puri:four+aloo-sabzi:k200 = 570 kcal, P 9 g, C 55 g, F 35 g
 
 Outside (Halwai or puri-bhaji stall): fat sources x 1 to 1.22, portion x 1 to 1.45 = 95 to 155 kcal. Basis: Size up to USDA's 36 g puri (FNDDS 51300180) against about 25 g here, so 1.45. Fat up to 1.22 times: Jain et al. 2024 found total fat in Indian fried foods (including puri) rose from a mean of 22.5% to 27.4% of dry weight between the 1st and 32nd frying cycle in the same oil.
 
@@ -689,6 +744,10 @@ Portions:
 - 1 bhatura (about 27 g maida): 0.3333 of the recipe = 185 kcal, P 3 g, C 20 g, F 10 g
 - 2 bhaturas: 0.6667 of the recipe = 370 kcal, P 6 g, C 41 g, F 20 g
 - 3 bhaturas: 1 of the recipe = 555 kcal, P 9 g, C 61 g, F 30 g
+
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- 2 bhature with chole: bhatura:two+chole:k200 = 635 kcal, P 15 g, C 67 g, F 32 g
 
 Outside (Street stall (measured)): fat sources x 0.47 to 0.98, portion x 0.64 to 1.01 = 90 to 185 kcal. Basis: Calibrated to Gupta et al. 2016, which bought and analysed bhaturas from vendors: a village bhatura of 33.00 g with 3.30 g fat, and a Delhi urban slum bhatura of 52.04 g with 10.20 g fat. Size factor = vendor weight against about 51.7 g here; fat factor chosen so total fat matches the measured fat.
 
@@ -814,6 +873,10 @@ Portions:
 - 1 dosa, 1 tsp ghee: 0.25 of the recipe + 5 g Ghee = 160 kcal, P 4 g, C 23 g, F 5 g
 - 2 dosas, ¾ tsp oil each: 0.5 of the recipe + 6.8 g Groundnut oil = 285 kcal, P 8 g, C 47 g, F 7 g
 
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- A dosa with sambar: plain-dosa:one+sambar:k200 = 345 kcal, P 11 g, C 45 g, F 13 g
+
 Outside (Restaurant or paper dosa): fat sources x 1 to 1, portion x 1 to 1.9, plus 0 to 5 g Butter = 145 to 310 kcal. Basis: USDA FNDDS lists dosas at 35 g (small), 80 g (medium) and 155 g (large); 155 / 80 = 1.9, used as the top size. Butter up to a teaspoon is a stated assumption.
 
 Cross-checks:
@@ -863,6 +926,10 @@ Portions:
 - 1 uttapam with 1 tsp ghee on top: 0.5 of the recipe + 5 g Ghee = 260 kcal, P 5 g, C 32 g, F 12 g
 - 2 uttapams: 1 of the recipe = 430 kcal, P 11 g, C 63 g, F 14 g
 
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- An uttapam with sambar: uttapam:one+sambar:k200 = 415 kcal, P 12 g, C 54 g, F 16 g
+
 Outside (Udupi restaurant): fat sources x 1 to 1, portion x 1 to 1.5, plus 0 to 5 g Butter = 215 to 360 kcal. Basis: No analysed value for a restaurant uttapam was found. A size of up to 1.5 times and up to a teaspoon of butter are stated assumptions, in line with the restaurant assumptions on the masala dosa page.
 
 Cross-checks:
@@ -911,6 +978,11 @@ Portions:
 - 1 katori (250 ml): 250 g cooked = 225 kcal, P 8 g, C 21 g, F 12 g
 - Half a cup (100 ml): 100 g cooked = 90 kcal, P 3 g, C 8 g, F 5 g
 - 1 bowl (30 g dry dal): 228 g cooked = 205 kcal, P 7 g, C 19 g, F 11 g
+
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- Dal fry with rice (a katori of each): dal-fry:k200+plain-rice:k200 = 340 kcal, P 10 g, C 52 g, F 9 g
+- Dal fry with 2 rotis: dal-fry:k200+2*roti:medium = 370 kcal, P 12 g, C 55 g, F 9 g
 
 Outside (Dhaba or restaurant): fat sources x 1 to 1.5, portion x 1 to 1.5 = 180 to 325 kcal. Basis: No analysed value for restaurant dal fry was found. Up to 1.5 times the dal per katori (thicker) and up to 1.5 times the ghee are stated assumptions, in line with the dal tadka page.
 
@@ -1142,6 +1214,11 @@ Portions:
 - 1 bowl (40 g dry chana): 202 g cooked = 265 kcal, P 10 g, C 26 g, F 12 g
 - 100 g: 100 g cooked = 130 kcal, P 5 g, C 13 g, F 6 g
 
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- Chole with rice (a katori of each): chole:k200+plain-rice:k200 = 425 kcal, P 13 g, C 61 g, F 12 g
+- Chole with 2 rotis: chole:k200+2*roti:medium = 455 kcal, P 15 g, C 64 g, F 12 g
+
 Outside (Chole bhature stall or restaurant): fat sources x 1.5 to 2, portion x 1 to 1 = 305 to 345 kcal. Basis: No analysed value for street or restaurant chole was found. Chole cooked for chole bhature is usually oilier than home chole; 1.5 to 2 times this recipe's oil is a stated assumption.
 
 Cross-checks:
@@ -1189,6 +1266,11 @@ Portions:
 - 1 katori (250 ml): 250 g cooked = 125 kcal, P 4 g, C 8 g, F 9 g
 - 1 bowl, half the recipe: 273 g cooked = 140 kcal, P 5 g, C 9 g, F 9 g
 - 1 bowl with its share of pakoras: 0.5 of the recipe + 15 g Besan (ground Bengal gram dal) + 10 g Spinach (palak) + 7.5 g Onion, big + 18.7 g Groundnut oil = 360 kcal, P 8 g, C 17 g, F 29 g
+
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- Kadhi with rice (a katori of each): kadhi:k200+plain-rice:k200 = 260 kcal, P 7 g, C 41 g, F 7 g
+- Kadhi with 2 rotis: kadhi:k200+2*roti:medium = 290 kcal, P 9 g, C 44 g, F 7 g
 
 Outside (Dhaba kadhi pakora): fat sources x 1 to 1, portion x 1 to 1.3 = 360 to 465 kcal. Basis: No analysed value for restaurant kadhi was found. The pakoras here already use the fat content of street pakoras measured by Gupta et al. 2016 (30.6%); a serving up to 1.3 times as big is a stated assumption.
 
@@ -1718,6 +1800,7 @@ Portions:
 - 100 g: 100 g cooked = 130 kcal, P 2 g, C 14 g, F 7 g
 - 250 g: 250 g cooked = 330 kcal, P 6 g, C 35 g, F 18 g
 - 500 g: 500 g cooked = 655 kcal, P 12 g, C 69 g, F 36 g
+- Half a plate of veg biryani: 198 g cooked = 260 kcal, P 5 g, C 27 g, F 14 g
 
 Outside (Restaurant or delivery): fat sources x 1 to 1, portion x 1 to 1.5 = 520 to 780 kcal. Basis: No analysed value for restaurant veg biryani was found. This textbook recipe already uses a lot of oil, so only a plate up to 1.5 times as big is assumed.
 
@@ -1771,6 +1854,7 @@ Portions:
 - 100 g: 100 g cooked = 125 kcal, P 5 g, C 15 g, F 5 g
 - 250 g: 250 g cooked = 315 kcal, P 14 g, C 38 g, F 12 g
 - 500 g: 500 g cooked = 635 kcal, P 27 g, C 75 g, F 24 g
+- Half a plate of chicken biryani: 152 g cooked = 190 kcal, P 8 g, C 23 g, F 7 g
 
 Outside (Restaurant or delivery): fat sources x 1.5 to 3, portion x 1 to 1.5 = 425 to 815 kcal. Basis: No analysed value for Indian restaurant biryani was found. USDA's 'biryani with meat' is 6.8% fat against 4.8% here; restaurant biryanis are commonly made with much more ghee. 1.5 to 3 times this recipe's fat, in a plate up to 1.5 times as big, is a stated assumption.
 
@@ -2141,6 +2225,10 @@ Portions:
 - 1 plate with 1 tsp ghee on top: 208 g cooked + 5 g Ghee = 355 kcal, P 7 g, C 34 g, F 21 g
 - 100 g: 100 g cooked = 150 kcal, P 3 g, C 16 g, F 8 g
 
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- A plate of upma and a cup of chai: upma:plate+masala-chai:cup2 = 370 kcal, P 9 g, C 45 g, F 18 g
+
 Outside (Darshini or Udupi restaurant): fat sources x 1 to 1, portion x 1 to 1.5, plus 0 to 5 g Ghee = 310 to 510 kcal. Basis: No analysed value for restaurant upma was found. A plate up to 1.5 times as big and up to a teaspoon of ghee on top are stated assumptions.
 
 Cross-checks:
@@ -2272,6 +2360,10 @@ Portions:
 - 2 medu vadas: 56 g cooked = 140 kcal, P 7 g, C 15 g, F 5 g
 - 4 medu vadas: 111 g cooked = 280 kcal, P 14 g, C 31 g, F 11 g
 - 100 g: 100 g cooked = 255 kcal, P 12 g, C 28 g, F 10 g
+
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- 2 medu vadas with sambar: medu-vada:two+sambar:k200 = 340 kcal, P 14 g, C 37 g, F 14 g
 
 Outside (Udupi restaurant or stall): fat sources x 1 to 1.22, portion x 1 to 1.5 = 140 to 225 kcal. Basis: Fat up to 1.22 times: Jain et al. 2024 found total fat in Indian fried foods rose from a mean of 22.5% to 27.4% of dry weight between the 1st and 32nd frying in the same oil. Vadas up to 1.5 times as big are a stated assumption.
 

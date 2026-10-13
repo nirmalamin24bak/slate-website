@@ -88,3 +88,11 @@ main.home-main > .demo-root { max-width:none; }
 @media (max-width: 461px) {
   .demo-root { min-height:calc((100vw - 40px) * 2.1185 + 735px); }
 }
+
+/* ---------- App Store badge and the dish pages' log link (nothing until the app has an id) ---------- */
+.app-badge { display:inline-flex; align-items:center; min-height:44px; min-width:44px; text-decoration:none; }
+.app-badge img { display:block; width:auto; height:40px; }
+.home-intro p.home-badge { margin-top:16px; text-align:left; }
+main .table-link { margin-top:12px; font-size:15px; }
+main .table-link a { display:inline-flex; align-items:center; min-height:44px; color:var(--ink); text-decoration:none; text-decoration-color:var(--hairline); }
+main .table-link a:hover { text-decoration:underline; }

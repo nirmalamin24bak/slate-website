@@ -14,7 +14,7 @@
         "चपाती",
         "રોટલી"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Roti calories: chapati sizes and roti with ghee",
       "description": "A medium roti made with 30 g of atta has about {{kcal:medium}} calories. Phulka, chapati and roti with ghee, worked out from IFCT 2017.",
       "answer": "One medium roti (about 30 g atta) has about {{kcal:medium}} calories, or about {{kcal:medium_ghee}} with a teaspoon of ghee.",
@@ -101,8 +101,47 @@
           "protein": 6,
           "carbs": 39,
           "fat": 1
+        },
+        {
+          "id": "two_ghee",
+          "label": "2 rotis with ghee",
+          "short": "2 with ghee",
+          "fraction": 0.6,
+          "combo": true,
+          "add": [
+            {
+              "id": "ghee",
+              "g": 10
+            }
+          ],
+          "cookedGrams": 80,
+          "kcal": 280,
+          "protein": 6,
+          "carbs": 39,
+          "fat": 11
         }
       ],
+      "meals": [
+        {
+          "id": "two_dal",
+          "label": "2 rotis and a katori of dal tadka",
+          "expr": "2*roti:medium+dal-tadka:k200",
+          "kcal": 305,
+          "protein": 10,
+          "carbs": 48,
+          "fat": 6
+        },
+        {
+          "id": "three_sabzi",
+          "label": "3 rotis and a katori of mixed veg",
+          "expr": "3*roti:medium+mixed-veg:k200",
+          "kcal": 435,
+          "protein": 13,
+          "carbs": 70,
+          "fat": 9
+        }
+      ],
+      "mealsCaption": "Rotis are medium, 30 g atta each; ghee is 1 teaspoon, 5 g, on each roti; a katori is 200 ml.",
       "outside": {
         "portionId": "medium",
         "label": "Dhaba or restaurant, with ghee",
@@ -170,6 +209,14 @@
         {
           "q": "Which has fewer calories, roti or rice?",
           "a": "Per usual serving they're close: 2 medium rotis are about {{kcal:two}} calories, and a 200 ml katori of plain rice is about {{kcal@plain-rice:k200}}. Per 100 g, roti has more, because it holds less water: about {{per100}} against about {{per100@plain-rice}} for cooked rice."
+        },
+        {
+          "q": "How many calories are in 2 roti and dal?",
+          "a": "About {{kcal:two_dal}} calories for 2 medium rotis and a 200 ml katori of [dal tadka](/calories/dal-tadka/), with about {{protein:two_dal}} g of protein."
+        },
+        {
+          "q": "How many calories are in 3 roti with sabzi?",
+          "a": "About {{kcal:three_sabzi}} calories with a 200 ml katori of [mixed veg](/calories/mixed-veg/). With a teaspoon of ghee on each, 2 rotis alone come to about {{kcal:two_ghee}}."
         }
       ],
       "related": [
@@ -257,7 +304,7 @@
         "भात",
         "ભાત"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Rice calories: per katori, plate and 100 g cooked",
       "description": "A 200 ml katori of plain cooked rice has about {{kcal:k200}} calories. White rice by katori, plate and 100 g, worked out from IFCT 2017.",
       "answer": "A 200 ml katori of plain cooked white rice (about {{g:k200}} g) has about {{kcal:k200}} calories.",
@@ -337,6 +384,45 @@
           "fat": 0
         }
       ],
+      "meals": [
+        {
+          "id": "dal_chawal",
+          "label": "Dal chawal (a katori of rice, a katori of dal tadka)",
+          "expr": "plain-rice:k200+dal-tadka:k200",
+          "kcal": 275,
+          "protein": 8,
+          "carbs": 45,
+          "fat": 6
+        },
+        {
+          "id": "rajma_chawal",
+          "label": "Rajma chawal (a katori of rice, a katori of rajma)",
+          "expr": "plain-rice:k200+rajma:k200",
+          "kcal": 370,
+          "protein": 12,
+          "carbs": 58,
+          "fat": 9
+        },
+        {
+          "id": "chole_chawal",
+          "label": "Chole chawal (a katori of rice, a katori of chole)",
+          "expr": "plain-rice:k200+chole:k200",
+          "kcal": 425,
+          "protein": 13,
+          "carbs": 61,
+          "fat": 12
+        },
+        {
+          "id": "kadhi_chawal",
+          "label": "Kadhi chawal (a katori of rice, a katori of kadhi)",
+          "expr": "plain-rice:k200+kadhi:k200",
+          "kcal": 260,
+          "protein": 7,
+          "carbs": 41,
+          "fat": 7
+        }
+      ],
+      "mealsCaption": "A 200 ml katori of rice with a 200 ml katori of the dal or curry.",
       "outside": {
         "portionId": "k200",
         "label": "Restaurant, finished with ghee",
@@ -402,6 +488,14 @@
         {
           "q": "Which has fewer calories, rice or roti?",
           "a": "Per usual serving they're close: a 200 ml katori of rice is about {{kcal:k200}} calories and 2 medium rotis are about {{kcal@roti:two}}. Per 100 g, rice has fewer because it holds more water."
+        },
+        {
+          "q": "How many calories are in dal chawal?",
+          "a": "A 200 ml katori of rice with a 200 ml katori of [dal tadka](/calories/dal-tadka/) comes to about {{kcal:dal_chawal}} calories. With the same rice, [rajma](/calories/rajma/) chawal is about {{kcal:rajma_chawal}} and [chole](/calories/chole/) chawal about {{kcal:chole_chawal}}."
+        },
+        {
+          "q": "How many calories are in kadhi chawal?",
+          "a": "About {{kcal:kadhi_chawal}} calories for a 200 ml katori of rice and a 200 ml katori of [kadhi](/calories/kadhi/)."
         }
       ],
       "related": [
@@ -511,7 +605,7 @@
         "अरहर दाल",
         "તુવેર દાળ"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Dal tadka calories: per katori of toor dal",
       "description": "A 200 ml katori of thin dal tadka has about {{kcal:k200}} calories; thick dal has up to about twice that. Toor dal with a ghee tadka, from IFCT 2017.",
       "answer": "A 200 ml katori of thin toor dal tadka has about {{kcal:k200}} calories. A thick dal can have close to twice that, because each katori holds more dal.",
@@ -616,6 +710,27 @@
           "fat": 11
         }
       ],
+      "meals": [
+        {
+          "id": "with_rice",
+          "label": "Dal tadka with rice (a katori of each)",
+          "expr": "dal-tadka:k200+plain-rice:k200",
+          "kcal": 275,
+          "protein": 8,
+          "carbs": 45,
+          "fat": 6
+        },
+        {
+          "id": "with_roti",
+          "label": "Dal tadka with 2 rotis",
+          "expr": "dal-tadka:k200+2*roti:medium",
+          "kcal": 305,
+          "protein": 10,
+          "carbs": 48,
+          "fat": 6
+        }
+      ],
+      "mealsCaption": "A 200 ml katori of each; rotis are medium, 30 g atta each.",
       "outside": {
         "portionId": "k200",
         "label": "Restaurant or dhaba",
@@ -673,6 +788,10 @@
         {
           "q": "Which has more calories, dal fry or dal tadka?",
           "a": "Usually dal fry, because the dal is cooked into an onion and tomato masala in ghee and is thicker. The dal is the same; the fat and the thickness are what change."
+        },
+        {
+          "q": "How many calories are in dal tadka with rice?",
+          "a": "About {{kcal:with_rice}} calories for a 200 ml katori of dal tadka with a 200 ml katori of [rice](/calories/plain-rice/). With 2 medium [rotis](/calories/roti/) instead, about {{kcal:with_roti}}, with about {{protein:with_roti}} g of protein."
         }
       ],
       "related": [
@@ -757,7 +876,7 @@
         "राजमा",
         "રાજમા"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Rajma calories: per katori and per bowl",
       "description": "A 200 ml katori of rajma curry has about {{kcal:k200}} calories and {{protein:k200}} g protein. Home rajma, worked out from IFCT 2017.",
       "answer": "A 200 ml katori of home rajma curry has about {{kcal:k200}} calories and about {{protein:k200}} g of protein.",
@@ -853,6 +972,27 @@
           "fat": 8
         }
       ],
+      "meals": [
+        {
+          "id": "with_rice",
+          "label": "Rajma with rice (a katori of each)",
+          "expr": "rajma:k200+plain-rice:k200",
+          "kcal": 370,
+          "protein": 12,
+          "carbs": 58,
+          "fat": 9
+        },
+        {
+          "id": "with_roti",
+          "label": "Rajma with 2 rotis",
+          "expr": "rajma:k200+2*roti:medium",
+          "kcal": 400,
+          "protein": 14,
+          "carbs": 61,
+          "fat": 9
+        }
+      ],
+      "mealsCaption": "A 200 ml katori of each; rotis are medium, 30 g atta each.",
       "outside": {
         "portionId": "k200",
         "label": "Dhaba or restaurant",
@@ -921,6 +1061,10 @@
         {
           "q": "Why is rajma soaked overnight?",
           "a": "Soaking softens the beans so they cook evenly. The beans take up water, which has no calories, so the total doesn't change."
+        },
+        {
+          "q": "How many calories are in rajma chawal?",
+          "a": "About {{kcal:with_rice}} calories for a 200 ml katori of rajma with a 200 ml katori of [rice](/calories/plain-rice/). With 2 medium [rotis](/calories/roti/) instead, about {{kcal:with_roti}}, with about {{protein:with_roti}} g of protein."
         }
       ],
       "related": [
@@ -1006,7 +1150,7 @@
         "पोहा",
         "પૌંઆ"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Poha calories: per bowl and per plate",
       "description": "A plate of poha made with 40 g of dry poha has about {{kcal:plate}} calories. Kanda and batata poha with peanuts, from IFCT 2017 and a textbook recipe.",
       "answer": "A plate of poha made with 40 g of dry poha, with potato and peanuts, has about {{kcal:plate}} calories.",
@@ -1089,6 +1233,18 @@
           "fat": 38
         }
       ],
+      "meals": [
+        {
+          "id": "plate_chai",
+          "label": "A plate of poha and a cup of chai",
+          "expr": "poha:plate+masala-chai:cup2",
+          "kcal": 375,
+          "protein": 8,
+          "carbs": 48,
+          "fat": 17
+        }
+      ],
+      "mealsCaption": "The plate is 40 g dry poha; chai is a cup with 2 teaspoons of sugar.",
       "outside": {
         "portionId": "plate",
         "label": "Stall or restaurant",
@@ -1151,6 +1307,10 @@
         {
           "q": "Which has fewer calories, poha or idli?",
           "a": "Per plate, idli is usually lower because it's steamed: 2 medium idlis are about {{kcal@idli:two}} calories, against about {{kcal:plate}} for a plate of poha. Toppings and chutney change both."
+        },
+        {
+          "q": "How many calories are in poha and chai?",
+          "a": "A plate of poha with a cup of [masala chai](/calories/masala-chai/) with 2 teaspoons of sugar comes to about {{kcal:plate_chai}} calories."
         }
       ],
       "related": [
@@ -1222,7 +1382,7 @@
         "इडली",
         "ઈડલી"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Idli calories: per idli, small to large",
       "description": "One medium idli has about {{kcal:medium}} calories, and 2 medium idlis about {{kcal:two}}. Rice and urad dal idli, worked out from IFCT 2017.",
       "answer": "One medium idli (about {{g:medium}} g) has about {{kcal:medium}} calories, so 2 medium idlis come to about {{kcal:two}}, before sambar and chutney.",
@@ -1308,6 +1468,27 @@
           "fat": 0
         }
       ],
+      "meals": [
+        {
+          "id": "two_sambar",
+          "label": "2 idlis with sambar",
+          "expr": "2*idli:medium+sambar:k200",
+          "kcal": 300,
+          "protein": 11,
+          "carbs": 44,
+          "fat": 9
+        },
+        {
+          "id": "four_sambar",
+          "label": "4 idlis with sambar",
+          "expr": "4*idli:medium+sambar:k200",
+          "kcal": 400,
+          "protein": 15,
+          "carbs": 66,
+          "fat": 9
+        }
+      ],
+      "mealsCaption": "Idlis are medium, 15 g rice and dal each; sambar is a 200 ml katori. Chutney is extra.",
       "outside": {
         "portionId": "two",
         "label": "Restaurant, with ghee",
@@ -1373,6 +1554,10 @@
         {
           "q": "Does idli have any fat?",
           "a": "Very little: there's no oil in the batter, so a plain idli has well under 1 g of fat. Fat comes from ghee, podi oil and coconut chutney."
+        },
+        {
+          "q": "How many calories are in 2 idli with sambar?",
+          "a": "About {{kcal:two_sambar}} calories: 2 medium idlis at {{kcal:two}} and a 200 ml katori of [sambar](/calories/sambar/). Four idlis with the same katori of sambar come to about {{kcal:four_sambar}}."
         }
       ],
       "related": [
@@ -1476,7 +1661,7 @@
         "मसाला डोसा",
         "મસાલા ઢોસા"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Masala dosa calories: home and restaurant",
       "description": "A home masala dosa has about {{kcal:tsp}} calories with a teaspoon of oil, or {{kcal:tbsp}} with a tablespoon. From IFCT 2017 and a textbook recipe.",
       "answer": "A home masala dosa has about {{kcal:tsp}} calories with a teaspoon of oil on the tawa, and about {{kcal:tbsp}} with a tablespoon.",
@@ -1600,6 +1785,18 @@
           "fat": 5
         }
       ],
+      "meals": [
+        {
+          "id": "with_sambar",
+          "label": "A masala dosa with sambar",
+          "expr": "masala-dosa:tsp+sambar:k200",
+          "kcal": 455,
+          "protein": 13,
+          "carbs": 61,
+          "fat": 17
+        }
+      ],
+      "mealsCaption": "Sambar is a 200 ml katori; the dosa has 1 teaspoon of oil on the tawa.",
       "outside": {
         "portionId": "tsp",
         "label": "Restaurant, butter or ghee",
@@ -1665,6 +1862,10 @@
         {
           "q": "How much protein is in a masala dosa?",
           "a": "A home masala dosa has about {{protein:tsp}} g of protein, mostly from the urad dal and rice."
+        },
+        {
+          "q": "How many calories are in masala dosa with sambar?",
+          "a": "About {{kcal:with_sambar}} calories for one masala dosa and a 200 ml katori of [sambar](/calories/sambar/)."
         }
       ],
       "related": [
@@ -2207,7 +2408,7 @@
         "મસાલા ચા",
         "ચા"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Masala chai calories: per cup, with and without sugar",
       "description": "A cup of masala chai with 50 ml toned milk and 2 tsp sugar has about {{kcal:cup2}} calories; without sugar, about {{kcal:cup0}}. Worked out per cup.",
       "answer": "A cup of masala chai made with 50 ml of toned milk and 2 teaspoons of sugar has about {{kcal:cup2}} calories. Without sugar it's about {{kcal:cup0}}.",
@@ -2315,8 +2516,45 @@
           "protein": 2,
           "carbs": 13,
           "fat": 3
+        },
+        {
+          "id": "cups2",
+          "label": "2 cups of chai, 2 tsp sugar each",
+          "short": "2 cups",
+          "fraction": 2,
+          "combo": true,
+          "add": [
+            {
+              "id": "sugar",
+              "g": 16.8
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 125,
+          "protein": 3,
+          "carbs": 22,
+          "fat": 3
+        },
+        {
+          "id": "cups3",
+          "label": "3 cups of chai, 2 tsp sugar each",
+          "short": "3 cups",
+          "fraction": 3,
+          "combo": true,
+          "add": [
+            {
+              "id": "sugar",
+              "g": 25.2
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 185,
+          "protein": 5,
+          "carbs": 32,
+          "fat": 5
         }
       ],
+      "mealsCaption": "Each cup has 2 teaspoons of sugar, 4.2 g a teaspoon.",
       "outside": {
         "portionId": "cup2",
         "label": "Tapri or station chai",
@@ -2389,6 +2627,10 @@
         {
           "q": "Does buffalo milk chai have more calories?",
           "a": "Yes. With 50 ml of buffalo milk and 2 teaspoons of sugar, a cup comes to about {{kcal:buffalo}}, because buffalo milk has about twice the fat of toned milk."
+        },
+        {
+          "q": "How many calories are in 2 cups of chai?",
+          "a": "About {{kcal:cups2}} calories with 2 teaspoons of sugar in each cup, and about {{kcal:cups3}} for 3 cups. Without sugar, a cup is about {{kcal:cup0}}."
         }
       ],
       "related": [
@@ -2442,7 +2684,8 @@
           "accessed": "2026-10-10"
         }
       ],
-      "per100gCooked": null
+      "per100gCooked": null,
+      "mealsHeading": "Calories in 2 or 3 cups of masala chai"
     },
     {
       "slug": "phulka",
@@ -2722,7 +2965,7 @@
         "परांठा",
         "પરોઠા"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Plain paratha calories: with oil, ghee or butter",
       "description": "A plain paratha made with 27 g of atta and 2 teaspoons of oil has about {{kcal:one}} calories. With ghee or butter on top, and dhaba sizes.",
       "answer": "One plain paratha (about 27 g atta, cooked with 2 teaspoons of oil) has about {{kcal:one}} calories. Most of the difference from a roti is the oil.",
@@ -2820,8 +3063,38 @@
           "protein": 6,
           "carbs": 35,
           "fat": 19
+        },
+        {
+          "id": "two_curd",
+          "label": "2 parathas with curd",
+          "short": "2 with curd",
+          "fraction": 0.6667,
+          "combo": true,
+          "add": [
+            {
+              "id": "curd",
+              "g": 100
+            }
+          ],
+          "cookedGrams": 99,
+          "kcal": 390,
+          "protein": 9,
+          "carbs": 39,
+          "fat": 22
         }
       ],
+      "meals": [
+        {
+          "id": "two_chai",
+          "label": "2 parathas and a cup of chai",
+          "expr": "plain-paratha:two+masala-chai:cup2",
+          "kcal": 390,
+          "protein": 8,
+          "carbs": 45,
+          "fat": 21
+        }
+      ],
+      "mealsCaption": "Curd is a 100 g katori; chai is a cup with 2 teaspoons of sugar.",
       "outside": {
         "portionId": "one",
         "label": "Dhaba or restaurant",
@@ -2878,6 +3151,10 @@
         {
           "q": "How much protein is in a paratha?",
           "a": "About {{protein:one}} g in one plain paratha. The rest is mostly carbohydrate and fat: about {{carbs:one}} g and {{fat:one}} g."
+        },
+        {
+          "q": "How many calories are in 2 parathas with curd?",
+          "a": "About {{kcal:two_curd}} calories for 2 parathas and a 100 g katori of curd. Two parathas with a cup of [masala chai](/calories/masala-chai/) with 2 teaspoons of sugar come to about {{kcal:two_chai}}."
         }
       ],
       "related": [
@@ -2967,7 +3244,7 @@
         "आलू का पराठा",
         "બટાકા પરોઠા"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Aloo paratha calories: homemade, with butter or curd",
       "description": "A homemade aloo paratha has about {{kcal:one}} calories, or {{kcal:one_butter}} with a teaspoon of butter. Worked out from a textbook recipe and IFCT 2017.",
       "answer": "One homemade aloo paratha (27 g atta, 27 g potato, 2 teaspoons of oil) has about {{kcal:one}} calories, or about {{kcal:one_butter}} with a teaspoon of butter on top.",
@@ -3088,8 +3365,79 @@
           "protein": 7,
           "carbs": 27,
           "fat": 13
+        },
+        {
+          "id": "two_curd",
+          "label": "2 aloo parathas with curd",
+          "short": "2 with curd",
+          "fraction": 0.6667,
+          "combo": true,
+          "add": [
+            {
+              "id": "curd",
+              "g": 100
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 440,
+          "protein": 10,
+          "carbs": 49,
+          "fat": 22
+        },
+        {
+          "id": "two_butter",
+          "label": "2 aloo parathas with butter",
+          "short": "2 with butter",
+          "fraction": 0.6667,
+          "combo": true,
+          "add": [
+            {
+              "id": "butter",
+              "g": 10
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 450,
+          "protein": 7,
+          "carbs": 44,
+          "fat": 27
+        },
+        {
+          "id": "one_curd_butter",
+          "label": "1 aloo paratha with curd and butter",
+          "short": "with curd and butter",
+          "fraction": 0.3333,
+          "combo": true,
+          "add": [
+            {
+              "id": "curd",
+              "g": 100
+            },
+            {
+              "id": "butter",
+              "g": 5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 285,
+          "protein": 7,
+          "carbs": 27,
+          "fat": 17
+        },
+        {
+          "id": "three",
+          "label": "3 aloo parathas",
+          "short": "3 aloo parathas",
+          "fraction": 1,
+          "combo": true,
+          "cookedGrams": null,
+          "kcal": 565,
+          "protein": 10,
+          "carbs": 66,
+          "fat": 29
         }
       ],
+      "mealsCaption": "Curd is a 100 g katori; butter is 1 teaspoon, 5 g, on each paratha.",
       "outside": {
         "portionId": "one",
         "label": "Dhaba or restaurant, with butter",
@@ -3156,6 +3504,14 @@
         {
           "q": "Which has more calories, aloo paratha or plain paratha?",
           "a": "The aloo paratha, by a little. Made from the same atta and oil, it's about {{kcal:one}} calories against about {{kcal@plain-paratha:one}} for a [plain paratha](/calories/plain-paratha/), because of the potato and onion."
+        },
+        {
+          "q": "How many calories are in 2 aloo parathas with curd?",
+          "a": "About {{kcal:two_curd}} calories: 2 parathas at {{kcal:two}} plus a 100 g katori of curd. With a teaspoon of butter on each instead of the curd, about {{kcal:two_butter}}."
+        },
+        {
+          "q": "How many calories are in 3 aloo parathas?",
+          "a": "About {{kcal:three}} calories, with about {{protein:three}} g of protein. One paratha with curd and a teaspoon of butter together is about {{kcal:one_curd_butter}}."
         }
       ],
       "related": [
@@ -3224,7 +3580,7 @@
         "થેપલા",
         "મેથીના થેપલા"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Thepla calories: methi thepla, 1 to 4 pieces",
       "description": "One methi thepla has about {{kcal:one}} calories, so 3 theplas come to about {{kcal:three}}. Worked out from a recipe in grams and IFCT 2017.",
       "answer": "One methi thepla (about 25 g of mixed flour, cooked with about 1 teaspoon of oil) has about {{kcal:one}} calories. Three theplas have about {{kcal:three}}.",
@@ -3366,6 +3722,18 @@
           "fat": 15
         }
       ],
+      "meals": [
+        {
+          "id": "two_chai",
+          "label": "2 theplas and a cup of chai",
+          "expr": "thepla:two+masala-chai:cup2",
+          "kcal": 305,
+          "protein": 8,
+          "carbs": 39,
+          "fat": 14
+        }
+      ],
+      "mealsCaption": "Curd is a 100 g katori; chai is a cup with 2 teaspoons of sugar.",
       "outside": {
         "portionId": "one",
         "label": "Farsan shop or packed",
@@ -3419,6 +3787,10 @@
         {
           "q": "Is thepla the same as paratha?",
           "a": "Both are cooked on the tawa with oil, but a thepla has methi, curd and spices in the dough and is rolled thin without layers. One thepla here is about {{kcal:one}} calories, against about {{kcal@plain-paratha:one}} for a [plain paratha](/calories/plain-paratha/)."
+        },
+        {
+          "q": "How many calories are in 2 theplas with chai?",
+          "a": "About {{kcal:two_chai}} calories: 2 theplas at {{kcal:two}} and a cup of [masala chai](/calories/masala-chai/) with 2 teaspoons of sugar. With a 100 g katori of curd instead, about {{kcal:two_curd}}."
         }
       ],
       "related": [
@@ -3482,7 +3854,7 @@
         "पूड़ी",
         "પૂરી"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Puri calories: per puri, 4 puris and puri bhaji",
       "description": "A home puri made with 13 g of atta has about {{kcal:one}} calories once fried; 4 puris have about {{kcal:four}}. Frying oil counted from lab data.",
       "answer": "One home puri (about 13 g atta, deep-fried) has about {{kcal:one}} calories. Four puris have about {{kcal:four}}, and a large 36 g puri about {{kcal:large}}.",
@@ -3575,6 +3947,18 @@
           "fat": 37
         }
       ],
+      "meals": [
+        {
+          "id": "four_sabzi",
+          "label": "4 puris with aloo sabzi",
+          "expr": "puri:four+aloo-sabzi:k200",
+          "kcal": 570,
+          "protein": 9,
+          "carbs": 55,
+          "fat": 35
+        }
+      ],
+      "mealsCaption": "Aloo sabzi is a 200 ml katori.",
       "outside": {
         "portionId": "one",
         "label": "Halwai or puri-bhaji stall",
@@ -3635,6 +4019,10 @@
         {
           "q": "Puri or bhatura, which has more calories?",
           "a": "A [bhatura](/calories/bhatura/) is bigger and made with maida, so one bhatura is about {{kcal@bhatura:one}} calories against about {{kcal:one}} for a puri."
+        },
+        {
+          "q": "How many calories are in 4 puri with aloo sabzi?",
+          "a": "About {{kcal:four_sabzi}} calories: 4 puris at {{kcal:four}} and a 200 ml katori of [aloo sabzi](/calories/aloo-sabzi/)."
         }
       ],
       "related": [
@@ -3725,7 +4113,7 @@
         "भटूरे",
         "છોલે ભટુરે"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Bhatura calories: one bhatura, measured street sizes",
       "description": "A home bhatura made with 27 g of maida has about {{kcal:one}} calories once fried. Street bhaturas tested in a lab came to about {{outLo}} to {{outHi}}.",
       "answer": "One bhatura (about 27 g maida, deep-fried) has about {{kcal:one}} calories. With a 200 ml katori of chole, the plate is more again.",
@@ -3811,6 +4199,18 @@
           "fat": 30
         }
       ],
+      "meals": [
+        {
+          "id": "two_chole",
+          "label": "2 bhature with chole",
+          "expr": "bhatura:two+chole:k200",
+          "kcal": 635,
+          "protein": 15,
+          "carbs": 67,
+          "fat": 32
+        }
+      ],
+      "mealsCaption": "Chole is a 200 ml katori.",
       "outside": {
         "portionId": "one",
         "label": "Street stall (measured)",
@@ -3863,6 +4263,10 @@
         {
           "q": "How much fat is in a bhatura?",
           "a": "About {{fat:one}} g in this home bhatura. Street bhaturas tested in a lab held between 3.3 g and 10.2 g, depending on size and the oil."
+        },
+        {
+          "q": "How many calories are in chole bhature?",
+          "a": "Two bhature with a 200 ml katori of [chole](/calories/chole/) come to about {{kcal:two_chole}} calories, with about {{protein:two_chole}} g of protein."
         }
       ],
       "related": [
@@ -4413,7 +4817,7 @@
         "ದೋಸೆ",
         "தோசை"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Plain dosa calories: with or without oil, by size",
       "description": "A plain dosa has about {{kcal:one}} calories with ¾ teaspoon of oil, and about {{kcal:dry}} without. Sizes, ghee and restaurant dosas compared.",
       "answer": "One plain dosa (about 33 g of rice and urad dal, cooked with ¾ teaspoon of oil) has about {{kcal:one}} calories, or about {{kcal:dry}} on a non-stick tawa with no oil.",
@@ -4528,6 +4932,18 @@
           "fat": 7
         }
       ],
+      "meals": [
+        {
+          "id": "with_sambar",
+          "label": "A dosa with sambar",
+          "expr": "plain-dosa:one+sambar:k200",
+          "kcal": 345,
+          "protein": 11,
+          "carbs": 45,
+          "fat": 13
+        }
+      ],
+      "mealsCaption": "Sambar is a 200 ml katori; the dosa is made with ¾ teaspoon of oil.",
       "outside": {
         "portionId": "one",
         "label": "Restaurant or paper dosa",
@@ -4597,6 +5013,10 @@
         {
           "q": "How much protein is in a plain dosa?",
           "a": "About {{protein:one}} g, from the rice and urad dal. Sambar adds a few grams more."
+        },
+        {
+          "q": "How many calories are in dosa with sambar?",
+          "a": "About {{kcal:with_sambar}} calories for one dosa and a 200 ml katori of [sambar](/calories/sambar/), with about {{protein:with_sambar}} g of protein."
         }
       ],
       "related": [
@@ -4683,7 +5103,7 @@
         "ಉತ್ತಪ್ಪ",
         "ஊத்தப்பம்"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Uttapam calories: onion tomato uttapam, home and restaurant",
       "description": "An onion tomato uttapam has about {{kcal:one}} calories, with the oil from the tawa counted. Restaurant uttapams, ghee and mini uttapams compared.",
       "answer": "One onion tomato uttapam (about 40 g of rice and urad dal, cooked with 1½ teaspoons of oil) has about {{kcal:one}} calories.",
@@ -4786,6 +5206,18 @@
           "fat": 14
         }
       ],
+      "meals": [
+        {
+          "id": "with_sambar",
+          "label": "An uttapam with sambar",
+          "expr": "uttapam:one+sambar:k200",
+          "kcal": 415,
+          "protein": 12,
+          "carbs": 54,
+          "fat": 16
+        }
+      ],
+      "mealsCaption": "Sambar is a 200 ml katori.",
       "outside": {
         "portionId": "one",
         "label": "Udupi restaurant",
@@ -4852,6 +5284,10 @@
         {
           "q": "Is uttapam batter the same as dosa batter?",
           "a": "Very close. Many homes use leftover dosa batter for uttapam, often after it's turned a little sour. The calories per gram of batter are about the same."
+        },
+        {
+          "q": "How many calories are in uttapam with sambar?",
+          "a": "About {{kcal:with_sambar}} calories for one uttapam and a 200 ml katori of [sambar](/calories/sambar/)."
         }
       ],
       "related": [
@@ -4924,7 +5360,7 @@
         "दाल फ्राई",
         "દાળ ફ્રાય"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Dal fry calories: per katori, home and dhaba",
       "description": "A 200 ml katori of dal fry has about {{kcal:k200}} calories, with 10 g of ghee in the pot. Dhaba dal fry and dal fry vs dal tadka compared.",
       "answer": "A 200 ml katori of home dal fry has about {{kcal:k200}} calories. It's thicker than everyday dal tadka and cooked into an onion and tomato masala, so a katori holds more dal.",
@@ -5036,6 +5472,27 @@
           "fat": 11
         }
       ],
+      "meals": [
+        {
+          "id": "with_rice",
+          "label": "Dal fry with rice (a katori of each)",
+          "expr": "dal-fry:k200+plain-rice:k200",
+          "kcal": 340,
+          "protein": 10,
+          "carbs": 52,
+          "fat": 9
+        },
+        {
+          "id": "with_roti",
+          "label": "Dal fry with 2 rotis",
+          "expr": "dal-fry:k200+2*roti:medium",
+          "kcal": 370,
+          "protein": 12,
+          "carbs": 55,
+          "fat": 9
+        }
+      ],
+      "mealsCaption": "A 200 ml katori of each; rotis are medium, 30 g atta each.",
       "outside": {
         "portionId": "k200",
         "label": "Dhaba or restaurant",
@@ -5096,6 +5553,10 @@
         {
           "q": "How many calories are in dal fry and rice?",
           "a": "A 200 ml katori of dal fry is about {{kcal:k200}}, and a 200 ml katori of [plain rice](/calories/plain-rice/) about {{kcal@plain-rice:k200}}."
+        },
+        {
+          "q": "How many calories are in dal fry with rice?",
+          "a": "About {{kcal:with_rice}} calories for a 200 ml katori of dal fry with a 200 ml katori of [rice](/calories/plain-rice/). With 2 medium [rotis](/calories/roti/) instead, about {{kcal:with_roti}}, with about {{protein:with_roti}} g of protein."
         }
       ],
       "related": [
@@ -6250,7 +6711,7 @@
         "છોલે",
         "છોલે ચણા"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Chole calories: per katori, per 100 g and with bhature",
       "description": "A 200 ml katori of home chole has about {{kcal:k200}} calories, made from 40 g of dry kabuli chana. Chole bhature and restaurant chole compared.",
       "answer": "A 200 ml katori of home chole has about {{kcal:k200}} calories. A bhatura on the side adds about {{kcal@bhatura:one}}.",
@@ -6373,6 +6834,27 @@
           "fat": 6
         }
       ],
+      "meals": [
+        {
+          "id": "with_rice",
+          "label": "Chole with rice (a katori of each)",
+          "expr": "chole:k200+plain-rice:k200",
+          "kcal": 425,
+          "protein": 13,
+          "carbs": 61,
+          "fat": 12
+        },
+        {
+          "id": "with_roti",
+          "label": "Chole with 2 rotis",
+          "expr": "chole:k200+2*roti:medium",
+          "kcal": 455,
+          "protein": 15,
+          "carbs": 64,
+          "fat": 12
+        }
+      ],
+      "mealsCaption": "A 200 ml katori of each; rotis are medium, 30 g atta each.",
       "outside": {
         "portionId": "k200",
         "label": "Chole bhature stall or restaurant",
@@ -6429,6 +6911,10 @@
         {
           "q": "Which has more calories, chole or rajma?",
           "a": "Chole, per katori here: about {{kcal:k200}} against about {{kcal@rajma:k200}} for [rajma](/calories/rajma/). Kabuli chana has more fat than rajma, and this chole is thicker."
+        },
+        {
+          "q": "How many calories are in chole with rice?",
+          "a": "About {{kcal:with_rice}} calories for a 200 ml katori of chole with a 200 ml katori of [rice](/calories/plain-rice/). With 2 medium [rotis](/calories/roti/) instead, about {{kcal:with_roti}}, with about {{protein:with_roti}} g of protein."
         }
       ],
       "related": [
@@ -6515,7 +7001,7 @@
         "कढ़ी पकोड़ा",
         "કઢી"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Kadhi calories: with and without pakora, per katori",
       "description": "A 200 ml katori of kadhi without pakoras has about {{kcal:k200}} calories. A bowl with its share of fried pakoras is about {{kcal:bowl_pakora}}.",
       "answer": "A 200 ml katori of kadhi without pakoras has about {{kcal:k200}} calories. A bowl of kadhi pakora, with its share of fried besan pakoras, has about {{kcal:bowl_pakora}}.",
@@ -6649,6 +7135,27 @@
           "fat": 29
         }
       ],
+      "meals": [
+        {
+          "id": "with_rice",
+          "label": "Kadhi with rice (a katori of each)",
+          "expr": "kadhi:k200+plain-rice:k200",
+          "kcal": 260,
+          "protein": 7,
+          "carbs": 41,
+          "fat": 7
+        },
+        {
+          "id": "with_roti",
+          "label": "Kadhi with 2 rotis",
+          "expr": "kadhi:k200+2*roti:medium",
+          "kcal": 290,
+          "protein": 9,
+          "carbs": 44,
+          "fat": 7
+        }
+      ],
+      "mealsCaption": "A 200 ml katori of each; rotis are medium, 30 g atta each.",
       "outside": {
         "portionId": "bowl_pakora",
         "label": "Dhaba kadhi pakora",
@@ -6701,6 +7208,10 @@
         {
           "q": "How much protein is in kadhi?",
           "a": "About {{protein:bowl}} g in a bowl without pakoras, from the curd and besan, and about {{protein:bowl_pakora}} g with them."
+        },
+        {
+          "q": "How many calories are in kadhi chawal?",
+          "a": "About {{kcal:with_rice}} calories for a 200 ml katori of kadhi with a 200 ml katori of [rice](/calories/plain-rice/). With 2 medium [rotis](/calories/roti/) instead, about {{kcal:with_roti}}, with about {{protein:with_roti}} g of protein."
         }
       ],
       "related": [
@@ -9387,7 +9898,7 @@
         "वेज बिरयानी",
         "વેજ બિરયાની"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Veg biryani calories: per plate, 250 g and 500 g",
       "description": "A plate of home veg biryani has about {{kcal:plate}} calories; 250 g is about {{kcal:g250}}. From a textbook recipe, with restaurant plates compared.",
       "answer": "A plate of veg biryani (50 g of raw rice with vegetables, about 395 g cooked) has about {{kcal:plate}} calories. 250 g is about {{kcal:g250}}.",
@@ -9529,8 +10040,21 @@
           "protein": 12,
           "carbs": 69,
           "fat": 36
+        },
+        {
+          "id": "half_plate",
+          "label": "Half a plate of veg biryani",
+          "short": "half a plate",
+          "fraction": 0.25,
+          "combo": true,
+          "cookedGrams": 198,
+          "kcal": 260,
+          "protein": 5,
+          "carbs": 27,
+          "fat": 14
         }
       ],
+      "mealsCaption": "A plate is half the recipe; half a plate is a quarter of it.",
       "outside": {
         "portionId": "plate",
         "label": "Restaurant or delivery",
@@ -9587,6 +10111,10 @@
         {
           "q": "Which has more calories, veg biryani or chicken biryani?",
           "a": "It depends on the oil more than the chicken. In these two textbook recipes the veg biryani uses far more oil, so a plate is about {{kcal:plate}} against about {{kcal@chicken-biryani:plate}} for [chicken biryani](/calories/chicken-biryani/)."
+        },
+        {
+          "q": "How many calories are in half a plate of veg biryani?",
+          "a": "About {{kcal:half_plate}} calories, with about {{protein:half_plate}} g of protein. A full plate is about {{kcal:plate}}."
         }
       ],
       "related": [
@@ -9666,7 +10194,7 @@
         "चिकन बिरयानी",
         "ચિકન બિરયાની"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Chicken biryani calories: per plate, 250 g and 500 g",
       "description": "A home plate of chicken biryani has about {{kcal:plate}} calories; 500 g is about {{kcal:g500}}. A restaurant plate is about {{outLo}} to {{outHi}}.",
       "answer": "A home plate of chicken biryani (50 g raw rice and 50 g chicken, about 305 g cooked) has about {{kcal:plate}} calories. A restaurant plate is often {{outLo}} to {{outHi}}.",
@@ -9793,8 +10321,21 @@
           "protein": 27,
           "carbs": 75,
           "fat": 24
+        },
+        {
+          "id": "half_plate",
+          "label": "Half a plate of chicken biryani",
+          "short": "half a plate",
+          "fraction": 0.25,
+          "combo": true,
+          "cookedGrams": 152,
+          "kcal": 190,
+          "protein": 8,
+          "carbs": 23,
+          "fat": 7
         }
       ],
+      "mealsCaption": "A plate is half the recipe; half a plate is a quarter of it.",
       "outside": {
         "portionId": "plate",
         "label": "Restaurant or delivery",
@@ -9851,6 +10392,10 @@
         {
           "q": "How many calories are in 100 g of chicken biryani?",
           "a": "About {{kcal:g100}} for this home version. USDA's survey values run from 104 to 145."
+        },
+        {
+          "q": "How many calories are in half a plate of chicken biryani?",
+          "a": "About {{kcal:half_plate}} calories, with about {{protein:half_plate}} g of protein. A full plate is about {{kcal:plate}}."
         }
       ],
       "related": [
@@ -11649,7 +12194,7 @@
         "ઉપમા",
         "ಉಪ್ಪಿಟ್ಟು"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Upma calories: per plate, katori and 100 g",
       "description": "A plate of rava upma made from 40 g of semolina has about {{kcal:plate}} calories; a 200 ml katori about {{kcal:k200}}. With vegetables and ghee.",
       "answer": "A plate of rava upma made from 40 g of semolina has about {{kcal:plate}} calories. A 200 ml katori is about {{kcal:k200}}.",
@@ -11773,6 +12318,18 @@
           "fat": 8
         }
       ],
+      "meals": [
+        {
+          "id": "plate_chai",
+          "label": "A plate of upma and a cup of chai",
+          "expr": "upma:plate+masala-chai:cup2",
+          "kcal": 370,
+          "protein": 9,
+          "carbs": 45,
+          "fat": 18
+        }
+      ],
+      "mealsCaption": "The plate is 40 g rava; chai is a cup with 2 teaspoons of sugar.",
       "outside": {
         "portionId": "plate",
         "label": "Darshini or Udupi restaurant",
@@ -11842,6 +12399,10 @@
         {
           "q": "Which has more calories, upma or idli?",
           "a": "Upma, per plate, because of the oil. Two medium [idlis](/calories/idli/) are about {{kcal@idli:two}}, before sambar and chutney."
+        },
+        {
+          "q": "How many calories are in upma and chai?",
+          "a": "A plate of upma with a cup of [masala chai](/calories/masala-chai/) with 2 teaspoons of sugar comes to about {{kcal:plate_chai}} calories."
         }
       ],
       "related": [
@@ -12436,7 +12997,7 @@
         "मेदु वडा",
         "મેદુ વડા"
       ],
-      "updated": "2026-10-13",
+      "updated": "2026-10-14",
       "title": "Medu vada calories: 1, 2 or 4 vadas",
       "description": "One medu vada has about {{kcal:one}} calories, so 2 vadas have about {{kcal:two}}, matching ICMR-NIN's figure. With sambar and chutney.",
       "answer": "One medu vada (15 g of urad dal, deep-fried) has about {{kcal:one}} calories. Two vadas, a usual plate, have about {{kcal:two}}, before sambar and chutney.",
@@ -12513,6 +13074,18 @@
           "fat": 10
         }
       ],
+      "meals": [
+        {
+          "id": "two_sambar",
+          "label": "2 medu vadas with sambar",
+          "expr": "medu-vada:two+sambar:k200",
+          "kcal": 340,
+          "protein": 14,
+          "carbs": 37,
+          "fat": 14
+        }
+      ],
+      "mealsCaption": "Sambar is a 200 ml katori.",
       "outside": {
         "portionId": "two",
         "label": "Udupi restaurant or stall",
@@ -12565,6 +13138,10 @@
         {
           "q": "Which has more calories, medu vada or idli?",
           "a": "A vada, a little: about {{kcal:one}} against about {{kcal@idli:medium}} for a medium [idli](/calories/idli/). The vada is fried; the idli is steamed."
+        },
+        {
+          "q": "How many calories are in 2 medu vada with sambar?",
+          "a": "About {{kcal:two_sambar}} calories: 2 vadas at {{kcal:two}} and a 200 ml katori of [sambar](/calories/sambar/)."
         }
       ],
       "related": [

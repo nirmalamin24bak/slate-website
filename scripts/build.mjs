@@ -18,7 +18,7 @@ const CSS_VERSION = 3;
 // assets/demo/demo.css (the tokens) and assets/pages.css (every page's frame and light look). Bump with the file;
 // the hand-written pages (index, privacy, terms, support, 404) carry the same numbers.
 const DEMO_CSS_VERSION = 1;
-const PAGES_CSS_VERSION = 4;
+const PAGES_CSS_VERSION = 5;
 const RANGE_LIMIT = 0.15; // sources further apart than this must show a range
 
 const read = (p) => JSON.parse(readFileSync(join(ROOT, p), "utf8"));
@@ -143,15 +143,32 @@ const fmt = (n) => n.toLocaleString("en-IN");
 //   {{per100}} {{outLo}} {{outHi}} {{yield}}                    this dish
 //   {{ing:id}}                                                  kcal per 100 g of an ingredient
 //   {{sum:2*roti:medium+dal-tadka:k200}}                        total kcal of several portions, rounded to 5
-function sumToken(food, expr) {
-  let total = 0;
+// A portion id in a token may also name one of the dish's meals (food.meals, below), which carry the same four numbers.
+const portionOrMeal = (f, id) => f.portions.find((x) => x.id === id) || (f.meals || []).find((x) => x.id === id);
+
+// Adds up portions of several dishes, "2*roti:medium+dal-tadka:k200", from their already rounded page values,
+// so a meal's number is the sum of the numbers the reader sees. Calories rounded to 5 like every portion.
+function sumPortions(food, expr) {
+  const total = zero();
   for (const term of expr.split("+")) {
     const [, n, slug, id] = term.trim().match(/^(?:(\d+(?:\.\d+)?)\*)?([\w-]+):([\w-]+)$/) || [];
-    const p = foods.find((f) => f.slug === slug)?.portions.find((x) => x.id === id);
+    const f = foods.find((x) => x.slug === slug);
+    const p = f && f.portions.find((x) => x.id === id);
     if (!p || p.kcal == null) throw new Error(`${food.slug}: sum term "${term}" not found`);
-    total += (n ? Number(n) : 1) * p.kcal;
+    if (p.combo) throw new Error(`${food.slug}: sum term "${term}" is itself a combo`);
+    add(total, p, n ? Number(n) : 1);
   }
-  return fmt(r5(total));
+  return rounded(total);
+}
+const sumToken = (food, expr) => fmt(sumPortions(food, expr).kcal);
+
+// Cross-dish meals ("2 rotis and a katori of dal") on a dish's page: { id, label, expr }, worked out after every
+// dish's portions, and stored in data/foods.json like the portions' numbers.
+function computeMeals(food) {
+  for (const m of food.meals || []) {
+    if (food.portions.some((p) => p.id === m.id)) throw new Error(`${food.slug}: meal "${m.id}" clashes with a portion id`);
+    Object.assign(m, sumPortions(food, m.expr));
+  }
 }
 
 function fill(food, text) {
@@ -168,8 +185,9 @@ function fill(food, text) {
       return fmt(f.per100gCooked.kcal);
     }
     if (key === "yield") return fmt(f.recipe.cookedYieldG);
-    const p = f.portions.find((x) => x.id === id);
-    if (!p) throw new Error(`${food.slug}: token ${m} has no portion "${id}"`);
+    const p = portionOrMeal(f, id);
+    if (!p) throw new Error(`${food.slug}: token ${m} has no portion or meal "${id}"`);
+    if (p.kcal == null) throw new Error(`${food.slug}: token ${m} used before "${f.slug}" meals were computed`);
     if (key === "g") return fmt(p.cookedGrams);
     if (NUTRIENTS.includes(key)) return fmt(p[key]);
     throw new Error(`${food.slug}: unknown token ${m}`);
@@ -192,7 +210,7 @@ function head({ title, description, path, jsonld, scripts = [], ogType = "websit
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${esc(title)}</title>
+${appMeta()}<title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
 <link rel="canonical" href="${url}">
 <meta property="og:type" content="${ogType}">
@@ -282,14 +300,47 @@ function breadcrumbLd(trail) {
   };
 }
 
-// Nothing until launch (no "Coming soon"); once data/site.json has the App Store URL, every page gets the link.
-function cta() {
-  if (!site.cta.appStoreUrl) return "";
+// ---------- App Store links ----------
+// Nothing until launch (no "Coming soon"). Once data/site.json has the app's id (and the App Store Connect provider
+// token for campaign links) or a plain App Store URL, every page gets the link. ct names the part of the site the
+// tap came from (site-home, site-cal-dish, site-cal-hub, site-for, site-compare, site-blog ...), at most 30 characters.
+function storeUrl(ct) {
+  const { appId, providerToken, appStoreUrl } = site.cta;
+  if (ct.length > 30) throw new Error(`campaign token "${ct}" is over 30 characters`);
+  if (appId && providerToken) return `https://apps.apple.com/app/apple-store/id${appId}?pt=${providerToken}&ct=${ct}&mt=8`;
+  return appStoreUrl || "";
+}
+// The App Store link without a campaign, for llms.txt and JSON-LD.
+const plainStoreUrl = () => site.cta.appStoreUrl || (site.cta.appId ? `https://apps.apple.com/app/id${site.cta.appId}` : "");
+// Smart App Banner on Safari, once the app has an id.
+const appMeta = () => (site.cta.appId ? `<meta name="apple-itunes-app" content="app-id=${esc(site.cta.appId)}">\n` : "");
+
+const badge = (href) => `<a class="app-badge" href="${esc(href)}"><img src="/assets/app-store-badge.svg" alt="Download on the App Store" width="120" height="40"></a>`;
+
+// The line a dish page uses as its example: its first combo or meal, else its headline portion without any bracketed note.
+function dishExample(food) {
+  const first = food.portions.find((p) => p.combo) || (food.meals || [])[0];
+  const label = (first ? first.label : food.portions.find((p) => p.id === food.headlinePortion).label.replace(/,.*$/, "")).replace(/\s*\([^)]*\)/g, "");
+  // "1 katori" or "1 glass" needs the dish's name after it; "1 medium roti" doesn't.
+  const lower = label.toLowerCase();
+  return lower.includes(food.nameLower) || lower.includes(food.nameLower.split(" ").pop()) ? label : `${label} of ${food.nameLower}`;
+}
+
+function cta(ct, food) {
+  const href = storeUrl(food?.campaignToken || ct);
+  if (!href) return "";
+  const line = food ? site.cta.dishLine.replace("{example}", dishExample(food)) : site.cta.line;
   return `
     <div class="page-cta">
-      <p class="cta-line">${esc(site.cta.line)}</p>
-      <div class="actions"><a class="btn" href="${esc(site.cta.appStoreUrl)}">Download on the App Store</a></div>
+      <p class="cta-line">${esc(line)}</p>
+      <div class="actions">${badge(href)}</div>
     </div>`;
+}
+
+// One line under a dish's portions table.
+function tableLink(ct, food) {
+  const href = storeUrl(food.campaignToken || ct);
+  return href ? `\n      <p class="table-link"><a href="${esc(href)}">${esc(site.cta.tableLink)} →</a></p>` : "";
 }
 
 // Content pages (/for/, /compare/, /blog/) come from data/pages.json when it exists.
@@ -318,6 +369,20 @@ function nutriTable(food, rows, caption) {
 <tbody>
 ${body}
 </tbody></table></div>`;
+}
+
+// Combos (portions of this dish with something on the side) and meals (this dish with other dishes), the way people
+// search: "2 aloo paratha with curd". Only on dishes that have any.
+function mealsSection(food) {
+  const rows = [...food.portions.filter((p) => p.combo), ...(food.meals || [])];
+  if (!rows.length) return "";
+  if (!food.mealsCaption) throw new Error(`${food.slug}: combos or meals need a mealsCaption naming the add-on sizes`);
+  return `
+    <section aria-labelledby="meals">
+      <h2 id="meals">${esc(food.mealsHeading || `Calories in ${food.nameLower} as a meal`)}</h2>
+      ${nutriTable(food, rows, food.mealsCaption)}
+    </section>
+`;
 }
 
 function methodSection(food, calc) {
@@ -382,7 +447,7 @@ function foodPage(food, calc) {
 
     <section aria-labelledby="portions">
       <h2 id="portions">How many calories are in ${esc(food.nameLower)}?</h2>
-      ${nutriTable(food, food.portions, food.portionsCaption)}
+      ${nutriTable(food, food.portions.filter((p) => !p.combo), food.portionsCaption)}${tableLink("site-cal-dish", food)}
     </section>
 
     <section aria-labelledby="outside">
@@ -397,6 +462,7 @@ function foodPage(food, calc) {
 </tbody></table></div>
     </section>
 
+${mealsSection(food)}
     <section aria-labelledby="changes">
       <h2 id="changes">What changes the calories in ${esc(food.nameLower)}?</h2>
       <ul>
@@ -418,7 +484,7 @@ ${food.faq.map((f) => `      <details><summary>${inline(food, f.q)}</summary><p 
         ${related.join("\n        ")}
       </ul>
     </section>
-${cta()}
+${cta("site-cal-dish", food)}
   </div>
 </main>
 `;
@@ -469,7 +535,7 @@ ${lis}
     </div>
     <p class="hub-empty mute" id="hub-empty" hidden>Nothing here by that name yet.</p>
 ${groups}
-${cta()}
+${cta("site-cal-hub")}
   </div>
 </main>
 `;
@@ -577,7 +643,7 @@ function contentPage(section, page) {
 ${sections}
 ${faq.html}
 ${related}${footnote}
-${cta()}
+${cta(`site-${section.id}`)}
   </div>
 </main>
 `;
@@ -608,7 +674,7 @@ function contentHub(section) {
 ${items}
       </ul>
     </section>
-${h.footnote ? `    <p class="note mute">${prose(path, h.footnote)}</p>\n` : ""}${cta()}
+${h.footnote ? `    <p class="note mute">${prose(path, h.footnote)}</p>\n` : ""}${cta(`site-${section.id}`)}
   </div>
 </main>
 `;
@@ -648,7 +714,7 @@ function infoPage(page) {
     <p class="meta-line mute">Updated ${longDate(page.updated)}.</p>
     <p class="answer-first">${prose(path, page.lede)}</p>
 ${sections}
-${cta()}
+${cta(page.slug === "how-slate-counts" ? "site-method" : `site-${page.slug}`)}
   </div>
 </main>
 `;
@@ -679,6 +745,10 @@ function researchLog(list, results, { title, dataFile, pages }) {
     for (const p of food.portions) {
       const extra = (p.add || []).map((a) => ` + ${a.g} g ${ingredients[a.id].name}`).join("");
       md += `- ${p.label}: ${p.cookedGrams == null ? `${p.fraction} of the recipe` : `${p.cookedGrams} g cooked`}${extra} = ${p.kcal} kcal, P ${p.protein} g, C ${p.carbs} g, F ${p.fat} g\n`;
+    }
+    if (food.meals?.length) {
+      md += `\nMeals (sums of the page values of each dish's portion, calories rounded to 5):\n\n`;
+      for (const m of food.meals) md += `- ${m.label}: ${m.expr} = ${m.kcal} kcal, P ${m.protein} g, C ${m.carbs} g, F ${m.fat} g\n`;
     }
     if (food.outside) {
       const o = food.outside;
@@ -727,7 +797,7 @@ function writeLlms() {
 
 > Slate is a calorie journal for iPhone, built for India, by Sonal Systems Private Limited (Vadodara, Gujarat). You type what you ate the way you'd say it, in English, Hinglish or Gujarati spellings ("2 roti aur ek katori dal"), and Slate puts a number next to it. No login. Data stored in Mumbai, India. Not related to Slate magazine (slate.com) or other products named Slate.
 
-Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year (7 days free on yearly), and adds voice and photo logging, delivery orders, chat and more. iPhone only, iOS 18 or later. Coming soon to the App Store.
+Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year in India (7 days free on yearly), $4.99 a month or $34.99 a year in the US, and £4.99 a month or £34.99 a year in the UK. It adds voice and photo logging, delivery orders, chat and more. iPhone only, iOS 18 or later. ${plainStoreUrl() ? `On the App Store: ${plainStoreUrl()}` : "Coming soon to the App Store."}
 
 ## Key pages
 
@@ -764,10 +834,37 @@ function syncFooters() {
   }
 }
 
+// ---------- Launch details on hand-written pages ----------
+// The hand-written pages (home, privacy, terms, support, 404) get the Smart App Banner meta, and the home gets the
+// App Store badge under its intro and the download links in its JSON-LD, only while data/site.json has the app's id.
+// With no id they are left exactly as they are.
+function syncLaunchMeta() {
+  const meta = appMeta();
+  const home = storeUrl("site-home");
+  for (const file of ["index.html", "privacy/index.html", "terms/index.html", "support/index.html", "404.html"]) {
+    const html = readFileSync(join(ROOT, file), "utf8");
+    let next = html.replace(/<meta name="apple-itunes-app" content="[^"]*">\n/, "");
+    if (meta) next = next.replace(/(<meta name="viewport"[^>]*>\n)/, `$1${meta}`);
+    if (file === "index.html") {
+      next = next.replace(/\n    <!-- badge -->[\s\S]*?<!-- \/badge -->/, "");
+      if (home) next = next.replace(/(\n  <\/section>\n  <div id="root")/, `\n    <!-- badge -->\n    <p class="home-badge">${badge(home)}</p>\n    <!-- /badge -->$1`);
+      next = next.replace(/(<script type="application\/ld\+json">)([\s\S]*?)(<\/script>)/, (m, open, json, close) => {
+        const data = JSON.parse(json);
+        const app = data["@graph"].find((n) => n["@type"] === "MobileApplication");
+        delete app.downloadUrl; delete app.installUrl;
+        if (plainStoreUrl()) { app.downloadUrl = plainStoreUrl(); app.installUrl = plainStoreUrl(); }
+        return open + JSON.stringify(data) + close;
+      });
+    }
+    if (next !== html) write(file, next);
+  }
+}
+
 // ---------- Run ----------
 
 const results = {};
 for (const food of foods) results[food.slug] = computeFood(food);
+for (const food of foods) computeMeals(food);
 for (const food of foods) write(`calories/${food.slug}/index.html`, foodPage(food, results[food.slug]));
 write("calories/index.html", hubPage());
 let contentCount = 0;
@@ -787,4 +884,5 @@ if (appFoodsFile) {
 updateSitemap();
 writeLlms();
 syncFooters();
+syncLaunchMeta();
 console.log(`Built ${foods.length} food pages and the hub, and ${contentCount} content pages in ${contentSections.length} sections.`);
