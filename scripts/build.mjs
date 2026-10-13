@@ -11,6 +11,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { createHash } from "node:crypto";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const SITE = "https://writeonslate.com";
@@ -18,8 +19,12 @@ const CSS_VERSION = 3;
 // assets/demo/demo.css (the tokens) and assets/pages.css (every page's frame and light look). Bump with the file;
 // the hand-written pages (index, privacy, terms, support, 404) carry the same numbers.
 const DEMO_CSS_VERSION = 1;
-const PAGES_CSS_VERSION = 5;
+const PAGES_CSS_VERSION = 6;
 const RANGE_LIMIT = 0.15; // sources further apart than this must show a range
+// The meal calculator (/calories/calculator/): its page copy's date for the sitemap, and the katori size it assumes.
+const CALC_PATH = "/calories/calculator/";
+const CALC_UPDATED = "2026-10-14";
+const CALC_KATORI_ML = 200;
 
 const read = (p) => JSON.parse(readFileSync(join(ROOT, p), "utf8"));
 const write = (p, s) => {
@@ -236,7 +241,7 @@ ${appMeta()}<title>${esc(title)}</title>
 <link rel="stylesheet" href="/assets/demo/demo.css?v=${DEMO_CSS_VERSION}">
 <link rel="stylesheet" href="/assets/style.css?v=${CSS_VERSION}">
 <link rel="stylesheet" href="/assets/pages.css?v=${PAGES_CSS_VERSION}">
-${scripts.map((s) => `<script src="${s}" defer></script>\n`).join("")}<script type="application/ld+json">${JSON.stringify(jsonld)}</script>
+${scripts.map((s) => (typeof s === "string" ? `<script src="${s}" defer></script>\n` : `<script type="module" src="${s.src}"></script>\n`)).join("")}<script type="application/ld+json">${JSON.stringify(jsonld)}</script>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -350,7 +355,7 @@ const contentSections = existsSync(join(ROOT, "data/pages.json")) ? read("data/p
 const infoPages = existsSync(join(ROOT, "data/info.json")) ? read("data/info.json").pages : [];
 
 // Generated and hand-written pages that exist, so links to pages not built yet are left out.
-const builtPaths = new Set(["/", "/privacy/", "/terms/", "/support/", "/calories/", ...foods.map((f) => `/calories/${f.slug}/`),
+const builtPaths = new Set(["/", "/privacy/", "/terms/", "/support/", "/calories/", CALC_PATH, ...foods.map((f) => `/calories/${f.slug}/`),
   ...infoPages.map((p) => `/${p.slug}/`),
   ...contentSections.flatMap((s) => [s.path, ...s.pages.map((p) => `${s.path}${p.slug}/`)])]);
 function pageExists(href) {
@@ -377,10 +382,13 @@ function mealsSection(food) {
   const rows = [...food.portions.filter((p) => p.combo), ...(food.meals || [])];
   if (!rows.length) return "";
   if (!food.mealsCaption) throw new Error(`${food.slug}: combos or meals need a mealsCaption naming the add-on sizes`);
+  // One line under the table, not a link in every row: the calculator opens with the first meal typed in, to change.
+  const q = encodeURIComponent(mealWords(rows[0].label));
   return `
     <section aria-labelledby="meals">
       <h2 id="meals">${esc(food.mealsHeading || `Calories in ${food.nameLower} as a meal`)}</h2>
       ${nutriTable(food, rows, food.mealsCaption)}
+      <p class="table-link"><a href="${CALC_PATH}?q=${q}">${esc(site.calculator.mealsLink)} →</a></p>
     </section>
 `;
 }
@@ -528,6 +536,7 @@ ${lis}
     ${crumbs(trail)}
     <h1>${esc(site.hub.h1)}</h1>
     ${site.hub.intro.map((p) => `<p class="lede legal-lede">${esc(p)}</p>`).join("\n    ")}
+    <p class="table-link hub-calc"><a href="${CALC_PATH}">${esc(site.calculator.hubLink)} →</a></p>
     <div class="card note"><p>${esc(site.foodNote)}</p></div>
     <div class="hub-search" hidden>
       <label class="sr-only" for="hub-filter">Find a dish</label>
@@ -540,6 +549,224 @@ ${cta("site-cal-hub")}
 </main>
 `;
   return head({ title: site.hub.title, description: site.hub.description, path, jsonld, scripts: ["/assets/hub.js?v=1"] }) + body + footer();
+}
+
+// ---------- Meal calculator: /calories/calculator/ ----------
+//
+// assets/calc/data.js carries every dish (the site's and the app-only ones) with its aliases and plain portions,
+// each tagged with the household unit it stands for (piece, katori with its ml, plate, cup, glass, grams) and the
+// extras in its label (ghee, butter, no sugar ...), so assets/calc/parse.js can turn "2 roti with ghee" into the
+// right portion. Combos and anything with curd or another dish in it are left out: the parser composes those.
+
+// Dishes the app has and the site has no page for carry no aliases of their own; these are the spellings people use.
+const CALC_EXTRA_ALIASES = {
+  "aloo-gobi": ["aloo gobhi", "alu gobi", "gobi aloo", "gobhi aloo", "aloo gobi sabzi", "आलू गोभी"],
+  "aloo-shimla-mirch": ["aloo capsicum", "shimla mirch aloo", "capsicum aloo", "aloo shimla", "shimla mirch"],
+  "methi-aloo": ["aloo methi", "methi alu", "aloo methi sabzi"],
+  "jeera-aloo": ["zeera aloo", "jeera alu", "cumin potatoes", "jeera aloo sabzi"],
+  "aloo-matar": ["aloo mutter", "alu matar", "matar aloo", "aloo matar sabzi"],
+  "boiled-egg": ["boiled eggs", "ubla anda", "uble ande", "boiled anda", "hard boiled egg", "egg boiled"],
+  "omelette": ["omelet", "omlet", "omlette", "anda omelette", "egg omelette", "masala omelette"],
+  "egg-bhurji": ["anda bhurji", "egg bhurjee", "anda burji", "egg burji", "scrambled egg", "scrambled eggs"],
+  "curd": ["dahi", "plain curd", "yogurt", "yoghurt", "dahin", "दही", "દહીં"],
+  "raita": ["cucumber raita", "kheera raita", "boondi raita", "mixed raita", "रायता", "રાયતું"],
+  "dal-thick": ["thick dal", "gaadhi dal"],
+  "gujarati-dal": ["gujarati daal", "khatti meethi dal"],
+  "chole-bhature": ["chhole bhature", "chole bhatura", "chana bhatura"],
+  "tandoori-roti": ["tandoori chapati", "tandoor roti", "tandoori rotis"],
+  "bhakri": ["bhakhri", "ભાખરી"],
+  "khandvi": ["khandavi", "ખાંડવી"],
+  "paneer-bhurji": ["paneer burji", "paneer bhurjee", "paneer ki bhurji"],
+  "lauki-sabzi": ["lauki", "lauki ki sabzi", "doodhi", "dudhi", "ghiya", "ghiya sabzi", "bottle gourd", "dudhi nu shaak", "लौकी"],
+  "turai-sabzi": ["turai", "turai ki sabzi", "ridge gourd", "turiya", "turiya nu shaak", "तुरई"],
+  "indori-poha": ["indori pohe", "indore poha"],
+  "maggi": ["maggi noodles", "maggie"],
+  "dahi-puri": ["dahi poori", "dahi batata puri"],
+  "banana": ["kela", "kele", "bananas", "केला", "કેળું"],
+  "apple": ["seb", "apples", "सेब", "સફરજન"],
+  "orange": ["santra", "narangi", "oranges", "संतरा", "નારંગી"],
+  "mango": ["aam", "keri", "mangoes", "आम", "કેરી"],
+  "guava": ["amrood", "amrud", "jamfal", "अमरूद", "જામફળ"],
+  "watermelon": ["tarbooz", "tarbuj", "तरबूज", "તરબૂચ"],
+  "papaya": ["papita", "papaiya", "पपीता", "પપૈયું"],
+  "mixed-veg": ["mixed veg", "mix sabzi", "mixed sabzi", "veg sabzi"],
+  "plain-rice": ["chaval", "sada bhaat"],
+};
+// Aliases that name two dishes at once ("rajma chawal" on the rajma page): the parser composes them instead.
+const CALC_DROP_ALIASES = {
+  rajma: ["rajma chawal"], puri: ["puri bhaji", "puri sabzi"], bhatura: ["chole bhature", "chhole bhature", "chana bhatura"],
+  "medu-vada": ["sambar vada"], jalebi: ["jalebi rabri"], "toor-dal": ["gujarati dal"], "mixed-veg": ["aloo gobi matar", "gobhi aloo matar"],
+  "vada-pav": ["batata vada"],
+};
+// Generic words with a stated default. Words that could mean dishes far apart (biryani, paneer, egg) are not here:
+// the parser asks which one and counts 0 until told.
+const CALC_GENERIC = {
+  "dal-tadka": { note: "counted as dal tadka", words: ["dal", "daal", "dhal", "dal sabzi", "दाल", "દાળ"] },
+  "mixed-veg": { note: "counted as mixed veg sabzi", words: ["sabzi", "sabji", "subzi", "shaak", "sabzee", "सब्जी", "શાક"] },
+  "plain-rice": { note: "counted as plain rice", words: ["rice", "chawal", "chaval", "bhaat", "bhat"] },
+  "masala-chai": { note: "counted as masala chai", words: ["chai", "tea", "cha", "chaha", "चाय", "ચા"] },
+  "plain-dosa": { note: "counted as plain dosa", words: ["dosa", "dosai", "dose", "डोसा", "ઢોસા"] },
+  "plain-paratha": { note: "counted as plain paratha", words: ["paratha", "parantha", "parotha", "parotta", "पराठा", "परांठा", "પરોઠા"] },
+  roti: { note: "counted as a medium roti", words: ["chapati", "chapatti", "chappathi", "rotli", "रोटी", "चपाती", "રોટલી"] },
+  "filter-coffee": { note: "counted as filter coffee", words: ["coffee", "kaapi", "kofi"] },
+  "besan-ladoo": { note: "counted as besan ladoo", words: ["ladoo", "laddu", "laddoo", "ladoos", "laddus", "लड्डू", "લાડુ"] },
+  "gajar-halwa": { note: "counted as gajar halwa", words: ["halwa", "halva", "हलवा"] },
+};
+// Portions that are a second dish or a special version the parser can't ask for.
+const CALC_SKIP = new Set(["poha/big", "toor-dal/gujarati", "masala-dosa/plain", "nimbu-pani/textbook", "pav-bhaji/plate1", "pav-bhaji/plate4",
+  "pav-bhaji/pav", "phulka/one_half_ghee", "butter-naan/textbook", "rasam/rasam_rice", "kachori/with_sabzi", "kuttu-puri/four_sabzi",
+  "besan-chilla/paneer", "sev-puri/dahi", "chole-bhature/half", "roti/phulka", "kaju-katli/one"]);
+// Side add-ons, from data/ingredients.json: a teaspoon or a 100 g katori, the sizes the dish pages use.
+const CALC_ADDONS = [
+  { id: "curd", ing: "curd", name: "Curd", unit: "katori", katoriG: 100, tspG: 5, aliases: ["dahi", "yogurt", "yoghurt", "दही", "દહીં"] },
+  { id: "ghee", ing: "ghee", name: "Ghee", unit: "tsp", tspG: 5, katoriG: 100, aliases: ["ghi", "घी", "ઘી"] },
+  { id: "butter", ing: "butter", name: "Butter", unit: "tsp", tspG: 5, katoriG: 100, aliases: ["makkhan", "makhan", "amul", "मक्खन", "માખણ"] },
+  { id: "sugar", ing: "sugar", name: "Sugar", unit: "tsp", tspG: 4, katoriG: 100, aliases: ["cheeni", "chini", "shakkar", "sakar", "चीनी", "ખાંડ"] },
+  { id: "oil", ing: "oil", name: "Oil", unit: "tsp", tspG: 4.5, katoriG: 100, aliases: ["tel", "तेल", "તેલ"] },
+  { id: "honey", ing: "honey", name: "Honey", unit: "tsp", tspG: 7, katoriG: 100, aliases: ["shahad", "madh", "शहद", "મધ"] },
+];
+const CALC_TAGS = [
+  [/no sugar/, "no_sugar"], [/1 tsp sugar/, "sugar1"], [/2 tsp sugar/, "sugar2"], [/honey/, "honey"], [/no oil/, "no_oil"],
+  [/\b1 tsp oil/, "oil1"], [/2 tsp oil/, "oil2"], [/1 tbsp oil/, "oil_tbsp"], [/no ghee/, "no_ghee"], [/ghee/, "ghee"],
+  [/1 tbsp butter/, "butter_tbsp"], [/2 tsp butter/, "butter2"], [/butter/, "butter"], [/toned/, "toned"], [/buffalo/, "buffalo"],
+  [/cream/, "cream"], [/malai/, "malai"], [/syrup/, "syrup"], [/no tadka/, "no_tadka"], [/pakora/, "pakora"], [/thick/, "thick"],
+  [/cutting/, "cutting"], [/no pav|without pav/, "no_pav"], [/sweet-shop/, "shop"], [/less sugar/, "less_sugar"],
+];
+
+// The unit a portion stands for and how many of it, read from its label: "2 medium rotis" is 2 pieces,
+// "1 katori (150 ml)" is 1 katori of 150 ml, "100 g" is 100 grams.
+function calcPortionMeta(food, p, raw) {
+  const text = p.label.toLowerCase();
+  const clean = text.replace(/\s*\([^)]*\)/g, "").replace(/\s+/g, " ").trim();
+  const tags = [];
+  for (const [re, tag] of CALC_TAGS) if (re.test(clean) && !tags.includes(tag)) tags.push(tag);
+  if (tags.includes("no_ghee")) tags.splice(tags.indexOf("ghee"), tags.includes("ghee") ? 1 : 0);
+  if (tags.includes("butter_tbsp") || tags.includes("butter2")) tags.splice(tags.indexOf("butter"), 1);
+  if (p.id === "less_sugar") tags.splice(0, tags.length, "less_sugar");
+  const size = /\b(small|mini)\b/.test(clean) ? "small" : /\b(large|big|tall|very large)\b/.test(clean) ? "large" : /\bmedium\b/.test(clean) ? "medium" : null;
+  let kind, count = 1, ml = p.ml || null;
+  let g;
+  if ((g = clean.match(/^(\d+(?:\.\d+)?) g\b/))) { kind = "g"; count = Number(g[1]); }
+  else if (/katori/.test(clean)) kind = "katori";
+  else if (/\bplate\b/.test(clean)) kind = "plate";
+  else if (/\bbowl\b/.test(clean)) kind = "bowl";
+  else if (/\bcup\b/.test(clean)) kind = "cup";
+  else if (/tumbler|glass/.test(clean)) kind = "glass";
+  else if (p.ml && food.category === "drinks") kind = "glass";
+  else if (p.ml) kind = "katori";
+  else kind = "piece";
+  if (kind !== "g") {
+    const n = clean.match(/^(\d+(?:\.\d+)?|½|¼|¾|half)\b/);
+    count = !n ? 1 : n[1] === "½" || n[1] === "half" ? 0.5 : n[1] === "¼" ? 0.25 : n[1] === "¾" ? 0.75 : Number(n[1]);
+  }
+  if (kind !== "katori" && kind !== "glass") ml = null;
+  const label = p.label.replace(/\s*\([^)]*\)/g, "").replace(/,?\s*textbook/i, "").replace(/\s+/g, " ").trim();
+  // kcal, protein, carbs and fat are the unrounded values, so a line is rounded once, the way the page rounds it;
+  // page holds the numbers the dish page shows, used as they are when a typed item is exactly this portion.
+  return { id: p.id, label, kcal: raw.kcal, protein: raw.protein, carbs: raw.carbs, fat: raw.fat, page: { kcal: p.kcal, protein: p.protein, carbs: p.carbs, fat: p.fat },
+    kind, count, ...(ml ? { ml } : {}), ...(size ? { size } : {}), tags };
+}
+
+const appMap = existsSync(join(ROOT, "data/app-map.json")) ? read("data/app-map.json") : { dishes: {} };
+
+function calcDish(food, hasPage, computed) {
+  const drop = new Set(CALC_DROP_ALIASES[food.slug] || []);
+  const aliases = [...(food.aliases || []), ...(CALC_EXTRA_ALIASES[food.slug] || [])].filter((a) => !drop.has(a.toLowerCase()));
+  const headline = food.headlinePortion || Object.values(appMap.dishes).find((d) => d.slug === food.slug)?.portion || food.portions[0].id;
+  const portions = food.portions.filter((p) => !p.combo && !CALC_SKIP.has(`${food.slug}/${p.id}`) && !/curd|with a /i.test(p.label))
+    .map((p) => calcPortionMeta(food, p, computed.portions[p.id].raw));
+  if (!portions.some((p) => p.id === headline)) throw new Error(`${food.slug}: calculator headline portion "${headline}" was filtered out`);
+  // Every combo and meal row the dish page shows, with the page's own numbers: typed back word for word, it is used as it is.
+  const rows = [...food.portions.filter((p) => p.combo), ...(food.meals || [])].map((r) => ({ id: r.id, label: mealWords(r.label), kcal: r.kcal, protein: r.protein, carbs: r.carbs, fat: r.fat }));
+  const per100 = computed.per100 ? { kcal: computed.per100.kcal, protein: computed.per100.protein, carbs: computed.per100.carbs, fat: computed.per100.fat } : null;
+  return {
+    id: food.slug, name: food.name, nameLower: food.nameLower || food.name.toLowerCase(), page: hasPage ? `/calories/${food.slug}/` : null,
+    category: food.category, headline, aliases: [...new Set(aliases.map((a) => a.normalize("NFC").toLowerCase()))],
+    per100, portions, rows,
+  };
+}
+
+function calcData(results, appResults) {
+  const dishes = [...foods.map((f) => calcDish(f, true, results[f.slug])), ...appFoods.map((f) => calcDish(f, false, appResults[f.slug]))];
+  const generic = {};
+  for (const [id, g] of Object.entries(CALC_GENERIC)) {
+    if (!dishes.some((d) => d.id === id)) throw new Error(`calculator: generic default "${id}" is not a dish`);
+    for (const w of g.words) generic[w] = { id, note: g.note };
+  }
+  const addons = CALC_ADDONS.map((a) => ({ ...a, per100g: (({ kcal, protein, carbs, fat }) => ({ kcal, protein, carbs, fat }))(ingredient(a.ing, "calculator").per100g) }));
+  return { katoriMl: CALC_KATORI_ML, dishes, addons, generic };
+}
+
+// Writes assets/calc/data.js and returns the ?v= the page loads the calculator's files with: a hash of the data
+// and the two scripts, so every change gets a fresh URL and nothing else does.
+function writeCalcData(results, appResults) {
+  const data = calcData(results, appResults);
+  const body = `// Generated by scripts/build.mjs from data/foods.json, data/app-foods.json and data/ingredients.json. Do not edit.\nwindow.SLATE_CALC = ${JSON.stringify(data)};\n`;
+  write("assets/calc/data.js", body);
+  const hash = createHash("sha256");
+  for (const f of ["assets/calc/data.js", "assets/calc/parse.js", "assets/calc/page.js"]) hash.update(readFileSync(join(ROOT, f)));
+  return { data, version: hash.digest("hex").slice(0, 10) };
+}
+
+// A meal row's label in the words the calculator reads: "2 aloo parathas with curd".
+const mealWords = (label) => label.replace(/\s*\([^)]*\)/g, "").replace(/\s+/g, " ").trim();
+
+function calculatorPage(version) {
+  const path = CALC_PATH;
+  const c = site.calculator;
+  const trail = [{ name: "Home", path: "/" }, { name: "Food calories", path: "/calories/" }, { name: "Calculator", path }];
+  const faq = faqParts(path, c.faq);
+  const jsonld = { "@context": "https://schema.org", "@graph": [
+    { "@type": "WebPage", "@id": `${SITE}${path}#webpage`, url: SITE + path, name: c.title, description: c.description,
+      isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` }, inLanguage: "en-IN", dateModified: CALC_UPDATED,
+      mainEntity: { "@id": `${SITE}${path}#app` } },
+    breadcrumbLd(trail),
+    { "@type": "WebApplication", "@id": `${SITE}${path}#app`, name: "Indian meal calorie calculator", url: SITE + path,
+      applicationCategory: "HealthApplication", operatingSystem: "Any", browserRequirements: "Requires JavaScript", isAccessibleForFree: true,
+      offers: { "@type": "Offer", price: "0", priceCurrency: "INR" }, publisher: { "@id": `${SITE}/#organization` } },
+    faq.ld,
+  ] };
+  const chips = c.examples.map((e) => `<button type="button" class="chip" data-example="${esc(e)}">${esc(e)}</button>`).join("\n        ");
+  const body = `
+<main id="main" class="legal">
+  <div class="wrap-reading">
+    ${crumbs(trail)}
+    <h1>${esc(c.h1)}</h1>
+    <p class="meta-line mute">Updated ${longDate(CALC_UPDATED)}.</p>
+    <p class="answer-first">${esc(c.lede)}</p>
+    <noscript><p class="note mute">${esc(c.noscript)} <a href="/calories/">Food calories</a>.</p></noscript>
+    <section class="calc" aria-labelledby="calc-label">
+      <label id="calc-label" for="calc-input" class="calc-label">${esc(c.label)}</label>
+      <textarea id="calc-input" class="calc-input" rows="3" maxlength="500" placeholder="${esc(c.placeholder)}" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="done"></textarea>
+      <div class="calc-actions">
+        <button type="button" id="calc-count" class="btn">${esc(c.button)}</button>
+        <button type="button" id="calc-copy" class="btn btn-secondary" hidden>${esc(c.copyButton)}</button>
+      </div>
+      <div class="calc-examples">
+        <span class="mute small">${esc(c.examplesLabel)}</span>
+        ${chips}
+      </div>
+      <div id="calc-results" class="calc-results" aria-live="polite" data-copy="${esc(JSON.stringify({ columns: c.columns, total: c.total, empty: c.empty, unmatched: c.unmatched, ambiguous: c.ambiguous, didYouMean: c.didYouMean, copied: c.copied, copyButton: c.copyButton }))}"></div>
+    </section>
+    <div class="card note"><p>${esc(site.foodNote)}</p><p>${esc(c.notMedical)}</p></div>
+
+    <section aria-labelledby="how">
+      <h2 id="how">${esc(c.howHeading)}</h2>
+      ${c.how.map((p) => `<p>${prose(path, p)}</p>`).join("\n      ")}
+    </section>
+${faq.html}
+    <section aria-labelledby="related">
+      <h2 id="related">Related</h2>
+      <ul class="link-list">
+        <li><a href="/calories/">Calories in Indian food, dish by dish</a></li>
+        <li><a href="/how-slate-counts/">How Slate counts calories</a></li>
+      </ul>
+    </section>
+${cta("site-calc")}
+  </div>
+</main>
+`;
+  return head({ title: c.title, description: c.description, path, jsonld, scripts: [`/assets/calc/data.js?v=${version}`, { src: `/assets/calc/page.js?v=${version}` }] }) + body + footer();
 }
 
 // ---------- Content pages: /for/, /compare/, /blog/ ----------
@@ -777,7 +1004,8 @@ function updateSitemap() {
     .filter((m) => !generatedRoots.some((r) => m[1].startsWith(SITE + r)))
     .map((m) => ({ loc: m[1], lastmod: m[2] }));
   const hubDate = foods.map((f) => f.updated).sort().at(-1);
-  const generated = [{ loc: `${SITE}/calories/`, lastmod: hubDate }, ...foods.map((f) => ({ loc: `${SITE}/calories/${f.slug}/`, lastmod: f.updated }))];
+  const generated = [{ loc: `${SITE}/calories/`, lastmod: hubDate }, { loc: SITE + CALC_PATH, lastmod: CALC_UPDATED },
+    ...foods.map((f) => ({ loc: `${SITE}/calories/${f.slug}/`, lastmod: f.updated }))];
   for (const s of contentSections) {
     generated.push({ loc: SITE + s.path, lastmod: s.pages.map((p) => p.updated).sort().at(-1) });
     for (const p of s.pages) generated.push({ loc: `${SITE}${s.path}${p.slug}/`, lastmod: p.updated });
@@ -808,7 +1036,8 @@ ${infoPages.map((p) => line(`/${p.slug}/`, p.title, plainText(`/${p.slug}/`, p.d
 - [Support](${SITE}/support/): support@writeonslate.com`,
     `## Food calories
 
-${[line("/calories/", site.hub.title, site.hub.description), ...foods.map((f) => line(`/calories/${f.slug}/`, f.title, plain(f, f.description)))].join("\n")}`,
+${[line("/calories/", site.hub.title, site.hub.description), line(CALC_PATH, site.calculator.title, site.calculator.description),
+    ...foods.map((f) => line(`/calories/${f.slug}/`, f.title, plain(f, f.description)))].join("\n")}`,
     ...contentSections.map((s) => `## ${s.crumb}
 
 ${[line(s.path, s.hub.title, s.hub.description), ...s.pages.map((p) => line(`${s.path}${p.slug}/`, p.title, plainText(`${s.path}${p.slug}/`, p.description)))].join("\n")}`),
@@ -865,8 +1094,11 @@ function syncLaunchMeta() {
 const results = {};
 for (const food of foods) results[food.slug] = computeFood(food);
 for (const food of foods) computeMeals(food);
+const appResults = {};
+for (const food of appFoods) appResults[food.slug] = computeFood(food);
 for (const food of foods) write(`calories/${food.slug}/index.html`, foodPage(food, results[food.slug]));
 write("calories/index.html", hubPage());
+write("calories/calculator/index.html", calculatorPage(writeCalcData(results, appResults).version));
 let contentCount = 0;
 for (const s of contentSections) {
   write(`${s.path.slice(1)}index.html`, contentHub(s));
@@ -876,8 +1108,6 @@ for (const p of infoPages) write(`${p.slug}/index.html`, infoPage(p));
 write("data/foods.json", JSON.stringify(foodsFile, null, 2) + "\n");
 write("research/food-sources.md", researchLog(foods, results, { title: "Food sources and arithmetic", dataFile: "data/foods.json", pages: true }));
 if (appFoodsFile) {
-  const appResults = {};
-  for (const food of appFoods) appResults[food.slug] = computeFood(food);
   write("data/app-foods.json", JSON.stringify(appFoodsFile, null, 2) + "\n");
   write("research/app-food-sources.md", researchLog(appFoods, appResults, { title: "App-only dishes: sources and arithmetic", dataFile: "data/app-foods.json", pages: false }));
 }

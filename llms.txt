@@ -16,6 +16,7 @@ Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year
 ## Food calories
 
 - [Calories in Indian food: roti, dal, rice and more](https://writeonslate.com/calories/): Calories, protein, carbs and fat for everyday Indian dishes, by katori, piece and plate, worked out from IFCT 2017 recipes in grams.
+- [Indian meal calorie calculator: type what you ate](https://writeonslate.com/calories/calculator/): Type a meal the way you'd say it, in English or Hinglish, and get calories, protein, carbs and fat from home recipes and IFCT 2017. Free, in your browser.
 - [Roti calories: chapati sizes and roti with ghee](https://writeonslate.com/calories/roti/): A medium roti made with 30 g of atta has about 95 calories. Phulka, chapati and roti with ghee, worked out from IFCT 2017.
 - [Rice calories: per katori, plate and 100 g cooked](https://writeonslate.com/calories/plain-rice/): A 200 ml katori of plain cooked rice has about 160 calories. White rice by katori, plate and 100 g, worked out from IFCT 2017.
 - [Dal tadka calories: per katori of toor dal](https://writeonslate.com/calories/dal-tadka/): A 200 ml katori of thin dal tadka has about 115 calories; thick dal has up to about twice that. Toor dal with a ghee tadka, from IFCT 2017.

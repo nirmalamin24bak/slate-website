@@ -5,9 +5,10 @@
 // Fails (exit 1) on: banned words, exclamation marks, em dashes, emoji, broken
 // internal links, missing or over-long titles and descriptions, duplicate
 // titles, not exactly one h1, invalid JSON-LD, and FAQPage schema that doesn't
-// match the visible FAQ word for word.
+// match the visible FAQ word for word. Also runs the meal calculator's parser tests (scripts/test-calc.mjs).
 
 import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
+import { spawnSync } from "node:child_process";
 import { dirname, join, relative, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -116,6 +117,11 @@ for (const file of files) {
 }
 
 for (const [t, where] of titles) if (where.length > 1) problems.push(`duplicate title "${t}": ${where.join(", ")}`);
+
+// The calculator's parser against the data the build wrote.
+const calc = spawnSync(process.execPath, [join(ROOT, "scripts/test-calc.mjs")], { encoding: "utf8" });
+if (calc.status !== 0) problems.push(`scripts/test-calc.mjs failed:
+${(calc.stdout + calc.stderr).trim()}`);
 
 if (problems.length) {
   console.log(problems.join("\n"));

@@ -17,6 +17,42 @@
       "Every number is worked out from a recipe in grams and the Indian Food Composition Tables (IFCT 2017). Each page shows the recipe, the arithmetic and the sources."
     ]
   },
+  "calculator": {
+    "h1": "Indian meal calorie calculator: type what you ate",
+    "title": "Indian meal calorie calculator: type what you ate",
+    "description": "Type a meal the way you'd say it, in English or Hinglish, and get calories, protein, carbs and fat from home recipes and IFCT 2017. Free, in your browser.",
+    "lede": "Type a meal the way you'd say it: \"2 aloo paratha with curd, 1 chai\" or \"do roti aur ek katori dal\". Hindi and Hinglish spellings work. Every number comes from a home recipe in grams and IFCT 2017, for the portion shown next to it. A katori is 200 ml unless you say small or big.",
+    "label": "What did you eat?",
+    "placeholder": "2 aloo paratha with curd, 1 chai",
+    "button": "Count",
+    "copyButton": "Copy this meal",
+    "copied": "Copied",
+    "examplesLabel": "Try one:",
+    "examples": ["2 aloo paratha with curd", "dal chawal", "do roti aur ek katori dal", "idli sambar", "chai bina cheeni"],
+    "columns": ["Item", "Counted as", "Cals", "Protein", "Carbs", "Fat"],
+    "total": "Total",
+    "empty": "Type a meal above, then press Count.",
+    "unmatched": "Not recognised, counted as 0",
+    "ambiguous": "Which one?",
+    "didYouMean": "Did you mean",
+    "noscript": "The calculator needs JavaScript. Without it, every dish's page under Food calories has the same numbers by katori, piece and plate.",
+    "notMedical": "Slate gives estimates, not medical advice.",
+    "howHeading": "How the calculator counts",
+    "how": [
+      "Each item is matched to a dish on this site by its name or a common spelling, in English, Hindi or Gujarati. Then the portion you named picks the number: a roti is counted per piece, dal and sabzi by the katori, biryani by the plate, chai by the cup. A number without a unit means pieces for breads and snacks, and one katori, plate or cup for everything else.",
+      "Generic words get a stated default: \"dal\" is counted as dal tadka, \"sabzi\" as mixed veg, \"rice\" as plain rice, \"chai\" as masala chai with 2 teaspoons of sugar. The assumption is written under the item so you can change it. When a word could mean dishes with very different numbers, like \"biryani\" or \"paneer\", the calculator asks which one instead of picking.",
+      "Anything it can't recognise is shown grey with ↻ and counted as zero. It never guesses a number. Curd on the side is a 100 g katori, ghee and butter are a 5 g teaspoon, sugar a 4 g teaspoon, the same sizes as the dish pages. Calories are rounded to the nearest 5 and grams to the nearest whole number. Every recipe and source is on the dish pages: [how Slate counts calories](/how-slate-counts/)."
+    ],
+    "faq": [
+      { "q": "Can I type in Hindi or Hinglish?", "a": "Yes. \"do roti aur ek katori dal\", \"२ रोटी\" and \"chai bina cheeni\" all work. Numbers can be words (do, teen, aadha, dedh) or digits, including Devanagari and Gujarati digits." },
+      { "q": "What size is a katori?", "a": "200 ml unless you say small (150 ml) or big (250 ml). A bowl is counted the same way. A plate, cup and glass use the sizes on each dish's page, and \"100 g\" scales from the per 100 g value." },
+      { "q": "Why does an item show 0 with ↻?", "a": "The calculator didn't recognise it, so it counted zero rather than guessing. Try a plainer name, a spelling from the dish's page, or one of the suggestions under the item. Dishes not on this site yet can't be counted here." },
+      { "q": "Does the calculator store what I type?", "a": "No. It runs entirely in your browser. Nothing you type is sent anywhere or saved, and the page makes no network requests after it loads." },
+      { "q": "Are these numbers the same as in the Slate app?", "a": "They start from the same recipes and IFCT 2017 values. The app also adjusts for your own katori, roti size and how long your oil lasts, so its numbers move with your kitchen. This page uses the typical home portions from the dish pages." }
+    ],
+    "hubLink": "Count a whole meal in the calculator",
+    "mealsLink": "Count your own plate in the calculator"
+  },
   "categories": [
     {
       "id": "breads",

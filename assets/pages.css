@@ -96,3 +96,34 @@ main.home-main > .demo-root { max-width:none; }
 main .table-link { margin-top:12px; font-size:15px; }
 main .table-link a { display:inline-flex; align-items:center; min-height:44px; color:var(--ink); text-decoration:none; text-decoration-color:var(--hairline); }
 main .table-link a:hover { text-decoration:underline; }
+
+/* ---------- Meal calculator (/calories/calculator/) ---------- */
+.calc { margin-top:28px; }
+.calc-label { display:block; font:500 var(--fs-line)/1.3 var(--font-sans); color:var(--ink); margin-bottom:10px; }
+.calc-input { display:block; width:100%; box-sizing:border-box; min-height:96px; padding:14px 16px; border:1px solid var(--hairline); border-radius:16px; background:var(--surface); color:var(--ink); font:400 var(--fs-line)/1.5 var(--font-sans); resize:vertical; caret-color:var(--ink); }
+.calc-input::placeholder { color:var(--ink-mute); opacity:1; }
+.calc-input:focus { outline:2px solid var(--ink); outline-offset:2px; }
+.calc-actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:12px; }
+.calc-actions .btn { min-height:48px; padding:0 22px; }
+.calc-examples { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-top:14px; }
+.calc-examples .chip, .calc-suggest .chip { font:400 var(--fs-small)/1.2 var(--font-sans); }
+.calc-results { margin-top:8px; }
+.calc-empty { margin-top:16px; font-size:var(--fs-small); }
+.calc-table th, .calc-table td { vertical-align:top; }
+.calc-what .calc-sub { display:block; margin-top:2px; }
+/* The dish link in a row gets a 44px tap height without moving the row. */
+.calc-what > a { display:inline-block; padding:12px 0; margin:-12px 0; }
+.calc-unmatched td { color:var(--ink-mute); }
+.calc-suggest { display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin-top:6px; }
+.calc-suggest .chip { min-height:var(--tap); }
+.calc-total th, .calc-total td { font-weight:700; border-bottom:0; padding-top:14px; text-align:left; }
+.calc-total td.n { text-align:right; }
+main .hub-calc { margin-top:4px; }
+@media (max-width:559.98px) {
+  .legal table.calc-table th:nth-child(4), .legal table.calc-table td:nth-child(4),
+  .legal table.calc-table th:nth-child(5), .legal table.calc-table td:nth-child(5),
+  .legal table.calc-table th:nth-child(6), .legal table.calc-table td:nth-child(6) { display:none; }
+  /* The total row's label spans two columns, so its protein, carbs and fat cells are its 3rd to 5th children. */
+  .legal table.calc-table .calc-total th { display:table-cell; }
+  .legal table.calc-table .calc-total td:nth-child(n+3) { display:none; }
+}

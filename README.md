@@ -14,7 +14,7 @@ Opens at http://localhost:3000 with the same headers and routing as production (
 
 ## Deploy
 
-Pushes to `main` deploy to production on Vercel.
+Pushes to `main` deploy to production on Vercel. Before pushing, run `node scripts/build.mjs` and then `node scripts/check.mjs`, which checks every page and runs the meal calculator's parser tests (`scripts/test-calc.mjs`).
 
 After a deploy is live, run `node scripts/indexnow.mjs` to tell Bing (and the other IndexNow search engines) about every page in `sitemap.xml`. The key is the `<32 hex>.txt` file at the site root; keep it there.
 
@@ -23,6 +23,10 @@ When a page's content changes, update its `<lastmod>` date in `sitemap.xml`. Gen
 `style.css` and `demo.js` are cached by browsers for a year. When you change either one, bump its `?v=` number (for example `?v=1` to `?v=2`) in every HTML file that links it, or visitors keep the old file.
 
 Images in `assets/` are cached for a week. The icons and the social image (`favicon.svg`, `favicon.png`, `apple-touch-icon.png`, `og.png`, `demo/assets/app-icon.png`) are linked with a `?v=` number for that reason: when you replace one, bump its number in `scripts/build.mjs` and in `index.html`, `privacy/`, `terms/`, `support/` and `404.html` (and in `assets/demo/ios/App.jsx` for the app icon, then rebuild the demo), and run `node scripts/build.mjs`.
+
+## Meal calculator
+
+`/calories/calculator/` is built by `calculatorPage()` in `scripts/build.mjs` from the copy in `data/site.json` (`calculator`). `writeCalcData()` writes `assets/calc/data.js` (every dish from `data/foods.json` and `data/app-foods.json` with its aliases and plain portions, plus the side add-ons from `data/ingredients.json`); `assets/calc/parse.js` turns a typed meal into portions and `assets/calc/page.js` draws the table. Everything runs in the browser: no requests after load, nothing typed is sent or stored. The three files are linked with a `?v=` hash of their contents, so the build bumps it on any change (`vercel.json` caches them for a year).
 
 ## Home page demo
 
