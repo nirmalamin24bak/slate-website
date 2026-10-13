@@ -11,7 +11,7 @@ Last updated 8 October 2026.
 Slate is a calorie journal for iPhone, built for urban Indians aged 24 to 35. The user types what they ate on a line ("2 roti aur ek katori dal"), and Slate puts a number next to it, calculated on the device from Indian food composition data and adjusted for the user's own kitchen. Free forever, with an optional subscription, Slate Plus. No login, no ads, data stored in India.
 
 - **Owner:** Sonal Systems Private Limited, Vadodara (CIN U62099GJ2026PTC179785)
-- **Founders:** Nirmal Amin, Nehal Amin. **Engineering:** Basanth.
+- **Founders:** Nirmal Amin, Nehal Modi. **Engineering:** Basanth.
 - **App Store name:** Slate: Calorie Journal. India only at launch. Age 18+.
 - **Repo:** github.com/nirmalamin24bak/slate-app-rork (private). Built initially in Rork, now maintained in Xcode.
 

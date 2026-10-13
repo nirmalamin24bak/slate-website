@@ -65,7 +65,7 @@ You type what you ate on a line, the way you'd say it ("2 roti aur ek katori dal
 - **Company:** Sonal Systems Private Limited
 - **CIN:** U62099GJ2026PTC179785
 - **Registered address:** A-3, Mehsana Nagar, Nizampura, Vadodara 390002, Gujarat, India
-- **Founders:** Nirmal Amin and Nehal Amin
+- **Founders:** Nirmal Amin and Nehal Modi
 - **Based in:** Vadodara, Gujarat
 - **Support email:** support@writeonslate.com
 - **Privacy and grievance email:** privacy@writeonslate.com

@@ -632,7 +632,7 @@ function infoPage(page) {
   if (page.type === "AboutPage") {
     graph.push({ "@type": "Person", "@id": `${SITE}/about/#${site.author.id}`, url: `${SITE}/about/`, name: site.author.name,
       jobTitle: site.author.jobTitle, worksFor: { "@id": `${SITE}/#organization` } });
-    graph.push({ "@type": "Person", "@id": `${SITE}/about/#nehal-amin`, url: `${SITE}/about/`, name: "Nehal Amin",
+    graph.push({ "@type": "Person", "@id": `${SITE}/about/#nehal-modi`, url: `${SITE}/about/`, name: "Nehal Modi", jobTitle: "Co-founder",
       worksFor: { "@id": `${SITE}/#organization` } });
   }
   const sections = page.body.map((s) => `
