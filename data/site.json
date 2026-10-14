@@ -75,6 +75,10 @@
       "name": "Breakfast"
     },
     {
+      "id": "eggs",
+      "name": "Eggs"
+    },
+    {
       "id": "street",
       "name": "Street food and snacks"
     },
@@ -85,6 +89,10 @@
     {
       "id": "drinks",
       "name": "Drinks"
+    },
+    {
+      "id": "dairy",
+      "name": "Curd and raita"
     },
     {
       "id": "fasting",

@@ -2093,7 +2093,8 @@
         "bhatura",
         "masala-chai",
         "poha",
-        "momos"
+        "momos",
+        "maggi"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -3518,7 +3519,8 @@
         "plain-paratha",
         "roti",
         "thepla",
-        "masala-chai"
+        "masala-chai",
+        "curd"
       ],
       "useCase": {
         "href": "/for/office-canteen-tiffin/",
@@ -4118,7 +4120,7 @@
       "description": "A home bhatura made with 27 g of maida has about {{kcal:one}} calories once fried. Street bhaturas tested in a lab came to about {{outLo}} to {{outHi}}.",
       "answer": "One bhatura from about 27 g of maida, deep-fried, has about {{kcal:one}} calories, and 2 bhature about {{kcal:two}}. With a katori of chole, 2 bhature make a plate of about {{kcal:two_chole}}. Size matters most: a bhatura from 40 g of maida has half as much again. Street bhaturas tested in a lab came to about {{outLo}} to {{outHi}}.",
       "intro": [
-        "Bhatura is a leavened maida bread, kneaded with curd and sometimes a little baking powder, then deep-fried until it puffs into a large round. It's almost always eaten as chole bhature, a Punjabi dish found from Delhi's street stalls to restaurant breakfasts.",
+        "Bhatura is a leavened maida bread, kneaded with curd and sometimes a little baking powder, then deep-fried until it puffs into a large round. It's almost always eaten as [chole bhature](/calories/chole-bhature/), a Punjabi dish found from Delhi's street stalls to restaurant breakfasts.",
         "A bhatura takes up a lot of oil in frying. In this page's numbers, oil is close to half its calories, and the maida most of the rest."
       ],
       "headlinePortion": "one",
@@ -4274,7 +4276,8 @@
         "naan",
         "samosa",
         "rajma",
-        "chole"
+        "chole",
+        "chole-bhature"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -6870,7 +6873,7 @@
         "basis": "No analysed value for street or restaurant chole was found. Chole cooked for chole bhature is usually oilier than home chole; 1.5 to 2 times this recipe's oil is a stated assumption.",
         "text": [
           "Chole from a chole bhature stall or a restaurant is usually cooked with more oil, often with oil floating on top, and sometimes finished with butter.",
-          "No lab figure exists for street chole, so the range below assumes 1.5 to 2 times the oil of this home recipe. The bhatura is extra: see [bhatura](/calories/bhatura/)."
+          "No lab figure exists for street chole, so the range below assumes 1.5 to 2 times the oil of this home recipe. The bhatura is extra: see [bhatura](/calories/bhatura/), or the whole plate on [chole bhature](/calories/chole-bhature/)."
         ],
         "kcalRange": [
           305,
@@ -6898,7 +6901,7 @@
         },
         {
           "q": "How many calories are in chole bhature?",
-          "a": "A 200 ml katori of chole is about {{kcal:k200}}, and each home [bhatura](/calories/bhatura/) about {{kcal@bhatura:one}}. Two bhature and a katori of chole come to about 635, before onion and pickle."
+          "a": "A 200 ml katori of chole is about {{kcal:k200}}, and each home [bhatura](/calories/bhatura/) about {{kcal@bhatura:one}}. Two bhature and a katori of chole come to about {{kcal@chole-bhature:plate}}, before onion and pickle: see [chole bhature](/calories/chole-bhature/)."
         },
         {
           "q": "How much protein is in chole?",
@@ -6922,7 +6925,8 @@
         "rajma",
         "puri",
         "plain-rice",
-        "samosa"
+        "samosa",
+        "chole-bhature"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -9317,7 +9321,7 @@
         "Each egg adds about 70 calories on its own, with about 7 g of protein.",
         "Oil is the other big part. Each teaspoon in the masala adds about 40 calories.",
         "Frying the eggs first adds a little more oil; coconut milk in the gravy adds about 140 calories per 60 g.",
-        "Egg bhurji and omelettes are counted by their eggs and the oil in the pan."
+        "[Egg bhurji](/calories/egg-bhurji/) and [omelettes](/calories/omelette/) are counted by their eggs and the oil in the pan."
       ],
       "method": [
         "The recipe is the egg curry in Basic Food Preparation, a standard Indian cookery manual (via the Indian Nutrient Databank): 1 egg with tomato, onion, ginger, garlic, green chilli and ground coriander, cooked in 2 teaspoons of oil. Values are from IFCT 2017.",
@@ -9345,7 +9349,10 @@
         "chicken-curry",
         "fish-curry",
         "plain-rice",
-        "roti"
+        "roti",
+        "boiled-egg",
+        "omelette",
+        "egg-bhurji"
       ],
       "useCase": {
         "href": "/for/home-cooking/",
@@ -10085,7 +10092,7 @@
         "Oil or ghee is the biggest variable. Each tablespoon across the pot adds about 120 calories, about 60 to each plate.",
         "Fried onions (birista) take up oil. Shop-bought fried onions count as well.",
         "More rice and fewer vegetables raises the number per plate; more vegetables lowers it.",
-        "Raita and salan are separate. A katori of raita made with curd is about 60 to 90 calories."
+        "[Raita](/calories/raita/) and salan are separate. A 200 ml katori of cucumber raita is about {{kcal@raita:k200}} calories."
       ],
       "method": [
         "The recipe is the vegetable biryani in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g rice, 300 g of potato, peas, carrot, cauliflower, beans and tomato, 100 g onion, curd, saffron milk and 4 tablespoons of oil, for 2 plates. Values are from IFCT 2017.",
@@ -10121,7 +10128,8 @@
         "chicken-biryani",
         "pulao",
         "jeera-rice",
-        "plain-rice"
+        "plain-rice",
+        "raita"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -10365,7 +10373,7 @@
       "changes": [
         "Ghee or oil is the biggest variable. Each tablespoon across the pot adds about 120 calories, about 60 to each plate.",
         "More chicken adds protein and some fat. Leg pieces and chicken with skin have more fat than breast.",
-        "Fried onions take up oil, and a boiled egg adds about 70 calories.",
+        "Fried onions take up oil, and a [boiled egg](/calories/boiled-egg/) adds about {{kcal@boiled-egg:one}} calories.",
         "Raita and mirchi ka salan are separate dishes."
       ],
       "method": [
@@ -10402,7 +10410,9 @@
         "veg-biryani",
         "chicken-curry",
         "pulao",
-        "plain-rice"
+        "plain-rice",
+        "boiled-egg",
+        "raita"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -10680,7 +10690,8 @@
         "jeera-rice",
         "veg-biryani",
         "plain-rice",
-        "curd-rice"
+        "curd-rice",
+        "raita"
       ],
       "useCase": {
         "href": "/for/office-canteen-tiffin/",
@@ -10925,7 +10936,8 @@
         "plain-rice",
         "rasam",
         "sambar",
-        "khichdi"
+        "khichdi",
+        "curd"
       ],
       "useCase": {
         "href": "/for/office-canteen-tiffin/",
@@ -11153,7 +11165,8 @@
         "mixed-veg",
         "kachori",
         "phulka",
-        "baingan-bharta"
+        "baingan-bharta",
+        "aloo-gobi"
       ],
       "useCase": {
         "href": "/for/home-cooking/",
@@ -11634,7 +11647,8 @@
         "cabbage-sabzi",
         "bhindi",
         "roti",
-        "pulao"
+        "pulao",
+        "aloo-gobi"
       ],
       "useCase": {
         "href": "/for/home-cooking/",
@@ -12122,7 +12136,8 @@
         "mixed-veg",
         "aloo-sabzi",
         "roti",
-        "phulka"
+        "phulka",
+        "aloo-gobi"
       ],
       "useCase": {
         "href": "/for/office-canteen-tiffin/",
@@ -12693,7 +12708,8 @@
         "dhokla",
         "upma",
         "poha",
-        "roti"
+        "roti",
+        "omelette"
       ],
       "useCase": {
         "href": "/for/vegetarians/",
@@ -13425,7 +13441,8 @@
         "pav-bhaji",
         "samosa",
         "kachori",
-        "masala-chai"
+        "masala-chai",
+        "maggi"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -13769,7 +13786,9 @@
         "vada-pav",
         "aloo-sabzi",
         "mixed-veg",
-        "bhel-puri"
+        "bhel-puri",
+        "egg-bhurji",
+        "chole-bhature"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -14957,7 +14976,8 @@
         "samosa",
         "vada-pav",
         "pani-puri",
-        "masala-chai"
+        "masala-chai",
+        "maggi"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -17376,7 +17396,8 @@
         "lassi",
         "nimbu-pani",
         "masala-chai",
-        "kadhi"
+        "kadhi",
+        "curd"
       ],
       "useCase": {
         "href": "/for/office-canteen-tiffin/",
@@ -17593,7 +17614,9 @@
         "chaas",
         "masala-chai",
         "nimbu-pani",
-        "aloo-paratha"
+        "aloo-paratha",
+        "curd",
+        "raita"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -17912,6 +17935,1706 @@
           "url": "https://fdc.nal.usda.gov/food-details/167747/nutrients",
           "note": "1 lemon yields 48 g of juice",
           "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "aloo-gobi",
+      "name": "Aloo gobi",
+      "nameLower": "aloo gobi",
+      "category": "sabzi",
+      "aliases": [
+        "aloo gobhi",
+        "alu gobi",
+        "gobi aloo",
+        "gobhi aloo",
+        "aloo gobi sabzi",
+        "aloo gobi ki sabzi",
+        "potato cauliflower sabzi",
+        "आलू गोभी",
+        "आलू गोभी की सब्जी",
+        "ફ્લાવર બટાકા નું શાક"
+      ],
+      "updated": "2026-10-14",
+      "title": "Aloo gobi calories: per katori, home and restaurant",
+      "description": "A 200 ml katori of home aloo gobi has about {{kcal:k200}} calories, a 150 ml katori about {{kcal:k150}}. Cauliflower and potato in a tablespoon of oil, from IFCT 2017.",
+      "answer": "A 200 ml katori of home aloo gobi, cooked with a tablespoon of oil for 100 g of cauliflower and 50 g of potato, has about {{kcal:k200}} calories. A 150 ml katori has about {{kcal:k150}}. The oil is most of it; cauliflower and potato are a small share. A restaurant aloo gobi runs about {{outLo}} to {{outHi}} a katori.",
+      "intro": [
+        "Aloo gobi is cauliflower and potato cooked dry with turmeric, chilli and ginger, a sabzi found in most north Indian homes and in every tiffin. Some kitchens add peas or tomato; Punjabi versions use more oil and a little garam masala at the end.",
+        "Cauliflower has very few calories, so what you taste as richness is the oil. The same katori with half the oil has close to half the calories."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Made as below, with all the oil counted as eaten. A textbook bowl is the whole recipe.",
+      "recipe": {
+        "label": "Recipe: one bowl, 100 g cauliflower and 50 g potato with 1 tablespoon of oil",
+        "ingredients": [
+          {
+            "id": "cauliflower",
+            "g": 100
+          },
+          {
+            "id": "potato",
+            "g": 50
+          },
+          {
+            "id": "green_chilli",
+            "g": 1.67,
+            "note": "half a chilli"
+          },
+          {
+            "id": "ginger",
+            "g": 6.33,
+            "note": "half an inch"
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 1,
+            "note": "a few sprigs"
+          },
+          {
+            "id": "turmeric",
+            "g": 0.38,
+            "note": "an eighth of a teaspoon"
+          },
+          {
+            "id": "chilli_powder",
+            "g": 0.7,
+            "note": "a quarter teaspoon"
+          },
+          {
+            "id": "oil",
+            "g": 13.6,
+            "note": "1 tablespoon"
+          }
+        ],
+        "cookedYieldG": 173.68,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does",
+        "densityGPerMl": 0.782,
+        "densityNote": "USDA's cooked mixed vegetables: 185 g per cup (236.6 ml), as for the site's mixed veg; pieces of potato and vegetable pack about the same"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 117,
+          "kcal": 125,
+          "protein": 2,
+          "carbs": 7,
+          "fat": 10
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 156,
+          "kcal": 165,
+          "protein": 3,
+          "carbs": 9,
+          "fat": 13
+        },
+        {
+          "id": "bowl",
+          "label": "1 textbook bowl",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 174,
+          "kcal": 185,
+          "protein": 3,
+          "carbs": 10,
+          "fat": 14
+        }
+      ],
+      "mealsCaption": "A 200 ml katori of aloo gobi; rotis are medium, 30 g atta each.",
+      "meals": [
+        {
+          "id": "with_roti",
+          "label": "Aloo gobi with 2 rotis",
+          "expr": "aloo-gobi:k200+2*roti:medium",
+          "kcal": 360,
+          "protein": 9,
+          "carbs": 48,
+          "fat": 14
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Restaurant or dhaba",
+        "caption": "One 200 ml katori. The outside range has 1.5 to 2.5 times the oil.",
+        "fatFactor": [
+          1.5,
+          2.5
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "basis": "No analysed value for restaurant aloo gobi was found. Restaurant sabzis are cooked in more oil or butter; 1.5 to 2.5 times this recipe's oil is a stated assumption, the same as for the site's mixed veg.",
+        "text": [
+          "Restaurant and dhaba aloo gobi is usually cooked in more oil, sometimes finished with butter, and the pieces are often shallow-fried first so they hold their shape.",
+          "No lab has measured a restaurant aloo gobi, so the range below allows 1.5 to 2.5 times this recipe's oil per katori."
+        ],
+        "kcalRange": [
+          220,
+          330
+        ],
+        "fatRange": [
+          19,
+          31
+        ]
+      },
+      "changes": [
+        "Oil is the biggest variable. This recipe uses a tablespoon for a bowl of {{kcal:bowl}} calories; each teaspoon less or more moves it by about 40.",
+        "More potato adds more than more cauliflower: potato has {{ing:potato}} calories per 100 g, cauliflower {{ing:cauliflower}}.",
+        "Frying the cauliflower florets first, as many restaurants do, takes up extra oil that this recipe doesn't have.",
+        "Peas, tomato and onion add a little; a handful of peas is about {{ing:peas_fresh}} calories per 100 g.",
+        "A katori is a volume. A heaped 200 ml katori holds more than a level one; Slate uses your own katori size."
+      ],
+      "method": [
+        "The recipe is the potato cauliflower (aloo gobhi) in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g of cauliflower and 50 g of potato with half a green chilli, ginger, coriander, turmeric and chilli powder, cooked in a tablespoon of oil. Values are from IFCT 2017.",
+        "The cooked weight is the ingredients added together, as the databank does for dry sabzis. A katori is filled at 0.78 g per ml, USDA's density for cooked mixed vegetables. Garam masala and salt are left out: a quarter teaspoon of garam masala is about a calorie."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of aloo gobi?",
+          "a": "About {{kcal:k200}} in a 200 ml katori of home aloo gobi, and about {{kcal:k150}} in a 150 ml one."
+        },
+        {
+          "q": "How many calories are in aloo gobi sabzi with 2 rotis?",
+          "a": "About {{kcal:with_roti}} calories: a 200 ml katori of aloo gobi at {{kcal:k200}} with 2 medium [rotis](/calories/roti/) at {{kcal@roti:two}}."
+        },
+        {
+          "q": "How much protein is in aloo gobi?",
+          "a": "About {{protein:k200}} g in a 200 ml katori. Cauliflower and potato have little protein; dal or curd on the side adds more."
+        },
+        {
+          "q": "How many calories are in 100 g of aloo gobi?",
+          "a": "About {{per100}} calories per 100 g of this home aloo gobi, most of it from the oil."
+        },
+        {
+          "q": "Is aloo gobi low in calories?",
+          "a": "The vegetables are; the oil isn't. Cauliflower has {{ing:cauliflower}} calories per 100 g and potato {{ing:potato}}, while oil has {{ing:oil}}. A katori made with less oil has fewer calories, and Slate adjusts for your kitchen's oil."
+        }
+      ],
+      "related": [
+        "mixed-veg",
+        "aloo-sabzi",
+        "cabbage-sabzi",
+        "roti"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: vegetable dry, 1 cup",
+          "portionId": "k200",
+          "kcal": 150,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "A general figure for all vegetable dishes; cup = 200 ml.",
+          "ours": 167,
+          "differencePct": -10
+        }
+      ],
+      "judgement": [
+        "Garam masala and salt are left out: a quarter teaspoon of garam masala is about 1 kcal, and salt has none."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Cauliflower (D036), potato (F006), green chilli (G008), ginger (G014), coriander leaves (G009), turmeric (G033), groundnut oil (T005); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC171, potato cauliflower (aloo gobhi)",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Classic mixed vegetables, NS as to form, cooked (2710015)",
+          "url": "https://fdc.nal.usda.gov/food-details/2710015/nutrients",
+          "note": "185 g per cup, used for the katori",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: vegetable dry 150 kcal per cup; cup = 200 ml",
+          "accessed": "2026-10-14"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 105,
+        "protein": 2,
+        "carbs": 6,
+        "fat": 8
+      }
+    },
+    {
+      "slug": "boiled-egg",
+      "name": "Boiled egg",
+      "nameLower": "boiled egg",
+      "category": "eggs",
+      "aliases": [
+        "boiled eggs",
+        "ubla anda",
+        "uble ande",
+        "boiled anda",
+        "hard boiled egg",
+        "egg boiled",
+        "उबला अंडा",
+        "उबले अंडे",
+        "બાફેલું ઈંડું"
+      ],
+      "updated": "2026-10-14",
+      "title": "Boiled egg calories: 1 egg, 2 eggs and 3 eggs",
+      "description": "One boiled egg of about 50 g has about {{kcal:one}} calories and {{protein:one}} g of protein; 2 eggs about {{kcal:two}}, 3 eggs about {{kcal:three}}. From IFCT 2017's whole egg.",
+      "answer": "One boiled egg, about 50 g without the shell, has about {{kcal:one}} calories, with {{protein:one}} g of protein and {{fat:one}} g of fat. Two boiled eggs are about {{kcal:two}} and three about {{kcal:three}}. Boiling adds nothing: the number is the egg itself, so a bigger egg has more. ICMR-NIN counts a boiled egg at 90, which fits an egg of about 65 g.",
+      "intro": [
+        "A boiled egg is the simplest thing to count on this site: there is no oil, no masala and no cooked weight to guess. The only question is the size of the egg, and that is where the sources differ.",
+        "Indian eggs sold loose are often 45 to 55 g. The 50 g egg used here is the Indian Nutrient Databank's household measure and the same as USDA's large egg."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Whole eggs of about 50 g each, boiled in the shell. Salt and pepper add nothing.",
+      "recipe": {
+        "label": "Recipe: one hen's egg, about 50 g without the shell, boiled",
+        "ingredients": [
+          {
+            "id": "egg",
+            "g": 50,
+            "note": "1 egg, as the Indian Nutrient Databank counts it"
+          }
+        ],
+        "cookedYieldG": 50,
+        "yieldNote": "boiling in the shell doesn't change the weight of the egg"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 boiled egg (about 50 g)",
+          "short": "an egg",
+          "fraction": 1,
+          "cookedGrams": 50,
+          "kcal": 65,
+          "protein": 7,
+          "carbs": 0,
+          "fat": 5
+        },
+        {
+          "id": "two",
+          "label": "2 boiled eggs",
+          "short": "2 eggs",
+          "fraction": 2,
+          "cookedGrams": 100,
+          "kcal": 135,
+          "protein": 13,
+          "carbs": 0,
+          "fat": 9
+        },
+        {
+          "id": "three",
+          "label": "3 boiled eggs",
+          "short": "3 eggs",
+          "fraction": 3,
+          "cookedGrams": 150,
+          "kcal": 200,
+          "protein": 20,
+          "carbs": 0,
+          "fat": 14
+        }
+      ],
+      "changes": [
+        "Egg size. A 50 g egg has about {{kcal:one}} calories; an egg of 60 to 65 g has about a quarter more, which is where ICMR-NIN's 90 comes from.",
+        "The yolk holds nearly all the fat, so an egg eaten without its yolk has far fewer calories and about half the protein.",
+        "Boiling time changes nothing: soft-boiled and hard-boiled eggs have the same calories.",
+        "What goes with it does. A boiled egg in [egg curry](/calories/egg-curry/) picks up the masala's oil, about {{kcal@egg-curry:one}} per egg with gravy.",
+        "Duck eggs and desi eggs are a little larger and richer than farm hen's eggs; the values here are for the ordinary white hen's egg."
+      ],
+      "method": [
+        "The recipe is the boiled egg in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): one hen's egg, which the databank counts as 50 g without the shell. Values are IFCT 2017's whole raw egg; boiling in the shell doesn't change the weight or the nutrients.",
+        "USDA's hard-boiled egg (155 calories per 100 g) and ICMR-NIN's boiled egg (90 calories) are shown as cross-checks, and the page states a range because they sit more than 15% above this value."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 boiled egg?",
+          "a": "About {{kcal:one}} calories for an egg of about 50 g without the shell, with {{protein:one}} g of protein."
+        },
+        {
+          "q": "How many calories are in 2 boiled eggs?",
+          "a": "About {{kcal:two}} calories, with {{protein:two}} g of protein and {{fat:two}} g of fat."
+        },
+        {
+          "q": "How many calories are in 3 boiled eggs?",
+          "a": "About {{kcal:three}} calories, with {{protein:three}} g of protein."
+        },
+        {
+          "q": "How much protein is in a boiled egg?",
+          "a": "About {{protein:one}} g in a 50 g egg, and about {{protein:two}} g in 2 eggs. The white and the yolk each hold roughly half of it."
+        },
+        {
+          "q": "Which has more calories, a boiled egg or an omelette?",
+          "a": "The [omelette](/calories/omelette/), because of the oil and the second egg: about {{kcal@omelette:one}} for a 2-egg omelette against {{kcal:two}} for 2 boiled eggs. A single-egg omelette is about {{kcal@omelette:single}}."
+        }
+      ],
+      "related": [
+        "omelette",
+        "egg-bhurji",
+        "egg-curry",
+        "chicken-biryani"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: boiled egg, 1",
+          "portionId": "one",
+          "kcal": 90,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "NIN gives no weight; 90 kcal fits an egg of about 65 g.",
+          "ours": 67,
+          "differencePct": 34
+        },
+        {
+          "source": "USDA FoodData Central 173424, egg, hard-boiled, 1 large (50 g)",
+          "portionId": "one",
+          "kcal": 77.5,
+          "url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+          "note": "USDA's egg has a little more fat than IFCT's.",
+          "ours": 67,
+          "differencePct": 15
+        }
+      ],
+      "range": {
+        "text": "ICMR-NIN counts a boiled egg at 90 calories, and USDA's large egg works out to about 78, against {{kcal:one}} here from IFCT 2017's egg. Egg size explains most of it: a 50 g egg is a medium Indian egg, and a 60 to 65 g egg has a quarter more. A boiled egg is about {{kcal:one}} to 90 calories depending on its size.",
+        "reason": "Egg size: ICMR-NIN's 90 kcal fits a bigger egg than the 50 g one counted here, and USDA's egg carries a little more fat than IFCT's."
+      },
+      "judgement": [
+        "Egg weight is the Indian Nutrient Databank's household measure (1 egg = 50 g), the same as USDA's large egg.",
+        "No outside range is shown: a boiled egg bought from a stall is the same egg. An egg bhurji or omelette stall is a different dish, with its own page."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Egg, poultry, whole, raw (M001); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC056, boiled egg; household measure 1 egg = 50 g",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "USDA FoodData Central, Egg, whole, cooked, hard-boiled (173424)",
+          "url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+          "note": "1 large = 50 g; 155 kcal, 12.6 g protein and 10.6 g fat per 100 g",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: boiled egg 90 kcal",
+          "accessed": "2026-10-14"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 135,
+        "protein": 13,
+        "carbs": 0,
+        "fat": 9
+      }
+    },
+    {
+      "slug": "omelette",
+      "name": "Omelette",
+      "nameLower": "omelette",
+      "category": "eggs",
+      "aliases": [
+        "omelet",
+        "omlet",
+        "omlette",
+        "anda omelette",
+        "egg omelette",
+        "masala omelette",
+        "plain omelette",
+        "2 egg omelette",
+        "ऑमलेट",
+        "आमलेट",
+        "ઓમલેટ"
+      ],
+      "updated": "2026-10-14",
+      "title": "Omelette calories: 1 egg, 2 eggs, home and stall",
+      "description": "A plain 2-egg omelette cooked in oil has about {{kcal:one}} calories and {{protein:one}} g of protein; a single-egg omelette about {{kcal:single}}. IFCT 2017 egg, USDA for the oil taken up.",
+      "answer": "A plain 2-egg omelette, with a tablespoon of milk and cooked in oil, has about {{kcal:one}} calories, with {{protein:one}} g of protein and {{fat:one}} g of fat. A single-egg omelette is about {{kcal:single}}. The eggs are about two thirds of it and the oil the rest. A stall or dhaba masala omelette runs about {{outLo}} to {{outHi}}.",
+      "intro": [
+        "An omelette is beaten egg cooked flat on a tawa or in a pan, plain or with onion, green chilli, tomato and coriander as a masala omelette. In India it comes with bread or pav, at home, at the railway stall and at the egg cart.",
+        "Most of the oil poured into the pan stays there. The number here counts only what the omelette takes up, set from a lab analysis, not the whole spoonful."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Made as below. A 3-egg omelette is one and a half times the recipe.",
+      "recipe": {
+        "label": "Recipe: a plain 2-egg omelette with a tablespoon of milk, cooked in oil",
+        "ingredients": [
+          {
+            "id": "egg",
+            "g": 100,
+            "note": "2 eggs"
+          },
+          {
+            "id": "milk_cow",
+            "g": 15,
+            "note": "1 tablespoon"
+          },
+          {
+            "id": "black_pepper",
+            "g": 0.5,
+            "note": "to taste"
+          },
+          {
+            "id": "oil",
+            "g": 7.6,
+            "note": "Taken up in cooking: set from USDA's analysed omelette made with oil (15.8% fat), about 1⅔ teaspoons"
+          }
+        ],
+        "cookedYieldG": 110,
+        "yieldNote": "USDA's omelette made with oil weighs 55 g per egg"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 omelette (2 eggs)",
+          "short": "an omelette",
+          "fraction": 1,
+          "cookedGrams": 110,
+          "kcal": 215,
+          "protein": 14,
+          "carbs": 1,
+          "fat": 17
+        },
+        {
+          "id": "single",
+          "label": "1 single-egg omelette",
+          "short": "a 1-egg omelette",
+          "fraction": 0.5,
+          "cookedGrams": 55,
+          "kcal": 105,
+          "protein": 7,
+          "carbs": 0,
+          "fat": 9
+        },
+        {
+          "id": "three",
+          "label": "1 omelette (3 eggs)",
+          "short": "a 3-egg omelette",
+          "fraction": 1.5,
+          "cookedGrams": 165,
+          "kcal": 320,
+          "protein": 21,
+          "carbs": 1,
+          "fat": 26
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Stall or dhaba masala omelette",
+        "caption": "One 2-egg omelette. The outside range has 1.5 to 2.5 times the oil, plus up to 50 g of onion and tomato.",
+        "fatFactor": [
+          1.5,
+          2.5
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "onion",
+            "g": [
+              0,
+              25
+            ]
+          },
+          {
+            "id": "tomato",
+            "g": [
+              0,
+              25
+            ]
+          }
+        ],
+        "basis": "No analysed value for a stall omelette was found. ICMR-NIN's fried egg at 160 kcal implies roughly 10 g of oil per egg, about 2.5 times the oil taken up here, so 1.5 to 2.5 times the oil is a stated assumption. Onion and tomato up to 25 g each cover a masala omelette.",
+        "text": [
+          "A stall omelette is cooked in a generous pour of oil or butter on a flat tawa, usually as a masala omelette with onion, green chilli and tomato, and often served with bread or pav.",
+          "No lab has measured an Indian stall omelette, so the range below allows 1.5 to 2.5 times the oil of this recipe, plus the onion and tomato. Bread is extra."
+        ],
+        "kcalRange": [
+          250,
+          330
+        ],
+        "fatRange": [
+          21,
+          29
+        ]
+      },
+      "changes": [
+        "The oil taken up. This omelette takes up about 2 teaspoons for 2 eggs; a stall omelette can take up 2 to 3 times that.",
+        "The number of eggs: about {{kcal:single}} for one egg, {{kcal:one}} for two and {{kcal:three}} for three.",
+        "Butter instead of oil changes little per teaspoon; cheese inside changes a lot.",
+        "Onion, tomato and chilli in a masala omelette add about 10 calories. Bread adds more: white bread has about {{ing:bread_white}} calories per 100 g.",
+        "An egg-white omelette drops most of the fat and about half the protein."
+      ],
+      "method": [
+        "The recipe is the plain omelette in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 2 eggs beaten with a tablespoon of milk and pepper. The textbook fries it in 2 tablespoons of fat, most of which stays in the pan, so the oil eaten is set from USDA's analysed omelette made with oil, which is 15.8% fat: about 7.6 g for 2 eggs. Egg, milk and pepper values are from IFCT 2017.",
+        "The cooked weight is USDA's 55 g per egg, so a 2-egg omelette is about 110 g."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in a 2 egg omelette?",
+          "a": "About {{kcal:one}} calories for a plain 2-egg omelette cooked in oil, with {{protein:one}} g of protein."
+        },
+        {
+          "q": "How many calories are in a 1 egg omelette?",
+          "a": "About {{kcal:single}} calories, half of the 2-egg omelette. ICMR-NIN's fried egg is 160, because it carries more oil."
+        },
+        {
+          "q": "How many calories are in a 3 egg omelette?",
+          "a": "About {{kcal:three}} calories, with {{protein:three}} g of protein."
+        },
+        {
+          "q": "How much protein is in an omelette?",
+          "a": "About {{protein:one}} g in a 2-egg omelette and {{protein:single}} g in a single-egg one. The milk adds a little."
+        },
+        {
+          "q": "How many calories are in a masala omelette from a stall?",
+          "a": "About {{outLo}} to {{outHi}} for a 2-egg masala omelette, with more oil and some onion and tomato. Bread or pav is extra."
+        }
+      ],
+      "related": [
+        "boiled-egg",
+        "egg-bhurji",
+        "egg-curry",
+        "besan-chilla"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: fried egg, 1",
+          "portionId": "single",
+          "kcal": 160,
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "A fried egg, the closest NIN item; NIN gives no weight or oil.",
+          "ours": 107,
+          "differencePct": 50
+        },
+        {
+          "source": "USDA FoodData Central 2707200, egg omelet made with oil",
+          "kcalPer100g": 192,
+          "url": "https://fdc.nal.usda.gov/food-details/2707200/nutrients",
+          "note": "The analysis the oil is set from; USDA's eggs carry slightly more fat than IFCT's.",
+          "ours": 195,
+          "differencePct": -1
+        }
+      ],
+      "range": {
+        "text": "ICMR-NIN counts a fried egg at 160 calories, against about {{kcal:single}} for a single-egg omelette here. The gap is oil: a fried egg sits in more of it than an omelette takes up. USDA's analysed omelette made with oil agrees with this page within 2% per 100 g. Depending on the oil, a one-egg omelette is about {{kcal:single}} to 160 calories.",
+        "reason": "ICMR-NIN's fried egg (160 kcal) has more oil than a single-egg omelette made this way; USDA's analysed omelette (192 kcal per 100 g) agrees within 2%."
+      },
+      "judgement": [
+        "The textbook fries the omelette in 2 tablespoons of fat, most of which stays in the pan; the oil eaten is set from USDA's analysed omelette instead.",
+        "An omelette is counted as 2 eggs, as in the textbook. A single-egg omelette is half."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Egg (M001), milk, whole, cow (L002), black pepper (G031), groundnut oil (T005); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC061, plain omelette",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Egg omelet or scrambled egg, made with oil (2707200)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707200/nutrients",
+          "note": "192 kcal and 15.8 g fat per 100 g; 1 egg = 55 g",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: fried egg 160 kcal",
+          "accessed": "2026-10-14"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 195,
+        "protein": 13,
+        "carbs": 1,
+        "fat": 16
+      }
+    },
+    {
+      "slug": "egg-bhurji",
+      "name": "Egg bhurji",
+      "nameLower": "egg bhurji",
+      "category": "eggs",
+      "aliases": [
+        "anda bhurji",
+        "egg bhurjee",
+        "anda burji",
+        "egg burji",
+        "ande ki bhurji",
+        "scrambled egg",
+        "scrambled eggs",
+        "अंडा भुर्जी",
+        "अंडे की भुर्जी",
+        "ઈંડા ભુરજી"
+      ],
+      "updated": "2026-10-14",
+      "title": "Egg bhurji calories: per katori, 1 egg and 2 eggs",
+      "description": "Egg bhurji made with a teaspoon of butter has about {{kcal:egg}} calories per egg, {{kcal:two}} for 2 eggs and {{kcal:k200}} in a 200 ml katori. IFCT 2017 egg, USDA butter.",
+      "answer": "Home egg bhurji, one egg scrambled with a tablespoon of milk and a teaspoon of butter, has about {{kcal:egg}} calories per egg, with {{protein:egg}} g of protein. Two eggs come to about {{kcal:two}}, and a 200 ml katori, a little over 2 eggs, about {{kcal:k200}}. Stall anda bhurji, with more butter and onion and tomato, runs about {{outLo}} to {{outHi}} a katori.",
+      "intro": [
+        "Egg bhurji is scrambled egg the Indian way: eggs broken into a pan of onion, green chilli and tomato softened in butter or oil, stirred until they set in small pieces. It's a breakfast and tiffin dish at home and a late-night one at the anda bhurji cart, eaten with pav or roti.",
+        "The textbook version counted here is plain scrambled egg with butter. Onion and tomato add little; the butter or oil in the pan is what moves the number."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Made as below, with the butter counted in. A 200 ml katori holds a little over 2 eggs.",
+      "recipe": {
+        "label": "Recipe: one egg scrambled with a tablespoon of milk and a teaspoon of butter",
+        "ingredients": [
+          {
+            "id": "egg",
+            "g": 50,
+            "note": "1 egg"
+          },
+          {
+            "id": "milk_cow",
+            "g": 15,
+            "note": "1 tablespoon"
+          },
+          {
+            "id": "butter",
+            "g": 4.7,
+            "note": "1 teaspoon"
+          },
+          {
+            "id": "black_pepper",
+            "g": 0.5,
+            "note": "to taste"
+          }
+        ],
+        "cookedYieldG": 55,
+        "yieldNote": "USDA's scrambled egg weighs 55 g per egg",
+        "densityGPerMl": 0.57,
+        "densityNote": "USDA's scrambled egg: 135 g per cup (236.6 ml)"
+      },
+      "portions": [
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 114,
+          "kcal": 235,
+          "protein": 15,
+          "carbs": 2,
+          "fat": 19
+        },
+        {
+          "id": "egg",
+          "label": "1 egg, scrambled",
+          "short": "1 egg",
+          "fraction": 1,
+          "cookedGrams": 55,
+          "kcal": 115,
+          "protein": 7,
+          "carbs": 1,
+          "fat": 9
+        },
+        {
+          "id": "two",
+          "label": "2 eggs, scrambled",
+          "short": "2 eggs",
+          "fraction": 2,
+          "cookedGrams": 110,
+          "kcal": 225,
+          "protein": 14,
+          "carbs": 2,
+          "fat": 18
+        },
+        {
+          "id": "pav",
+          "label": "1 katori of bhurji with 2 pav (43 g each)",
+          "short": "a katori with 2 pav",
+          "ml": 200,
+          "add": [
+            {
+              "id": "pav",
+              "g": 86
+            }
+          ],
+          "cookedGrams": 114,
+          "kcal": 500,
+          "protein": 24,
+          "carbs": 45,
+          "fat": 24
+        }
+      ],
+      "mealsCaption": "A 200 ml katori of bhurji; rotis are medium, 30 g atta each; pav are 43 g each, plain.",
+      "meals": [
+        {
+          "id": "with_roti",
+          "label": "Egg bhurji with 2 rotis",
+          "expr": "egg-bhurji:k200+2*roti:medium",
+          "kcal": 425,
+          "protein": 21,
+          "carbs": 40,
+          "fat": 20
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Anda bhurji stall or dhaba",
+        "caption": "One 200 ml katori. The outside range has 1.5 to 2.5 times the butter, plus up to 50 g of onion and tomato.",
+        "fatFactor": [
+          1.5,
+          2.5
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "onion",
+            "g": [
+              0,
+              25
+            ]
+          },
+          {
+            "id": "tomato",
+            "g": [
+              0,
+              25
+            ]
+          }
+        ],
+        "basis": "No analysed value for stall bhurji was found. Stalls cook in a generous pour of butter or oil and add onion and tomato; 1.5 to 2.5 times this recipe's butter and up to 25 g each of onion and tomato per katori are stated assumptions.",
+        "text": [
+          "Anda bhurji from a cart or dhaba is cooked in a lot more butter or oil than this, usually with a good amount of onion, tomato and masala, and served with 2 pav that are often buttered too.",
+          "No lab has measured a stall bhurji, so the range below allows 1.5 to 2.5 times this recipe's butter per katori, plus the onion and tomato. The pav are extra: see the table above."
+        ],
+        "kcalRange": [
+          270,
+          355
+        ],
+        "fatRange": [
+          23,
+          31
+        ]
+      },
+      "changes": [
+        "The butter or oil. This recipe uses a teaspoon of butter per egg; a second teaspoon adds about 35 calories.",
+        "The number of eggs: about {{kcal:egg}} for one egg, {{kcal:two}} for two.",
+        "Pav or roti on the side. A katori of bhurji with 2 plain pav is about {{kcal:pav}}; with 2 medium rotis, about {{kcal:with_roti}}.",
+        "Onion, tomato and green chilli add about 10 calories for 50 g. Cheese on top adds far more.",
+        "Milk makes the bhurji softer and adds about {{ing:milk_cow}} calories per 100 ml, so a tablespoon is about 10."
+      ],
+      "method": [
+        "The recipe is the scrambled egg (ande ki bhurji) in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): one egg with a tablespoon of milk, a teaspoon of butter and pepper. Egg, milk and pepper values are from IFCT 2017; butter from USDA, since IFCT 2017 has no butter.",
+        "The cooked weight is USDA's 55 g per scrambled egg, and a katori is filled at 0.57 g per ml, USDA's 135 g per cup of scrambled egg, so a 200 ml katori holds about {{g:k200}} g. Pav values are IFCT 2017's bread, 43 g each as on the site's vada pav page."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in egg bhurji?",
+          "a": "About {{kcal:egg}} per egg made with a teaspoon of butter, {{kcal:two}} for 2 eggs, and {{kcal:k200}} in a 200 ml katori."
+        },
+        {
+          "q": "How many calories are in 2 egg bhurji?",
+          "a": "About {{kcal:two}} calories, with {{protein:two}} g of protein and {{fat:two}} g of fat."
+        },
+        {
+          "q": "How many calories are in anda bhurji with pav?",
+          "a": "About {{kcal:pav}} for a 200 ml katori of bhurji with 2 plain pav of 43 g each. Buttered pav and a stall's extra butter push it higher: see the outside range."
+        },
+        {
+          "q": "How much protein is in egg bhurji?",
+          "a": "About {{protein:egg}} g per egg and {{protein:k200}} g in a 200 ml katori. With 2 rotis it's about {{protein:with_roti}} g."
+        },
+        {
+          "q": "Which has more calories, egg bhurji or an omelette?",
+          "a": "Per egg they are close: about {{kcal:egg}} for bhurji with a teaspoon of butter, against about {{kcal@omelette:single}} for a single-egg [omelette](/calories/omelette/) cooked in oil."
+        }
+      ],
+      "related": [
+        "omelette",
+        "boiled-egg",
+        "egg-curry",
+        "pav-bhaji"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "USDA FoodData Central 2707201, egg omelet or scrambled egg, made with butter",
+          "kcalPer100g": 182,
+          "url": "https://fdc.nal.usda.gov/food-details/2707201/nutrients",
+          "note": "USDA's eggs carry slightly more fat than IFCT's.",
+          "ours": 206,
+          "differencePct": -12
+        }
+      ],
+      "judgement": [
+        "The textbook's bhurji (ande ki bhurji) is plain scrambled egg. Onion, tomato and green chilli, often added at home, add little: about 10 kcal for 50 g of onion and tomato.",
+        "A 200 ml katori holds about 114 g of bhurji, a little over 2 eggs."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Egg (M001), milk, whole, cow (L002), black pepper (G031), and bread for the pav as on the site's vada pav page; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Butter, without salt (173430)",
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "717 kcal and 81 g fat per 100 g; 1 teaspoon = 4.7 g",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC059, scrambled egg (ande ki bhurji)",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Egg omelet or scrambled egg, made with butter (2707201)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707201/nutrients",
+          "note": "182 kcal per 100 g; 1 egg = 55 g; 1 cup = 135 g",
+          "accessed": "2026-10-14"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 205,
+        "protein": 13,
+        "carbs": 2,
+        "fat": 16
+      }
+    },
+    {
+      "slug": "chole-bhature",
+      "name": "Chole bhature",
+      "nameLower": "chole bhature",
+      "category": "street",
+      "aliases": [
+        "chhole bhature",
+        "chole bhatura",
+        "chana bhatura",
+        "chole bhature plate",
+        "छोले भटूरे",
+        "ચોલે ભટુરે"
+      ],
+      "updated": "2026-10-14",
+      "title": "Chole bhature calories: per plate, home and stall",
+      "description": "A plate of chole bhature, 2 home bhaturas with a 200 ml katori of chole, has about {{kcal:plate}} calories; 1 bhatura with half a katori about {{kcal:half}}. IFCT 2017, USDA.",
+      "answer": "A plate of chole bhature, 2 home-made bhaturas with a 200 ml katori of chole, has about {{kcal:plate}} calories, with {{protein:plate}} g of protein and {{fat:plate}} g of fat. One bhatura with half a katori of chole is about {{kcal:half}}. The frying oil in the bhaturas is the largest single share. At a stall, with oilier chole, a plate runs about {{outLo}} to {{outHi}}.",
+      "intro": [
+        "Chole bhature is Delhi and Punjab's heavyweight breakfast: spiced kabuli chana in a thick onion and tomato gravy, with puffed, deep-fried maida bhaturas, onion rings, a green chilli and pickle on the side. It's almost always eaten out, but it's made at home on Sundays too.",
+        "This page adds up the site's own [chole](/calories/chole/) and [bhatura](/calories/bhatura/) pages into one plate, so the plate's number is exactly the sum of its parts."
+      ],
+      "headlinePortion": "plate",
+      "portionsCaption": "Two bhaturas of about 27 g maida each, and one 200 ml katori of home chole. Onion, pickle and chilli add little.",
+      "recipe": {
+        "label": "Recipe: one plate, 2 bhaturas and a 200 ml katori of chole, each made as on the site's own page",
+        "ingredients": [
+          {
+            "id": "kabuli_chana",
+            "g": 39.6,
+            "note": "chole: dry weight, before soaking"
+          },
+          {
+            "id": "water",
+            "g": 52.28,
+            "note": "chole: taken up by the chana in soaking and cooking"
+          },
+          {
+            "id": "tomato",
+            "g": 49.5,
+            "note": "chole"
+          },
+          {
+            "id": "onion",
+            "g": 29.7,
+            "note": "chole"
+          },
+          {
+            "id": "ginger",
+            "g": 14.85,
+            "note": "chole"
+          },
+          {
+            "id": "garlic",
+            "g": 0.59,
+            "note": "chole"
+          },
+          {
+            "id": "curd",
+            "g": 4.95,
+            "note": "chole: 1 teaspoon"
+          },
+          {
+            "id": "oil",
+            "g": 8.91,
+            "note": "chole: 2 teaspoons"
+          },
+          {
+            "id": "maida",
+            "g": 53.34,
+            "note": "bhatura"
+          },
+          {
+            "id": "curd",
+            "g": 13.33,
+            "note": "bhatura"
+          },
+          {
+            "id": "sugar",
+            "g": 0.67,
+            "note": "bhatura: a pinch"
+          },
+          {
+            "id": "water",
+            "g": 16.67,
+            "note": "bhatura: to make a soft dough: an assumption, no calories"
+          },
+          {
+            "id": "oil",
+            "g": 19.33,
+            "note": "bhatura: taken up in frying: a stated assumption, so a bhatura is about 20% fat"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no cooked weight is known for the bhaturas, so the plate is counted as one portion"
+      },
+      "portions": [
+        {
+          "id": "plate",
+          "label": "1 plate (2 bhaturas, 1 katori chole)",
+          "short": "a plate",
+          "fraction": 1,
+          "cookedGrams": null,
+          "kcal": 635,
+          "protein": 15,
+          "carbs": 67,
+          "fat": 32
+        },
+        {
+          "id": "half",
+          "label": "1 bhatura with half a katori of chole",
+          "short": "half a plate",
+          "fraction": 0.5,
+          "cookedGrams": null,
+          "kcal": 315,
+          "protein": 8,
+          "carbs": 34,
+          "fat": 16
+        }
+      ],
+      "outside": {
+        "portionId": "plate",
+        "label": "Chole bhature stall or restaurant",
+        "caption": "One plate. The outside range adds the chole page's extra oil, 1 to 2 teaspoons; the bhaturas stay as they are.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "oil",
+            "g": [
+              4.5,
+              9
+            ]
+          }
+        ],
+        "basis": "No analysed value for a plate of chole bhature was found. The chole page's outside range uses 1.5 to 2 times its 2 teaspoons of oil, added here as 4.5 to 9 g of oil. The bhaturas are left as they are, because the two street bhaturas measured in the lab (see the bhatura page) held the same or less fat than the home bhatura counted here.",
+        "text": [
+          "Stall and restaurant chole is cooked with more oil, often with a film of it on top, while bhaturas vary from small village ones to large restaurant rounds.",
+          "No lab has measured a whole plate, so the range below adds the chole page's extra oil, 1 to 2 teaspoons, and keeps the bhaturas as they are: the street bhaturas that were measured held no more fat than this home one. A large restaurant bhatura can be bigger than either."
+        ],
+        "kcalRange": [
+          675,
+          715
+        ],
+        "fatRange": [
+          36,
+          41
+        ]
+      },
+      "changes": [
+        "The bhaturas. Each home bhatura is about {{kcal@bhatura:one}} calories, most of it frying oil, so a third bhatura adds about the same again.",
+        "The chole's oil. A 200 ml katori of home chole is about {{kcal@chole:k200}}; the stall version with 1.5 to 2 times the oil is about {{outLo@chole}} to {{outHi@chole}}.",
+        "The size of the bhatura. Street bhaturas measured in a lab ranged from 33 g to 52 g; a restaurant bhatura can be larger still.",
+        "The size of the katori: a 150 ml katori of chole is about {{kcal@chole:k150}}, a 250 ml one about {{kcal@chole:k250}}.",
+        "Onion, green chilli and a piece of pickle add under 20 calories. A lassi with it adds about {{kcal@lassi:glass}}."
+      ],
+      "method": [
+        "The plate is 2 bhaturas and one 200 ml katori of chole, each made exactly as on its own page: the chole from the kabuli channa curry in Basic Food Preparation (40 g of dry chana per katori, with tomato, onion, ginger, a teaspoon of curd and 2 teaspoons of oil) and the bhatura from a maida and curd dough with the frying oil taken up stated as an assumption. Values are from IFCT 2017, with USDA for the curd.",
+        "No cooked weight is given for the plate, so the portions are shares of it. The arithmetic for each part is on the [chole](/calories/chole/) and [bhatura](/calories/bhatura/) pages."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in a plate of chole bhature?",
+          "a": "About {{kcal:plate}} for 2 home bhaturas with a 200 ml katori of chole, and about {{outLo}} to {{outHi}} at a stall."
+        },
+        {
+          "q": "How many calories are in 2 bhature with chole?",
+          "a": "About {{kcal:plate}}: 2 bhaturas at {{kcal@bhatura:two}} plus a katori of chole at {{kcal@chole:k200}}."
+        },
+        {
+          "q": "How many calories are in 1 bhatura with chole?",
+          "a": "About {{kcal:half}} for one bhatura with half a katori of chole, or about {{sum:bhatura:one+chole:k200}} with a full 200 ml katori."
+        },
+        {
+          "q": "How much protein is in chole bhature?",
+          "a": "About {{protein:plate}} g in a plate, most of it from the chana."
+        },
+        {
+          "q": "Which has more calories, chole bhature or pav bhaji?",
+          "a": "Chole bhature, as a plate: about {{kcal:plate}} against about {{kcal@pav-bhaji:plate2}} for [pav bhaji](/calories/pav-bhaji/) with 2 butter pav."
+        }
+      ],
+      "related": [
+        "chole",
+        "bhatura",
+        "pav-bhaji",
+        "puri"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "A plate of 2 bhaturas and one 200 ml katori of chole is a stated assumption: no source was found for a standard plate. Onion, pickle and a green chilli on the side add little.",
+        "No independent analysed value for a plate of chole bhature was found in IFCT 2017, USDA FNDDS or NIN's Annexure 8, so there is no cross-check here. The parts are cross-checked on their own pages."
+      ],
+      "sources": [
+        {
+          "title": "Writeonslate, Chole calories",
+          "url": "https://writeonslate.com/calories/chole/",
+          "note": "The chole recipe, its sources and its outside range",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "Writeonslate, Bhatura calories",
+          "url": "https://writeonslate.com/calories/bhatura/",
+          "note": "The bhatura recipe and its sources, including the oil taken up in frying and the measured street bhaturas",
+          "accessed": "2026-10-14"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "curd",
+      "name": "Curd",
+      "nameLower": "curd",
+      "category": "dairy",
+      "aliases": [
+        "dahi",
+        "plain curd",
+        "yogurt",
+        "yoghurt",
+        "dahin",
+        "home-set curd",
+        "दही",
+        "દહીં"
+      ],
+      "updated": "2026-10-14",
+      "title": "Curd (dahi) calories: per katori and per 100 g",
+      "description": "A 200 ml katori of whole-milk curd has about {{kcal:k200}} calories, 100 g about {{kcal:g100}}. With a teaspoon of sugar, about {{kcal:k200_sugar}}. From USDA's plain whole-milk yogurt.",
+      "answer": "A 200 ml katori of plain curd set from whole milk has about {{kcal:k200}} calories, with {{protein:k200}} g of protein and {{fat:k200}} g of fat. A 150 ml katori is about {{kcal:k150}} and 100 g about {{kcal:g100}}. With a teaspoon of sugar stirred in, a 200 ml katori is about {{kcal:k200_sugar}}. Curd from toned milk has about two thirds of the fat.",
+      "intro": [
+        "Curd, dahi in most of north India, is milk set overnight with a spoon of the last batch. It's on the thali as it is, sweetened as meethi dahi, whisked into [chaas](/calories/chaas/) and [lassi](/calories/lassi/), and stirred into [raita](/calories/raita/) and [curd rice](/calories/curd-rice/).",
+        "Curd has the calories of the milk it was set from, so the milk matters: full-cream, whole or toned. The numbers here are for whole milk."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Plain curd from whole milk, at 1.04 g per ml. Sugar is a level teaspoon, 4.2 g.",
+      "recipe": {
+        "label": "Plain curd (dahi) made from whole milk",
+        "ingredients": [
+          {
+            "id": "curd",
+            "g": 100
+          }
+        ],
+        "cookedYieldG": 100,
+        "yieldNote": "curd as it is",
+        "densityGPerMl": 1.04,
+        "densityNote": "USDA's plain whole-milk yogurt: 245 g per cup (236.6 ml)"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 156,
+          "kcal": 95,
+          "protein": 5,
+          "carbs": 7,
+          "fat": 5
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 208,
+          "kcal": 125,
+          "protein": 7,
+          "carbs": 10,
+          "fat": 7
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 60,
+          "protein": 3,
+          "carbs": 5,
+          "fat": 3
+        },
+        {
+          "id": "k250",
+          "label": "1 katori (250 ml)",
+          "short": "a 250 ml katori",
+          "ml": 250,
+          "cookedGrams": 260,
+          "kcal": 160,
+          "protein": 9,
+          "carbs": 12,
+          "fat": 8
+        },
+        {
+          "id": "k200_sugar",
+          "label": "1 katori (200 ml), 1 tsp sugar",
+          "short": "a 200 ml katori with 1 tsp sugar",
+          "ml": 200,
+          "add": [
+            {
+              "id": "sugar",
+              "g": 4.2
+            }
+          ],
+          "cookedGrams": 208,
+          "kcal": 145,
+          "protein": 7,
+          "carbs": 14,
+          "fat": 7
+        }
+      ],
+      "changes": [
+        "The milk. Whole-milk curd is about {{kcal:g100}} calories per 100 g; curd from toned milk has about two thirds of the fat, and full-cream buffalo-milk curd more.",
+        "Sugar: a level teaspoon adds about {{ing:sugar}} calories per 100 g of sugar, so about 15 to 20 per teaspoon, and most kitchen spoons are heaped.",
+        "Hung curd and Greek-style curd are thicker, so a katori of them holds more milk solids and more calories.",
+        "Packet curd marked as low fat or made from toned milk sits below these values; check the label.",
+        "A katori is a volume: a 250 ml katori of curd is about {{kcal:k250}}, a 150 ml one about {{kcal:k150}}."
+      ],
+      "method": [
+        "IFCT 2017 has no entry for curd, so the values are USDA's plain whole-milk yogurt: 61 calories, 3.5 g of protein and 3.3 g of fat per 100 g, the same values the site's curd rice, raita, chaas and lassi pages use. A katori is filled at 1.04 g per ml, USDA's 245 g per cup.",
+        "Sugar values are IFCT 2017's; a level teaspoon is 4.2 g, as on the site's chai page."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of curd?",
+          "a": "About {{kcal:k200}} in a 200 ml katori of whole-milk curd, about {{kcal:k150}} in a 150 ml one and about {{kcal:k250}} in a 250 ml one."
+        },
+        {
+          "q": "How many calories are in 100 g of curd?",
+          "a": "About {{kcal:g100}} calories, with {{protein:g100}} g of protein and {{fat:g100}} g of fat, for curd set from whole milk."
+        },
+        {
+          "q": "How many calories are in curd with sugar?",
+          "a": "About {{kcal:k200_sugar}} for a 200 ml katori with a level teaspoon of sugar. Each extra teaspoon adds about the same again."
+        },
+        {
+          "q": "How much protein is in curd?",
+          "a": "About {{protein:k200}} g in a 200 ml katori and {{protein:g100}} g per 100 g. Hung curd has more per katori because the water has been drained off."
+        },
+        {
+          "q": "Which has fewer calories, curd or milk?",
+          "a": "They are about the same per 100 g, because curd is set from milk without adding anything: whole milk is about {{ing:milk_cow}} calories per 100 ml and curd about {{kcal:g100}} per 100 g. Toned milk and its curd are lower."
+        }
+      ],
+      "related": [
+        "raita",
+        "chaas",
+        "lassi",
+        "curd-rice"
+      ],
+      "useCase": {
+        "href": "/for/vegetarians/",
+        "label": "Calorie counting for vegetarians"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "IFCT 2017 has no curd, so the values are USDA's plain whole-milk yogurt, as on the site's curd rice and raita pages. Curd from toned milk has about two thirds of the fat.",
+        "No cross-check is listed: the only analysed value for plain curd is USDA's yogurt, which is the value used, and IFCT 2017 and NIN's Annexure 8 have no plain curd entry that states a weight. Shop curd labels in India commonly list 60 to 100 kcal per 100 g depending on the milk, which brackets this value.",
+        "No outside range is shown: curd served with a meal outside is the same curd, set from whatever milk the kitchen uses."
+      ],
+      "sources": [
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "61 kcal, 3.47 g protein and 3.25 g fat per 100 g; 245 g per cup (236.6 ml)",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Sugar, for the sweetened katori; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 60,
+        "protein": 3,
+        "carbs": 5,
+        "fat": 3
+      }
+    },
+    {
+      "slug": "raita",
+      "name": "Cucumber raita",
+      "nameLower": "cucumber raita",
+      "category": "dairy",
+      "aliases": [
+        "raita",
+        "cucumber raita",
+        "kheera raita",
+        "kakdi raita",
+        "khira raita",
+        "mixed raita",
+        "रायता",
+        "खीरे का रायता",
+        "રાયતું",
+        "કાકડી નું રાયતું"
+      ],
+      "updated": "2026-10-14",
+      "title": "Cucumber raita calories: per katori and per bowl",
+      "description": "A 200 ml katori of cucumber raita, whole-milk curd with grated cucumber and roasted cumin, has about {{kcal:k200}} calories; a 150 ml katori about {{kcal:k150}}.",
+      "answer": "A 200 ml katori of cucumber raita, whole-milk curd with grated cucumber, green chilli and roasted cumin, has about {{kcal:k200}} calories, with {{protein:k200}} g of protein and {{fat:k200}} g of fat. A 150 ml katori is about {{kcal:k150}}, and the textbook bowl of 100 g curd and 50 g cucumber about {{kcal:bowl}}. Boondi raita has more, because the boondi is fried.",
+      "intro": [
+        "Raita is curd whisked with a vegetable or fruit and spiced with roasted cumin and chilli: cucumber, onion, tomato, boondi, pineapple, lauki. It goes with biryani, pulao, parathas and any thali, and cools a spicy plate.",
+        "Cucumber raita is mostly curd by weight and almost entirely curd by calories, so the katori has slightly fewer calories than the same katori of plain curd."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Two parts curd to one part cucumber, as below. A textbook bowl is the whole recipe.",
+      "recipe": {
+        "label": "Recipe: one bowl, 100 g curd and 50 g cucumber with roasted cumin",
+        "ingredients": [
+          {
+            "id": "curd",
+            "g": 100
+          },
+          {
+            "id": "cucumber",
+            "g": 50
+          },
+          {
+            "id": "green_chilli",
+            "g": 1.67,
+            "note": "half a chilli"
+          },
+          {
+            "id": "cumin",
+            "g": 0.26,
+            "note": "an eighth of a teaspoon, roasted and ground"
+          },
+          {
+            "id": "chilli_powder",
+            "g": 0.34,
+            "note": "an eighth of a teaspoon"
+          }
+        ],
+        "cookedYieldG": 152.27,
+        "yieldNote": "the ingredients added together, as the Indian Nutrient Databank does",
+        "densityGPerMl": 1,
+        "densityNote": "curd with grated cucumber taken as 1 g per ml; a stated assumption"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 katori (150 ml)",
+          "short": "a 150 ml katori",
+          "ml": 150,
+          "cookedGrams": 150,
+          "kcal": 70,
+          "protein": 4,
+          "carbs": 7,
+          "fat": 3
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a 200 ml katori",
+          "ml": 200,
+          "cookedGrams": 200,
+          "kcal": 95,
+          "protein": 5,
+          "carbs": 9,
+          "fat": 5
+        },
+        {
+          "id": "bowl",
+          "label": "1 textbook bowl",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 152,
+          "kcal": 75,
+          "protein": 4,
+          "carbs": 7,
+          "fat": 3
+        }
+      ],
+      "changes": [
+        "The curd. Two thirds of the raita by weight and nearly all its calories; whole-milk curd is about {{kcal@curd:g100}} per 100 g, toned-milk curd less.",
+        "Boondi. Fried besan drops take the same katori well above this; the besan and the frying oil are what add up.",
+        "The share of cucumber: more cucumber, fewer calories per katori, since cucumber has only {{ing:cucumber}} calories per 100 g.",
+        "Sugar, which some kitchens add to raita: a level teaspoon is about 15 to 20 calories.",
+        "A katori is a volume: a 150 ml katori is about {{kcal:k150}} and a 200 ml one {{kcal:k200}}."
+      ],
+      "method": [
+        "The recipe is the cucumber raita in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g of curd and 50 g of cucumber with half a green chilli, roasted cumin and chilli powder. Cucumber, chilli and spice values are from IFCT 2017; curd values are USDA's plain whole-milk yogurt, since IFCT 2017 has no curd.",
+        "The weight is the ingredients added together, as the databank does, and a katori is filled at 1 g per ml, a stated assumption for curd with grated cucumber."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of raita?",
+          "a": "About {{kcal:k200}} in a 200 ml katori of cucumber raita, and about {{kcal:k150}} in a 150 ml one."
+        },
+        {
+          "q": "How many calories are in cucumber raita?",
+          "a": "About {{kcal:bowl}} for the textbook bowl of 100 g curd and 50 g cucumber, or about {{per100}} per 100 g."
+        },
+        {
+          "q": "Is raita lower in calories than plain curd?",
+          "a": "A little, for the same katori: about {{kcal:k200}} against about {{kcal@curd:k200}} for a 200 ml katori of [plain curd](/calories/curd/), because the cucumber takes up room."
+        },
+        {
+          "q": "How much protein is in raita?",
+          "a": "About {{protein:k200}} g in a 200 ml katori, all of it from the curd."
+        },
+        {
+          "q": "How many calories are in biryani with raita?",
+          "a": "A plate of [veg biryani](/calories/veg-biryani/) with a 150 ml katori of cucumber raita is about {{sum:veg-biryani:plate+raita:k150}} calories; with [chicken biryani](/calories/chicken-biryani/), about {{sum:chicken-biryani:plate+raita:k150}}."
+        }
+      ],
+      "related": [
+        "curd",
+        "veg-biryani",
+        "chicken-biryani",
+        "pulao"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Boondi raita has more: the textbook's boondi (gram flour drops, deep-fried) adds besan and frying oil, which this cucumber raita doesn't have.",
+        "No cross-check is listed: no analysed value for cucumber raita with a stated weight was found in IFCT 2017, NIN's Annexure 8 or USDA FNDDS. The curd, which is nearly all of the calories, is USDA's analysed yogurt.",
+        "No outside range is shown: restaurant raita is the same curd and cucumber in whatever proportion the kitchen uses; boondi raita is a different recipe."
+      ],
+      "sources": [
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd values: 61 kcal and 3.25 g fat per 100 g",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Cucumber, green, elongate (D043), green chilli (G008), cumin (G025); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC273, cucumber raita",
+          "accessed": "2026-10-14"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 50,
+        "protein": 3,
+        "carbs": 4,
+        "fat": 2
+      }
+    },
+    {
+      "slug": "maggi",
+      "name": "Maggi",
+      "nameLower": "Maggi",
+      "category": "street",
+      "aliases": [
+        "maggi noodles",
+        "maggie",
+        "maggi masala",
+        "masala maggi",
+        "2 minute noodles",
+        "instant noodles",
+        "मैगी",
+        "મેગી"
+      ],
+      "updated": "2026-10-14",
+      "title": "Maggi calories: 1 pack, with egg, butter or vegetables",
+      "description": "A 70 g pack of Maggi masala noodles has about {{kcal:pack}} calories; with an egg about {{kcal:egg}}, with a teaspoon of butter about {{kcal:butter}}. From the maker's label.",
+      "answer": "One 70 g pack of Maggi 2-Minute Masala Noodles, cooked in water with its tastemaker, has about {{kcal:pack}} calories, with {{protein:pack}} g of protein, {{carbs:pack}} g of carbohydrate and {{fat:pack}} g of fat. Two packs are about {{kcal:two}}. An egg stirred in makes it about {{kcal:egg}}, a teaspoon of butter about {{kcal:butter}}, and a Maggi point's version runs about {{outLo}} to {{outHi}}.",
+      "intro": [
+        "Maggi is the instant noodle India grew up on: a dried noodle cake and a masala tastemaker, cooked in a cup and a half of water for two minutes. At home it gets an egg or vegetables; at the hostel and the hill-station Maggi point it gets butter, cheese and a lot of onion.",
+        "The noodle cake is fried before it's dried, which is why a 70 g pack has more fat than the same weight of plain noodles. Water adds nothing, so the cooked bowl has the calories of the dry pack."
+      ],
+      "headlinePortion": "pack",
+      "portionsCaption": "The pack as sold, cooked in water. Egg, butter and vegetables are added as listed.",
+      "recipe": {
+        "label": "One 70 g pack of Maggi 2-Minute Masala Noodles with its tastemaker, cooked in water as the pack says",
+        "ingredients": [
+          {
+            "id": "instant_noodles",
+            "g": 70,
+            "note": "the pack: 1 serve = 70 g"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "cooked in water, which adds weight and no calories"
+      },
+      "portions": [
+        {
+          "id": "pack",
+          "label": "1 pack (70 g)",
+          "short": "a pack",
+          "fraction": 1,
+          "cookedGrams": null,
+          "kcal": 270,
+          "protein": 6,
+          "carbs": 42,
+          "fat": 9
+        },
+        {
+          "id": "two",
+          "label": "2 packs",
+          "short": "2 packs",
+          "fraction": 2,
+          "cookedGrams": null,
+          "kcal": 540,
+          "protein": 11,
+          "carbs": 83,
+          "fat": 18
+        },
+        {
+          "id": "egg",
+          "label": "1 pack with 1 egg",
+          "short": "a pack with an egg",
+          "fraction": 1,
+          "add": [
+            {
+              "id": "egg",
+              "g": 50
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 335,
+          "protein": 12,
+          "carbs": 42,
+          "fat": 13
+        },
+        {
+          "id": "butter",
+          "label": "1 pack, 1 tsp butter (5 g)",
+          "short": "a pack with 1 tsp butter",
+          "fraction": 1,
+          "add": [
+            {
+              "id": "butter",
+              "g": 5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 305,
+          "protein": 6,
+          "carbs": 42,
+          "fat": 13
+        },
+        {
+          "id": "veg",
+          "label": "1 pack with vegetables (25 g each of onion, carrot and capsicum)",
+          "short": "a pack with vegetables",
+          "fraction": 1,
+          "add": [
+            {
+              "id": "onion",
+              "g": 25
+            },
+            {
+              "id": "carrot",
+              "g": 25
+            },
+            {
+              "id": "capsicum",
+              "g": 25
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 295,
+          "protein": 7,
+          "carbs": 46,
+          "fat": 9
+        }
+      ],
+      "outside": {
+        "portionId": "pack",
+        "label": "Maggi point or canteen",
+        "caption": "One pack. The outside range adds 1 to 2 teaspoons of butter and up to 50 g of onion and tomato.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1
+        ],
+        "extra": [
+          {
+            "id": "butter",
+            "g": [
+              5,
+              10
+            ]
+          },
+          {
+            "id": "onion",
+            "g": [
+              25,
+              25
+            ]
+          },
+          {
+            "id": "tomato",
+            "g": [
+              0,
+              25
+            ]
+          }
+        ],
+        "basis": "No analysed value for stall Maggi was found. A stall or canteen cooks the same pack in butter with onion and often tomato; 1 to 2 teaspoons of butter and 25 to 50 g of vegetables are stated assumptions. Cheese, where added, is extra.",
+        "text": [
+          "A Maggi point cooks the same pack, but starts with butter and onion in the pan, often adds tomato and chilli, and may finish with a slice of cheese or a second tastemaker.",
+          "No lab has measured a stall Maggi, so the range below adds 1 to 2 teaspoons of butter and 25 to 50 g of onion and tomato to the pack. Cheese is extra."
+        ],
+        "kcalRange": [
+          315,
+          355
+        ],
+        "fatRange": [
+          13,
+          17
+        ]
+      },
+      "changes": [
+        "What goes in with it. An egg adds about {{kcal@boiled-egg:one}} calories, a teaspoon of butter about 35, a slice of cheese more.",
+        "The number of packs: {{kcal:pack}} for one, {{kcal:two}} for two. Family packs are weighed in multiples of the same noodle.",
+        "The variety. Atta noodles, oats noodles and the cup versions have their own labels; the values here are for the masala pack.",
+        "Vegetables add little: a pack with 75 g of onion, carrot and capsicum is about {{kcal:veg}}, against {{kcal:pack}} plain.",
+        "Leaving some of the tastemaker out changes the salt far more than the calories."
+      ],
+      "method": [
+        "The values are Nestlé India's own for Maggi 2-Minute Masala Noodles, as published on maggi.in per 100 g of the product as sold, noodle cake and tastemaker together: 384 calories, 8.2 g of protein, 59.6 g of carbohydrate and 12.5 g of fat. A single pack sold in India is 70 g, so one pack is 0.7 of those values. No cooked weight is used, because the water adds weight and no calories.",
+        "Egg, onion, carrot and capsicum values are IFCT 2017's; butter is USDA's, since IFCT 2017 has no butter."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 packet of Maggi?",
+          "a": "About {{kcal:pack}} for a 70 g pack of masala noodles cooked in water, with {{protein:pack}} g of protein and {{fat:pack}} g of fat."
+        },
+        {
+          "q": "How many calories are in Maggi with egg?",
+          "a": "About {{kcal:egg}} calories for one pack with one egg of about 50 g stirred in, with {{protein:egg}} g of protein."
+        },
+        {
+          "q": "How many calories are in 2 packets of Maggi?",
+          "a": "About {{kcal:two}} calories, with {{carbs:two}} g of carbohydrate."
+        },
+        {
+          "q": "How many calories are in Maggi with butter and vegetables?",
+          "a": "About {{kcal:butter}} with a teaspoon of butter, and about {{kcal:veg}} with 75 g of onion, carrot and capsicum. A Maggi point's version with more butter is about {{outLo}} to {{outHi}}."
+        },
+        {
+          "q": "How much protein is in Maggi?",
+          "a": "About {{protein:pack}} g in a pack, from the maida. An egg takes it to about {{protein:egg}} g."
+        }
+      ],
+      "related": [
+        "momos",
+        "vada-pav",
+        "samosa",
+        "boiled-egg"
+      ],
+      "useCase": {
+        "href": "/for/office-canteen-tiffin/",
+        "label": "Calories in office canteen food and tiffin"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Values are Nestlé India's own, per 100 g as sold (noodle cake and tastemaker). maggi.in lists a 75 g serve; the pack label says 70 g, which is used here.",
+        "Butter, cheese or vegetables added while cooking are extra: a teaspoon of butter adds about 35 kcal.",
+        "No independent analysed value for Maggi exists; the only values are Nestlé India's own, so there is no cross-check. maggi.in lists a 75 g serve at 288 calories, while the single pack sold in India weighs 70 g, which is what is counted here. The Open Food Facts record for this pack carries only a photo of the label, so it isn't cited."
+      ],
+      "sources": [
+        {
+          "title": "Nestlé India, Maggi 2-Minute Noodles",
+          "url": "https://www.maggi.in/en/product/maggi-2-minute-noodles/",
+          "note": "Per 100 g: 384 kcal, 8.2 g protein, 59.6 g carbohydrate, 1.8 g total sugars, 12.5 g fat; serve listed as 75 g",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Egg (M001), onion (G017), carrot and capsicum; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-11"
+        },
+        {
+          "title": "USDA FoodData Central, Butter, without salt (173430)",
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "717 kcal per 100 g; 1 teaspoon taken as 5 g, as on the site's paratha pages",
+          "accessed": "2026-10-14"
         }
       ],
       "per100gCooked": null

@@ -99,6 +99,17 @@ check("aloo paratha with 1 tbsp butter", [{ id: "aloo-paratha", qty: 1, portion:
 check("roti\ndal\nrice", [{ id: "roti", qty: 1, portion: "medium" }, { id: "dal-tadka", qty: 1 }, { id: "plain-rice", qty: 1 }]);
 check("Rotis 2 & ek cup chai", [{ id: "roti", qty: 2, portion: "two" }, { id: "masala-chai", qty: 1, portion: "cup2" }]);
 
+// Dishes moved from the app-only list to their own pages on 2026-10-14: typed the way people search, at the page value.
+const be = check("2 boiled eggs", [{ id: "boiled-egg", qty: 2, portion: "two" }], { total: pageValue("boiled-egg", "two"), note: "two on /calories/boiled-egg/" });
+ok(be?.lines[0].kcal === 135, `"2 boiled eggs" is ${be?.lines[0].kcal}, the page says 135`);
+check("maggi", [{ id: "maggi", qty: 1, portion: "pack" }], { total: pageValue("maggi", "pack"), note: "pack on /calories/maggi/" });
+check("chole bhature", [{ id: "chole-bhature", qty: 1, portion: "plate" }], { total: pageValue("chole-bhature", "plate"), note: "plate on /calories/chole-bhature/" });
+check("1 katori dahi", [{ id: "curd", qty: 1, portion: "k200" }], { total: pageValue("curd", "k200"), note: "k200 on /calories/curd/" });
+check("1 katori raita", [{ id: "raita", qty: 1, portion: "k200" }], { total: pageValue("raita", "k200") });
+check("anda bhurji", [{ id: "egg-bhurji", qty: 1, portion: "k200" }], { total: pageValue("egg-bhurji", "k200") });
+check("omelette", [{ id: "omelette", qty: 1, portion: "one" }], { total: pageValue("omelette", "one") });
+check("aloo gobhi", [{ id: "aloo-gobi", qty: 1, portion: "k200" }], { total: pageValue("aloo-gobi", "k200") });
+
 // Garbage never throws and never grows past the caps.
 const garbage = "x".repeat(200) + ", ".repeat(300) + "!!!@@@###" + "\u0000".repeat(50) + "pizza, ".repeat(60);
 try {

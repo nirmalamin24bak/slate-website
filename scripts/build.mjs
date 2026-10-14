@@ -463,7 +463,7 @@ function foodPage(food, calc) {
       ${nutriTable(food, food.portions.filter((p) => !p.combo), food.portionsCaption)}${tableLink("site-cal-dish", food)}
     </section>
 
-    <section aria-labelledby="outside">
+${o ? `    <section aria-labelledby="outside">
       <h2 id="outside">How does home ${esc(food.nameLower)} compare with outside?</h2>
       ${o.text.map((p) => `<p>${inline(food, p)}</p>`).join("\n      ")}
       <div class="table-wrap"><table class="nutri">
@@ -474,7 +474,7 @@ function foodPage(food, calc) {
 <tr><td>${esc(o.label)}</td><td class="n">${fmt(o.kcalRange[0])} to ${fmt(o.kcalRange[1])}</td><td class="n">${o.fatRange[0]} to ${o.fatRange[1]} g</td></tr>
 </tbody></table></div>
     </section>
-
+` : "    <!-- No outside range: the dish is the same outside as at home (see its judgement notes). -->\n"}
 ${mealsSection(food)}
     <section aria-labelledby="changes">
       <h2 id="changes">What changes the calories in ${esc(food.nameLower)}?</h2>
@@ -620,7 +620,8 @@ const CALC_GENERIC = {
 // Portions that are a second dish or a special version the parser can't ask for.
 const CALC_SKIP = new Set(["poha/big", "toor-dal/gujarati", "masala-dosa/plain", "nimbu-pani/textbook", "pav-bhaji/plate1", "pav-bhaji/plate4",
   "pav-bhaji/pav", "phulka/one_half_ghee", "butter-naan/textbook", "rasam/rasam_rice", "kachori/with_sabzi", "kuttu-puri/four_sabzi",
-  "besan-chilla/paneer", "sev-puri/dahi", "chole-bhature/half", "roti/phulka", "kaju-katli/one"]);
+  "besan-chilla/paneer", "sev-puri/dahi", "chole-bhature/half", "roti/phulka", "kaju-katli/one", "egg-bhurji/pav", "maggi/egg", "maggi/veg",
+  "omelette/three"]);
 // Side add-ons, from data/ingredients.json: a teaspoon or a 100 g katori, the sizes the dish pages use.
 const CALC_ADDONS = [
   { id: "curd", ing: "curd", name: "Curd", unit: "katori", katoriG: 100, tspG: 5, aliases: ["dahi", "yogurt", "yoghurt", "दही", "દહીં"] },

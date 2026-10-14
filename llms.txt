@@ -87,6 +87,14 @@ Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year
 - [Chaas calories: per glass, masala chaas and buttermilk](https://writeonslate.com/calories/chaas/): A 200 ml glass of chaas made from curd and water has about 30 calories. Thicker chaas, masala chaas and packed buttermilk compared.
 - [Sweet lassi calories: per glass, with malai](https://writeonslate.com/calories/lassi/): A glass of sweet lassi with 100 g curd and 4 teaspoons of sugar has about 140 calories; 200 ml about 115, as ICMR-NIN says.
 - [Nimbu pani calories: with sugar, without, and shikanji](https://writeonslate.com/calories/nimbu-pani/): A glass of nimbu pani has about 10 calories without sugar, 40 with 2 teaspoons of sugar and about 80 made sweet.
+- [Aloo gobi calories: per katori, home and restaurant](https://writeonslate.com/calories/aloo-gobi/): A 200 ml katori of home aloo gobi has about 165 calories, a 150 ml katori about 125. Cauliflower and potato in a tablespoon of oil, from IFCT 2017.
+- [Boiled egg calories: 1 egg, 2 eggs and 3 eggs](https://writeonslate.com/calories/boiled-egg/): One boiled egg of about 50 g has about 65 calories and 7 g of protein; 2 eggs about 135, 3 eggs about 200. From IFCT 2017's whole egg.
+- [Omelette calories: 1 egg, 2 eggs, home and stall](https://writeonslate.com/calories/omelette/): A plain 2-egg omelette cooked in oil has about 215 calories and 14 g of protein; a single-egg omelette about 105. IFCT 2017 egg, USDA for the oil taken up.
+- [Egg bhurji calories: per katori, 1 egg and 2 eggs](https://writeonslate.com/calories/egg-bhurji/): Egg bhurji made with a teaspoon of butter has about 115 calories per egg, 225 for 2 eggs and 235 in a 200 ml katori. IFCT 2017 egg, USDA butter.
+- [Chole bhature calories: per plate, home and stall](https://writeonslate.com/calories/chole-bhature/): A plate of chole bhature, 2 home bhaturas with a 200 ml katori of chole, has about 635 calories; 1 bhatura with half a katori about 315. IFCT 2017, USDA.
+- [Curd (dahi) calories: per katori and per 100 g](https://writeonslate.com/calories/curd/): A 200 ml katori of whole-milk curd has about 125 calories, 100 g about 60. With a teaspoon of sugar, about 145. From USDA's plain whole-milk yogurt.
+- [Cucumber raita calories: per katori and per bowl](https://writeonslate.com/calories/raita/): A 200 ml katori of cucumber raita, whole-milk curd with grated cucumber and roasted cumin, has about 95 calories; a 150 ml katori about 70.
+- [Maggi calories: 1 pack, with egg, butter or vegetables](https://writeonslate.com/calories/maggi/): A 70 g pack of Maggi masala noodles has about 270 calories; with an egg about 335, with a teaspoon of butter about 305. From the maker's label.
 
 ## Who Slate is for
 

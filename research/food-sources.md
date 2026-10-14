@@ -3248,3 +3248,304 @@ Sources:
 - USDA FoodData Central, Honey (169640). https://fdc.nal.usda.gov/food-details/169640/nutrients (accessed 2026-10-10)
 - USDA FoodData Central, Lemon juice, raw (167747). https://fdc.nal.usda.gov/food-details/167747/nutrients (accessed 2026-10-10)
 
+## Aloo gobi (/calories/aloo-gobi/)
+
+Recipe: one bowl, 100 g cauliflower and 50 g potato with 1 tablespoon of oil.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Cauliflower | 100 | 22.9 | 2.1 | 2.0 | 0.4 | IFCT 2017 D036 |
+| Potato, brown skin, big | 50 | 34.9 | 0.8 | 7.4 | 0.1 | IFCT 2017 F006 |
+| Chillies, green | 1.67 | 0.7 | 0.0 | 0.1 | 0.0 | IFCT 2017 G008 |
+| Ginger, fresh | 6.33 | 3.5 | 0.1 | 0.6 | 0.1 | IFCT 2017 G014 |
+| Coriander leaves | 1 | 0.3 | 0.0 | 0.0 | 0.0 | IFCT 2017 G009 |
+| Turmeric powder | 0.38 | 1.1 | 0.0 | 0.2 | 0.0 | IFCT 2017 G033 |
+| Red chilli powder | 0.7 | 2.0 | 0.1 | 0.1 | 0.1 | USDA FDC 171319 |
+| Groundnut oil | 13.6 | 120.3 | 0.0 | 0.0 | 13.6 | IFCT 2017 T005 |
+| **Total** | | **185.6** | **3.3** | **10.5** | **14.3** | |
+
+Cooked yield 173.68 g (the ingredients added together, as the Indian Nutrient Databank does). Per 100 g cooked: 106.9 kcal. Katori density 0.782 g per ml (USDA's cooked mixed vegetables: 185 g per cup (236.6 ml), as for the site's mixed veg; pieces of potato and vegetable pack about the same).
+
+Portions:
+
+- 1 katori (150 ml): 117 g cooked = 125 kcal, P 2 g, C 7 g, F 10 g
+- 1 katori (200 ml): 156 g cooked = 165 kcal, P 3 g, C 9 g, F 13 g
+- 1 textbook bowl: 174 g cooked = 185 kcal, P 3 g, C 10 g, F 14 g
+
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- Aloo gobi with 2 rotis: aloo-gobi:k200+2*roti:medium = 360 kcal, P 9 g, C 48 g, F 14 g
+
+Outside (Restaurant or dhaba): fat sources x 1.5 to 2.5, portion x 1 to 1 = 220 to 330 kcal. Basis: No analysed value for restaurant aloo gobi was found. Restaurant sabzis are cooked in more oil or butter; 1.5 to 2.5 times this recipe's oil is a stated assumption, the same as for the site's mixed veg.
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: vegetable dry, 1 cup: 150 kcal per a 200 ml katori, ours 167 (-10%). A general figure for all vegetable dishes; cup = 200 ml. https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+
+Judgement calls:
+
+- Garam masala and salt are left out: a quarter teaspoon of garam masala is about 1 kcal, and salt has none.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-11)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-14)
+- USDA FoodData Central, FNDDS Classic mixed vegetables, NS as to form, cooked (2710015). https://fdc.nal.usda.gov/food-details/2710015/nutrients (accessed 2026-10-11)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-14)
+
+## Boiled egg (/calories/boiled-egg/)
+
+Recipe: one hen's egg, about 50 g without the shell, boiled.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Egg, hen, whole, raw | 50 | 67.4 | 6.6 | 0.0 | 4.6 | IFCT 2017 M001 |
+| **Total** | | **67.4** | **6.6** | **0.0** | **4.6** | |
+
+Cooked yield 50 g (boiling in the shell doesn't change the weight of the egg). Per 100 g cooked: 134.8 kcal.
+
+Portions:
+
+- 1 boiled egg (about 50 g): 50 g cooked = 65 kcal, P 7 g, C 0 g, F 5 g
+- 2 boiled eggs: 100 g cooked = 135 kcal, P 13 g, C 0 g, F 9 g
+- 3 boiled eggs: 150 g cooked = 200 kcal, P 20 g, C 0 g, F 14 g
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: boiled egg, 1: 90 kcal per an egg, ours 67 (+34%). NIN gives no weight; 90 kcal fits an egg of about 65 g. https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+- USDA FoodData Central 173424, egg, hard-boiled, 1 large (50 g): 77.5 kcal per an egg, ours 67 (+15%). USDA's egg has a little more fat than IFCT's. https://fdc.nal.usda.gov/food-details/173424/nutrients
+
+Range shown on page: Egg size: ICMR-NIN's 90 kcal fits a bigger egg than the 50 g one counted here, and USDA's egg carries a little more fat than IFCT's.
+
+Judgement calls:
+
+- Egg weight is the Indian Nutrient Databank's household measure (1 egg = 50 g), the same as USDA's large egg.
+- No outside range is shown: a boiled egg bought from a stall is the same egg. An egg bhurji or omelette stall is a different dish, with its own page.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-11)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-14)
+- USDA FoodData Central, Egg, whole, cooked, hard-boiled (173424). https://fdc.nal.usda.gov/food-details/173424/nutrients (accessed 2026-10-14)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-14)
+
+## Omelette (/calories/omelette/)
+
+Recipe: a plain 2-egg omelette with a tablespoon of milk, cooked in oil.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Egg, hen, whole, raw | 100 | 134.8 | 13.3 | 0.0 | 9.2 | IFCT 2017 M001 |
+| Milk, whole, cow | 15 | 10.9 | 0.5 | 0.7 | 0.7 | IFCT 2017 L002 |
+| Black pepper | 0.5 | 1.1 | 0.1 | 0.2 | 0.0 | IFCT 2017 G031 |
+| Groundnut oil | 7.6 | 67.2 | 0.0 | 0.0 | 7.6 | IFCT 2017 T005 |
+| **Total** | | **214.0** | **13.8** | **0.9** | **17.4** | |
+
+Cooked yield 110 g (USDA's omelette made with oil weighs 55 g per egg). Per 100 g cooked: 194.6 kcal.
+
+Portions:
+
+- 1 omelette (2 eggs): 110 g cooked = 215 kcal, P 14 g, C 1 g, F 17 g
+- 1 single-egg omelette: 55 g cooked = 105 kcal, P 7 g, C 0 g, F 9 g
+- 1 omelette (3 eggs): 165 g cooked = 320 kcal, P 21 g, C 1 g, F 26 g
+
+Outside (Stall or dhaba masala omelette): fat sources x 1.5 to 2.5, portion x 1 to 1, plus 0 to 25 g Onion, big, plus 0 to 25 g Tomato, ripe, hybrid = 250 to 330 kcal. Basis: No analysed value for a stall omelette was found. ICMR-NIN's fried egg at 160 kcal implies roughly 10 g of oil per egg, about 2.5 times the oil taken up here, so 1.5 to 2.5 times the oil is a stated assumption. Onion and tomato up to 25 g each cover a masala omelette.
+
+Cross-checks:
+
+- ICMR-NIN, Dietary Guidelines for Indians (2011), Annexure 8: fried egg, 1: 160 kcal per a 1-egg omelette, ours 107 (+50%). A fried egg, the closest NIN item; NIN gives no weight or oil. https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf
+- USDA FoodData Central 2707200, egg omelet made with oil: 192 kcal per 100 g, ours 195 (-1%). The analysis the oil is set from; USDA's eggs carry slightly more fat than IFCT's. https://fdc.nal.usda.gov/food-details/2707200/nutrients
+
+Range shown on page: ICMR-NIN's fried egg (160 kcal) has more oil than a single-egg omelette made this way; USDA's analysed omelette (192 kcal per 100 g) agrees within 2%.
+
+Judgement calls:
+
+- The textbook fries the omelette in 2 tablespoons of fat, most of which stays in the pan; the oil eaten is set from USDA's analysed omelette instead.
+- An omelette is counted as 2 eggs, as in the textbook. A single-egg omelette is half.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-11)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-14)
+- USDA FoodData Central, FNDDS Egg omelet or scrambled egg, made with oil (2707200). https://fdc.nal.usda.gov/food-details/2707200/nutrients (accessed 2026-10-14)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-14)
+
+## Egg bhurji (/calories/egg-bhurji/)
+
+Recipe: one egg scrambled with a tablespoon of milk and a teaspoon of butter.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Egg, hen, whole, raw | 50 | 67.4 | 6.6 | 0.0 | 4.6 | IFCT 2017 M001 |
+| Milk, whole, cow | 15 | 10.9 | 0.5 | 0.7 | 0.7 | IFCT 2017 L002 |
+| Butter | 4.7 | 33.7 | 0.0 | 0.0 | 3.8 | USDA FDC 173430 |
+| Black pepper | 0.5 | 1.1 | 0.1 | 0.2 | 0.0 | IFCT 2017 G031 |
+| **Total** | | **113.1** | **7.2** | **0.9** | **9.1** | |
+
+Cooked yield 55 g (USDA's scrambled egg weighs 55 g per egg). Per 100 g cooked: 205.7 kcal. Katori density 0.57 g per ml (USDA's scrambled egg: 135 g per cup (236.6 ml)).
+
+Portions:
+
+- 1 katori (200 ml): 114 g cooked = 235 kcal, P 15 g, C 2 g, F 19 g
+- 1 egg, scrambled: 55 g cooked = 115 kcal, P 7 g, C 1 g, F 9 g
+- 2 eggs, scrambled: 110 g cooked = 225 kcal, P 14 g, C 2 g, F 18 g
+- 1 katori of bhurji with 2 pav (43 g each): 114 g cooked + 86 g Pav (soft bread roll) = 500 kcal, P 24 g, C 45 g, F 24 g
+
+Meals (sums of the page values of each dish's portion, calories rounded to 5):
+
+- Egg bhurji with 2 rotis: egg-bhurji:k200+2*roti:medium = 425 kcal, P 21 g, C 40 g, F 20 g
+
+Outside (Anda bhurji stall or dhaba): fat sources x 1.5 to 2.5, portion x 1 to 1, plus 0 to 25 g Onion, big, plus 0 to 25 g Tomato, ripe, hybrid = 270 to 355 kcal. Basis: No analysed value for stall bhurji was found. Stalls cook in a generous pour of butter or oil and add onion and tomato; 1.5 to 2.5 times this recipe's butter and up to 25 g each of onion and tomato per katori are stated assumptions.
+
+Cross-checks:
+
+- USDA FoodData Central 2707201, egg omelet or scrambled egg, made with butter: 182 kcal per 100 g, ours 206 (-12%). USDA's eggs carry slightly more fat than IFCT's. https://fdc.nal.usda.gov/food-details/2707201/nutrients
+
+Judgement calls:
+
+- The textbook's bhurji (ande ki bhurji) is plain scrambled egg. Onion, tomato and green chilli, often added at home, add little: about 10 kcal for 50 g of onion and tomato.
+- A 200 ml katori holds about 114 g of bhurji, a little over 2 eggs.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-11)
+- USDA FoodData Central, Butter, without salt (173430). https://fdc.nal.usda.gov/food-details/173430/nutrients (accessed 2026-10-14)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-14)
+- USDA FoodData Central, FNDDS Egg omelet or scrambled egg, made with butter (2707201). https://fdc.nal.usda.gov/food-details/2707201/nutrients (accessed 2026-10-14)
+
+## Chole bhature (/calories/chole-bhature/)
+
+Recipe: one plate, 2 bhaturas and a 200 ml katori of chole, each made as on the site's own page.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Chickpeas, white (kabuli chana), dry | 39.6 | 149.7 | 8.1 | 20.1 | 2.4 | USDA FDC 173756 |
+| Water | 52.28 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Tomato, ripe, hybrid | 49.5 | 9.4 | 0.4 | 1.6 | 0.1 | IFCT 2017 D075 |
+| Onion, big | 29.7 | 14.3 | 0.4 | 2.8 | 0.1 | IFCT 2017 G017 |
+| Ginger, fresh | 14.85 | 8.2 | 0.3 | 1.3 | 0.1 | IFCT 2017 G014 |
+| Garlic | 0.59 | 0.7 | 0.0 | 0.1 | 0.0 | IFCT 2017 G011 |
+| Curd (dahi), whole milk | 4.95 | 3.0 | 0.2 | 0.2 | 0.2 | USDA FDC 171284 |
+| Groundnut oil | 8.91 | 78.8 | 0.0 | 0.0 | 8.9 | IFCT 2017 T005 |
+| Wheat flour, refined (maida) | 53.34 | 187.7 | 5.5 | 39.6 | 0.4 | IFCT 2017 A018 |
+| Curd (dahi), whole milk | 13.33 | 8.1 | 0.5 | 0.6 | 0.4 | USDA FDC 171284 |
+| Sugar, white | 0.67 | 2.6 | 0.0 | 0.7 | 0.0 | USDA FDC 169655 |
+| Water | 16.67 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Groundnut oil | 19.33 | 170.9 | 0.0 | 0.0 | 19.3 | IFCT 2017 T005 |
+| **Total** | | **633.3** | **15.5** | **67.1** | **32.0** | |
+
+No cooked weight used (no cooked weight is known for the bhaturas, so the plate is counted as one portion). Portions are shares of the recipe.
+
+Portions:
+
+- 1 plate (2 bhaturas, 1 katori chole): 1 of the recipe = 635 kcal, P 15 g, C 67 g, F 32 g
+- 1 bhatura with half a katori of chole: 0.5 of the recipe = 315 kcal, P 8 g, C 34 g, F 16 g
+
+Outside (Chole bhature stall or restaurant): fat sources x 1 to 1, portion x 1 to 1, plus 4.5 to 9 g Groundnut oil = 675 to 715 kcal. Basis: No analysed value for a plate of chole bhature was found. The chole page's outside range uses 1.5 to 2 times its 2 teaspoons of oil, added here as 4.5 to 9 g of oil. The bhaturas are left as they are, because the two street bhaturas measured in the lab (see the bhatura page) held the same or less fat than the home bhatura counted here.
+
+Judgement calls:
+
+- A plate of 2 bhaturas and one 200 ml katori of chole is a stated assumption: no source was found for a standard plate. Onion, pickle and a green chilli on the side add little.
+- No independent analysed value for a plate of chole bhature was found in IFCT 2017, USDA FNDDS or NIN's Annexure 8, so there is no cross-check here. The parts are cross-checked on their own pages.
+
+Sources:
+
+- Writeonslate, Chole calories. https://writeonslate.com/calories/chole/ (accessed 2026-10-14)
+- Writeonslate, Bhatura calories. https://writeonslate.com/calories/bhatura/ (accessed 2026-10-14)
+
+## Curd (/calories/curd/)
+
+Plain curd (dahi) made from whole milk.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Curd (dahi), whole milk | 100 | 61.0 | 3.5 | 4.7 | 3.3 | USDA FDC 171284 |
+| **Total** | | **61.0** | **3.5** | **4.7** | **3.3** | |
+
+Cooked yield 100 g (curd as it is). Per 100 g cooked: 61.0 kcal. Katori density 1.04 g per ml (USDA's plain whole-milk yogurt: 245 g per cup (236.6 ml)).
+
+Portions:
+
+- 1 katori (150 ml): 156 g cooked = 95 kcal, P 5 g, C 7 g, F 5 g
+- 1 katori (200 ml): 208 g cooked = 125 kcal, P 7 g, C 10 g, F 7 g
+- 100 g: 100 g cooked = 60 kcal, P 3 g, C 5 g, F 3 g
+- 1 katori (250 ml): 260 g cooked = 160 kcal, P 9 g, C 12 g, F 8 g
+- 1 katori (200 ml), 1 tsp sugar: 208 g cooked + 4.2 g Sugar, white = 145 kcal, P 7 g, C 14 g, F 7 g
+
+Judgement calls:
+
+- IFCT 2017 has no curd, so the values are USDA's plain whole-milk yogurt, as on the site's curd rice and raita pages. Curd from toned milk has about two thirds of the fat.
+- No cross-check is listed: the only analysed value for plain curd is USDA's yogurt, which is the value used, and IFCT 2017 and NIN's Annexure 8 have no plain curd entry that states a weight. Shop curd labels in India commonly list 60 to 100 kcal per 100 g depending on the milk, which brackets this value.
+- No outside range is shown: curd served with a meal outside is the same curd, set from whatever milk the kitchen uses.
+
+Sources:
+
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-14)
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-11)
+
+## Cucumber raita (/calories/raita/)
+
+Recipe: one bowl, 100 g curd and 50 g cucumber with roasted cumin.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Curd (dahi), whole milk | 100 | 61.0 | 3.5 | 4.7 | 3.3 | USDA FDC 171284 |
+| Cucumber, green, elongate | 50 | 9.8 | 0.4 | 1.7 | 0.1 | IFCT 2017 D043 |
+| Chillies, green | 1.67 | 0.7 | 0.0 | 0.1 | 0.0 | IFCT 2017 G008 |
+| Cumin seeds | 0.26 | 0.8 | 0.0 | 0.1 | 0.0 | IFCT 2017 G025 |
+| Red chilli powder | 0.34 | 1.0 | 0.0 | 0.1 | 0.0 | USDA FDC 171319 |
+| **Total** | | **73.3** | **3.9** | **6.6** | **3.4** | |
+
+Cooked yield 152.27 g (the ingredients added together, as the Indian Nutrient Databank does). Per 100 g cooked: 48.1 kcal. Katori density 1 g per ml (curd with grated cucumber taken as 1 g per ml; a stated assumption).
+
+Portions:
+
+- 1 katori (150 ml): 150 g cooked = 70 kcal, P 4 g, C 7 g, F 3 g
+- 1 katori (200 ml): 200 g cooked = 95 kcal, P 5 g, C 9 g, F 5 g
+- 1 textbook bowl: 152 g cooked = 75 kcal, P 4 g, C 7 g, F 3 g
+
+Judgement calls:
+
+- Boondi raita has more: the textbook's boondi (gram flour drops, deep-fried) adds besan and frying oil, which this cucumber raita doesn't have.
+- No cross-check is listed: no analysed value for cucumber raita with a stated weight was found in IFCT 2017, NIN's Annexure 8 or USDA FNDDS. The curd, which is nearly all of the calories, is USDA's analysed yogurt.
+- No outside range is shown: restaurant raita is the same curd and cucumber in whatever proportion the kitchen uses; boondi raita is a different recipe.
+
+Sources:
+
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-14)
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-11)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-14)
+
+## Maggi (/calories/maggi/)
+
+One 70 g pack of Maggi 2-Minute Masala Noodles with its tastemaker, cooked in water as the pack says.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Instant masala noodles (Maggi), dry, with tastemaker | 70 | 268.8 | 5.7 | 41.7 | 8.8 | Maggi label |
+| **Total** | | **268.8** | **5.7** | **41.7** | **8.8** | |
+
+No cooked weight used (cooked in water, which adds weight and no calories). Portions are shares of the recipe.
+
+Portions:
+
+- 1 pack (70 g): 1 of the recipe = 270 kcal, P 6 g, C 42 g, F 9 g
+- 2 packs: 2 of the recipe = 540 kcal, P 11 g, C 83 g, F 18 g
+- 1 pack with 1 egg: 1 of the recipe + 50 g Egg, hen, whole, raw = 335 kcal, P 12 g, C 42 g, F 13 g
+- 1 pack, 1 tsp butter (5 g): 1 of the recipe + 5 g Butter = 305 kcal, P 6 g, C 42 g, F 13 g
+- 1 pack with vegetables (25 g each of onion, carrot and capsicum): 1 of the recipe + 25 g Onion, big + 25 g Carrot, orange + 25 g Capsicum, green = 295 kcal, P 7 g, C 46 g, F 9 g
+
+Outside (Maggi point or canteen): fat sources x 1 to 1, portion x 1 to 1, plus 5 to 10 g Butter, plus 25 to 25 g Onion, big, plus 0 to 25 g Tomato, ripe, hybrid = 315 to 355 kcal. Basis: No analysed value for stall Maggi was found. A stall or canteen cooks the same pack in butter with onion and often tomato; 1 to 2 teaspoons of butter and 25 to 50 g of vegetables are stated assumptions. Cheese, where added, is extra.
+
+Judgement calls:
+
+- Values are Nestlé India's own, per 100 g as sold (noodle cake and tastemaker). maggi.in lists a 75 g serve; the pack label says 70 g, which is used here.
+- Butter, cheese or vegetables added while cooking are extra: a teaspoon of butter adds about 35 kcal.
+- No independent analysed value for Maggi exists; the only values are Nestlé India's own, so there is no cross-check. maggi.in lists a 75 g serve at 288 calories, while the single pack sold in India weighs 70 g, which is what is counted here. The Open Food Facts record for this pack carries only a photo of the label, so it isn't cited.
+
+Sources:
+
+- Nestlé India, Maggi 2-Minute Noodles. https://www.maggi.in/en/product/maggi-2-minute-noodles/ (accessed 2026-10-14)
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-11)
+- USDA FoodData Central, Butter, without salt (173430). https://fdc.nal.usda.gov/food-details/173430/nutrients (accessed 2026-10-14)
+
