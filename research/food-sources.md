@@ -3856,3 +3856,465 @@ Sources:
 - Writeonslate, Puri calories. https://writeonslate.com/calories/puri/ (accessed 2026-10-14)
 - Writeonslate, Aloo sabzi calories. https://writeonslate.com/calories/aloo-sabzi/ (accessed 2026-10-14)
 
+## Soan papdi (/calories/soan-papdi/)
+
+Recipe: 115 g besan and 150 g maida roasted in 250 g ghee, set with a syrup of 500 g sugar, making 20 home pieces.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Besan (ground Bengal gram dal) | 115 | 378.5 | 24.8 | 53.7 | 6.1 | IFCT 2017 B001 |
+| Wheat flour, refined (maida) | 150 | 527.7 | 15.5 | 111.4 | 1.1 | IFCT 2017 A018 |
+| Ghee | 250 | 2210.8 | 0.0 | 0.0 | 250.0 | IFCT 2017 T013 |
+| Sugar, white | 500 | 1935.0 | 0.0 | 500.0 | 0.0 | USDA FDC 169655 |
+| Milk, whole, cow | 30 | 21.9 | 1.0 | 1.5 | 1.3 | IFCT 2017 L002 |
+| Water | 360 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **5073.8** | **41.3** | **666.6** | **258.6** | |
+
+Cooked yield 1020 g (the flours, ghee, sugar and the milk's solids, with the syrup water cooked off). Per 100 g cooked: 497.4 kcal.
+
+Portions:
+
+- 1 piece (about 21 g): 21 g cooked = 105 kcal, P 1 g, C 14 g, F 5 g
+- 2 pieces (42 g): 42 g cooked = 210 kcal, P 2 g, C 27 g, F 11 g
+- 1 large home piece (a twentieth, about 51 g): 51 g cooked = 255 kcal, P 2 g, C 33 g, F 13 g
+- 100 g: 100 g cooked = 495 kcal, P 4 g, C 65 g, F 25 g
+- 250 g (a small box): 250 g cooked = 1245 kcal, P 10 g, C 163 g, F 63 g
+
+Outside (Packed or sweet shop): fat sources x 1 to 1, portion x 0.99 to 1.09 = 105 to 115 kcal. Basis: Packed labels per 100 g: Haldiram's 490 kcal (1% below this recipe) and Bikaji 542 (9% above). 0.99 to 1.09 times this recipe is used, for the same 21 g piece.
+
+Cross-checks:
+
+- Haldiram's soan papdi label, per 100 g (Open Food Facts 8904004405415): 490 kcal per 100 g, ours 497 (-1%).  https://world.openfoodfacts.org/product/8904004405415
+- Bikaji soan papdi label, per 100 g (Open Food Facts 8906005504111): 542 kcal per 100 g, ours 497 (+9%).  https://world.openfoodfacts.org/product/8906005504111
+
+Judgement calls:
+
+- Constructed recipe: the Indian Nutrient Databank has no soan papdi or patisa. The patisa recipe (allaboutsikhs.com) was chosen over two blog recipes because its ghee and sugar shares (25% and 49% of the finished weight) reconcile with the packed labels (fat 23 to 28 g, sugar 46 to 50 g per 100 g) and the Consumer VOICE test of branded soan papdi (sugar 37 to 40%), where the blog recipes gave 10% or 35% fat.
+- Cup weights: besan 92 g, maida 120 g, sugar 200 g per cup (INDB's units file, from USDA measures). Milk 2 tbsp = 30 g, its solids about 4 g, counted in the yield.
+- Yield 1020 g = 115 + 150 + 250 + 500 + about 4 g of milk solids, syrup water cooked off: an assumption. 20 pieces of 51 g. The 21 g shop piece is the serving size on Haldiram's labels (Open Food Facts 8904004405064 and 8904004405316).
+- Fat per 100 g: (6.1 + 1.1 + 250 + 1.3) / 1020 = 25%, against labels' 23 to 28 g.
+- Sugar per piece: 500 / 1020 x 21 = 10.3 g.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-15)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-15)
+- Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub). https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB- (accessed 2026-10-15)
+- Patisa (soan papdi), Punjabi recipe, allaboutsikhs.com. https://www.allaboutsikhs.com/cuisine-of-punjabpatisa-soan-papdi/ (accessed 2026-10-15)
+- Haldiram's soan papdi label (Open Food Facts, 8904004405415). https://world.openfoodfacts.org/product/8904004405415 (accessed 2026-10-15)
+- Bikaji soan papdi label (Open Food Facts, 8906005504111). https://world.openfoodfacts.org/product/8906005504111 (accessed 2026-10-15)
+- Haldiram's soan papdi (chocolate) label (Open Food Facts, 8904004405064). https://world.openfoodfacts.org/product/8904004405064 (accessed 2026-10-15)
+- Consumer VOICE, comparative test of branded soan papdi (2012), via consumeraffairs.nic.in. https://consumeraffairs.nic.in/sites/default/files/file-uploads/ctocpas/soan%20papdi-12.pdf (accessed 2026-10-15)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+
+## Motichoor ladoo (/calories/motichoor-ladoo/)
+
+Recipe: 230 g besan as boondi fried in ghee, soaked in a syrup of 267 g sugar, making 25 ladoos.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Besan (ground Bengal gram dal) | 230 | 756.9 | 49.6 | 107.5 | 12.2 | IFCT 2017 B001 |
+| Sugar, white | 267 | 1033.3 | 0.0 | 267.0 | 0.0 | USDA FDC 169655 |
+| Milk, whole, cow | 61 | 44.5 | 2.0 | 3.0 | 2.7 | IFCT 2017 L002 |
+| Ghee | 124 | 1096.5 | 0.0 | 0.0 | 124.0 | IFCT 2017 T013 |
+| Water | 1420 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **2931.2** | **51.6** | **377.5** | **138.9** | |
+
+Cooked yield 696 g (besan, sugar, the milk's solids and the ghee taken up, plus about 67 g of syrup water left in). Per 100 g cooked: 421.2 kcal.
+
+Portions:
+
+- 1 motichoor ladoo (about 28 g): 28 g cooked = 115 kcal, P 2 g, C 15 g, F 6 g
+- 2 motichoor ladoos: 56 g cooked = 235 kcal, P 4 g, C 30 g, F 11 g
+- 1 large ladoo (about 45 g): 45 g cooked = 190 kcal, P 3 g, C 24 g, F 9 g
+- 100 g: 100 g cooked = 420 kcal, P 7 g, C 54 g, F 20 g
+
+Outside (Sweet shop or wedding): fat sources x 1 to 1, portion x 1 to 2.14 = 115 to 250 kcal. Basis: Packed labels agree with this recipe per gram within 5% (Haldiram's 410 and 428, Deep 429 kcal per 100 g), so the range is size only: Deep's label piece is 28 g, the same as this recipe's, and USDA FNDDS lists a 60 g ladoo, 2.14 times.
+
+Cross-checks:
+
+- Haldiram's motichoor ladoo label, UK pack, per 100 g (Open Food Facts 5060601190109): 410 kcal per 100 g, ours 421 (-3%).  https://world.openfoodfacts.org/product/5060601190109
+- Haldiram's motichoor ladoo label, 360 g pack, per 100 g (Open Food Facts 8904063281319): 428 kcal per 100 g, ours 421 (+2%).  https://world.openfoodfacts.org/product/8904063281319
+- Deep motichoor ladoo label, per 100 g, 28 g piece (Open Food Facts 0011433163859): 429 kcal per 100 g, ours 421 (+2%).  https://world.openfoodfacts.org/product/0011433163859
+
+Judgement calls:
+
+- Constructed recipe: the Indian Nutrient Databank has besan ladoo (ASC343) but no boondi or motichoor ladoo.
+- Cup weights from INDB's units file: besan 92 g, sugar 200 g, milk ¼ cup 61 g. Milk solids about 8 g (IFCT cow milk 87% water) counted in the yield.
+- Ghee taken up: solved so that total fat is 20% of the finished weight: besan fat 12.2 g + milk fat 2.7 g + X = 0.2 x (572 + X), X = 124 g. Labels: 16.5 (Haldiram's UK), 24 (Haldiram's India), 21.4 (Deep) g fat per 100 g.
+- Syrup water left in: a one-thread syrup is about 80% sugar, so 267 / 0.8 = 334 g of syrup, 67 g of it water. Yield 696 g = 230 + 267 + 8 + 124 + 67; 25 ladoos of 27.8 g.
+- Sugar per ladoo: 267 / 25 = 10.7 g.
+- Outside high end: USDA FNDDS ladoo piece of 60 g, as on the besan ladoo page (FDC 2710351, read on 10 October).
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-15)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-15)
+- Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub). https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB- (accessed 2026-10-15)
+- Sanjeev Kapoor, Motichoor laddoo. https://www.sanjeevkapoor.com/recipe/Motichoor-Laddoo.html (accessed 2026-10-15)
+- Haldiram's motichoor ladoo label (UK pack) (Open Food Facts, 5060601190109). https://world.openfoodfacts.org/product/5060601190109 (accessed 2026-10-15)
+- Haldiram's motichoor ladoo label (360 g) (Open Food Facts, 8904063281319). https://world.openfoodfacts.org/product/8904063281319 (accessed 2026-10-15)
+- Deep motichoor ladoo label (Open Food Facts, 0011433163859). https://world.openfoodfacts.org/product/0011433163859 (accessed 2026-10-15)
+- USDA FoodData Central, FNDDS 2021-2023, Ladoo, round ball (2710351). https://fdc.nal.usda.gov/food-details/2710351/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+
+## Rasmalai (/calories/rasmalai/)
+
+Recipe: chhena from 250 ml cow's milk cooked in syrup, soaked in 111 ml of milk reduced with sugar, making 2 rasmalai.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Paneer | 36.6 | 94.4 | 6.9 | 4.5 | 5.4 | IFCT 2017 L003 |
+| Wheat flour, refined (maida) | 3.75 | 13.2 | 0.4 | 2.8 | 0.0 | IFCT 2017 A018 |
+| Sugar, white | 7.2 | 27.9 | 0.0 | 7.2 | 0.0 | USDA FDC 169655 |
+| Milk, whole, cow | 114 | 83.1 | 3.7 | 5.6 | 5.1 | IFCT 2017 L002 |
+| Sugar, white | 11.1 | 43.0 | 0.0 | 11.1 | 0.0 | USDA FDC 169655 |
+| **Total** | | **261.5** | **11.0** | **31.3** | **10.5** | |
+
+Cooked yield 153 g (patties of 66 g from the chhena's protein at 10.5%, as in the Hisar analysis, plus the milk reduced by a third with its sugar). Per 100 g cooked: 170.9 kcal.
+
+Portions:
+
+- 1 rasmalai with its milk (about 77 g): 77 g cooked = 130 kcal, P 6 g, C 16 g, F 5 g
+- 2 rasmalai with milk: 153 g cooked = 260 kcal, P 11 g, C 31 g, F 11 g
+- 100 g, piece and milk: 100 g cooked = 170 kcal, P 7 g, C 20 g, F 7 g
+
+Outside (Sweet shop or packed): fat sources x 1 to 1, portion x 0.92 to 1.38 = 120 to 180 kcal. Basis: Packed labels: Haldiram's Mitha Magic 190 kcal per 100 g, 63 g serving (120 per serving, 0.92 times this piece); Nanak 225 kcal per 100 g, 80 g piece (180, 1.38 times). Per gram they bracket this page's value within 6% and 32%.
+
+Cross-checks:
+
+- Haldiram's Mitha Magic rasmalai label, per 100 g (Open Food Facts 8904004440980): 190 kcal per 100 g, ours 171 (+11%).  https://world.openfoodfacts.org/product/8904004440980
+
+Judgement calls:
+
+- Chhena: milk protein 250 x 1.03 x 3.26% = 8.39 g; casein about 80% of milk protein (assumption, as on the rasgulla page) = 6.72 g, as paneer (IFCT L003, 18.86% protein) = 35.6 g; with the maida's protein, 36.6 g of paneer-equivalent is used so the patties' protein is 6.9 g.
+- Patties: 6.9 g protein at 10.5% (Hisar market rasmalai, 9.63 to 11.30%) = 66 g for 2. Carbohydrate 17.8% x 66 = 11.7 g, minus the paneer's 4.5 g = 7.2 g sugar taken up. Fat 5.4 g / 66 g = 8.2%, against 9.2 to 11.0% in the survey (the sweet shops use richer milk).
+- Ras: Hebbar's Kitchen's halwai-style rasmalai uses 1 litre of milk and ½ cup (100 g) of sugar for 18 pieces: 55.5 ml milk (57.2 g) and 5.6 g sugar per piece. Reduced by a third: 38 g milk + 5.6 g sugar = 43.7 g per piece. The reduction is an assumption; it changes the weight, not the calories.
+- Yield 153 g = 66 + 2 x 43.7. Per piece 77 g, of which the patty is 33 g (about 68 kcal) and the ras 44 g (about 63 kcal).
+- Per 100 g, Hisar's figures give about 204 kcal for the patties (4 x 28.3 + 9 x 10.1) and about 165 for the sweetened milk, bracketing this page's {{kcal:g100}} for piece and milk together.
+- The INDB's own rasmalai value (136 kcal per 100 g) counts the whole 150 g of syrup sugar and is not used. BFP393's serving count (2 pieces) is marked as guessed in INDB.
+- Nanak's label (225 kcal per 100 g, 80 g piece) is 32% above this page per gram and is used as the top of the outside range rather than as a cross-check.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-15)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-15)
+- Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub). https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB- (accessed 2026-10-15)
+- Sharma et al., market samples of rasmalai in Hisar, Asian Journal of Dairy and Food Research 34(1), 2015. https://arccjournals.com/journal/asian-journal-of-dairy-and-food-research/DR-927 (accessed 2026-10-15)
+- Hebbar's Kitchen, Rasmalai recipe, halwai style. https://hebbarskitchen.com/rasmalai-recipe-easy-rasmalai-recipe/ (accessed 2026-10-15)
+- Haldiram's Mitha Magic rasmalai label (Open Food Facts, 8904004440980). https://world.openfoodfacts.org/product/8904004440980 (accessed 2026-10-15)
+- Nanak rasmalai label (Open Food Facts, 0797677600083). https://world.openfoodfacts.org/product/0797677600083 (accessed 2026-10-15)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+
+## Kheer (/calories/kheer/)
+
+Recipe: 10 g rice simmered in 250 ml milk with 1½ tablespoons of sugar, raisins and almond, making one bowl.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Rice, parboiled, milled | 10 | 35.2 | 0.8 | 7.7 | 0.1 | IFCT 2017 A014 |
+| Milk, whole, cow | 257.5 | 187.7 | 8.4 | 12.7 | 11.5 | IFCT 2017 L002 |
+| Sugar, white | 18.9 | 73.1 | 0.0 | 18.9 | 0.0 | USDA FDC 169655 |
+| Raisins | 1.5 | 4.6 | 0.0 | 1.1 | 0.0 | IFCT 2017 E057 |
+| Almond | 1.1 | 6.7 | 0.2 | 0.0 | 0.6 | IFCT 2017 H001 |
+| Water | 120 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **307.3** | **9.4** | **40.4** | **12.2** | |
+
+Cooked yield 300 g (the milk and water simmered down to about 270 g with the rice swollen, sugar and dry fruit: an assumption, checked against USDA's rice pudding). Per 100 g cooked: 102.4 kcal. Katori density 1.1 g per ml (USDA FNDDS rice pudding: 1 cup (237 ml) = 260 g).
+
+Portions:
+
+- 1 small katori (150 ml): 165 g cooked = 170 kcal, P 5 g, C 22 g, F 7 g
+- 1 katori (200 ml): 220 g cooked = 225 kcal, P 7 g, C 30 g, F 9 g
+- 1 big katori (250 ml): 275 g cooked = 280 kcal, P 9 g, C 37 g, F 11 g
+- 1 textbook bowl (the whole recipe, 300 g): 300 g cooked = 305 kcal, P 9 g, C 40 g, F 12 g
+- 100 g: 100 g cooked = 100 kcal, P 3 g, C 13 g, F 4 g
+
+Outside (Sweet shop or restaurant): fat sources x 1 to 1, portion x 1 to 1.33 = 225 to 300 kcal. Basis: No analysed value for a sweet-shop kheer was found. USDA FNDDS puts firni, a thicker Indian milk pudding, at 144 kcal per 100 g against 108 for its rice pudding, 1.33 times; that ratio is used for the top of the range, as a stated assumption.
+
+Cross-checks:
+
+- USDA FNDDS 2021-2023, Pudding, rice (2705685): 108 kcal per 100 g, ours 102 (+5%).  https://fdc.nal.usda.gov/food-details/2705685/nutrients
+
+Judgement calls:
+
+- Yield: 300 g is an assumption (257.5 g milk + 120 g water + 10 g rice + 18.9 g sugar + 2.6 g dry fruit = 409 g raw, simmered down by about a quarter). INDB's own value for ASC282, 75 kcal per 100 g, takes no reduction at all; USDA's analysed rice pudding is 108 per 100 g, 6% above this page's figure at 300 g.
+- Sugar: 1½ tbsp at 12.6 g per tbsp (INDB units, 4.2 g per tsp) = 18.9 g; per 200 ml katori 18.9 x 220 / 300 = 13.9 g added sugar; milk sugar 257.5 x 4.89% x 220 / 300 = 9.2 g.
+- Density 1.1 g per ml from FNDDS rice pudding (1 cup = 260 g), so a 200 ml katori is 220 g.
+- Cardamom ¼ tsp left out. Rice is the textbook's parboiled rice (A014).
+- Outside: FNDDS firni 144 kcal per 100 g / rice pudding 108 = 1.33, applied as a size factor to the katori.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-15)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-15)
+- Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub). https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB- (accessed 2026-10-15)
+- USDA FoodData Central, FNDDS 2021-2023, Pudding, rice (2705685). https://fdc.nal.usda.gov/food-details/2705685/nutrients (accessed 2026-10-15)
+- USDA FoodData Central, FNDDS 2021-2023, Firni, Indian pudding (2705686). https://fdc.nal.usda.gov/food-details/2705686/nutrients (accessed 2026-10-15)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+
+## Gujiya (/calories/gujiya/)
+
+Recipe: 60 g maida pastry with 12 g ghee, filled with 30 g khoa, 10 g coconut and 30 g sugar, fried, making 6 gujiyas.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, refined (maida) | 60 | 211.1 | 6.2 | 44.6 | 0.5 | IFCT 2017 A018 |
+| Ghee | 12 | 106.1 | 0.0 | 0.0 | 12.0 | IFCT 2017 T013 |
+| Water | 15 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Khoa (mawa) | 30 | 94.8 | 4.9 | 5.0 | 6.2 | IFCT 2017 L004 |
+| Coconut, dry (copra) | 10 | 62.4 | 0.7 | 0.8 | 6.3 | IFCT 2017 H006 |
+| Raisins | 1.8 | 5.5 | 0.0 | 1.3 | 0.0 | IFCT 2017 E057 |
+| Sugar, white | 30 | 116.1 | 0.0 | 30.0 | 0.0 | USDA FDC 169655 |
+| Groundnut oil | 22.2 | 196.3 | 0.0 | 0.0 | 22.2 | IFCT 2017 T005 |
+| **Total** | | **792.3** | **11.9** | **81.6** | **47.2** | |
+
+Cooked yield 181 g (the dough, filling and oil taken up; moisture lost in frying is not counted). Per 100 g cooked: 437.7 kcal.
+
+Portions:
+
+- 1 gujiya (about 30 g): 30 g cooked = 130 kcal, P 2 g, C 14 g, F 8 g
+- 2 gujiyas: 60 g cooked = 265 kcal, P 4 g, C 27 g, F 16 g
+- 100 g: 100 g cooked = 440 kcal, P 7 g, C 45 g, F 26 g
+
+Outside (Halwai, larger or syrup-dipped): fat sources x 1 to 1, portion x 1.33 to 2, plus 0 to 8 g Sugar, white = 175 to 295 kcal. Basis: No analysed value for gujiya was found. Halwai gujiyas of 40 to 60 g (1.33 to 2 times this recipe's 30 g) and a chashni dip of up to 8 g of sugar are stated assumptions.
+
+Judgement calls:
+
+- No analysed value for gujiya or karanji was found (IFCT 2017, NIN Annexure 8, USDA FNDDS, a web search of journals). Supplier listings and consumer databases give figures that are not lab values and are not used.
+- Raw weight: 60 + 12 + 15 + 30 + 10 + 1.8 + 30 = 158.8 g; oil taken up at 14% = 22.2 g, 3.7 g per gujiya. Moisture lost in frying is not counted, as on the samosa page.
+- INDB's gujia values (769 kcal per 100 g) count all 480 ml of frying oil and are not used.
+- Castor sugar valued as sugar; raisins 'a few' taken at INDB's 1.8 g.
+- Baked gujiya in the FAQ: 132 - 33 = 99 kcal.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-15)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-15)
+- Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub). https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB- (accessed 2026-10-15)
+- Sakhale et al., oil uptake of lab-fried samosas (as used on the samosa page), and USDA FNDDS samosa. https://writeonslate.com/calories/samosa/ (accessed 2026-10-15)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+
+## Peda (/calories/peda/)
+
+Recipe: 100 g khoa cooked with 35 g sugar and 2 teaspoons of milk, making 4 pedas.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Khoa (mawa) | 100 | 316.0 | 16.3 | 16.5 | 20.6 | IFCT 2017 L004 |
+| Sugar, white | 35 | 135.4 | 0.0 | 35.0 | 0.0 | USDA FDC 169655 |
+| Milk, whole, cow | 10 | 7.3 | 0.3 | 0.5 | 0.4 | IFCT 2017 L002 |
+| Almond | 2.2 | 13.4 | 0.4 | 0.1 | 1.3 | IFCT 2017 H001 |
+| **Total** | | **472.1** | **17.1** | **52.1** | **22.4** | |
+
+Cooked yield 111 g (the solids of the khoa, sugar, milk and almond at 13.6% moisture, the mean of market pedas in a lab survey). Per 100 g cooked: 425.4 kcal.
+
+Portions:
+
+- 1 peda (about 28 g): 28 g cooked = 120 kcal, P 4 g, C 13 g, F 6 g
+- 1 small packed peda (13 g): 13 g cooked = 55 kcal, P 2 g, C 6 g, F 3 g
+- 2 pedas: 56 g cooked = 235 kcal, P 9 g, C 26 g, F 11 g
+- 100 g: 100 g cooked = 425 kcal, P 15 g, C 47 g, F 20 g
+
+Cross-checks:
+
+- Rajhans peda label, per 100 g (Open Food Facts 8908000716476): 442 kcal per 100 g, ours 425 (+4%).  https://world.openfoodfacts.org/product/8908000716476
+- NDRI survey of market pedas, energy worked out from its mean composition (fat 16.74%, protein 15.23%, lactose 17.43%, sucrose 34.38%): 419 kcal per 100 g, ours 425 (-1%).  https://krishikosh.egranth.ac.in/server/api/core/bitstreams/ac4000a5-fd01-4425-a55f-c15aecd65889/content
+
+Judgement calls:
+
+- Peda modelled on the plain burfi recipe ASC335 (khoa, castor sugar, a little milk): the same mixture, pressed into discs instead of cut into squares. INDB's khoa ladoo (BFP404) adds coconut and nuts and was not used.
+- Yield from moisture: solids = khoa 57.5 (IFCT water 42.51%) + sugar 35 + milk solids 1.3 + almond 2.1 = 95.9 g; at 13.63% moisture (NDRI, other-variety market pedas, mean) = 111 g; 4 pedas of 27.8 g. The INDB's own value (408 kcal per 100 g) counts 2 tbsp of greasing ghee and no moisture loss.
+- Check of composition: fat 20.6 + 0.4 + 1.3 = 22.3 g / 111 = 20%; protein 16.3 + 0.3 + 0.4 = 17 g = 15.3%; sucrose 35 / 111 = 31.5%; lactose about 15%. NDRI market pedas: fat 16.74, protein 15.23, sucrose 34.38, lactose 17.43, moisture 13.63. NIFTEM's lab average: fat 20.1, protein 19.0, sucrose 30.0, lactose 18.3, moisture 10.2.
+- NDRI energy per 100 g: 9 x 16.74 + 4 x (15.23 + 17.43 + 34.38) = 419 kcal. NIFTEM's lab average gives 450 (+6%).
+- No outside range: the recipe is the same in shops and packs; only the piece size differs, and the small packed piece is a portion row.
+- Sugar per peda: 35 / 4 = 8.75 g; lactose 16.5 x 0.25 = 4.1 g.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-15)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-15)
+- Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub). https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB- (accessed 2026-10-15)
+- Anuja C. Vasu, Distinct features and characteristics of Dharwad peda, MSc thesis, National Dairy Research Institute, Bangalore, 2007 (Krishikosh). https://krishikosh.egranth.ac.in/server/api/core/bitstreams/ac4000a5-fd01-4425-a55f-c15aecd65889/content (accessed 2026-10-15)
+- NIFTEM, PM FME scheme, Peda processing (slide deck). https://niftem.ac.in/newsite/pmfme/wp-content/uploads/2022/08/ppt_peda-processing.pdf (accessed 2026-10-15)
+- Rajhans peda label (Open Food Facts, 8908000716476). https://world.openfoodfacts.org/product/8908000716476 (accessed 2026-10-15)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+
+## Chakli (/calories/chakli/)
+
+Recipe: 360 g rice flour and 150 g roasted gram dal with butter and sesame, fried, making 35 chaklis.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Rice flour | 360 | 1317.6 | 21.4 | 279.7 | 5.1 | USDA FDC 169714 |
+| Bengal gram dal (chana) | 150 | 493.7 | 32.3 | 70.1 | 8.0 | IFCT 2017 B001 |
+| Butter | 28.4 | 203.6 | 0.2 | 0.0 | 23.0 | USDA FDC 173430 |
+| Sesame (til), white | 18 | 93.5 | 3.9 | 1.9 | 7.7 | IFCT 2017 H011 |
+| Red chilli powder | 1.3 | 3.7 | 0.2 | 0.2 | 0.2 | USDA FDC 171319 |
+| Water | 300 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Groundnut oil | 120 | 1061.2 | 0.0 | 0.0 | 120.0 | IFCT 2017 T005 |
+| **Total** | | **3173.2** | **58.1** | **352.0** | **164.0** | |
+
+Cooked yield 645 g (the flours, dal, butter, sesame and the oil taken up, at 4% moisture, as a crisp fried snack: an assumption). Per 100 g cooked: 492.0 kcal.
+
+Portions:
+
+- 1 chakli (about 18 g): 18 g cooked = 90 kcal, P 2 g, C 10 g, F 5 g
+- 2 chaklis: 37 g cooked = 180 kcal, P 3 g, C 20 g, F 9 g
+- 4 chaklis: 74 g cooked = 365 kcal, P 7 g, C 40 g, F 19 g
+- 1 small bowl (about 50 g): 50 g cooked = 245 kcal, P 5 g, C 27 g, F 13 g
+- 100 g: 100 g cooked = 490 kcal, P 9 g, C 55 g, F 25 g
+
+Outside (Packed or shop): fat sources x 1 to 1, portion x 0.96 to 1.55 = 85 to 140 kcal. Basis: Packed chakli labels per 100 g: Charliee masala butter chakli 474 (4% below this recipe), Palak chakli 525, Softy chakli 549 (12% above). Low end 0.96 times this 18 g chakli; high end a 25 g Diwali chakli at Softy's value per gram, 1.39 x 1.12 = 1.55 times. The 25 g size is an assumption.
+
+Cross-checks:
+
+- Softy chakli label, per 100 g (Open Food Facts 8906077360028): 549 kcal per 100 g, ours 492 (+12%).  https://world.openfoodfacts.org/product/8906077360028
+- Charliee masala butter chakli label, per 100 g (Open Food Facts 8906005670366): 474 kcal per 100 g, ours 492 (-4%).  https://world.openfoodfacts.org/product/8906005670366
+
+Judgement calls:
+
+- Chakli is modelled on INDB's open-source rice murukku (OSR113) because its ingredients (rice flour, roasted gram dal, butter, sesame, chilli, ajwain) are a standard chakli dough; the ASC and BFP textbooks have no chakli or murukku. Murukku is listed as an alias on that basis.
+- Raw weight: 360 + 150 + 28.4 + 18 + 1.3 + 300 water (assumption) = 858 g; oil taken up at 14% = 120 g, 3.4 g per chakli. Moisture: finished at 4% (assumption for a crisp fried snack): solids 317 (rice flour at 12% water) + 135 (dal at 10%) + 24 (butter fat) + 17 + 1 = 494 g, plus 120 g oil, divided by 0.96 = 640 g; 645 g used. 35 chaklis of 18.4 g.
+- Fat check: 1.4 + 8 + 23 + 7.7 + 120 = 160 g / 645 = 25%. Labels: Charliee 21.5, Palak 29, Softy 33, Adukale 41.6 g per 100 g. A little millet chakli study reports about 33% fat (abstract seen in search results only, not opened, not used).
+- Salt (¾ tsp), ajwain (½ tsp) and asafoetida left out. Roasted gram dal valued as IFCT Bengal gram dal (B001).
+- Adukale khara chakli (560 kcal, 41.6 g fat per 100 g) is 14% above this page and is mentioned as the oilier end rather than used as a cross-check.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-15)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-15)
+- Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub). https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB- (accessed 2026-10-15)
+- USDA FoodData Central, Rice flour, white (169714) and Butter, without salt (173430). https://fdc.nal.usda.gov/food-details/169714/nutrients (accessed 2026-10-10)
+- Hebbar's Kitchen, Butter murukku (white chakli, butter chakli). https://hebbarskitchen.com/butter-murukku-butter-chakli-recipe/ (accessed 2026-10-15)
+- Sakhale et al., oil uptake of lab-fried samosas (as used on the samosa page), and USDA FNDDS samosa. https://writeonslate.com/calories/samosa/ (accessed 2026-10-15)
+- Softy chakli label (Open Food Facts, 8906077360028). https://world.openfoodfacts.org/product/8906077360028 (accessed 2026-10-15)
+- Charliee masala butter chakli label (Open Food Facts, 8906005670366). https://world.openfoodfacts.org/product/8906005670366 (accessed 2026-10-15)
+- Jaimin palak chakli label (Open Food Facts, 8908000870277). https://world.openfoodfacts.org/product/8908000870277 (accessed 2026-10-15)
+- Adukale khara chakli label (Open Food Facts, 8906095290314). https://world.openfoodfacts.org/product/8906095290314 (accessed 2026-10-15)
+
+## Namak para (/calories/namak-para/)
+
+Recipe: 240 g maida with 3 tablespoons of ghee and ajwain, cut into diamonds and fried, making about 63 pieces.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, refined (maida) | 240 | 844.3 | 24.9 | 178.2 | 1.8 | IFCT 2017 A018 |
+| Ghee | 38.4 | 339.6 | 0.0 | 0.0 | 38.4 | IFCT 2017 T013 |
+| Water | 85 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Groundnut oil | 52 | 459.8 | 0.0 | 0.0 | 52.0 | IFCT 2017 T005 |
+| **Total** | | **1643.7** | **24.9** | **178.2** | **92.2** | |
+
+Cooked yield 316 g (the maida's solids, the ghee and the oil taken up, at 4% moisture, as a crisp fried snack: an assumption). Per 100 g cooked: 520.2 kcal.
+
+Portions:
+
+- 1 piece (about 5 g): 5 g cooked = 25 kcal, P 0 g, C 3 g, F 1 g
+- 10 pieces (about 50 g): 50 g cooked = 260 kcal, P 4 g, C 28 g, F 15 g
+- 100 g: 100 g cooked = 520 kcal, P 8 g, C 56 g, F 29 g
+
+Outside (Packed): fat sources x 1 to 1, portion x 0.88 to 1.17 = 230 to 305 kcal. Basis: Packed namak para labels per 100 g: Riya's 459 (12% below this recipe), Daadis 535 (3% above), Deep 607 (17% above, 42.9 g fat). 0.88 to 1.17 times this recipe is used for the same 50 g.
+
+Cross-checks:
+
+- Daadis namak para label, per 100 g (Open Food Facts 8906000921968): 535 kcal per 100 g, ours 520 (+3%).  https://world.openfoodfacts.org/product/8906000921968
+- Riya's namak para label, per 100 g (Open Food Facts 0604052782756): 459 kcal per 100 g, ours 520 (-12%).  https://world.openfoodfacts.org/product/0604052782756
+
+Judgement calls:
+
+- Constructed recipe: INDB has no plain namak para (only soyabean ASC458 and spinach-peanut ASC460 versions, and BFP568 poshtik). Hebbar's Kitchen's namak pare was used; the textbook mathri dough (ASC364, 100 g maida and 2 tbsp oil) is the same idea with more fat.
+- Units: maida 120 g a cup (INDB units file, same as flour); ghee 12.8 g a tablespoon (INDB). Water 85 g is an assumption (a stiff dough at about 35% of the flour).
+- Raw weight 240 + 38.4 + 85 = 363 g; oil taken up at 14% = 52 g. Finished weight at 4% moisture: maida solids 212.8 + 38.4 + 52 = 303 / 0.96 = 316 g; about 63 pieces of 5 g.
+- Fat check: 1.8 + 38.4 + 52 = 92 g / 316 = 29%. Labels: Riya's 24.7, Daadis 30.6, Deep 42.9 g per 100 g.
+- Deep's label (607 kcal, 42.9 g fat per 100 g; 10 pieces = 28 g) is 17% above this page and is used as the top of the outside range, not as a cross-check.
+- A full katori in the FAQ: 80 g x 5.2 = 416 kcal.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-15)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-15)
+- Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub). https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB- (accessed 2026-10-15)
+- Hebbar's Kitchen, Namak pare recipe (spicy diamond cuts). https://hebbarskitchen.com/namak-pare-recipe-namak-para/ (accessed 2026-10-15)
+- Sakhale et al., oil uptake of lab-fried samosas (as used on the samosa page), and USDA FNDDS samosa. https://writeonslate.com/calories/samosa/ (accessed 2026-10-15)
+- Daadis namak para label (Open Food Facts, 8906000921968). https://world.openfoodfacts.org/product/8906000921968 (accessed 2026-10-15)
+- Riya's namak para label (Open Food Facts, 0604052782756). https://world.openfoodfacts.org/product/0604052782756 (accessed 2026-10-15)
+- Deep namak para label (Open Food Facts, 0011433134880). https://world.openfoodfacts.org/product/0011433134880 (accessed 2026-10-15)
+
+## Shakarpara (/calories/shakarpara/)
+
+Recipe: 240 g maida with 100 g sugar, 21 g rava and 51 g ghee, cut into diamonds and fried, making about 79 pieces.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, refined (maida) | 240 | 844.3 | 24.9 | 178.2 | 1.8 | IFCT 2017 A018 |
+| Semolina (suji, rava) | 21 | 70.1 | 2.4 | 14.4 | 0.2 | IFCT 2017 A022 |
+| Sugar, white | 100 | 387.0 | 0.0 | 100.0 | 0.0 | USDA FDC 169655 |
+| Ghee | 51 | 451.0 | 0.0 | 0.0 | 51.0 | IFCT 2017 T013 |
+| Water | 90 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Groundnut oil | 70 | 619.0 | 0.0 | 0.0 | 70.0 | IFCT 2017 T005 |
+| **Total** | | **2371.4** | **27.3** | **292.6** | **123.0** | |
+
+Cooked yield 472 g (the flour, rava and sugar solids, the ghee and the oil taken up, at 4% moisture, as a crisp fried snack: an assumption). Per 100 g cooked: 502.4 kcal.
+
+Portions:
+
+- 1 piece (about 6 g): 6 g cooked = 30 kcal, P 0 g, C 4 g, F 2 g
+- 10 pieces (about 60 g): 60 g cooked = 300 kcal, P 3 g, C 37 g, F 16 g
+- 100 g: 100 g cooked = 500 kcal, P 6 g, C 62 g, F 26 g
+
+Judgement calls:
+
+- Constructed recipe: INDB has no shakarpara, shankarpali or sweet para. Hebbar's Kitchen's shankarpali was used.
+- No analysed value found: Open Food Facts has no shakarpara product with values, USDA FDC returned none, and a journal search found nothing. Consumer databases disagree with each other (412 to 500 kcal per 100 g) and are not used.
+- Units: maida 120 g a cup, sugar 200 g, semolina 167 g (INDB units from USDA measures); ghee 12.8 g a tbsp, so ¼ cup = 51 g. Water 90 g is an assumption.
+- Raw weight 240 + 21 + 100 + 51 + 90 = 502 g; oil taken up at 14% = 70 g. Finished at 4% moisture: solids 212.8 + 19.1 + 100 = 332 + fats 121 = 453 / 0.96 = 472 g; about 79 pieces of 6 g.
+- Sugar per 10 pieces: 100 / 472 x 60 = 12.7 g.
+- Salt (½ tsp) left out.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-15)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-15)
+- Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub). https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB- (accessed 2026-10-15)
+- Hebbar's Kitchen, Shankarpali recipe (sweet shakarpara, shakkar para). https://hebbarskitchen.com/wprm_print/shankarpali-recipe-sweet-shakarpara-shakkar-para (accessed 2026-10-15)
+- Sakhale et al., oil uptake of lab-fried samosas (as used on the samosa page), and USDA FNDDS samosa. https://writeonslate.com/calories/samosa/ (accessed 2026-10-15)
+- USDA FoodData Central, Sugars, granulated (169655). https://fdc.nal.usda.gov/food-details/169655/nutrients (accessed 2026-10-10)
+
+## Mathri (/calories/mathri/)
+
+Recipe: 100 g maida with 2 tablespoons of oil, pepper and ajwain, fried, making 7 mathris.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, refined (maida) | 100 | 351.8 | 10.4 | 74.3 | 0.8 | IFCT 2017 A018 |
+| Groundnut oil | 27.2 | 240.5 | 0.0 | 0.0 | 27.2 | IFCT 2017 T005 |
+| Black pepper | 2 | 4.4 | 0.2 | 0.7 | 0.1 | IFCT 2017 G031 |
+| Water | 35 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| Groundnut oil | 23 | 203.4 | 0.0 | 0.0 | 23.0 | IFCT 2017 T005 |
+| **Total** | | **800.1** | **10.6** | **75.0** | **51.0** | |
+
+Cooked yield 147 g (the maida's solids, the pepper, the dough oil and the oil taken up, at 4% moisture, as a crisp fried snack: an assumption). Per 100 g cooked: 544.3 kcal.
+
+Portions:
+
+- 1 mathri (about 21 g): 21 g cooked = 115 kcal, P 2 g, C 11 g, F 7 g
+- 2 mathris: 42 g cooked = 230 kcal, P 3 g, C 21 g, F 15 g
+- 4 mathris: 84 g cooked = 455 kcal, P 6 g, C 43 g, F 29 g
+- 100 g: 100 g cooked = 545 kcal, P 7 g, C 51 g, F 35 g
+
+Judgement calls:
+
+- No analysed value for mathri was found (IFCT 2017, NIN Annexure 8, USDA FNDDS and branded search, Open Food Facts search returned no products, journal search). Retail listings for packed mathri seen in search results (about 560 to 570 kcal and 36 g fat per 100 g) could not be opened and are not cited.
+- The textbook lists no water; 35 g is an assumption for a stiff dough. Raw weight 100 + 27.2 + 2 + 35 = 164 g; oil taken up at 14% = 23 g, 3.3 g per mathri.
+- Finished at 4% moisture: maida solids 88.7 + pepper 1.8 + oils 50.2 = 140.7 / 0.96 = 146.6 g; 7 mathris of 21 g.
+- Fat check: 0.8 + 27.2 + 23 = 51 g / 147 = 35%.
+- INDB's mathri values (805 kcal per 100 g) count all 480 ml of frying oil and are not used.
+- Baked mathri in the changes: 3.3 g oil x 8.84 = 29 kcal.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-15)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-15)
+- Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub). https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB- (accessed 2026-10-15)
+- Sakhale et al., oil uptake of lab-fried samosas (as used on the samosa page), and USDA FNDDS samosa. https://writeonslate.com/calories/samosa/ (accessed 2026-10-15)
+

@@ -1949,7 +1949,7 @@
         "समोसा",
         "સમોસા"
       ],
-      "updated": "2026-10-14",
+      "updated": "2026-10-15",
       "title": "Samosa calories: home and street samosa",
       "description": "A home aloo samosa has about {{kcal:one}} calories; a street samosa about {{outLo}} to {{outHi}}. From IFCT 2017 and measured street samples.",
       "answer": "A home aloo samosa has about {{kcal:one}} calories, and 2 samosas about {{kcal:two}}. A large Punjabi samosa, half as big again, is about {{kcal:large}}. Oil taken up in frying is the biggest part, and draining well keeps it lower. Street samosas measured in a lab, oilier and in two sizes, ran about {{outLo}} to {{outHi}} each.",
@@ -2062,7 +2062,8 @@
         "Oil taken up in frying is the biggest single part of a samosa's calories. Frying at the right heat and draining well keeps it lower.",
         "More ghee or oil in the dough makes a flakier crust and adds about 45 calories per teaspoon to the batch.",
         "A large Punjabi samosa can be half as big again as a small one.",
-        "ICMR-NIN counts a tablespoon of tamarind chutney with jaggery at about 60 calories. Samosa chaat with curd, chole and sev is a meal of its own."
+        "ICMR-NIN counts a tablespoon of tamarind chutney with jaggery at about 60 calories. Samosa chaat with curd, chole and sev is a meal of its own.",
+        "Dry fried snacks are richer per gram: a 21 g [mathri](/calories/mathri/) is about {{kcal@mathri:one}} and an 18 g [chakli](/calories/chakli/) about {{kcal@chakli:one}}. A sweet [gujiya](/calories/gujiya/) from the same kind of pastry is about {{kcal@gujiya:one}}."
       ],
       "method": [
         "The recipe is the potato samosa in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 60 g maida with 2 teaspoons of ghee, 150 g potato, 75 g peas and 12 g of oil for the filling, making 6 samosas. Values are from IFCT 2017.",
@@ -2096,7 +2097,10 @@
         "masala-chai",
         "poha",
         "momos",
-        "maggi"
+        "maggi",
+        "chakli",
+        "mathri",
+        "gujiya"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -14538,7 +14542,7 @@
         "खस्ता कचौरी",
         "કચોરી"
       ],
-      "updated": "2026-10-14",
+      "updated": "2026-10-15",
       "title": "Kachori calories: home kachori and measured street kachoris",
       "description": "A home khasta kachori has about {{kcal:one}} calories; street kachoris tested in a lab came to about {{outLo}} to {{outHi}}. With aloo sabzi.",
       "answer": "A small home khasta kachori has about {{kcal:one}} calories, and 2 kachoris about {{kcal:two}}. Two with a 200 ml katori of aloo sabzi are about {{kcal:with_sabzi}}. Size and frying matter most: street kachoris tested in a lab were one and a half times this size, with two to three times the fat, and came to about {{outLo}} to {{outHi}}.",
@@ -14684,7 +14688,8 @@
         "Size and frying matter most. A street kachori can be one and a half times this one, with two to three times the fat.",
         "The oil or ghee rubbed into the dough (moyan) makes it flaky and adds about 40 to 45 calories per teaspoon to the batch.",
         "Matar and pyaz kachori fillings are a little lighter than dal; raj kachori, filled with curd and chutneys, is much more.",
-        "Aloo sabzi with it is a separate dish: see [aloo sabzi](/calories/aloo-sabzi/)."
+        "Aloo sabzi with it is a separate dish: see [aloo sabzi](/calories/aloo-sabzi/).",
+        "[Mathri](/calories/mathri/) and [namak para](/calories/namak-para/), the dry Diwali snacks, are about {{kcal@mathri:one}} a piece and {{kcal@namak-para:ten}} for 10 pieces."
       ],
       "method": [
         "The recipe is the khasta kachori in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g maida rubbed with 1½ tablespoons of oil, filled with 30 g of spiced urad dal cooked in 2 teaspoons of oil, making 7 kachoris. Values are from IFCT 2017.",
@@ -14716,7 +14721,9 @@
         "samosa",
         "aloo-sabzi",
         "vada-pav",
-        "jalebi"
+        "jalebi",
+        "mathri",
+        "namak-para"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -15724,7 +15731,7 @@
         "गुलाब जामुन",
         "ગુલાબ જાંબુ"
       ],
-      "updated": "2026-10-14",
+      "updated": "2026-10-15",
       "title": "Gulab jamun calories: per piece, with syrup, per 100 g",
       "description": "One khoa gulab jamun (about 43 g, drained) has about {{kcal:one}} calories, and more with a spoon of syrup. Based on a lab analysis and IFCT 2017.",
       "answer": "One home gulab jamun made with khoa, about 43 g drained of syrup, has about {{kcal:one}} calories, and 2 about {{kcal:two}}. A tablespoon of syrup adds about 45, taking one to about {{kcal:one_syrup}}. Size matters most: a large sweet-shop gulab jamun can be half as big again. Sweet-shop or wedding ones run about {{outLo}} to {{outHi}} each, before syrup.",
@@ -15846,7 +15853,8 @@
         "Size matters most: a large sweet-shop gulab jamun can be half as big again.",
         "Each tablespoon of syrup poured over adds about 45 calories, almost all sugar.",
         "Gulab jamun made from a packet mix with milk powder is close per gram.",
-        "Served warm with a scoop of ice cream, add about 100 to 140 calories for the ice cream."
+        "Served warm with a scoop of ice cream, add about 100 to 140 calories for the ice cream.",
+        "[Rasmalai](/calories/rasmalai/), chhena in sweetened milk, is about {{kcal@rasmalai:one}} a piece with its milk; a [peda](/calories/peda/) about {{kcal@peda:one}}."
       ],
       "method": [
         "The recipe is the gulab jamun in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g khoa, 25 g maida and a teaspoon of milk, making 6 gulab jamuns, fried and soaked in a syrup of 200 g sugar in 125 ml water. Values are from IFCT 2017, with sugar from USDA.",
@@ -15874,7 +15882,9 @@
         "rasgulla",
         "jalebi",
         "gajar-halwa",
-        "besan-ladoo"
+        "besan-ladoo",
+        "rasmalai",
+        "peda"
       ],
       "useCase": {
         "href": "/for/indian-food/",
@@ -15949,7 +15959,7 @@
         "રસગુલ્લા",
         "রসগোল্লা"
       ],
-      "updated": "2026-10-14",
+      "updated": "2026-10-15",
       "title": "Rasgulla calories: per piece, with syrup, per 100 g",
       "description": "One rasgulla (about 36 g, squeezed) has about {{kcal:one}} calories; with a spoon of syrup about {{kcal:one_syrup}}. From a lab analysis and IFCT 2017.",
       "answer": "One rasgulla, about 36 g lightly squeezed of syrup, has about {{kcal:one}} calories, and 2 rasgullas about {{kcal:two}}. With a tablespoon of syrup one is about {{kcal:one_syrup}}, and 100 g squeezed about {{kcal:g100}}. Syrup is the main variable: each tablespoon adds about 45 calories. Tinned and sweet-shop rasgullas, usually sweeter, run about {{outLo}} to {{outHi}} each.",
@@ -16062,7 +16072,7 @@
       "changes": [
         "Syrup is the main variable. Squeezing a rasgulla before eating takes off much of the sugar; a tablespoon of syrup adds about 45 calories.",
         "Rasgullas made from full-fat milk or buffalo milk have more fat than those from toned milk.",
-        "Rasmalai soaks the chhena in thickened sweet milk instead of syrup, and has more fat and calories.",
+        "[Rasmalai](/calories/rasmalai/) soaks the same chhena in thickened sweet milk instead of syrup, and comes to about {{kcal@rasmalai:one}} a piece with its milk, close to twice a rasgulla.",
         "Low-sugar rasgullas made with sweeteners have far fewer calories."
       ],
       "method": [
@@ -16095,7 +16105,8 @@
         "gulab-jamun",
         "jalebi",
         "kaju-katli",
-        "gajar-halwa"
+        "gajar-halwa",
+        "rasmalai"
       ],
       "useCase": {
         "href": "/for/indian-food/",
@@ -16171,7 +16182,7 @@
         "જલેબી",
         "জিলিপি"
       ],
-      "updated": "2026-10-14",
+      "updated": "2026-10-15",
       "title": "Jalebi calories: per piece, per 100 g, an estimate",
       "description": "One 30 g jalebi has about {{kcal:one}} calories and 100 g about {{kcal:g100}}, estimated from frying and syrup data. No lab analysis of jalebi exists.",
       "answer": "A 30 g jalebi has roughly {{kcal:one}} calories, 100 g about {{kcal:g100}}, and 250 g by weight about {{kcal:g250}}. This is an estimate: we found no lab analysis of jalebi. Syrup is the biggest unknown: a jalebi left to soak longer takes up more sugar. From a halwai, 2 jalebis run about {{outLo}} alone to {{outHi}} with rabri.",
@@ -16337,7 +16348,9 @@
         "gulab-jamun",
         "rasgulla",
         "poha",
-        "kachori"
+        "kachori",
+        "soan-papdi",
+        "motichoor-ladoo"
       ],
       "useCase": {
         "href": "/for/indian-food/",
@@ -16405,7 +16418,7 @@
         "काजू बर्फी",
         "કાજુ કતરી"
       ],
-      "updated": "2026-10-14",
+      "updated": "2026-10-15",
       "title": "Kaju katli calories: per piece and per 100 g",
       "description": "One 10 g piece of kaju katli has about {{kcal:shop}} calories; 100 g about {{kcal:g100}}. Made from cashews and sugar, worked out from IFCT 2017.",
       "answer": "One sweet-shop piece of kaju katli, about 10 g, has about {{kcal:shop}} calories; a home piece of about 17 g is about {{kcal:one}}. Four shop pieces, 40 g, come to about {{kcal:four}}. Piece size is the main variable; the recipe, cashews and sugar, barely varies. Packed kaju katli, by a brand's label, runs about {{outLo}} to {{outHi}} for 4 pieces.",
@@ -16516,7 +16529,8 @@
         "Piece size is the main thing: a shop piece is about 10 g, a home piece often more.",
         "More cashew and less sugar raises it slightly per gram, since cashews have more calories than sugar.",
         "Silver leaf adds nothing measurable.",
-        "Kaju roll, kaju pista roll and kaju barfi with khoa are close per gram."
+        "Kaju roll, kaju pista roll and kaju barfi with khoa are close per gram.",
+        "[Soan papdi](/calories/soan-papdi/) is close per gram, about {{kcal@soan-papdi:g100}} per 100 g, and a [peda](/calories/peda/) is about {{kcal@peda:one}} a piece."
       ],
       "method": [
         "The recipe is the cashewnut burfi in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 50 g cashews ground and cooked with 50 g sugar in 3 tablespoons of water, making 6 pieces. Values are from IFCT 2017, with sugar from USDA.",
@@ -16544,7 +16558,9 @@
         "besan-ladoo",
         "gulab-jamun",
         "rasgulla",
-        "gajar-halwa"
+        "gajar-halwa",
+        "soan-papdi",
+        "peda"
       ],
       "useCase": {
         "href": "/for/indian-food/",
@@ -16612,7 +16628,7 @@
         "बेसन के लड्डू",
         "બેસનના લાડુ"
       ],
-      "updated": "2026-10-14",
+      "updated": "2026-10-15",
       "title": "Besan ladoo calories: per ladoo and per 100 g",
       "description": "One besan ladoo (about 35 g) has about {{kcal:one}} calories, from besan, ghee and sugar. Close to a street ladoo measured in a lab study.",
       "answer": "One besan ladoo of about 35 g has about {{kcal:one}} calories, and 2 ladoos about {{kcal:two}}. A small 25 g ladoo is about {{kcal:small}}. Ghee and sugar are about two thirds of it, and size matters most: a 60 g sweet-shop ladoo has close to twice this one. Sweet-shop ladoos run about {{outLo}} to {{outHi}}.",
@@ -16721,7 +16737,7 @@
       "changes": [
         "Size is the main thing: a 60 g sweet-shop ladoo has close to twice a 35 g one.",
         "Ghee is about 40% of a ladoo's calories here. Each extra tablespoon in the batch adds about 110 calories.",
-        "Boondi ladoo and motichoor ladoo are fried besan pearls in syrup, and have their own values.",
+        "[Motichoor ladoo](/calories/motichoor-ladoo/), fried besan pearls in syrup, is lighter per gram, about {{kcal@motichoor-ladoo:g100}} per 100 g, because the syrup brings water in with the sugar.",
         "Nuts and raisins mixed in add a little."
       ],
       "method": [
@@ -16750,7 +16766,9 @@
         "kaju-katli",
         "gulab-jamun",
         "dhokla",
-        "besan-chilla"
+        "besan-chilla",
+        "motichoor-ladoo",
+        "soan-papdi"
       ],
       "useCase": {
         "href": "/for/indian-food/",
@@ -16823,7 +16841,7 @@
         "गाजर का हलवा",
         "ગાજરનો હલવો"
       ],
-      "updated": "2026-10-14",
+      "updated": "2026-10-15",
       "title": "Gajar halwa calories: per bowl and per katori",
       "description": "A bowl of gajar halwa from 100 g of carrots has about {{kcal:bowl}} calories, with khoa, sugar and ghee. Sweet shop and wedding halwa compared.",
       "answer": "A bowl of home gajar halwa, from 100 g of carrots with khoa, sugar and ghee, has about {{kcal:bowl}} calories. A small katori, a quarter of it, is about {{kcal:small}}. Ghee is a big part: each tablespoon across the pot adds about 113 calories. Wedding or sweet-shop halwa, richer, runs about {{outLo}} to {{outHi}} a bowl.",
@@ -16931,7 +16949,8 @@
         "Ghee is a big part: each tablespoon across the pot adds about 113 calories.",
         "Khoa adds about 125 calories per 40 g; halwa made with only milk, cooked down, has less fat.",
         "Sugar adds about 16 calories a teaspoon. Gajar halwa needs less than you'd think, since carrots are sweet.",
-        "Nuts on top add about 60 calories per 10 g."
+        "Nuts on top add about 60 calories per 10 g.",
+        "A katori of [kheer](/calories/kheer/) is lighter, about {{kcal@kheer:k200}} for 200 ml, because it is mostly milk."
       ],
       "method": [
         "The recipe is the carrot halwa in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 200 g carrots cooked with 30 ml milk, 40 g khoa, 40 g sugar and 20 g ghee, finished with almonds, cashews and cardamom, for 2 bowls. Values are from IFCT 2017, with sugar from USDA.",
@@ -16959,7 +16978,9 @@
         "gulab-jamun",
         "besan-ladoo",
         "kaju-katli",
-        "rasgulla"
+        "rasgulla",
+        "kheer",
+        "rasmalai"
       ],
       "useCase": {
         "href": "/for/indian-food/",
@@ -21767,6 +21788,2412 @@
         }
       ],
       "per100gCooked": null
+    },
+    {
+      "slug": "soan-papdi",
+      "name": "Soan papdi",
+      "nameLower": "soan papdi",
+      "category": "sweets",
+      "aliases": [
+        "son papdi",
+        "sohan papdi",
+        "soan papri",
+        "soan papadi",
+        "sonpapdi",
+        "patisa",
+        "सोन पापड़ी",
+        "सोहन पापड़ी",
+        "सोनपापड़ी",
+        "સોન પાપડી"
+      ],
+      "updated": "2026-10-15",
+      "title": "Soan papdi calories: {{kcal:one}} per piece, {{kcal:g100}} per 100 g",
+      "description": "One 21 g piece of soan papdi has about {{kcal:one}} calories and 100 g about {{kcal:g100}}. A patisa recipe of besan, maida, ghee and sugar, checked against packed labels.",
+      "answer": "One sweet-shop piece of soan papdi, about 21 g, has about {{kcal:one}} calories; 2 pieces about {{kcal:two}}. A home piece of about 51 g is about {{kcal:home}}. Ghee and sugar make up nearly all of it, so the recipe barely changes the number; piece size does. Packed soan papdi, by its labels, runs about {{outLo}} to {{outHi}} a piece.",
+      "intro": [
+        "Soan papdi, or patisa, is besan and maida roasted in ghee, beaten into a hot sugar syrup until it pulls into thousands of fine threads, then pressed flat and cut into cubes. It is the most boxed Diwali sweet in India, and the one most often passed on.",
+        "By weight it is about half sugar and a quarter ghee. The flours are a fifth. That makes it one of the richer sweets per gram, close to kaju katli, though a packed piece is small."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Soan papdi made as below; a sweet-shop piece is 21 g, the serving on Haldiram's packs.",
+      "recipe": {
+        "label": "Recipe: 115 g besan and 150 g maida roasted in 250 g ghee, set with a syrup of 500 g sugar, making 20 home pieces",
+        "ingredients": [
+          {
+            "id": "besan",
+            "g": 115,
+            "note": "1¼ cups"
+          },
+          {
+            "id": "maida",
+            "g": 150,
+            "note": "1¼ cups"
+          },
+          {
+            "id": "ghee",
+            "g": 250
+          },
+          {
+            "id": "sugar",
+            "g": 500,
+            "note": "2½ cups, for the syrup"
+          },
+          {
+            "id": "milk_cow",
+            "g": 30,
+            "note": "2 tablespoons, in the syrup"
+          },
+          {
+            "id": "water",
+            "g": 360,
+            "note": "1½ cups for the syrup, cooked off to a 2½-thread syrup: taken as none left (an assumption)"
+          }
+        ],
+        "cookedYieldG": 1020,
+        "yieldNote": "the flours, ghee, sugar and the milk's solids, with the syrup water cooked off"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 piece (about 21 g)",
+          "short": "a piece",
+          "grams": 21,
+          "cookedGrams": 21,
+          "kcal": 105,
+          "protein": 1,
+          "carbs": 14,
+          "fat": 5
+        },
+        {
+          "id": "two",
+          "label": "2 pieces (42 g)",
+          "short": "2 pieces",
+          "grams": 42,
+          "cookedGrams": 42,
+          "kcal": 210,
+          "protein": 2,
+          "carbs": 27,
+          "fat": 11
+        },
+        {
+          "id": "home",
+          "label": "1 large home piece (a twentieth, about 51 g)",
+          "short": "a home piece",
+          "fraction": 0.05,
+          "cookedGrams": 51,
+          "kcal": 255,
+          "protein": 2,
+          "carbs": 33,
+          "fat": 13
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 495,
+          "protein": 4,
+          "carbs": 65,
+          "fat": 25
+        },
+        {
+          "id": "g250",
+          "label": "250 g (a small box)",
+          "short": "a 250 g box",
+          "grams": 250,
+          "cookedGrams": 250,
+          "kcal": 1245,
+          "protein": 10,
+          "carbs": 163,
+          "fat": 63
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Packed or sweet shop",
+        "caption": "One 21 g piece. The outside range runs from Haldiram's label to Bikaji's, per gram.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          0.99,
+          1.09
+        ],
+        "basis": "Packed labels per 100 g: Haldiram's 490 kcal (1% below this recipe) and Bikaji 542 (9% above). 0.99 to 1.09 times this recipe is used, for the same 21 g piece.",
+        "text": [
+          "Packed soan papdi is made to much the same recipe, with refined palmolein in place of some or all of the ghee, which changes nothing: fat is fat. Haldiram's label lists 490 calories per 100 g and Bikaji's 542, either side of this page's {{kcal:g100}}.",
+          "The range below applies those labels to one 21 g piece."
+        ],
+        "kcalRange": [
+          105,
+          115
+        ],
+        "fatRange": [
+          5,
+          6
+        ]
+      },
+      "changes": [
+        "Piece size is the main thing: a packed cube is about 21 g, a piece cut from a home slab can be twice that or more.",
+        "Ghee is about 45% of the calories here. Recipes vary from equal weights of ghee and flour to twice as much; the sweet shop's is not on the label.",
+        "Sugar is about half the weight. A 21 g piece holds about 10 g of it.",
+        "Pista, orange, chocolate and rose soan papdi are close per gram: Haldiram's chocolate label lists 517 per 100 g against 490 for plain.",
+        "[Kaju katli](/calories/kaju-katli/) is close per gram, about {{kcal@kaju-katli:g100}} per 100 g, but a sweet-shop piece is half the weight."
+      ],
+      "method": [
+        "No standard textbook in the Indian Nutrient Databank has soan papdi, so the recipe is a published Punjabi patisa recipe: 1¼ cups each of besan and maida roasted in 250 g of ghee, beaten into a syrup of 2½ cups of sugar with 2 tablespoons of milk, making 20 pieces. Cups are converted at USDA's weights (besan 92 g, flour 120 g, sugar 200 g). Values are from IFCT 2017, with sugar from USDA.",
+        "The syrup's water is cooked off to a 2½-thread syrup and is taken as gone. Cardamom and the charmagaz seeds on top, a few grams, are left out. The result is checked against two packed labels, which it matches within 10%."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 piece of soan papdi?",
+          "a": "About {{kcal:one}} for a 21 g sweet-shop piece, the serving size on Haldiram's packs. A bigger home piece of about 51 g is about {{kcal:home}}."
+        },
+        {
+          "q": "How many calories are in 100 g of soan papdi?",
+          "a": "About {{kcal:g100}} for this recipe. Packed labels list 490 (Haldiram's) to 542 (Bikaji)."
+        },
+        {
+          "q": "How many calories are in a 250 g box of soan papdi?",
+          "a": "About {{kcal:g250}} for the whole box, roughly 12 pieces of 21 g."
+        },
+        {
+          "q": "How much sugar is in soan papdi?",
+          "a": "About 10 g in a 21 g piece: sugar is close to half its weight. Haldiram's label lists 46 g of sugar per 100 g."
+        },
+        {
+          "q": "Does soan papdi made with oil have fewer calories than with ghee?",
+          "a": "No. Palmolein and ghee have the same calories per gram, so a packed soan papdi made with oil is about the same as one made with desi ghee. The difference is taste and texture."
+        }
+      ],
+      "related": [
+        "kaju-katli",
+        "besan-ladoo",
+        "motichoor-ladoo",
+        "peda"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "Haldiram's soan papdi label, per 100 g (Open Food Facts 8904004405415)",
+          "kcalPer100g": 490,
+          "url": "https://world.openfoodfacts.org/product/8904004405415",
+          "ours": 497,
+          "differencePct": -1
+        },
+        {
+          "source": "Bikaji soan papdi label, per 100 g (Open Food Facts 8906005504111)",
+          "kcalPer100g": 542,
+          "url": "https://world.openfoodfacts.org/product/8906005504111",
+          "ours": 497,
+          "differencePct": 9
+        }
+      ],
+      "judgement": [
+        "Constructed recipe: the Indian Nutrient Databank has no soan papdi or patisa. The patisa recipe (allaboutsikhs.com) was chosen over two blog recipes because its ghee and sugar shares (25% and 49% of the finished weight) reconcile with the packed labels (fat 23 to 28 g, sugar 46 to 50 g per 100 g) and the Consumer VOICE test of branded soan papdi (sugar 37 to 40%), where the blog recipes gave 10% or 35% fat.",
+        "Cup weights: besan 92 g, maida 120 g, sugar 200 g per cup (INDB's units file, from USDA measures). Milk 2 tbsp = 30 g, its solids about 4 g, counted in the yield.",
+        "Yield 1020 g = 115 + 150 + 250 + 500 + about 4 g of milk solids, syrup water cooked off: an assumption. 20 pieces of 51 g. The 21 g shop piece is the serving size on Haldiram's labels (Open Food Facts 8904004405064 and 8904004405316).",
+        "Fat per 100 g: (6.1 + 1.1 + 250 + 1.3) / 1020 = 25%, against labels' 23 to 28 g.",
+        "Sugar per piece: 500 / 1020 x 21 = 10.3 g."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Besan as Bengal gram dal (B001), maida (A018), ghee (T013), cow milk (L002); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Checked for a soan papdi or patisa recipe: none in The Art & Science of Cooking or Basic Food Preparation",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub)",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "note": "Units file: cup weights for besan, flour and sugar",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Patisa (soan papdi), Punjabi recipe, allaboutsikhs.com",
+          "url": "https://www.allaboutsikhs.com/cuisine-of-punjabpatisa-soan-papdi/",
+          "note": "1¼ cups besan, 1¼ cups maida, 250 g ghee, 2½ cups sugar, 1½ cups water, 2 tbsp milk; about 20 pieces",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Haldiram's soan papdi label (Open Food Facts, 8904004405415)",
+          "url": "https://world.openfoodfacts.org/product/8904004405415",
+          "note": "490 kcal, 23.06 g fat, 46.06 g sugar per 100 g; ingredients sugar, maida, palmolein, besan, hydrogenated vegetable oil",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Bikaji soan papdi label (Open Food Facts, 8906005504111)",
+          "url": "https://world.openfoodfacts.org/product/8906005504111",
+          "note": "542 kcal, 28 g fat, 46 g sugar per 100 g",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Haldiram's soan papdi (chocolate) label (Open Food Facts, 8904004405064)",
+          "url": "https://world.openfoodfacts.org/product/8904004405064",
+          "note": "21 g serving; 517 kcal per 100 g",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Consumer VOICE, comparative test of branded soan papdi (2012), via consumeraffairs.nic.in",
+          "url": "https://consumeraffairs.nic.in/sites/default/files/file-uploads/ctocpas/soan%20papdi-12.pdf",
+          "note": "Sugar 37.11 to 39.79% across brands (from the report's summary; the PDF itself did not load on 15 October)",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "Sugar; a teaspoon is 4.2 g and a cup 200 g",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 495,
+        "protein": 4,
+        "carbs": 65,
+        "fat": 25
+      }
+    },
+    {
+      "slug": "motichoor-ladoo",
+      "name": "Motichoor ladoo",
+      "nameLower": "motichoor ladoo",
+      "category": "sweets",
+      "aliases": [
+        "motichur laddu",
+        "motichoor laddoo",
+        "motichur ladoo",
+        "motichoor laddu",
+        "boondi ladoo",
+        "boondi laddu",
+        "bundi ladoo",
+        "मोतीचूर लड्डू",
+        "मोतीचूर के लड्डू",
+        "बूंदी के लड्डू",
+        "મોતીચૂર લાડુ",
+        "બુંદી લાડુ"
+      ],
+      "updated": "2026-10-15",
+      "title": "Motichoor ladoo calories: {{kcal:one}} per ladoo, {{kcal:g100}} per 100 g",
+      "description": "One 28 g motichoor ladoo has about {{kcal:one}} calories, a large 45 g one about {{kcal:large}}, 100 g about {{kcal:g100}}. Fried besan boondi in syrup, checked against labels.",
+      "answer": "One motichoor ladoo of about 28 g, the size on packed labels, has about {{kcal:one}} calories, and 2 about {{kcal:two}}. A large sweet-shop ladoo of about 45 g is about {{kcal:large}}. Sugar syrup is about a third of the calories and the frying ghee a third more. Sweet-shop ladoos run about {{outLo}} to {{outHi}} each, mostly by size.",
+      "intro": [
+        "Motichoor ladoo is tiny boondi, pearls of besan batter fried in ghee, soaked in sugar syrup and pressed into a ball. The pearls are finer than in a boondi ladoo, which is why it holds together and melts. It is the ladoo of weddings, temples and Diwali boxes across north India.",
+        "Per gram it is lighter than besan ladoo, because the syrup brings water in with the sugar. Per piece it depends almost entirely on how big the halwai rolls it."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Motichoor ladoo made as below; 28 g is the piece on Deep's label.",
+      "recipe": {
+        "label": "Recipe: 230 g besan as boondi fried in ghee, soaked in a syrup of 267 g sugar, making 25 ladoos",
+        "ingredients": [
+          {
+            "id": "besan",
+            "g": 230,
+            "note": "2½ cups, for the batter"
+          },
+          {
+            "id": "sugar",
+            "g": 267,
+            "note": "1⅓ cups, for the syrup"
+          },
+          {
+            "id": "milk_cow",
+            "g": 61,
+            "note": "¼ cup, added to the syrup to clear it"
+          },
+          {
+            "id": "ghee",
+            "g": 124,
+            "note": "Taken up in frying the boondi: set so the ladoo is about 20% fat, as packed labels show (an assumption)"
+          },
+          {
+            "id": "water",
+            "g": 1420,
+            "note": "3 cups in the batter, fried off, and 3 cups in the syrup, boiled to one thread; about 67 g is taken to stay in the syrup (an assumption)"
+          }
+        ],
+        "cookedYieldG": 696,
+        "yieldNote": "besan, sugar, the milk's solids and the ghee taken up, plus about 67 g of syrup water left in"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 motichoor ladoo (about 28 g)",
+          "short": "a ladoo",
+          "fraction": 0.04,
+          "cookedGrams": 28,
+          "kcal": 115,
+          "protein": 2,
+          "carbs": 15,
+          "fat": 6
+        },
+        {
+          "id": "two",
+          "label": "2 motichoor ladoos",
+          "short": "2 ladoos",
+          "fraction": 0.08,
+          "cookedGrams": 56,
+          "kcal": 235,
+          "protein": 4,
+          "carbs": 30,
+          "fat": 11
+        },
+        {
+          "id": "large",
+          "label": "1 large ladoo (about 45 g)",
+          "short": "a large ladoo",
+          "grams": 45,
+          "cookedGrams": 45,
+          "kcal": 190,
+          "protein": 3,
+          "carbs": 24,
+          "fat": 9
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 420,
+          "protein": 7,
+          "carbs": 54,
+          "fat": 20
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Sweet shop or wedding",
+        "caption": "One ladoo. The outside range runs from a 28 g packed piece to a 60 g halwai ladoo.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          2.14
+        ],
+        "basis": "Packed labels agree with this recipe per gram within 5% (Haldiram's 410 and 428, Deep 429 kcal per 100 g), so the range is size only: Deep's label piece is 28 g, the same as this recipe's, and USDA FNDDS lists a 60 g ladoo, 2.14 times.",
+        "text": [
+          "Three packed labels put motichoor ladoo at 410 to 429 calories per 100 g, within 5% of this page's {{kcal:g100}}, so a sweet shop's recipe changes little. What changes is the size: a packed ladoo is about 28 g, and a halwai or wedding ladoo can be 60 g.",
+          "The range below runs from a 28 g ladoo to a 60 g one."
+        ],
+        "kcalRange": [
+          115,
+          250
+        ],
+        "fatRange": [
+          6,
+          12
+        ]
+      },
+      "changes": [
+        "Size is nearly everything: a 60 g wedding ladoo has more than twice the calories of a 28 g packed one.",
+        "Sugar syrup is about a third of the calories. Ladoos soaked longer are heavier and sweeter.",
+        "Frying in ghee or in oil makes no difference to the number; the boondi takes up about the same fat either way.",
+        "[Boondi ladoo](/calories/besan-ladoo/), with bigger pearls, is close per gram. A roasted [besan ladoo](/calories/besan-ladoo/) is richer, about {{kcal@besan-ladoo:g100}} per 100 g, because it holds no syrup water.",
+        "Nuts, magaz seeds and a silver leaf on top add a few calories at most."
+      ],
+      "method": [
+        "No standard textbook in the Indian Nutrient Databank has motichoor or boondi ladoo, so the recipe is Sanjeev Kapoor's motichoor laddoo: 2½ cups of besan made into a thin batter, dropped through a perforated spoon into hot ghee as boondi, drained and soaked in a syrup of 1⅓ cups of sugar and ¼ cup of milk, then rolled into 25 ladoos. Cups are converted at USDA's weights (besan 92 g, sugar 200 g). Values are from IFCT 2017, with sugar from USDA.",
+        "The recipe says ghee for frying without a quantity. Fried boondi holds a lot of fat (packed khara boondi labels list 30 to 45 g per 100 g), and once soaked in syrup the finished ladoo comes to 16 to 24 g of fat per 100 g on three packed labels. This page sets the ghee taken up so the ladoo is about 20% fat, and keeps about a quarter of the sugar's weight as syrup water, as a one-thread syrup does. Both are stated assumptions; the result sits within 5% of all three labels."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 motichoor ladoo?",
+          "a": "About {{kcal:one}} for a 28 g ladoo, the size on packed labels, and about {{kcal:large}} for a large 45 g sweet-shop one."
+        },
+        {
+          "q": "How many calories are in 2 motichoor ladoos?",
+          "a": "About {{kcal:two}} for two 28 g ladoos."
+        },
+        {
+          "q": "How much sugar is in a motichoor ladoo?",
+          "a": "About 11 g in a 28 g ladoo, from the syrup. Haldiram's labels list 41 to 50 g of sugar per 100 g."
+        },
+        {
+          "q": "Which has more calories, motichoor ladoo or besan ladoo?",
+          "a": "Besan ladoo, per gram: about {{kcal@besan-ladoo:g100}} per 100 g against {{kcal@motichoor-ladoo:g100}} for motichoor, because it holds roasted ghee and no syrup water. Per piece it depends on the size: a 35 g besan ladoo is about {{kcal@besan-ladoo:one}}, a 28 g motichoor ladoo about {{kcal:one}}."
+        },
+        {
+          "q": "How many calories are in 100 g of motichoor ladoo?",
+          "a": "About {{kcal:g100}} for this recipe. Packed labels list 410 (Haldiram's, UK pack), 428 (Haldiram's, India) and 429 (Deep)."
+        }
+      ],
+      "related": [
+        "besan-ladoo",
+        "soan-papdi",
+        "kaju-katli",
+        "gulab-jamun"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "Haldiram's motichoor ladoo label, UK pack, per 100 g (Open Food Facts 5060601190109)",
+          "kcalPer100g": 410,
+          "url": "https://world.openfoodfacts.org/product/5060601190109",
+          "ours": 421,
+          "differencePct": -3
+        },
+        {
+          "source": "Haldiram's motichoor ladoo label, 360 g pack, per 100 g (Open Food Facts 8904063281319)",
+          "kcalPer100g": 428,
+          "url": "https://world.openfoodfacts.org/product/8904063281319",
+          "ours": 421,
+          "differencePct": 2
+        },
+        {
+          "source": "Deep motichoor ladoo label, per 100 g, 28 g piece (Open Food Facts 0011433163859)",
+          "kcalPer100g": 429,
+          "url": "https://world.openfoodfacts.org/product/0011433163859",
+          "ours": 421,
+          "differencePct": 2
+        }
+      ],
+      "judgement": [
+        "Constructed recipe: the Indian Nutrient Databank has besan ladoo (ASC343) but no boondi or motichoor ladoo.",
+        "Cup weights from INDB's units file: besan 92 g, sugar 200 g, milk ¼ cup 61 g. Milk solids about 8 g (IFCT cow milk 87% water) counted in the yield.",
+        "Ghee taken up: solved so that total fat is 20% of the finished weight: besan fat 12.2 g + milk fat 2.7 g + X = 0.2 x (572 + X), X = 124 g. Labels: 16.5 (Haldiram's UK), 24 (Haldiram's India), 21.4 (Deep) g fat per 100 g.",
+        "Syrup water left in: a one-thread syrup is about 80% sugar, so 267 / 0.8 = 334 g of syrup, 67 g of it water. Yield 696 g = 230 + 267 + 8 + 124 + 67; 25 ladoos of 27.8 g.",
+        "Sugar per ladoo: 267 / 25 = 10.7 g.",
+        "Outside high end: USDA FNDDS ladoo piece of 60 g, as on the besan ladoo page (FDC 2710351, read on 10 October)."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Besan as Bengal gram dal (B001), ghee (T013), cow milk (L002); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Checked for a motichoor or boondi ladoo recipe: none",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub)",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "note": "Units file: cup weights for besan, sugar and milk",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Sanjeev Kapoor, Motichoor laddoo",
+          "url": "https://www.sanjeevkapoor.com/recipe/Motichoor-Laddoo.html",
+          "note": "2½ cups besan, 1⅓ cups sugar, ¼ cup milk, ghee for frying, 3 cups water each for batter and syrup; 25 laddoos",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Haldiram's motichoor ladoo label (UK pack) (Open Food Facts, 5060601190109)",
+          "url": "https://world.openfoodfacts.org/product/5060601190109",
+          "note": "410 kcal, 16.5 g fat, 60.6 g carbohydrate, 50 g sugar, 3.8 g protein per 100 g",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Haldiram's motichoor ladoo label (360 g) (Open Food Facts, 8904063281319)",
+          "url": "https://world.openfoodfacts.org/product/8904063281319",
+          "note": "428 kcal, 24 g fat, 47 g carbohydrate, 41 g sugar, 6 g protein per 100 g",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Deep motichoor ladoo label (Open Food Facts, 0011433163859)",
+          "url": "https://world.openfoodfacts.org/product/0011433163859",
+          "note": "1 piece = 28 g; 429 kcal, 21.4 g fat, 42.9 g sugar per 100 g",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS 2021-2023, Ladoo, round ball (2710351)",
+          "url": "https://fdc.nal.usda.gov/food-details/2710351/nutrients",
+          "note": "60 g per ladoo, used for the outside size",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "Sugar; a teaspoon is 4.2 g and a cup 200 g",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 420,
+        "protein": 7,
+        "carbs": 54,
+        "fat": 20
+      }
+    },
+    {
+      "slug": "rasmalai",
+      "name": "Rasmalai",
+      "nameLower": "rasmalai",
+      "category": "sweets",
+      "aliases": [
+        "ras malai",
+        "rasamalai",
+        "rossomalai",
+        "rasmalai sweet",
+        "रसमलाई",
+        "रस मलाई",
+        "રસમલાઈ"
+      ],
+      "updated": "2026-10-15",
+      "title": "Rasmalai calories: {{kcal:one}} per piece, {{kcal:g100}} per 100 g",
+      "description": "One rasmalai with its milk, about 77 g, has about {{kcal:one}} calories; 2 about {{kcal:two}}; 100 g about {{kcal:g100}}. Textbook chhena patties in reduced sweetened milk.",
+      "answer": "One rasmalai with its milk, about 77 g, has about {{kcal:one}} calories, and 2 about {{kcal:two}}. The chhena patty is about half of that and the sweetened milk the rest, so the spoonfuls of ras served with it matter as much as the piece. Packed and sweet-shop rasmalai runs about {{outLo}} to {{outHi}} a piece, by their labels.",
+      "intro": [
+        "Rasmalai is a flattened rasgulla: chhena from cow's milk, kneaded, cooked in sugar syrup, then soaked in milk that has been simmered down with sugar, saffron and cardamom. It is served cold with a few spoonfuls of the milk, often with pista on top.",
+        "Unlike a rasgulla, the milk brings fat and milk sugar as well as added sugar, so a rasmalai with its ras is close to twice a rasgulla of the same patty."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Rasmalai made as below, each piece with about 3 tablespoons of its milk.",
+      "recipe": {
+        "label": "Recipe: chhena from 250 ml cow's milk cooked in syrup, soaked in 111 ml of milk reduced with sugar, making 2 rasmalai",
+        "ingredients": [
+          {
+            "id": "paneer",
+            "g": 36.6,
+            "note": "Chhena from 250 ml cow's milk, valued as IFCT paneer"
+          },
+          {
+            "id": "maida",
+            "g": 3.75,
+            "note": "half a tablespoon, to bind"
+          },
+          {
+            "id": "sugar",
+            "g": 7.2,
+            "note": "Taken up from the syrup: set from market rasmalai analysed at Hisar, about 18% carbohydrate in the patty"
+          },
+          {
+            "id": "milk_cow",
+            "g": 114,
+            "note": "111 ml, for the ras, simmered down by a third"
+          },
+          {
+            "id": "sugar",
+            "g": 11.1,
+            "note": "In the ras, about a teaspoon per piece"
+          }
+        ],
+        "cookedYieldG": 153,
+        "yieldNote": "patties of 66 g from the chhena's protein at 10.5%, as in the Hisar analysis, plus the milk reduced by a third with its sugar"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 rasmalai with its milk (about 77 g)",
+          "short": "a rasmalai",
+          "fraction": 0.5,
+          "cookedGrams": 77,
+          "kcal": 130,
+          "protein": 6,
+          "carbs": 16,
+          "fat": 5
+        },
+        {
+          "id": "two",
+          "label": "2 rasmalai with milk",
+          "short": "2 rasmalai",
+          "fraction": 1,
+          "cookedGrams": 153,
+          "kcal": 260,
+          "protein": 11,
+          "carbs": 31,
+          "fat": 11
+        },
+        {
+          "id": "g100",
+          "label": "100 g, piece and milk",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 170,
+          "protein": 7,
+          "carbs": 20,
+          "fat": 7
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Sweet shop or packed",
+        "caption": "One piece with its milk. The outside range runs from Haldiram's 63 g serving to Nanak's 80 g piece.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          0.92,
+          1.38
+        ],
+        "basis": "Packed labels: Haldiram's Mitha Magic 190 kcal per 100 g, 63 g serving (120 per serving, 0.92 times this piece); Nanak 225 kcal per 100 g, 80 g piece (180, 1.38 times). Per gram they bracket this page's value within 6% and 32%.",
+        "text": [
+          "Packed rasmalai labels run from 190 calories per 100 g (Haldiram's Mitha Magic, 63 g servings) to 225 (Nanak, 80 g pieces), against this page's {{kcal:g100}}. A thicker rabdi-style ras, or buffalo milk, pushes a sweet shop's higher.",
+          "The range below runs from Haldiram's serving to Nanak's piece."
+        ],
+        "kcalRange": [
+          120,
+          180
+        ],
+        "fatRange": [
+          5,
+          7
+        ]
+      },
+      "changes": [
+        "The milk served with it is half the number. Each extra tablespoon of this ras adds about 20 calories; a thick rabdi adds more.",
+        "Buffalo milk or full-cream milk in the ras adds fat; toned milk takes it off.",
+        "Sugar in the ras is about a teaspoon a piece here. Sweet shops often use more.",
+        "A [rasgulla](/calories/rasgulla/) from the same chhena, in syrup instead of milk, is about {{kcal@rasgulla:one}}.",
+        "Pista and saffron on top add nothing you can measure."
+      ],
+      "method": [
+        "The chhena patties follow the rasmalai in Basic Food Preparation, a standard Indian cookery manual (via the Indian Nutrient Databank): chhena from 250 ml of cow's milk, bound with half a tablespoon of maida and cooked in sugar syrup, making 2 pieces. IFCT 2017 has no chhena, so paneer is used as the closest match, as on the rasgulla page. The chhena's weight comes from the milk's protein, taking about 80% of it as the casein that stays in the chhena.",
+        "A survey of market rasmalai in Hisar found the chhena patties about 10.5% protein and 18% carbohydrate. This page uses the chhena's protein to work out the finished weight of the patties, then sets the sugar taken up from the syrup to match. The manual gives no usable quantity for the ras, so it follows a published halwai-style recipe: a litre of milk with half a cup of sugar for 18 pieces, about 55 ml of milk and a teaspoon of sugar per piece, simmered down by a third (an assumption). Values are from IFCT 2017, with sugar from USDA."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 rasmalai?",
+          "a": "About {{kcal:one}} for one piece of about 33 g with about 3 tablespoons of its milk, 77 g in all."
+        },
+        {
+          "q": "How many calories are in 2 rasmalai?",
+          "a": "About {{kcal:two}} for two pieces with their milk."
+        },
+        {
+          "q": "How many calories are in rasmalai without the milk?",
+          "a": "About 70 for the chhena patty alone, worked out from this recipe: a 33 g piece lifted out of the ras. The milk it sits in is the other 60 or so."
+        },
+        {
+          "q": "Which has more calories, rasmalai or rasgulla?",
+          "a": "Rasmalai, about {{kcal:one}} with its milk against about {{kcal@rasgulla:one}} for a rasgulla drained of syrup. The sweetened milk carries fat and milk sugar that syrup does not."
+        },
+        {
+          "q": "How much sugar is in rasmalai?",
+          "a": "About 9 g of added sugar in one piece with its milk: about 3.6 g soaked into the patty and a teaspoon in the ras, plus the milk's own sugar."
+        }
+      ],
+      "related": [
+        "rasgulla",
+        "gulab-jamun",
+        "kheer",
+        "kaju-katli"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "Haldiram's Mitha Magic rasmalai label, per 100 g (Open Food Facts 8904004440980)",
+          "kcalPer100g": 190,
+          "url": "https://world.openfoodfacts.org/product/8904004440980",
+          "ours": 171,
+          "differencePct": 11
+        }
+      ],
+      "judgement": [
+        "Chhena: milk protein 250 x 1.03 x 3.26% = 8.39 g; casein about 80% of milk protein (assumption, as on the rasgulla page) = 6.72 g, as paneer (IFCT L003, 18.86% protein) = 35.6 g; with the maida's protein, 36.6 g of paneer-equivalent is used so the patties' protein is 6.9 g.",
+        "Patties: 6.9 g protein at 10.5% (Hisar market rasmalai, 9.63 to 11.30%) = 66 g for 2. Carbohydrate 17.8% x 66 = 11.7 g, minus the paneer's 4.5 g = 7.2 g sugar taken up. Fat 5.4 g / 66 g = 8.2%, against 9.2 to 11.0% in the survey (the sweet shops use richer milk).",
+        "Ras: Hebbar's Kitchen's halwai-style rasmalai uses 1 litre of milk and ½ cup (100 g) of sugar for 18 pieces: 55.5 ml milk (57.2 g) and 5.6 g sugar per piece. Reduced by a third: 38 g milk + 5.6 g sugar = 43.7 g per piece. The reduction is an assumption; it changes the weight, not the calories.",
+        "Yield 153 g = 66 + 2 x 43.7. Per piece 77 g, of which the patty is 33 g (about 68 kcal) and the ras 44 g (about 63 kcal).",
+        "Per 100 g, Hisar's figures give about 204 kcal for the patties (4 x 28.3 + 9 x 10.1) and about 165 for the sweetened milk, bracketing this page's {{kcal:g100}} for piece and milk together.",
+        "The INDB's own rasmalai value (136 kcal per 100 g) counts the whole 150 g of syrup sugar and is not used. BFP393's serving count (2 pieces) is marked as guessed in INDB.",
+        "Nanak's label (225 kcal per 100 g, 80 g piece) is 32% above this page per gram and is used as the top of the outside range rather than as a cross-check."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Paneer (L003) for chhena, maida (A018), cow milk (L002); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipe BFP393, rasmalai: chhena from 250 ml milk, ½ tbsp maida, syrup of 150 g sugar",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub)",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "note": "Recipe rows and serving count for BFP393",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Sharma et al., market samples of rasmalai in Hisar, Asian Journal of Dairy and Food Research 34(1), 2015",
+          "url": "https://arccjournals.com/journal/asian-journal-of-dairy-and-food-research/DR-927",
+          "note": "Chhana patties: fat 9.20 to 10.97%, protein 9.63 to 11.30%, carbohydrate 16.80 to 18.82%, total solids 38.5 to 40.3%; sweetened milk: fat 6.46 to 7.55%, protein 6.47 to 7.25%, carbohydrate 17.78 to 19.60%",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Hebbar's Kitchen, Rasmalai recipe, halwai style",
+          "url": "https://hebbarskitchen.com/rasmalai-recipe-easy-rasmalai-recipe/",
+          "note": "Rabdi: 1 litre milk, ½ cup sugar, for 18 servings; chenna from 2 litres milk",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Haldiram's Mitha Magic rasmalai label (Open Food Facts, 8904004440980)",
+          "url": "https://world.openfoodfacts.org/product/8904004440980",
+          "note": "63 g serving; 190 kcal, 7.94 g fat, 22.2 g carbohydrate, 6.35 g protein per 100 g; ingredients milk, sugar, rose water, cardamom",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Nanak rasmalai label (Open Food Facts, 0797677600083)",
+          "url": "https://world.openfoodfacts.org/product/0797677600083",
+          "note": "1 piece = 80 g; 225 kcal, 10 g fat, 23.75 g carbohydrate, 11.25 g protein per 100 g",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "Sugar; a teaspoon is 4.2 g and a cup 200 g",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 170,
+        "protein": 7,
+        "carbs": 20,
+        "fat": 7
+      }
+    },
+    {
+      "slug": "kheer",
+      "name": "Kheer",
+      "nameLower": "kheer",
+      "category": "sweets",
+      "aliases": [
+        "chawal ki kheer",
+        "rice kheer",
+        "chaval ki kheer",
+        "payasam",
+        "paramanna",
+        "doodh pak",
+        "doodhpak",
+        "rice pudding",
+        "खीर",
+        "चावल की खीर",
+        "ખીર",
+        "દૂધપાક"
+      ],
+      "updated": "2026-10-15",
+      "title": "Kheer calories: {{kcal:k200}} per katori, {{kcal:g100}} per 100 g",
+      "description": "A 200 ml katori of rice kheer has about {{kcal:k200}} calories, a 150 ml one about {{kcal:k150}} and 100 g about {{kcal:g100}}. Worked out from a textbook recipe and IFCT 2017.",
+      "answer": "A 200 ml katori of home rice kheer, made with whole milk and 1½ tablespoons of sugar, has about {{kcal:k200}} calories. A small 150 ml katori is about {{kcal:k150}}, a big 250 ml one about {{kcal:k250}}. Milk is more than half of it, sugar a quarter. A sweet-shop kheer, thicker and sweeter, runs about {{outLo}} to {{outHi}} a katori.",
+      "intro": [
+        "Kheer is rice simmered in milk until the milk thickens, sweetened with sugar and finished with cardamom, raisins and a few slivers of almond. It is the sweet of pujas and festival thalis across north India, and payasam, doodh pak and phirni are its cousins.",
+        "The number is set by the milk and the sugar, not the rice: a katori holds only a spoonful of rice. How far the milk is simmered down changes how much milk ends up in each katori."
+      ],
+      "headlinePortion": "k200",
+      "portionsCaption": "Kheer made as below, with whole cow's milk. A katori is measured by volume.",
+      "recipe": {
+        "label": "Recipe: 10 g rice simmered in 250 ml milk with 1½ tablespoons of sugar, raisins and almond, making one bowl",
+        "densityGPerMl": 1.1,
+        "densityNote": "USDA FNDDS rice pudding: 1 cup (237 ml) = 260 g",
+        "ingredients": [
+          {
+            "id": "rice_parboiled",
+            "g": 10
+          },
+          {
+            "id": "milk_cow",
+            "g": 257.5,
+            "note": "250 ml"
+          },
+          {
+            "id": "sugar",
+            "g": 18.9,
+            "note": "1½ tablespoons"
+          },
+          {
+            "id": "raisins",
+            "g": 1.5,
+            "note": "4 to 5"
+          },
+          {
+            "id": "almond",
+            "g": 1.1,
+            "note": "1, slivered"
+          },
+          {
+            "id": "water",
+            "g": 120,
+            "note": "half a cup, to cook the rice; mostly simmered off"
+          }
+        ],
+        "cookedYieldG": 300,
+        "yieldNote": "the milk and water simmered down to about 270 g with the rice swollen, sugar and dry fruit: an assumption, checked against USDA's rice pudding"
+      },
+      "portions": [
+        {
+          "id": "k150",
+          "label": "1 small katori (150 ml)",
+          "short": "a small katori",
+          "ml": 150,
+          "cookedGrams": 165,
+          "kcal": 170,
+          "protein": 5,
+          "carbs": 22,
+          "fat": 7
+        },
+        {
+          "id": "k200",
+          "label": "1 katori (200 ml)",
+          "short": "a katori",
+          "ml": 200,
+          "cookedGrams": 220,
+          "kcal": 225,
+          "protein": 7,
+          "carbs": 30,
+          "fat": 9
+        },
+        {
+          "id": "k250",
+          "label": "1 big katori (250 ml)",
+          "short": "a big katori",
+          "ml": 250,
+          "cookedGrams": 275,
+          "kcal": 280,
+          "protein": 9,
+          "carbs": 37,
+          "fat": 11
+        },
+        {
+          "id": "bowl",
+          "label": "1 textbook bowl (the whole recipe, 300 g)",
+          "short": "a bowl",
+          "fraction": 1,
+          "cookedGrams": 300,
+          "kcal": 305,
+          "protein": 9,
+          "carbs": 40,
+          "fat": 12
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 100,
+          "protein": 3,
+          "carbs": 13,
+          "fat": 4
+        }
+      ],
+      "outside": {
+        "portionId": "k200",
+        "label": "Sweet shop or restaurant",
+        "caption": "One 200 ml katori. The outside range is up to 1.33 times, as thick and sweet as USDA's firni.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1,
+          1.33
+        ],
+        "basis": "No analysed value for a sweet-shop kheer was found. USDA FNDDS puts firni, a thicker Indian milk pudding, at 144 kcal per 100 g against 108 for its rice pudding, 1.33 times; that ratio is used for the top of the range, as a stated assumption.",
+        "text": [
+          "Sweet-shop and wedding kheer is usually simmered down further, sweeter, and sometimes made with buffalo milk, khoa or condensed milk. USDA's firni, a thicker Indian milk pudding, has a third more calories per gram than its rice pudding.",
+          "The range below allows a katori up to a third richer than this recipe."
+        ],
+        "kcalRange": [
+          225,
+          300
+        ],
+        "fatRange": [
+          9,
+          12
+        ]
+      },
+      "changes": [
+        "Sugar is about a quarter of the number. Each tablespoon in the pot adds about 50 calories, spread over the bowls.",
+        "How far the milk is simmered down: thicker kheer puts more milk, and more calories, into the same katori.",
+        "Buffalo milk raises it by about half again on the milk's share; toned milk lowers it.",
+        "Khoa, condensed milk or cream stirred in at the end adds a lot: a tablespoon of condensed milk is about 60 calories.",
+        "Seviyan kheer and sabudana kheer are close to this per katori; [gajar halwa](/calories/gajar-halwa/) is richer, about {{kcal@gajar-halwa:small}} for a small katori."
+      ],
+      "method": [
+        "The recipe is the rice kheer in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 10 g of rice cooked in half a cup of water and 250 ml of whole milk, with 1½ tablespoons of sugar, 4 to 5 raisins, a slivered almond and cardamom, for one bowl. Values are from IFCT 2017, with sugar from USDA. The cardamom, under half a gram, is left out.",
+        "The textbook does not give a finished weight. The databank's own figure for this recipe counts all the milk and water as still there, which gives a thin kheer; this page takes the milk and water as simmered down to about 270 g, so the bowl is about 300 g, an assumption. On that basis it comes out within 6% of USDA's analysed rice pudding, and a katori is measured by volume at USDA's density of 1.1 g per ml."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 katori of kheer?",
+          "a": "About {{kcal:k200}} for a 200 ml katori of home rice kheer made with whole milk, and about {{kcal:k150}} for a small 150 ml katori."
+        },
+        {
+          "q": "How many calories are in a bowl of kheer?",
+          "a": "About {{kcal:bowl}} for the textbook bowl, the whole recipe of 250 ml of milk, or about {{kcal:k250}} for a big 250 ml katori."
+        },
+        {
+          "q": "How much sugar is in kheer?",
+          "a": "About 14 g of added sugar in a 200 ml katori of this recipe, plus about 8 g of the milk's own sugar."
+        },
+        {
+          "q": "How many calories are in 100 g of kheer?",
+          "a": "About {{kcal:g100}}. USDA's analysed rice pudding is 108 per 100 g."
+        },
+        {
+          "q": "Which has more calories, a katori of kheer or a gulab jamun?",
+          "a": "A katori of kheer, about {{kcal:k200}}, against about {{kcal@gulab-jamun:one}} for one gulab jamun. Two gulab jamuns come to about {{kcal@gulab-jamun:two}}."
+        }
+      ],
+      "related": [
+        "gajar-halwa",
+        "rasmalai",
+        "gulab-jamun",
+        "rasgulla"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home cooking"
+      },
+      "crossCheck": [
+        {
+          "source": "USDA FNDDS 2021-2023, Pudding, rice (2705685)",
+          "kcalPer100g": 108,
+          "url": "https://fdc.nal.usda.gov/food-details/2705685/nutrients",
+          "ours": 102,
+          "differencePct": 5
+        }
+      ],
+      "judgement": [
+        "Yield: 300 g is an assumption (257.5 g milk + 120 g water + 10 g rice + 18.9 g sugar + 2.6 g dry fruit = 409 g raw, simmered down by about a quarter). INDB's own value for ASC282, 75 kcal per 100 g, takes no reduction at all; USDA's analysed rice pudding is 108 per 100 g, 6% above this page's figure at 300 g.",
+        "Sugar: 1½ tbsp at 12.6 g per tbsp (INDB units, 4.2 g per tsp) = 18.9 g; per 200 ml katori 18.9 x 220 / 300 = 13.9 g added sugar; milk sugar 257.5 x 4.89% x 220 / 300 = 9.2 g.",
+        "Density 1.1 g per ml from FNDDS rice pudding (1 cup = 260 g), so a 200 ml katori is 220 g.",
+        "Cardamom ¼ tsp left out. Rice is the textbook's parboiled rice (A014).",
+        "Outside: FNDDS firni 144 kcal per 100 g / rice pudding 108 = 1.33, applied as a size factor to the katori."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Parboiled rice (A014), cow milk (L002), raisins (E057), almond (H001); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC282, rice kheer (chawal ki kheer), 1 bowl",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub)",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "note": "Recipe rows, serving size and units (sugar 4.2 g per tsp)",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS 2021-2023, Pudding, rice (2705685)",
+          "url": "https://fdc.nal.usda.gov/food-details/2705685/nutrients",
+          "note": "108 kcal, 3.23 g protein, 2.15 g fat, 18.39 g carbohydrate per 100 g; 1 cup = 260 g (read through the FDC search API)",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS 2021-2023, Firni, Indian pudding (2705686)",
+          "url": "https://fdc.nal.usda.gov/food-details/2705686/nutrients",
+          "note": "144 kcal per 100 g; used for the outside range (read through the FDC search API)",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "Sugar; a teaspoon is 4.2 g and a cup 200 g",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 100,
+        "protein": 3,
+        "carbs": 13,
+        "fat": 4
+      }
+    },
+    {
+      "slug": "gujiya",
+      "name": "Gujiya",
+      "nameLower": "gujiya",
+      "category": "sweets",
+      "aliases": [
+        "gujia",
+        "gujhia",
+        "ghughra",
+        "ghughara",
+        "karanji",
+        "pedakiya",
+        "kajjikayalu",
+        "gunjia",
+        "गुजिया",
+        "गुझिया",
+        "घुघरा",
+        "ઘૂઘરા",
+        "કરંજી"
+      ],
+      "updated": "2026-10-15",
+      "title": "Gujiya calories: {{kcal:one}} per piece, {{kcal:g100}} per 100 g",
+      "description": "One home gujiya of about 30 g has about {{kcal:one}} calories and 100 g about {{kcal:g100}}. Fried maida pastry with khoa, coconut and sugar, from a textbook recipe.",
+      "answer": "One home gujiya of about 30 g, a maida pastry filled with khoa, coconut and sugar and deep-fried, has about {{kcal:one}} calories; 2 about {{kcal:two}}. The pastry and the oil it takes up are about half of that, the sweet filling the rest. A halwai gujiya, bigger and sometimes dipped in syrup, runs about {{outLo}} to {{outHi}}.",
+      "intro": [
+        "Gujiya is a half-moon of maida pastry, filled with khoa, desiccated coconut, sugar and a few raisins, sealed with a crimped edge and deep-fried until crisp. Karanji in Maharashtra and ghughra in Gujarat are the same idea, often with more coconut. It is made at Holi and Diwali in north Indian homes.",
+        "The filling is sweet but small; the fried shell is where most of the calories are, as in a samosa."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Home gujiya made as below, fried in oil and drained.",
+      "recipe": {
+        "label": "Recipe: 60 g maida pastry with 12 g ghee, filled with 30 g khoa, 10 g coconut and 30 g sugar, fried, making 6 gujiyas",
+        "ingredients": [
+          {
+            "id": "maida",
+            "g": 60
+          },
+          {
+            "id": "ghee",
+            "g": 12,
+            "note": "In the dough"
+          },
+          {
+            "id": "water",
+            "g": 15,
+            "note": "1 tablespoon, to make the dough"
+          },
+          {
+            "id": "khoa",
+            "g": 30
+          },
+          {
+            "id": "coconut_dry",
+            "g": 10,
+            "note": "desiccated"
+          },
+          {
+            "id": "raisins",
+            "g": 1.8,
+            "note": "a few"
+          },
+          {
+            "id": "sugar",
+            "g": 30,
+            "note": "castor sugar, in the filling"
+          },
+          {
+            "id": "oil",
+            "g": 22.2,
+            "note": "Taken up in frying: about 14% of the raw weight, as worked out for the samosa on this site (an assumption)"
+          }
+        ],
+        "cookedYieldG": 181,
+        "yieldNote": "the dough, filling and oil taken up; moisture lost in frying is not counted"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 gujiya (about 30 g)",
+          "short": "a gujiya",
+          "fraction": 0.1667,
+          "cookedGrams": 30,
+          "kcal": 130,
+          "protein": 2,
+          "carbs": 14,
+          "fat": 8
+        },
+        {
+          "id": "two",
+          "label": "2 gujiyas",
+          "short": "2 gujiyas",
+          "fraction": 0.3333,
+          "cookedGrams": 60,
+          "kcal": 265,
+          "protein": 4,
+          "carbs": 27,
+          "fat": 16
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 440,
+          "protein": 7,
+          "carbs": 45,
+          "fat": 26
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Halwai, larger or syrup-dipped",
+        "caption": "One gujiya. The outside range is 1.33 to 2 times the size, with up to 8 g of syrup sugar on the larger one.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          1.33,
+          2
+        ],
+        "extra": [
+          {
+            "id": "sugar",
+            "g": [
+              0,
+              8
+            ]
+          }
+        ],
+        "basis": "No analysed value for gujiya was found. Halwai gujiyas of 40 to 60 g (1.33 to 2 times this recipe's 30 g) and a chashni dip of up to 8 g of sugar are stated assumptions.",
+        "text": [
+          "Sweet-shop gujiyas are usually bigger than home ones, 40 to 60 g, and many are dipped in sugar syrup after frying, which adds a coat of sugar. We found no lab figure for a gujiya of either kind.",
+          "The range below assumes a gujiya 1.33 to 2 times this size, with up to 8 g of syrup sugar on the larger one."
+        ],
+        "kcalRange": [
+          175,
+          295
+        ],
+        "fatRange": [
+          10,
+          16
+        ]
+      },
+      "changes": [
+        "Size: a 60 g halwai gujiya has twice the calories of this 30 g one.",
+        "Frying oil taken up is about a quarter of the number. Baked gujiya skips it, about 100 calories a piece from this recipe.",
+        "A chashni dip adds sugar: a thin coat is 5 to 8 g, 20 to 30 calories.",
+        "A coconut-heavy karanji filling is a little richer per gram than khoa; a mawa-only filling a little lighter.",
+        "A [samosa](/calories/samosa/) of the same pastry is about {{kcal@samosa:one}}: the sweet filling and the savoury one come out close."
+      ],
+      "method": [
+        "The recipe is the gujia in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 60 g of maida with 12 g of ghee and a tablespoon of water for the pastry, filled with 30 g of khoa, 10 g of desiccated coconut, 30 g of castor sugar and a few raisins, deep-fried, making 6 gujiyas. Values are from IFCT 2017, with sugar from USDA.",
+        "The databank counts all 480 ml of frying oil as eaten, which is far too high. This page takes the oil taken up as about 14% of the raw weight, the uptake worked out for the samosa on this site from lab-fried samosas, about 3.7 g per gujiya. No lab analysis of gujiya itself was found, so that uptake is a stated assumption."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 gujiya?",
+          "a": "About {{kcal:one}} for a home gujiya of about 30 g, fried. A bigger halwai gujiya runs about {{outLo}} to {{outHi}}."
+        },
+        {
+          "q": "How many calories are in 2 gujiyas?",
+          "a": "About {{kcal:two}} for two home gujiyas."
+        },
+        {
+          "q": "How many calories are in a baked gujiya?",
+          "a": "About 100 from this recipe: the same pastry and filling without the 3.7 g of frying oil, which is about 33 calories."
+        },
+        {
+          "q": "How much sugar is in a gujiya?",
+          "a": "About 5 g of added sugar in the filling of one gujiya, plus the milk sugar in the khoa and a little from the raisins. A syrup-dipped one has more."
+        },
+        {
+          "q": "Is karanji the same as gujiya?",
+          "a": "Close. Karanji is the Maharashtrian version, usually with a coconut and sugar filling and less or no khoa; ghughra is the Gujarati one. Per piece they are within a few calories of each other at the same size."
+        }
+      ],
+      "related": [
+        "samosa",
+        "kachori",
+        "soan-papdi",
+        "gulab-jamun"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "No analysed value for gujiya or karanji was found (IFCT 2017, NIN Annexure 8, USDA FNDDS, a web search of journals). Supplier listings and consumer databases give figures that are not lab values and are not used.",
+        "Raw weight: 60 + 12 + 15 + 30 + 10 + 1.8 + 30 = 158.8 g; oil taken up at 14% = 22.2 g, 3.7 g per gujiya. Moisture lost in frying is not counted, as on the samosa page.",
+        "INDB's gujia values (769 kcal per 100 g) count all 480 ml of frying oil and are not used.",
+        "Castor sugar valued as sugar; raisins 'a few' taken at INDB's 1.8 g.",
+        "Baked gujiya in the FAQ: 132 - 33 = 99 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Maida (A018), ghee (T013), khoa (L004), dry coconut (H006), raisins (E057); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC347, gujia (lavang latika), 3 servings of 2",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub)",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "note": "Recipe rows and serving count for ASC347",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Sakhale et al., oil uptake of lab-fried samosas (as used on the samosa page), and USDA FNDDS samosa",
+          "url": "https://writeonslate.com/calories/samosa/",
+          "note": "Frying oil taken up: about 14% of the raw weight, worked out on the samosa page from a fresh-oil lab study (18.3% fat) and USDA FNDDS (17.5 g fat per 100 g)",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "Sugar; a teaspoon is 4.2 g and a cup 200 g",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 440,
+        "protein": 7,
+        "carbs": 45,
+        "fat": 26
+      }
+    },
+    {
+      "slug": "peda",
+      "name": "Peda",
+      "nameLower": "peda",
+      "category": "sweets",
+      "aliases": [
+        "pedha",
+        "doodh peda",
+        "milk peda",
+        "mathura peda",
+        "kesar peda",
+        "malai peda",
+        "dharwad peda",
+        "penda",
+        "पेड़ा",
+        "दूध पेड़ा",
+        "मथुरा पेड़ा",
+        "પેંડા",
+        "પેડા"
+      ],
+      "updated": "2026-10-15",
+      "title": "Peda calories: {{kcal:one}} per piece, {{kcal:g100}} per 100 g",
+      "description": "One 28 g peda has about {{kcal:one}} calories, a small 13 g one about {{kcal:small}}, 100 g about {{kcal:g100}}. Khoa and sugar, checked against a lab survey and a label.",
+      "answer": "One peda of about 28 g, khoa cooked with sugar, has about {{kcal:one}} calories; 2 about {{kcal:two}}. A small packed peda of 13 g is about {{kcal:small}}. Khoa is two thirds of the calories and sugar nearly all the rest. Every sweet shop makes it the same way, so only the size moves the number: 100 g is about {{kcal:g100}}.",
+      "intro": [
+        "Peda is khoa, milk reduced to solids, cooked with sugar until it holds together, then pressed into a disc and stamped. Mathura's is caramelised brown, Dharwad's darker still, and the plain white doodh peda is the one in most sweet boxes. It is the simplest of the khoa sweets, with burfi and milk cake as close relations.",
+        "Because it is only khoa and sugar, the recipe hardly varies between homes and shops. A lab survey of market pedas and a packed label both land within 5% of this page per gram."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Peda made as below, cooked down to about 14% moisture.",
+      "recipe": {
+        "label": "Recipe: 100 g khoa cooked with 35 g sugar and 2 teaspoons of milk, making 4 pedas",
+        "ingredients": [
+          {
+            "id": "khoa",
+            "g": 100
+          },
+          {
+            "id": "sugar",
+            "g": 35,
+            "note": "castor sugar"
+          },
+          {
+            "id": "milk_cow",
+            "g": 10,
+            "note": "2 teaspoons"
+          },
+          {
+            "id": "almond",
+            "g": 2.2,
+            "note": "2, on top"
+          }
+        ],
+        "cookedYieldG": 111,
+        "yieldNote": "the solids of the khoa, sugar, milk and almond at 13.6% moisture, the mean of market pedas in a lab survey"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 peda (about 28 g)",
+          "short": "a peda",
+          "fraction": 0.25,
+          "cookedGrams": 28,
+          "kcal": 120,
+          "protein": 4,
+          "carbs": 13,
+          "fat": 6
+        },
+        {
+          "id": "small",
+          "label": "1 small packed peda (13 g)",
+          "short": "a small peda",
+          "grams": 13,
+          "cookedGrams": 13,
+          "kcal": 55,
+          "protein": 2,
+          "carbs": 6,
+          "fat": 3
+        },
+        {
+          "id": "two",
+          "label": "2 pedas",
+          "short": "2 pedas",
+          "fraction": 0.5,
+          "cookedGrams": 56,
+          "kcal": 235,
+          "protein": 9,
+          "carbs": 26,
+          "fat": 11
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 425,
+          "protein": 15,
+          "carbs": 47,
+          "fat": 20
+        }
+      ],
+      "changes": [
+        "Size is the only real variable: packed pedas run about 13 g, a halwai's 20 to 30 g, a Mathura peda up to 35 g.",
+        "Sugar share: market pedas run from 32% to 62% sugar. Sugar and khoa are close per gram (387 and {{ing:khoa}} calories per 100 g), so a sweeter peda is a few percent more, not a lot.",
+        "Malai or kesar peda made with cream or extra ghee is a little richer; a drier, longer-cooked Mathura peda a little more per gram because there is less water.",
+        "[Kaju katli](/calories/kaju-katli/) is richer per gram, about {{kcal@kaju-katli:g100}} per 100 g, but its pieces are smaller.",
+        "Pista or silver leaf on top adds nothing you can measure."
+      ],
+      "method": [
+        "The recipe is the plain burfi in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g of khoa cooked with 35 g of castor sugar and 2 teaspoons of milk, with 2 almonds on top, making 4 pieces. Peda and plain khoa burfi are the same mixture shaped differently, so the burfi recipe is used for peda. Values are from IFCT 2017, with sugar from USDA. The 2 tablespoons of ghee the textbook uses to grease the tray are not counted.",
+        "Khoa is 42.5% water in IFCT 2017 and loses more as the peda cooks. The finished weight is set at the 13.6% moisture that a National Dairy Research Institute survey measured in market pedas, which also puts this recipe at 18.6% fat, 15% protein and 31.5% sugar, close to the survey's 16.7%, 15.2% and 34.4%. The result is within 5% of the survey's composition and of a packed peda label."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 peda?",
+          "a": "About {{kcal:one}} for a 28 g peda, and about {{kcal:small}} for a small 13 g packed one."
+        },
+        {
+          "q": "How many calories are in 2 pedas?",
+          "a": "About {{kcal:two}} for two 28 g pedas."
+        },
+        {
+          "q": "How many calories are in 100 g of peda?",
+          "a": "About {{kcal:g100}}. A packed label (Rajhans) lists 442, and a lab survey of market pedas works out to about 419."
+        },
+        {
+          "q": "How much sugar is in a peda?",
+          "a": "About 9 g of added sugar in a 28 g peda, plus about 4 g of the milk's own sugar from the khoa."
+        },
+        {
+          "q": "Which has more calories, peda or kaju katli?",
+          "a": "Per piece the peda, about {{kcal:one}} against about {{kcal@kaju-katli:shop}} for a 10 g sweet-shop kaju katli. Per 100 g the kaju katli, about {{kcal@kaju-katli:g100}} against {{kcal:g100}}, because cashews are richer than khoa."
+        }
+      ],
+      "related": [
+        "kaju-katli",
+        "besan-ladoo",
+        "gulab-jamun",
+        "motichoor-ladoo"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "Rajhans peda label, per 100 g (Open Food Facts 8908000716476)",
+          "kcalPer100g": 442,
+          "url": "https://world.openfoodfacts.org/product/8908000716476",
+          "ours": 425,
+          "differencePct": 4
+        },
+        {
+          "source": "NDRI survey of market pedas, energy worked out from its mean composition (fat 16.74%, protein 15.23%, lactose 17.43%, sucrose 34.38%)",
+          "kcalPer100g": 419,
+          "url": "https://krishikosh.egranth.ac.in/server/api/core/bitstreams/ac4000a5-fd01-4425-a55f-c15aecd65889/content",
+          "ours": 425,
+          "differencePct": -1
+        }
+      ],
+      "judgement": [
+        "Peda modelled on the plain burfi recipe ASC335 (khoa, castor sugar, a little milk): the same mixture, pressed into discs instead of cut into squares. INDB's khoa ladoo (BFP404) adds coconut and nuts and was not used.",
+        "Yield from moisture: solids = khoa 57.5 (IFCT water 42.51%) + sugar 35 + milk solids 1.3 + almond 2.1 = 95.9 g; at 13.63% moisture (NDRI, other-variety market pedas, mean) = 111 g; 4 pedas of 27.8 g. The INDB's own value (408 kcal per 100 g) counts 2 tbsp of greasing ghee and no moisture loss.",
+        "Check of composition: fat 20.6 + 0.4 + 1.3 = 22.3 g / 111 = 20%; protein 16.3 + 0.3 + 0.4 = 17 g = 15.3%; sucrose 35 / 111 = 31.5%; lactose about 15%. NDRI market pedas: fat 16.74, protein 15.23, sucrose 34.38, lactose 17.43, moisture 13.63. NIFTEM's lab average: fat 20.1, protein 19.0, sucrose 30.0, lactose 18.3, moisture 10.2.",
+        "NDRI energy per 100 g: 9 x 16.74 + 4 x (15.23 + 17.43 + 34.38) = 419 kcal. NIFTEM's lab average gives 450 (+6%).",
+        "No outside range: the recipe is the same in shops and packs; only the piece size differs, and the small packed piece is a portion row.",
+        "Sugar per peda: 35 / 4 = 8.75 g; lactose 16.5 x 0.25 = 4.1 g."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Khoa (L004), cow milk (L002), almond (H001); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC335, plain burfi, 2 servings of 2 burfis; BFP404 khoa ladoo checked and not used",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub)",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "note": "Recipe rows and serving count for ASC335",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Anuja C. Vasu, Distinct features and characteristics of Dharwad peda, MSc thesis, National Dairy Research Institute, Bangalore, 2007 (Krishikosh)",
+          "url": "https://krishikosh.egranth.ac.in/server/api/core/bitstreams/ac4000a5-fd01-4425-a55f-c15aecd65889/content",
+          "note": "Market pedas of other varieties: fat 16.74 ± 2.80, protein 15.23 ± 1.70, lactose 17.43 ± 1.83, sucrose 34.38 ± 6.42, ash 2.89, moisture 13.63 ± 1.66%; Dharwad peda: fat 14.21, protein 14.17, sucrose 38.97, moisture 13.33%",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "NIFTEM, PM FME scheme, Peda processing (slide deck)",
+          "url": "https://niftem.ac.in/newsite/pmfme/wp-content/uploads/2022/08/ppt_peda-processing.pdf",
+          "note": "Laboratory-prepared peda, average: moisture 10.2, fat 20.1, protein 19.0, lactose 18.3, sucrose 30.0%; market range: fat 3.5 to 25, sucrose 31.8 to 61.8%",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Rajhans peda label (Open Food Facts, 8908000716476)",
+          "url": "https://world.openfoodfacts.org/product/8908000716476",
+          "note": "13 g serving; 442 kcal, 22 g fat, 47.5 g carbohydrate, 13 g protein per 100 g; ingredients milk solids, sugar, cardamom",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "Sugar; a teaspoon is 4.2 g and a cup 200 g",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 425,
+        "protein": 15,
+        "carbs": 47,
+        "fat": 20
+      }
+    },
+    {
+      "slug": "chakli",
+      "name": "Chakli",
+      "nameLower": "chakli",
+      "category": "street",
+      "aliases": [
+        "chakri",
+        "chakkuli",
+        "chakali",
+        "murukku",
+        "muruku",
+        "chakli namkeen",
+        "rice chakli",
+        "butter chakli",
+        "चकली",
+        "ચકરી",
+        "ચકલી",
+        "முறுக்கு"
+      ],
+      "updated": "2026-10-15",
+      "title": "Chakli calories: {{kcal:one}} per piece, {{kcal:g100}} per 100 g",
+      "description": "One 18 g chakli has about {{kcal:one}} calories, 4 about {{kcal:four}} and 100 g about {{kcal:g100}}. A rice flour and dal spiral fried in oil, checked against packed labels.",
+      "answer": "One chakli of about 18 g, a spiral of rice flour and roasted gram dal fried in oil, has about {{kcal:one}} calories; 2 about {{kcal:two}} and 4 about {{kcal:four}}. The oil taken up in frying is a third of the number. Packed chakli, by its labels, runs about {{outLo}} to {{outHi}} a piece, bigger Diwali chaklis at the top.",
+      "intro": [
+        "Chakli is a stiff dough of rice flour and roasted gram dal flour, with butter, sesame and chilli, pressed through a star nozzle into spirals and deep-fried until crisp. Murukku in Tamil Nadu and chakkuli in Karnataka are made the same way, sometimes with urad dal flour in place of the gram dal. It keeps for weeks, which is why it fills Diwali faral boxes.",
+        "Crisp fried snacks are light in water and heavy in oil, so per 100 g chakli sits well above most sweets. A single chakli is small, though; a handful is not."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Chakli made as below, fried in oil and drained.",
+      "recipe": {
+        "label": "Recipe: 360 g rice flour and 150 g roasted gram dal with butter and sesame, fried, making 35 chaklis",
+        "ingredients": [
+          {
+            "id": "rice_flour",
+            "g": 360,
+            "note": "3 cups"
+          },
+          {
+            "id": "chana_dal",
+            "g": 150,
+            "note": "¾ cup roasted gram dal (dalia), ground; valued as Bengal gram dal"
+          },
+          {
+            "id": "butter",
+            "g": 28.4,
+            "note": "2 tablespoons"
+          },
+          {
+            "id": "sesame",
+            "g": 18,
+            "note": "2 tablespoons"
+          },
+          {
+            "id": "chilli_powder",
+            "g": 1.3,
+            "note": "half a teaspoon"
+          },
+          {
+            "id": "water",
+            "g": 300,
+            "note": "to knead a stiff dough: an assumption, cooked off in frying"
+          },
+          {
+            "id": "oil",
+            "g": 120,
+            "note": "Taken up in frying: about 14% of the raw weight, as worked out for the samosa on this site (an assumption)"
+          }
+        ],
+        "cookedYieldG": 645,
+        "yieldNote": "the flours, dal, butter, sesame and the oil taken up, at 4% moisture, as a crisp fried snack: an assumption"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 chakli (about 18 g)",
+          "short": "a chakli",
+          "fraction": 0.02857,
+          "cookedGrams": 18,
+          "kcal": 90,
+          "protein": 2,
+          "carbs": 10,
+          "fat": 5
+        },
+        {
+          "id": "two",
+          "label": "2 chaklis",
+          "short": "2 chaklis",
+          "fraction": 0.05714,
+          "cookedGrams": 37,
+          "kcal": 180,
+          "protein": 3,
+          "carbs": 20,
+          "fat": 9
+        },
+        {
+          "id": "four",
+          "label": "4 chaklis",
+          "short": "4 chaklis",
+          "fraction": 0.11429,
+          "cookedGrams": 74,
+          "kcal": 365,
+          "protein": 7,
+          "carbs": 40,
+          "fat": 19
+        },
+        {
+          "id": "bowl",
+          "label": "1 small bowl (about 50 g)",
+          "short": "a small bowl",
+          "grams": 50,
+          "cookedGrams": 50,
+          "kcal": 245,
+          "protein": 5,
+          "carbs": 27,
+          "fat": 13
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 490,
+          "protein": 9,
+          "carbs": 55,
+          "fat": 25
+        }
+      ],
+      "outside": {
+        "portionId": "one",
+        "label": "Packed or shop",
+        "caption": "One chakli. The outside range runs from a packed label per gram to a bigger 25 g chakli at the richest label.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          0.96,
+          1.55
+        ],
+        "basis": "Packed chakli labels per 100 g: Charliee masala butter chakli 474 (4% below this recipe), Palak chakli 525, Softy chakli 549 (12% above). Low end 0.96 times this 18 g chakli; high end a 25 g Diwali chakli at Softy's value per gram, 1.39 x 1.12 = 1.55 times. The 25 g size is an assumption.",
+        "text": [
+          "Packed chakli labels run from 474 to 549 calories per 100 g, either side of this page's {{kcal:g100}}; one label with more oil lists 560. Shop chaklis for Diwali are often bigger than the 18 g one here, up to 25 g.",
+          "The range below runs from the lightest label for this size to a 25 g chakli at the richest common label."
+        ],
+        "kcalRange": [
+          85,
+          140
+        ],
+        "fatRange": [
+          4,
+          7
+        ]
+      },
+      "changes": [
+        "Oil taken up in frying is about a third of the number; a thicker spiral takes up less per gram, a thin crisp one more.",
+        "Butter in the dough is about 6% of the calories here. Butter chakli recipes with twice the butter add about 6 calories a piece.",
+        "Size: Diwali chaklis of 25 g or more are half as much again as this 18 g one.",
+        "Urad dal flour in place of the gram dal, as in murukku, changes almost nothing per gram.",
+        "[Mathri](/calories/mathri/) and [namak para](/calories/namak-para/) are richer per 100 g, about {{kcal@mathri:g100}} and {{kcal@namak-para:g100}}, because their dough carries fat before frying."
+      ],
+      "method": [
+        "The Indian Nutrient Databank's standard textbooks have no chakli; its open-source recipes include a rice murukku (OSR113) whose dough is the one chakli is made from: 3 cups of rice flour, ¾ cup of roasted gram dal flour, 2 tablespoons each of butter and sesame, chilli, ajwain and salt, fried, making 35 pieces. That recipe is used here, with cups converted at USDA's weights (rice flour 120 g, roasted gram dal 150 g for ¾ cup as the databank lists). Values are from IFCT 2017, with rice flour and butter from USDA.",
+        "The databank counts all 2 cups of frying oil as eaten. This page takes the oil taken up as about 14% of the raw weight, the uptake worked out for the samosa on this site, about 3.4 g per chakli, and the finished chakli at 4% moisture as a crisp snack. Both are stated assumptions; the result, 25% fat, sits inside the 21 to 33% on packed labels and in published chakli studies, and within 12% of three labels' calories."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 chakli?",
+          "a": "About {{kcal:one}} for an 18 g chakli, and about {{kcal:four}} for four."
+        },
+        {
+          "q": "How many calories are in 100 g of chakli?",
+          "a": "About {{kcal:g100}}. Packed labels list 474 to 549 per 100 g."
+        },
+        {
+          "q": "Is chakli the same as murukku?",
+          "a": "The same dough family: rice flour with roasted gram dal or urad dal flour, butter and sesame, pressed through a nozzle and fried. The shapes and the dal differ by region; the calories per gram barely do."
+        },
+        {
+          "q": "How much fat is in chakli?",
+          "a": "About {{fat:g100}} g per 100 g of this recipe, most of it frying oil, and about {{fat:one}} g in one chakli."
+        },
+        {
+          "q": "How many calories are in a bowl of chakli?",
+          "a": "About {{kcal:bowl}} for a small bowl of about 50 g, 2 to 3 chaklis."
+        }
+      ],
+      "related": [
+        "namak-para",
+        "mathri",
+        "samosa",
+        "kachori"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "Softy chakli label, per 100 g (Open Food Facts 8906077360028)",
+          "kcalPer100g": 549,
+          "url": "https://world.openfoodfacts.org/product/8906077360028",
+          "ours": 492,
+          "differencePct": 12
+        },
+        {
+          "source": "Charliee masala butter chakli label, per 100 g (Open Food Facts 8906005670366)",
+          "kcalPer100g": 474,
+          "url": "https://world.openfoodfacts.org/product/8906005670366",
+          "ours": 492,
+          "differencePct": -4
+        }
+      ],
+      "judgement": [
+        "Chakli is modelled on INDB's open-source rice murukku (OSR113) because its ingredients (rice flour, roasted gram dal, butter, sesame, chilli, ajwain) are a standard chakli dough; the ASC and BFP textbooks have no chakli or murukku. Murukku is listed as an alias on that basis.",
+        "Raw weight: 360 + 150 + 28.4 + 18 + 1.3 + 300 water (assumption) = 858 g; oil taken up at 14% = 120 g, 3.4 g per chakli. Moisture: finished at 4% (assumption for a crisp fried snack): solids 317 (rice flour at 12% water) + 135 (dal at 10%) + 24 (butter fat) + 17 + 1 = 494 g, plus 120 g oil, divided by 0.96 = 640 g; 645 g used. 35 chaklis of 18.4 g.",
+        "Fat check: 1.4 + 8 + 23 + 7.7 + 120 = 160 g / 645 = 25%. Labels: Charliee 21.5, Palak 29, Softy 33, Adukale 41.6 g per 100 g. A little millet chakli study reports about 33% fat (abstract seen in search results only, not opened, not used).",
+        "Salt (¾ tsp), ajwain (½ tsp) and asafoetida left out. Roasted gram dal valued as IFCT Bengal gram dal (B001).",
+        "Adukale khara chakli (560 kcal, 41.6 g fat per 100 g) is 14% above this page and is mentioned as the oilier end rather than used as a cross-check."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Bengal gram dal (B001) for roasted gram dal, sesame (H011); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Open-source recipe OSR113, rice murukku, 35 pieces; no chakli in The Art & Science of Cooking or Basic Food Preparation",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub)",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "note": "Recipe rows, serving count and units for OSR113",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "USDA FoodData Central, Rice flour, white (169714) and Butter, without salt (173430)",
+          "url": "https://fdc.nal.usda.gov/food-details/169714/nutrients",
+          "note": "Rice flour and butter values",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Hebbar's Kitchen, Butter murukku (white chakli, butter chakli)",
+          "url": "https://hebbarskitchen.com/butter-murukku-butter-chakli-recipe/",
+          "note": "Confirms the dough: 3 cups rice flour, ¾ cup urad dal flour, 2 tbsp sesame, 3 tbsp butter; the page uses chakli and murukku for the same snack",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Sakhale et al., oil uptake of lab-fried samosas (as used on the samosa page), and USDA FNDDS samosa",
+          "url": "https://writeonslate.com/calories/samosa/",
+          "note": "Frying oil taken up: about 14% of the raw weight, worked out on the samosa page from a fresh-oil lab study (18.3% fat) and USDA FNDDS (17.5 g fat per 100 g)",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Softy chakli label (Open Food Facts, 8906077360028)",
+          "url": "https://world.openfoodfacts.org/product/8906077360028",
+          "note": "549 kcal, 33 g fat, 53 g carbohydrate, 10 g protein per 100 g",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Charliee masala butter chakli label (Open Food Facts, 8906005670366)",
+          "url": "https://world.openfoodfacts.org/product/8906005670366",
+          "note": "474 kcal, 21.5 g fat, 62.3 g carbohydrate, 7.7 g protein per 100 g",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Jaimin palak chakli label (Open Food Facts, 8908000870277)",
+          "url": "https://world.openfoodfacts.org/product/8908000870277",
+          "note": "525 kcal, 29 g fat per 100 g",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Adukale khara chakli label (Open Food Facts, 8906095290314)",
+          "url": "https://world.openfoodfacts.org/product/8906095290314",
+          "note": "560 kcal, 41.6 g fat per 100 g; 30 g portion",
+          "accessed": "2026-10-15"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 490,
+        "protein": 9,
+        "carbs": 55,
+        "fat": 25
+      }
+    },
+    {
+      "slug": "namak-para",
+      "name": "Namak para",
+      "nameLower": "namak para",
+      "category": "street",
+      "aliases": [
+        "namak pare",
+        "namakpara",
+        "namakpare",
+        "namkeen para",
+        "nimki",
+        "diamond cuts",
+        "namak paare",
+        "नमक पारे",
+        "नमकपारे",
+        "નમક પારા",
+        "નમકપારા"
+      ],
+      "updated": "2026-10-15",
+      "title": "Namak para calories: {{kcal:one}} per piece, {{kcal:g100}} per 100 g",
+      "description": "One 5 g namak para has about {{kcal:one}} calories, 10 pieces about {{kcal:ten}} and 100 g about {{kcal:g100}}. Maida with ghee and ajwain, fried in oil, checked against packed labels.",
+      "answer": "Ten home namak para, about 50 g, have about {{kcal:ten}} calories; one 5 g diamond about {{kcal:one}}, and 100 g about {{kcal:g100}}. The ghee in the dough and the oil taken up in frying are together about half the number. Packed namak para, by its labels, runs about {{outLo}} to {{outHi}} for 50 g.",
+      "intro": [
+        "Namak para is maida kneaded with ghee, ajwain and salt, rolled out, cut into diamonds and deep-fried until crisp and pale gold. It is the savoury half of a Diwali plate, next to shakarpara, and the same dough makes mathri when it is pressed into discs.",
+        "A single piece is a mouthful. Ten of them, a small bowl, are what people eat with chai, and that is the portion this page leads with."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Namak para made as below, fried in oil and drained. A home diamond is about 5 g; packed pieces are often smaller.",
+      "recipe": {
+        "label": "Recipe: 240 g maida with 3 tablespoons of ghee and ajwain, cut into diamonds and fried, making about 63 pieces",
+        "ingredients": [
+          {
+            "id": "maida",
+            "g": 240,
+            "note": "2 cups"
+          },
+          {
+            "id": "ghee",
+            "g": 38.4,
+            "note": "3 tablespoons, in the dough"
+          },
+          {
+            "id": "water",
+            "g": 85,
+            "note": "to knead a stiff dough: an assumption, cooked off in frying"
+          },
+          {
+            "id": "oil",
+            "g": 52,
+            "note": "Taken up in frying: about 14% of the raw weight, as worked out for the samosa on this site (an assumption)"
+          }
+        ],
+        "cookedYieldG": 316,
+        "yieldNote": "the maida's solids, the ghee and the oil taken up, at 4% moisture, as a crisp fried snack: an assumption"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 piece (about 5 g)",
+          "short": "a piece",
+          "grams": 5,
+          "cookedGrams": 5,
+          "kcal": 25,
+          "protein": 0,
+          "carbs": 3,
+          "fat": 1
+        },
+        {
+          "id": "ten",
+          "label": "10 pieces (about 50 g)",
+          "short": "10 pieces",
+          "grams": 50,
+          "cookedGrams": 50,
+          "kcal": 260,
+          "protein": 4,
+          "carbs": 28,
+          "fat": 15
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 520,
+          "protein": 8,
+          "carbs": 56,
+          "fat": 29
+        }
+      ],
+      "outside": {
+        "portionId": "ten",
+        "label": "Packed",
+        "caption": "Ten pieces, 50 g. The outside range runs from the lightest packed label to the oiliest, per gram.",
+        "fatFactor": [
+          1,
+          1
+        ],
+        "sizeFactor": [
+          0.88,
+          1.17
+        ],
+        "basis": "Packed namak para labels per 100 g: Riya's 459 (12% below this recipe), Daadis 535 (3% above), Deep 607 (17% above, 42.9 g fat). 0.88 to 1.17 times this recipe is used for the same 50 g.",
+        "text": [
+          "Packed namak para labels run from 459 to 607 calories per 100 g, around this page's {{kcal:g100}}. The spread is oil: the oiliest label lists 43 g of fat per 100 g against {{fat:g100}} g here. Pieces in a packet are often smaller than a home diamond, so count by weight.",
+          "The range below applies those labels to 50 g."
+        ],
+        "kcalRange": [
+          230,
+          305
+        ],
+        "fatRange": [
+          13,
+          17
+        ]
+      },
+      "changes": [
+        "Oil taken up in frying is about a quarter of the number. Thin, well-drained pieces take up less; re-used oil and thicker pieces more.",
+        "The ghee moyan in the dough is another fifth. Recipes run from 1 to 4 tablespoons per 2 cups of maida, about 25 calories a piece either way.",
+        "Baked namak para skips the frying oil, about 6 calories less a piece from this recipe.",
+        "Atta in place of maida adds fibre and changes the calories very little.",
+        "[Mathri](/calories/mathri/) is the same dough with more fat in it, about {{kcal@mathri:one}} a piece; [shakarpara](/calories/shakarpara/) is the sweet version, about {{kcal@shakarpara:ten}} for 10."
+      ],
+      "method": [
+        "The Indian Nutrient Databank's standard textbooks have a mathri and two fortified namak para recipes (soyabean, and spinach and peanut), but no plain namak para, so the recipe is Hebbar's Kitchen's namak pare: 2 cups of maida with 3 tablespoons of ghee, ajwain, kalonji and salt, kneaded stiff, cut into diamonds and deep-fried. Cups and tablespoons are converted at USDA's weights (flour 120 g a cup, ghee 12.8 g a tablespoon). Values are from IFCT 2017. The kalonji, ajwain and salt, about 10 g together, are left out of the arithmetic.",
+        "The oil taken up is set at about 14% of the raw weight, the uptake worked out for the samosa on this site, and the finished pieces at 4% moisture as a crisp snack. Both are stated assumptions; the result, 29% fat, sits inside the 25 to 43 g on packed labels, and within 12% of two of the three labels' calories."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in namak para?",
+          "a": "About {{kcal:one}} for one 5 g piece, {{kcal:ten}} for 10 pieces (50 g) and {{kcal:g100}} per 100 g, for home namak para fried in oil."
+        },
+        {
+          "q": "How many calories are in 100 g of namak para?",
+          "a": "About {{kcal:g100}} for this recipe. Packed labels list 459 to 607 per 100 g, depending on the oil."
+        },
+        {
+          "q": "Is namak para the same as mathri?",
+          "a": "The same dough, cut differently. Mathri's textbook recipe carries more fat in the dough, so it is a little richer per gram: about {{kcal@mathri:g100}} per 100 g against {{kcal:g100}} here."
+        },
+        {
+          "q": "How much fat is in namak para?",
+          "a": "About {{fat:g100}} g per 100 g, half from the ghee in the dough and half from the frying oil. That is about {{fat:ten}} g in 10 pieces."
+        },
+        {
+          "q": "How many calories are in a bowl of namak para?",
+          "a": "About {{kcal:ten}} for a small bowl of 10 pieces, 50 g. A full katori heaped with namak para is more like 80 g, about 400."
+        }
+      ],
+      "related": [
+        "mathri",
+        "shakarpara",
+        "chakli",
+        "kachori"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [
+        {
+          "source": "Daadis namak para label, per 100 g (Open Food Facts 8906000921968)",
+          "kcalPer100g": 535,
+          "url": "https://world.openfoodfacts.org/product/8906000921968",
+          "ours": 520,
+          "differencePct": 3
+        },
+        {
+          "source": "Riya's namak para label, per 100 g (Open Food Facts 0604052782756)",
+          "kcalPer100g": 459,
+          "url": "https://world.openfoodfacts.org/product/0604052782756",
+          "ours": 520,
+          "differencePct": -12
+        }
+      ],
+      "judgement": [
+        "Constructed recipe: INDB has no plain namak para (only soyabean ASC458 and spinach-peanut ASC460 versions, and BFP568 poshtik). Hebbar's Kitchen's namak pare was used; the textbook mathri dough (ASC364, 100 g maida and 2 tbsp oil) is the same idea with more fat.",
+        "Units: maida 120 g a cup (INDB units file, same as flour); ghee 12.8 g a tablespoon (INDB). Water 85 g is an assumption (a stiff dough at about 35% of the flour).",
+        "Raw weight 240 + 38.4 + 85 = 363 g; oil taken up at 14% = 52 g. Finished weight at 4% moisture: maida solids 212.8 + 38.4 + 52 = 303 / 0.96 = 316 g; about 63 pieces of 5 g.",
+        "Fat check: 1.8 + 38.4 + 52 = 92 g / 316 = 29%. Labels: Riya's 24.7, Daadis 30.6, Deep 42.9 g per 100 g.",
+        "Deep's label (607 kcal, 42.9 g fat per 100 g; 10 pieces = 28 g) is 17% above this page and is used as the top of the outside range, not as a cross-check.",
+        "A full katori in the FAQ: 80 g x 5.2 = 416 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Maida (A018), ghee (T013); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Checked for a plain namak para: none; ASC364 mathri, ASC458 and ASC460 namak paras noted",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub)",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "note": "Units file: flour per cup, ghee per tablespoon",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Hebbar's Kitchen, Namak pare recipe (spicy diamond cuts)",
+          "url": "https://hebbarskitchen.com/namak-pare-recipe-namak-para/",
+          "note": "2 cups maida, 3 tbsp ghee, ½ tsp ajwain, 2 tsp kalonji, 1 tsp salt, water, oil for frying",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Sakhale et al., oil uptake of lab-fried samosas (as used on the samosa page), and USDA FNDDS samosa",
+          "url": "https://writeonslate.com/calories/samosa/",
+          "note": "Frying oil taken up: about 14% of the raw weight, worked out on the samosa page from a fresh-oil lab study (18.3% fat) and USDA FNDDS (17.5 g fat per 100 g)",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Daadis namak para label (Open Food Facts, 8906000921968)",
+          "url": "https://world.openfoodfacts.org/product/8906000921968",
+          "note": "535 kcal, 30.6 g fat, 56 g carbohydrate, 7.9 g protein per 100 g; 25 g portion",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Riya's namak para label (Open Food Facts, 0604052782756)",
+          "url": "https://world.openfoodfacts.org/product/0604052782756",
+          "note": "459 kcal, 24.7 g fat, 52.9 g carbohydrate, 7.1 g protein per 100 g",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Deep namak para label (Open Food Facts, 0011433134880)",
+          "url": "https://world.openfoodfacts.org/product/0011433134880",
+          "note": "10 pieces = 28 g; 607 kcal, 42.9 g fat per 100 g; ingredients wheat flour, water, semolina, oil, salt, baking powder, ajwain",
+          "accessed": "2026-10-15"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 520,
+        "protein": 8,
+        "carbs": 56,
+        "fat": 29
+      }
+    },
+    {
+      "slug": "shakarpara",
+      "name": "Shakarpara",
+      "nameLower": "shakarpara",
+      "category": "street",
+      "aliases": [
+        "shankarpali",
+        "shakkar para",
+        "shakkarpare",
+        "shakarpare",
+        "shakkar pare",
+        "sweet para",
+        "khurma",
+        "shankarpale",
+        "meethe pare",
+        "शक्करपारे",
+        "शकरपारे",
+        "શંકરપાળી",
+        "શક્કરપારા"
+      ],
+      "updated": "2026-10-15",
+      "title": "Shakarpara calories: {{kcal:one}} per piece, {{kcal:g100}} per 100 g",
+      "description": "One 6 g shakarpara has about {{kcal:one}} calories, 10 pieces about {{kcal:ten}} and 100 g about {{kcal:g100}}. Maida, sugar and ghee fried in oil, from a published recipe.",
+      "answer": "Ten home shakarpara, about 60 g, have about {{kcal:ten}} calories; one 6 g piece about {{kcal:one}}, and 100 g about {{kcal:g100}}. Sugar is a sixth of the number; the ghee in the dough and the frying oil nearly half. No lab figure or packed label was found, so the number rests on the recipe and the frying assumptions stated below.",
+      "intro": [
+        "Shakarpara, or shankarpali in Maharashtra, is maida kneaded with sugar, a little rava and ghee, rolled, cut into diamonds and deep-fried until golden. It is the sweet half of a Diwali faral plate, next to namak para, and one of the few sweets that keeps for a month in a dabba.",
+        "It is a fried biscuit, so most of its calories are flour and fat; the sugar is less than people expect, about a fifth of the weight."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Shakarpara made as below, fried in oil and drained. A home diamond is about 6 g.",
+      "recipe": {
+        "label": "Recipe: 240 g maida with 100 g sugar, 21 g rava and 51 g ghee, cut into diamonds and fried, making about 79 pieces",
+        "ingredients": [
+          {
+            "id": "maida",
+            "g": 240,
+            "note": "2 cups"
+          },
+          {
+            "id": "semolina",
+            "g": 21,
+            "note": "2 tablespoons of rava"
+          },
+          {
+            "id": "sugar",
+            "g": 100,
+            "note": "half a cup, dissolved in the water"
+          },
+          {
+            "id": "ghee",
+            "g": 51,
+            "note": "quarter cup, in the dough"
+          },
+          {
+            "id": "water",
+            "g": 90,
+            "note": "to dissolve the sugar and knead: an assumption, cooked off in frying"
+          },
+          {
+            "id": "oil",
+            "g": 70,
+            "note": "Taken up in frying: about 14% of the raw weight, as worked out for the samosa on this site (an assumption)"
+          }
+        ],
+        "cookedYieldG": 472,
+        "yieldNote": "the flour, rava and sugar solids, the ghee and the oil taken up, at 4% moisture, as a crisp fried snack: an assumption"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 piece (about 6 g)",
+          "short": "a piece",
+          "grams": 6,
+          "cookedGrams": 6,
+          "kcal": 30,
+          "protein": 0,
+          "carbs": 4,
+          "fat": 2
+        },
+        {
+          "id": "ten",
+          "label": "10 pieces (about 60 g)",
+          "short": "10 pieces",
+          "grams": 60,
+          "cookedGrams": 60,
+          "kcal": 300,
+          "protein": 3,
+          "carbs": 37,
+          "fat": 16
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 500,
+          "protein": 6,
+          "carbs": 62,
+          "fat": 26
+        }
+      ],
+      "changes": [
+        "Oil taken up in frying is about a quarter of the number; thick pieces take up less per gram than thin ones.",
+        "Sugar: recipes run from a quarter cup to a full cup per 2 cups of maida. Each extra quarter cup adds about 2.5 calories a piece.",
+        "A chashni-coated shakarpara, dipped in syrup after frying, carries a sugar shell on top of this: a thin coat adds 5 to 10 calories a piece.",
+        "Atta or jaggery versions are close per gram.",
+        "[Namak para](/calories/namak-para/) from the same kind of dough without sugar is about {{kcal@namak-para:ten}} for 10 pieces."
+      ],
+      "method": [
+        "No standard textbook in the Indian Nutrient Databank has shakarpara or shankarpali, so the recipe is Hebbar's Kitchen's shankarpali: 2 cups of maida with 2 tablespoons of rava, half a cup of sugar dissolved in water, a quarter cup of ghee and a pinch of salt, kneaded stiff, cut into diamonds and deep-fried. Cups are converted at USDA's weights (flour 120 g, sugar 200 g, semolina 167 g a cup) and ghee at 12.8 g a tablespoon. Values are from IFCT 2017, with sugar from USDA.",
+        "The oil taken up is set at about 14% of the raw weight, the uptake worked out for the samosa on this site, and the finished pieces at 4% moisture as a crisp snack. Both are stated assumptions. We found no lab analysis or packed label for shakarpara to check against; the namak para and mathri pages, made from the same kind of dough, do match their labels."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in shakarpara?",
+          "a": "About {{kcal:one}} for one 6 g piece, {{kcal:ten}} for 10 pieces (60 g) and {{kcal:g100}} per 100 g, for home shakarpara fried in oil."
+        },
+        {
+          "q": "How many calories are in 100 g of shakarpara?",
+          "a": "About {{kcal:g100}} for this recipe, an estimate without a lab figure to check against."
+        },
+        {
+          "q": "How much sugar is in shakarpara?",
+          "a": "About 13 g of added sugar in 10 pieces, 60 g: the sugar is about a fifth of the weight. A syrup-coated shakarpara has more."
+        },
+        {
+          "q": "Which has more calories, shakarpara or namak para?",
+          "a": "They are close. Ten shakarpara are about {{kcal:ten}} and ten namak para about {{kcal@namak-para:ten}}; the sugar in one and the extra fat in the other roughly cancel out per piece."
+        },
+        {
+          "q": "How many calories are in 10 shakarpara?",
+          "a": "About {{kcal:ten}} for 10 home pieces of about 6 g each."
+        }
+      ],
+      "related": [
+        "namak-para",
+        "mathri",
+        "besan-ladoo",
+        "soan-papdi"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "Constructed recipe: INDB has no shakarpara, shankarpali or sweet para. Hebbar's Kitchen's shankarpali was used.",
+        "No analysed value found: Open Food Facts has no shakarpara product with values, USDA FDC returned none, and a journal search found nothing. Consumer databases disagree with each other (412 to 500 kcal per 100 g) and are not used.",
+        "Units: maida 120 g a cup, sugar 200 g, semolina 167 g (INDB units from USDA measures); ghee 12.8 g a tbsp, so ¼ cup = 51 g. Water 90 g is an assumption.",
+        "Raw weight 240 + 21 + 100 + 51 + 90 = 502 g; oil taken up at 14% = 70 g. Finished at 4% moisture: solids 212.8 + 19.1 + 100 = 332 + fats 121 = 453 / 0.96 = 472 g; about 79 pieces of 6 g.",
+        "Sugar per 10 pieces: 100 / 472 x 60 = 12.7 g.",
+        "Salt (½ tsp) left out."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Maida (A018), semolina (A022), ghee (T013); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Checked for shakarpara or shankarpali: none",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub)",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "note": "Units file: cup weights for flour, sugar and semolina; ghee per tablespoon",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Hebbar's Kitchen, Shankarpali recipe (sweet shakarpara, shakkar para)",
+          "url": "https://hebbarskitchen.com/wprm_print/shankarpali-recipe-sweet-shakarpara-shakkar-para",
+          "note": "½ cup sugar, 2 tbsp rava, 2 cups maida, ½ tsp salt, ¼ cup ghee, water, oil for frying",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Sakhale et al., oil uptake of lab-fried samosas (as used on the samosa page), and USDA FNDDS samosa",
+          "url": "https://writeonslate.com/calories/samosa/",
+          "note": "Frying oil taken up: about 14% of the raw weight, worked out on the samosa page from a fresh-oil lab study (18.3% fat) and USDA FNDDS (17.5 g fat per 100 g)",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "USDA FoodData Central, Sugars, granulated (169655)",
+          "url": "https://fdc.nal.usda.gov/food-details/169655/nutrients",
+          "note": "Sugar; a teaspoon is 4.2 g and a cup 200 g",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 500,
+        "protein": 6,
+        "carbs": 62,
+        "fat": 26
+      }
+    },
+    {
+      "slug": "mathri",
+      "name": "Mathri",
+      "nameLower": "mathri",
+      "category": "street",
+      "aliases": [
+        "mathari",
+        "matthi",
+        "mathhi",
+        "matri",
+        "mathiya",
+        "mathris",
+        "methi mathri",
+        "मठरी",
+        "मट्ठी",
+        "મઠરી"
+      ],
+      "updated": "2026-10-15",
+      "title": "Mathri calories: {{kcal:one}} per piece, {{kcal:g100}} per 100 g",
+      "description": "One home mathri of about 21 g has about {{kcal:one}} calories, 2 about {{kcal:two}} and 100 g about {{kcal:g100}}. A flaky maida disc fried in oil, from a textbook recipe.",
+      "answer": "One home mathri of about 21 g, a flaky disc of maida with oil and ajwain, deep-fried, has about {{kcal:one}} calories, and 2 about {{kcal:two}}. The oil in the dough and the oil taken up in frying are together more than half the number, which is why mathri is richer per gram than most sweets: about {{kcal:g100}} per 100 g.",
+      "intro": [
+        "Mathri is maida kneaded with a generous moyan of oil or ghee, peppercorns and ajwain, pressed into small discs, pricked and fried slowly until flaky and pale. It is a north Indian tea-time and Diwali snack, eaten plain or with achaar, and keeps for weeks.",
+        "The textbook recipe uses 2 tablespoons of oil in the dough for 100 g of flour before any frying, which is what makes it flaky and what makes it one of the richest things on this site per gram."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Mathri made as below, fried in oil and drained.",
+      "recipe": {
+        "label": "Recipe: 100 g maida with 2 tablespoons of oil, pepper and ajwain, fried, making 7 mathris",
+        "ingredients": [
+          {
+            "id": "maida",
+            "g": 100
+          },
+          {
+            "id": "oil",
+            "g": 27.2,
+            "note": "2 tablespoons, in the dough"
+          },
+          {
+            "id": "black_pepper",
+            "g": 2,
+            "note": "8 peppercorns, crushed"
+          },
+          {
+            "id": "water",
+            "g": 35,
+            "note": "to knead a stiff dough: an assumption, cooked off in frying"
+          },
+          {
+            "id": "oil",
+            "g": 23,
+            "note": "Taken up in frying: about 14% of the raw weight, as worked out for the samosa on this site (an assumption)"
+          }
+        ],
+        "cookedYieldG": 147,
+        "yieldNote": "the maida's solids, the pepper, the dough oil and the oil taken up, at 4% moisture, as a crisp fried snack: an assumption"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 mathri (about 21 g)",
+          "short": "a mathri",
+          "fraction": 0.14286,
+          "cookedGrams": 21,
+          "kcal": 115,
+          "protein": 2,
+          "carbs": 11,
+          "fat": 7
+        },
+        {
+          "id": "two",
+          "label": "2 mathris",
+          "short": "2 mathris",
+          "fraction": 0.28571,
+          "cookedGrams": 42,
+          "kcal": 230,
+          "protein": 3,
+          "carbs": 21,
+          "fat": 15
+        },
+        {
+          "id": "four",
+          "label": "4 mathris",
+          "short": "4 mathris",
+          "fraction": 0.57143,
+          "cookedGrams": 84,
+          "kcal": 455,
+          "protein": 6,
+          "carbs": 43,
+          "fat": 29
+        },
+        {
+          "id": "g100",
+          "label": "100 g",
+          "short": "100 g",
+          "grams": 100,
+          "cookedGrams": 100,
+          "kcal": 545,
+          "protein": 7,
+          "carbs": 51,
+          "fat": 35
+        }
+      ],
+      "changes": [
+        "The moyan: recipes run from 1 to 4 tablespoons of oil or ghee per 100 g of maida, about 15 calories a mathri each way.",
+        "Oil taken up in frying is about a quarter of the number. Slow frying at low heat, which mathri needs, takes up a little more than fast frying.",
+        "Size: shop mathris of 30 to 40 g are half as much again to twice this one.",
+        "Methi mathri, with dried fenugreek leaves, and atta mathri are close per gram. A baked mathri skips the frying oil, about 30 calories less a piece from this recipe.",
+        "[Namak para](/calories/namak-para/) is the same dough with less fat in it, about {{kcal@namak-para:g100}} per 100 g; [khasta kachori](/calories/kachori/) is about {{kcal@kachori:one}} a piece."
+      ],
+      "method": [
+        "The recipe is the mathri in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 100 g of maida with 2 tablespoons of oil, 8 peppercorns, ajwain and salt, kneaded, cut into discs and deep-fried, making 7 mathris. Values are from IFCT 2017. The ajwain and salt, under 4 g, are left out.",
+        "The databank counts all 480 ml of frying oil as eaten, which is far too high. This page takes the oil taken up as about 14% of the raw weight, the uptake worked out for the samosa on this site, about 3.3 g per mathri, and the finished mathri at 4% moisture as a crisp snack. Both are stated assumptions. No lab analysis of mathri was found; the result, 35% fat, is what packed mathri labels list, though those listings were not opened for this page and are not cited."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 mathri?",
+          "a": "About {{kcal:one}} for a home mathri of about 21 g. A big shop mathri of 30 to 40 g is half as much again to twice that."
+        },
+        {
+          "q": "How many calories are in 2 mathris?",
+          "a": "About {{kcal:two}} for two home mathris, and about {{kcal:four}} for four."
+        },
+        {
+          "q": "How many calories are in 100 g of mathri?",
+          "a": "About {{kcal:g100}} for this recipe, with about {{fat:g100}} g of fat."
+        },
+        {
+          "q": "How much fat is in a mathri?",
+          "a": "About {{fat:one}} g in one mathri: the 2 tablespoons of oil in the dough and the oil taken up in frying, in roughly equal shares."
+        },
+        {
+          "q": "Which has more calories, mathri or samosa?",
+          "a": "Per piece the samosa, about {{kcal@samosa:one}} against {{kcal:one}} for a mathri, because it is three times the weight. Per 100 g the mathri, which is dry and fried, has more."
+        }
+      ],
+      "related": [
+        "namak-para",
+        "shakarpara",
+        "chakli",
+        "samosa"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "Calorie counter for Indian food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "No analysed value for mathri was found (IFCT 2017, NIN Annexure 8, USDA FNDDS and branded search, Open Food Facts search returned no products, journal search). Retail listings for packed mathri seen in search results (about 560 to 570 kcal and 36 g fat per 100 g) could not be opened and are not cited.",
+        "The textbook lists no water; 35 g is an assumption for a stiff dough. Raw weight 100 + 27.2 + 2 + 35 = 164 g; oil taken up at 14% = 23 g, 3.3 g per mathri.",
+        "Finished at 4% moisture: maida solids 88.7 + pepper 1.8 + oils 50.2 = 140.7 / 0.96 = 146.6 g; 7 mathris of 21 g.",
+        "Fat check: 0.8 + 27.2 + 23 = 51 g / 147 = 35%.",
+        "INDB's mathri values (805 kcal per 100 g) count all 480 ml of frying oil and are not used.",
+        "Baked mathri in the changes: 3.3 g oil x 8.84 = 29 kcal."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Maida (A018), groundnut oil (T005), black pepper (G031); values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC364, mathri, 3½ servings of 2",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Indian Nutrient Databank, recipes.xlsx, recipes_servingsize.xlsx and INDB.xlsx (GitHub)",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "note": "Recipe rows and serving count for ASC364",
+          "accessed": "2026-10-15"
+        },
+        {
+          "title": "Sakhale et al., oil uptake of lab-fried samosas (as used on the samosa page), and USDA FNDDS samosa",
+          "url": "https://writeonslate.com/calories/samosa/",
+          "note": "Frying oil taken up: about 14% of the raw weight, worked out on the samosa page from a fresh-oil lab study (18.3% fat) and USDA FNDDS (17.5 g fat per 100 g)",
+          "accessed": "2026-10-15"
+        }
+      ],
+      "per100gCooked": {
+        "kcal": 545,
+        "protein": 7,
+        "carbs": 51,
+        "fat": 35
+      }
     }
   ]
 }

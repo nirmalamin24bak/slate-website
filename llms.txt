@@ -103,6 +103,16 @@ Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year
 - [Dal chawal calories: per plate, thick dal and with ghee](https://writeonslate.com/calories/dal-chawal/): A plate of dal chawal, a 200 ml katori of dal tadka with a katori of rice, has about 275 calories; with thick dal about 360. IFCT 2017.
 - [Idli sambar calories: 2, 3 and 4 idlis with sambar](https://writeonslate.com/calories/idli-sambar/): 2 medium idlis with a 200 ml katori of sambar have about 305 calories, 4 idlis about 410. Chutney not counted. From IFCT 2017 textbook recipes.
 - [Poori bhaji calories: 2, 4 and 6 puris with aloo sabzi](https://writeonslate.com/calories/poori-bhaji/): A plate of poori bhaji, 4 home puris with a 200 ml katori of aloo sabzi, has about 570 calories; 2 puris with the sabzi about 375. From IFCT 2017 recipes.
+- [Soan papdi calories: 105 per piece, 495 per 100 g](https://writeonslate.com/calories/soan-papdi/): One 21 g piece of soan papdi has about 105 calories and 100 g about 495. A patisa recipe of besan, maida, ghee and sugar, checked against packed labels.
+- [Motichoor ladoo calories: 115 per ladoo, 420 per 100 g](https://writeonslate.com/calories/motichoor-ladoo/): One 28 g motichoor ladoo has about 115 calories, a large 45 g one about 190, 100 g about 420. Fried besan boondi in syrup, checked against labels.
+- [Rasmalai calories: 130 per piece, 170 per 100 g](https://writeonslate.com/calories/rasmalai/): One rasmalai with its milk, about 77 g, has about 130 calories; 2 about 260; 100 g about 170. Textbook chhena patties in reduced sweetened milk.
+- [Kheer calories: 225 per katori, 100 per 100 g](https://writeonslate.com/calories/kheer/): A 200 ml katori of rice kheer has about 225 calories, a 150 ml one about 170 and 100 g about 100. Worked out from a textbook recipe and IFCT 2017.
+- [Gujiya calories: 130 per piece, 440 per 100 g](https://writeonslate.com/calories/gujiya/): One home gujiya of about 30 g has about 130 calories and 100 g about 440. Fried maida pastry with khoa, coconut and sugar, from a textbook recipe.
+- [Peda calories: 120 per piece, 425 per 100 g](https://writeonslate.com/calories/peda/): One 28 g peda has about 120 calories, a small 13 g one about 55, 100 g about 425. Khoa and sugar, checked against a lab survey and a label.
+- [Chakli calories: 90 per piece, 490 per 100 g](https://writeonslate.com/calories/chakli/): One 18 g chakli has about 90 calories, 4 about 365 and 100 g about 490. A rice flour and dal spiral fried in oil, checked against packed labels.
+- [Namak para calories: 25 per piece, 520 per 100 g](https://writeonslate.com/calories/namak-para/): One 5 g namak para has about 25 calories, 10 pieces about 260 and 100 g about 520. Maida with ghee and ajwain, fried in oil, checked against packed labels.
+- [Shakarpara calories: 30 per piece, 500 per 100 g](https://writeonslate.com/calories/shakarpara/): One 6 g shakarpara has about 30 calories, 10 pieces about 300 and 100 g about 500. Maida, sugar and ghee fried in oil, from a published recipe.
+- [Mathri calories: 115 per piece, 545 per 100 g](https://writeonslate.com/calories/mathri/): One home mathri of about 21 g has about 115 calories, 2 about 230 and 100 g about 545. A flaky maida disc fried in oil, from a textbook recipe.
 
 ## Who Slate is for
 
@@ -133,6 +143,7 @@ Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year
 - [How to count calories in a thali without weighing anything](https://writeonslate.com/blog/count-thali-calories/): Count a thali by its pieces and katoris: rotis, dal, rice, sabzi, farsan and sweets. Worked examples for a Gujarati, a Punjabi and a South Indian thali.
 - [Counting calories on fasting days without stress](https://writeonslate.com/blog/fasting-day-calories/): Navratri, Ekadashi and Ramadan food is often more filling in calories than it looks. A calm way to count it, and when it's fine not to count at all.
 - [What "maintenance calories" means, and how to measure yours](https://writeonslate.com/blog/maintenance-calories/): Maintenance calories are what your body uses in a day. How formulas estimate it, why they're only a starting point, and how to measure yours from a log.
+- [Diwali sweets: calories per piece, from kaju katli to kheer](https://writeonslate.com/blog/diwali-sweets-calories/): Calories in one piece of every common Diwali sweet: kaju katli 50, soan papdi 105, motichoor ladoo 115, gulab jamun 155, and the snacks.
 
 ## Facts
 
