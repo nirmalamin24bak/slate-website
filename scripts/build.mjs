@@ -40,6 +40,9 @@ const foods = foodsFile.foods;
 const appFoodsFile = existsSync(join(ROOT, "data/app-foods.json")) ? read("data/app-foods.json") : null;
 const appFoods = appFoodsFile ? appFoodsFile.foods : [];
 const site = read("data/site.json");
+// Each dish's computed totals, portions and outside range, by slug (filled in under Run, read by the sums).
+const results = {};
+const appResults = {};
 
 // ---------- Arithmetic ----------
 
@@ -153,29 +156,85 @@ const fmt = (n) => n.toLocaleString("en-IN");
 // A portion id in a token may also name one of the dish's meals (food.meals, below), which carry the same four numbers.
 const portionOrMeal = (f, id) => f.portions.find((x) => x.id === id) || (f.meals || []).find((x) => x.id === id);
 
-// Adds up portions of several dishes, "2*roti:medium+dal-tadka:k200", from their already rounded page values,
-// so a meal's number is the sum of the numbers the reader sees. Calories rounded to 5 like every portion.
-function sumPortions(food, expr) {
-  const total = zero();
-  for (const term of expr.split("+")) {
+// The terms of a sum expression, "2*roti:medium+dal-tadka:k200": { n, slug, id }. A term's dish may be one of the
+// app-only dishes (data/app-foods.json); its id may be outLo or outHi, that dish's outside range end.
+function sumTerms(food, expr) {
+  return expr.split("+").map((term) => {
     const [, n, slug, id] = term.trim().match(/^(?:(\d+(?:\.\d+)?)\*)?([\w-]+):([\w-]+)$/) || [];
-    const f = foods.find((x) => x.slug === slug);
-    const p = f && f.portions.find((x) => x.id === id);
-    if (!p || p.kcal == null) throw new Error(`${food.slug}: sum term "${term}" not found`);
-    if (p.combo) throw new Error(`${food.slug}: sum term "${term}" is itself a combo`);
-    add(total, p.raw || p, n ? Number(n) : 1);
-  }
-  return rounded(total);
+    const f = foods.find((x) => x.slug === slug) || appFoods.find((x) => x.slug === slug);
+    if (!f) throw new Error(`${food.slug}: sum term "${term}" names an unknown dish`);
+    return { n: n ? Number(n) : 1, slug, id, f, hasPage: foods.includes(f) };
+  });
 }
-const sumToken = (food, expr) => fmt(sumPortions(food, expr).kcal);
 
-// Cross-dish meals ("2 rotis and a katori of dal") on a dish's page: { id, label, expr }, worked out after every
-// dish's portions, and stored in data/foods.json like the portions' numbers.
+// Adds up portions of several dishes from their unrounded values, so a meal is rounded once, the way a single
+// portion is, and the calculator gives the same number. Every term must already be computed.
+function sumRaw(food, expr) {
+  const total = zero();
+  for (const t of sumTerms(food, expr)) {
+    if (t.id === "outLo" || t.id === "outHi") {
+      const o = results[t.slug]?.outside;
+      if (!o) throw new Error(`${food.slug}: sum term "${t.slug}:${t.id}" but "${t.slug}" has no outside range`);
+      add(total, o[t.id === "outLo" ? "lo" : "hi"], t.n);
+      continue;
+    }
+    const p = t.f.portions.find((x) => x.id === t.id);
+    if (!p || p.kcal == null) throw new Error(`${food.slug}: sum term "${t.slug}:${t.id}" not found or not yet computed`);
+    if (p.combo) throw new Error(`${food.slug}: sum term "${t.slug}:${t.id}" is itself a combo`);
+    add(total, p.raw || p, t.n);
+  }
+  return total;
+}
+const sumPortions = (food, expr) => rounded(sumRaw(food, expr));
+const sumToken = (food, expr) => fmt(sumPortions(food, expr).kcal);
+// The same expression with its terms in a fixed order, so "a+b" and "b+a" compare equal.
+const normExpr = (expr) => expr.split("+").map((t) => t.trim().replace(/^1\*/, "")).sort().join("+");
+
+// Cross-dish meals ("2 rotis and a katori of dal") on a dish's page: { id, label, expr, page? }, worked out after
+// every dish's portions, and stored in data/foods.json like the portions' numbers. page names a composite dish page
+// for the same plate (rajma-chawal): the row's label links there, and the calculator sends the phrase there too.
 function computeMeals(food) {
   for (const m of food.meals || []) {
     if (food.portions.some((p) => p.id === m.id)) throw new Error(`${food.slug}: meal "${m.id}" clashes with a portion id`);
+    if (m.page && !foods.some((f) => f.slug === m.page && f.composite)) throw new Error(`${food.slug}: meal "${m.id}" points to "${m.page}", which is not a composite dish`);
     Object.assign(m, sumPortions(food, m.expr));
   }
+}
+
+// Composite dishes (rajma chawal, idli sambar): a plate made of other dishes' portions. No recipe of their own:
+// every portion is an expr over the parents' portions (plus add-ons such as a teaspoon of ghee), summed unrounded
+// and rounded once, so the numbers always equal the parents' pages. The outside range is a pair of exprs over the
+// parents' outside ranges. Worked out after every other dish, before the meals.
+function computeComposite(food) {
+  if (food.recipe.ingredients.length || food.recipe.cookedYieldG) throw new Error(`${food.slug}: a composite dish has no recipe of its own`);
+  const portions = {};
+  for (const p of food.portions) {
+    if (!p.expr) throw new Error(`${food.slug}/${p.id}: a composite portion needs an expr`);
+    const raw = sumRaw(food, p.expr);
+    for (const extra of p.add || []) add(raw, of(extra.id, extra.g, `${food.slug}/${p.id}`));
+    p.cookedGrams = null;
+    Object.assign(p, rounded(raw));
+    Object.defineProperty(p, "raw", { value: raw, configurable: true });
+    portions[p.id] = { grams: null, share: null, raw, p };
+  }
+  let outside = null;
+  if (food.outside) {
+    const o = food.outside;
+    if (!portions[o.portionId]) throw new Error(`${food.slug}: outside.portionId "${o.portionId}" not found`);
+    const lo = sumRaw(food, o.lo), hi = sumRaw(food, o.hi);
+    outside = { lo, hi };
+    o.kcalRange = [r5(lo.kcal), r5(hi.kcal)];
+    o.fatRange = [rg(lo.fat), rg(hi.fat)];
+  }
+  food.per100gCooked = null;
+  for (const cc of food.crossCheck || []) {
+    const ours = cc.portionId && portions[cc.portionId]?.raw.kcal;
+    if (ours == null || cc.kcal == null) throw new Error(`${food.slug}: cross-check "${cc.source}" needs a portionId and kcal`);
+    cc.ours = Math.round(ours);
+    cc.differencePct = Math.round(((cc.kcal - ours) / ours) * 100);
+    if (Math.abs(cc.kcal - ours) / ours > RANGE_LIMIT && !food.range) throw new Error(`${food.slug}: ${cc.source} differs by ${cc.differencePct}% and no range is stated`);
+  }
+  return { totals: null, portions, outside, per100: null };
 }
 
 function fill(food, text) {
@@ -330,7 +389,7 @@ const badge = (href) => `<a class="app-badge" href="${esc(href)}"><img src="/ass
 // The line a dish page uses as its example: its first combo or meal, else its headline portion without any bracketed note.
 function dishExample(food) {
   const first = food.portions.find((p) => p.combo) || (food.meals || [])[0];
-  const label = (first ? first.label : food.portions.find((p) => p.id === food.headlinePortion).label.replace(/,.*$/, "")).replace(/\s*\([^)]*\)/g, "");
+  const label = (first ? first.label : food.portions.find((p) => p.id === food.headlinePortion).label.replace(/\s*\([^)]*\)/g, "").replace(/,.*$/, "")).replace(/\s*\([^)]*\)/g, "");
   // "1 katori" or "1 glass" needs the dish's name after it; "1 medium roti" doesn't.
   const lower = label.toLowerCase();
   return lower.includes(food.nameLower) || lower.includes(food.nameLower.split(" ").pop()) ? label : `${label} of ${food.nameLower}`;
@@ -371,7 +430,9 @@ function pageExists(href) {
 // ---------- Food page ----------
 
 function nutriTable(food, rows, caption) {
-  const body = rows.map((p) => `<tr><td>${esc(p.label)}${p.cookedGrams == null ? "" : `<br><span class="mute small">about ${fmt(p.cookedGrams)} g</span>`}</td>` +
+  // A meal row for a plate that has its own composite page links there.
+  const label = (p) => (p.page ? `<a href="/calories/${p.page}/">${esc(p.label)}</a>` : esc(p.label));
+  const body = rows.map((p) => `<tr><td>${label(p)}${p.cookedGrams == null ? "" : `<br><span class="mute small">about ${fmt(p.cookedGrams)} g</span>`}</td>` +
     `<td class="n">${fmt(p.kcal)}</td><td class="n">${p.protein} g</td><td class="n">${p.carbs} g</td><td class="n">${p.fat} g</td></tr>`).join("\n");
   return `<div class="table-wrap"><table class="nutri">
 <caption>${esc(caption)}</caption>
@@ -398,6 +459,23 @@ function mealsSection(food) {
 `;
 }
 
+// A composite dish's parts: the headline portion's terms, each linked to the dish it comes from, with its page number.
+function partsTable(food) {
+  const headline = food.portions.find((p) => p.id === food.headlinePortion);
+  const rows = sumTerms(food, headline.expr).map((t) => {
+    const p = t.f.portions.find((x) => x.id === t.id);
+    const name = t.hasPage ? `<a href="/calories/${t.slug}/">${esc(t.f.name)}</a>` : `${esc(t.f.name)}<br><span class="mute small">as the Slate app counts it, no page of its own</span>`;
+    const qty = t.n === 1 ? p.label : `${fmt(t.n)} × ${p.label}`;
+    return `<tr><td>${name}</td><td>${esc(qty)}</td><td class="n">${fmt(r5(p.kcal * t.n))}</td></tr>`;
+  }).join("\n");
+  return `<div class="table-wrap"><table class="nutri">
+<caption>${esc(food.recipe.label)}.</caption>
+<thead><tr><th scope="col">Dish</th><th scope="col">Portion</th><th scope="col" class="n">Cals</th></tr></thead>
+<tbody>
+${rows}
+</tbody></table></div>`;
+}
+
 function methodSection(food, calc) {
   const rows = food.recipe.ingredients.map((item) => {
     const ing = ingredient(item.id, food.slug);
@@ -405,16 +483,17 @@ function methodSection(food, calc) {
   }).join("\n");
   const range = food.range ? `<p>${inline(food, food.range.text)}</p>` : "";
   const sources = food.sources.map((s) => `<li><a href="${esc(s.url)}">${esc(s.title)}</a>${s.note ? `. ${esc(s.note)}` : ""}</li>`).join("\n");
-  return `
-    <section aria-labelledby="method">
-      <h2 id="method">How were these numbers worked out?</h2>
-      ${food.method.map((p) => `<p>${inline(food, p)}</p>`).join("\n      ")}
-      <div class="table-wrap"><table class="nutri">
+  const table = food.composite ? partsTable(food) : `<div class="table-wrap"><table class="nutri">
 <caption>${esc(food.recipe.label)}.${food.recipe.cookedYieldG ? ` Cooked weight about ${fmt(food.recipe.cookedYieldG)} g.` : ""}</caption>
 <thead><tr><th scope="col">Ingredient</th><th scope="col" class="n">Raw</th><th scope="col">Values from</th></tr></thead>
 <tbody>
 ${rows}
-</tbody></table></div>
+</tbody></table></div>`;
+  return `
+    <section aria-labelledby="method">
+      <h2 id="method">How were these numbers worked out?</h2>
+      ${food.method.map((p) => `<p>${inline(food, p)}</p>`).join("\n      ")}
+      ${table}
       <p>Every dish on Slate is worked out the same way: <a href="/how-slate-counts/">how Slate counts calories</a>.</p>
       <p>${food.per100gCooked ? `That works out to about ${fmt(food.per100gCooked.kcal)} calories per 100 g of cooked ${esc(food.nameLower)}. ` : ""}Calories are rounded to the nearest 5 and grams to the nearest whole number.</p>
       ${range}
@@ -460,7 +539,8 @@ function foodPage(food, calc) {
 
     <section aria-labelledby="portions">
       <h2 id="portions">How many calories are in ${esc(food.nameLower)}?</h2>
-      ${nutriTable(food, food.portions.filter((p) => !p.combo), food.portionsCaption)}${tableLink("site-cal-dish", food)}
+      ${nutriTable(food, food.portions.filter((p) => !p.combo), food.portionsCaption)}${tableLink("site-cal-dish", food)}${food.composite ? `
+      <p class="table-link"><a href="${CALC_PATH}?q=${encodeURIComponent(food.nameLower)}">${esc(site.calculator.mealsLink)} →</a></p>` : ""}
     </section>
 
 ${o ? `    <section aria-labelledby="outside">
@@ -599,7 +679,7 @@ const CALC_EXTRA_ALIASES = {
 };
 // Aliases that name two dishes at once ("rajma chawal" on the rajma page): the parser composes them instead.
 const CALC_DROP_ALIASES = {
-  rajma: ["rajma chawal"], puri: ["puri bhaji", "puri sabzi"], bhatura: ["chole bhature", "chhole bhature", "chana bhatura"],
+  bhatura: ["chole bhature", "chhole bhature", "chana bhatura"],
   "medu-vada": ["sambar vada"], jalebi: ["jalebi rabri"], "toor-dal": ["gujarati dal"], "mixed-veg": ["aloo gobi matar", "gobhi aloo matar"],
   "vada-pav": ["batata vada"],
 };
@@ -683,13 +763,31 @@ function calcDish(food, hasPage, computed) {
     .map((p) => calcPortionMeta(food, p, computed.portions[p.id].raw));
   if (!portions.some((p) => p.id === headline)) throw new Error(`${food.slug}: calculator headline portion "${headline}" was filtered out`);
   // Every combo and meal row the dish page shows, with the page's own numbers: typed back word for word, it is used as it is.
-  const rows = [...food.portions.filter((p) => p.combo), ...(food.meals || [])].map((r) => ({ id: r.id, label: mealWords(r.label), kcal: r.kcal, protein: r.protein, carbs: r.carbs, fat: r.fat }));
+  // A meal row that has its own composite page is left out here: that page's rows carry the phrase (below).
+  const rows = [...food.portions.filter((p) => p.combo), ...(food.meals || []).filter((m) => !m.page)].map((r) => ({ id: r.id, label: mealWords(r.label), kcal: r.kcal, protein: r.protein, carbs: r.carbs, fat: r.fat }));
   const per100 = computed.per100 ? { kcal: computed.per100.kcal, protein: computed.per100.protein, carbs: computed.per100.carbs, fat: computed.per100.fat } : null;
+  if (food.composite) return calcComposite(food, headline, portions);
   return {
     id: food.slug, name: food.name, nameLower: food.nameLower || food.name.toLowerCase(), page: hasPage ? `/calories/${food.slug}/` : null,
     category: food.category, headline, aliases: [...new Set(aliases.map((a) => a.normalize("NFC").toLowerCase()))],
     per100, portions, rows,
   };
+}
+
+// A composite dish in the calculator: never matched by name (so "5 idli sambar" still counts 5 idlis and a katori
+// of sambar through the parents), only by its rows, each a portion of the page typed in plain words: its label,
+// the phrases listed on it (its name and aliases for the headline), and the words of every parent meal row that
+// points to this page for the same plate. Each gives the page's own numbers, as one line linking to the page.
+function calcComposite(food, headline, portions) {
+  const rows = food.portions.map((p) => {
+    const phrases = [...(p.typed || [])];
+    if (p.id === headline) phrases.push(food.name, food.nameLower || food.name.toLowerCase(), ...(food.aliases || []));
+    for (const f of foods) for (const m of f.meals || []) if (m.page === food.slug && normExpr(m.expr) === normExpr(p.expr) && !(p.add || []).length) phrases.push(mealWords(m.label));
+    return { id: p.id, label: p.label, kcal: p.kcal, protein: p.protein, carbs: p.carbs, fat: p.fat, phrases: [...new Set(phrases.map((s) => s.normalize("NFC").toLowerCase()))] };
+  });
+  for (const f of foods) for (const m of f.meals || []) if (m.page === food.slug && !rows.some((r) => r.phrases.includes(mealWords(m.label).toLowerCase()))) throw new Error(`${f.slug}: meal "${m.id}" points to ${food.slug}, which has no portion for ${m.expr}`);
+  return { id: food.slug, name: food.name, nameLower: food.nameLower || food.name.toLowerCase(), page: `/calories/${food.slug}/`, category: food.category,
+    headline, composite: true, aliases: [], per100: null, portions, rows };
 }
 
 function calcData(results, appResults) {
@@ -961,8 +1059,21 @@ function researchLog(list, results, { title, dataFile, pages }) {
   let md = `# ${title}\n\nGenerated by \`node scripts/build.mjs\` from ${dataFile} and data/ingredients.json. Do not edit by hand: change the data and rebuild.\n\n`;
   md += `Energy per ingredient is IFCT 2017's own value (kJ converted at 4.184 kJ per kcal). Pure fats (oils, ghee) have no energy value in our IFCT copy, so they use IFCT's fat factor of 37 kJ per g (about 8.84 kcal per g). Ingredients not in IFCT use USDA FoodData Central or the maker's label, as listed.\n\n`;
   for (const food of list) {
-    const { totals } = results[food.slug];
-    md += `## ${food.name} (${pages ? `/calories/${food.slug}/` : `app dish ${food.slug}, no page`})\n\n${food.recipe.label}.\n\n| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |\n|---|---|---|---|---|---|---|\n`;
+    const { totals } = (pages ? results : appResults)[food.slug];
+    md += `## ${food.name} (${pages ? `/calories/${food.slug}/` : `app dish ${food.slug}, no page`})\n\n${food.recipe.label}.\n\n`;
+    if (food.composite) {
+      md += `A composite dish: each portion is the sum of other dishes' portions, taken unrounded from their pages and rounded once (${food.recipe.yieldNote}).\n\nPortions:\n\n`;
+      for (const p of food.portions) {
+        const extra = (p.add || []).map((a) => ` + ${a.g} g ${ingredients[a.id].name}`).join("");
+        md += `- ${p.label}: ${p.expr}${extra} = ${p.kcal} kcal, P ${p.protein} g, C ${p.carbs} g, F ${p.fat} g\n`;
+      }
+      if (food.outside) md += `\nOutside (${food.outside.label}): ${food.outside.lo} to ${food.outside.hi} = ${food.outside.kcalRange.join(" to ")} kcal. Basis: ${food.outside.basis}\n`;
+      if (food.crossCheck?.length) { md += `\nCross-checks:\n\n`; for (const cc of food.crossCheck) md += `- ${cc.source}: ${cc.kcal} kcal per ${food.portions.find((p) => p.id === cc.portionId).short}, ours ${cc.ours} (${cc.differencePct > 0 ? "+" : ""}${cc.differencePct}%). ${cc.note || ""} ${cc.url}\n`; }
+      if (food.judgement?.length) md += `\nJudgement calls:\n\n${food.judgement.map((j) => `- ${j}`).join("\n")}\n`;
+      md += `\nSources:\n\n${food.sources.map((s) => `- ${s.title}. ${s.url} (accessed ${s.accessed})`).join("\n")}\n\n`;
+      continue;
+    }
+    md += `| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |\n|---|---|---|---|---|---|---|\n`;
     for (const item of food.recipe.ingredients) {
       const v = of(item.id, item.g, food.slug);
       const ing = ingredients[item.id];
@@ -980,8 +1091,8 @@ function researchLog(list, results, { title, dataFile, pages }) {
       md += `- ${p.label}: ${p.cookedGrams == null ? `${p.fraction} of the recipe` : `${p.cookedGrams} g cooked`}${extra} = ${p.kcal} kcal, P ${p.protein} g, C ${p.carbs} g, F ${p.fat} g\n`;
     }
     if (food.meals?.length) {
-      md += `\nMeals (sums of the page values of each dish's portion, calories rounded to 5):\n\n`;
-      for (const m of food.meals) md += `- ${m.label}: ${m.expr} = ${m.kcal} kcal, P ${m.protein} g, C ${m.carbs} g, F ${m.fat} g\n`;
+      md += `\nMeals (sums of each dish's unrounded portion values, calories rounded to 5):\n\n`;
+      for (const m of food.meals) md += `- ${m.label}: ${m.expr} = ${m.kcal} kcal, P ${m.protein} g, C ${m.carbs} g, F ${m.fat} g${m.page ? ` (its own page: /calories/${m.page}/)` : ""}\n`;
     }
     if (food.outside) {
       const o = food.outside;
@@ -1097,11 +1208,11 @@ function syncLaunchMeta() {
 
 // ---------- Run ----------
 
-const results = {};
-for (const food of foods) results[food.slug] = computeFood(food);
-for (const food of foods) computeMeals(food);
-const appResults = {};
+// Dishes with a recipe first (the site's, then the app-only ones), then the composites built from them, then the meals.
+for (const food of foods) if (!food.composite) results[food.slug] = computeFood(food);
 for (const food of appFoods) appResults[food.slug] = computeFood(food);
+for (const food of foods) if (food.composite) results[food.slug] = computeComposite(food);
+for (const food of foods) computeMeals(food);
 for (const food of foods) write(`calories/${food.slug}/index.html`, foodPage(food, results[food.slug]));
 write("calories/index.html", hubPage());
 write("calories/calculator/index.html", calculatorPage(writeCalcData(results, appResults).version));

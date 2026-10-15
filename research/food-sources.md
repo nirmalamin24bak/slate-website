@@ -25,7 +25,7 @@ Portions:
 - 2 medium rotis: 80 g cooked = 190 kcal, P 6 g, C 39 g, F 1 g
 - 2 rotis with ghee: 80 g cooked + 10 g Ghee = 280 kcal, P 6 g, C 39 g, F 11 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
 - 2 rotis and a katori of dal tadka: 2*roti:medium+dal-tadka:k200 = 305 kcal, P 10 g, C 49 g, F 7 g
 - 3 rotis and a katori of mixed veg: 3*roti:medium+mixed-veg:k200 = 435 kcal, P 14 g, C 71 g, F 10 g
@@ -71,10 +71,10 @@ Portions:
 - 1 plate (100 g raw rice): 298 g cooked = 355 kcal, P 8 g, C 78 g, F 1 g
 - 100 g cooked: 100 g cooked = 120 kcal, P 3 g, C 26 g, F 0 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
-- Dal chawal (a katori of rice, a katori of dal tadka): plain-rice:k200+dal-tadka:k200 = 275 kcal, P 8 g, C 45 g, F 6 g
-- Rajma chawal (a katori of rice, a katori of rajma): plain-rice:k200+rajma:k200 = 370 kcal, P 12 g, C 58 g, F 9 g
+- Dal chawal (a katori of rice, a katori of dal tadka): plain-rice:k200+dal-tadka:k200 = 275 kcal, P 8 g, C 45 g, F 6 g (its own page: /calories/dal-chawal/)
+- Rajma chawal (a katori of rice, a katori of rajma): plain-rice:k200+rajma:k200 = 370 kcal, P 12 g, C 58 g, F 9 g (its own page: /calories/rajma-chawal/)
 - Chole chawal (a katori of rice, a katori of chole): plain-rice:k200+chole:k200 = 425 kcal, P 13 g, C 61 g, F 12 g
 - Kadhi chawal (a katori of rice, a katori of kadhi): plain-rice:k200+kadhi:k200 = 260 kcal, P 7 g, C 42 g, F 7 g
 
@@ -126,9 +126,9 @@ Portions:
 - Half a cup (100 ml): 100 g cooked = 55 kcal, P 2 g, C 5 g, F 3 g
 - 1 textbook bowl (30 g dry dal): 351 g cooked = 200 kcal, P 7 g, C 18 g, F 11 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
-- Dal tadka with rice (a katori of each): dal-tadka:k200+plain-rice:k200 = 275 kcal, P 8 g, C 45 g, F 6 g
+- Dal tadka with rice (a katori of each): dal-tadka:k200+plain-rice:k200 = 275 kcal, P 8 g, C 45 g, F 6 g (its own page: /calories/dal-chawal/)
 - Dal tadka with 2 rotis: dal-tadka:k200+2*roti:medium = 305 kcal, P 10 g, C 49 g, F 7 g
 
 Outside (Restaurant or dhaba): fat sources x 1 to 1, portion x 1.5 to 2 = 170 to 225 kcal. Basis: Published restaurant-style recipes use about the same fat per gram of dal as this textbook dal: Swasthi's dal tadka 2 tbsp ghee plus 1.5 to 2 tbsp oil for 200 g dal (0.24 to 0.27 g per g), against 10 g ghee for 30 g dal here (0.33 g per g). The difference per katori comes mostly from a thicker dal, so the range is 1.5 to 2 times the dal per katori. This is a stated assumption.
@@ -178,9 +178,9 @@ Portions:
 - 1 katori (250 ml): 250 g cooked = 265 kcal, P 10 g, C 29 g, F 11 g
 - 1 textbook bowl (30 g dry rajma): 165 g cooked = 175 kcal, P 7 g, C 19 g, F 8 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
-- Rajma with rice (a katori of each): rajma:k200+plain-rice:k200 = 370 kcal, P 12 g, C 58 g, F 9 g
+- Rajma with rice (a katori of each): rajma:k200+plain-rice:k200 = 370 kcal, P 12 g, C 58 g, F 9 g (its own page: /calories/rajma-chawal/)
 - Rajma with 2 rotis: rajma:k200+2*roti:medium = 405 kcal, P 15 g, C 62 g, F 10 g
 
 Outside (Dhaba or restaurant): fat sources x 1 to 1, portion x 1 to 1, plus 5 to 5 g Ghee, plus 0 to 15 g Cream, single (about 19% fat) = 255 to 285 kcal. Basis: From published recipe proportions (Swasthi, Rajma masala): a dhaba-style tadka of 1.5 tbsp ghee for 4 servings (about 5 g each), and a creamy restaurant version with a quarter cup of cream for 4 servings (about 15 g each). Proportions only, not a measured value.
@@ -225,7 +225,7 @@ Portions:
 - 1 large plate (60 g dry poha): 1.5 of the recipe = 470 kcal, P 9 g, C 56 g, F 23 g
 - 1 very large plate (100 g dry poha): 2.5 of the recipe = 785 kcal, P 15 g, C 93 g, F 38 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
 - A plate of poha and a cup of chai: poha:plate+masala-chai:cup2 = 375 kcal, P 8 g, C 48 g, F 17 g
 
@@ -269,10 +269,10 @@ Portions:
 - 2 medium idlis: 75 g cooked = 105 kcal, P 3 g, C 21 g, F 0 g
 - 4 small idlis: 100 g cooked = 140 kcal, P 5 g, C 28 g, F 0 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
-- 2 idlis with sambar: 2*idli:medium+sambar:k200 = 305 kcal, P 10 g, C 43 g, F 9 g
-- 4 idlis with sambar: 4*idli:medium+sambar:k200 = 410 kcal, P 14 g, C 64 g, F 10 g
+- 2 idlis with sambar: 2*idli:medium+sambar:k200 = 305 kcal, P 10 g, C 43 g, F 9 g (its own page: /calories/idli-sambar/)
+- 4 idlis with sambar: 4*idli:medium+sambar:k200 = 410 kcal, P 14 g, C 64 g, F 10 g (its own page: /calories/idli-sambar/)
 
 Outside (Restaurant, with ghee): fat sources x 1 to 1, portion x 1 to 1.5, plus 0 to 5 g Ghee = 105 to 200 kcal. Basis: No analysed data was found for restaurant idli. Stated assumption: idlis 1 to 1.5 times the medium size, with up to 1 NIN teaspoon of ghee or podi oil.
 
@@ -322,7 +322,7 @@ Portions:
 - 1 masala dosa, 1 tbsp oil on the tawa (textbook): 0.5 of the recipe + 13.6 g Groundnut oil = 335 kcal, P 6 g, C 39 g, F 17 g
 - 1 plain dosa, 1 tsp oil, no filling: 0 of the recipe + 30 g Rice, parboiled, milled + 10 g Black gram dal (urad) + 4.5 g Groundnut oil = 180 kcal, P 5 g, C 28 g, F 5 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
 - A masala dosa with sambar: masala-dosa:tsp+sambar:k200 = 455 kcal, P 13 g, C 61 g, F 17 g
 
@@ -549,7 +549,7 @@ Portions:
 - 100 g cooked paratha: 100 g cooked = 335 kcal, P 6 g, C 35 g, F 19 g
 - 2 parathas with curd: 99 g cooked + 100 g Curd (dahi), whole milk = 390 kcal, P 9 g, C 39 g, F 22 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
 - 2 parathas and a cup of chai: plain-paratha:two+masala-chai:cup2 = 395 kcal, P 7 g, C 45 g, F 20 g
 
@@ -652,7 +652,7 @@ Portions:
 - 4 theplas: 0.3636 of the recipe = 485 kcal, P 12 g, C 56 g, F 23 g
 - 2 theplas with 100 g curd: 0.1818 of the recipe + 100 g Curd (dahi), whole milk = 305 kcal, P 10 g, C 33 g, F 15 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
 - 2 theplas and a cup of chai: thepla:two+masala-chai:cup2 = 305 kcal, P 8 g, C 39 g, F 13 g
 
@@ -695,9 +695,9 @@ Portions:
 - 4 puris: 99 g cooked = 385 kcal, P 6 g, C 34 g, F 25 g
 - 6 puris: 149 g cooked = 575 kcal, P 8 g, C 51 g, F 37 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
-- 4 puris with aloo sabzi: puri:four+aloo-sabzi:k200 = 570 kcal, P 9 g, C 55 g, F 35 g
+- 4 puris with aloo sabzi: puri:four+aloo-sabzi:k200 = 570 kcal, P 9 g, C 55 g, F 35 g (its own page: /calories/poori-bhaji/)
 
 Outside (Halwai or puri-bhaji stall): fat sources x 1 to 1.22, portion x 1 to 1.45 = 95 to 155 kcal. Basis: Size up to USDA's 36 g puri (FNDDS 51300180) against about 25 g here, so 1.45. Fat up to 1.22 times: Jain et al. 2024 found total fat in Indian fried foods (including puri) rose from a mean of 22.5% to 27.4% of dry weight between the 1st and 32nd frying cycle in the same oil.
 
@@ -745,7 +745,7 @@ Portions:
 - 2 bhaturas: 0.6667 of the recipe = 370 kcal, P 6 g, C 41 g, F 20 g
 - 3 bhaturas: 1 of the recipe = 555 kcal, P 9 g, C 61 g, F 30 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
 - 2 bhature with chole: bhatura:two+chole:k200 = 635 kcal, P 15 g, C 67 g, F 32 g
 
@@ -873,7 +873,7 @@ Portions:
 - 1 dosa, 1 tsp ghee: 0.25 of the recipe + 5 g Ghee = 160 kcal, P 4 g, C 23 g, F 5 g
 - 2 dosas, ¾ tsp oil each: 0.5 of the recipe + 6.8 g Groundnut oil = 285 kcal, P 8 g, C 47 g, F 7 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
 - A dosa with sambar: plain-dosa:one+sambar:k200 = 345 kcal, P 11 g, C 45 g, F 13 g
 
@@ -926,7 +926,7 @@ Portions:
 - 1 uttapam with 1 tsp ghee on top: 0.5 of the recipe + 5 g Ghee = 260 kcal, P 5 g, C 32 g, F 12 g
 - 2 uttapams: 1 of the recipe = 430 kcal, P 11 g, C 63 g, F 14 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
 - An uttapam with sambar: uttapam:one+sambar:k200 = 415 kcal, P 12 g, C 53 g, F 16 g
 
@@ -979,9 +979,9 @@ Portions:
 - Half a cup (100 ml): 100 g cooked = 90 kcal, P 3 g, C 8 g, F 5 g
 - 1 bowl (30 g dry dal): 228 g cooked = 205 kcal, P 7 g, C 19 g, F 11 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
-- Dal fry with rice (a katori of each): dal-fry:k200+plain-rice:k200 = 340 kcal, P 10 g, C 52 g, F 10 g
+- Dal fry with rice (a katori of each): dal-fry:k200+plain-rice:k200 = 340 kcal, P 10 g, C 52 g, F 10 g (its own page: /calories/dal-chawal/)
 - Dal fry with 2 rotis: dal-fry:k200+2*roti:medium = 370 kcal, P 13 g, C 55 g, F 10 g
 
 Outside (Dhaba or restaurant): fat sources x 1 to 1.5, portion x 1 to 1.5 = 180 to 325 kcal. Basis: No analysed value for restaurant dal fry was found. Up to 1.5 times the dal per katori (thicker) and up to 1.5 times the ghee are stated assumptions, in line with the dal tadka page.
@@ -1214,7 +1214,7 @@ Portions:
 - 1 bowl (40 g dry chana): 202 g cooked = 265 kcal, P 10 g, C 26 g, F 12 g
 - 100 g: 100 g cooked = 130 kcal, P 5 g, C 13 g, F 6 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
 - Chole with rice (a katori of each): chole:k200+plain-rice:k200 = 425 kcal, P 13 g, C 61 g, F 12 g
 - Chole with 2 rotis: chole:k200+2*roti:medium = 455 kcal, P 16 g, C 65 g, F 13 g
@@ -1267,7 +1267,7 @@ Portions:
 - 1 bowl, half the recipe: 273 g cooked = 140 kcal, P 5 g, C 9 g, F 9 g
 - 1 bowl with its share of pakoras: 0.5 of the recipe + 15 g Besan (ground Bengal gram dal) + 10 g Spinach (palak) + 7.5 g Onion, big + 18.7 g Groundnut oil = 360 kcal, P 8 g, C 17 g, F 29 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
 - Kadhi with rice (a katori of each): kadhi:k200+plain-rice:k200 = 260 kcal, P 7 g, C 42 g, F 7 g
 - Kadhi with 2 rotis: kadhi:k200+2*roti:medium = 295 kcal, P 10 g, C 45 g, F 8 g
@@ -2003,7 +2003,6 @@ Cross-checks:
 Judgement calls:
 
 - Bay leaf, cumin, garam masala and chilli powder (under 1 g each) left out.
-- Puri FAQ: 4 x 95 + 185 = 565, rounded to about 570.
 
 Sources:
 
@@ -2225,7 +2224,7 @@ Portions:
 - 1 plate with 1 tsp ghee on top: 208 g cooked + 5 g Ghee = 355 kcal, P 7 g, C 34 g, F 21 g
 - 100 g: 100 g cooked = 150 kcal, P 3 g, C 16 g, F 8 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
 - A plate of upma and a cup of chai: upma:plate+masala-chai:cup2 = 375 kcal, P 8 g, C 45 g, F 17 g
 
@@ -2361,7 +2360,7 @@ Portions:
 - 4 medu vadas: 111 g cooked = 280 kcal, P 14 g, C 31 g, F 11 g
 - 100 g: 100 g cooked = 255 kcal, P 12 g, C 28 g, F 10 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
 - 2 medu vadas with sambar: medu-vada:two+sambar:k200 = 340 kcal, P 14 g, C 37 g, F 15 g
 
@@ -3272,7 +3271,7 @@ Portions:
 - 1 katori (200 ml): 156 g cooked = 165 kcal, P 3 g, C 9 g, F 13 g
 - 1 textbook bowl: 174 g cooked = 185 kcal, P 3 g, C 10 g, F 14 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
 - Aloo gobi with 2 rotis: aloo-gobi:k200+2*roti:medium = 360 kcal, P 9 g, C 48 g, F 14 g
 
@@ -3391,7 +3390,7 @@ Portions:
 - 2 eggs, scrambled: 110 g cooked = 225 kcal, P 14 g, C 2 g, F 18 g
 - 1 katori of bhurji with 2 pav (43 g each): 114 g cooked + 86 g Pav (soft bread roll) = 500 kcal, P 24 g, C 45 g, F 24 g
 
-Meals (sums of the page values of each dish's portion, calories rounded to 5):
+Meals (sums of each dish's unrounded portion values, calories rounded to 5):
 
 - Egg bhurji with 2 rotis: egg-bhurji:k200+2*roti:medium = 425 kcal, P 21 g, C 40 g, F 20 g
 
@@ -3548,4 +3547,312 @@ Sources:
 - Nestlé India, Maggi 2-Minute Noodles. https://www.maggi.in/en/product/maggi-2-minute-noodles/ (accessed 2026-10-14)
 - ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-11)
 - USDA FoodData Central, Butter, without salt (173430). https://fdc.nal.usda.gov/food-details/173430/nutrients (accessed 2026-10-14)
+
+## Gobi paratha (/calories/gobi-paratha/)
+
+Recipe: 80 g atta, 100 g cauliflower and 2 tablespoons of oil, making 3 parathas.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, atta | 80 | 256.2 | 8.5 | 51.3 | 1.2 | IFCT 2017 A019 |
+| Cauliflower | 100 | 22.9 | 2.1 | 2.0 | 0.4 | IFCT 2017 D036 |
+| Onion, big | 25 | 12.0 | 0.4 | 2.4 | 0.1 | IFCT 2017 G017 |
+| Ginger, fresh | 5 | 2.8 | 0.1 | 0.4 | 0.0 | IFCT 2017 G014 |
+| Chillies, green | 3.3 | 1.4 | 0.1 | 0.2 | 0.0 | IFCT 2017 G008 |
+| Coriander leaves | 2 | 0.6 | 0.1 | 0.0 | 0.0 | IFCT 2017 G009 |
+| Groundnut oil | 27.2 | 240.5 | 0.0 | 0.0 | 27.2 | IFCT 2017 T005 |
+| Water | 60 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **536.4** | **11.2** | **56.4** | **29.0** | |
+
+No cooked weight used (no reliable cooked weight for a stuffed paratha). Portions are shares of the recipe.
+
+Portions:
+
+- 1 gobi paratha: 0.3333 of the recipe = 180 kcal, P 4 g, C 19 g, F 10 g
+- 2 gobi parathas: 0.6667 of the recipe = 360 kcal, P 7 g, C 38 g, F 19 g
+- 1 gobi paratha, 1 tsp butter (5 g): 0.3333 of the recipe + 5 g Butter = 215 kcal, P 4 g, C 19 g, F 14 g
+- 1 gobi paratha, 1 tbsp butter (14 g): 0.3333 of the recipe + 14.2 g Butter = 280 kcal, P 4 g, C 19 g, F 21 g
+- 1 gobi paratha with 100 g curd: 0.3333 of the recipe + 100 g Curd (dahi), whole milk = 240 kcal, P 7 g, C 23 g, F 13 g
+- 2 gobi parathas with curd: 0.6667 of the recipe + 100 g Curd (dahi), whole milk = 420 kcal, P 11 g, C 42 g, F 23 g
+
+Outside (Dhaba or restaurant, with butter): fat sources x 1 to 1.5, portion x 1 to 1.4, plus 5 to 10 g Butter = 215 to 380 kcal. Basis: No analysed value for a restaurant gobi paratha was found. Size up to 1.4 times, as for the plain and aloo parathas (USDA's paratha is 70 g against about 49 g of dough here); up to 1.5 times the oil and 1 to 2 teaspoons of butter on top are stated assumptions, the same as on the aloo paratha page.
+
+Cross-checks:
+
+- Indian Nutrient Databank, Cauliflower paratha (ASC100), per paratha: 181.4 kcal per a gobi paratha, ours 179 (+1%). Same textbook recipe, so this confirms the arithmetic rather than the recipe. The databank also counts the garam masala, amchur and salt. https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-
+
+Judgement calls:
+
+- No independent analysed value for gobi paratha was found: IFCT 2017 has no parathas, USDA FNDDS 2021-2023 has only a plain paratha (51300185), and NIN's Annexure 8 lists a plain paratha only. INDB's own figure (181 kcal per paratha) is from this same textbook recipe, so it agrees by design.
+- Coriander 'a few' sprigs taken as 2 g, green chilli 'one small' as 3.3 g, as the databank does. Spices under 1 g left out.
+- All 2 tbsp of oil (27.2 g) counted as eaten.
+- Curd from USDA FDC 171284 (whole-milk yogurt), since IFCT 2017 has no curd.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-14)
+- Indian Nutrient Databank, recipe and serving-size files (GitHub). https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB- (accessed 2026-10-14)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Butter, without salt (173430). https://fdc.nal.usda.gov/food-details/173430/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Bread, paratha (2707715). https://fdc.nal.usda.gov/food-details/2707715/nutrients (accessed 2026-10-10)
+
+## Paneer paratha (/calories/paneer-paratha/)
+
+Recipe: 80 g atta, 60 g paneer and 2 tablespoons of oil, making 3 parathas.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, atta | 80 | 256.2 | 8.5 | 51.3 | 1.2 | IFCT 2017 A019 |
+| Paneer | 60 | 154.7 | 11.3 | 7.4 | 8.9 | IFCT 2017 L003 |
+| Onion, big | 25 | 12.0 | 0.4 | 2.4 | 0.1 | IFCT 2017 G017 |
+| Chillies, green | 3.3 | 1.4 | 0.1 | 0.2 | 0.0 | IFCT 2017 G008 |
+| Coriander leaves | 2 | 0.6 | 0.1 | 0.0 | 0.0 | IFCT 2017 G009 |
+| Groundnut oil | 27.2 | 240.5 | 0.0 | 0.0 | 27.2 | IFCT 2017 T005 |
+| Water | 60 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **665.5** | **20.3** | **61.4** | **37.4** | |
+
+No cooked weight used (no reliable cooked weight for a stuffed paratha). Portions are shares of the recipe.
+
+Portions:
+
+- 1 paneer paratha: 0.3333 of the recipe = 220 kcal, P 7 g, C 20 g, F 12 g
+- 2 paneer parathas: 0.6667 of the recipe = 445 kcal, P 14 g, C 41 g, F 25 g
+- 1 paneer paratha, 1 tsp butter (5 g): 0.3333 of the recipe + 5 g Butter = 260 kcal, P 7 g, C 20 g, F 17 g
+- 1 paneer paratha, 1 tbsp butter (14 g): 0.3333 of the recipe + 14.2 g Butter = 325 kcal, P 7 g, C 20 g, F 24 g
+- 1 paneer paratha with 100 g curd: 0.3333 of the recipe + 100 g Curd (dahi), whole milk = 285 kcal, P 10 g, C 25 g, F 16 g
+- 2 paneer parathas with curd: 0.6667 of the recipe + 100 g Curd (dahi), whole milk = 505 kcal, P 17 g, C 46 g, F 28 g
+
+Outside (Dhaba or restaurant, with butter): fat sources x 1 to 1.5, portion x 1 to 1.4, plus 5 to 10 g Butter = 260 to 440 kcal. Basis: No analysed value for a restaurant paneer paratha was found. Size up to 1.4 times, as for the plain and aloo parathas (USDA's paratha is 70 g against about 49 g of dough here); up to 1.5 times the oil and 1 to 2 teaspoons of butter on top are stated assumptions, the same as on the aloo paratha page.
+
+Cross-checks:
+
+- Indian Nutrient Databank, Paneer paratha (ASC105), per paratha: 223.6 kcal per a paneer paratha, ours 222 (+1%). Same textbook recipe, so this confirms the arithmetic rather than the recipe. The databank also counts the garam masala, amchur and salt, and carries the onion as 20 g. https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-
+
+Judgement calls:
+
+- No independent analysed value for paneer paratha was found: IFCT 2017 has no parathas, USDA FNDDS 2021-2023 has only a plain paratha (51300185), and NIN's Annexure 8 lists a plain paratha only. INDB's own figure (224 kcal per paratha) is from this same textbook recipe, so it agrees by design.
+- Onion taken as the textbook's 25 g; the databank's converted amount reads 20 g. The difference is about 1 calorie a paratha.
+- Coriander 'a few' sprigs taken as 2 g, green chilli 'one small' as 3.3 g. Spices under 1 g left out.
+- All 2 tbsp of oil (27.2 g) counted as eaten.
+- Curd from USDA FDC 171284 (whole-milk yogurt), since IFCT 2017 has no curd.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-14)
+- Indian Nutrient Databank, recipe and serving-size files (GitHub). https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB- (accessed 2026-10-14)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Butter, without salt (173430). https://fdc.nal.usda.gov/food-details/173430/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Bread, paratha (2707715). https://fdc.nal.usda.gov/food-details/2707715/nutrients (accessed 2026-10-10)
+
+## Methi paratha (/calories/methi-paratha/)
+
+Recipe: 80 g atta, 50 g methi leaves, 80 g onion and 15 g of oil, making 3 parathas.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, atta | 80 | 256.2 | 8.5 | 51.3 | 1.2 | IFCT 2017 A019 |
+| Fenugreek leaves (methi) | 50 | 17.2 | 1.8 | 1.1 | 0.4 | IFCT 2017 C020 |
+| Onion, big | 80 | 38.4 | 1.2 | 7.6 | 0.2 | IFCT 2017 G017 |
+| Ginger, fresh | 5 | 2.8 | 0.1 | 0.4 | 0.0 | IFCT 2017 G014 |
+| Chillies, green | 3.3 | 1.4 | 0.1 | 0.2 | 0.0 | IFCT 2017 G008 |
+| Groundnut oil | 15 | 132.6 | 0.0 | 0.0 | 15.0 | IFCT 2017 T005 |
+| Water | 45 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **448.6** | **11.7** | **60.7** | **16.9** | |
+
+No cooked weight used (no reliable cooked weight for a stuffed paratha). Portions are shares of the recipe.
+
+Portions:
+
+- 1 methi paratha: 0.3333 of the recipe = 150 kcal, P 4 g, C 20 g, F 6 g
+- 2 methi parathas: 0.6667 of the recipe = 300 kcal, P 8 g, C 40 g, F 11 g
+- 1 methi paratha, 1 tsp butter (5 g): 0.3333 of the recipe + 5 g Butter = 185 kcal, P 4 g, C 20 g, F 10 g
+- 1 methi paratha, 1 tbsp butter (14 g): 0.3333 of the recipe + 14.2 g Butter = 250 kcal, P 4 g, C 20 g, F 17 g
+- 1 methi paratha with 100 g curd: 0.3333 of the recipe + 100 g Curd (dahi), whole milk = 210 kcal, P 7 g, C 25 g, F 9 g
+- 2 methi parathas with curd: 0.6667 of the recipe + 100 g Curd (dahi), whole milk = 360 kcal, P 11 g, C 45 g, F 15 g
+
+Outside (Dhaba or restaurant, with butter): fat sources x 1 to 1.5, portion x 1 to 1.4, plus 5 to 10 g Butter = 185 to 310 kcal. Basis: No analysed value for a restaurant methi paratha was found. Size up to 1.4 times, as for the plain and aloo parathas (USDA's paratha is 70 g against about 49 g of dough here); up to 1.5 times the oil and 1 to 2 teaspoons of butter on top are stated assumptions, the same as on the aloo paratha page.
+
+Cross-checks:
+
+- Indian Nutrient Databank, Methi paratha (BFP110), per paratha: 135.3 kcal per a methi paratha, ours 150 (-10%). Same textbook recipe. The databank's copy carries 10 g of oil against the textbook's 15 g, which is most of the difference; it also counts the salt. https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-
+
+Judgement calls:
+
+- No independent analysed value for methi paratha was found: IFCT 2017 has no parathas, USDA FNDDS 2021-2023 has only a plain paratha (51300185), and NIN's Annexure 8 lists a plain paratha only. INDB's figure (135 kcal per paratha) is from this same recipe with 10 g of oil, so it agrees by design.
+- Oil taken as the textbook's 15 g (the original amount in the databank's recipe file); the databank's converted amount reads 10 g. That is about 15 calories a paratha.
+- Green chilli '1' taken as 3.3 g, as the databank does. Salt left out.
+- This is a kneaded paratha, not a stuffed one, and the textbook uses a teaspoon of oil a paratha against 2 for the stuffed parathas on this site. The page says so, because many kitchens use more.
+- Curd from USDA FDC 171284 (whole-milk yogurt), since IFCT 2017 has no curd.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-14)
+- Indian Nutrient Databank, recipe and serving-size files (GitHub). https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB- (accessed 2026-10-14)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Butter, without salt (173430). https://fdc.nal.usda.gov/food-details/173430/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Bread, paratha (2707715). https://fdc.nal.usda.gov/food-details/2707715/nutrients (accessed 2026-10-10)
+
+## Mooli paratha (/calories/mooli-paratha/)
+
+Recipe: 80 g atta, 100 g radish and 2 tablespoons of oil, making 3 parathas.
+
+| Ingredient | Raw g | kcal | Protein g | Carbs g | Fat g | Source |
+|---|---|---|---|---|---|---|
+| Wheat flour, atta | 80 | 256.2 | 8.5 | 51.3 | 1.2 | IFCT 2017 A019 |
+| Radish, white (mooli) | 100 | 32.3 | 0.8 | 6.6 | 0.1 | IFCT 2017 F010 |
+| Onion, big | 25 | 12.0 | 0.4 | 2.4 | 0.1 | IFCT 2017 G017 |
+| Chillies, green | 3.3 | 1.4 | 0.1 | 0.2 | 0.0 | IFCT 2017 G008 |
+| Coriander leaves | 2 | 0.6 | 0.1 | 0.0 | 0.0 | IFCT 2017 G009 |
+| Groundnut oil | 27.2 | 240.5 | 0.0 | 0.0 | 27.2 | IFCT 2017 T005 |
+| Water | 60 | 0.0 | 0.0 | 0.0 | 0.0 | no calories |
+| **Total** | | **543.1** | **9.7** | **60.5** | **28.7** | |
+
+No cooked weight used (no reliable cooked weight for a stuffed paratha). Portions are shares of the recipe.
+
+Portions:
+
+- 1 mooli paratha: 0.3333 of the recipe = 180 kcal, P 3 g, C 20 g, F 10 g
+- 2 mooli parathas: 0.6667 of the recipe = 360 kcal, P 6 g, C 40 g, F 19 g
+- 1 mooli paratha, 1 tsp butter (5 g): 0.3333 of the recipe + 5 g Butter = 215 kcal, P 3 g, C 20 g, F 14 g
+- 1 mooli paratha, 1 tbsp butter (14 g): 0.3333 of the recipe + 14.2 g Butter = 285 kcal, P 3 g, C 20 g, F 21 g
+- 1 mooli paratha with 100 g curd: 0.3333 of the recipe + 100 g Curd (dahi), whole milk = 240 kcal, P 7 g, C 25 g, F 13 g
+- 2 mooli parathas with curd: 0.6667 of the recipe + 100 g Curd (dahi), whole milk = 425 kcal, P 10 g, C 45 g, F 22 g
+
+Outside (Dhaba or restaurant, with butter): fat sources x 1 to 1.5, portion x 1 to 1.4, plus 5 to 10 g Butter = 215 to 380 kcal. Basis: No analysed value for a restaurant mooli paratha was found. Size up to 1.4 times, as for the plain and aloo parathas (USDA's paratha is 70 g against about 49 g of dough here); up to 1.5 times the oil and 1 to 2 teaspoons of butter on top are stated assumptions, the same as on the aloo paratha page.
+
+Cross-checks:
+
+- Indian Nutrient Databank, Radish paratha (ASC099), per paratha: 183.6 kcal per a mooli paratha, ours 181 (+1%). Same textbook recipe, so this confirms the arithmetic rather than the recipe. The databank also counts the garam masala, amchur and salt. https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-
+
+Judgement calls:
+
+- No independent analysed value for mooli paratha was found: IFCT 2017 has no parathas, USDA FNDDS 2021-2023 has only a plain paratha (51300185), and NIN's Annexure 8 lists a plain paratha only. INDB's own figure (184 kcal per paratha) is from this same textbook recipe, so it agrees by design.
+- Coriander 'a few' sprigs taken as 2 g, green chilli 'one small' as 3.3 g, as the databank does. Spices under 1 g left out.
+- All 2 tbsp of oil (27.2 g) counted as eaten.
+- Curd from USDA FDC 171284 (whole-milk yogurt), since IFCT 2017 has no curd.
+
+Sources:
+
+- ICMR-NIN, Indian Food Composition Tables 2017. https://nin.res.in/ebooks/IFCT2017.pdf (accessed 2026-10-10)
+- Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024. https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/ (accessed 2026-10-14)
+- Indian Nutrient Databank, recipe and serving-size files (GitHub). https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB- (accessed 2026-10-14)
+- USDA FoodData Central, Yogurt, plain, whole milk (171284). https://fdc.nal.usda.gov/food-details/171284/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, Butter, without salt (173430). https://fdc.nal.usda.gov/food-details/173430/nutrients (accessed 2026-10-10)
+- USDA FoodData Central, FNDDS Bread, paratha (2707715). https://fdc.nal.usda.gov/food-details/2707715/nutrients (accessed 2026-10-10)
+
+## Rajma chawal (/calories/rajma-chawal/)
+
+One plate: a 200 ml katori of rajma and a 200 ml katori of plain rice, each made as on its own page.
+
+A composite dish: each portion is the sum of other dishes' portions, taken unrounded from their pages and rounded once (a plate of other dishes, each made as on its own page; no weight of its own).
+
+Portions:
+
+- 1 plate (a 200 ml katori of rajma, a 200 ml katori of rice): rajma:k200+plain-rice:k200 = 370 kcal, P 12 g, C 58 g, F 9 g
+- 1 small plate (150 ml katoris of each): rajma:k150+plain-rice:k150 = 280 kcal, P 9 g, C 44 g, F 7 g
+- 1 large plate (a katori of rajma, 2 katoris of rice): rajma:k200+2*plain-rice:k200 = 530 kcal, P 15 g, C 94 g, F 10 g
+- 1 plate with 1 tsp ghee (5 g): rajma:k200+plain-rice:k200 + 5 g Ghee = 415 kcal, P 12 g, C 58 g, F 14 g
+- 1 katori rajma with a full plate of rice (100 g raw): rajma:k200+plain-rice:plate = 570 kcal, P 16 g, C 101 g, F 10 g
+
+Outside (Dhaba or restaurant): rajma:outLo+plain-rice:outLo to rajma:outHi+plain-rice:outHi = 415 to 490 kcal. Basis: The sum of the two pages' outside ranges: dhaba rajma with a 5 g ghee tadka and up to 15 g of cream (from published recipe proportions, on the rajma page) and restaurant rice with 0 to 5 g of ghee (a stated assumption, on the rice page). No analysed value for a plate of rajma chawal was found.
+
+Judgement calls:
+
+- A plate of one 200 ml katori of rajma and one of rice is a stated assumption, matched to the meal rows on the rajma and rice pages; the large plate and the full plate of rice cover the other common ratios.
+- No independent analysed value for a plate of rajma chawal was found, so there is no cross-check here. The parts are cross-checked on their own pages (INDB ASC165 for the rajma; NIN, USDA, INDB and Bognár for the rice).
+- Sliced onion, lemon and salad on the side are left out: under 20 calories.
+
+Sources:
+
+- Writeonslate, Rajma calories. https://writeonslate.com/calories/rajma/ (accessed 2026-10-14)
+- Writeonslate, Plain rice calories. https://writeonslate.com/calories/plain-rice/ (accessed 2026-10-14)
+
+## Dal chawal (/calories/dal-chawal/)
+
+One plate: a 200 ml katori of dal tadka and a 200 ml katori of plain rice, each made as on its own page.
+
+A composite dish: each portion is the sum of other dishes' portions, taken unrounded from their pages and rounded once (a plate of other dishes, each made as on its own page; no weight of its own).
+
+Portions:
+
+- 1 plate (a 200 ml katori of dal tadka, a 200 ml katori of rice): dal-tadka:k200+plain-rice:k200 = 275 kcal, P 8 g, C 45 g, F 6 g
+- 1 small plate (150 ml katoris of each): dal-tadka:k150+plain-rice:k150 = 205 kcal, P 6 g, C 34 g, F 5 g
+- 1 large plate (a katori of dal, 2 katoris of rice): dal-tadka:k200+2*plain-rice:k200 = 435 kcal, P 11 g, C 81 g, F 7 g
+- 1 plate with thick dal (a 200 ml katori of thick dal, a katori of rice): dal-thick:k200+plain-rice:k200 = 360 kcal, P 11 g, C 53 g, F 11 g
+- 1 plate with dal fry (a 200 ml katori of dal fry, a katori of rice): dal-fry:k200+plain-rice:k200 = 340 kcal, P 10 g, C 52 g, F 10 g
+- 1 plate with 1 tsp ghee (5 g): dal-tadka:k200+plain-rice:k200 + 5 g Ghee = 320 kcal, P 8 g, C 45 g, F 11 g
+
+Outside (Restaurant or dhaba): dal-tadka:outLo+plain-rice:outLo to dal-tadka:outHi+plain-rice:outHi = 330 to 430 kcal. Basis: The sum of the two pages' outside ranges: restaurant dal tadka 1.5 to 2 times as thick as the textbook dal with the same ghee per gram of dal (a stated assumption, on the dal tadka page) and restaurant rice with 0 to 5 g of ghee (a stated assumption, on the rice page). No analysed value for a plate of dal chawal was found.
+
+Judgement calls:
+
+- A plate of one 200 ml katori of dal and one of rice is a stated assumption, matched to the meal rows on the dal tadka and rice pages; the large plate covers the usual two-katoris-of-rice ratio.
+- The thick dal is the app-only dish dal-thick (data/app-foods.json): the dal tadka recipe cooked down to twice the thickness, cross-checked against NIN's 100 kcal per half cup. It is used here because thin and thick dal differ two to one, and a page that showed only the thin one would mislead.
+- No independent analysed value for a plate of dal chawal was found, so there is no cross-check here. The parts are cross-checked on their own pages.
+- Pickle, papad and salad are left out.
+
+Sources:
+
+- Writeonslate, Dal tadka calories. https://writeonslate.com/calories/dal-tadka/ (accessed 2026-10-14)
+- Writeonslate, Plain rice calories. https://writeonslate.com/calories/plain-rice/ (accessed 2026-10-14)
+- Writeonslate, Dal fry calories. https://writeonslate.com/calories/dal-fry/ (accessed 2026-10-14)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+
+## Idli sambar (/calories/idli-sambar/)
+
+One plate: 2 medium idlis and a 200 ml katori of sambar, each made as on its own page.
+
+A composite dish: each portion is the sum of other dishes' portions, taken unrounded from their pages and rounded once (a plate of other dishes, each made as on its own page; no weight of its own).
+
+Portions:
+
+- 1 plate (2 medium idlis, a 200 ml katori of sambar): 2*idli:medium+sambar:k200 = 305 kcal, P 10 g, C 43 g, F 9 g
+- 1 idli and a katori of sambar: idli:medium+sambar:k200 = 255 kcal, P 9 g, C 32 g, F 9 g
+- 3 idlis and a katori of sambar: 3*idli:medium+sambar:k200 = 355 kcal, P 12 g, C 54 g, F 10 g
+- 4 idlis and a katori of sambar: 4*idli:medium+sambar:k200 = 410 kcal, P 14 g, C 64 g, F 10 g
+- 2 large idlis and a katori of sambar: 2*idli:large+sambar:k200 = 340 kcal, P 12 g, C 50 g, F 9 g
+- 1 plate with 1 tsp ghee (5 g): 2*idli:medium+sambar:k200 + 5 g Ghee = 350 kcal, P 10 g, C 43 g, F 14 g
+
+Outside (Udupi restaurant or canteen): idli:outLo+sambar:outLo to idli:outHi+sambar:outHi = 225 to 400 kcal. Basis: The sum of the two pages' outside ranges for the same plate: 2 restaurant idlis at 1 to 1.5 times the medium size with up to 5 g of ghee (a stated assumption, on the idli page) and a 200 ml katori of restaurant sambar at 0.6 to 1 times the textbook sambar (a stated assumption, on the sambar page). No analysed value for a plate of idli sambar was found.
+
+Judgement calls:
+
+- A plate of 2 medium idlis and one 200 ml katori of sambar is a stated assumption, matched to the meal row on the idli page; the 1, 3 and 4 idli rows cover the other common plates.
+- Coconut chutney is not counted because the site has no chutney recipe. NIN's figure of 120 kcal per 2 tablespoons is quoted from the idli page's sources so readers can add it.
+- No independent analysed value for a plate of idli sambar was found, so there is no cross-check here. The parts are cross-checked on their own pages (INDB, USDA FNDDS and NIN).
+
+Sources:
+
+- Writeonslate, Idli calories. https://writeonslate.com/calories/idli/ (accessed 2026-10-14)
+- Writeonslate, Sambar calories. https://writeonslate.com/calories/sambar/ (accessed 2026-10-14)
+- ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011). https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf (accessed 2026-10-10)
+
+## Poori bhaji (/calories/poori-bhaji/)
+
+One plate: 4 puris and a 200 ml katori of aloo sabzi, each made as on its own page.
+
+A composite dish: each portion is the sum of other dishes' portions, taken unrounded from their pages and rounded once (a plate of other dishes, each made as on its own page; no weight of its own).
+
+Portions:
+
+- 1 plate (4 puris, a 200 ml katori of aloo sabzi): puri:four+aloo-sabzi:k200 = 570 kcal, P 9 g, C 55 g, F 35 g
+- 2 puris and a katori of aloo sabzi: 2*puri:one+aloo-sabzi:k200 = 375 kcal, P 6 g, C 38 g, F 22 g
+- 6 puris and a katori of aloo sabzi: puri:six+aloo-sabzi:k200 = 760 kcal, P 11 g, C 72 g, F 47 g
+- 4 large puris and a katori of aloo sabzi: 4*puri:large+aloo-sabzi:k200 = 740 kcal, P 11 g, C 70 g, F 46 g
+
+Outside (Halwai or puri-bhaji stall): 4*puri:outLo+aloo-sabzi:outLo to 4*puri:outHi+aloo-sabzi:outHi = 610 to 890 kcal. Basis: The sum of the two pages' outside ranges for the same plate: 4 halwai puris at up to 1.45 times the size (USDA's 36 g puri) with up to a fifth more oil taken up (Jain et al. 2024, on the puri page), and a 200 ml katori of halwai aloo sabzi with 1.5 to 2 times the oil (a stated assumption, on the aloo sabzi page). No analysed value for a plate of poori bhaji was found.
+
+Judgement calls:
+
+- A plate of 4 home puris and one 200 ml katori of aloo sabzi is a stated assumption, matched to the meal row on the puri page; the 2 and 6 puri rows and the large-puri row cover the other common plates.
+- No independent analysed value for a plate of poori bhaji was found, so there is no cross-check here. The parts are cross-checked on their own pages (NIN and USDA FNDDS for the puri, NIN for the sabzi).
+- Pickle and halwa are left out.
+
+Sources:
+
+- Writeonslate, Puri calories. https://writeonslate.com/calories/puri/ (accessed 2026-10-14)
+- Writeonslate, Aloo sabzi calories. https://writeonslate.com/calories/aloo-sabzi/ (accessed 2026-10-14)
 

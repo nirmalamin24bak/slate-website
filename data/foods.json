@@ -392,7 +392,8 @@
           "kcal": 275,
           "protein": 8,
           "carbs": 45,
-          "fat": 6
+          "fat": 6,
+          "page": "dal-chawal"
         },
         {
           "id": "rajma_chawal",
@@ -401,7 +402,8 @@
           "kcal": 370,
           "protein": 12,
           "carbs": 58,
-          "fat": 9
+          "fat": 9,
+          "page": "rajma-chawal"
         },
         {
           "id": "chole_chawal",
@@ -491,7 +493,7 @@
         },
         {
           "q": "How many calories are in dal chawal?",
-          "a": "A 200 ml katori of rice with a 200 ml katori of [dal tadka](/calories/dal-tadka/) comes to about {{kcal:dal_chawal}} calories. With the same rice, [rajma](/calories/rajma/) chawal is about {{kcal:rajma_chawal}} and [chole](/calories/chole/) chawal about {{kcal:chole_chawal}}."
+          "a": "A 200 ml katori of rice with a 200 ml katori of [dal tadka](/calories/dal-tadka/) comes to about {{kcal:dal_chawal}} calories, and with [rajma](/calories/rajma/) about {{kcal:rajma_chawal}}. Each has its own page with bigger plates, thick dal and ghee: [dal chawal](/calories/dal-chawal/) and [rajma chawal](/calories/rajma-chawal/). With [chole](/calories/chole/), about {{kcal:chole_chawal}}."
         },
         {
           "q": "How many calories are in kadhi chawal?",
@@ -502,7 +504,9 @@
         "roti",
         "dal-tadka",
         "rajma",
-        "idli"
+        "idli",
+        "dal-chawal",
+        "rajma-chawal"
       ],
       "useCase": {
         "href": "/for/home-cooking/",
@@ -718,7 +722,8 @@
           "kcal": 275,
           "protein": 8,
           "carbs": 45,
-          "fat": 6
+          "fat": 6,
+          "page": "dal-chawal"
         },
         {
           "id": "with_roti",
@@ -791,14 +796,15 @@
         },
         {
           "q": "How many calories are in dal tadka with rice?",
-          "a": "About {{kcal:with_rice}} calories for a 200 ml katori of dal tadka with a 200 ml katori of [rice](/calories/plain-rice/). With 2 medium [rotis](/calories/roti/) instead, about {{kcal:with_roti}}, with about {{protein:with_roti}} g of protein."
+          "a": "About {{kcal:with_rice}} calories for a 200 ml katori of dal tadka with a 200 ml katori of [rice](/calories/plain-rice/); the [dal chawal](/calories/dal-chawal/) page has thick dal, bigger plates and ghee. With 2 medium [rotis](/calories/roti/) instead, about {{kcal:with_roti}}, with about {{protein:with_roti}} g of protein."
         }
       ],
       "related": [
         "plain-rice",
         "roti",
         "rajma",
-        "paneer-butter-masala"
+        "paneer-butter-masala",
+        "dal-chawal"
       ],
       "useCase": {
         "href": "/for/home-cooking/",
@@ -872,7 +878,6 @@
         "rajmah",
         "razma",
         "kidney beans",
-        "rajma chawal",
         "राजमा",
         "રાજમા"
       ],
@@ -980,7 +985,8 @@
           "kcal": 370,
           "protein": 12,
           "carbs": 58,
-          "fat": 9
+          "fat": 9,
+          "page": "rajma-chawal"
         },
         {
           "id": "with_roti",
@@ -1039,7 +1045,7 @@
         "The masala here takes about a teaspoon and a half of oil per serving. Each extra teaspoon of oil or ghee adds about 40 to 45 calories.",
         "A tablespoon of cream or malai adds about 30 calories.",
         "A thick, reduced rajma holds more beans in each katori than a thinner one with more gravy.",
-        "Rajma chawal is two dishes, so count the rice separately. A 200 ml katori of plain rice is about {{kcal@plain-rice:k200}} calories."
+        "Rajma chawal is two dishes, so count the rice separately: a 200 ml katori of plain rice is about {{kcal@plain-rice:k200}} calories. The whole plate, by size and with ghee, is on the [rajma chawal](/calories/rajma-chawal/) page."
       ],
       "method": [
         "The recipe is the rajma curry from The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 30 g of dry red rajma, 50 g tomato, 25 g onion, ginger, garlic and 1.5 teaspoons of oil for one bowl. Values are from IFCT 2017.",
@@ -1055,16 +1061,12 @@
           "a": "A 200 ml katori has about {{protein:k200}} g of protein. Most of it comes from the beans."
         },
         {
-          "q": "How many calories are in rajma chawal?",
-          "a": "Add the two: a 200 ml katori of rajma is about {{kcal:k200}} calories and a 200 ml katori of plain rice about {{kcal@plain-rice:k200}}, so about {{kcal:k200}} plus {{kcal@plain-rice:k200}} for the pair."
-        },
-        {
           "q": "Why is rajma soaked overnight?",
           "a": "Soaking softens the beans so they cook evenly. The beans take up water, which has no calories, so the total doesn't change."
         },
         {
           "q": "How many calories are in rajma chawal?",
-          "a": "About {{kcal:with_rice}} calories for a 200 ml katori of rajma with a 200 ml katori of [rice](/calories/plain-rice/). With 2 medium [rotis](/calories/roti/) instead, about {{kcal:with_roti}}, with about {{protein:with_roti}} g of protein."
+          "a": "About {{kcal:with_rice}} calories for a 200 ml katori of rajma with a 200 ml katori of [rice](/calories/plain-rice/). The [rajma chawal](/calories/rajma-chawal/) page has bigger plates and the version with ghee. With 2 medium [rotis](/calories/roti/) instead, about {{kcal:with_roti}}, with about {{protein:with_roti}} g of protein."
         }
       ],
       "related": [
@@ -1072,7 +1074,8 @@
         "dal-tadka",
         "roti",
         "paneer-butter-masala",
-        "chole"
+        "chole",
+        "rajma-chawal"
       ],
       "useCase": {
         "href": "/for/vegetarians/",
@@ -1476,7 +1479,8 @@
           "kcal": 305,
           "protein": 10,
           "carbs": 43,
-          "fat": 9
+          "fat": 9,
+          "page": "idli-sambar"
         },
         {
           "id": "four_sambar",
@@ -1485,7 +1489,8 @@
           "kcal": 410,
           "protein": 14,
           "carbs": 64,
-          "fat": 10
+          "fat": 10,
+          "page": "idli-sambar"
         }
       ],
       "mealsCaption": "Idlis are medium, 15 g rice and dal each; sambar is a 200 ml katori. Chutney is extra.",
@@ -1544,10 +1549,6 @@
           "a": "A medium idli has about {{kcal:medium}} calories. Small idlis are about {{kcal:small}} and large ones about {{kcal:large}}."
         },
         {
-          "q": "How many calories are in 2 idlis with sambar?",
-          "a": "2 medium idlis are about {{kcal:two}} calories. Sambar is extra: ICMR-NIN counts a cup of sambar at about 110 calories."
-        },
-        {
           "q": "How much protein is in an idli?",
           "a": "A medium idli has about {{protein:medium}} g of protein, from the rice and the urad dal."
         },
@@ -1557,7 +1558,7 @@
         },
         {
           "q": "How many calories are in 2 idli with sambar?",
-          "a": "About {{kcal:two_sambar}} calories: 2 medium idlis at {{kcal:two}} and a 200 ml katori of [sambar](/calories/sambar/). Four idlis with the same katori of sambar come to about {{kcal:four_sambar}}."
+          "a": "About {{kcal:two_sambar}} calories: 2 medium idlis at {{kcal:two}} and a 200 ml katori of [sambar](/calories/sambar/). Four idlis with the same sambar come to about {{kcal:four_sambar}}. The [idli sambar](/calories/idli-sambar/) page has 1 to 4 idlis, large idlis and ghee."
         }
       ],
       "related": [
@@ -1565,7 +1566,8 @@
         "masala-dosa",
         "uttapam",
         "poha",
-        "medu-vada"
+        "medu-vada",
+        "idli-sambar"
       ],
       "useCase": {
         "href": "/for/indian-food/",
@@ -3126,7 +3128,7 @@
         "Oil or ghee is the biggest variable. Each teaspoon used in the layers or on the tawa adds about 40 to 45 calories.",
         "A teaspoon of butter on top adds about 35 calories, and a teaspoon of ghee about 45.",
         "Parathas vary in size more than rotis. USDA's paratha weighs about 70 g cooked; this one about {{g:one}} g.",
-        "Kerala parotta is made with maida and more fat, and stuffed parathas carry their filling, so both have their own values. See [aloo paratha](/calories/aloo-paratha/)."
+        "Kerala parotta is made with maida and more fat, and stuffed parathas carry their filling, so both have their own values. See [aloo paratha](/calories/aloo-paratha/), [gobi paratha](/calories/gobi-paratha/), [paneer paratha](/calories/paneer-paratha/), [methi paratha](/calories/methi-paratha/) and [mooli paratha](/calories/mooli-paratha/)."
       ],
       "method": [
         "The recipe is the plain paratha in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 80 g of whole-wheat atta and 2 tablespoons of oil, making 3 parathas. All the oil is counted as eaten, since a paratha takes up what's on the tawa. Values are from IFCT 2017.",
@@ -3163,7 +3165,10 @@
         "aloo-paratha",
         "thepla",
         "phulka",
-        "puri"
+        "puri",
+        "methi-paratha",
+        "mooli-paratha",
+        "paneer-paratha"
       ],
       "useCase": {
         "href": "/for/home-cooking/",
@@ -3479,7 +3484,7 @@
         "A teaspoon of butter on top adds about 35 calories, and a tablespoon about 100.",
         "A thicker filling adds less than you'd think: 50 g more potato is about 35 calories.",
         "A katori of curd on the side (100 g) adds about 60 calories, and pickle in oil adds more.",
-        "Gobi, mooli and methi parathas use lighter fillings than potato. Paneer parathas have more."
+        "[Gobi](/calories/gobi-paratha/), [mooli](/calories/mooli-paratha/) and [methi](/calories/methi-paratha/) parathas use lighter fillings than potato, at about {{kcal@gobi-paratha:one}}, {{kcal@mooli-paratha:one}} and {{kcal@methi-paratha:one}}. [Paneer parathas](/calories/paneer-paratha/) have more, about {{kcal@paneer-paratha:one}}."
       ],
       "method": [
         "The recipe is the potato paratha in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 80 g of atta, 80 g of potato, 25 g of onion, green chilli and coriander, with 2 tablespoons of oil for 3 parathas. Spices under 1 g each are left out; together they add under 3 calories a paratha. Values are from IFCT 2017.",
@@ -3520,7 +3525,9 @@
         "roti",
         "thepla",
         "masala-chai",
-        "curd"
+        "curd",
+        "gobi-paratha",
+        "paneer-paratha"
       ],
       "useCase": {
         "href": "/for/office-canteen-tiffin/",
@@ -3767,7 +3774,8 @@
         "Thinner, smaller theplas count for less each. Rolling the same dough into 14 instead of 11 makes each one about a fifth lighter.",
         "Bajra and besan add a little fat and protein compared with atta alone. Per 100 g, IFCT 2017 puts bajra at {{ing:bajra}} calories and besan at {{ing:besan}}, against {{ing:atta}} for atta.",
         "Chhundo and other sweet pickles are mostly sugar, and oil pickles add fat, so a spoonful on the side counts too.",
-        "Dudhi (lauki) thepla and plain masala thepla have less methi and similar flour, so they come out about the same."
+        "Dudhi (lauki) thepla and plain masala thepla have less methi and similar flour, so they come out about the same.",
+        "A [methi paratha](/calories/methi-paratha/) is a different bread: thicker, from plain atta with methi kneaded in, about {{kcal@methi-paratha:one}} each against {{kcal:one}} for a thepla."
       ],
       "method": [
         "The recipe is the methi thepla in the Indian Nutrient Databank's open recipe set: 120 g atta, 40 g each of bajra, jowar and besan, a cup of methi leaves, curd and spices, with 1 tablespoon of oil in the dough and 3 for the tawa, making 11 theplas. Values are from IFCT 2017, with curd and chilli powder from USDA.",
@@ -3799,7 +3807,8 @@
         "phulka",
         "plain-paratha",
         "aloo-paratha",
-        "masala-chai"
+        "masala-chai",
+        "methi-paratha"
       ],
       "useCase": {
         "href": "/for/office-canteen-tiffin/",
@@ -3850,8 +3859,6 @@
         "poori",
         "pooree",
         "luchi",
-        "puri bhaji",
-        "puri sabzi",
         "पूरी",
         "पूड़ी",
         "પૂરી"
@@ -3957,7 +3964,8 @@
           "kcal": 570,
           "protein": 9,
           "carbs": 55,
-          "fat": 35
+          "fat": 35,
+          "page": "poori-bhaji"
         }
       ],
       "mealsCaption": "Aloo sabzi is a 200 ml katori.",
@@ -4024,14 +4032,15 @@
         },
         {
           "q": "How many calories are in 4 puri with aloo sabzi?",
-          "a": "About {{kcal:four_sabzi}} calories: 4 puris at {{kcal:four}} and a 200 ml katori of [aloo sabzi](/calories/aloo-sabzi/)."
+          "a": "About {{kcal:four_sabzi}} calories: 4 puris at {{kcal:four}} and a 200 ml katori of [aloo sabzi](/calories/aloo-sabzi/). The [poori bhaji](/calories/poori-bhaji/) page has 2 and 6 puris, large puris and the halwai range."
         }
       ],
       "related": [
         "bhatura",
         "roti",
         "plain-paratha",
-        "samosa"
+        "samosa",
+        "poori-bhaji"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -5483,7 +5492,8 @@
           "kcal": 340,
           "protein": 10,
           "carbs": 52,
-          "fat": 10
+          "fat": 10,
+          "page": "dal-chawal"
         },
         {
           "id": "with_roti",
@@ -5567,7 +5577,8 @@
         "toor-dal",
         "plain-rice",
         "jeera-rice",
-        "roti"
+        "roti",
+        "dal-chawal"
       ],
       "useCase": {
         "href": "/for/home-cooking/",
@@ -7206,10 +7217,6 @@
           "a": "About {{kcal:bowl_pakora}} for a bowl with its share of pakoras. The pakoras are most of it."
         },
         {
-          "q": "How many calories are in kadhi chawal?",
-          "a": "Add a 200 ml katori of [plain rice](/calories/plain-rice/), about {{kcal@plain-rice:k200}} calories, to the kadhi: {{kcal:k200}} without pakoras or {{kcal:bowl_pakora}} for a bowl with them."
-        },
-        {
           "q": "How much protein is in kadhi?",
           "a": "About {{protein:bowl}} g in a bowl without pakoras, from the curd and besan, and about {{protein:bowl_pakora}} g with them."
         },
@@ -7493,7 +7500,7 @@
         },
         {
           "q": "How many calories are in idli sambar?",
-          "a": "Two medium [idlis](/calories/idli/) are about {{kcal@idli:two}} calories. Add 110 to {{kcal:k200}} for a 200 ml katori of sambar, depending on how thick it is."
+          "a": "About {{kcal@idli-sambar:two}} calories for 2 medium [idlis](/calories/idli/) with a 200 ml katori of this sambar; a thinner sambar brings it down. The [idli sambar](/calories/idli-sambar/) page has 1 to 4 idlis and the restaurant range."
         },
         {
           "q": "How much protein is in sambar?",
@@ -7514,7 +7521,8 @@
         "rasam",
         "toor-dal",
         "masala-dosa",
-        "medu-vada"
+        "medu-vada",
+        "idli-sambar"
       ],
       "useCase": {
         "href": "/for/indian-food/",
@@ -8345,7 +8353,8 @@
         "matar-paneer",
         "paneer-butter-masala",
         "roti",
-        "dal-tadka"
+        "dal-tadka",
+        "paneer-paratha"
       ],
       "useCase": {
         "href": "/for/vegetarians/",
@@ -11134,7 +11143,7 @@
       "changes": [
         "Each teaspoon of oil adds about 40 calories to the pot. A dry aloo sabzi fried until crisp takes more.",
         "More potato and less gravy raises the number per katori. Adding peas, methi or gobhi lowers it.",
-        "Puri or kachori with it is counted separately: see [puri](/calories/puri/).",
+        "Puri or kachori with it is counted separately: see [puri](/calories/puri/), or the whole plate on [poori bhaji](/calories/poori-bhaji/).",
         "Potato skins add fibre and almost no calories."
       ],
       "method": [
@@ -11148,7 +11157,7 @@
         },
         {
           "q": "How many calories are in aloo sabzi and puri?",
-          "a": "A 200 ml katori of aloo sabzi is about {{kcal:k200}}, and each home [puri](/calories/puri/) about {{kcal@puri:one}}. Four puris with a katori come to about 570."
+          "a": "A 200 ml katori of aloo sabzi is about {{kcal:k200}}, and each home [puri](/calories/puri/) about {{kcal@puri:one}}. Four puris with a katori come to about {{kcal@poori-bhaji:four}}: see [poori bhaji](/calories/poori-bhaji/)."
         },
         {
           "q": "How many calories are in 100 g of aloo sabzi?",
@@ -11166,7 +11175,8 @@
         "kachori",
         "phulka",
         "baingan-bharta",
-        "aloo-gobi"
+        "aloo-gobi",
+        "poori-bhaji"
       ],
       "useCase": {
         "href": "/for/home-cooking/",
@@ -11184,8 +11194,7 @@
         }
       ],
       "judgement": [
-        "Bay leaf, cumin, garam masala and chilli powder (under 1 g each) left out.",
-        "Puri FAQ: 4 x 95 + 185 = 565, rounded to about 570."
+        "Bay leaf, cumin, garam masala and chilli powder (under 1 g each) left out."
       ],
       "sources": [
         {
@@ -13144,10 +13153,6 @@
           "a": "About {{kcal:one}} for a home vada made from 15 g of urad dal."
         },
         {
-          "q": "How many calories are in 2 medu vada with sambar?",
-          "a": "Two vadas are about {{kcal:two}}. A cup of sambar adds 110 to 200 depending on how thick it is, and 2 tablespoons of coconut chutney about 120."
-        },
-        {
           "q": "How much protein is in medu vada?",
           "a": "About {{protein:one}} g in one vada and about {{protein:two}} g in two, from the urad dal."
         },
@@ -13157,14 +13162,15 @@
         },
         {
           "q": "How many calories are in 2 medu vada with sambar?",
-          "a": "About {{kcal:two_sambar}} calories: 2 vadas at {{kcal:two}} and a 200 ml katori of [sambar](/calories/sambar/)."
+          "a": "About {{kcal:two_sambar}} calories: 2 vadas at {{kcal:two}} and a 200 ml katori of [sambar](/calories/sambar/). Two tablespoons of coconut chutney add about 120."
         }
       ],
       "related": [
         "idli",
         "sambar",
         "plain-dosa",
-        "masala-dosa"
+        "masala-dosa",
+        "idli-sambar"
       ],
       "useCase": {
         "href": "/for/indian-food/",
@@ -18123,7 +18129,8 @@
         "mixed-veg",
         "aloo-sabzi",
         "cabbage-sabzi",
-        "roti"
+        "roti",
+        "gobi-paratha"
       ],
       "useCase": {
         "href": "/for/home-cooking/",
@@ -19031,7 +19038,8 @@
         "chole",
         "bhatura",
         "pav-bhaji",
-        "puri"
+        "puri",
+        "poori-bhaji"
       ],
       "useCase": {
         "href": "/for/eating-out/",
@@ -19634,6 +19642,2127 @@
           "title": "USDA FoodData Central, Butter, without salt (173430)",
           "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
           "note": "717 kcal per 100 g; 1 teaspoon taken as 5 g, as on the site's paratha pages",
+          "accessed": "2026-10-14"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "gobi-paratha",
+      "name": "Gobi paratha",
+      "nameLower": "gobi paratha",
+      "category": "breads",
+      "aliases": [
+        "gobhi paratha",
+        "gobi ka paratha",
+        "gobhi ka paratha",
+        "cauliflower paratha",
+        "gobi parantha",
+        "gobhi parantha",
+        "phool gobhi paratha",
+        "gobi ke parathe",
+        "गोभी पराठा",
+        "गोभी का पराठा",
+        "ફ્લાવર પરોઠા"
+      ],
+      "updated": "2026-10-14",
+      "title": "Gobi paratha calories: homemade, with butter or curd",
+      "description": "A homemade gobi paratha has about {{kcal:one}} calories, or {{kcal:one_butter}} with a teaspoon of butter. Worked out from a textbook recipe and IFCT 2017.",
+      "answer": "One home gobi paratha (27 g atta, 33 g cauliflower, 2 teaspoons of oil) has about {{kcal:one}} calories, or about {{kcal:one_butter}} with a teaspoon of butter. Two gobi parathas with curd come to about {{kcal:two_curd}}. The cauliflower adds little; the tawa oil is nearly half the total. A dhaba gobi paratha, with butter on top, runs about {{outLo}} to {{outHi}}.",
+      "intro": [
+        "Gobi paratha is atta dough stuffed with grated cauliflower, green chilli, ginger and onion, rolled out and cooked on the tawa with oil or ghee. It's a winter breakfast across Punjab, Haryana and Delhi, eaten with curd, pickle and butter, and it packs well in a tiffin.",
+        "The filling is mostly water: in this recipe the cauliflower is about a twentieth of the calories. The atta and the oil on the tawa make up nearly all the rest, so a gobi paratha counts a little under an [aloo paratha](/calories/aloo-paratha/)."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Made as below, with the oil counted in. Butter and curd are extra.",
+      "recipe": {
+        "label": "Recipe: 80 g atta, 100 g cauliflower and 2 tablespoons of oil, making 3 parathas",
+        "ingredients": [
+          {
+            "id": "atta",
+            "g": 80
+          },
+          {
+            "id": "cauliflower",
+            "g": 100,
+            "note": "grated"
+          },
+          {
+            "id": "onion",
+            "g": 25
+          },
+          {
+            "id": "ginger",
+            "g": 5
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3,
+            "note": "one small chilli"
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 2,
+            "note": "a few sprigs"
+          },
+          {
+            "id": "oil",
+            "g": 27.2,
+            "note": "2 tablespoons, for the tawa"
+          },
+          {
+            "id": "water",
+            "g": 60,
+            "note": "4 tablespoons, to make a soft dough"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no reliable cooked weight for a stuffed paratha"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 gobi paratha",
+          "short": "a gobi paratha",
+          "fraction": 0.3333,
+          "cookedGrams": null,
+          "kcal": 180,
+          "protein": 4,
+          "carbs": 19,
+          "fat": 10
+        },
+        {
+          "id": "two",
+          "label": "2 gobi parathas",
+          "short": "2 gobi parathas",
+          "fraction": 0.6667,
+          "cookedGrams": null,
+          "kcal": 360,
+          "protein": 7,
+          "carbs": 38,
+          "fat": 19
+        },
+        {
+          "id": "one_butter",
+          "label": "1 gobi paratha, 1 tsp butter (5 g)",
+          "short": "with 1 tsp butter",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "butter",
+              "g": 5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 215,
+          "protein": 4,
+          "carbs": 19,
+          "fat": 14
+        },
+        {
+          "id": "one_butter_tbsp",
+          "label": "1 gobi paratha, 1 tbsp butter (14 g)",
+          "short": "with 1 tbsp butter",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "butter",
+              "g": 14.2
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 280,
+          "protein": 4,
+          "carbs": 19,
+          "fat": 21
+        },
+        {
+          "id": "one_curd",
+          "label": "1 gobi paratha with 100 g curd",
+          "short": "with curd",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "curd",
+              "g": 100
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 240,
+          "protein": 7,
+          "carbs": 23,
+          "fat": 13
+        },
+        {
+          "id": "two_curd",
+          "label": "2 gobi parathas with curd",
+          "short": "2 with curd",
+          "fraction": 0.6667,
+          "combo": true,
+          "add": [
+            {
+              "id": "curd",
+              "g": 100
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 420,
+          "protein": 11,
+          "carbs": 42,
+          "fat": 23
+        }
+      ],
+      "mealsCaption": "Curd is a 100 g katori.",
+      "outside": {
+        "portionId": "one",
+        "label": "Dhaba or restaurant, with butter",
+        "caption": "One gobi paratha. The outside range is up to 1.4 times the size and half as much oil again, plus 1 to 2 teaspoons of butter.",
+        "fatFactor": [
+          1,
+          1.5
+        ],
+        "sizeFactor": [
+          1,
+          1.4
+        ],
+        "extra": [
+          {
+            "id": "butter",
+            "g": [
+              5,
+              10
+            ]
+          }
+        ],
+        "basis": "No analysed value for a restaurant gobi paratha was found. Size up to 1.4 times, as for the plain and aloo parathas (USDA's paratha is 70 g against about 49 g of dough here); up to 1.5 times the oil and 1 to 2 teaspoons of butter on top are stated assumptions, the same as on the aloo paratha page.",
+        "text": [
+          "At a dhaba, a gobi paratha is often larger, cooked in more ghee or oil and served with a cube of butter melting on top.",
+          "No lab figure exists for a dhaba gobi paratha, so the range below assumes one up to 1.4 times this size, with up to half as much oil again and 1 to 2 teaspoons of butter, as on the aloo paratha page."
+        ],
+        "kcalRange": [
+          215,
+          380
+        ],
+        "fatRange": [
+          14,
+          28
+        ]
+      },
+      "changes": [
+        "The oil on the tawa is the biggest variable. Each teaspoon adds about 40 calories to a paratha.",
+        "A teaspoon of butter on top takes one paratha from about {{kcal:one}} to {{kcal:one_butter}} calories, and a tablespoon to {{kcal:one_butter_tbsp}}.",
+        "The filling hardly matters: 50 g more cauliflower is about 10 calories. Squeezing the grated gobi dry removes water, which has no calories.",
+        "A katori of curd on the side (100 g) takes a paratha to about {{kcal:one_curd}}, and pickle in oil adds more.",
+        "Made with the same atta and oil, an [aloo paratha](/calories/aloo-paratha/) is about {{kcal@aloo-paratha:one}} and a [paneer paratha](/calories/paneer-paratha/) about {{kcal@paneer-paratha:one}}."
+      ],
+      "method": [
+        "The recipe is the cauliflower paratha in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 80 g of atta, 100 g of cauliflower, 25 g of onion, 5 g of ginger, green chilli and coriander, with 2 tablespoons of oil for 3 parathas. Garam masala, chilli powder, amchur and salt, under 1 g each, are left out; together they add under 3 calories a paratha. Values are from IFCT 2017.",
+        "All the oil is counted as eaten. Curd values are from USDA, because IFCT 2017 has no curd."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 gobi paratha?",
+          "a": "A homemade gobi paratha made with about 27 g of atta and 2 teaspoons of oil has about {{kcal:one}} calories. Two have about {{kcal:two}}."
+        },
+        {
+          "q": "How many calories are in gobi paratha with butter?",
+          "a": "About {{kcal:one_butter}} with a teaspoon of butter, and about {{kcal:one_butter_tbsp}} with a tablespoon. At a dhaba it can be more, because the paratha is often bigger too."
+        },
+        {
+          "q": "Which has more calories, gobi paratha or aloo paratha?",
+          "a": "The aloo paratha, by a little: about {{kcal@aloo-paratha:one}} calories against about {{kcal:one}} for a gobi paratha made with the same atta and oil. Cauliflower has fewer calories per gram than potato."
+        },
+        {
+          "q": "How much protein is in a gobi paratha?",
+          "a": "About {{protein:one}} g. With a 100 g katori of curd it's about {{protein:one_curd}} g."
+        },
+        {
+          "q": "How many calories are in 2 gobi parathas with curd?",
+          "a": "About {{kcal:two_curd}} calories: 2 parathas at {{kcal:two}} plus a 100 g katori of curd."
+        }
+      ],
+      "related": [
+        "aloo-paratha",
+        "paneer-paratha",
+        "mooli-paratha",
+        "methi-paratha",
+        "plain-paratha",
+        "aloo-gobi",
+        "curd"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "Indian Nutrient Databank, Cauliflower paratha (ASC100), per paratha",
+          "portionId": "one",
+          "kcal": 181.4,
+          "note": "Same textbook recipe, so this confirms the arithmetic rather than the recipe. The databank also counts the garam masala, amchur and salt.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 179,
+          "differencePct": 1
+        }
+      ],
+      "judgement": [
+        "No independent analysed value for gobi paratha was found: IFCT 2017 has no parathas, USDA FNDDS 2021-2023 has only a plain paratha (51300185), and NIN's Annexure 8 lists a plain paratha only. INDB's own figure (181 kcal per paratha) is from this same textbook recipe, so it agrees by design.",
+        "Coriander 'a few' sprigs taken as 2 g, green chilli 'one small' as 3.3 g, as the databank does. Spices under 1 g left out.",
+        "All 2 tbsp of oil (27.2 g) counted as eaten.",
+        "Curd from USDA FDC 171284 (whole-milk yogurt), since IFCT 2017 has no curd."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Atta (A019), cauliflower (D036), onion (G017), ginger (G014), green chilli (G008), coriander leaves (G009), oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC100, cauliflower paratha",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "Indian Nutrient Databank, recipe and serving-size files (GitHub)",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "note": "recipes.xlsx and recipes_servingsize.xlsx: the recipe's ingredients in grams and its yield of 3 parathas; INDB.xlsx: its own per-paratha value",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd on the side",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Butter, without salt (173430)",
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "Butter on top; 1 tbsp = 14.2 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Bread, paratha (2707715)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707715/nutrients",
+          "note": "70 g per paratha, used for the outside size",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "paneer-paratha",
+      "name": "Paneer paratha",
+      "nameLower": "paneer paratha",
+      "category": "breads",
+      "aliases": [
+        "paneer parantha",
+        "paneer ka paratha",
+        "paneer stuffed paratha",
+        "cottage cheese paratha",
+        "paneer ke parathe",
+        "पनीर पराठा",
+        "पनीर का पराठा",
+        "પનીર પરોઠા"
+      ],
+      "updated": "2026-10-14",
+      "title": "Paneer paratha calories: homemade, with butter or curd",
+      "description": "A homemade paneer paratha has about {{kcal:one}} calories, or {{kcal:one_butter}} with a teaspoon of butter. Worked out from a textbook recipe and IFCT 2017.",
+      "answer": "One home paneer paratha (27 g atta, 20 g paneer, 2 teaspoons of oil) has about {{kcal:one}} calories, or about {{kcal:one_butter}} with a teaspoon of butter. Two paneer parathas with curd come to about {{kcal:two_curd}}. The paneer is a quarter of the total; the oil a third. A dhaba paneer paratha, with butter on top, runs about {{outLo}} to {{outHi}}.",
+      "intro": [
+        "Paneer paratha is atta dough stuffed with crumbled paneer, onion, green chilli and spices, rolled out and cooked on the tawa with oil or ghee. It's the richest of the everyday stuffed parathas and a common restaurant breakfast with curd and pickle.",
+        "Unlike a vegetable filling, the paneer adds real calories and protein: 20 g of it in each paratha is about a quarter of the total, which is why a paneer paratha counts above an [aloo paratha](/calories/aloo-paratha/) made with the same atta and oil."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Made as below, with the oil counted in. Butter and curd are extra.",
+      "recipe": {
+        "label": "Recipe: 80 g atta, 60 g paneer and 2 tablespoons of oil, making 3 parathas",
+        "ingredients": [
+          {
+            "id": "atta",
+            "g": 80
+          },
+          {
+            "id": "paneer",
+            "g": 60,
+            "note": "crumbled"
+          },
+          {
+            "id": "onion",
+            "g": 25
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3,
+            "note": "one small chilli"
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 2,
+            "note": "a few sprigs"
+          },
+          {
+            "id": "oil",
+            "g": 27.2,
+            "note": "2 tablespoons, for the tawa"
+          },
+          {
+            "id": "water",
+            "g": 60,
+            "note": "4 tablespoons, to make a soft dough"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no reliable cooked weight for a stuffed paratha"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 paneer paratha",
+          "short": "a paneer paratha",
+          "fraction": 0.3333,
+          "cookedGrams": null,
+          "kcal": 220,
+          "protein": 7,
+          "carbs": 20,
+          "fat": 12
+        },
+        {
+          "id": "two",
+          "label": "2 paneer parathas",
+          "short": "2 paneer parathas",
+          "fraction": 0.6667,
+          "cookedGrams": null,
+          "kcal": 445,
+          "protein": 14,
+          "carbs": 41,
+          "fat": 25
+        },
+        {
+          "id": "one_butter",
+          "label": "1 paneer paratha, 1 tsp butter (5 g)",
+          "short": "with 1 tsp butter",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "butter",
+              "g": 5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 260,
+          "protein": 7,
+          "carbs": 20,
+          "fat": 17
+        },
+        {
+          "id": "one_butter_tbsp",
+          "label": "1 paneer paratha, 1 tbsp butter (14 g)",
+          "short": "with 1 tbsp butter",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "butter",
+              "g": 14.2
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 325,
+          "protein": 7,
+          "carbs": 20,
+          "fat": 24
+        },
+        {
+          "id": "one_curd",
+          "label": "1 paneer paratha with 100 g curd",
+          "short": "with curd",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "curd",
+              "g": 100
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 285,
+          "protein": 10,
+          "carbs": 25,
+          "fat": 16
+        },
+        {
+          "id": "two_curd",
+          "label": "2 paneer parathas with curd",
+          "short": "2 with curd",
+          "fraction": 0.6667,
+          "combo": true,
+          "add": [
+            {
+              "id": "curd",
+              "g": 100
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 505,
+          "protein": 17,
+          "carbs": 46,
+          "fat": 28
+        }
+      ],
+      "mealsCaption": "Curd is a 100 g katori.",
+      "outside": {
+        "portionId": "one",
+        "label": "Dhaba or restaurant, with butter",
+        "caption": "One paneer paratha. The outside range is up to 1.4 times the size and half as much oil again, plus 1 to 2 teaspoons of butter.",
+        "fatFactor": [
+          1,
+          1.5
+        ],
+        "sizeFactor": [
+          1,
+          1.4
+        ],
+        "extra": [
+          {
+            "id": "butter",
+            "g": [
+              5,
+              10
+            ]
+          }
+        ],
+        "basis": "No analysed value for a restaurant paneer paratha was found. Size up to 1.4 times, as for the plain and aloo parathas (USDA's paratha is 70 g against about 49 g of dough here); up to 1.5 times the oil and 1 to 2 teaspoons of butter on top are stated assumptions, the same as on the aloo paratha page.",
+        "text": [
+          "Restaurant paneer parathas are often larger, with more paneer in the filling, cooked in more ghee and finished with butter.",
+          "No lab figure exists for a restaurant paneer paratha, so the range below assumes one up to 1.4 times this size, with up to half as much oil again and 1 to 2 teaspoons of butter, as on the aloo paratha page. More paneer in the filling would add to that."
+        ],
+        "kcalRange": [
+          260,
+          440
+        ],
+        "fatRange": [
+          17,
+          32
+        ]
+      },
+      "changes": [
+        "The oil on the tawa is the biggest variable. Each teaspoon adds about 40 calories to a paratha.",
+        "A teaspoon of butter on top takes one paratha from about {{kcal:one}} to {{kcal:one_butter}} calories, and a tablespoon to {{kcal:one_butter_tbsp}}.",
+        "The paneer matters here. Paneer is about {{ing:paneer}} calories per 100 g, so a paratha stuffed with 40 g instead of 20 g has about 50 more.",
+        "A katori of curd on the side (100 g) takes a paratha to about {{kcal:one_curd}}, and pickle in oil adds more.",
+        "Made with the same atta and oil, an [aloo paratha](/calories/aloo-paratha/) is about {{kcal@aloo-paratha:one}} and a [gobi paratha](/calories/gobi-paratha/) about {{kcal@gobi-paratha:one}}."
+      ],
+      "method": [
+        "The recipe is the paneer paratha in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 80 g of atta, 60 g of paneer, 25 g of onion, green chilli and coriander, with 2 tablespoons of oil for 3 parathas. Garam masala, chilli powder, amchur and salt, under 1 g each, are left out; together they add under 3 calories a paratha. Values are from IFCT 2017.",
+        "All the oil is counted as eaten. Curd values are from USDA, because IFCT 2017 has no curd."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 paneer paratha?",
+          "a": "A homemade paneer paratha made with about 27 g of atta, 20 g of paneer and 2 teaspoons of oil has about {{kcal:one}} calories. Two have about {{kcal:two}}."
+        },
+        {
+          "q": "How many calories are in paneer paratha with butter?",
+          "a": "About {{kcal:one_butter}} with a teaspoon of butter, and about {{kcal:one_butter_tbsp}} with a tablespoon. At a dhaba it can be more, because the paratha is often bigger too."
+        },
+        {
+          "q": "Which has more calories, paneer paratha or aloo paratha?",
+          "a": "The paneer paratha: about {{kcal:one}} calories against about {{kcal@aloo-paratha:one}} for an [aloo paratha](/calories/aloo-paratha/) made with the same atta and oil. Paneer has about four times the calories of potato per gram."
+        },
+        {
+          "q": "How much protein is in a paneer paratha?",
+          "a": "About {{protein:one}} g, the most of the stuffed parathas, from the paneer and the atta. With a 100 g katori of curd it's about {{protein:one_curd}} g."
+        },
+        {
+          "q": "How many calories are in 2 paneer parathas with curd?",
+          "a": "About {{kcal:two_curd}} calories: 2 parathas at {{kcal:two}} plus a 100 g katori of curd."
+        }
+      ],
+      "related": [
+        "aloo-paratha",
+        "gobi-paratha",
+        "methi-paratha",
+        "mooli-paratha",
+        "plain-paratha",
+        "palak-paneer",
+        "curd"
+      ],
+      "useCase": {
+        "href": "/for/vegetarians/",
+        "label": "Calorie counting for vegetarians"
+      },
+      "crossCheck": [
+        {
+          "source": "Indian Nutrient Databank, Paneer paratha (ASC105), per paratha",
+          "portionId": "one",
+          "kcal": 223.6,
+          "note": "Same textbook recipe, so this confirms the arithmetic rather than the recipe. The databank also counts the garam masala, amchur and salt, and carries the onion as 20 g.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 222,
+          "differencePct": 1
+        }
+      ],
+      "judgement": [
+        "No independent analysed value for paneer paratha was found: IFCT 2017 has no parathas, USDA FNDDS 2021-2023 has only a plain paratha (51300185), and NIN's Annexure 8 lists a plain paratha only. INDB's own figure (224 kcal per paratha) is from this same textbook recipe, so it agrees by design.",
+        "Onion taken as the textbook's 25 g; the databank's converted amount reads 20 g. The difference is about 1 calorie a paratha.",
+        "Coriander 'a few' sprigs taken as 2 g, green chilli 'one small' as 3.3 g. Spices under 1 g left out.",
+        "All 2 tbsp of oil (27.2 g) counted as eaten.",
+        "Curd from USDA FDC 171284 (whole-milk yogurt), since IFCT 2017 has no curd."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Atta (A019), paneer (L003), onion (G017), green chilli (G008), coriander leaves (G009), oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC105, paneer paratha",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "Indian Nutrient Databank, recipe and serving-size files (GitHub)",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "note": "recipes.xlsx and recipes_servingsize.xlsx: the recipe's ingredients in grams and its yield of 3 parathas; INDB.xlsx: its own per-paratha value",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd on the side",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Butter, without salt (173430)",
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "Butter on top; 1 tbsp = 14.2 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Bread, paratha (2707715)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707715/nutrients",
+          "note": "70 g per paratha, used for the outside size",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "methi-paratha",
+      "name": "Methi paratha",
+      "nameLower": "methi paratha",
+      "category": "breads",
+      "aliases": [
+        "methi ka paratha",
+        "methi parantha",
+        "fenugreek paratha",
+        "methi ke parathe",
+        "methi wala paratha",
+        "मेथी पराठा",
+        "मेथी का पराठा",
+        "મેથી પરોઠા"
+      ],
+      "updated": "2026-10-14",
+      "title": "Methi paratha calories: homemade, with butter or curd",
+      "description": "A homemade methi paratha has about {{kcal:one}} calories, or {{kcal:one_butter}} with a teaspoon of butter. Worked out from a textbook recipe and IFCT 2017.",
+      "answer": "One home methi paratha (27 g atta, 17 g methi leaves, a teaspoon of oil) has about {{kcal:one}} calories, or about {{kcal:one_butter}} with a teaspoon of butter. Two methi parathas with curd come to about {{kcal:two_curd}}. The methi is in the dough, and the textbook uses a teaspoon of oil each. A dhaba methi paratha runs about {{outLo}} to {{outHi}}.",
+      "intro": [
+        "Methi paratha is atta kneaded with chopped fresh fenugreek leaves, onion, ginger and green chilli, then rolled and cooked on the tawa with a little oil. It's a winter bread across north and west India, eaten with curd and pickle, and a tiffin regular because it keeps well.",
+        "It isn't a [thepla](/calories/thepla/): a Gujarati thepla is thinner, made from mixed flours with curd, and smaller. Because the methi goes into the dough rather than a stuffing, and this textbook recipe uses only a teaspoon of oil a paratha, a methi paratha counts well under an [aloo paratha](/calories/aloo-paratha/)."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Made as below, with the oil counted in. Butter and curd are extra.",
+      "recipe": {
+        "label": "Recipe: 80 g atta, 50 g methi leaves, 80 g onion and 15 g of oil, making 3 parathas",
+        "ingredients": [
+          {
+            "id": "atta",
+            "g": 80
+          },
+          {
+            "id": "methi_leaves",
+            "g": 50,
+            "note": "chopped"
+          },
+          {
+            "id": "onion",
+            "g": 80
+          },
+          {
+            "id": "ginger",
+            "g": 5
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3,
+            "note": "one small chilli"
+          },
+          {
+            "id": "oil",
+            "g": 15,
+            "note": "about 1 teaspoon a paratha"
+          },
+          {
+            "id": "water",
+            "g": 45,
+            "note": "3 tablespoons, to make a soft dough"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no reliable cooked weight for a stuffed paratha"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 methi paratha",
+          "short": "a methi paratha",
+          "fraction": 0.3333,
+          "cookedGrams": null,
+          "kcal": 150,
+          "protein": 4,
+          "carbs": 20,
+          "fat": 6
+        },
+        {
+          "id": "two",
+          "label": "2 methi parathas",
+          "short": "2 methi parathas",
+          "fraction": 0.6667,
+          "cookedGrams": null,
+          "kcal": 300,
+          "protein": 8,
+          "carbs": 40,
+          "fat": 11
+        },
+        {
+          "id": "one_butter",
+          "label": "1 methi paratha, 1 tsp butter (5 g)",
+          "short": "with 1 tsp butter",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "butter",
+              "g": 5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 185,
+          "protein": 4,
+          "carbs": 20,
+          "fat": 10
+        },
+        {
+          "id": "one_butter_tbsp",
+          "label": "1 methi paratha, 1 tbsp butter (14 g)",
+          "short": "with 1 tbsp butter",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "butter",
+              "g": 14.2
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 250,
+          "protein": 4,
+          "carbs": 20,
+          "fat": 17
+        },
+        {
+          "id": "one_curd",
+          "label": "1 methi paratha with 100 g curd",
+          "short": "with curd",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "curd",
+              "g": 100
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 210,
+          "protein": 7,
+          "carbs": 25,
+          "fat": 9
+        },
+        {
+          "id": "two_curd",
+          "label": "2 methi parathas with curd",
+          "short": "2 with curd",
+          "fraction": 0.6667,
+          "combo": true,
+          "add": [
+            {
+              "id": "curd",
+              "g": 100
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 360,
+          "protein": 11,
+          "carbs": 45,
+          "fat": 15
+        }
+      ],
+      "mealsCaption": "Curd is a 100 g katori.",
+      "outside": {
+        "portionId": "one",
+        "label": "Dhaba or restaurant, with butter",
+        "caption": "One methi paratha. The outside range is up to 1.4 times the size and half as much oil again, plus 1 to 2 teaspoons of butter.",
+        "fatFactor": [
+          1,
+          1.5
+        ],
+        "sizeFactor": [
+          1,
+          1.4
+        ],
+        "extra": [
+          {
+            "id": "butter",
+            "g": [
+              5,
+              10
+            ]
+          }
+        ],
+        "basis": "No analysed value for a restaurant methi paratha was found. Size up to 1.4 times, as for the plain and aloo parathas (USDA's paratha is 70 g against about 49 g of dough here); up to 1.5 times the oil and 1 to 2 teaspoons of butter on top are stated assumptions, the same as on the aloo paratha page.",
+        "text": [
+          "At a dhaba, a methi paratha is usually larger and cooked in far more ghee or oil than this textbook's teaspoon, and it often comes with butter on top.",
+          "No lab figure exists for a dhaba methi paratha, so the range below assumes one up to 1.4 times this size, with up to half as much oil again and 1 to 2 teaspoons of butter, the same assumptions as the aloo paratha page. A dhaba that uses 2 teaspoons of oil a paratha would be at the top of it."
+        ],
+        "kcalRange": [
+          185,
+          310
+        ],
+        "fatRange": [
+          10,
+          19
+        ]
+      },
+      "changes": [
+        "The oil. This textbook recipe uses about a teaspoon a paratha; many kitchens cook a methi paratha in 2, which adds about 40 calories each.",
+        "A teaspoon of butter on top takes one paratha from about {{kcal:one}} to {{kcal:one_butter}} calories, and a tablespoon to {{kcal:one_butter_tbsp}}.",
+        "The methi and onion add little: together they are about an eighth of the total here. More methi changes the taste, not the number.",
+        "A katori of curd on the side (100 g) takes a paratha to about {{kcal:one_curd}}, and pickle in oil adds more.",
+        "A [thepla](/calories/thepla/), smaller and made from mixed flours, is about {{kcal@thepla:one}}; a [plain paratha](/calories/plain-paratha/) cooked in 2 teaspoons of oil about {{kcal@plain-paratha:one}}."
+      ],
+      "method": [
+        "The recipe is the methi paratha in Basic Food Preparation, a standard Indian cookery textbook (via the Indian Nutrient Databank): 80 g of atta, 50 g of fenugreek leaves, 80 g of onion, 5 g of ginger and a green chilli, kneaded with 15 g of oil and 3 tablespoons of water, making 3 parathas. Salt is left out. Values are from IFCT 2017.",
+        "All the oil is counted as eaten. Curd values are from USDA, because IFCT 2017 has no curd."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 methi paratha?",
+          "a": "A homemade methi paratha made with about 27 g of atta and a teaspoon of oil has about {{kcal:one}} calories. Two have about {{kcal:two}}. Cooked in 2 teaspoons of oil instead, add about 40 each."
+        },
+        {
+          "q": "Is methi paratha the same as methi thepla?",
+          "a": "No. A [thepla](/calories/thepla/) is a thinner Gujarati bread of mixed flours with methi and curd, about {{kcal@thepla:one}} calories each. A methi paratha is a thicker atta paratha, about {{kcal:one}}."
+        },
+        {
+          "q": "How many calories are in methi paratha with butter?",
+          "a": "About {{kcal:one_butter}} with a teaspoon of butter, and about {{kcal:one_butter_tbsp}} with a tablespoon."
+        },
+        {
+          "q": "How much protein is in a methi paratha?",
+          "a": "About {{protein:one}} g, mostly from the atta. With a 100 g katori of curd it's about {{protein:one_curd}} g."
+        },
+        {
+          "q": "How many calories are in 2 methi parathas with curd?",
+          "a": "About {{kcal:two_curd}} calories: 2 parathas at {{kcal:two}} plus a 100 g katori of curd."
+        }
+      ],
+      "related": [
+        "thepla",
+        "aloo-paratha",
+        "gobi-paratha",
+        "mooli-paratha",
+        "paneer-paratha",
+        "plain-paratha",
+        "curd"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [
+        {
+          "source": "Indian Nutrient Databank, Methi paratha (BFP110), per paratha",
+          "portionId": "one",
+          "kcal": 135.3,
+          "note": "Same textbook recipe. The databank's copy carries 10 g of oil against the textbook's 15 g, which is most of the difference; it also counts the salt.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 150,
+          "differencePct": -10
+        }
+      ],
+      "judgement": [
+        "No independent analysed value for methi paratha was found: IFCT 2017 has no parathas, USDA FNDDS 2021-2023 has only a plain paratha (51300185), and NIN's Annexure 8 lists a plain paratha only. INDB's figure (135 kcal per paratha) is from this same recipe with 10 g of oil, so it agrees by design.",
+        "Oil taken as the textbook's 15 g (the original amount in the databank's recipe file); the databank's converted amount reads 10 g. That is about 15 calories a paratha.",
+        "Green chilli '1' taken as 3.3 g, as the databank does. Salt left out.",
+        "This is a kneaded paratha, not a stuffed one, and the textbook uses a teaspoon of oil a paratha against 2 for the stuffed parathas on this site. The page says so, because many kitchens use more.",
+        "Curd from USDA FDC 171284 (whole-milk yogurt), since IFCT 2017 has no curd."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Atta (A019), fenugreek leaves (C020), onion (G017), ginger (G014), green chilli (G008), oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "Basic Food Preparation recipe BFP110, methi paratha",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "Indian Nutrient Databank, recipe and serving-size files (GitHub)",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "note": "recipes.xlsx and recipes_servingsize.xlsx: the recipe's ingredients in grams and its yield of 3 parathas; INDB.xlsx: its own per-paratha value",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd on the side",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Butter, without salt (173430)",
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "Butter on top; 1 tbsp = 14.2 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Bread, paratha (2707715)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707715/nutrients",
+          "note": "70 g per paratha, used for the outside size",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "mooli-paratha",
+      "name": "Mooli paratha",
+      "nameLower": "mooli paratha",
+      "category": "breads",
+      "aliases": [
+        "mooli ka paratha",
+        "mooli parantha",
+        "muli paratha",
+        "mooli ke parathe",
+        "radish paratha",
+        "mooli wala paratha",
+        "मूली पराठा",
+        "मूली का पराठा",
+        "મૂળા પરોઠા"
+      ],
+      "updated": "2026-10-14",
+      "title": "Mooli paratha calories: homemade, with butter or curd",
+      "description": "A homemade mooli paratha has about {{kcal:one}} calories, or {{kcal:one_butter}} with a teaspoon of butter. Worked out from a textbook recipe and IFCT 2017.",
+      "answer": "One home mooli paratha (27 g atta, 33 g radish, 2 teaspoons of oil) has about {{kcal:one}} calories, or about {{kcal:one_butter}} with a teaspoon of butter. Two mooli parathas with curd come to about {{kcal:two_curd}}. The radish adds little; the tawa oil is nearly half the total. A dhaba mooli paratha, with butter on top, runs about {{outLo}} to {{outHi}}.",
+      "intro": [
+        "Mooli paratha is atta dough stuffed with grated white radish, squeezed dry and mixed with green chilli, coriander and onion, then rolled and cooked on the tawa with oil or ghee. It's a Punjabi winter breakfast, eaten with curd, pickle and butter.",
+        "Radish is almost all water, so in this recipe the filling is about a twentieth of the calories. The atta and the oil on the tawa make up nearly all the rest, and a mooli paratha counts a little under an [aloo paratha](/calories/aloo-paratha/)."
+      ],
+      "headlinePortion": "one",
+      "portionsCaption": "Made as below, with the oil counted in. Butter and curd are extra.",
+      "recipe": {
+        "label": "Recipe: 80 g atta, 100 g radish and 2 tablespoons of oil, making 3 parathas",
+        "ingredients": [
+          {
+            "id": "atta",
+            "g": 80
+          },
+          {
+            "id": "radish",
+            "g": 100,
+            "note": "grated"
+          },
+          {
+            "id": "onion",
+            "g": 25
+          },
+          {
+            "id": "green_chilli",
+            "g": 3.3,
+            "note": "one small chilli"
+          },
+          {
+            "id": "coriander_leaves",
+            "g": 2,
+            "note": "a few sprigs"
+          },
+          {
+            "id": "oil",
+            "g": 27.2,
+            "note": "2 tablespoons, for the tawa"
+          },
+          {
+            "id": "water",
+            "g": 60,
+            "note": "4 tablespoons, to make a soft dough"
+          }
+        ],
+        "cookedYieldG": null,
+        "yieldNote": "no reliable cooked weight for a stuffed paratha"
+      },
+      "portions": [
+        {
+          "id": "one",
+          "label": "1 mooli paratha",
+          "short": "a mooli paratha",
+          "fraction": 0.3333,
+          "cookedGrams": null,
+          "kcal": 180,
+          "protein": 3,
+          "carbs": 20,
+          "fat": 10
+        },
+        {
+          "id": "two",
+          "label": "2 mooli parathas",
+          "short": "2 mooli parathas",
+          "fraction": 0.6667,
+          "cookedGrams": null,
+          "kcal": 360,
+          "protein": 6,
+          "carbs": 40,
+          "fat": 19
+        },
+        {
+          "id": "one_butter",
+          "label": "1 mooli paratha, 1 tsp butter (5 g)",
+          "short": "with 1 tsp butter",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "butter",
+              "g": 5
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 215,
+          "protein": 3,
+          "carbs": 20,
+          "fat": 14
+        },
+        {
+          "id": "one_butter_tbsp",
+          "label": "1 mooli paratha, 1 tbsp butter (14 g)",
+          "short": "with 1 tbsp butter",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "butter",
+              "g": 14.2
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 285,
+          "protein": 3,
+          "carbs": 20,
+          "fat": 21
+        },
+        {
+          "id": "one_curd",
+          "label": "1 mooli paratha with 100 g curd",
+          "short": "with curd",
+          "fraction": 0.3333,
+          "add": [
+            {
+              "id": "curd",
+              "g": 100
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 240,
+          "protein": 7,
+          "carbs": 25,
+          "fat": 13
+        },
+        {
+          "id": "two_curd",
+          "label": "2 mooli parathas with curd",
+          "short": "2 with curd",
+          "fraction": 0.6667,
+          "combo": true,
+          "add": [
+            {
+              "id": "curd",
+              "g": 100
+            }
+          ],
+          "cookedGrams": null,
+          "kcal": 425,
+          "protein": 10,
+          "carbs": 45,
+          "fat": 22
+        }
+      ],
+      "mealsCaption": "Curd is a 100 g katori.",
+      "outside": {
+        "portionId": "one",
+        "label": "Dhaba or restaurant, with butter",
+        "caption": "One mooli paratha. The outside range is up to 1.4 times the size and half as much oil again, plus 1 to 2 teaspoons of butter.",
+        "fatFactor": [
+          1,
+          1.5
+        ],
+        "sizeFactor": [
+          1,
+          1.4
+        ],
+        "extra": [
+          {
+            "id": "butter",
+            "g": [
+              5,
+              10
+            ]
+          }
+        ],
+        "basis": "No analysed value for a restaurant mooli paratha was found. Size up to 1.4 times, as for the plain and aloo parathas (USDA's paratha is 70 g against about 49 g of dough here); up to 1.5 times the oil and 1 to 2 teaspoons of butter on top are stated assumptions, the same as on the aloo paratha page.",
+        "text": [
+          "At a dhaba, a mooli paratha is often larger, cooked in more ghee or oil and served with a cube of butter melting on top.",
+          "No lab figure exists for a dhaba mooli paratha, so the range below assumes one up to 1.4 times this size, with up to half as much oil again and 1 to 2 teaspoons of butter, as on the aloo paratha page."
+        ],
+        "kcalRange": [
+          215,
+          380
+        ],
+        "fatRange": [
+          14,
+          28
+        ]
+      },
+      "changes": [
+        "The oil on the tawa is the biggest variable. Each teaspoon adds about 40 calories to a paratha.",
+        "A teaspoon of butter on top takes one paratha from about {{kcal:one}} to {{kcal:one_butter}} calories, and a tablespoon to {{kcal:one_butter_tbsp}}.",
+        "The filling hardly matters: 50 g more radish is about 15 calories. Salting and squeezing the mooli removes water, which has no calories.",
+        "A katori of curd on the side (100 g) takes a paratha to about {{kcal:one_curd}}, and pickle in oil adds more.",
+        "Made with the same atta and oil, a [gobi paratha](/calories/gobi-paratha/) is about {{kcal@gobi-paratha:one}}, an [aloo paratha](/calories/aloo-paratha/) about {{kcal@aloo-paratha:one}} and a [paneer paratha](/calories/paneer-paratha/) about {{kcal@paneer-paratha:one}}."
+      ],
+      "method": [
+        "The recipe is the radish paratha in The Art & Science of Cooking, a standard Indian cookery textbook (via the Indian Nutrient Databank): 80 g of atta, 100 g of radish, 25 g of onion, green chilli and coriander, with 2 tablespoons of oil for 3 parathas. Garam masala, chilli powder, amchur and salt, under 1 g each, are left out; together they add under 3 calories a paratha. Values are from IFCT 2017.",
+        "All the oil is counted as eaten. Curd values are from USDA, because IFCT 2017 has no curd."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in 1 mooli paratha?",
+          "a": "A homemade mooli paratha made with about 27 g of atta and 2 teaspoons of oil has about {{kcal:one}} calories. Two have about {{kcal:two}}."
+        },
+        {
+          "q": "Which has fewer calories, mooli paratha or aloo paratha?",
+          "a": "The mooli paratha, by a little: about {{kcal:one}} calories against about {{kcal@aloo-paratha:one}} for an [aloo paratha](/calories/aloo-paratha/) made with the same atta and oil. Radish is mostly water."
+        },
+        {
+          "q": "How many calories are in mooli paratha with butter?",
+          "a": "About {{kcal:one_butter}} with a teaspoon of butter, and about {{kcal:one_butter_tbsp}} with a tablespoon. At a dhaba it can be more, because the paratha is often bigger too."
+        },
+        {
+          "q": "How much protein is in a mooli paratha?",
+          "a": "About {{protein:one}} g, almost all from the atta. With a 100 g katori of curd it's about {{protein:one_curd}} g."
+        },
+        {
+          "q": "How many calories are in 2 mooli parathas with curd?",
+          "a": "About {{kcal:two_curd}} calories: 2 parathas at {{kcal:two}} plus a 100 g katori of curd."
+        }
+      ],
+      "related": [
+        "aloo-paratha",
+        "gobi-paratha",
+        "methi-paratha",
+        "paneer-paratha",
+        "plain-paratha",
+        "curd"
+      ],
+      "useCase": {
+        "href": "/for/office-canteen-tiffin/",
+        "label": "Calories in office canteen food and tiffin"
+      },
+      "crossCheck": [
+        {
+          "source": "Indian Nutrient Databank, Radish paratha (ASC099), per paratha",
+          "portionId": "one",
+          "kcal": 183.6,
+          "note": "Same textbook recipe, so this confirms the arithmetic rather than the recipe. The databank also counts the garam masala, amchur and salt.",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "ours": 181,
+          "differencePct": 1
+        }
+      ],
+      "judgement": [
+        "No independent analysed value for mooli paratha was found: IFCT 2017 has no parathas, USDA FNDDS 2021-2023 has only a plain paratha (51300185), and NIN's Annexure 8 lists a plain paratha only. INDB's own figure (184 kcal per paratha) is from this same textbook recipe, so it agrees by design.",
+        "Coriander 'a few' sprigs taken as 2 g, green chilli 'one small' as 3.3 g, as the databank does. Spices under 1 g left out.",
+        "All 2 tbsp of oil (27.2 g) counted as eaten.",
+        "Curd from USDA FDC 171284 (whole-milk yogurt), since IFCT 2017 has no curd."
+      ],
+      "sources": [
+        {
+          "title": "ICMR-NIN, Indian Food Composition Tables 2017",
+          "url": "https://nin.res.in/ebooks/IFCT2017.pdf",
+          "note": "Atta (A019), radish, white (F010), onion (G017), green chilli (G008), coriander leaves (G009), oil; values read from github.com/nodef/ifct2017",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "Vijayakumar et al., Indian Nutrient Databank (INDB), Current Developments in Nutrition, 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11277795/",
+          "note": "The Art & Science of Cooking recipe ASC099, radish paratha",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "Indian Nutrient Databank, recipe and serving-size files (GitHub)",
+          "url": "https://github.com/lindsayjaacks/Indian-Nutrient-Databank-INDB-",
+          "note": "recipes.xlsx and recipes_servingsize.xlsx: the recipe's ingredients in grams and its yield of 3 parathas; INDB.xlsx: its own per-paratha value",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "USDA FoodData Central, Yogurt, plain, whole milk (171284)",
+          "url": "https://fdc.nal.usda.gov/food-details/171284/nutrients",
+          "note": "Curd on the side",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, Butter, without salt (173430)",
+          "url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "note": "Butter on top; 1 tbsp = 14.2 g",
+          "accessed": "2026-10-10"
+        },
+        {
+          "title": "USDA FoodData Central, FNDDS Bread, paratha (2707715)",
+          "url": "https://fdc.nal.usda.gov/food-details/2707715/nutrients",
+          "note": "70 g per paratha, used for the outside size",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "rajma-chawal",
+      "name": "Rajma chawal",
+      "nameLower": "rajma chawal",
+      "category": "rice",
+      "aliases": [
+        "rajma chaval",
+        "rajma chaawal",
+        "rajma rice",
+        "rajma with rice",
+        "rajmah chawal",
+        "rajma chawal plate",
+        "राजमा चावल",
+        "રાજમા ભાત"
+      ],
+      "updated": "2026-10-14",
+      "composite": true,
+      "title": "Rajma chawal calories: per plate, katori and with ghee",
+      "description": "A plate of rajma chawal, a 200 ml katori of rajma with a katori of rice, has about {{kcal:plate}} calories; with 2 katoris of rice about {{kcal:plate_big}}. IFCT 2017.",
+      "answer": "A plate of rajma chawal, a 200 ml katori of home rajma with a katori of plain rice, has about {{kcal:plate}} calories and {{protein:plate}} g of protein. With 2 katoris of rice it is about {{kcal:plate_big}}; a teaspoon of ghee takes it to about {{kcal:plate_ghee}}. At a dhaba, with a ghee tadka and cream, about {{outLo}} to {{outHi}}.",
+      "intro": [
+        "Rajma chawal is the Sunday lunch of Punjab, Delhi and Jammu: red kidney beans simmered in an onion and tomato masala, ladled over plain rice, with sliced onion and a wedge of lemon on the side. In Delhi it's also a street lunch, served by the plate from a steel counter.",
+        "This page adds up the site's own [rajma](/calories/rajma/) and [plain rice](/calories/plain-rice/) pages into one plate, in the proportions people actually eat, so the plate's number is exactly the sum of its parts. The rice is the easy part; how much rajma, and how much oil went into it, is what moves the total."
+      ],
+      "headlinePortion": "plate",
+      "portionsCaption": "Rajma and rice are level 200 ml katoris unless the row says otherwise. Onion, lemon and salad add almost nothing.",
+      "recipe": {
+        "label": "One plate: a 200 ml katori of rajma and a 200 ml katori of plain rice, each made as on its own page",
+        "ingredients": [],
+        "cookedYieldG": null,
+        "yieldNote": "a plate of other dishes, each made as on its own page; no weight of its own"
+      },
+      "portions": [
+        {
+          "id": "plate",
+          "label": "1 plate (a 200 ml katori of rajma, a 200 ml katori of rice)",
+          "short": "a plate",
+          "expr": "rajma:k200+plain-rice:k200",
+          "typed": [
+            "1 plate rajma chawal",
+            "plate of rajma chawal",
+            "rajma chawal 1 plate",
+            "ek plate rajma chawal",
+            "rajma and chawal",
+            "rajma aur chawal"
+          ],
+          "cookedGrams": null,
+          "kcal": 370,
+          "protein": 12,
+          "carbs": 58,
+          "fat": 9
+        },
+        {
+          "id": "small",
+          "label": "1 small plate (150 ml katoris of each)",
+          "short": "a small plate",
+          "expr": "rajma:k150+plain-rice:k150",
+          "typed": [
+            "small plate rajma chawal",
+            "1 small plate rajma chawal",
+            "chhoti plate rajma chawal"
+          ],
+          "cookedGrams": null,
+          "kcal": 280,
+          "protein": 9,
+          "carbs": 44,
+          "fat": 7
+        },
+        {
+          "id": "plate_big",
+          "label": "1 large plate (a katori of rajma, 2 katoris of rice)",
+          "short": "a large plate",
+          "expr": "rajma:k200+2*plain-rice:k200",
+          "typed": [
+            "large plate rajma chawal",
+            "1 large plate rajma chawal",
+            "big plate rajma chawal",
+            "rajma chawal with 2 katori rice",
+            "rajma chawal full plate"
+          ],
+          "cookedGrams": null,
+          "kcal": 530,
+          "protein": 15,
+          "carbs": 94,
+          "fat": 10
+        },
+        {
+          "id": "plate_ghee",
+          "label": "1 plate with 1 tsp ghee (5 g)",
+          "short": "with ghee",
+          "expr": "rajma:k200+plain-rice:k200",
+          "add": [
+            {
+              "id": "ghee",
+              "g": 5
+            }
+          ],
+          "typed": [
+            "rajma chawal with ghee",
+            "rajma chawal with 1 tsp ghee",
+            "ghee rajma chawal",
+            "rajma chawal ghee"
+          ],
+          "cookedGrams": null,
+          "kcal": 415,
+          "protein": 12,
+          "carbs": 58,
+          "fat": 14
+        },
+        {
+          "id": "plate_rice",
+          "label": "1 katori rajma with a full plate of rice (100 g raw)",
+          "short": "with a plate of rice",
+          "expr": "rajma:k200+plain-rice:plate",
+          "typed": [
+            "rajma with a plate of rice",
+            "rajma chawal with a full plate of rice"
+          ],
+          "cookedGrams": null,
+          "kcal": 570,
+          "protein": 16,
+          "carbs": 101,
+          "fat": 10
+        }
+      ],
+      "outside": {
+        "portionId": "plate",
+        "label": "Dhaba or restaurant",
+        "caption": "One plate. The outside range adds the rajma page's ghee tadka and cream and the rice page's spoon of ghee.",
+        "lo": "rajma:outLo+plain-rice:outLo",
+        "hi": "rajma:outHi+plain-rice:outHi",
+        "basis": "The sum of the two pages' outside ranges: dhaba rajma with a 5 g ghee tadka and up to 15 g of cream (from published recipe proportions, on the rajma page) and restaurant rice with 0 to 5 g of ghee (a stated assumption, on the rice page). No analysed value for a plate of rajma chawal was found.",
+        "text": [
+          "Dhaba rajma usually gets a second tadka of ghee, restaurant rajma is sometimes finished with cream, and the rice may come with a spoon of ghee on top. The plate is often bigger than a home one too.",
+          "No lab has measured a plate of rajma chawal, so the range below is the two dish pages' outside ranges added together, for the same katori of each."
+        ],
+        "kcalRange": [
+          415,
+          490
+        ],
+        "fatRange": [
+          14,
+          22
+        ]
+      },
+      "changes": [
+        "How much rice. A second katori of rice takes the plate from about {{kcal:plate}} to {{kcal:plate_big}} calories; a full plate cooked from 100 g of raw rice with the same rajma is about {{kcal:plate_rice}}.",
+        "Ghee on top. A teaspoon takes the plate to about {{kcal:plate_ghee}}.",
+        "The rajma's oil. The masala here takes about a teaspoon and a half of oil per katori; each extra teaspoon adds about 40 to 45 calories (see [rajma](/calories/rajma/)).",
+        "The katori. A small plate of 150 ml katoris is about {{kcal:small}}; a 250 ml katori of rajma alone is about {{kcal@rajma:k250}}.",
+        "A thick, reduced rajma holds more beans in each katori than a thin one. Sliced onion, lemon and a little salad add almost nothing."
+      ],
+      "method": [
+        "The plate is a 200 ml katori of rajma and a 200 ml katori of plain rice, each made exactly as on its own page: the rajma from the kidney bean curry in The Art & Science of Cooking (30 g of dry rajma with tomato, onion and a teaspoon and a half of oil per bowl) and the rice from 100 g of raw milled rice cooked until the water is absorbed. Values are from IFCT 2017.",
+        "Nothing is re-estimated here. Each row adds the two pages' unrounded values and rounds once, so the plate always equals its parts. The recipes, the arithmetic and the cross-checks are on the [rajma](/calories/rajma/) and [plain rice](/calories/plain-rice/) pages."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in rajma chawal?",
+          "a": "About {{kcal:plate}} calories for a 200 ml katori of home rajma with a 200 ml katori of plain rice. With a teaspoon of ghee on top, about {{kcal:plate_ghee}}."
+        },
+        {
+          "q": "How many calories are in 1 plate rajma chawal?",
+          "a": "A home plate, a katori of rajma with a katori of rice, is about {{kcal:plate}} calories. A large plate with 2 katoris of rice is about {{kcal:plate_big}}, and a dhaba plate about {{outLo}} to {{outHi}}."
+        },
+        {
+          "q": "How much protein is in rajma chawal?",
+          "a": "About {{protein:plate}} g in a plate, most of it from the beans. A large plate with 2 katoris of rice has about {{protein:plate_big}} g."
+        },
+        {
+          "q": "How many calories are in rajma chawal with ghee?",
+          "a": "About {{kcal:plate_ghee}} calories with a teaspoon (5 g) of ghee on the plate."
+        },
+        {
+          "q": "Which has more calories, rajma chawal or dal chawal?",
+          "a": "Rajma chawal: about {{kcal:plate}} calories against about {{kcal@dal-chawal:plate}} for [dal chawal](/calories/dal-chawal/) with a thin dal tadka. The rice is the same; a katori of rajma has about twice the calories of a katori of thin dal."
+        }
+      ],
+      "related": [
+        "rajma",
+        "plain-rice",
+        "dal-chawal",
+        "chole",
+        "roti"
+      ],
+      "useCase": {
+        "href": "/for/vegetarians/",
+        "label": "Calorie counting for vegetarians"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "A plate of one 200 ml katori of rajma and one of rice is a stated assumption, matched to the meal rows on the rajma and rice pages; the large plate and the full plate of rice cover the other common ratios.",
+        "No independent analysed value for a plate of rajma chawal was found, so there is no cross-check here. The parts are cross-checked on their own pages (INDB ASC165 for the rajma; NIN, USDA, INDB and Bognár for the rice).",
+        "Sliced onion, lemon and salad on the side are left out: under 20 calories."
+      ],
+      "sources": [
+        {
+          "title": "Writeonslate, Rajma calories",
+          "url": "https://writeonslate.com/calories/rajma/",
+          "note": "The rajma recipe (The Art & Science of Cooking ASC165 via the Indian Nutrient Databank), its IFCT 2017 values, its outside range and its sources",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "Writeonslate, Plain rice calories",
+          "url": "https://writeonslate.com/calories/plain-rice/",
+          "note": "The rice recipe, yield and katori weight, its outside range and its sources",
+          "accessed": "2026-10-14"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "dal-chawal",
+      "name": "Dal chawal",
+      "nameLower": "dal chawal",
+      "category": "rice",
+      "aliases": [
+        "daal chawal",
+        "dal chaval",
+        "daal chaawal",
+        "dal rice",
+        "dal with rice",
+        "dal bhaat",
+        "dal bhat",
+        "dal chawal plate",
+        "दाल चावल",
+        "દાળ ભાત"
+      ],
+      "updated": "2026-10-14",
+      "composite": true,
+      "title": "Dal chawal calories: per plate, thick dal and with ghee",
+      "description": "A plate of dal chawal, a 200 ml katori of dal tadka with a katori of rice, has about {{kcal:plate}} calories; with thick dal about {{kcal:plate_thick}}. IFCT 2017.",
+      "answer": "A plate of dal chawal, a 200 ml katori of thin dal tadka with a katori of plain rice, has about {{kcal:plate}} calories. Thickness matters most: the same plate with a thick dal is about {{kcal:plate_thick}}, and with dal fry about {{kcal:plate_dal_fry}}. A teaspoon of ghee adds about 45. A dhaba plate, with thicker dal, runs about {{outLo}} to {{outHi}}.",
+      "intro": [
+        "Dal chawal is the everyday meal of most of north, central and east India: toor dal with a tadka, poured over plain rice, often with a spoon of ghee, a pickle and some salad. It's dal bhaat in Gujarat and Bihar, dal bhat in Nepal, and the same idea with a different dal almost everywhere else.",
+        "This page adds up the site's own [dal tadka](/calories/dal-tadka/) and [plain rice](/calories/plain-rice/) pages into one plate, so the plate's number is exactly the sum of its parts. The rice is steady; the dal can vary two to one depending on how thick it is and how much ghee went into the tadka."
+      ],
+      "headlinePortion": "plate",
+      "portionsCaption": "Dal and rice are level 200 ml katoris unless the row says otherwise. The dal tadka is the textbook's thin dal; the thick dal row is twice as thick.",
+      "recipe": {
+        "label": "One plate: a 200 ml katori of dal tadka and a 200 ml katori of plain rice, each made as on its own page",
+        "ingredients": [],
+        "cookedYieldG": null,
+        "yieldNote": "a plate of other dishes, each made as on its own page; no weight of its own"
+      },
+      "portions": [
+        {
+          "id": "plate",
+          "label": "1 plate (a 200 ml katori of dal tadka, a 200 ml katori of rice)",
+          "short": "a plate",
+          "expr": "dal-tadka:k200+plain-rice:k200",
+          "typed": [
+            "1 plate dal chawal",
+            "plate of dal chawal",
+            "dal chawal 1 plate",
+            "ek plate dal chawal",
+            "dal tadka chawal",
+            "dal tadka rice"
+          ],
+          "cookedGrams": null,
+          "kcal": 275,
+          "protein": 8,
+          "carbs": 45,
+          "fat": 6
+        },
+        {
+          "id": "small",
+          "label": "1 small plate (150 ml katoris of each)",
+          "short": "a small plate",
+          "expr": "dal-tadka:k150+plain-rice:k150",
+          "typed": [
+            "small plate dal chawal",
+            "1 small plate dal chawal",
+            "chhoti plate dal chawal"
+          ],
+          "cookedGrams": null,
+          "kcal": 205,
+          "protein": 6,
+          "carbs": 34,
+          "fat": 5
+        },
+        {
+          "id": "plate_big",
+          "label": "1 large plate (a katori of dal, 2 katoris of rice)",
+          "short": "a large plate",
+          "expr": "dal-tadka:k200+2*plain-rice:k200",
+          "typed": [
+            "large plate dal chawal",
+            "1 large plate dal chawal",
+            "big plate dal chawal",
+            "dal chawal with 2 katori rice",
+            "dal chawal full plate"
+          ],
+          "cookedGrams": null,
+          "kcal": 435,
+          "protein": 11,
+          "carbs": 81,
+          "fat": 7
+        },
+        {
+          "id": "plate_thick",
+          "label": "1 plate with thick dal (a 200 ml katori of thick dal, a katori of rice)",
+          "short": "with thick dal",
+          "expr": "dal-thick:k200+plain-rice:k200",
+          "typed": [
+            "thick dal chawal",
+            "dal chawal with thick dal",
+            "gaadhi dal chawal",
+            "thick dal rice",
+            "thick dal with rice"
+          ],
+          "cookedGrams": null,
+          "kcal": 360,
+          "protein": 11,
+          "carbs": 53,
+          "fat": 11
+        },
+        {
+          "id": "plate_dal_fry",
+          "label": "1 plate with dal fry (a 200 ml katori of dal fry, a katori of rice)",
+          "short": "with dal fry",
+          "expr": "dal-fry:k200+plain-rice:k200",
+          "typed": [
+            "dal fry chawal",
+            "dal fry rice",
+            "dal chawal with dal fry"
+          ],
+          "cookedGrams": null,
+          "kcal": 340,
+          "protein": 10,
+          "carbs": 52,
+          "fat": 10
+        },
+        {
+          "id": "plate_ghee",
+          "label": "1 plate with 1 tsp ghee (5 g)",
+          "short": "with ghee",
+          "expr": "dal-tadka:k200+plain-rice:k200",
+          "add": [
+            {
+              "id": "ghee",
+              "g": 5
+            }
+          ],
+          "typed": [
+            "dal chawal with ghee",
+            "dal chawal with 1 tsp ghee",
+            "ghee dal chawal",
+            "dal chawal ghee",
+            "dal bhaat with ghee"
+          ],
+          "cookedGrams": null,
+          "kcal": 320,
+          "protein": 8,
+          "carbs": 45,
+          "fat": 11
+        }
+      ],
+      "outside": {
+        "portionId": "plate",
+        "label": "Restaurant or dhaba",
+        "caption": "One plate. The outside range uses the dal page's thicker restaurant dal and the rice page's spoon of ghee.",
+        "lo": "dal-tadka:outLo+plain-rice:outLo",
+        "hi": "dal-tadka:outHi+plain-rice:outHi",
+        "basis": "The sum of the two pages' outside ranges: restaurant dal tadka 1.5 to 2 times as thick as the textbook dal with the same ghee per gram of dal (a stated assumption, on the dal tadka page) and restaurant rice with 0 to 5 g of ghee (a stated assumption, on the rice page). No analysed value for a plate of dal chawal was found.",
+        "text": [
+          "Restaurant and dhaba dal is thicker than everyday home dal and often finished with a second spoon of ghee or butter, and the rice may come with ghee on top. Dal fry, cooked into its masala in ghee, is richer again.",
+          "No lab has measured a plate of dal chawal, so the range below is the two dish pages' outside ranges added together, for the same katori of each."
+        ],
+        "kcalRange": [
+          330,
+          430
+        ],
+        "fatRange": [
+          10,
+          18
+        ]
+      },
+      "changes": [
+        "How thick the dal is. Most of a thin dal is water: the same plate with a thick dal is about {{kcal:plate_thick}} calories against {{kcal:plate}}, and with [dal fry](/calories/dal-fry/) about {{kcal:plate_dal_fry}}.",
+        "Ghee. A teaspoon on top takes the plate to about {{kcal:plate_ghee}}, and each teaspoon in the tadka adds about 45 to the pot (see [dal tadka](/calories/dal-tadka/)).",
+        "How much rice. A second katori takes the plate from about {{kcal:plate}} to {{kcal:plate_big}}.",
+        "The katori. A small plate of 150 ml katoris is about {{kcal:small}}.",
+        "Pickle in oil, papad and a fried side add more than the salad does. A roasted papad is small; a fried one takes up oil."
+      ],
+      "method": [
+        "The plate is a 200 ml katori of dal tadka and a 200 ml katori of plain rice, each made exactly as on its own page: the dal from the arhar dal in Basic Food Preparation (30 g of toor dal in 300 ml of water with a 10 g ghee tadka, a thin dal) and the rice from 100 g of raw milled rice cooked until the water is absorbed. Values are from IFCT 2017.",
+        "The thick dal row uses the same dal cooked down to twice the thickness, the thick dal the Slate app counts, which matches ICMR-NIN's figure of 100 calories per half cup of plain dal; it has no page of its own. The dal fry row uses the [dal fry](/calories/dal-fry/) page.",
+        "Nothing is re-estimated here. Each row adds the pages' unrounded values and rounds once, so the plate always equals its parts. The recipes, the arithmetic and the cross-checks are on the [dal tadka](/calories/dal-tadka/) and [plain rice](/calories/plain-rice/) pages."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in dal chawal?",
+          "a": "About {{kcal:plate}} calories for a 200 ml katori of thin dal tadka with a 200 ml katori of plain rice, and about {{kcal:plate_thick}} with a thick dal. With a teaspoon of ghee on top, add about 45."
+        },
+        {
+          "q": "How many calories are in 1 plate dal chawal?",
+          "a": "A home plate, a katori of dal with a katori of rice, is about {{kcal:plate}} calories with thin dal. A large plate with 2 katoris of rice is about {{kcal:plate_big}}, and a dhaba plate about {{outLo}} to {{outHi}}."
+        },
+        {
+          "q": "How much protein is in dal chawal?",
+          "a": "About {{protein:plate}} g in a plate with thin dal, and about {{protein:plate_thick}} g with a thick dal. Together, dal and rice give a more complete protein than either alone."
+        },
+        {
+          "q": "How many calories are in dal chawal with ghee?",
+          "a": "About {{kcal:plate_ghee}} calories with a teaspoon (5 g) of ghee on the plate."
+        },
+        {
+          "q": "Which has fewer calories, dal chawal or dal roti?",
+          "a": "They're close. A katori of dal tadka with a katori of rice is about {{kcal:plate}} calories; the same dal with 2 medium [rotis](/calories/roti/) is about {{kcal@dal-tadka:with_roti}}."
+        }
+      ],
+      "related": [
+        "dal-tadka",
+        "plain-rice",
+        "rajma-chawal",
+        "dal-fry",
+        "toor-dal",
+        "khichdi"
+      ],
+      "useCase": {
+        "href": "/for/home-cooking/",
+        "label": "Counting calories in home-cooked food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "A plate of one 200 ml katori of dal and one of rice is a stated assumption, matched to the meal rows on the dal tadka and rice pages; the large plate covers the usual two-katoris-of-rice ratio.",
+        "The thick dal is the app-only dish dal-thick (data/app-foods.json): the dal tadka recipe cooked down to twice the thickness, cross-checked against NIN's 100 kcal per half cup. It is used here because thin and thick dal differ two to one, and a page that showed only the thin one would mislead.",
+        "No independent analysed value for a plate of dal chawal was found, so there is no cross-check here. The parts are cross-checked on their own pages.",
+        "Pickle, papad and salad are left out."
+      ],
+      "sources": [
+        {
+          "title": "Writeonslate, Dal tadka calories",
+          "url": "https://writeonslate.com/calories/dal-tadka/",
+          "note": "The dal recipe (Basic Food Preparation BFP172 via the Indian Nutrient Databank), its IFCT 2017 values, the thickness range and its sources",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "Writeonslate, Plain rice calories",
+          "url": "https://writeonslate.com/calories/plain-rice/",
+          "note": "The rice recipe, yield and katori weight, its outside range and its sources",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "Writeonslate, Dal fry calories",
+          "url": "https://writeonslate.com/calories/dal-fry/",
+          "note": "The dal fry row",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: plain dal 100 kcal per half cup, the thickness of the thick dal row",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "idli-sambar",
+      "name": "Idli sambar",
+      "nameLower": "idli sambar",
+      "category": "breakfast",
+      "aliases": [
+        "idli sambhar",
+        "idly sambar",
+        "idli and sambar",
+        "idli with sambar",
+        "idli sambar plate",
+        "idli sambar combo",
+        "इडली सांभर",
+        "ઈડલી સાંભાર",
+        "இட்லி சாம்பார்"
+      ],
+      "updated": "2026-10-14",
+      "composite": true,
+      "title": "Idli sambar calories: 2, 3 and 4 idlis with sambar",
+      "description": "2 medium idlis with a 200 ml katori of sambar have about {{kcal:two}} calories, 4 idlis about {{kcal:four}}. Chutney not counted. From IFCT 2017 textbook recipes.",
+      "answer": "Two medium idlis with a 200 ml katori of sambar have about {{kcal:two}} calories and {{protein:two}} g of protein. Three idlis with the same sambar are about {{kcal:three}}, four about {{kcal:four}}. The idlis are plain; the sambar's thickness and coconut set most of the difference between kitchens. Chutney isn't counted here. A restaurant plate runs about {{outLo}} to {{outHi}}.",
+      "intro": [
+        "Idli sambar is the south Indian breakfast that travels everywhere: steamed rice and urad dal cakes with a katori of sambar poured over or alongside, and usually coconut chutney. In Tamil Nadu and Karnataka it's an everyday morning; in office canteens across India it's the light option.",
+        "This page adds up the site's own [idli](/calories/idli/) and [sambar](/calories/sambar/) pages into one plate, so the number is exactly the sum of its parts. Coconut chutney has no page here yet, so it isn't counted: ICMR-NIN puts 2 tablespoons at about 120 calories, which is worth adding yourself."
+      ],
+      "headlinePortion": "two",
+      "portionsCaption": "Idlis are medium, 15 g of rice and dal each; sambar is a 200 ml katori of the site's thick sambar with coconut. Chutney is not counted.",
+      "recipe": {
+        "label": "One plate: 2 medium idlis and a 200 ml katori of sambar, each made as on its own page",
+        "ingredients": [],
+        "cookedYieldG": null,
+        "yieldNote": "a plate of other dishes, each made as on its own page; no weight of its own"
+      },
+      "portions": [
+        {
+          "id": "two",
+          "label": "1 plate (2 medium idlis, a 200 ml katori of sambar)",
+          "short": "a plate",
+          "expr": "2*idli:medium+sambar:k200",
+          "typed": [
+            "2 idli sambar",
+            "2 idlis sambar",
+            "2 idli sambhar",
+            "2 idly sambar",
+            "2 idli with sambar",
+            "2 idli and sambar",
+            "do idli sambar",
+            "idli sambar 2 idli",
+            "1 plate idli sambar",
+            "plate of idli sambar"
+          ],
+          "cookedGrams": null,
+          "kcal": 305,
+          "protein": 10,
+          "carbs": 43,
+          "fat": 9
+        },
+        {
+          "id": "one",
+          "label": "1 idli and a katori of sambar",
+          "short": "1 idli with sambar",
+          "expr": "idli:medium+sambar:k200",
+          "typed": [
+            "1 idli sambar",
+            "1 idli with sambar",
+            "1 idli and sambar",
+            "ek idli sambar",
+            "one idli sambar"
+          ],
+          "cookedGrams": null,
+          "kcal": 255,
+          "protein": 9,
+          "carbs": 32,
+          "fat": 9
+        },
+        {
+          "id": "three",
+          "label": "3 idlis and a katori of sambar",
+          "short": "3 idlis with sambar",
+          "expr": "3*idli:medium+sambar:k200",
+          "typed": [
+            "3 idli sambar",
+            "3 idlis sambar",
+            "3 idli sambhar",
+            "3 idly sambar",
+            "3 idli with sambar",
+            "3 idlis with sambar",
+            "3 idli and sambar",
+            "teen idli sambar"
+          ],
+          "cookedGrams": null,
+          "kcal": 355,
+          "protein": 12,
+          "carbs": 54,
+          "fat": 10
+        },
+        {
+          "id": "four",
+          "label": "4 idlis and a katori of sambar",
+          "short": "4 idlis with sambar",
+          "expr": "4*idli:medium+sambar:k200",
+          "typed": [
+            "4 idli sambar",
+            "4 idlis sambar",
+            "4 idli sambhar",
+            "4 idly sambar",
+            "4 idli with sambar",
+            "4 idli and sambar",
+            "char idli sambar"
+          ],
+          "cookedGrams": null,
+          "kcal": 410,
+          "protein": 14,
+          "carbs": 64,
+          "fat": 10
+        },
+        {
+          "id": "two_large",
+          "label": "2 large idlis and a katori of sambar",
+          "short": "2 large idlis with sambar",
+          "expr": "2*idli:large+sambar:k200",
+          "typed": [
+            "2 large idli sambar",
+            "2 big idli sambar",
+            "2 large idlis with sambar"
+          ],
+          "cookedGrams": null,
+          "kcal": 340,
+          "protein": 12,
+          "carbs": 50,
+          "fat": 9
+        },
+        {
+          "id": "two_ghee",
+          "label": "1 plate with 1 tsp ghee (5 g)",
+          "short": "with ghee",
+          "expr": "2*idli:medium+sambar:k200",
+          "add": [
+            {
+              "id": "ghee",
+              "g": 5
+            }
+          ],
+          "typed": [
+            "idli sambar with ghee",
+            "2 idli sambar with ghee",
+            "ghee idli sambar"
+          ],
+          "cookedGrams": null,
+          "kcal": 350,
+          "protein": 10,
+          "carbs": 43,
+          "fat": 14
+        }
+      ],
+      "outside": {
+        "portionId": "two",
+        "label": "Udupi restaurant or canteen",
+        "caption": "One plate. The outside range uses the idli page's larger idlis with ghee and the sambar page's thinner restaurant sambar.",
+        "lo": "idli:outLo+sambar:outLo",
+        "hi": "idli:outHi+sambar:outHi",
+        "basis": "The sum of the two pages' outside ranges for the same plate: 2 restaurant idlis at 1 to 1.5 times the medium size with up to 5 g of ghee (a stated assumption, on the idli page) and a 200 ml katori of restaurant sambar at 0.6 to 1 times the textbook sambar (a stated assumption, on the sambar page). No analysed value for a plate of idli sambar was found.",
+        "text": [
+          "Restaurant idlis are often larger than home ones, sometimes with ghee or podi oil, while restaurant and canteen sambar is usually thinner than the textbook one and refilled freely.",
+          "No lab has measured a plate of idli sambar, so the range below is the two dish pages' outside ranges added together: the low end is 2 medium idlis with a thin sambar, the high end 2 large idlis with ghee and a thick sambar."
+        ],
+        "kcalRange": [
+          225,
+          400
+        ],
+        "fatRange": [
+          6,
+          15
+        ]
+      },
+      "changes": [
+        "How many idlis. Each medium idli adds about {{kcal@idli:medium}} calories: 1 idli with sambar is about {{kcal:one}}, 2 about {{kcal:two}}, 3 about {{kcal:three}}, 4 about {{kcal:four}}.",
+        "The size of the idli. Two large idlis with the same sambar are about {{kcal:two_large}}; restaurant idlis are often this size.",
+        "The sambar. A thin everyday sambar without coconut is close to half this one per katori (see [sambar](/calories/sambar/)), which takes a plate of 2 idlis down to about {{outLo}}.",
+        "Chutney and ghee. Coconut chutney isn't counted here; ICMR-NIN counts 2 tablespoons at about 120 calories. A teaspoon of ghee takes the plate to about {{kcal:two_ghee}}.",
+        "Podi mixed with oil, or a fried [medu vada](/calories/medu-vada/) on the side, adds more than the idlis do."
+      ],
+      "method": [
+        "The plate is 2 medium idlis and a 200 ml katori of sambar, each made exactly as on its own page: the idli from the textbook batter in The Art & Science of Cooking (parboiled rice and urad dal, 15 g of rice and dal in a medium idli) and the sambar from the same book's recipe with toor dal, vegetables, tamarind and coconut. Values are from IFCT 2017.",
+        "Nothing is re-estimated here. Each row adds the pages' unrounded values and rounds once, so the plate always equals its parts. The recipes, the arithmetic and the cross-checks are on the [idli](/calories/idli/) and [sambar](/calories/sambar/) pages. Coconut chutney is left out because the site has no chutney recipe yet; the page says so rather than guessing."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in idli sambar?",
+          "a": "About {{kcal:two}} calories for 2 medium idlis with a 200 ml katori of sambar, before chutney. One idli with the same sambar is about {{kcal:one}}."
+        },
+        {
+          "q": "How many calories are in 2 idli sambar?",
+          "a": "About {{kcal:two}} calories: 2 medium idlis at {{kcal@idli:two}} and a 200 ml katori of sambar at {{kcal@sambar:k200}}. With a thin canteen sambar it's closer to {{outLo}}."
+        },
+        {
+          "q": "How many calories are in 4 idli sambar?",
+          "a": "About {{kcal:four}} calories for 4 medium idlis with a 200 ml katori of sambar. Three idlis with the same sambar are about {{kcal:three}}."
+        },
+        {
+          "q": "How much protein is in idli sambar?",
+          "a": "About {{protein:two}} g in a plate of 2 idlis with sambar, from the urad dal in the idlis and the toor dal in the sambar. Four idlis with sambar have about {{protein:four}} g."
+        },
+        {
+          "q": "Does idli sambar with chutney have more calories?",
+          "a": "Yes. Coconut chutney isn't counted on this page; ICMR-NIN counts 2 tablespoons at about 120 calories, so a plate of 2 idlis with sambar and chutney would be closer to {{kcal:two}} plus that."
+        },
+        {
+          "q": "Which has fewer calories, idli sambar or dosa sambar?",
+          "a": "Idli sambar: about {{kcal:two}} calories for 2 idlis with a katori of sambar against about {{kcal@plain-dosa:with_sambar}} for a [plain dosa](/calories/plain-dosa/) with the same sambar, because the dosa is cooked in oil."
+        }
+      ],
+      "related": [
+        "idli",
+        "sambar",
+        "medu-vada",
+        "plain-dosa",
+        "masala-dosa",
+        "upma"
+      ],
+      "useCase": {
+        "href": "/for/indian-food/",
+        "label": "A calorie counter for Indian food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "A plate of 2 medium idlis and one 200 ml katori of sambar is a stated assumption, matched to the meal row on the idli page; the 1, 3 and 4 idli rows cover the other common plates.",
+        "Coconut chutney is not counted because the site has no chutney recipe. NIN's figure of 120 kcal per 2 tablespoons is quoted from the idli page's sources so readers can add it.",
+        "No independent analysed value for a plate of idli sambar was found, so there is no cross-check here. The parts are cross-checked on their own pages (INDB, USDA FNDDS and NIN)."
+      ],
+      "sources": [
+        {
+          "title": "Writeonslate, Idli calories",
+          "url": "https://writeonslate.com/calories/idli/",
+          "note": "The idli recipe (The Art & Science of Cooking ASC144 via the Indian Nutrient Databank), its sizes, its outside range and its sources",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "Writeonslate, Sambar calories",
+          "url": "https://writeonslate.com/calories/sambar/",
+          "note": "The sambar recipe (The Art & Science of Cooking ASC167), its thickness range, its outside range and its sources",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "ICMR-NIN, Dietary Guidelines for Indians: A Manual (2011)",
+          "url": "https://nin.res.in/downloads/DietaryGuidelinesforNINwebsite.pdf",
+          "note": "Annexure 8: coconut chutney 120 kcal per 2 tablespoons, quoted because chutney is not counted here",
+          "accessed": "2026-10-10"
+        }
+      ],
+      "per100gCooked": null
+    },
+    {
+      "slug": "poori-bhaji",
+      "name": "Poori bhaji",
+      "nameLower": "poori bhaji",
+      "category": "breakfast",
+      "aliases": [
+        "puri bhaji",
+        "puri sabzi",
+        "poori sabzi",
+        "puri aloo",
+        "poori aloo",
+        "aloo puri",
+        "aloo poori",
+        "puri with aloo sabzi",
+        "poori with bhaji",
+        "puri bhaji plate",
+        "पूरी भाजी",
+        "पूरी सब्जी",
+        "आलू पूरी",
+        "પૂરી શાક",
+        "પૂરી ભાજી"
+      ],
+      "updated": "2026-10-14",
+      "composite": true,
+      "title": "Poori bhaji calories: 2, 4 and 6 puris with aloo sabzi",
+      "description": "A plate of poori bhaji, 4 home puris with a 200 ml katori of aloo sabzi, has about {{kcal:four}} calories; 2 puris with the sabzi about {{kcal:two}}. From IFCT 2017 recipes.",
+      "answer": "A plate of poori bhaji, 4 home puris with a 200 ml katori of aloo sabzi, has about {{kcal:four}} calories and {{fat:four}} g of fat. Two puris with the same sabzi are about {{kcal:two}}, six about {{kcal:six}}. The frying oil is the largest share, so puri size and old oil matter most. A halwai plate runs about {{outLo}} to {{outHi}}.",
+      "intro": [
+        "Poori bhaji is the festival and Sunday breakfast of north India: small puffed puris fried in oil, with a thin potato sabzi, often with a pickle and halwa on the side. It's sold by the plate from halwai counters in Delhi, Varanasi and Mathura, and it's the usual breakfast on train journeys.",
+        "This page adds up the site's own [puri](/calories/puri/) and [aloo sabzi](/calories/aloo-sabzi/) pages into one plate, so the number is exactly the sum of its parts. Most of a plate's calories are in the puris, and most of a puri's are the oil it took up in frying."
+      ],
+      "headlinePortion": "four",
+      "portionsCaption": "Puris are home puris from about 13 g of atta each, about 25 g fried; aloo sabzi is a 200 ml katori. Pickle and halwa are extra.",
+      "recipe": {
+        "label": "One plate: 4 puris and a 200 ml katori of aloo sabzi, each made as on its own page",
+        "ingredients": [],
+        "cookedYieldG": null,
+        "yieldNote": "a plate of other dishes, each made as on its own page; no weight of its own"
+      },
+      "portions": [
+        {
+          "id": "four",
+          "label": "1 plate (4 puris, a 200 ml katori of aloo sabzi)",
+          "short": "a plate",
+          "expr": "puri:four+aloo-sabzi:k200",
+          "typed": [
+            "4 puri bhaji",
+            "4 puris bhaji",
+            "4 poori bhaji",
+            "4 puri sabzi",
+            "4 poori sabzi",
+            "4 puri with aloo sabzi",
+            "4 puri aloo sabzi",
+            "char puri bhaji",
+            "4 puri and bhaji",
+            "1 plate puri bhaji",
+            "1 plate poori bhaji",
+            "plate of puri bhaji"
+          ],
+          "cookedGrams": null,
+          "kcal": 570,
+          "protein": 9,
+          "carbs": 55,
+          "fat": 35
+        },
+        {
+          "id": "two",
+          "label": "2 puris and a katori of aloo sabzi",
+          "short": "2 puris with sabzi",
+          "expr": "2*puri:one+aloo-sabzi:k200",
+          "typed": [
+            "2 puri bhaji",
+            "2 puris bhaji",
+            "2 poori bhaji",
+            "2 puri sabzi",
+            "2 poori sabzi",
+            "2 puri with aloo sabzi",
+            "2 puris with aloo sabzi",
+            "2 puri aloo sabzi",
+            "do puri bhaji",
+            "2 puri and bhaji"
+          ],
+          "cookedGrams": null,
+          "kcal": 375,
+          "protein": 6,
+          "carbs": 38,
+          "fat": 22
+        },
+        {
+          "id": "six",
+          "label": "6 puris and a katori of aloo sabzi",
+          "short": "6 puris with sabzi",
+          "expr": "puri:six+aloo-sabzi:k200",
+          "typed": [
+            "6 puri bhaji",
+            "6 puris bhaji",
+            "6 poori bhaji",
+            "6 puri sabzi",
+            "6 puri with aloo sabzi",
+            "6 puris with aloo sabzi",
+            "6 puri aloo sabzi",
+            "chhe puri bhaji",
+            "6 puri and bhaji"
+          ],
+          "cookedGrams": null,
+          "kcal": 760,
+          "protein": 11,
+          "carbs": 72,
+          "fat": 47
+        },
+        {
+          "id": "four_large",
+          "label": "4 large puris and a katori of aloo sabzi",
+          "short": "4 large puris with sabzi",
+          "expr": "4*puri:large+aloo-sabzi:k200",
+          "typed": [
+            "4 large puri bhaji",
+            "4 big puri bhaji",
+            "4 large puris with aloo sabzi",
+            "4 bade puri bhaji"
+          ],
+          "cookedGrams": null,
+          "kcal": 740,
+          "protein": 11,
+          "carbs": 70,
+          "fat": 46
+        }
+      ],
+      "outside": {
+        "portionId": "four",
+        "label": "Halwai or puri-bhaji stall",
+        "caption": "One plate of 4 puris. The outside range uses the puri page's larger puris fried in much-used oil and the sabzi page's oilier halwai sabzi.",
+        "lo": "4*puri:outLo+aloo-sabzi:outLo",
+        "hi": "4*puri:outHi+aloo-sabzi:outHi",
+        "basis": "The sum of the two pages' outside ranges for the same plate: 4 halwai puris at up to 1.45 times the size (USDA's 36 g puri) with up to a fifth more oil taken up (Jain et al. 2024, on the puri page), and a 200 ml katori of halwai aloo sabzi with 1.5 to 2 times the oil (a stated assumption, on the aloo sabzi page). No analysed value for a plate of poori bhaji was found.",
+        "text": [
+          "Halwai puris are often larger than home ones and fried in oil that's been used many times, which raises the fat a puri takes up, and the sabzi that comes with them is usually cooked in more oil, often with a layer of it on top.",
+          "No lab has measured a plate of poori bhaji, so the range below is the two dish pages' outside ranges added together, for 4 puris and the same katori of sabzi."
+        ],
+        "kcalRange": [
+          610,
+          890
+        ],
+        "fatRange": [
+          39,
+          62
+        ]
+      },
+      "changes": [
+        "How many puris. Each home puri adds about {{kcal@puri:one}} calories: 2 with the sabzi are about {{kcal:two}}, 4 about {{kcal:four}}, 6 about {{kcal:six}}.",
+        "The size of the puri. Four large puris (36 g each, USDA's puri) with the same sabzi are about {{kcal:four_large}}.",
+        "The frying oil. Oil used many times leaves about a fifth more fat in each puri, in one lab study (see [puri](/calories/puri/)).",
+        "The sabzi's oil. A 200 ml katori of home aloo sabzi is about {{kcal@aloo-sabzi:k200}}; the halwai version with 1.5 to 2 times the oil is about {{outLo@aloo-sabzi}} to {{outHi@aloo-sabzi}}.",
+        "Halwa with it is a different order of magnitude: a bowl of [gajar halwa](/calories/gajar-halwa/) alone is about {{kcal@gajar-halwa:bowl}}. Pickle adds a little oil."
+      ],
+      "method": [
+        "The plate is 4 puris and a 200 ml katori of aloo sabzi, each made exactly as on its own page: the puri from the poori in The Art & Science of Cooking (80 g of atta with a teaspoon of ghee, deep-fried into 6 puris, with the oil taken up set to match USDA's analysed puri) and the sabzi from the potato curry in Basic Food Preparation (100 g of potato with tomato, onion and 2 teaspoons of oil per bowl). Values are from IFCT 2017.",
+        "Nothing is re-estimated here. Each row adds the pages' unrounded values and rounds once, so the plate always equals its parts. The recipes, the arithmetic and the cross-checks are on the [puri](/calories/puri/) and [aloo sabzi](/calories/aloo-sabzi/) pages."
+      ],
+      "faq": [
+        {
+          "q": "How many calories are in puri bhaji?",
+          "a": "About {{kcal:four}} calories for 4 home puris with a 200 ml katori of aloo sabzi, and about {{kcal:two}} for 2 puris with the same sabzi."
+        },
+        {
+          "q": "How many calories are in 2 puri bhaji?",
+          "a": "About {{kcal:two}} calories: 2 home puris at {{kcal@puri:one}} each and a 200 ml katori of aloo sabzi at {{kcal@aloo-sabzi:k200}}."
+        },
+        {
+          "q": "How many calories are in 1 plate poori bhaji?",
+          "a": "A home plate of 4 puris with a katori of aloo sabzi is about {{kcal:four}} calories. With 6 puris it's about {{kcal:six}}, and a halwai plate of 4 large puris about {{outLo}} to {{outHi}}."
+        },
+        {
+          "q": "How much protein is in puri bhaji?",
+          "a": "About {{protein:four}} g in a plate of 4 puris with aloo sabzi. Most of the plate is carbohydrate and fat: about {{carbs:four}} g and {{fat:four}} g."
+        },
+        {
+          "q": "Which has more calories, puri bhaji or chole bhature?",
+          "a": "[Chole bhature](/calories/chole-bhature/), as a plate: about {{kcal@chole-bhature:plate}} calories for 2 bhaturas with a katori of chole against about {{kcal:four}} for 4 puris with aloo sabzi."
+        }
+      ],
+      "related": [
+        "puri",
+        "aloo-sabzi",
+        "chole-bhature",
+        "kachori",
+        "bhatura"
+      ],
+      "useCase": {
+        "href": "/for/eating-out/",
+        "label": "Calories in restaurant and delivery food"
+      },
+      "crossCheck": [],
+      "judgement": [
+        "A plate of 4 home puris and one 200 ml katori of aloo sabzi is a stated assumption, matched to the meal row on the puri page; the 2 and 6 puri rows and the large-puri row cover the other common plates.",
+        "No independent analysed value for a plate of poori bhaji was found, so there is no cross-check here. The parts are cross-checked on their own pages (NIN and USDA FNDDS for the puri, NIN for the sabzi).",
+        "Pickle and halwa are left out."
+      ],
+      "sources": [
+        {
+          "title": "Writeonslate, Puri calories",
+          "url": "https://writeonslate.com/calories/puri/",
+          "note": "The puri recipe (The Art & Science of Cooking ASC107 via the Indian Nutrient Databank), the oil taken up in frying, its sizes, its outside range and its sources",
+          "accessed": "2026-10-14"
+        },
+        {
+          "title": "Writeonslate, Aloo sabzi calories",
+          "url": "https://writeonslate.com/calories/aloo-sabzi/",
+          "note": "The sabzi recipe (Basic Food Preparation BFP239), its outside range and its sources",
           "accessed": "2026-10-14"
         }
       ],

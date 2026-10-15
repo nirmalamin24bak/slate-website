@@ -133,6 +133,9 @@ for (const file of files) {
       const schema = faq.mainEntity.map((q) => [q.name, q.acceptedAnswer.text]);
       const shownSet = new Set(shown.map((x) => x.join("\u0000")));
       for (const q of schema) if (!shownSet.has(q.join("\u0000"))) fail(`FAQPage question not shown word for word: ${q[0]}`);
+      const asked = schema.map((q) => q[0].toLowerCase().replace(/\s+/g, " ").trim());
+      const repeated = asked.find((q, i) => asked.indexOf(q) !== i);
+      if (repeated) fail(`FAQ question asked twice: ${repeated}`);
     }
     for (const n of nodes) if (!n["@type"]) fail("JSON-LD node without @type");
   }

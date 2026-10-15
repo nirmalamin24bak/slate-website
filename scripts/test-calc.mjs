@@ -70,7 +70,9 @@ const ap = check("2 aloo paratha with curd", [{ id: "aloo-paratha", qty: 2, port
 ok(ap?.lines[0].kcal === 440, `"2 aloo paratha with curd" is ${ap?.lines[0].kcal}, the page says 440`);
 check("do roti aur ek katori dal", [{ id: "roti", qty: 2, portion: "two" }, { id: "dal-tadka", qty: 1, portion: "k200" }], { total: pageValue("roti", "two_dal"), note: "two_dal meal on /calories/roti/" });
 check("half plate chicken biryani", [{ id: "chicken-biryani", qty: 0.5, portion: "plate" }]);
-check("idli sambar", [{ id: "idli", qty: 1, portion: "medium" }, { id: "sambar", qty: 1, portion: "k200" }]);
+// "idli sambar" is a plate on /calories/idli-sambar/ (2 medium idlis and a katori of sambar), at the page's number.
+const is = check("idli sambar", [{ id: "idli-sambar", qty: 1, portion: "two" }], { total: pageValue("idli", "two_sambar"), note: "two_sambar meal on /calories/idli/" });
+ok(is?.lines[0].row === true, '"idli sambar" should be the idli sambar page\'s row');
 check("chai bina cheeni", [{ id: "masala-chai", qty: 1, portion: "cup0" }]);
 check("4 cutting chai", [{ id: "masala-chai", qty: 4, portion: "cutting" }]);
 check("2 buffalo milk chai", [{ id: "masala-chai", qty: 2, portion: "buffalo" }]);
@@ -80,11 +82,36 @@ check("samosa x2", [{ id: "samosa", qty: 2, portion: "two" }]);
 check("pizza", [{ status: "unmatched" }]);
 check("3 parathe", [{ id: "plain-paratha", qty: 3, portion: "one", assumption: true }]);
 check("1 small katori rajma", [{ id: "rajma", qty: 1, portion: "k150" }]);
-// "dal chawal" is a meal row on /calories/plain-rice/ word for word, so it is that row, at the page's number.
-const dc = check("dal chawal", [{ id: "plain-rice", qty: 1, portion: "dal_chawal" }], { total: 275, note: "dal_chawal meal on /calories/plain-rice/" });
-ok(dc?.lines[0].row === true, '"dal chawal" should be the page\'s meal row');
+// "dal chawal" has its own page, /calories/dal-chawal/: one line at that page's number, which equals the meal row
+// on /calories/plain-rice/ (both are the same unrounded sum).
+const dc = check("dal chawal", [{ id: "dal-chawal", qty: 1, portion: "plate" }], { total: 275, note: "plate on /calories/dal-chawal/" });
+ok(dc?.lines[0].row === true, '"dal chawal" should be the dal chawal page\'s row');
 check("dal aur chawal", [{ id: "dal-tadka", qty: 1, portion: "k200", assumption: true }, { id: "plain-rice", qty: 1, portion: "k200", assumption: true }], { total: 275 });
-ok(pageValue("plain-rice", "dal_chawal") === 275, "the plain-rice page's dal chawal meal is no longer 275; update the test and the calculator copy");
+ok(pageValue("plain-rice", "dal_chawal") === 275 && pageValue("dal-chawal", "plate") === 275, "dal chawal is no longer 275; update the test and the calculator copy");
+
+// Composite meal pages (2026-10-14): typed the way people search, each is one line at the page's own number, and the
+// parents' meal rows typed back give the same number through the new page. A quantity the page has no row for
+// still counts through the dishes it is made of.
+const rc = check("rajma chawal", [{ id: "rajma-chawal", qty: 1, portion: "plate" }], { total: pageValue("plain-rice", "rajma_chawal"), note: "rajma_chawal meal on /calories/plain-rice/" });
+ok(rc?.lines[0].row === true && rc?.lines[0].dish.page === "/calories/rajma-chawal/", '"rajma chawal" should link to the rajma chawal page');
+check("Rajma with rice", [{ id: "rajma-chawal", qty: 1, portion: "plate" }], { total: pageValue("rajma", "with_rice") });
+check("rajma chawal with ghee", [{ id: "rajma-chawal", qty: 1, portion: "plate_ghee" }], { total: pageValue("rajma-chawal", "plate_ghee") });
+check("thick dal chawal", [{ id: "dal-chawal", qty: 1, portion: "plate_thick" }], { total: pageValue("dal-chawal", "plate_thick") });
+check("dal fry with rice", [{ id: "dal-chawal", qty: 1, portion: "plate_dal_fry" }], { total: pageValue("dal-fry", "with_rice") });
+check("2 idli sambar", [{ id: "idli-sambar", qty: 1, portion: "two" }], { total: pageValue("idli-sambar", "two") });
+check("4 idli sambhar", [{ id: "idli-sambar", qty: 1, portion: "four" }], { total: pageValue("idli", "four_sambar") });
+check("5 idli sambar", [{ id: "idli", qty: 5, portion: "medium" }, { id: "sambar", qty: 1, portion: "k200" }]);
+check("puri bhaji", [{ id: "poori-bhaji", qty: 1, portion: "four" }], { total: pageValue("puri", "four_sabzi"), note: "four_sabzi meal on /calories/puri/" });
+check("2 poori bhaji", [{ id: "poori-bhaji", qty: 1, portion: "two" }], { total: pageValue("poori-bhaji", "two") });
+check("2 rajma chawal", [{ id: "rajma", qty: 2, portion: "k200" }, { id: "plain-rice", qty: 1, portion: "k200", assumption: true }]);
+// Paratha variants: by name, with butter, and the combo rows.
+check("2 gobi paratha with curd", [{ id: "gobi-paratha", qty: 2, portion: "two", addons: { curd: 100 } }], { total: pageValue("gobi-paratha", "two_curd") });
+check("paneer parantha", [{ id: "paneer-paratha", qty: 1, portion: "one" }], { total: pageValue("paneer-paratha", "one") });
+check("mooli ka paratha with 1 tbsp butter", [{ id: "mooli-paratha", qty: 1, portion: "one", addons: { butter: 15 } }]);
+check("methi paratha", [{ id: "methi-paratha", qty: 1, portion: "one" }], { total: pageValue("methi-paratha", "one") });
+check("methi thepla", [{ id: "thepla", qty: 1, portion: "one" }]);
+check("rajma chawal, 2 gobi paratha with curd", [{ id: "rajma-chawal", qty: 1, portion: "plate" }, { id: "gobi-paratha", qty: 2, portion: "two", addons: { curd: 100 } }],
+  { total: pageValue("rajma-chawal", "plate") + pageValue("gobi-paratha", "two_curd") });
 check("biryani", [{ status: "ambiguous", suggest: ["veg-biryani", "chicken-biryani"] }]);
 check("paneer", [{ status: "ambiguous", suggest: ["paneer-butter-masala", "palak-paneer"] }]);
 check("", []);

@@ -95,6 +95,14 @@ Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year
 - [Curd (dahi) calories: per katori and per 100 g](https://writeonslate.com/calories/curd/): A 200 ml katori of whole-milk curd has about 125 calories, 100 g about 60. With a teaspoon of sugar, about 145. From USDA's plain whole-milk yogurt.
 - [Cucumber raita calories: per katori and per bowl](https://writeonslate.com/calories/raita/): A 200 ml katori of cucumber raita, whole-milk curd with grated cucumber and roasted cumin, has about 95 calories; a 150 ml katori about 70.
 - [Maggi calories: 1 pack, with egg, butter or vegetables](https://writeonslate.com/calories/maggi/): A 70 g pack of Maggi masala noodles has about 270 calories; with an egg about 335, with a teaspoon of butter about 305. From the maker's label.
+- [Gobi paratha calories: homemade, with butter or curd](https://writeonslate.com/calories/gobi-paratha/): A homemade gobi paratha has about 180 calories, or 215 with a teaspoon of butter. Worked out from a textbook recipe and IFCT 2017.
+- [Paneer paratha calories: homemade, with butter or curd](https://writeonslate.com/calories/paneer-paratha/): A homemade paneer paratha has about 220 calories, or 260 with a teaspoon of butter. Worked out from a textbook recipe and IFCT 2017.
+- [Methi paratha calories: homemade, with butter or curd](https://writeonslate.com/calories/methi-paratha/): A homemade methi paratha has about 150 calories, or 185 with a teaspoon of butter. Worked out from a textbook recipe and IFCT 2017.
+- [Mooli paratha calories: homemade, with butter or curd](https://writeonslate.com/calories/mooli-paratha/): A homemade mooli paratha has about 180 calories, or 215 with a teaspoon of butter. Worked out from a textbook recipe and IFCT 2017.
+- [Rajma chawal calories: per plate, katori and with ghee](https://writeonslate.com/calories/rajma-chawal/): A plate of rajma chawal, a 200 ml katori of rajma with a katori of rice, has about 370 calories; with 2 katoris of rice about 530. IFCT 2017.
+- [Dal chawal calories: per plate, thick dal and with ghee](https://writeonslate.com/calories/dal-chawal/): A plate of dal chawal, a 200 ml katori of dal tadka with a katori of rice, has about 275 calories; with thick dal about 360. IFCT 2017.
+- [Idli sambar calories: 2, 3 and 4 idlis with sambar](https://writeonslate.com/calories/idli-sambar/): 2 medium idlis with a 200 ml katori of sambar have about 305 calories, 4 idlis about 410. Chutney not counted. From IFCT 2017 textbook recipes.
+- [Poori bhaji calories: 2, 4 and 6 puris with aloo sabzi](https://writeonslate.com/calories/poori-bhaji/): A plate of poori bhaji, 4 home puris with a 200 ml katori of aloo sabzi, has about 570 calories; 2 puris with the sabzi about 375. From IFCT 2017 recipes.
 
 ## Who Slate is for
 

@@ -69,7 +69,9 @@ function indexOf(data) {
   const phrases = new Map(); // phrase -> [{ dish, byName }]
   const vocab = new Set();
   const dishes = data.dishes.map((d) => {
-    const names = [d.name, d.nameLower || d.name.toLowerCase(), ...(d.aliases || [])].map(phraseKey).filter(Boolean);
+    // A composite dish (a plate of other dishes) is matched only through its rows below, never by name, so a
+    // quantity in front of it still counts through the dishes it is made of.
+    const names = d.composite ? [] : [d.name, d.nameLower || d.name.toLowerCase(), ...(d.aliases || [])].map(phraseKey).filter(Boolean);
     const words = new Set(names.flatMap((n) => n.split(" ")));
     for (const w of words) vocab.add(w);
     return { ...d, names: [...new Set(names)], words };
@@ -85,9 +87,9 @@ function indexOf(data) {
   for (const w of addons.keys()) vocab.add(w);
   let maxWords = 1;
   for (const n of phrases.keys()) maxWords = Math.max(maxWords, n.split(" ").length);
-  // A dish page's combo and meal rows, word for word, with the page's own numbers.
+  // A dish page's combo and meal rows, word for word (or by any of a row's listed phrases), with the page's own numbers.
   const rows = new Map();
-  for (const d of dishes) for (const r of d.rows || []) if (!rows.has(phraseKey(r.label))) rows.set(phraseKey(r.label), { dish: d, row: r });
+  for (const d of dishes) for (const r of d.rows || []) for (const ph of [r.label, ...(r.phrases || [])]) if (!rows.has(phraseKey(ph))) rows.set(phraseKey(ph), { dish: d, row: r });
   idx = { dishes, byId: new Map(dishes.map((d) => [d.id, d])), phrases, vocab, generic, addons, maxWords, rows };
   indexes.set(data, idx);
   return idx;
