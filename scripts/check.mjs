@@ -5,9 +5,10 @@
 // Fails (exit 1) on: banned words, exclamation marks, em dashes, emoji, broken
 // internal links, missing or over-long titles and descriptions, duplicate
 // titles, not exactly one h1, invalid JSON-LD, and FAQPage schema that doesn't
-// match the visible FAQ word for word. On dish pages, also: an answer-first lead of 40 to 65 words with no dash
-// or exclamation mark, the byline under the h1, and the WebPage's author @id. Runs the meal calculator's parser
-// tests (scripts/test-calc.mjs).
+// match the visible FAQ word for word. On dish pages, also: a title that carries a number (the calorie count
+// searchers click on) within 60 characters and shared with no other page, an answer-first lead of 40 to 65 words
+// with no dash or exclamation mark, the byline under the h1, and the WebPage's author @id. Runs the meal
+// calculator's parser tests (scripts/test-calc.mjs).
 
 import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
 import { spawnSync } from "node:child_process";
@@ -97,8 +98,11 @@ for (const file of files) {
   const h1s = (html.match(/<h1[\s>]/g) || []).length;
   if (h1s !== 1) fail(`${h1s} h1 elements`);
 
-  // Dish pages: the answer-first lead's length and punctuation, the byline under the h1, and the WebPage's author.
+  // Dish pages: the title's number, the answer-first lead's length and punctuation, the byline under the h1, and
+  // the WebPage's author. (The title's 60-character limit and uniqueness are checked above for every page; head()
+  // appends no site suffix, so the <title> text is what Google sees.)
   if (/^calories\/(?!calculator\/)[^/]+\/index\.html$/.test(rel)) {
+    if (title && !/\d/.test(decode(title))) fail(`dish title has no number: ${decode(title)}`);
     const lead = attr(html, /<p class="answer-first">([\s\S]*?)<\/p>/);
     if (!lead) fail("missing answer-first lead");
     else {

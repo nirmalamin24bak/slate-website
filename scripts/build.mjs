@@ -507,6 +507,9 @@ ${sources}
 function foodPage(food, calc) {
   const path = `/calories/${food.slug}/`;
   const trail = [{ name: "Home", path: "/" }, { name: "Calories", path: "/calories/" }, { name: food.name, path }];
+  // The title carries the headline numbers ("Kadhi calories: 100 per katori, 360 with pakora") through the same
+  // tokens as the prose, so it can never show a number the data doesn't.
+  const title = plain(food, food.title);
   const description = plain(food, food.description);
   const faqLd = {
     "@type": "FAQPage", "@id": `${SITE}${path}#faq`,
@@ -515,7 +518,7 @@ function foodPage(food, calc) {
   const jsonld = {
     "@context": "https://schema.org",
     "@graph": [
-      { "@type": "WebPage", "@id": `${SITE}${path}#webpage`, url: SITE + path, name: food.title,
+      { "@type": "WebPage", "@id": `${SITE}${path}#webpage`, url: SITE + path, name: title,
         description, isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` },
         author: authorRef(), inLanguage: "en-IN", dateModified: food.updated },
       breadcrumbLd(trail),
@@ -581,7 +584,7 @@ ${cta("site-cal-dish", food)}
   </div>
 </main>
 `;
-  return head({ title: food.title, description, path, jsonld }) + body + footer();
+  return head({ title, description, path, jsonld }) + body + footer();
 }
 
 // ---------- Hub ----------
@@ -1154,7 +1157,7 @@ ${infoPages.map((p) => line(`/${p.slug}/`, p.title, plainText(`/${p.slug}/`, p.d
     `## Food calories
 
 ${[line("/calories/", site.hub.title, site.hub.description), line(CALC_PATH, site.calculator.title, site.calculator.description),
-    ...foods.map((f) => line(`/calories/${f.slug}/`, f.title, plain(f, f.description)))].join("\n")}`,
+    ...foods.map((f) => line(`/calories/${f.slug}/`, plain(f, f.title), plain(f, f.description)))].join("\n")}`,
     ...contentSections.map((s) => `## ${s.crumb}
 
 ${[line(s.path, s.hub.title, s.hub.description), ...s.pages.map((p) => line(`${s.path}${p.slug}/`, p.title, plainText(`${s.path}${p.slug}/`, p.description)))].join("\n")}`),
