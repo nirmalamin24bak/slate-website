@@ -137,6 +137,20 @@ check("anda bhurji", [{ id: "egg-bhurji", qty: 1, portion: "k200" }], { total: p
 check("omelette", [{ id: "omelette", qty: 1, portion: "one" }], { total: pageValue("omelette", "one") });
 check("aloo gobhi", [{ id: "aloo-gobi", qty: 1, portion: "k200" }], { total: pageValue("aloo-gobi", "k200") });
 
+// Diwali sweets and snacks (2026-10-15): typed the way people search, at the page's own value.
+const sp = check("2 soan papdi", [{ id: "soan-papdi", qty: 2, portion: "two" }], { total: pageValue("soan-papdi", "two"), note: "two on /calories/soan-papdi/" });
+ok(sp?.lines[0].kcal === pageValue("soan-papdi", "two"), `"2 soan papdi" is ${sp?.lines[0].kcal}, the page says ${pageValue("soan-papdi", "two")}`);
+check("1 motichoor ladoo", [{ id: "motichoor-ladoo", qty: 1, portion: "one" }], { total: pageValue("motichoor-ladoo", "one"), note: "one on /calories/motichoor-ladoo/" });
+check("motichur laddu", [{ id: "motichoor-ladoo", qty: 1, portion: "one" }], { total: pageValue("motichoor-ladoo", "one") });
+check("rasmalai", [{ id: "rasmalai", qty: 1, portion: "one" }], { total: pageValue("rasmalai", "one"), note: "one on /calories/rasmalai/" });
+check("ras malai", [{ id: "rasmalai", qty: 1, portion: "one" }], { total: pageValue("rasmalai", "one") });
+check("1 katori kheer", [{ id: "kheer", qty: 1, portion: "k200" }], { total: pageValue("kheer", "k200"), note: "k200 on /calories/kheer/" });
+check("chakli", [{ id: "chakli", qty: 1, portion: "one" }], { total: pageValue("chakli", "one"), note: "one on /calories/chakli/" });
+check("2 peda", [{ id: "peda", qty: 2, portion: "two" }], { total: pageValue("peda", "two") });
+check("10 namak para", [{ id: "namak-para", qty: 10, portion: "ten" }], { total: pageValue("namak-para", "ten") });
+check("1 gujiya", [{ id: "gujiya", qty: 1, portion: "one" }], { total: pageValue("gujiya", "one") });
+check("2 mathri", [{ id: "mathri", qty: 2, portion: "two" }], { total: pageValue("mathri", "two") });
+
 // Garbage never throws and never grows past the caps.
 const garbage = "x".repeat(200) + ", ".repeat(300) + "!!!@@@###" + "\u0000".repeat(50) + "pizza, ".repeat(60);
 try {

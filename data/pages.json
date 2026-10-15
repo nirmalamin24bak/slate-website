@@ -2217,6 +2217,246 @@
               "label": "Calories in Indian food"
             }
           ]
+        },
+        {
+          "slug": "diwali-sweets-calories",
+          "crumb": "Diwali sweets",
+          "title": "Diwali sweets: calories per piece, from kaju katli to kheer",
+          "description": "Calories in one piece of every common Diwali sweet: kaju katli {{kcal@kaju-katli:shop}}, soan papdi {{kcal@soan-papdi:one}}, motichoor ladoo {{kcal@motichoor-ladoo:one}}, gulab jamun {{kcal@gulab-jamun:one}}, and the snacks.",
+          "h1": "Diwali sweets: calories per piece",
+          "linkLabel": "Diwali sweets: calories per piece",
+          "published": "2026-10-15",
+          "updated": "2026-10-15",
+          "lede": "One piece of a Diwali sweet is between about {{kcal@kaju-katli:shop}} calories (a 10 g kaju katli) and about {{kcal@gulab-jamun:one}} (a gulab jamun), with most pieces, a soan papdi cube, a peda, a motichoor ladoo, landing between {{kcal@soan-papdi:one}} and {{kcal@motichoor-ladoo:one}}. The table below has every sweet and snack on this site per piece, worked out from a recipe in grams and IFCT 2017; each name links to the page with the arithmetic.",
+          "takeaways": [
+            "Per piece, size matters more than the sweet: a 10 g kaju katli is about {{kcal@kaju-katli:shop}}, a 21 g soan papdi about {{kcal@soan-papdi:one}}, a 43 g gulab jamun about {{kcal@gulab-jamun:one}}.",
+            "Per 100 g the order is different: kaju katli and soan papdi are the richest at about {{kcal@kaju-katli:g100}} and {{kcal@soan-papdi:g100}}; rasgulla and kheer the lightest at about {{kcal@rasgulla:g100}} and {{kcal@kheer:g100}}.",
+            "The fried snacks are richer per gram than any sweet: mathri about {{kcal@mathri:g100}} per 100 g, namak para about {{kcal@namak-para:g100}}, chakli about {{kcal@chakli:g100}}.",
+            "A 500 g box of kaju katli holds about {{sum:5*kaju-katli:g100}} calories, a 250 g box of soan papdi about {{kcal@soan-papdi:g250}}. Counting by the piece, as you eat them, is easier than counting the box."
+          ],
+          "body": [
+            {
+              "h2": "How many calories are in one piece of each Diwali sweet?",
+              "content": [
+                "Every row is a home or sweet-shop piece of the size named, drained of syrup where there is syrup, with the page's own number. The pages explain the recipe, where each value comes from and how it compares with lab analyses and packed labels.",
+                {
+                  "table": {
+                    "caption": "Calories per piece, as on each dish's page.",
+                    "head": [
+                      "Sweet",
+                      "One piece",
+                      "Cals",
+                      "Per 100 g"
+                    ],
+                    "rows": [
+                      [
+                        "[Kaju katli](/calories/kaju-katli/)",
+                        "1 sweet-shop piece, 10 g",
+                        "{{kcal@kaju-katli:shop}}",
+                        "{{kcal@kaju-katli:g100}}"
+                      ],
+                      [
+                        "[Soan papdi](/calories/soan-papdi/)",
+                        "1 packed piece, 21 g",
+                        "{{kcal@soan-papdi:one}}",
+                        "{{kcal@soan-papdi:g100}}"
+                      ],
+                      [
+                        "[Peda](/calories/peda/)",
+                        "1 peda, 28 g",
+                        "{{kcal@peda:one}}",
+                        "{{kcal@peda:g100}}"
+                      ],
+                      [
+                        "[Motichoor ladoo](/calories/motichoor-ladoo/)",
+                        "1 ladoo, 28 g",
+                        "{{kcal@motichoor-ladoo:one}}",
+                        "{{kcal@motichoor-ladoo:g100}}"
+                      ],
+                      [
+                        "[Besan ladoo](/calories/besan-ladoo/)",
+                        "1 ladoo, 35 g",
+                        "{{kcal@besan-ladoo:one}}",
+                        "{{kcal@besan-ladoo:g100}}"
+                      ],
+                      [
+                        "[Gujiya](/calories/gujiya/)",
+                        "1 home gujiya, 30 g",
+                        "{{kcal@gujiya:one}}",
+                        "{{kcal@gujiya:g100}}"
+                      ],
+                      [
+                        "[Rasgulla](/calories/rasgulla/)",
+                        "1 rasgulla, 36 g, drained",
+                        "{{kcal@rasgulla:one}}",
+                        "{{kcal@rasgulla:g100}}"
+                      ],
+                      [
+                        "[Jalebi](/calories/jalebi/)",
+                        "1 jalebi, 30 g",
+                        "{{kcal@jalebi:one}}",
+                        "{{kcal@jalebi:g100}}"
+                      ],
+                      [
+                        "[Rasmalai](/calories/rasmalai/)",
+                        "1 piece with its milk, 77 g",
+                        "{{kcal@rasmalai:one}}",
+                        "{{kcal@rasmalai:g100}}"
+                      ],
+                      [
+                        "[Gulab jamun](/calories/gulab-jamun/)",
+                        "1 gulab jamun, 43 g, drained",
+                        "{{kcal@gulab-jamun:one}}",
+                        "{{kcal@gulab-jamun:g100}}"
+                      ],
+                      [
+                        "[Kheer](/calories/kheer/)",
+                        "1 katori, 200 ml",
+                        "{{kcal@kheer:k200}}",
+                        "{{kcal@kheer:g100}}"
+                      ],
+                      [
+                        "[Gajar halwa](/calories/gajar-halwa/)",
+                        "1 small katori",
+                        "{{kcal@gajar-halwa:small}}",
+                        "see page"
+                      ]
+                    ]
+                  }
+                },
+                "The two columns tell different stories. A gulab jamun tops the per-piece list because it is the biggest piece, soaked in syrup; per 100 g it is in the middle. Kaju katli and soan papdi are the richest per gram, because they are mostly nuts, ghee and sugar with almost no water, but a shop cuts them small."
+              ]
+            },
+            {
+              "h2": "How many calories are in a box of Diwali sweets?",
+              "content": [
+                "Boxes are sold by weight, so use the per 100 g column. A 500 g box of kaju katli is about {{sum:5*kaju-katli:g100}} calories, about 50 pieces of 10 g. A 250 g box of soan papdi is about {{kcal@soan-papdi:g250}}, about 12 cubes. A 500 g box of motichoor ladoo is about {{sum:5*motichoor-ladoo:g100}}, around 18 ladoos of 28 g. Half a kilo of peda is about {{sum:5*peda:g100}}.",
+                "A box is rarely eaten by one person in one sitting, and the number that matters for your day is the pieces you took. Two pieces of kaju katli and a soan papdi cube come to about {{sum:2*kaju-katli:shop+soan-papdi:one}}. The [meal calculator](/calories/calculator/) adds up a plate of mixed sweets typed in plain words, such as \"2 kaju katli, 1 motichoor ladoo, 1 gulab jamun\"."
+              ]
+            },
+            {
+              "h2": "Which Diwali sweets have the fewest calories per piece?",
+              "content": [
+                "By the piece, the smallest pieces: a 10 g kaju katli at about {{kcal@kaju-katli:shop}}, a small 13 g packed peda at about {{kcal@peda:small}}, a rasgulla drained of its syrup at about {{kcal@rasgulla:one}}, and a jalebi at about {{kcal@jalebi:one}}. A 21 g soan papdi cube is about {{kcal@soan-papdi:one}}.",
+                "By weight, the sweets with the most water in them: rasgulla at about {{kcal@rasgulla:g100}} per 100 g, kheer at about {{kcal@kheer:g100}}, rasmalai with its milk at about {{kcal@rasmalai:g100}}. Syrup sweets drop further if you lift them out and let the syrup run off: a tablespoon of syrup on a gulab jamun is about 45 calories, which is the difference between {{kcal@gulab-jamun:one}} and {{kcal@gulab-jamun:one_syrup}}.",
+                "Sugar-free and low-sugar sweets made with sweeteners can be much lower than any of these; count them from the packet's label, not from these pages."
+              ]
+            },
+            {
+              "h2": "How many calories are in Diwali snacks like chakli and mathri?",
+              "content": [
+                "The savoury side of the faral plate is richer per gram than the sweets, because fried snacks are dry and hold oil. Per 100 g: [mathri](/calories/mathri/) about {{kcal@mathri:g100}}, [namak para](/calories/namak-para/) about {{kcal@namak-para:g100}}, [shakarpara](/calories/shakarpara/) about {{kcal@shakarpara:g100}}, [chakli](/calories/chakli/) about {{kcal@chakli:g100}}. For comparison, a [samosa](/calories/samosa/) is about {{kcal@samosa:one}} a piece and a [khasta kachori](/calories/kachori/) about {{kcal@kachori:one}}.",
+                {
+                  "table": {
+                    "caption": "Diwali snacks per piece and per 100 g, as on each dish's page.",
+                    "head": [
+                      "Snack",
+                      "Portion",
+                      "Cals",
+                      "Per 100 g"
+                    ],
+                    "rows": [
+                      [
+                        "[Chakli](/calories/chakli/)",
+                        "1 chakli, 18 g",
+                        "{{kcal@chakli:one}}",
+                        "{{kcal@chakli:g100}}"
+                      ],
+                      [
+                        "[Mathri](/calories/mathri/)",
+                        "1 mathri, 21 g",
+                        "{{kcal@mathri:one}}",
+                        "{{kcal@mathri:g100}}"
+                      ],
+                      [
+                        "[Namak para](/calories/namak-para/)",
+                        "10 pieces, 50 g",
+                        "{{kcal@namak-para:ten}}",
+                        "{{kcal@namak-para:g100}}"
+                      ],
+                      [
+                        "[Shakarpara](/calories/shakarpara/)",
+                        "10 pieces, 60 g",
+                        "{{kcal@shakarpara:ten}}",
+                        "{{kcal@shakarpara:g100}}"
+                      ],
+                      [
+                        "[Samosa](/calories/samosa/)",
+                        "1 samosa",
+                        "{{kcal@samosa:one}}",
+                        "see page"
+                      ],
+                      [
+                        "[Kachori](/calories/kachori/)",
+                        "1 khasta kachori",
+                        "{{kcal@kachori:one}}",
+                        "see page"
+                      ]
+                    ]
+                  }
+                },
+                "A piece of chakli or a few namak para is small. A small bowl of chakli, about 50 g, is about {{kcal@chakli:bowl}}, and that is the portion that disappears with a cup of chai."
+              ]
+            },
+            {
+              "h2": "What about dry fruit?",
+              "content": [
+                "Dry-fruit boxes are the other Diwali gift, and nuts are dense: IFCT 2017 puts cashews at about {{ing:cashew}} calories per 100 g and almonds at about {{ing:almond}}. A 25 g handful is a quarter of that, in the same range as a sweet-shop piece of kaju katli, which is itself half cashew. Raisins are about {{ing:raisins}} per 100 g. Count dry fruit by the handful the way you count sweets by the piece."
+              ]
+            },
+            {
+              "h2": "How do you count sweets across the Diwali days?",
+              "content": [
+                "Diwali is five days, from Dhanteras to Bhai Dooj, and sweets arrive at every one of them. The simplest way to count is by the piece, at the time you eat it, with the piece's size: a kaju katli is a kaju katli, a big wedding ladoo is a big one. Write the pieces on the day's line and let the total take care of itself; a day with four sweets on it is a day with four sweets on it, and the next day starts at zero.",
+                "The [meal calculator](/calories/calculator/) counts a line like \"2 kaju katli, 1 motichoor ladoo\" with these numbers, and \"half kaju katli\" or \"1 big motichoor ladoo\" changes the size. A sweet from a halwai or a box can be bigger than the home piece; the pages above give the shop sizes where they differ.",
+                "If a festival week turns into something that worries you about food, the number is not the thing to fix. Talk to someone you trust, or to a doctor or dietitian; Tele-MANAS (14416) is free, any time."
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "How many calories are in one piece of kaju katli?",
+              "a": "About {{kcal@kaju-katli:shop}} for a 10 g sweet-shop piece, and about {{kcal@kaju-katli:one}} for a bigger home piece. Half a shop piece is about 25."
+            },
+            {
+              "q": "How many calories are in one motichoor ladoo?",
+              "a": "About {{kcal@motichoor-ladoo:one}} for a 28 g ladoo, the size on packed labels, and about {{kcal@motichoor-ladoo:large}} for a large 45 g sweet-shop one."
+            },
+            {
+              "q": "How many calories are in one gulab jamun?",
+              "a": "About {{kcal@gulab-jamun:one}} for a home gulab jamun of about 43 g, drained, and about {{kcal@gulab-jamun:one_syrup}} with a tablespoon of syrup."
+            },
+            {
+              "q": "Which Diwali sweet has the most calories per 100 g?",
+              "a": "Kaju katli, at about {{kcal@kaju-katli:g100}} per 100 g, with soan papdi close behind at about {{kcal@soan-papdi:g100}}. The fried snacks are higher still: mathri is about {{kcal@mathri:g100}}."
+            },
+            {
+              "q": "How many calories are in a 500 g box of kaju katli?",
+              "a": "About {{sum:5*kaju-katli:g100}} for the whole box, about 50 pieces of 10 g."
+            }
+          ],
+          "related": [
+            {
+              "href": "/calories/kaju-katli/",
+              "label": "Kaju katli calories"
+            },
+            {
+              "href": "/calories/soan-papdi/",
+              "label": "Soan papdi calories"
+            },
+            {
+              "href": "/calories/motichoor-ladoo/",
+              "label": "Motichoor ladoo calories"
+            },
+            {
+              "href": "/calories/calculator/",
+              "label": "Indian meal calorie calculator"
+            },
+            {
+              "href": "/for/indian-food/",
+              "label": "Calorie counter for Indian food"
+            }
+          ]
         }
       ]
     }
