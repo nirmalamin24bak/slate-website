@@ -2,11 +2,12 @@
 // describes it. Shared by scripts/build-cards.mjs (renders the PNGs) and scripts/build.mjs (links them),
 // so the picture, the alt text and the page can never disagree. No dependencies.
 //
-// Each card is 1200x630: the dish name top left, the headline portion's calories as one big number with
-// "calories" and the portion's label beside it, then up to three hairline rows of other portions: the
-// ones the page title names first, then the page's order. The Slate mark and writeonslate.com sit top
-// right. Light only, the site's tokens (bg #F7F7F5, ink #111214, mute #6E6F74, hairline #E3E3DF),
-// Inter Tight from assets/fonts embedded, so the render needs no network.
+// Each card is 1200x630 with everything in the centre 600px column, because WhatsApp, iMessage and
+// Telegram show a link's picture as a square cut from the middle (x 285 to 915). Top to bottom: the dish
+// name, the headline portion's calories as one big number, "calories" and the portion's label, then up
+// to three hairline rows of other portions (the ones the page title names first, then the page's order),
+// then the Slate mark and writeonslate.com. Light only, the site's tokens (bg #F7F7F5, ink #111214,
+// mute #6E6F74, hairline #E3E3DF), Inter Tight from assets/fonts embedded, so the render needs no network.
 
 import { readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -18,6 +19,8 @@ export const CARDS_DIR = "assets/cards";
 export const MANIFEST_PATH = `${CARDS_DIR}/manifest.json`;
 export const CARD_WIDTH = 1200;
 export const CARD_HEIGHT = 630;
+// The column every card element stays inside: centred, inside the square crop.
+export const SAFE_WIDTH = 600;
 // The headline portion plus this many rows.
 const PORTIONS_ON_CARD = 4;
 
@@ -69,19 +72,18 @@ const CSS = `
 :root{--bg:#F7F7F5;--ink:#111214;--mute:#6E6F74;--hair:#E3E3DF}
 *{box-sizing:border-box}
 html,body{margin:0;width:${CARD_WIDTH}px;height:${CARD_HEIGHT}px;overflow:hidden;background:var(--bg);color:var(--ink);font-family:"Inter Tight",sans-serif;font-feature-settings:"tnum";-webkit-font-smoothing:antialiased}
-.card{position:relative;width:${CARD_WIDTH}px;height:${CARD_HEIGHT}px;padding:56px 72px}
+.card{width:${CARD_WIDTH}px;height:${CARD_HEIGHT}px;padding:40px 0 30px}
+.safe{width:${SAFE_WIDTH}px;height:100%;margin:0 auto;display:flex;flex-direction:column;align-items:center;text-align:center}
 .num{font-variant-numeric:tabular-nums}
-.name{font-size:56px;font-weight:700;letter-spacing:-0.01em;line-height:1.1;white-space:nowrap;max-width:720px;overflow:hidden}
-.foot{position:absolute;right:72px;top:60px;display:flex;align-items:center;gap:16px;color:var(--mute);font-size:30px;font-weight:500;letter-spacing:-0.01em;white-space:nowrap}
-.mark{width:52px;height:52px;border-radius:12px;overflow:hidden;border:1px solid var(--hair);flex:none}
+.name{font-size:52px;font-weight:700;letter-spacing:-0.01em;line-height:1.1;white-space:nowrap;max-width:100%;overflow:hidden}
+.big{font-size:196px;font-weight:800;letter-spacing:-0.035em;line-height:0.92;margin-top:10px;white-space:nowrap}
+.unit{font-size:30px;font-weight:400;color:var(--mute);line-height:1.1;margin-top:6px}
+.per{font-size:38px;font-weight:500;letter-spacing:-0.01em;line-height:1.15;max-width:100%}
+.rows{margin-top:20px;width:100%;text-align:left}
+.row{display:flex;justify-content:space-between;align-items:baseline;gap:24px;padding:9px 0;border-top:1px solid var(--hair);font-size:30px;line-height:1.2}
+.foot{margin-top:auto;display:flex;align-items:center;gap:12px;color:var(--mute);font-size:24px;font-weight:500;letter-spacing:-0.01em;white-space:nowrap}
+.mark{width:36px;height:36px;border-radius:9px;overflow:hidden;border:1px solid var(--hair);flex:none}
 .mark svg{display:block}
-.hero{display:flex;align-items:center;gap:28px;margin-top:4px}
-.hero .big{font-size:208px;font-weight:800;letter-spacing:-0.035em;line-height:1;margin-left:-8px;flex:none;white-space:nowrap}
-.hero .side{display:flex;flex-direction:column;gap:6px;padding-top:12px;flex:1;min-width:0}
-.hero .unit{font-size:42px;font-weight:400;color:var(--mute);line-height:1.1}
-.hero .per{font-size:48px;font-weight:500;letter-spacing:-0.01em;line-height:1.15}
-.rows{margin-top:26px;width:800px}
-.row{display:flex;justify-content:space-between;align-items:baseline;gap:24px;padding:12px 0;border-top:1px solid var(--hair);font-size:36px;line-height:1.2}
 .row .l{font-weight:400;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .row .n{font-weight:500;flex:none}
 `;
@@ -91,11 +93,14 @@ export function cardHtml(food) {
   const [hero, ...rest] = pickPortions(food);
   const rows = rest.map((p) => `<div class="row"><span class="l" data-full="${esc(p.label)}">${esc(p.label)}</span><span class="n num">${fmt(p.kcal)}</span></div>`).join("");
   return `<!doctype html><html lang="en-IN"><head><meta charset="utf-8"><title>${esc(food.name)} calories</title><style>${fonts()}${CSS}</style></head><body><div class="card">
+<div class="safe">
 <div class="name">${esc(food.name)}</div>
-<div class="hero"><div class="big num">${fmt(hero.kcal)}</div><div class="side"><div class="unit">calories</div><div class="per">${esc(hero.label)}</div></div></div>
+<div class="big num">${fmt(hero.kcal)}</div>
+<div class="unit">calories</div>
+<div class="per">${esc(hero.label)}</div>
 <div class="rows">${rows}</div>
 <div class="foot"><div class="mark">${mark()}</div><span>writeonslate.com</span></div>
-</div></body></html>`;
+</div></div></body></html>`;
 }
 
 export const cardHash = (html) => createHash("sha256").update(html).digest("hex");

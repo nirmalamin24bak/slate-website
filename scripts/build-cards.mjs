@@ -24,7 +24,7 @@ import { createRequire } from "node:module";
 import { join, dirname, delimiter } from "node:path";
 import { homedir } from "node:os";
 import { spawnSync } from "node:child_process";
-import { ROOT, CARDS_DIR, MANIFEST_PATH, CARD_WIDTH, CARD_HEIGHT, cardHtml, cardHash, cardKey, cardAlt, readManifest } from "./cards-lib.mjs";
+import { ROOT, CARDS_DIR, MANIFEST_PATH, CARD_WIDTH, CARD_HEIGHT, SAFE_WIDTH, cardHtml, cardHash, cardKey, cardAlt, readManifest } from "./cards-lib.mjs";
 
 const PLAYWRIGHT = "playwright-core@1.63.0";
 const SHARP = "sharp@0.35.4";
@@ -100,47 +100,70 @@ for (const food of list) {
 
 // ---------- Render ----------
 
-// Runs in the page after the fonts load. The headline label shrinks (48 to 32px) until it sits in at most two
-// lines beside the number; a row label that would be cut loses its bracketed note; then everything is measured.
+// Runs in the page after the fonts load. The headline label shrinks (38 to 28px) until it sits in at most two
+// lines and the column still fits the card's height; a row label that would be cut loses its bracketed note;
+// then everything is measured, including that nothing leaves the centre column the square crops keep.
 // Returns the problems found (none for a good card) and what was adjusted.
-const fitAndMeasure = ({ width, height }) => {
+const fitAndMeasure = ({ width, height, safeWidth }) => {
   const problems = [];
   const adjusted = [];
   const card = document.querySelector(".card");
+  const safe = document.querySelector(".safe");
   const name = document.querySelector(".name");
-  const big = document.querySelector(".hero .big");
-  const side = document.querySelector(".hero .side");
-  const per = document.querySelector(".hero .per");
+  const big = document.querySelector(".big");
+  const per = document.querySelector(".per");
+  const rowsBox = document.querySelector(".rows");
   const foot = document.querySelector(".foot");
   const lines = (el, size) => Math.round(el.getBoundingClientRect().height / (size * 1.15));
-  for (const size of [48, 44, 40, 36, 32]) {
-    per.style.fontSize = `${size}px`;
-    if (lines(per, size) <= 2 && side.getBoundingClientRect().height <= big.getBoundingClientRect().height) break;
-  }
-  const perSize = parseFloat(per.style.fontSize);
-  if (lines(per, perSize) > 2) problems.push(`headline label needs more than two lines at ${perSize}px: "${per.textContent}"`);
-  if (perSize !== 48) adjusted.push(`headline label at ${perSize}px`);
+  const fitsHeight = () => safe.scrollHeight <= safe.clientHeight && rowsBox.getBoundingClientRect().bottom <= foot.getBoundingClientRect().top - 12;
+  const fitLabel = () => {
+    for (const size of [38, 36, 34, 32, 30, 28]) {
+      per.style.fontSize = `${size}px`;
+      if (lines(per, size) <= 2 && fitsHeight()) return true;
+    }
+    return false;
+  };
+  // A long label row that still cannot fit wraps to two lines (rows come before the headline's fit, which
+  // then works with the height left).
   for (const l of document.querySelectorAll(".row .l")) {
     if (l.scrollWidth <= l.clientWidth) continue;
     const short = l.dataset.full.replace(/\s*\([^)]*\)/g, "").replace(/\s+/g, " ").trim();
     if (short !== l.dataset.full) { l.textContent = short; adjusted.push(`row "${l.dataset.full}" shown as "${short}"`); }
-    // Still too long without its note: the row's text steps down to 30px before the card is called a failure.
-    for (const size of [34, 32, 30]) {
+    for (const size of [28, 26]) {
       if (l.scrollWidth <= l.clientWidth) break;
       l.parentElement.style.fontSize = `${size}px`;
       adjusted.push(`row "${l.textContent}" at ${size}px`);
     }
-    if (l.scrollWidth > l.clientWidth) problems.push(`row label is cut: "${l.textContent}"`);
+    if (l.scrollWidth > l.clientWidth) {
+      Object.assign(l.parentElement.style, { fontSize: "28px", lineHeight: "1.1", padding: "6px 0" });
+      l.style.whiteSpace = "normal";
+      adjusted.push(`row "${l.textContent}" in two lines`);
+      if (Math.round(l.getBoundingClientRect().height / (28 * 1.1)) > 2) problems.push(`row label is cut: "${l.textContent}"`);
+    }
   }
+  // The headline label keeps its bracketed note when it fits; otherwise it goes, as on the rows.
+  if (!fitLabel()) {
+    const short = per.textContent.replace(/\s*\([^)]*\)/g, "").replace(/\s+/g, " ").trim();
+    if (short !== per.textContent) { adjusted.push(`headline label "${per.textContent}" shown as "${short}"`); per.textContent = short; }
+    // Still too tall: the big number steps down, the last thing to give.
+    for (const size of [196, 184, 172]) {
+      big.style.fontSize = `${size}px`;
+      if (fitLabel()) { if (size !== 196) adjusted.push(`number at ${size}px`); break; }
+    }
+  }
+  const perSize = parseFloat(per.style.fontSize);
+  if (lines(per, perSize) > 2) problems.push(`headline label needs more than two lines at ${perSize}px: "${per.textContent}"`);
+  if (perSize !== 38) adjusted.push(`headline label at ${perSize}px`);
   if (name.scrollWidth > name.clientWidth) problems.push(`dish name is cut: "${name.textContent}"`);
-  const nameBox = name.getBoundingClientRect(), footBox = foot.getBoundingClientRect();
-  if (nameBox.right > footBox.left - 24 && nameBox.bottom > footBox.top) problems.push("dish name runs into the writeonslate.com mark");
   if (document.documentElement.scrollWidth > width || card.scrollWidth > width) problems.push(`content is wider than ${width}px`);
-  const last = document.querySelector(".rows");
-  const bottom = Math.max(last.getBoundingClientRect().bottom, big.getBoundingClientRect().bottom, side.getBoundingClientRect().bottom);
-  if (bottom > height - 40) problems.push(`content reaches ${Math.round(bottom)}px, past the ${height - 40}px bottom margin`);
-  const heroRight = Math.max(big.getBoundingClientRect().right, per.getBoundingClientRect().right);
-  if (heroRight > width - 72 + 1) problems.push("headline number and label are wider than the card");
+  if (!fitsHeight()) problems.push("the rows run into the writeonslate.com mark, or the column is taller than the card");
+  const footBox = foot.getBoundingClientRect();
+  if (footBox.bottom > height - 24) problems.push(`content reaches ${Math.round(footBox.bottom)}px, past the ${height - 24}px bottom margin`);
+  const left = (width - safeWidth) / 2 - 1, right = (width + safeWidth) / 2 + 1;
+  for (const el of [name, big, per, rowsBox, foot, ...document.querySelectorAll(".row .l, .row .n")]) {
+    const r = el.getBoundingClientRect();
+    if (r.left < left || r.right > right) { problems.push(`"${el.textContent.slice(0, 30)}" leaves the centre ${safeWidth}px column`); break; }
+  }
   const fontsOk = [400, 500, 700, 800].every((w) => document.fonts.check(`${w} 20px "Inter Tight"`));
   if (!fontsOk) problems.push("Inter Tight did not load");
   return { problems, adjusted };
@@ -160,7 +183,7 @@ if (jobs.length) {
     for (const job of jobs) {
       await page.setContent(job.html, { waitUntil: "load" });
       await page.evaluate(() => document.fonts.ready);
-      const { problems, adjusted } = await page.evaluate(fitAndMeasure, { width: CARD_WIDTH, height: CARD_HEIGHT });
+      const { problems, adjusted } = await page.evaluate(fitAndMeasure, { width: CARD_WIDTH, height: CARD_HEIGHT, safeWidth: SAFE_WIDTH });
       for (const a of adjusted) notes.push(`${job.food.slug}: ${a}`);
       if (problems.length) { failures.push(`${job.food.slug}: ${problems.join("; ")}`); continue; }
       const raw = await page.screenshot({ type: "png", clip: { x: 0, y: 0, width: CARD_WIDTH, height: CARD_HEIGHT } });
