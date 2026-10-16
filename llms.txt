@@ -8,7 +8,7 @@ Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year
 
 - [Home](https://writeonslate.com/): what Slate is, with a clickable demo of the app
 - [About Slate and Sonal Systems](https://writeonslate.com/about/): Slate is a calorie journal for iPhone, built for Indian food by Sonal Systems Private Limited in Vadodara, Gujarat. Who makes it and how to reach us.
-- [How Slate counts calories in Indian food](https://writeonslate.com/how-slate-counts/): How every number on Slate is worked out: home recipes in grams, IFCT 2017 values, cooked weights, katori sizes, outside food, rounding and cross-checks.
+- [How Slate counts calories in Indian food](https://writeonslate.com/how-slate-counts/): How every number on Slate is worked out: textbook recipes in grams, IFCT 2017 values, cooked weights, katoris, outside ranges, cross-checks and rounding.
 - [Privacy policy](https://writeonslate.com/privacy/)
 - [Terms of use](https://writeonslate.com/terms/)
 - [Support](https://writeonslate.com/support/): support@writeonslate.com

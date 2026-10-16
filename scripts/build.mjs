@@ -152,6 +152,8 @@ const fmt = (n) => n.toLocaleString("en-IN");
 //   {{kcal@slug:id}} {{per100@slug}}                           another dish
 //   {{per100}} {{outLo}} {{outHi}} {{yield}}                    this dish
 //   {{ing:id}}                                                  kcal per 100 g of an ingredient
+//   {{rg@slug:ingId}} {{ingkcal@slug:ingId}}                    grams of an ingredient in a dish's recipe, and its kcal
+//   {{rawkcal@slug}} {{rawkcal@slug:id}}                        unrounded kcal of the whole recipe, or of a portion (1 decimal)
 //   {{sum:2*roti:medium+dal-tadka:k200}}                        total kcal of several portions, rounded to 5
 // A portion id in a token may also name one of the dish's meals (food.meals, below), which carry the same four numbers.
 const portionOrMeal = (f, id) => f.portions.find((x) => x.id === id) || (f.meals || []).find((x) => x.id === id);
@@ -251,6 +253,18 @@ function fill(food, text) {
       return fmt(f.per100gCooked.kcal);
     }
     if (key === "yield") return fmt(f.recipe.cookedYieldG);
+    if (key === "rg" || key === "ingkcal") {
+      const items = f.recipe.ingredients.filter((i) => i.id === id);
+      if (!items.length) throw new Error(`${food.slug}: token ${m} names no ingredient "${id}" in "${f.slug}"`);
+      const g = items.reduce((s, i) => s + i.g, 0);
+      return key === "rg" ? fmt(g) : fmt(Math.round(of(id, g, f.slug).kcal));
+    }
+    if (key === "rawkcal") {
+      if (!id) return fmt(Math.round(results[f.slug].totals.total.kcal));
+      const p = portionOrMeal(f, id);
+      if (!p?.raw) throw new Error(`${food.slug}: token ${m} has no computed portion "${id}"`);
+      return p.raw.kcal.toFixed(1);
+    }
     const p = portionOrMeal(f, id);
     if (!p) throw new Error(`${food.slug}: token ${m} has no portion or meal "${id}"`);
     if (p.kcal == null) throw new Error(`${food.slug}: token ${m} used before "${f.slug}" meals were computed`);
@@ -476,13 +490,28 @@ ${rows}
 </tbody></table></div>`;
 }
 
+const METHOD_LINK = `Every dish on Slate is worked out the same way: <a href="/how-slate-counts/">how Slate counts calories</a>.`;
+
+// The WebPage's citation list, from a page's sources: another page on this site is a WebPage reference by @id (the
+// parents of a composite plate), anything else a CreativeWork with its title and url.
+function citationLd(sources) {
+  return sources.map((s) => {
+    const m = s.url.match(new RegExp(`^${SITE}(/.*/)$`));
+    return m ? { "@type": "WebPage", "@id": `${s.url}#webpage`, url: s.url, name: s.title } : { "@type": "CreativeWork", name: s.title, url: s.url };
+  });
+}
+
 function methodSection(food, calc) {
   const rows = food.recipe.ingredients.map((item) => {
     const ing = ingredient(item.id, food.slug);
     return `<tr><td>${esc(ing.name)}${item.note ? `<br><span class="mute small">${esc(item.note)}</span>` : ""}</td><td class="n">${fmt(item.g)} g</td><td>${esc(ing.sourceShort)}</td></tr>`;
   }).join("\n");
-  const range = food.range ? `<p>${inline(food, food.range.text)}</p>` : "";
+  // The range note sits in a card so the section's prose is one paragraph (checked by scripts/check.mjs).
+  const range = food.range ? `<div class="card note"><p>${inline(food, food.range.text)}</p></div>` : "";
   const sources = food.sources.map((s) => `<li><a href="${esc(s.url)}">${esc(s.title)}</a>${s.note ? `. ${esc(s.note)}` : ""}</li>`).join("\n");
+  // One self-contained paragraph (about 130 to 170 words rendered) that answers the question for this dish on its
+  // own, ending with the one sentence every dish shares: the link to the method page.
+  const method = [].concat(food.method).join(" ");
   const table = food.composite ? partsTable(food) : `<div class="table-wrap"><table class="nutri">
 <caption>${esc(food.recipe.label)}.${food.recipe.cookedYieldG ? ` Cooked weight about ${fmt(food.recipe.cookedYieldG)} g.` : ""}</caption>
 <thead><tr><th scope="col">Ingredient</th><th scope="col" class="n">Raw</th><th scope="col">Values from</th></tr></thead>
@@ -492,10 +521,8 @@ ${rows}
   return `
     <section aria-labelledby="method">
       <h2 id="method">How were these numbers worked out?</h2>
-      ${food.method.map((p) => `<p>${inline(food, p)}</p>`).join("\n      ")}
+      <p>${inline(food, method)} ${METHOD_LINK}</p>
       ${table}
-      <p>Every dish on Slate is worked out the same way: <a href="/how-slate-counts/">how Slate counts calories</a>.</p>
-      <p>${food.per100gCooked ? `That works out to about ${fmt(food.per100gCooked.kcal)} calories per 100 g of cooked ${esc(food.nameLower)}. ` : ""}Calories are rounded to the nearest 5 and grams to the nearest whole number.</p>
       ${range}
       <h3>Sources</h3>
       <ol class="sources">
@@ -520,7 +547,8 @@ function foodPage(food, calc) {
     "@graph": [
       { "@type": "WebPage", "@id": `${SITE}${path}#webpage`, url: SITE + path, name: title,
         description, isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` },
-        author: authorRef(), inLanguage: "en-IN", dateModified: food.updated },
+        author: authorRef(), inLanguage: "en-IN", datePublished: food.published, dateModified: food.updated,
+        citation: citationLd(food.sources) },
       breadcrumbLd(trail),
       faqLd,
     ],
@@ -1026,7 +1054,9 @@ function infoPage(page) {
   const graph = [
     { "@type": page.type, "@id": `${SITE}${path}#webpage`, url: SITE + path, name: page.title, description,
       isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` }, inLanguage: "en-IN",
-      dateModified: page.updated, ...(page.type === "AboutPage" ? { about: { "@id": `${SITE}/#organization` } } : { author: authorRef() }) },
+      datePublished: page.published, dateModified: page.updated,
+      ...(page.type === "AboutPage" ? { about: { "@id": `${SITE}/#organization` } } : { author: authorRef() }),
+      ...(page.sources?.length ? { citation: citationLd(page.sources) } : {}) },
     breadcrumbLd(trail),
   ];
   if (page.type === "AboutPage") {
@@ -1040,14 +1070,25 @@ function infoPage(page) {
       <h2 id="${s.id}">${prose(path, s.h2)}</h2>
       ${blocks(path, s.content)}
     </section>`).join("");
+  // The method page lists its primary sources the way the dish pages do; the about page has none.
+  const sources = page.sources?.length ? `
+    <section aria-labelledby="sources">
+      <h2 id="sources">Sources</h2>
+      <ol class="sources">
+${page.sources.map((s) => `<li><a href="${esc(s.url)}">${esc(s.title)}</a>${s.note ? `. ${esc(s.note)}` : ""}</li>`).join("\n")}
+      </ol>
+    </section>` : "";
+  // The article pages carry the author's byline, as the dish pages do; the about page is about the company.
+  const meta = page.type === "AboutPage" ? `Updated ${longDate(page.updated)}.`
+    : `By <a href="/about/">${esc(site.author.name)}</a>. Updated ${longDate(page.updated)}.`;
   const body = `
 <main id="main" class="legal">
   <div class="wrap-reading">
     ${crumbs(trail)}
     <h1>${esc(page.h1)}</h1>
-    <p class="meta-line mute">Updated ${longDate(page.updated)}.</p>
+    <p class="meta-line mute">${meta}</p>
     <p class="answer-first">${prose(path, page.lede)}</p>
-${sections}
+${sections}${sources}
 ${cta(page.slug === "how-slate-counts" ? "site-method" : `site-${page.slug}`)}
   </div>
 </main>

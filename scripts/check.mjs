@@ -7,8 +7,9 @@
 // titles, not exactly one h1, invalid JSON-LD, and FAQPage schema that doesn't
 // match the visible FAQ word for word. On dish pages, also: a title that carries a number (the calorie count
 // searchers click on) within 60 characters and shared with no other page, an answer-first lead of 40 to 65 words
-// with no dash or exclamation mark, the byline under the h1, and the WebPage's author @id. Runs the meal
-// calculator's parser tests (scripts/test-calc.mjs).
+// with no dash or exclamation mark, the byline under the h1, the WebPage's author @id, datePublished (not after
+// dateModified) and citation list, and a method section of exactly one paragraph of 120 to 180 words. Runs the
+// meal calculator's parser tests (scripts/test-calc.mjs).
 
 import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
 import { spawnSync } from "node:child_process";
@@ -25,6 +26,9 @@ const TITLE_MAX = 60;
 const DESC_MAX = 155;
 // A dish page's answer-first lead: a self-contained answer of the length answer engines quote (build.mjs foodPage).
 const ANSWER_WORDS = [40, 65];
+// A dish page's "How were these numbers worked out?" prose: one self-contained paragraph of the length answer
+// engines lift whole (build.mjs methodSection), with the range note in a card and the recipe table beside it.
+const METHOD_WORDS = [120, 180];
 const SITE = "https://writeonslate.com";
 const NOT_EMOJI = new Set(["©", "®", "™", "↻", "✓"]);
 
@@ -51,7 +55,7 @@ const foods = JSON.parse(readFileSync(join(ROOT, "data/foods.json"), "utf8")).fo
 // Every combo portion and meal a dish page lists must be answered somewhere in that page's prose or FAQ, through a
 // token ({{kcal:two_curd}}), so a row never exists only in a table.
 for (const f of foods) {
-  const prose = [f.answer, f.description, ...(f.intro || []), ...(f.changes || []), ...(f.method || []), ...(f.faq || []).flatMap((q) => [q.q, q.a])].join(" ");
+  const prose = [f.answer, f.description, ...(f.intro || []), ...(f.changes || []), ...[].concat(f.method || []), ...(f.faq || []).flatMap((q) => [q.q, q.a])].join(" ");
   for (const row of [...f.portions.filter((p) => p.combo), ...(f.meals || [])]) {
     if (!prose.includes(`:${row.id}}}`)) problems.push(`data/foods.json: ${f.slug} ${f.meals?.includes(row) ? "meal" : "combo"} "${row.id}" is not named in any FAQ or prose token`);
   }
@@ -116,6 +120,32 @@ for (const file of files) {
     let webpage = null;
     try { webpage = (JSON.parse(ld[0] || "{}")["@graph"] || []).find((n) => n["@type"] === "WebPage"); } catch {}
     if (webpage?.author?.["@id"] !== authorId) fail(`WebPage JSON-LD author is not { "@id": "${authorId}" }`);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(webpage?.datePublished || "")) fail("WebPage JSON-LD has no datePublished");
+    else if (webpage.datePublished > webpage.dateModified) fail(`WebPage datePublished ${webpage.datePublished} is after dateModified ${webpage.dateModified}`);
+    if (!Array.isArray(webpage?.citation) || !webpage.citation.length) fail("WebPage JSON-LD has no citation list");
+
+    // The method section: exactly one prose paragraph (outside its tables and the range card), 120 to 180 words.
+    const section = attr(html, /<section aria-labelledby="method">([\s\S]*?)<\/section>/);
+    if (!section) fail("missing method section");
+    else {
+      const prose = section.replace(/<div class="table-wrap">[\s\S]*?<\/table><\/div>/g, " ").replace(/<div class="card note">[\s\S]*?<\/div>/g, " ");
+      const paras = [...prose.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/g)].map((m) => text(m[1]).trim());
+      if (paras.length !== 1) fail(`method section has ${paras.length} paragraphs, not 1`);
+      else {
+        const n = paras[0].split(/\s+/).length;
+        if (n < METHOD_WORDS[0] || n > METHOD_WORDS[1]) fail(`method paragraph is ${n} words (${METHOD_WORDS[0]} to ${METHOD_WORDS[1]})`);
+        if (/[—–!]/.test(paras[0])) fail("method paragraph has an em dash, en dash or exclamation mark");
+      }
+    }
+  }
+
+  // The method page: the author's byline and a publication date, like the dish pages it is cited from.
+  if (rel === "how-slate-counts/index.html") {
+    if (!html.includes(`<p class="meta-line mute">By <a href="/about/">${site.author.name}</a>. Updated `)) fail("missing byline under the h1");
+    let webpage = null;
+    try { webpage = (JSON.parse(ld[0] || "{}")["@graph"] || []).find((n) => n["@type"] === "WebPage"); } catch {}
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(webpage?.datePublished || "")) fail("WebPage JSON-LD has no datePublished");
+    if (!Array.isArray(webpage?.citation) || !webpage.citation.length) fail("WebPage JSON-LD has no citation list");
   }
 
   for (const m of html.matchAll(/href="(\/[^"]*)"/g)) {
