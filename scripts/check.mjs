@@ -124,6 +124,28 @@ for (const file of files) {
     else if (webpage.datePublished > webpage.dateModified) fail(`WebPage datePublished ${webpage.datePublished} is after dateModified ${webpage.dateModified}`);
     if (!Array.isArray(webpage?.citation) || !webpage.citation.length) fail("WebPage JSON-LD has no citation list");
 
+    // The dish's image card: og:image and twitter:image point to its own card, the file exists, the alt text names
+    // the headline number, and the JSON-LD carries the ImageObject the WebPage points to as its primary image.
+    const slug = rel.split("/")[1];
+    const cardUrl = attr(html, /<meta property="og:image" content="([^"]*)"/) || "";
+    const cardRe = new RegExp(`^${SITE}/assets/cards/${slug}\\.png\\?v=[0-9a-f]+$`);
+    if (!cardRe.test(cardUrl)) fail(`og:image is not this dish's card: ${cardUrl}`);
+    else {
+      if (!existsSync(join(ROOT, "assets/cards", `${slug}.png`))) fail(`card file assets/cards/${slug}.png is missing`);
+      if (attr(html, /<meta name="twitter:image" content="([^"]*)"/) !== cardUrl) fail("twitter:image is not the og:image");
+      const alt = decode(attr(html, /<meta property="og:image:alt" content="([^"]*)"/) || "");
+      const headline = decode(title || "").match(/\d[\d,]*/)?.[0];
+      if (!alt) fail("og:image:alt is empty");
+      else if (headline && !alt.includes(headline)) fail(`og:image:alt does not carry the headline number ${headline}: ${alt}`);
+      const img = attr(html, /<figure class="dish-card"><img src="([^"]*)"/);
+      if (SITE + (img || "") !== cardUrl) fail(`in-page card <img> is ${img || "missing"}, not the og:image`);
+      if (!html.includes(`<figure class="dish-card"><img src="${img}" width="1200" height="630" alt="${attr(html, /<meta property="og:image:alt" content="([^"]*)"/)}"`)) fail("in-page card <img> lacks width, height or the same alt text");
+      let imageObject = null;
+      try { imageObject = (JSON.parse(ld[0] || "{}")["@graph"] || []).find((n) => n["@type"] === "ImageObject"); } catch {}
+      if (imageObject?.url !== cardUrl || imageObject?.width !== 1200 || imageObject?.height !== 630 || imageObject?.caption !== alt) fail("ImageObject JSON-LD missing or not the card");
+      else if (webpage?.primaryImageOfPage?.["@id"] !== imageObject["@id"]) fail("WebPage primaryImageOfPage does not point to the ImageObject");
+    }
+
     // The method section: exactly one prose paragraph (outside its tables and the range card), 120 to 180 words.
     const section = attr(html, /<section aria-labelledby="method">([\s\S]*?)<\/section>/);
     if (!section) fail("missing method section");

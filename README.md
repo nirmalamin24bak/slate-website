@@ -14,7 +14,13 @@ Opens at http://localhost:3000 with the same headers and routing as production (
 
 ## Deploy
 
-Pushes to `main` deploy to production on Vercel. Before pushing, run `node scripts/build.mjs` and then `node scripts/check.mjs`, which checks every page and runs the meal calculator's parser tests (`scripts/test-calc.mjs`).
+Pushes to `main` deploy to production on Vercel. Before pushing, in this order:
+
+1. `npx -y -p playwright-core@1.63.0 -p sharp@0.35.4 node scripts/build-cards.mjs` when a dish's name, portions or numbers changed (see Dish image cards below; it is quick to run anyway, an unchanged dish renders nothing).
+2. `node scripts/build.mjs`.
+3. `node scripts/check.mjs`, which checks every page and runs the meal calculator's parser tests (`scripts/test-calc.mjs`).
+
+Commit the generated pages, `data/foods.json`, `sitemap.xml`, `llms.txt` and anything new under `assets/cards/` together.
 
 After a deploy is live, run `node scripts/indexnow.mjs` to tell Bing (and the other IndexNow search engines) about every page in `sitemap.xml`. The key is the `<32 hex>.txt` file at the site root; keep it there.
 
@@ -23,6 +29,20 @@ When a page's content changes, update its `<lastmod>` date in `sitemap.xml`. Gen
 `style.css` and `demo.js` are cached by browsers for a year. When you change either one, bump its `?v=` number (for example `?v=1` to `?v=2`) in every HTML file that links it, or visitors keep the old file.
 
 Images in `assets/` are cached for a week. The icons and the social image (`favicon.svg`, `favicon.png`, `apple-touch-icon.png`, `og.png`, `demo/assets/app-icon.png`) are linked with a `?v=` number for that reason: when you replace one, bump its number in `scripts/build.mjs` and in `index.html`, `privacy/`, `terms/`, `support/` and `404.html` (and in `assets/demo/ios/App.jsx` for the app icon, then rebuild the demo), and run `node scripts/build.mjs`.
+
+## Dish image cards
+
+Every dish page has its own 1200 by 630 image, `assets/cards/<slug>.png`: the dish name, the headline portion's calories as one big number, three more portions (the ones the page title names first, then the page's order), and the Slate mark. It is the page's `og:image` and `twitter:image`, its `ImageObject` in the JSON-LD, its `<image:image>` in `sitemap.xml`, and the figure under the answer-first paragraph. The alt text reads the same numbers: "Aloo paratha calories: 190 for 1 aloo paratha, 440 for 2 aloo parathas with curd, ...".
+
+`scripts/build-cards.mjs` renders the cards, `scripts/cards-lib.mjs` holds what a card shows (shared with `build.mjs`, so the picture, the alt text and the page never disagree). Run it before `build.mjs` whenever `data/foods.json` changes a dish's name, portions or numbers:
+
+```
+npx -y -p playwright-core@1.63.0 -p sharp@0.35.4 node scripts/build-cards.mjs [--force] [slug ...]
+```
+
+It first runs `node scripts/build.mjs --data-only` (which computes and writes the numbers into `data/foods.json` and stops), hashes each card's HTML and renders only the cards whose hash changed, in Playwright's Chromium with the fonts embedded, then optimises each PNG to a palette with sharp (about 22 KB each, 96 cards in about 16 seconds from cold). It fails naming the dish if anything would be cut off. `assets/cards/manifest.json` records each card's hash and version; `build.mjs` links each page's card with `?v=<version>` (cached for a year by `vercel.json`) and fails with "run build-cards first" if a card is missing or was rendered from other numbers. Commit the PNGs and the manifest.
+
+Nothing is installed in this repo: `npx -p` fetches the two pinned packages into npm's cache, or set `SLATE_TOOLS` to a `node_modules` folder that has `playwright-core` and `sharp`. Chromium is the one Playwright already has on the machine (`PLAYWRIGHT_BROWSERS_PATH` or the per-user `ms-playwright` folder, including the seo skill's copy); if none is found, run `npx -y playwright-core@1.63.0 install chromium` once.
 
 ## Meal calculator
 

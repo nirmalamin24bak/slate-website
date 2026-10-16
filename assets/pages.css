@@ -37,6 +37,10 @@ main .table-wrap { max-width:100%; }
 /* Source links in a list get a 44px tap height; links inside sentences keep the line height. */
 main ol.sources a { display:inline-block; padding:12px 0; margin:-12px 0; }
 main ol.sources li + li { margin-top:14px; }
+/* A dish page's image card (assets/cards/<slug>.png, 1200x630, from scripts/build-cards.mjs) under the answer: the
+   reading column wide, the card radius, a hairline. The img's width and height attributes reserve its height. */
+main .dish-card { margin:20px auto 0; max-width:var(--page-col); border:1px solid var(--hairline); border-radius:var(--radius-card, 16px); overflow:hidden; background:#F7F7F5; }
+main .dish-card img { display:block; width:100%; height:auto; }
 /* Hub rows on /for/, /compare/ and /blog/: the title, then one line on what the page answers. */
 .hub-list .hub-text { display:flex; flex-direction:column; gap:4px; padding:12px 0; }
 .hub-list .hub-desc { font:400 15px/1.45 var(--font-sans); color:var(--ink-mute); }

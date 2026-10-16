@@ -6,12 +6,14 @@
 // per-100 g ingredient values, so fixing one value in data/ updates every page.
 // Writes: calories/index.html, calories/<slug>/index.html, the computed fields
 // in data/foods.json, research/food-sources.md, the <url> entries in sitemap.xml and llms.txt.
+// Each dish page links its image card from assets/cards/ (rendered first by scripts/build-cards.mjs).
 // No dependencies: Node 18 or later.
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
+import { cardFor, readManifest } from "./cards-lib.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const SITE = "https://writeonslate.com";
@@ -19,7 +21,15 @@ const CSS_VERSION = 3;
 // assets/demo/demo.css (the tokens) and assets/pages.css (every page's frame and light look). Bump with the file;
 // the hand-written pages (index, privacy, terms, support, 404) carry the same numbers.
 const DEMO_CSS_VERSION = 1;
-const PAGES_CSS_VERSION = 6;
+const PAGES_CSS_VERSION = 7;
+// The site-wide social image, for every page but the dishes (which have their own cards, below).
+const OG_IMAGE = { url: `${SITE}/assets/og.png?v=2`, width: 1200, height: 630, alt: "Slate. A calorie journal that gets out of the way." };
+// `node scripts/build.mjs --data-only` computes and writes data/foods.json, then stops: what scripts/build-cards.mjs
+// runs first, so the cards show the numbers the pages will.
+const DATA_ONLY = process.argv.includes("--data-only");
+// The per-dish image cards (assets/cards/<slug>.png, rendered by scripts/build-cards.mjs): each page links its own
+// by the version in assets/cards/manifest.json, and the build fails if a card is missing or out of date.
+const cardManifest = readManifest();
 const RANGE_LIMIT = 0.15; // sources further apart than this must show a range
 // The meal calculator (/calories/calculator/): its page copy's date for the sitemap, and the katori size it assumes.
 const CALC_PATH = "/calories/calculator/";
@@ -283,7 +293,7 @@ const plain = (food, text) => fill(food, text).replace(/\[([^\]]+)\]\([^)]+\)/g,
 
 // ---------- Page parts ----------
 
-function head({ title, description, path, jsonld, scripts = [], ogType = "website" }) {
+function head({ title, description, path, jsonld, scripts = [], ogType = "website", image = OG_IMAGE }) {
   const url = SITE + path;
   return `<!doctype html>
 <html lang="en-IN">
@@ -299,14 +309,16 @@ ${appMeta()}<title>${esc(title)}</title>
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${url}">
-<meta property="og:image" content="${SITE}/assets/og.png?v=2">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Slate. A calorie journal that gets out of the way.">
+<meta property="og:image" content="${image.url}">
+<meta property="og:image:width" content="${image.width}">
+<meta property="og:image:height" content="${image.height}">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="${esc(image.alt)}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(description)}">
-<meta name="twitter:image" content="${SITE}/assets/og.png?v=2">
+<meta name="twitter:image" content="${image.url}">
+<meta name="twitter:image:alt" content="${esc(image.alt)}">
 <meta name="theme-color" content="#FFFFFF">
 <link rel="icon" href="/assets/favicon.svg?v=2" type="image/svg+xml">
 <link rel="icon" href="/assets/favicon.png?v=2" type="image/png" sizes="32x32">
@@ -542,13 +554,19 @@ function foodPage(food, calc) {
     "@type": "FAQPage", "@id": `${SITE}${path}#faq`,
     mainEntity: food.faq.map((f) => ({ "@type": "Question", name: plain(food, f.q), acceptedAnswer: { "@type": "Answer", text: plain(food, f.a) } })),
   };
+  // The dish's own image card: the page's social image, its primary image and a figure under the answer.
+  const card = cardFor(food, cardManifest);
+  const image = { url: SITE + card.path, width: card.width, height: card.height, alt: card.alt };
   const jsonld = {
     "@context": "https://schema.org",
     "@graph": [
       { "@type": "WebPage", "@id": `${SITE}${path}#webpage`, url: SITE + path, name: title,
         description, isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` },
         author: authorRef(), inLanguage: "en-IN", datePublished: food.published, dateModified: food.updated,
+        primaryImageOfPage: { "@id": `${SITE}${path}#primaryimage` },
         citation: citationLd(food.sources) },
+      { "@type": "ImageObject", "@id": `${SITE}${path}#primaryimage`, url: image.url, contentUrl: image.url,
+        width: image.width, height: image.height, caption: image.alt, inLanguage: "en-IN" },
       breadcrumbLd(trail),
       faqLd,
     ],
@@ -565,6 +583,7 @@ function foodPage(food, calc) {
     <h1>${esc(food.name)} calories</h1>
     <p class="meta-line mute">By <a href="/about/">${esc(site.author.name)}</a>. Checked on ${longDate(food.updated)}.</p>
     <p class="answer-first">${inline(food, food.answer)}</p>
+    <figure class="dish-card"><img src="${card.path}" width="${card.width}" height="${card.height}" alt="${esc(card.alt)}" decoding="async"></figure>
     ${food.intro.map((p) => `<p class="para">${inline(food, p)}</p>`).join("\n    ")}
     <div class="card note"><p>${esc(site.foodNote)}</p></div>
 
@@ -612,7 +631,7 @@ ${cta("site-cal-dish", food)}
   </div>
 </main>
 `;
-  return head({ title, description, path, jsonld }) + body + footer();
+  return head({ title, description, path, jsonld, image }) + body + footer();
 }
 
 // ---------- Hub ----------
@@ -1158,22 +1177,24 @@ function researchLog(list, results, { title, dataFile, pages }) {
 
 // ---------- Sitemap ----------
 
+// Hand-kept entries (the home and legal pages) are read back as they are; the generated ones are rebuilt from the
+// data, each dish page with its image card as an <image:image>.
 function updateSitemap() {
   const xml = readFileSync(join(ROOT, "sitemap.xml"), "utf8");
   const generatedRoots = ["/calories/", ...contentSections.map((s) => s.path), ...infoPages.map((p) => `/${p.slug}/`)];
-  const keep = [...xml.matchAll(/<url><loc>([^<]+)<\/loc><lastmod>([^<]+)<\/lastmod><\/url>/g)]
+  const keep = [...xml.matchAll(/<url><loc>([^<]+)<\/loc><lastmod>([^<]+)<\/lastmod>(?:<image:image>.*?<\/image:image>)*<\/url>/g)]
     .filter((m) => !generatedRoots.some((r) => m[1].startsWith(SITE + r)))
     .map((m) => ({ loc: m[1], lastmod: m[2] }));
   const hubDate = foods.map((f) => f.updated).sort().at(-1);
   const generated = [{ loc: `${SITE}/calories/`, lastmod: hubDate }, { loc: SITE + CALC_PATH, lastmod: CALC_UPDATED },
-    ...foods.map((f) => ({ loc: `${SITE}/calories/${f.slug}/`, lastmod: f.updated }))];
+    ...foods.map((f) => ({ loc: `${SITE}/calories/${f.slug}/`, lastmod: f.updated, image: SITE + cardFor(f, cardManifest).path }))];
   for (const s of contentSections) {
     generated.push({ loc: SITE + s.path, lastmod: s.pages.map((p) => p.updated).sort().at(-1) });
     for (const p of s.pages) generated.push({ loc: `${SITE}${s.path}${p.slug}/`, lastmod: p.updated });
   }
   for (const p of infoPages) generated.push({ loc: `${SITE}/${p.slug}/`, lastmod: p.updated });
-  const urls = [...keep, ...generated].map((u) => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod></url>`).join("\n");
-  write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
+  const urls = [...keep, ...generated].map((u) => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod>${u.image ? `<image:image><image:loc>${u.image}</image:loc></image:image>` : ""}</url>`).join("\n");
+  write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${urls}\n</urlset>\n`);
 }
 
 // ---------- llms.txt ----------
@@ -1257,6 +1278,10 @@ for (const food of foods) if (!food.composite) results[food.slug] = computeFood(
 for (const food of appFoods) appResults[food.slug] = computeFood(food);
 for (const food of foods) if (food.composite) results[food.slug] = computeComposite(food);
 for (const food of foods) computeMeals(food);
+// The computed numbers go back into the data first, so scripts/build-cards.mjs (which runs this with --data-only)
+// renders the same numbers the pages show.
+write("data/foods.json", JSON.stringify(foodsFile, null, 2) + "\n");
+if (DATA_ONLY) { console.log(`Computed ${foods.length} dishes into data/foods.json.`); process.exit(0); }
 for (const food of foods) write(`calories/${food.slug}/index.html`, foodPage(food, results[food.slug]));
 write("calories/index.html", hubPage());
 write("calories/calculator/index.html", calculatorPage(writeCalcData(results, appResults).version));
@@ -1266,7 +1291,6 @@ for (const s of contentSections) {
   for (const p of s.pages) { write(`${s.path.slice(1)}${p.slug}/index.html`, contentPage(s, p)); contentCount++; }
 }
 for (const p of infoPages) write(`${p.slug}/index.html`, infoPage(p));
-write("data/foods.json", JSON.stringify(foodsFile, null, 2) + "\n");
 write("research/food-sources.md", researchLog(foods, results, { title: "Food sources and arithmetic", dataFile: "data/foods.json", pages: true }));
 if (appFoodsFile) {
   write("data/app-foods.json", JSON.stringify(appFoodsFile, null, 2) + "\n");
