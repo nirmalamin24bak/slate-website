@@ -96,7 +96,7 @@ for (const file of files) {
   }
   if (!desc && !isNotFound) fail("missing meta description");
   else if (desc && decode(desc).length > DESC_MAX) fail(`description is ${decode(desc).length} characters (max ${DESC_MAX})`);
-  if (!/<html lang="en-IN">/.test(html)) fail('missing <html lang="en-IN">');
+  if (!/<html lang="en-GB">/.test(html)) fail('missing <html lang="en-GB">');
   // Once the app has an id, every page carries the Smart App Banner meta (build.mjs head() and syncLaunchMeta()).
   if (site.cta.appId && !html.includes(`<meta name="apple-itunes-app" content="app-id=${site.cta.appId}">`)) fail("missing apple-itunes-app meta");
   const h1s = (html.match(/<h1[\s>]/g) || []).length;

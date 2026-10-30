@@ -33,7 +33,7 @@ const cardManifest = readManifest();
 const RANGE_LIMIT = 0.15; // sources further apart than this must show a range
 // The meal calculator (/calories/calculator/): its page copy's date for the sitemap, and the katori size it assumes.
 const CALC_PATH = "/calories/calculator/";
-const CALC_UPDATED = "2026-10-14";
+const CALC_UPDATED = "2026-10-30";
 const CALC_KATORI_ML = 200;
 
 const read = (p) => JSON.parse(readFileSync(join(ROOT, p), "utf8"));
@@ -296,7 +296,7 @@ const plain = (food, text) => fill(food, text).replace(/\[([^\]]+)\]\([^)]+\)/g,
 function head({ title, description, path, jsonld, scripts = [], ogType = "website", image = OG_IMAGE }) {
   const url = SITE + path;
   return `<!doctype html>
-<html lang="en-IN">
+<html lang="en-GB">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -305,7 +305,7 @@ ${appMeta()}<title>${esc(title)}</title>
 <link rel="canonical" href="${url}">
 <meta property="og:type" content="${ogType}">
 <meta property="og:site_name" content="Slate">
-<meta property="og:locale" content="en_IN">
+<meta property="og:locale" content="en_GB">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${url}">
@@ -562,11 +562,11 @@ function foodPage(food, calc) {
     "@graph": [
       { "@type": "WebPage", "@id": `${SITE}${path}#webpage`, url: SITE + path, name: title,
         description, isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` },
-        author: authorRef(), inLanguage: "en-IN", datePublished: food.published, dateModified: food.updated,
+        author: authorRef(), inLanguage: "en-GB", datePublished: food.published, dateModified: food.updated,
         primaryImageOfPage: { "@id": `${SITE}${path}#primaryimage` },
         citation: citationLd(food.sources) },
       { "@type": "ImageObject", "@id": `${SITE}${path}#primaryimage`, url: image.url, contentUrl: image.url,
-        width: image.width, height: image.height, caption: image.alt, inLanguage: "en-IN" },
+        width: image.width, height: image.height, caption: image.alt, inLanguage: "en-GB" },
       breadcrumbLd(trail),
       faqLd,
     ],
@@ -660,7 +660,7 @@ ${lis}
     "@graph": [
       { "@type": "CollectionPage", "@id": `${SITE}${path}#webpage`, url: SITE + path, name: site.hub.title,
         description: site.hub.description, isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` },
-        inLanguage: "en-IN",
+        inLanguage: "en-GB",
         mainEntity: { "@type": "ItemList", itemListElement: foods.map((f, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}/calories/${f.slug}/`, name: `${f.name} calories` })) } },
       breadcrumbLd(trail),
     ],
@@ -868,11 +868,11 @@ const mealWords = (label) => label.replace(/\s*\([^)]*\)/g, "").replace(/\s+/g, 
 function calculatorPage(version) {
   const path = CALC_PATH;
   const c = site.calculator;
-  const trail = [{ name: "Home", path: "/" }, { name: "Food calories", path: "/calories/" }, { name: "Calculator", path }];
+  const trail = [{ name: "Home", path: "/" }, { name: "Indian food calories", path: "/calories/" }, { name: "Calculator", path }];
   const faq = faqParts(path, c.faq);
   const jsonld = { "@context": "https://schema.org", "@graph": [
     { "@type": "WebPage", "@id": `${SITE}${path}#webpage`, url: SITE + path, name: c.title, description: c.description,
-      isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` }, inLanguage: "en-IN", dateModified: CALC_UPDATED,
+      isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` }, inLanguage: "en-GB", dateModified: CALC_UPDATED,
       mainEntity: { "@id": `${SITE}${path}#app` } },
     breadcrumbLd(trail),
     { "@type": "WebApplication", "@id": `${SITE}${path}#app`, name: "Indian meal calorie calculator", url: SITE + path,
@@ -888,7 +888,7 @@ function calculatorPage(version) {
     <h1>${esc(c.h1)}</h1>
     <p class="meta-line mute">Updated ${longDate(CALC_UPDATED)}.</p>
     <p class="answer-first">${esc(c.lede)}</p>
-    <noscript><p class="note mute">${esc(c.noscript)} <a href="/calories/">Food calories</a>.</p></noscript>
+    <noscript><p class="note mute">${esc(c.noscript)} <a href="/calories/">Indian food calories</a>.</p></noscript>
     <section class="calc" aria-labelledby="calc-label">
       <label id="calc-label" for="calc-input" class="calc-label">${esc(c.label)}</label>
       <textarea id="calc-input" class="calc-input" rows="3" maxlength="500" placeholder="${esc(c.placeholder)}" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="done"></textarea>
@@ -975,11 +975,11 @@ function contentPage(section, page) {
   const description = plainText(path, page.description);
   const webpage = { "@type": "WebPage", "@id": `${SITE}${path}#webpage`, url: SITE + path, name: page.title,
     description, isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` },
-    inLanguage: "en-IN", dateModified: page.updated };
+    inLanguage: "en-GB", dateModified: page.updated };
   const graph = [webpage, breadcrumbLd(trail)];
   if (isBlog) {
     graph.push({ "@type": "BlogPosting", "@id": `${SITE}${path}#article`, headline: page.h1, description,
-      mainEntityOfPage: { "@id": `${SITE}${path}#webpage` }, image: { "@type": "ImageObject", url: `${SITE}/assets/og.png?v=2`, width: 1200, height: 630 }, inLanguage: "en-IN",
+      mainEntityOfPage: { "@id": `${SITE}${path}#webpage` }, image: { "@type": "ImageObject", url: `${SITE}/assets/og.png?v=2`, width: 1200, height: 630 }, inLanguage: "en-GB",
       datePublished: page.published, dateModified: page.updated,
       author: { "@type": "Person", "@id": `${SITE}/about/#${site.author.id}`, url: `${SITE}/about/`, name: site.author.name, jobTitle: site.author.jobTitle, worksFor: { "@id": `${SITE}/#organization` } },
       publisher: { "@id": `${SITE}/#organization` } });
@@ -1039,7 +1039,7 @@ function contentHub(section) {
   const items = pages.map((p) => `<li><a href="${path}${p.slug}/"><span class="hub-text"><span class="hub-name">${esc(p.linkLabel || p.h1)}</span><span class="hub-desc">${esc(plainText(`${path}${p.slug}/`, p.description))}</span></span></a></li>`).join("\n");
   const jsonld = { "@context": "https://schema.org", "@graph": [
     { "@type": "CollectionPage", "@id": `${SITE}${path}#webpage`, url: SITE + path, name: h.title, description: h.description,
-      isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` }, inLanguage: "en-IN",
+      isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` }, inLanguage: "en-GB",
       mainEntity: { "@type": "ItemList", itemListElement: pages.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}${path}${p.slug}/`, name: p.linkLabel || p.h1 })) } },
     breadcrumbLd(trail),
   ] };
@@ -1072,7 +1072,7 @@ function infoPage(page) {
   const description = plainText(path, page.description);
   const graph = [
     { "@type": page.type, "@id": `${SITE}${path}#webpage`, url: SITE + path, name: page.title, description,
-      isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` }, inLanguage: "en-IN",
+      isPartOf: { "@id": `${SITE}/#website` }, publisher: { "@id": `${SITE}/#organization` }, inLanguage: "en-GB",
       datePublished: page.published, dateModified: page.updated,
       ...(page.type === "AboutPage" ? { about: { "@id": `${SITE}/#organization` } } : { author: authorRef() }),
       ...(page.sources?.length ? { citation: citationLd(page.sources) } : {}) },
@@ -1205,9 +1205,9 @@ function writeLlms() {
   const parts = [
     `# Slate
 
-> Slate is a calorie journal for iPhone, built for India, by Sonal Systems Private Limited (Vadodara, Gujarat). You type what you ate the way you'd say it, in English, Hinglish or Gujarati spellings ("2 roti aur ek katori dal"), and Slate puts a number next to it. No login. Data stored in Mumbai, India. Not related to Slate magazine (slate.com) or other products named Slate.
+> Slate is a calorie journal for iPhone, by Sonal Systems Private Limited (Vadodara, Gujarat). You type what you ate the way you'd say it, in English, Hinglish or Gujarati spellings ("2 roti aur ek katori dal"), and Slate puts a number next to it. It works for food from anywhere, and it has a detailed catalogue of Indian home cooking. No login. Everyone's data is stored in Mumbai, India. Not related to Slate magazine (slate.com) or other products named Slate.
 
-Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year in India (7 days free on yearly), $4.99 a month or $34.99 a year in the US, and £4.99 a month or £34.99 a year in the UK. It adds voice and photo logging, delivery orders, chat and more. iPhone only, iOS 18 or later. ${plainStoreUrl() ? `On the App Store: ${plainStoreUrl()}` : "Coming soon to the App Store."}
+Slate is free forever. Slate Plus is optional: $4.99 a month or $34.99 a year in the US, £4.99 a month or £34.99 a year in the UK, and ₹399 a month or ₹2,999 a year in India, with 7 days free on yearly. It adds voice and photo logging, delivery orders, chat and more. iPhone only, iOS 18 or later. ${plainStoreUrl() ? `On the App Store: ${plainStoreUrl()}` : "Coming soon to the App Store."}
 
 ## Key pages
 

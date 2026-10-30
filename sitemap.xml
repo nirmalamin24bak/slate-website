@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url><loc>https://writeonslate.com/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://writeonslate.com/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://writeonslate.com/privacy/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://writeonslate.com/terms/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://writeonslate.com/support/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://writeonslate.com/support/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://writeonslate.com/calories/</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://writeonslate.com/calories/calculator/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://writeonslate.com/calories/calculator/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://writeonslate.com/calories/roti/</loc><lastmod>2026-10-14</lastmod><image:image><image:loc>https://writeonslate.com/assets/cards/roti.png?v=f6d54c0d57</image:loc></image:image></url>
   <url><loc>https://writeonslate.com/calories/plain-rice/</loc><lastmod>2026-10-14</lastmod><image:image><image:loc>https://writeonslate.com/assets/cards/plain-rice.png?v=383892fd97</image:loc></image:image></url>
   <url><loc>https://writeonslate.com/calories/dal-tadka/</loc><lastmod>2026-10-14</lastmod><image:image><image:loc>https://writeonslate.com/assets/cards/dal-tadka.png?v=89c4870077</image:loc></image:image></url>
@@ -124,6 +124,6 @@
   <url><loc>https://writeonslate.com/blog/fasting-day-calories/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://writeonslate.com/blog/maintenance-calories/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://writeonslate.com/blog/diwali-sweets-calories/</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://writeonslate.com/about/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://writeonslate.com/how-slate-counts/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://writeonslate.com/about/</loc><lastmod>2026-10-30</lastmod></url>
+  <url><loc>https://writeonslate.com/how-slate-counts/</loc><lastmod>2026-10-30</lastmod></url>
 </urlset>

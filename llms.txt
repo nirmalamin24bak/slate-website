@@ -1,14 +1,14 @@
 # Slate
 
-> Slate is a calorie journal for iPhone, built for India, by Sonal Systems Private Limited (Vadodara, Gujarat). You type what you ate the way you'd say it, in English, Hinglish or Gujarati spellings ("2 roti aur ek katori dal"), and Slate puts a number next to it. No login. Data stored in Mumbai, India. Not related to Slate magazine (slate.com) or other products named Slate.
+> Slate is a calorie journal for iPhone, by Sonal Systems Private Limited (Vadodara, Gujarat). You type what you ate the way you'd say it, in English, Hinglish or Gujarati spellings ("2 roti aur ek katori dal"), and Slate puts a number next to it. It works for food from anywhere, and it has a detailed catalogue of Indian home cooking. No login. Everyone's data is stored in Mumbai, India. Not related to Slate magazine (slate.com) or other products named Slate.
 
-Slate is free forever. Slate Plus is optional: ₹399 a month or ₹2,999 a year in India (7 days free on yearly), $4.99 a month or $34.99 a year in the US, and £4.99 a month or £34.99 a year in the UK. It adds voice and photo logging, delivery orders, chat and more. iPhone only, iOS 18 or later. Coming soon to the App Store.
+Slate is free forever. Slate Plus is optional: $4.99 a month or $34.99 a year in the US, £4.99 a month or £34.99 a year in the UK, and ₹399 a month or ₹2,999 a year in India, with 7 days free on yearly. It adds voice and photo logging, delivery orders, chat and more. iPhone only, iOS 18 or later. Coming soon to the App Store.
 
 ## Key pages
 
 - [Home](https://writeonslate.com/): what Slate is, with a clickable demo of the app
-- [About Slate and Sonal Systems](https://writeonslate.com/about/): Slate is a calorie journal for iPhone, built for Indian food by Sonal Systems Private Limited in Vadodara, Gujarat. Who makes it and how to reach us.
-- [How Slate counts calories in Indian food](https://writeonslate.com/how-slate-counts/): How every number on Slate is worked out: textbook recipes in grams, IFCT 2017 values, cooked weights, katoris, outside ranges, cross-checks and rounding.
+- [About Slate and Sonal Systems](https://writeonslate.com/about/): Slate is a calorie journal for iPhone, made by Sonal Systems Private Limited in Vadodara, India. Who makes it, what it's built on and how to reach us.
+- [How Slate counts calories](https://writeonslate.com/how-slate-counts/): How every number on Slate is worked out: recipes in grams, USDA, CoFID and IFCT 2017 values, cooked weights, portions, ranges, cross-checks and rounding.
 - [Privacy policy](https://writeonslate.com/privacy/)
 - [Terms of use](https://writeonslate.com/terms/)
 - [Support](https://writeonslate.com/support/): support@writeonslate.com
