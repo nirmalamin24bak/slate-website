@@ -1,7 +1,7 @@
 {
   "cta": {
-    "line": "Slate works this out for your own katori and oil. Free, no login, iPhone.",
-    "dishLine": "Type \"{example}\" in Slate. It counts it for your katori and your oil. Free, no login.",
+    "line": "Slate works this out for your own bowl and oil. Free, no login, iPhone.",
+    "dishLine": "Type \"{example}\" in Slate. It counts it for your bowl and your oil. Free, no login.",
     "tableLink": "Log this in Slate",
     "appStoreUrl": "",
     "appId": "",
@@ -13,7 +13,7 @@
     "title": "Calories in Indian food: roti, dal, rice and more",
     "description": "Calories, protein, carbs and fat for everyday Indian dishes, by katori, piece and plate, worked out from IFCT 2017 recipes in grams.",
     "intro": [
-      "Calories, protein, carbs and fat for everyday Indian food, in the portions you actually eat: a roti, a katori, a plate, a cup.",
+      "Calories, protein, carbs and fat for everyday Indian food, in the portions people eat: a roti, a katori, a plate, a cup. Slate counts food from anywhere in the app. This section covers Indian dishes, because their numbers are the hardest to find.",
       "Every number is worked out from a recipe in grams and the Indian Food Composition Tables (IFCT 2017). Each page shows the recipe, the arithmetic and the sources."
     ]
   },
@@ -21,7 +21,7 @@
     "h1": "Indian meal calorie calculator: type what you ate",
     "title": "Indian meal calorie calculator: type what you ate",
     "description": "Type a meal the way you'd say it, in English or Hinglish, and get calories, protein, carbs and fat from home recipes and IFCT 2017. Free, in your browser.",
-    "lede": "Type a meal the way you'd say it: \"2 aloo paratha with curd, 1 chai\" or \"do roti aur ek katori dal\". Hindi and Hinglish spellings work. Every number comes from a home recipe in grams and IFCT 2017, for the portion shown next to it. A katori is 200 ml unless you say small or big.",
+    "lede": "Type a meal the way you'd say it: \"2 aloo paratha with curd, 1 chai\" or \"do roti aur ek katori dal\". Hindi and Hinglish spellings work. Every number comes from a home recipe in grams and IFCT 2017, for the portion shown next to it. A katori (a bowl) is 200 ml unless you say small or big. For any other food, Slate counts it in the app.",
     "label": "What did you eat?",
     "placeholder": "2 aloo paratha with curd, 1 chai",
     "button": "Count",
@@ -106,7 +106,7 @@
   "footerLinks": [
     {
       "href": "/calories/",
-      "label": "Food calories"
+      "label": "Indian food calories"
     },
     {
       "href": "/for/",
