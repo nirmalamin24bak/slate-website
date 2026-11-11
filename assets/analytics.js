@@ -5,7 +5,9 @@
  * gets a random id held in memory only (PostHog's "memory" persistence, done
  * here without the library), so there is nothing to consent to. Events are
  * anonymous ($process_person_profile: false) and carry the page's address
- * without its query string. Nothing typed into the calculator or any field is read.
+ * without its query string; of the query, only utm_source, utm_medium and utm_campaign are sent, as their own
+ * properties. Nothing typed into the calculator or any field is read. Only writeonslate.com and
+ * www.writeonslate.com (data-site and its www. form) send anything: previews and localhost stay out.
  *
  * Events:
  *   $pageview           every page load
@@ -21,8 +23,20 @@
   var tag = document.currentScript;
   var KEY = tag && tag.getAttribute('data-ph-key');
   if (!KEY) return;
-  var SITE = tag.getAttribute('data-site') || location.hostname;
+  var SITE = tag.getAttribute('data-site');
+  /* Production only: the site's own host or its www. form. Vercel previews, localhost and saved copies send nothing. */
+  if (!SITE || (location.hostname !== SITE && location.hostname !== 'www.' + SITE)) return;
   var HOST = 'https://us.i.posthog.com';
+
+  /* utm_source, utm_medium and utm_campaign, when the address has them. No other parameter is read or sent. */
+  var UTM = {};
+  try {
+    var query = new URLSearchParams(location.search);
+    ['utm_source', 'utm_medium', 'utm_campaign'].forEach(function (k) {
+      var v = query.get(k);
+      if (v) UTM[k] = v.slice(0, 200);
+    });
+  } catch (e) { /* no UTM tags then */ }
 
   var hex = function () {
     var a = new Uint8Array(16);
@@ -53,7 +67,7 @@
         $referrer: referrer(),
         $lib: 'writeonslate-site',
         site: SITE,
-      }, props || {}),
+      }, UTM, props || {}),
     });
     try {
       /* text/plain keeps it a simple request (no preflight); keepalive lets a
