@@ -47,7 +47,7 @@
 <main id="main" class="legal">
   <div class="wrap-reading">
     <h1>Privacy policy</h1>
-    <p class="legal-date mute">Effective 8 October 2026</p>
+    <p class="legal-date mute">Effective 11 November 2026</p>
 
     <div class="card summary">
       <h2 class="summary-title">The short version</h2>
@@ -82,7 +82,7 @@
         <li><strong>Voice logging</strong> (Slate Plus): your speech is turned into text on your iPhone, or by Apple's speech service where on-device recognition isn't available. Slate never receives or stores audio, only the text line you choose to add.</li>
         <li><strong>Delivery orders</strong> (Slate Plus): order text you share or paste is read on your iPhone to make lines. Only the lines you add are stored, like any other line.</li>
         <li><strong>Apple Health</strong> (Slate Plus, only if you allow it): steps, weight, workouts, and the name of the app that recorded them.</li>
-        <li><strong>Account and service data:</strong> an anonymous account ID, your subscription status, counts of how often you use AI features, and technical logs such as errors and timestamps.</li>
+        <li><strong>Account and service data:</strong> an anonymous account ID, your subscription status, counts of how often you use AI features, and technical logs such as errors and timestamps. Anonymous usage events and crash reports go to PostHog (see <a href="#usage-and-crash-reports">Usage and crash reports</a>).</li>
       </ul>
       <p>Reminders are scheduled on your iPhone as local notifications. Slate doesn't use a push service and doesn't send marketing notifications.</p>
     </section>
@@ -100,7 +100,7 @@
       <p><strong>What is never sent.</strong> Your food log or anything you write: no meal text, dish or ingredient names, calories, nutrients, weights, body details, goals, notes, chat messages, voice text, photos or delivery orders. No name, email, phone number, contacts, location, advertising identifier, file names or web addresses. PostHog doesn't record your screen, doesn't capture taps by itself and doesn't place you from your IP address.</p>
       <p><strong>Who you are to PostHog.</strong> While usage sharing is on, events are linked to Slate's anonymous account id (the same random number our servers use), never your name or Apple ID. When our server answers an AI request, it sends PostHog a matching record of the request's cost: the feature, the AI model, the amount of text processed, the cost, how long it took and whether it worked, never what you sent or got back. RevenueCat tells PostHog about renewals, cancellations and refunds under the same id.</p>
       <p><strong>Your choice.</strong> Settings › Your data › <strong>Share anonymous usage</strong> is on by default. Turn it off and Slate stops sending usage events, and the AI cost records stop being linked to you. Crash, error and hang reports are still sent, because they're how we find faults, but while usage sharing is off they're sent under a random number made on your phone, not linked to your account. Slate's widgets and share extension never send anything to PostHog.</p>
-      <p><strong>How long.</strong> PostHog keeps events for up to 12 months, then deletes them. [NIRMAL: confirm the project's retention setting matches.]</p>
+      <p><strong>How long.</strong> PostHog keeps events for up to 12 months, then deletes them.</p>
       <p><strong>Deleting.</strong> Delete my data (see <a href="#p-rights">Your rights</a>) also deletes the PostHog person linked to your account and its events.</p>
     </section>
 
@@ -113,6 +113,7 @@
         <li>read the lines you write;</li>
         <li>run Slate Plus features;</li>
         <li>enforce fair-use limits on AI features;</li>
+        <li>keep AI costs under control;</li>
         <li>keep the service working and secure; and</li>
         <li>answer your support emails.</li>
       </ul>
@@ -121,7 +122,7 @@
 
     <section aria-labelledby="p-consent">
       <h2 id="p-consent">Consent and withdrawing it</h2>
-      <p>You give consent when you set up Slate. You can withdraw it at any time by deleting your data from Settings, Your data, Delete my data. Apple Health access can be turned off at any time in your iPhone's Settings.</p>
+      <p>You give consent when you set up Slate. You can withdraw it at any time by deleting your data from Settings, Your data, Delete my data. Sharing anonymous usage with PostHog is on by default; turn it off or on at any time in Settings, Your data, Share anonymous usage. Crash reports are still sent while it is off, not linked to your account (see <a href="#usage-and-crash-reports">Usage and crash reports</a>). Apple Health access can be turned off at any time in your iPhone's Settings.</p>
     </section>
 
     <section aria-labelledby="p-never">
@@ -150,10 +151,11 @@
             <tr><td data-label="Processor">Apple</td><td data-label="Purpose">Payments, Apple Health, Siri</td><td data-label="Location">As per Apple</td></tr>
             <tr><td data-label="Processor">Apple</td><td data-label="Purpose">Speech recognition for voice logging, where on-device isn't available</td><td data-label="Location">As per Apple</td></tr>
             <tr><td data-label="Processor">Open Food Facts</td><td data-label="Purpose">Barcode lookup (barcode number only)</td><td data-label="Location">France</td></tr>
+            <tr><td data-label="Processor">PostHog</td><td data-label="Purpose">Anonymous usage events, crash reports and AI cost records (see Usage and crash reports), under our data processing agreement</td><td data-label="Location">USA</td></tr>
           </tbody>
         </table>
       </div>
-      <p>Some data is transferred outside India: to the USA, for the services above, and to France for barcode lookups. These transfers are limited to the purposes listed, as permitted under the DPDP Act.</p>
+      <p>Some data is transferred outside India: to the USA, for Anthropic, RevenueCat and PostHog (usage and crash reports, on its US cloud), and to France for barcode lookups. These transfers are limited to the purposes listed, as permitted under the DPDP Act.</p>
     </section>
 
     <section aria-labelledby="p-keep">
@@ -165,6 +167,7 @@
         <li>Chat messages are kept until you clear them.</li>
         <li>Photos are not kept.</li>
         <li>Server logs are kept for up to 1 year.</li>
+        <li>Usage events and AI cost records at PostHog are kept for up to 12 months, or until you delete your data. Crash, error and hang reports at PostHog are kept for up to 12 months.</li>
         <li>Subscription records stay with your Apple ID, under Apple's policies.</li>
       </ul>
     </section>
