@@ -1,6 +1,6 @@
 # writeonslate.com
 
-Marketing site for Slate, the calorie journal for iPhone. Static HTML, CSS and JavaScript, served as they are: Vercel runs no build step, and there are no third-party requests.
+Marketing site for Slate, the calorie journal for iPhone. Static HTML, CSS and JavaScript, served as they are: Vercel runs no build step. Everything is self-hosted; the only request to another domain is the cookieless analytics event to PostHog (see Analytics below).
 
 The build spec, design rules and brand rules live in [docs/](docs/): `WEBSITE-SPEC.md`, `DESIGN.md`, `BRAND.md`.
 
@@ -58,7 +58,7 @@ Every page shares one frame from `assets/pages.css`: the header (app icon, Slate
 
 These notes live here, not in the HTML, because HTML comments are public in the page source.
 
-1. **App Store link.** Set `cta.appStoreUrl` in `data/site.json` (the generated pages then show the App Store link) and add Apple's official "Download on the App Store" badge to the home page's `.home-intro` in `index.html`. Replace "Coming soon to the App Store." in `writeLlms()` in `scripts/build.mjs` with the App Store URL; `llms.txt` is generated there on every build, so don't edit it by hand.
+1. **App Store link.** Set `cta.appStoreUrl` in `data/site.json` (the generated pages then show the App Store link) and add Apple's official "Download on the App Store" badge to the home page's `.home-intro` in `index.html`. Every link the build makes already carries its analytics placement (see Analytics); a badge added by hand needs `data-store="app_store" data-placement="..."` too, or `scripts/check.mjs` fails. After the first deploy with the link, tap one badge and confirm `store_badge_click` arrives in PostHog's Activity view with `placement` set. Replace "Coming soon to the App Store." in `writeLlms()` in `scripts/build.mjs` with the App Store URL; `llms.txt` is generated there on every build, so don't edit it by hand.
 2. **Smart App Banner.** Add `<meta name="apple-itunes-app" content="app-id=...">` to the `<head>` of `index.html`, after the Twitter tags, once the app ID exists.
 3. **Effective dates.** Set the `Effective 8 October 2026` line (`.legal-date`, under the h1) on `/privacy/` and `/terms/` to the App Store launch date.
 4. **Grievance Officer.** Confirm the name in "Grievance Officer and contact" on `/privacy/` (currently Nirmal Amin).
@@ -79,4 +79,30 @@ Inter Tight is self-hosted in `assets/fonts/` (OFL licence alongside). The latin
 
 ## Security headers
 
-`vercel.json` sets HSTS, `X-Content-Type-Options`, `Referrer-Policy`, `X-Frame-Options`, a `Permissions-Policy` that turns off camera, microphone and geolocation, and a Content-Security-Policy that allows only this site's own files. Nothing is loaded from any other domain. Keep it that way: no fonts, scripts, analytics or embeds from third parties.
+`vercel.json` sets HSTS, `X-Content-Type-Options`, `Referrer-Policy`, `X-Frame-Options`, a `Permissions-Policy` that turns off camera, microphone and geolocation, and a Content-Security-Policy that allows only this site's own files, plus `connect-src https://us.i.posthog.com` for the analytics events. Nothing is loaded from any other domain. Keep it that way: no fonts, scripts, SDKs or embeds from third parties.
+
+## Analytics
+
+Cookieless PostHog, the same project, key and setup as tldrmoney.in (decided 11 November 2026). `assets/analytics.js` is a copy of tldrmoney.in's script: no PostHog library, it posts events straight to `https://us.i.posthog.com/i/v0/e/` with a random id held in memory for that one page view, `$process_person_profile: false` (no person profiles), no cookies and no browser storage, so the site needs no cookie banner. Autocapture, session replay, surveys and heatmaps don't exist in it. It sends the page's address and referrer without their query strings, and never reads a form or field.
+
+Events, each with `site` = `writeonslate.com` (the "Website · writeonslate.com" dashboard in PostHog is built on these names):
+
+- `$pageview`: once per page load.
+- `store_badge_click`: a tap on any App Store link or badge, with `store` = `app_store`, `placement` and `page` (the path).
+
+The key, the site name and the closed list of placements live in `data/site.json` (`analytics`). `scripts/build.mjs` puts the script tag on every generated page (`footer()`) and on the hand-written ones (`syncLaunchMeta()`), and marks every App Store link it makes with `data-store="app_store"` and `data-placement`, worked out from the link's campaign token in `PLACEMENT_BY_CT`. The placements:
+
+| placement | where |
+| --- | --- |
+| `hero` | the badge under the home page's intro |
+| `dish_page` | the badge at the end of every dish page |
+| `dish_table` | "Log this in Slate" under a dish's portions table |
+| `calories_hub` | the badge on `/calories/` |
+| `calculator` | the badge on `/calories/calculator/` |
+| `for_page` | `/for/` and its pages |
+| `compare_page` | `/compare/` and its pages |
+| `blog_page` | `/blog/` and its posts |
+| `about_page` | `/about/` |
+| `method_page` | `/how-slate-counts/` |
+
+A new App Store link needs a placement: add its campaign token to `PLACEMENT_BY_CT` (and a new value to `analytics.placements` and the dashboard if none fits). The build fails on a call site without one, and `scripts/check.mjs` fails on any page without the tag or with a Slate App Store link that isn't marked. The /compare/ pages' links to other apps on the App Store are citations, not Slate badges, and send nothing. If the analytics change, update "This website" on `/privacy/` in the same commit.

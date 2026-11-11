@@ -56,6 +56,7 @@
         <li>No ads, no tracking, and we never sell or share your data.</li>
         <li>AI reads only what it needs to (unrecognised lines, photos you take, chat) and isn't trained on your Slate.</li>
         <li>You can export or delete everything from Settings, any time.</li>
+        <li>This website counts anonymous page views and App Store badge taps. It sets no cookies.</li>
       </ul>
     </div>
 
@@ -181,6 +182,25 @@
       <p>Data is encrypted in transit. Row-level security in the database means each account can read only its own rows. Access within Sonal Systems is limited to what each person needs. If there is a personal data breach, we will notify you and the Data Protection Board of India as the law requires.</p>
     </section>
 
+    <section aria-labelledby="p-website">
+      <h2 id="p-website">This website</h2>
+      <p>This section is about writeonslate.com, the website. The rest of this policy is about the app. The site counts anonymous page views and App Store badge taps through PostHog, a product analytics service, on its US cloud. It sets no cookies and stores nothing in your browser.</p>
+      <p>A small script on each page sends these events to PostHog. Nothing else is sent, and nothing is sent about any page outside writeonslate.com.</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th scope="col">Event</th><th scope="col">When</th><th scope="col">What it carries</th></tr>
+          </thead>
+          <tbody>
+            <tr><td data-label="Event">Page view</td><td data-label="When">Each page you open</td><td data-label="What it carries">The page's address without anything after a "?", the page you came from if your browser shares it (also without anything after a "?"), and a random number made for that one page view</td></tr>
+            <tr><td data-label="Event">App Store badge tap</td><td data-label="When">You tap an App Store badge or link</td><td data-label="What it carries">Which store, where on the page the badge was, the site and the page</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>PostHog receives your IP address with each event, as any server does. The project is set to discard it, so it isn't stored or used to work out where you are. The script doesn't send it, and doesn't read anything you type.</p>
+      <p>The random number for a page view is held in that page's memory and is gone when you leave or reload it, so two page views can't be joined into one visit, and no profile is kept for anyone. Events are recorded as anonymous. Meals typed into the meal calculator stay in your browser: the script never reads a form, a field or a result.</p>
+    </section>
+
     <section aria-labelledby="p-changes">
       <h2 id="p-changes">Changes to this policy</h2>
       <p>If we change this policy, we'll post the new version here with a new effective date. Material changes will also be shown in the app.</p>
@@ -213,5 +233,6 @@
   <div>Sonal Systems Private Limited · A-3, Mehsana Nagar, Nizampura, Vadodara 390002, Gujarat, India · CIN U62099GJ2026PTC179785</div>
   <div>© 2026 Sonal Systems Private Limited. Apple and iPhone are trademarks of Apple Inc. Slate is not affiliated with Apple.</div>
 </footer>
+<script defer src="/assets/analytics.js" data-ph-key="phc_tk5Ghaj6eUMPJUqummgCEer3BdZm8LbfivnrhZXWnDcG" data-site="writeonslate.com"></script>
 </body>
 </html>

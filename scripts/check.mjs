@@ -8,8 +8,9 @@
 // match the visible FAQ word for word. On dish pages, also: a title that carries a number (the calorie count
 // searchers click on) within 60 characters and shared with no other page, an answer-first lead of 40 to 65 words
 // with no dash or exclamation mark, the byline under the h1, the WebPage's author @id, datePublished (not after
-// dateModified) and citation list, and a method section of exactly one paragraph of 120 to 180 words. Runs the
-// meal calculator's parser tests (scripts/test-calc.mjs).
+// dateModified) and citation list, and a method section of exactly one paragraph of 120 to 180 words. On every page,
+// the analytics tag once, and every App Store link to Slate marked with a listed placement. Runs the meal
+// calculator's parser tests (scripts/test-calc.mjs).
 
 import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
 import { spawnSync } from "node:child_process";
@@ -99,6 +100,21 @@ for (const file of files) {
   if (!/<html lang="en-GB">/.test(html)) fail('missing <html lang="en-GB">');
   // Once the app has an id, every page carries the Smart App Banner meta (build.mjs head() and syncLaunchMeta()).
   if (site.cta.appId && !html.includes(`<meta name="apple-itunes-app" content="app-id=${site.cta.appId}">`)) fail("missing apple-itunes-app meta");
+  // Analytics (build.mjs analyticsTag(), assets/analytics.js): the tag once on every page, and every link to Slate on
+  // the App Store marked data-store="app_store" with a placement from data/site.json analytics.placements, so each tap
+  // reaches the PostHog dashboard as store_badge_click. (The /compare/ pages' links to other apps are not Slate's.)
+  const tag = `<script defer src="/assets/analytics.js" data-ph-key="${site.analytics.posthogKey}" data-site="${site.analytics.site}"></script>`;
+  if (html.split(tag).length !== 2) fail(`analytics tag missing or repeated (expected once: ${tag})`);
+  for (const [a] of html.matchAll(/<a\b[^>]*>/g)) {
+    const href = decode(attr(a, /href="([^"]*)"/) || "");
+    const slate = (site.cta.appId && href.startsWith("https://apps.apple.com/") && href.includes(`/id${site.cta.appId}`))
+      || (site.cta.appStoreUrl && href.startsWith(site.cta.appStoreUrl));
+    const store = attr(a, /data-store="([^"]*)"/);
+    const placement = attr(a, /data-placement="([^"]*)"/);
+    if (slate && !store) fail(`App Store link without data-store: ${a}`);
+    if (store && store !== "app_store") fail(`data-store="${store}" (only app_store): ${a}`);
+    if (store && !site.analytics.placements.includes(placement)) fail(`App Store link with placement "${placement}", not one of data/site.json analytics.placements: ${a}`);
+  }
   const h1s = (html.match(/<h1[\s>]/g) || []).length;
   if (h1s !== 1) fail(`${h1s} h1 elements`);
 

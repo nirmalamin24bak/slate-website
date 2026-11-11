@@ -821,11 +821,11 @@ No scroll-triggered animations, no parallax, no auto-playing anything, no carous
 ## 19. Technical requirements and hosting
 
 - **Stack:** static site. Plain HTML, CSS and a small amount of vanilla JavaScript is preferred. Astro with static output is acceptable. No framework runtime shipped to the browser unless needed for the demo, and the demo shouldn't need one.
-- **No backend, no forms, no cookies, no local storage, no third-party requests** (fonts, scripts, analytics, embeds). Everything is self-hosted.
+- **No backend, no forms, no cookies, no local storage, no third-party requests** (fonts, scripts, SDKs, embeds). Everything is self-hosted. The one exception is the cookieless analytics event to PostHog (below).
 - **Performance:** Lighthouse 95+ on Performance, Accessibility, Best Practices and SEO, on mobile. Total page weight under about 400 KB for the home page. Inline critical CSS if useful. Preload the 400 and 800 weight fonts.
 - **Responsive:** mobile-first. No horizontal scroll at 360 px. Test at 360, 390, 768, 1024, 1440 px.
 - **Browsers:** latest Safari (iOS and macOS), Chrome, Firefox, Edge.
-- **Analytics:** none at launch. If added later, only cookieless and privacy-respecting, and the privacy policy is updated first.
+- **Analytics:** cookieless PostHog, the same project and setup as tldrmoney.in (decided 11 November 2026): a self-hosted script, no cookies, no browser storage, no person profiles, no autocapture, replay, surveys or heatmaps, so no cookie banner. Events: `$pageview` and `store_badge_click` (`store`, `placement`), each with `site` = writeonslate.com. No form contents, email addresses or query strings. The privacy policy describes it under "This website". Details in the README.
 - **Security headers** (via host config): `Strict-Transport-Security`, `X-Content-Type-Options: nosniff`, `Referrer-Policy: strict-origin-when-cross-origin`, `Permissions-Policy` disabling camera, microphone, geolocation, and a Content-Security-Policy allowing only `'self'` (plus `'unsafe-inline'` for styles only if needed).
 - **Hosting:** Vercel (or Cloudflare Pages) from a private GitHub repo named `slate-website`. Production domain `writeonslate.com` with HTTPS; `www` redirects to the apex.
 - **Email:** support@ and privacy@writeonslate.com forwarded to the founders' inbox (Cloudflare Email Routing or ImprovMX). The site only shows these addresses as `mailto:` links.
@@ -870,7 +870,7 @@ No scroll-triggered animations, no parallax, no auto-playing anything, no carous
 - Competitor names, logos or copy (§3.3).
 - Logos of Apple Watch, Garmin, Strava, Nike or Fitbit. Text names only.
 - The founder's personal email address.
-- Any third-party request (fonts, analytics, embeds, CDNs).
+- Any third-party request (fonts, scripts, embeds, CDNs), other than the cookieless PostHog analytics in §19.
 
 ---
 

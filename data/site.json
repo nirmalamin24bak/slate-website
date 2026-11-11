@@ -7,6 +7,11 @@
     "appId": "",
     "providerToken": ""
   },
+  "analytics": {
+    "posthogKey": "phc_tk5Ghaj6eUMPJUqummgCEer3BdZm8LbfivnrhZXWnDcG",
+    "site": "writeonslate.com",
+    "placements": ["hero", "dish_page", "dish_table", "calories_hub", "calculator", "for_page", "compare_page", "blog_page", "about_page", "method_page"]
+  },
   "foodNote": "Typical values for a home kitchen, for the portion named next to each number. Other sites often show bigger numbers because they count a bigger serving or a restaurant recipe. Your own katori, roti and oil change the number; Slate adjusts for them.",
   "hub": {
     "h1": "Calories in Indian food",

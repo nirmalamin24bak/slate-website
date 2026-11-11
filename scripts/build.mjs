@@ -371,7 +371,7 @@ ${rows.legal}
   <div>Sonal Systems Private Limited · A-3, Mehsana Nagar, Nizampura, Vadodara 390002, Gujarat, India · CIN U62099GJ2026PTC179785</div>
   <div>© 2026 Sonal Systems Private Limited. Apple and iPhone are trademarks of Apple Inc. Slate is not affiliated with Apple.</div>
 </footer>
-</body>
+${analyticsTag()}</body>
 </html>
 `;
 }
@@ -410,7 +410,35 @@ const plainStoreUrl = () => site.cta.appStoreUrl || (site.cta.appId ? `https://a
 // Smart App Banner on Safari, once the app has an id.
 const appMeta = () => (site.cta.appId ? `<meta name="apple-itunes-app" content="app-id=${esc(site.cta.appId)}">\n` : "");
 
-const badge = (href) => `<a class="app-badge" href="${esc(href)}"><img src="/assets/app-store-badge.svg" alt="Download on the App Store" width="120" height="40"></a>`;
+// ---------- Analytics ----------
+// assets/analytics.js (PostHog, cookieless, the same setup as tldrmoney.in) on every page, from data/site.json
+// analytics. Every App Store link carries data-store="app_store" and a data-placement from analytics.placements,
+// a closed list the PostHog dashboard groups by: the placement is worked out from the link's campaign token (ct).
+const analyticsTag = () => (site.analytics?.posthogKey
+  ? `<script defer src="/assets/analytics.js" data-ph-key="${esc(site.analytics.posthogKey)}" data-site="${esc(site.analytics.site)}"></script>\n`
+  : "");
+const PLACEMENT_BY_CT = {
+  "site-home": "hero",
+  "site-cal-dish": "dish_page",
+  "site-cal-hub": "calories_hub",
+  "site-calc": "calculator",
+  "site-for": "for_page",
+  "site-compare": "compare_page",
+  "site-blog": "blog_page",
+  "site-about": "about_page",
+  "site-method": "method_page",
+};
+function listed(placement) {
+  if (!site.analytics.placements.includes(placement)) throw new Error(`placement "${placement}" is not in data/site.json analytics.placements`);
+  return placement;
+}
+function placementFor(ct) {
+  if (!PLACEMENT_BY_CT[ct]) throw new Error(`no analytics placement for campaign token "${ct}": add it to PLACEMENT_BY_CT`);
+  return listed(PLACEMENT_BY_CT[ct]);
+}
+const storeAttrs = (placement) => `data-store="app_store" data-placement="${listed(placement)}"`;
+
+const badge = (href, ct) => `<a class="app-badge" href="${esc(href)}" ${storeAttrs(placementFor(ct))}><img src="/assets/app-store-badge.svg" alt="Download on the App Store" width="120" height="40"></a>`;
 
 // The line a dish page uses as its example: its first combo or meal, else its headline portion without any bracketed note.
 function dishExample(food) {
@@ -422,20 +450,21 @@ function dishExample(food) {
 }
 
 function cta(ct, food) {
+  placementFor(ct); // on every build, so a call site without a placement fails now, not on launch day
   const href = storeUrl(food?.campaignToken || ct);
   if (!href) return "";
   const line = food ? site.cta.dishLine.replace("{example}", dishExample(food)) : site.cta.line;
   return `
     <div class="page-cta">
       <p class="cta-line">${esc(line)}</p>
-      <div class="actions">${badge(href)}</div>
+      <div class="actions">${badge(href, ct)}</div>
     </div>`;
 }
 
 // One line under a dish's portions table.
 function tableLink(ct, food) {
   const href = storeUrl(food.campaignToken || ct);
-  return href ? `\n      <p class="table-link"><a href="${esc(href)}">${esc(site.cta.tableLink)} →</a></p>` : "";
+  return href ? `\n      <p class="table-link"><a href="${esc(href)}" ${storeAttrs("dish_table")}>${esc(site.cta.tableLink)} →</a></p>` : "";
 }
 
 // Content pages (/for/, /compare/, /blog/) come from data/pages.json when it exists.
@@ -1248,7 +1277,7 @@ function syncFooters() {
 // ---------- Launch details on hand-written pages ----------
 // The hand-written pages (home, privacy, terms, support, 404) get the Smart App Banner meta, and the home gets the
 // App Store badge under its intro and the download links in its JSON-LD, only while data/site.json has the app's id.
-// With no id they are left exactly as they are.
+// With no id they are left exactly as they are. Every one of them also gets the analytics tag (analyticsTag()).
 function syncLaunchMeta() {
   const meta = appMeta();
   const home = storeUrl("site-home");
@@ -1258,7 +1287,7 @@ function syncLaunchMeta() {
     if (meta) next = next.replace(/(<meta name="viewport"[^>]*>\n)/, `$1${meta}`);
     if (file === "index.html") {
       next = next.replace(/\n    <!-- badge -->[\s\S]*?<!-- \/badge -->/, "");
-      if (home) next = next.replace(/(\n  <\/section>\n  <div id="root")/, `\n    <!-- badge -->\n    <p class="home-badge">${badge(home)}</p>\n    <!-- /badge -->$1`);
+      if (home) next = next.replace(/(\n  <\/section>\n  <div id="root")/, `\n    <!-- badge -->\n    <p class="home-badge">${badge(home, "site-home")}</p>\n    <!-- /badge -->$1`);
       next = next.replace(/(<script type="application\/ld\+json">)([\s\S]*?)(<\/script>)/, (m, open, json, close) => {
         const data = JSON.parse(json);
         const app = data["@graph"].find((n) => n["@type"] === "MobileApplication");
@@ -1267,6 +1296,8 @@ function syncLaunchMeta() {
         return open + JSON.stringify(data) + close;
       });
     }
+    // The analytics tag, last thing before </body>, as footer() puts it on the generated pages.
+    next = next.replace(/<script defer src="\/assets\/analytics\.js"[^>]*><\/script>\n/, "").replace(/<\/body>/, `${analyticsTag()}</body>`);
     if (next !== html) write(file, next);
   }
 }
