@@ -93,6 +93,17 @@
       <p>Label scanning happens on your phone. Barcode scanning sends only the barcode number to Open Food Facts, nothing else about you.</p>
     </section>
 
+    <section aria-labelledby="usage-and-crash-reports">
+      <h2 id="usage-and-crash-reports">Usage and crash reports (PostHog)</h2>
+      <p>Slate uses <strong>PostHog</strong>, an analytics service, processed in the <strong>United States</strong>, to see which features get used, where people get stuck and what crashes, so we can fix it.</p>
+      <p><strong>What is sent.</strong> Short, fixed events such as "a screen was opened", "a line was logged" (whether it was food, water, exercise, weight, steps or sleep; typed, spoken, photographed, shared, from a widget, Siri or a copy; and whether Slate priced it on the phone, from a saved answer, with AI or by hand), "the Slate Plus screen was shown", "a purchase completed", "a button in Settings was tapped" and "the app was opened". Each detail is picked from a fixed list. Every event also carries the app's version, the iOS version, whether you have Slate Plus, your region as India, the US or elsewhere, and rough ranges for how long you've had Slate and how many lines you've logged (for example "10 to 49"). Crash and error reports carry the kind of error, where in Slate's code it happened, and the app and iOS versions; every error message is removed on your phone before the report is sent. Slow moments are sent as a range (for example "1 to 2 seconds").</p>
+      <p><strong>What is never sent.</strong> Your food log or anything you write: no meal text, dish or ingredient names, calories, nutrients, weights, body details, goals, notes, chat messages, voice text, photos or delivery orders. No name, email, phone number, contacts, location, advertising identifier, file names or web addresses. PostHog doesn't record your screen, doesn't capture taps by itself and doesn't place you from your IP address.</p>
+      <p><strong>Who you are to PostHog.</strong> While usage sharing is on, events are linked to Slate's anonymous account id (the same random number our servers use), never your name or Apple ID. When our server answers an AI request, it sends PostHog a matching record of the request's cost: the feature, the AI model, the amount of text processed, the cost, how long it took and whether it worked, never what you sent or got back. RevenueCat tells PostHog about renewals, cancellations and refunds under the same id.</p>
+      <p><strong>Your choice.</strong> Settings › Your data › <strong>Share anonymous usage</strong> is on by default. Turn it off and Slate stops sending usage events, and the AI cost records stop being linked to you. Crash, error and hang reports are still sent, because they're how we find faults, but while usage sharing is off they're sent under a random number made on your phone, not linked to your account. Slate's widgets and share extension never send anything to PostHog.</p>
+      <p><strong>How long.</strong> PostHog keeps events for up to 12 months, then deletes them. [NIRMAL: confirm the project's retention setting matches.]</p>
+      <p><strong>Deleting.</strong> Delete my data (see <a href="#p-rights">Your rights</a>) also deletes the PostHog person linked to your account and its events.</p>
+    </section>
+
     <section aria-labelledby="p-why">
       <h2 id="p-why">Why we use it</h2>
       <p>We use your data to:</p>
